@@ -41,4 +41,16 @@ cache/
 .cache/
 
 # Local configuration
-.local/ 
+.local/
+
+# Test files
+test_*.py
+*_test.py
+tests/
+pytest_cache/
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+mock_*.py
+*_mock.py 

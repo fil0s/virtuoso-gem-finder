@@ -1,6 +1,7 @@
 import requests
 import time
 import threading
+from typing import List, Dict, Optional, Any, Union
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 # Assuming LoggerSetup is in the same directory or accessible via Python path
@@ -65,7 +66,7 @@ class DexScreenerAPI:
         # Ensure retry_error_callback returns a value that matches expected return type (List[Dict])
         retry_error_callback=lambda retry_state: [] 
     )
-    def get_solana_pairs(self) -> list[dict]: # Using lowercase for built-in types
+    def get_solana_pairs(self) -> List[Dict[str, Any]]:
         """Fetch Solana pairs with retry logic"""
         self._rate_limit_check()
         try:
@@ -86,7 +87,7 @@ class DexScreenerAPI:
         wait=wait_exponential(multiplier=1, min=4, max=10),
         retry_error_callback=lambda retry_state: None
     )
-    def get_pair_details(self, pair_address: str) -> dict | None: # Using lowercase and | for Optional
+    def get_pair_details(self, pair_address: str) -> Optional[Dict[str, Any]]:
         """Get detailed information about a specific pair"""
         self._rate_limit_check()
         try:
@@ -110,7 +111,7 @@ class DexScreenerAPI:
         wait=wait_exponential(multiplier=1, min=4, max=10),
         retry_error_callback=lambda retry_state: []
     )
-    def get_token_info(self, token_addresses: list[str]) -> list[dict]:
+    def get_token_info(self, token_addresses: List[str]) -> List[Dict[str, Any]]:
         """Get information about specific tokens"""
         if not token_addresses: # Handle empty list case
             return []

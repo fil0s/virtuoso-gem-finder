@@ -1,0 +1,324 @@
+# Virtuoso Gem Finder Configuration
+
+# API Settings
+api:
+  dexscreener:
+    rate_limit: 300  # requests per minute
+    timeout: 10  # seconds
+  solana_rpc:
+    endpoints:
+      - "https://api.mainnet-beta.solana.com"
+      - "https://solana-api.projectserum.com"
+    timeout: 10
+    commitment_level: "confirmed"  # or "finalized"
+    retry_attempts: 3
+    retry_delay: 1  # seconds
+  helius:
+    rate_limit: 100  # requests per minute
+    timeout: 15  # seconds
+    enable_nft_events: true
+    enable_wallet_analysis: true
+    analysis:
+      bot_tx_threshold: 50  # Transactions per day to consider a bot
+      low_diversity_threshold: 3  # Minimum unique tokens interacted with
+
+# Token Filtering Criteria
+token_filters:
+  liquidity:
+    min: 10000  # USD
+    max: 50000  # USD
+  market_cap:
+    min: 0
+    max: 1000000  # USD
+  holders:
+    min: 100
+    max: 500
+  age:
+    max_hours: 24  # Only tokens created in last 24h
+  volume:
+    min_24h: 5000  # USD
+  volume_trends:
+    enabled: true
+    min_trend_score: 0.5  # Minimum volume trend score (0.5 = recently_increasing)
+    min_acceleration: 50  # Minimum volume acceleration percentage
+  tx_trends:
+    enabled: true
+    min_trend_score: 0.5  # Minimum transaction trend score
+
+# Scoring System Weights (total should = 100)
+score_weights:
+  # Core Metrics (65%)
+  liquidity: 20.0
+  market_cap: 15.0
+  holders: 15.0
+  volume: 10.0
+  volume_trend: 5.0
+  
+  # Distribution & Security (28%)
+  holder_distribution: 10.0
+  supply_distribution: 10.0
+  security: 8.0
+  
+  # Technical Metrics (7%)
+  price_stability: 4.0
+  age: 3.0
+  whale_analysis:
+    new_wallet_penalty: 0.5
+    high_frequency_penalty: 0.3
+    contract_interaction_penalty: 0.4
+    minimum_verified_ratio: 0.7  # At least 70% of whales should be verified
+    max_single_wallet_share: 0.15  # Maximum 15% held by single wallet
+
+# Scoring Thresholds
+scoring:
+  min_gem_score: 80  # Minimum score to be considered a gem
+  whale_threshold: 0.05  # 5% holdings considered whale
+  price_volatility:
+    max_acceptable: 0.2  # 20% max acceptable volatility
+  holder_distribution:
+    gini_coefficient_threshold: 0.5  # Maximum acceptable Gini coefficient
+  security:
+    contract_verification_bonus: 1.2
+    mint_frozen_bonus: 1.1
+    max_total_tax: 0.1  # 10% maximum combined buy/sell tax
+    risk_penalties:
+      honeypot: 1.0  # Instant fail
+      high_mint_authority: 0.3
+      upgradeable_contract: 0.2
+      centralized_ownership: 0.4
+      suspicious_transfers: 0.5
+
+# Database Configuration
+database:
+  path: "virtuoso_gems.db"
+  backup_interval: 86400  # 24 hours in seconds
+  max_backups: 7
+  vacuum_interval: 604800  # Weekly cleanup
+  tables:
+    whale_holdings:
+      cleanup_interval: 604800  # Weekly cleanup of old whale data
+      max_history_days: 30  # Keep whale tracking history for 30 days
+
+# Monitoring & Alerts
+monitoring:
+  telegram:
+    alert_cooldown: 300  # Minimum seconds between alerts
+    max_daily_alerts: 50
+    include_score_breakdown: true
+    include_chart: true
+  logging:
+    level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+    file: "virtuoso_gem_finder.log"
+    max_size: 5242880  # 5MB
+    backup_count: 5
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  whale_alerts:
+    enabled: true
+    minimum_holding_change: 0.05  # 5% holding change
+    cooldown_period: 3600  # seconds between whale alerts
+    include_wallet_analysis: true
+    track_movement_patterns: true
+
+# Performance Settings
+performance:
+  scan_interval: 2  # seconds between scans
+  batch_size: 100  # tokens to process in batch
+  cache_duration: 300  # cache lifetime in seconds
+  memory_limit: 512  # MB
+  cpu_threshold: 80  # percentage
+
+# Advanced Features
+features:
+  enable_price_predictions: false
+  enable_trend_analysis: true
+  enable_whale_tracking: true
+  enable_rugpull_detection: true
+  enable_social_metrics: false
+  enable_helius_integration: true  # Enable Helius API integration
+  whale_tracking:
+    enabled: true
+    track_historical_movements: true
+    analyze_wallet_patterns: true
+    verify_on_chain: true
+    monitor_suspicious_activity: true
+  helius_features:
+    analyze_token_creators: true  # Analyze token creator wallets
+    track_transaction_types: true  # Track transaction type patterns
+    monitor_nft_events: true  # Monitor NFT-related events
+    suspicious_patterns:
+      bot_detection: true  # Detect potential bot wallets
+      pump_detection: true  # Detect potential pump wallets
+      coordinated_trading_detection: true  # Detect coordinated trading
+      low_diversity_wallet_marking: true  # Flag wallets with low token diversity
+
+# Risk Management
+risk_management:
+  max_exposure_per_token: 0.1  # 10% of total portfolio
+  stop_loss: 0.2  # 20% drop triggers alert
+  take_profit: 0.5  # 50% gain triggers alert
+  max_slippage: 0.05  # 5% maximum slippage
+  blacklist:
+    addresses: []  # List of blacklisted token addresses
+    patterns:  # Suspicious name patterns
+      - "test"
+      - "scam"
+      - "safe"
+    programs:  # Suspicious program IDs
+      - "BLACKLISTED_PROGRAM_ID"
+  whale_risk:
+    max_unverified_whales: 0.3  # Maximum 30% held by unverified whales
+    suspicious_wallet_threshold: 0.1  # Flag if suspicious wallets hold >10%
+    centralization_threshold: 0.5  # Alert if top 10 wallets hold >50%
+  helius_risk_factors:
+    max_bot_likelihood: 0.7  # Maximum bot likelihood score
+    max_suspicious_wallets: 0.2  # Maximum percentage of suspicious wallets
+    max_low_diversity_wallets: 0.3  # Maximum percentage of low diversity wallets
+    min_creator_wallet_age_days: 30  # Minimum age of creator wallet in days
+
+# Development Settings
+development:
+  debug_mode: false
+  test_mode: false
+  mock_api_calls: false
+  profiling: false
+  hot_reload: true
+
+# System Health Checks
+health_checks:
+  enabled: true
+  interval: 300  # seconds
+  metrics:
+    - api_response_time
+    - memory_usage
+    - database_size
+    - error_rate
+  thresholds:
+    max_api_latency: 2000  # ms
+    max_error_rate: 0.05  # 5%
+    min_success_rate: 0.95  # 95%
+
+# Recovery Settings
+recovery:
+  auto_restart: true
+  max_retries: 3
+  backup_on_crash: true
+  alert_on_recovery: true
+  cooldown_period: 300  # seconds between recovery attempts 
+
+# RugCheck API Key
+rugcheck_api_key: "your_api_key_here"
+
+# Helius API Key
+helius_api_key: "your_helius_api_key_here"
+
+# Smart Money Analysis
+smart_money:
+  enabled: true
+  wallet_cache_dir: "./cache"
+  min_confidence_score: 0.6
+  clustering:
+    enabled: true
+    min_wallets_for_clustering: 10
+    eps_value: 0.5
+    min_samples: 5
+    recalculate_interval_hours: 24
+  analysis:
+    min_trade_count: 5
+    max_wallet_cache_age_hours: 24
+    smart_money_threshold: 0.7
+    early_entry_threshold: 0.7
+    cache_cleanup_interval_days: 7
+
+# Wallet Analysis
+wallet_analysis:
+  enabled: true
+  whale_threshold_usd: 100000
+  smart_money_threshold_score: 0.7
+  wallet_cache_dir: "./cache"
+  max_wallets_to_analyze_per_token: 20
+  wallet_cache_expiry_hours: 24
+  types:
+    - whale
+    - smart_money
+    - retail
+    - bot
+    - smart_whale
+  profile_fields:
+    include_holdings: true
+    include_transaction_history: true
+    include_performance_metrics: true
+    include_behavioral_score: true
+
+# Behavioral Scoring
+behavioral_scoring:
+  enabled: true
+  cache_dir: "./cache"
+  dev_profile_expire_hours: 24
+  token_metrics_expire_hours: 1
+  scoring_weights:
+    developer_score: 0.3
+    community_growth: 0.2
+    transaction_patterns: 0.2
+    early_signals: 0.3
+  early_signal_weights:
+    new_wallet_engagement: 1.5
+    transaction_growth_rate: 1.8
+    organic_volume_growth: 1.6
+    smart_money_interest: 2.0
+    developer_activity: 1.7
+    community_engagement: 1.4
+  trailing_signal_weights:
+    total_volume: 0.7
+    market_cap: 0.8
+    holder_count: 0.9
+    price_action: 0.6
+    social_mentions: 0.5
+  thresholds:
+    min_behavioral_score: 0.5
+    developer_concern_threshold: 0.3
+    suspicious_growth_threshold: 0.9
+    excessive_new_wallets: 0.8
+
+# Early Signal Weighting
+early_signals:
+  enabled: true
+  weight_boost: 1.5  # Multiplier for early signals vs. trailing signals
+  signals:
+    transaction_growth:
+      weight: 1.8
+      threshold: 0.5
+    new_wallet_engagement:
+      weight: 1.5
+      threshold: 0.4
+    smart_money_interest:
+      weight: 2.0
+      threshold: 0.3
+    volume_acceleration:
+      weight: 1.6
+      threshold: 0.5
+  decay_factor: 0.85  # How much signal weight decays over time
+  max_signal_age_hours: 48  # Max age for "early" signals 
+
+# Add new section for Momentum Analysis
+momentum_analysis:
+  enabled: true # Master switch for this feature
+  cache_dir: "./cache/momentum" # Cache directory for momentum data
+  timeframes: # Timeframes for momentum calculations
+    - "1h"
+    - "6h"
+    - "24h"
+    - "7d"
+  weights: # Relative importance of each momentum factor for overall_momentum_score
+    price_momentum: 0.35
+    volume_momentum: 0.25
+    holder_growth: 0.20 # Renamed from holder_growth_momentum for consistency with analyze_token_momentum keys
+    transaction_velocity: 0.10 # Placeholder, as feature is not fully implemented
+    net_flow: 0.10           # Placeholder, as feature is not fully implemented
+  score_impact_percentage: [-10, 15] # Min/Max percentage adjustment to base_score (e.g. -10% to +15%)
+  min_base_score_for_trigger: 70 # Minimum base score (0-100) required to trigger momentum analysis
+  # Specific configurations for sub-analyzers can be added here if needed
+  # e.g.
+  # price_momentum_config:
+  #   smoothing_factor: 0.1
+  # holder_growth_config:
+  #   min_change_threshold: 5 # Minimum number of holders change to be significant 

@@ -24,6 +24,8 @@ HELIUS_API_KEY_GEMNOON=your_gemnoon_api_key_here
 
 These keys can be set in a `.env` file at the project root, which will be loaded automatically by the `utils/env_loader.py` module.
 
+> **Important**: Some endpoints may return 401 Unauthorized or 404 Not Found errors if your API key doesn't have the required permissions or if the endpoints have been updated. Check the [Helius API documentation](https://docs.helius.xyz/) for the latest endpoints and required permissions.
+
 ## API Methods
 
 ### Token Metadata
@@ -227,4 +229,5 @@ The implementation includes robust error handling:
 - Some methods like `get_historical_holder_counts` are currently placeholders that provide mock data
 - Token holder count may be obtained from metadata or calculated using RPC calls if not available in metadata
 - Wallet type analysis is simplified and would benefit from more sophisticated algorithms in production
-- API keys can be rotated by updating the environment variables 
+- API keys can be rotated by updating the environment variables
+- If you're experiencing 401 or 404 errors, ensure your API key is valid and has the necessary permissions 

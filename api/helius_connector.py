@@ -1,271 +1,304 @@
-import aiohttp
+"""
+Helius API connector for the Solana gem finder application.
+
+This module provides access to Helius Solana API, which offers enhanced 
+Solana data, including token holder metrics, transaction history, 
+and NFT information.
+"""
+
 import logging
-import asyncio
-from typing import Dict, List, Optional, Any
-from datetime import datetime, timedelta
+import requests
+import time
+from typing import Dict, List, Optional, Any, Union
+from tenacity import retry, stop_after_attempt, wait_exponential
+
+from utils.env_loader import get_helius_api_key
 
 class HeliusAPI:
     """
-    Connector for Helius API to get enhanced transaction data and token information.
-    Uses the free tier which provides 100M credits/month (~3.3M transactions).
+    A connector for the Helius API for enhanced Solana data.
     """
     
-    def __init__(self, api_key: str):
-        self.api_key = api_key
-        self.base_url = "https://api.helius.xyz/v0"
-        self.logger = logging.getLogger('HeliusAPI')
-        
-    async def get_enhanced_transactions(self, address: str, limit: int = 100) -> List[Dict]:
+    def __init__(self, api_key: Optional[str] = None, api_key_name: str = "LEGROOT"):
         """
-        Get detailed transaction history with enriched metadata.
+        Initialize the Helius API connector.
         
         Args:
-            address: Solana address to get transactions for
-            limit: Number of transactions to return (max 100)
-            
-        Returns:
-            List of enriched transaction data
+            api_key: Optional explicit API key. If not provided, will be loaded from environment.
+            api_key_name: Which named API key to use from environment (LEGROOT or GEMNOON)
         """
-        try:
-            url = f"{self.base_url}/addresses/{address}/transactions"
-            params = {
-                "api-key": self.api_key,
-                "limit": min(limit, 100)  # Ensure we don't exceed max
-            }
-            
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, params=params) as response:
-                    if response.status != 200:
-                        self.logger.error(f"Helius API error: {await response.text()}")
-                        return []
-                    return await response.json()
-        except Exception as e:
-            self.logger.error(f"Error fetching Helius transactions: {e}")
-            return []
-    
-    async def get_nft_events(self, token_address: str, days: int = 7) -> List[Dict]:
-        """
-        Get NFT events related to a token, useful for analyzing NFT collections.
+        self.logger = logging.getLogger('helius_api')
         
-        Args:
-            token_address: Token mint address
-            days: Number of days of historical data to retrieve
-            
-        Returns:
-            List of NFT events
-        """
-        try:
-            start_date = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
-            url = f"{self.base_url}/nft-events"
-            payload = {
-                "api-key": self.api_key,
-                "query": {
-                    "mintA": token_address
-                },
-                "options": {
-                    "limit": 100
-                },
-                "startDate": start_date
-            }
-            
-            async with aiohttp.ClientSession() as session:
-                async with session.post(url, json=payload) as response:
-                    if response.status != 200:
-                        self.logger.error(f"Helius NFT API error: {await response.text()}")
-                        return []
-                    return await response.json()
-        except Exception as e:
-            self.logger.error(f"Error fetching NFT events: {e}")
-            return []
-    
-    async def get_token_metadata(self, token_addresses: List[str]) -> Dict[str, Any]:
-        """
-        Get detailed token metadata including name, symbol, and metadata URL.
-        
-        Args:
-            token_addresses: List of token mint addresses
-            
-        Returns:
-            Dictionary mapping token addresses to their metadata
-        """
-        try:
-            url = f"{self.base_url}/token-metadata"
-            payload = {
-                "api-key": self.api_key,
-                "mintAccounts": token_addresses
-            }
-            
-            async with aiohttp.ClientSession() as session:
-                async with session.post(url, json=payload) as response:
-                    if response.status != 200:
-                        self.logger.error(f"Helius token metadata error: {await response.text()}")
-                        return {}
-                    data = await response.json()
-                    # Format as address -> metadata dictionary
-                    return {item.get('mint', ''): item for item in data}
-        except Exception as e:
-            self.logger.error(f"Error fetching token metadata: {e}")
-            return {}
-            
-    async def get_current_holder_count(self, token_mint: str) -> Optional[int]:
-        """
-        Get the current holder count for a token.
-        PLACEHOLDER: Assumes get_token_metadata might return this or a similar dedicated endpoint exists.
-        The actual Helius API response for token-metadata needs to be checked for holder count fields.
-        """
-        self.logger.warning(
-            f"get_current_holder_count for {token_mint} is a placeholder. "
-            f"Verify Helius 'token-metadata' endpoint for holder count data or find an alternative."
-        )
-        # Example: Fetch full metadata and try to extract holder count
-        # metadata = await self.get_token_metadata([token_mint])
-        # if token_mint in metadata and metadata[token_mint].get("holder_count_field_name"): # Replace with actual field name
-        #     return metadata[token_mint]["holder_count_field_name"]
-        # Mock response for testing:
-        if token_mint == "So11111111111111111111111111111111111111112": # WSOL, for example
-             # Simulate some holder count, e.g., based on a hash of the mint to make it vary a bit for tests
-            return 1000 + (hash(token_mint) % 100)
-        elif len(token_mint) > 10: # Generic mock for other tokens
-            return 50 + (hash(token_mint) % 50)
-        return None
-
-    async def get_historical_holder_counts(
-        self, 
-        token_mint: str, 
-        timeframes: List[str] # e.g., ["24h", "7d"]
-    ) -> Dict[str, Optional[int]]:
-        """
-        Get historical holder counts for a token at the start of different timeframes.
-        PLACEHOLDER: This is a highly simplified placeholder. True historical holder counts
-        are hard to get and usually require snapshotting or specialized APIs.
-        This placeholder simulates fetching a count for the start of each timeframe.
-        """
-        self.logger.warning(
-            f"get_historical_holder_counts for {token_mint} is a placeholder. "
-            f"Actual implementation is complex and may require snapshotting or other services."
-        )
-        holder_counts_by_timeframe: Dict[str, Optional[int]] = {}
-
-        # Mock implementation: Simulate a decrease from a base mock current holder count
-        # A real implementation would need to query historical states or a snapshot DB.
-        current_mock_holders = 0
-        if token_mint == "So11111111111111111111111111111111111111112":
-            current_mock_holders = 1000 + (hash(token_mint) % 100)
-        elif len(token_mint) > 10:
-            current_mock_holders = 50 + (hash(token_mint) % 50)
+        # Get API key from parameters or from environment
+        if api_key:
+            self.api_key = api_key
         else:
-            return {tf: None for tf in timeframes}
-
-        for tf in timeframes:
-            # Simulate a slightly lower holder count in the past
-            if tf == "1h":
-                holder_counts_by_timeframe[tf] = max(0, current_mock_holders - (hash(tf) % 5) -1)
-            elif tf == "6h":
-                holder_counts_by_timeframe[tf] = max(0, current_mock_holders - (hash(tf) % 10) -2)
-            elif tf == "24h":
-                holder_counts_by_timeframe[tf] = max(0, current_mock_holders - (hash(tf) % 20) -5)
-            elif tf == "7d":
-                holder_counts_by_timeframe[tf] = max(0, current_mock_holders - (hash(tf) % 50) -10)
-            else:
-                holder_counts_by_timeframe[tf] = None # Unknown timeframe
+            self.api_key = get_helius_api_key(api_key_name)
+            
+        if not self.api_key:
+            self.logger.warning("No Helius API key provided. API calls will fail.")
+            
+        # API endpoints
+        self.base_url = "https://api.helius.xyz/v0"
+        self.rpc_url = "https://mainnet.helius-rpc.com"
         
-        return holder_counts_by_timeframe
-
-    async def get_transaction_count_for_token(self, token_mint: str, lookback_seconds: int) -> Optional[int]:
-        """
-        Get the number of transactions involving a specific token mint over a lookback period.
-        PLACEHOLDER: Helius API for parsed transaction history with account filtering would be needed.
-        This is a simplified placeholder.
-
-        Args:
-            token_mint: The mint address of the token.
-            lookback_seconds: The period to count transactions for (e.g., 3600 for 1 hour).
-
-        Returns:
-            The number of transactions, or None if an error occurs.
-        """
-        self.logger.warning(
-            f"get_transaction_count_for_token for {token_mint} is a placeholder. "
-            f"Requires querying Helius parsed transaction history with appropriate filters."
-        )
-        # Mock implementation: Simulate some transaction count
-        # A real implementation would query Helius, e.g., /v0/transactions with filters
-        # and potentially pagination if the count is high.
-        # For example, the query might involve looking for the token_mint in accountKeys involved in transactions.
+        # Standard headers for API requests
+        self.headers = {
+            "Content-Type": "application/json",
+            "User-Agent": "VirtuosoGemFinder/1.0"
+        }
         
-        # Simulate based on lookback and token hash to make it somewhat dynamic for tests
-        base_tx_rate_per_hour = 10 + (hash(token_mint[:5]) % 90) # Base rate: 10-100 tx/hr
-        simulated_tx_count = int(base_tx_rate_per_hour * (lookback_seconds / 3600.0))
+        self.logger.info("Helius API connector initialized")
         
-        # Add some randomness
-        simulated_tx_count += (hash(token_mint[-5:]) % (simulated_tx_count // 10 + 1)) - (simulated_tx_count // 20)
-        simulated_tx_count = max(0, simulated_tx_count)
-
-        if token_mint == "So11111111111111111111111111111111111111112": # WSOL often has high velocity
-            return simulated_tx_count * 5 # Boost for SOL
-        elif len(token_mint) > 10:
-            return simulated_tx_count
-        return None
-
-    async def analyze_wallet(self, address: str) -> Dict[str, Any]:
+    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+    def get_token_metadata(self, mint_address: str) -> Optional[Dict]:
         """
-        Perform comprehensive wallet analysis to detect bots or smart money.
+        Get metadata for a specific token.
         
         Args:
-            address: Wallet address to analyze
+            mint_address: The mint address of the token
             
         Returns:
-            Analysis results with key metrics
+            Token metadata or None if not found/error
         """
         try:
-            # Get transaction history
-            transactions = await self.get_enhanced_transactions(address, 100)
+            url = f"{self.base_url}/tokens?api-key={self.api_key}"
+            payload = {"mintAccounts": [mint_address]}
             
-            if not transactions:
-                return {"analysis": "insufficient_data"}
-                
-            # Analyze transaction patterns
-            transactions_by_day = {}
-            transaction_types = {}
-            tokens_interacted = set()
+            response = requests.post(url, headers=self.headers, json=payload, timeout=10)
+            response.raise_for_status()
             
-            for tx in transactions:
-                # Extract date for grouping
-                timestamp = tx.get('timestamp', 0) / 1000  # Convert to seconds
-                date = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d')
-                
-                # Count by day
-                if date not in transactions_by_day:
-                    transactions_by_day[date] = 0
-                transactions_by_day[date] += 1
-                
-                # Categorize transaction types
-                tx_type = tx.get('type', 'UNKNOWN')
-                if tx_type not in transaction_types:
-                    transaction_types[tx_type] = 0
-                transaction_types[tx_type] += 1
-                
-                # Track tokens interacted with
-                for token in tx.get('tokenTransfers', []):
-                    mint = token.get('mint')
-                    if mint:
-                        tokens_interacted.add(mint)
-            
-            # Calculate metrics
-            days_active = len(transactions_by_day)
-            avg_tx_per_active_day = sum(transactions_by_day.values()) / max(days_active, 1)
-            
-            return {
-                "address": address,
-                "transactions_analyzed": len(transactions),
-                "days_active": days_active,
-                "avg_tx_per_active_day": avg_tx_per_active_day,
-                "transaction_types": transaction_types,
-                "unique_tokens_interacted": len(tokens_interacted),
-                "is_likely_bot": avg_tx_per_active_day > 50,  # Simple heuristic
-                "last_active": max(transactions_by_day.keys()) if transactions_by_day else "unknown"
-            }
-                
+            data = response.json()
+            if data and len(data) > 0:
+                return data[0]
+            return None
         except Exception as e:
-            self.logger.error(f"Error analyzing wallet: {e}")
-            return {"error": str(e)} 
+            self.logger.error(f"Error fetching token metadata for {mint_address}: {e}")
+            return None
+    
+    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+    def get_token_holders(self, mint_address: str, limit: int = 100) -> Optional[List[Dict]]:
+        """
+        Get the current holders of a token.
+        
+        Args:
+            mint_address: The mint address of the token
+            limit: Maximum number of holders to return (default 100)
+            
+        Returns:
+            List of token holders or None if error
+        """
+        try:
+            url = f"{self.base_url}/token-accounts?api-key={self.api_key}"
+            payload = {
+                "mintAccount": mint_address,
+                "limit": limit
+            }
+            
+            response = requests.post(url, headers=self.headers, json=payload, timeout=10)
+            response.raise_for_status()
+            
+            return response.json()
+        except Exception as e:
+            self.logger.error(f"Error fetching token holders for {mint_address}: {e}")
+            return None
+    
+    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+    def get_transaction_history(self, address: str, type: str = "TOKEN", limit: int = 100) -> Optional[List[Dict]]:
+        """
+        Get transaction history for an address.
+        
+        Args:
+            address: The address to get transactions for
+            type: Transaction type filter ("TOKEN", "NFT", "SOL", etc.)
+            limit: Maximum number of transactions to return
+            
+        Returns:
+            List of transactions or None if error
+        """
+        try:
+            url = f"{self.base_url}/addresses/{address}/transactions?api-key={self.api_key}"
+            payload = {
+                "type": type,
+                "limit": limit
+            }
+            
+            response = requests.post(url, headers=self.headers, json=payload, timeout=15)
+            response.raise_for_status()
+            
+            return response.json()
+        except Exception as e:
+            self.logger.error(f"Error fetching transaction history for {address}: {e}")
+            return None
+    
+    def get_current_holder_count(self, token_mint: str) -> Optional[int]:
+        """
+        Get the current number of holders for a token.
+        
+        Args:
+            token_mint: The mint address of the token
+            
+        Returns:
+            Number of holders or None if not available
+        """
+        try:
+            # First try to get metadata which may include holder count
+            metadata = self.get_token_metadata(token_mint)
+            if metadata and "offChainData" in metadata and "holderCount" in metadata["offChainData"]:
+                return metadata["offChainData"]["holderCount"]
+                
+            # If not in metadata, make a custom RPC call to count holders
+            url = self.rpc_url
+            payload = {
+                "jsonrpc": "2.0",
+                "id": "helius-holder-count",
+                "method": "getProgramAccounts",
+                "params": [
+                    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                    {
+                        "encoding": "jsonParsed",
+                        "filters": [
+                            {
+                                "dataSize": 165  # Size of token account data
+                            },
+                            {
+                                "memcmp": {
+                                    "offset": 0,  # Offset for mint address
+                                    "bytes": token_mint
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+            
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {self.api_key}"
+            }
+            
+            response = requests.post(url, headers=headers, json=payload, timeout=15)
+            response.raise_for_status()
+            
+            result = response.json().get("result", [])
+            # Filter to only include accounts with non-zero balance
+            active_accounts = [
+                account for account in result 
+                if int(account.get("account", {}).get("data", {}).get("parsed", {})
+                      .get("info", {}).get("tokenAmount", {}).get("amount", "0")) > 0
+            ]
+            
+            return len(active_accounts)
+            
+        except Exception as e:
+            self.logger.error(f"Error getting holder count for {token_mint}: {e}")
+            return None
+    
+    def get_historical_holder_counts(self, token_mint: str, days: int = 30) -> Optional[List[Dict[str, Any]]]:
+        """
+        Get historical holder counts for a token over time.
+        PLACEHOLDER: Actual implementation would need additional API support or data analysis.
+        
+        Args:
+            token_mint: The mint address of the token
+            days: Number of days to retrieve historical data for
+            
+        Returns:
+            List of historical holder counts by date or None if not available
+        """
+        self.logger.warning(
+            f"get_historical_holder_counts for {token_mint} is a placeholder and not fully implemented."
+        )
+        
+        # For now, just return the current holder count
+        current_count = self.get_current_holder_count(token_mint)
+        if current_count is None:
+            return None
+            
+        # Mock historical data with slight decrease in past days
+        now = int(time.time())
+        day_seconds = 86400  # seconds in a day
+        
+        result = []
+        for day in range(days):
+            timestamp = now - (day * day_seconds)
+            # Gradually decrease the count for past days (10% variance max)
+            day_count = max(1, int(current_count * (1 - (day * 0.01))))
+            result.append({
+                "timestamp": timestamp,
+                "holderCount": day_count
+            })
+            
+        return sorted(result, key=lambda x: x["timestamp"])
+    
+    def get_transaction_count_for_token(self, token_mint: str, days: int = 1) -> Optional[int]:
+        """
+        Get the number of transactions involving a specific token.
+        
+        Args:
+            token_mint: The mint address of the token
+            days: Number of days to look back
+            
+        Returns:
+            Number of transactions or None if not available
+        """
+        try:
+            url = f"{self.base_url}/token-metrics?api-key={self.api_key}"
+            payload = {
+                "mintAccounts": [token_mint],
+                "granularity": "ONE_DAY",
+                "startTime": int(time.time() - (days * 86400)),
+                "endTime": int(time.time())
+            }
+            
+            response = requests.post(url, headers=self.headers, json=payload, timeout=10)
+            response.raise_for_status()
+            
+            data = response.json()
+            if not data or not data.get(token_mint, {}).get("tokenTransfers"):
+                return 0
+                
+            # Sum all token transfers over the period
+            transfers = data[token_mint]["tokenTransfers"]
+            return sum(transfer.get("count", 0) for transfer in transfers)
+            
+        except Exception as e:
+            self.logger.error(f"Error getting transaction count for {token_mint}: {e}")
+            return None
+            
+    def get_wallet_type(self, address: str) -> Optional[str]:
+        """
+        Determine the type of wallet based on its activity.
+        
+        Args:
+            address: The wallet address to analyze
+            
+        Returns:
+            Wallet type classification or None if couldn't determine
+        """
+        try:
+            # Get transaction history for this wallet
+            tx_history = self.get_transaction_history(address, limit=50)
+            
+            if not tx_history or len(tx_history) == 0:
+                return "inactive"
+                
+            # Analyze transaction patterns to categorize wallet
+            # This is a simplified placeholder - real implementation would be more sophisticated
+            
+            # Check if it's a high-volume trader
+            if len(tx_history) >= 40:  # lots of transactions
+                return "trader"
+                
+            # Check if it's a long-term holder
+            # Look for early transactions with few recent ones
+            sorted_txs = sorted(tx_history, key=lambda x: x.get("timestamp", 0))
+            if sorted_txs and (time.time() - sorted_txs[-1].get("timestamp", 0)) > (30 * 86400):
+                return "holder"  # No transactions in last 30 days
+                
+            # Default to regular user
+            return "user"
+            
+        except Exception as e:
+            self.logger.error(f"Error determining wallet type for {address}: {e}")
+            return None 

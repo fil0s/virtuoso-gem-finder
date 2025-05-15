@@ -5,6 +5,16 @@ This directory contains detailed documentation for the Virtuoso Gem Finder proje
 ## Contents
 
 - [DexScreener API](dexscreener_api.md) - Detailed documentation of the DexScreener API integration, including data structures and usage examples.
+- [Jupiter API](jupiter_api.md) - Documentation of the Jupiter API integration for Solana token price data and liquidity information.
+
+## Next Steps for Documentation
+
+The following components are planned for documentation:
+
+1. Helius API - For on-chain data and transaction analysis
+2. Enhanced Solana RPC - Our custom RPC client implementation
+3. Momentum Analyzer - Documentation of on-chain momentum metrics
+4. Smart Money Clustering - Documentation of wallet analysis features
 
 ## Purpose
 

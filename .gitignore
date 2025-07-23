@@ -192,3 +192,20 @@ PROJECT_STRUCTURE.md
 .env*
 !.env.template
 !env.template
+
+# Additional security exclusions
+config/secrets.yaml
+*.key
+*.pem
+*_token.txt
+*_credentials.json
+
+# Test results with potential sensitive data
+scripts/tests/*_results*.json
+analysis_results/
+results/
+
+# Log files that may contain sensitive information
+*.log
+logs/
+debug/

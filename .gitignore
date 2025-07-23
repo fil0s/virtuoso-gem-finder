@@ -187,3 +187,8 @@ sandbox/
 # Development documentation (keep local only)
 CLAUDE.md
 PROJECT_STRUCTURE.md
+
+# Security: Environment files with sensitive data
+.env*
+!.env.template
+!env.template

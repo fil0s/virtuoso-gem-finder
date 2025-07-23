@@ -1,0 +1,5790 @@
+{
+  "start_time": 1752863939.4273548,
+  "cycles": [
+    {
+      "cycle_number": 1,
+      "timestamp": "2025-07-18T14:42:53.469499",
+      "total_analyzed": 38,
+      "high_conviction_count": 1,
+      "alerts_sent": 1,
+      "cycle_time": 233.33670806884766,
+      "top_tokens": [
+        {
+          "address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+          "symbol": "1MTP",
+          "name": "1M Write Toilet Paper",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 59190.0,
+          "price": 5.919e-05,
+          "liquidity": 36923.585476376,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.96429682077633,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752863941.573667,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+            "name": "1M Write Toilet Paper",
+            "symbol": "1MTP",
+            "logo": "https://logo.moralis.io/solana-mainnet_5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump_61942711bec3d10df9d0ab3219e42405.webp",
+            "decimals": 6,
+            "price_native": 3.3e-07,
+            "price_usd": 5.919e-05,
+            "liquidity": 36923.585476376,
+            "fully_diluted_valuation": 59190.0,
+            "bonding_curve_progress": 95.96429682077633,
+            "market_cap": 59190.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.8071406358447348,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T14:41:20.560391",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 14.221452,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 3.0,
+                "momentum_cascade": 3.3426,
+                "activity_surge": 7.6,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 13.942599999999999,
+                "final_score": 14.221452
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 14.221452,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 20.305452,
+                "normalization_factor": 125.0,
+                "final_score": 16.244361599999998,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.37424873684210525,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 3.0,
+              "momentum_cascade": 3.3426,
+              "activity_surge": 7.6
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 16.569248832,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T14:42:53.469652",
+          "cycle": 1
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 18,
+        "moralis_graduated": 2
+      }
+    },
+    {
+      "cycle_number": 2,
+      "timestamp": "2025-07-18T15:03:17.789494",
+      "total_analyzed": 37,
+      "high_conviction_count": 1,
+      "alerts_sent": 1,
+      "cycle_time": 257.6274461746216,
+      "top_tokens": [
+        {
+          "address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+          "symbol": "CBP",
+          "name": "punk nun",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 56180.0,
+          "price": 5.618e-05,
+          "liquidity": 35889.629943946,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.02004035745593,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752865141.5843682,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+            "name": "punk nun",
+            "symbol": "CBP",
+            "logo": "https://logo.moralis.io/solana-mainnet_6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP_b362b16ebbd1d0827c06f56091e17ae9.webp",
+            "decimals": 6,
+            "price_native": 3.15e-07,
+            "price_usd": 5.618e-05,
+            "liquidity": 35889.629943946,
+            "fully_diluted_valuation": 56180.0,
+            "bonding_curve_progress": 95.02004035745593,
+            "market_cap": 56180.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.9959919285088148,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T15:01:32.142449",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 17.765952000000002,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 4.875,
+                "momentum_cascade": 3.3426,
+                "activity_surge": 9.2,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 17.4176,
+                "final_score": 17.765952000000002
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 17.765952000000002,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 23.849952000000002,
+                "normalization_factor": 125.0,
+                "final_score": 19.0799616,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.467525052631579,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 4.875,
+              "momentum_cascade": 3.3426,
+              "activity_surge": 9.2
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 19.461560832,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T15:03:17.789652",
+          "cycle": 2
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 17,
+        "moralis_graduated": 2
+      }
+    },
+    {
+      "cycle_number": 3,
+      "timestamp": "2025-07-18T15:23:25.536188",
+      "total_analyzed": 37,
+      "high_conviction_count": 0,
+      "alerts_sent": 0,
+      "cycle_time": 265.37169194221497,
+      "top_tokens": [],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 19
+      }
+    },
+    {
+      "cycle_number": 4,
+      "timestamp": "2025-07-18T15:43:03.592474",
+      "total_analyzed": 38,
+      "high_conviction_count": 1,
+      "alerts_sent": 0,
+      "cycle_time": 243.40370678901672,
+      "top_tokens": [
+        {
+          "address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+          "symbol": "CBP",
+          "name": "punk nun",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 57281.0,
+          "price": 5.7281e-05,
+          "liquidity": 36189.800147956,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.46372111869726,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752867541.636203,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+            "name": "punk nun",
+            "symbol": "CBP",
+            "logo": "https://logo.moralis.io/solana-mainnet_6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP_b362b16ebbd1d0827c06f56091e17ae9.webp",
+            "decimals": 6,
+            "price_native": 3.22e-07,
+            "price_usd": 5.7281e-05,
+            "liquidity": 36189.800147956,
+            "fully_diluted_valuation": 57281.0,
+            "bonding_curve_progress": 95.46372111869726,
+            "market_cap": 57281.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.9072557762605471,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T15:41:32.133721",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 15.853452,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 3.0,
+                "momentum_cascade": 3.3426,
+                "activity_surge": 9.2,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 15.5426,
+                "final_score": 15.853452
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 15.853452,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 21.937452,
+                "normalization_factor": 125.0,
+                "final_score": 17.5499616,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.4171961052631579,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 3.0,
+              "momentum_cascade": 3.3426,
+              "activity_surge": 9.2
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 17.900960832,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T15:43:03.593154",
+          "cycle": 4
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 12,
+        "moralis_graduated": 8
+      }
+    },
+    {
+      "cycle_number": 5,
+      "timestamp": "2025-07-18T16:03:47.056735",
+      "total_analyzed": 39,
+      "high_conviction_count": 1,
+      "alerts_sent": 1,
+      "cycle_time": 286.8677387237549,
+      "top_tokens": [
+        {
+          "address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+          "symbol": "FART",
+          "name": "FARTCOIN",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 56367.0,
+          "price": 5.6367e-05,
+          "liquidity": 35819.430992352,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.23019544290568,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752868741.809173,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+            "name": "FARTCOIN",
+            "symbol": "FART",
+            "logo": null,
+            "decimals": 6,
+            "price_native": 3.18e-07,
+            "price_usd": 5.6367e-05,
+            "liquidity": 35819.430992352,
+            "fully_diluted_valuation": 56367.0,
+            "bonding_curve_progress": 95.23019544290568,
+            "market_cap": 56367.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.9539609114188636,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T16:02:11.511294",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 20.159076,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 8.25,
+                "momentum_cascade": 6.3138,
+                "activity_surge": 5.2,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 83.33333333333334,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 5,
+                  "timeframes_list": [
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 19.7638,
+                "final_score": 20.159076
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 83.33333333333334
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 20.159076,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 26.243076,
+                "normalization_factor": 125.0,
+                "final_score": 20.9944608,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.5305019999999999,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 83.33333333333334,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 5,
+              "timeframes_list": [
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 8.25,
+              "momentum_cascade": 6.3138,
+              "activity_surge": 5.2
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 83.33333333333334,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 5,
+            "timeframes_list": [
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 21.414350016,
+          "data_quality_assessment": {
+            "quality_level": "GOOD",
+            "quality_icon": "\ud83d\udfe1",
+            "overall_coverage_percentage": 70.37037037037037,
+            "reliability_score": 0.85,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "13/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "Good confidence - suitable for most decisions with standard risk management"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T16:03:47.056803",
+          "cycle": 5
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 12,
+        "moralis_graduated": 9
+      }
+    },
+    {
+      "cycle_number": 6,
+      "timestamp": "2025-07-18T16:23:49.190443",
+      "total_analyzed": 39,
+      "high_conviction_count": 1,
+      "alerts_sent": 1,
+      "cycle_time": 289.0101487636566,
+      "top_tokens": [
+        {
+          "address": "27rcBCo1Bw3mXYg3mVb6Hvh2YM7CPZMeLn8FYrYSpump",
+          "symbol": "TOILET",
+          "name": "TOILET",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 57930.0,
+          "price": 5.793e-05,
+          "liquidity": 36262.959188664,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.65741327567532,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752869941.73187,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "27rcBCo1Bw3mXYg3mVb6Hvh2YM7CPZMeLn8FYrYSpump",
+            "name": "TOILET",
+            "symbol": "TOILET",
+            "logo": "https://logo.moralis.io/solana-mainnet_27rcBCo1Bw3mXYg3mVb6Hvh2YM7CPZMeLn8FYrYSpump_cf41d33db0eb92b79400cda99b7418b5.gif",
+            "decimals": 6,
+            "price_native": 3.28e-07,
+            "price_usd": 5.793e-05,
+            "liquidity": 36262.959188664,
+            "fully_diluted_valuation": 57930.0,
+            "bonding_curve_progress": 95.65741327567532,
+            "market_cap": 57930.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.8685173448649351,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T16:21:34.336263",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 13.33242,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 7.5,
+                "momentum_cascade": 5.571,
+                "activity_surge": 0.0,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 83.33333333333334,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 5,
+                  "timeframes_list": [
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 13.071,
+                "final_score": 13.33242
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 83.33333333333334
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 13.33242,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 19.41642,
+                "normalization_factor": 125.0,
+                "final_score": 15.533136,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.35085315789473687,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 83.33333333333334,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 5,
+              "timeframes_list": [
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 7.5,
+              "momentum_cascade": 5.571,
+              "activity_surge": 0.0
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 6.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 83.33333333333334,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 5,
+            "timeframes_list": [
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 15.84379872,
+          "data_quality_assessment": {
+            "quality_level": "GOOD",
+            "quality_icon": "\ud83d\udfe1",
+            "overall_coverage_percentage": 74.07407407407408,
+            "reliability_score": 0.85,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "14/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "Good confidence - suitable for most decisions with standard risk management"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T16:23:49.190513",
+          "cycle": 6
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 21
+      }
+    },
+    {
+      "cycle_number": 7,
+      "timestamp": "2025-07-18T16:43:15.674308",
+      "total_analyzed": 39,
+      "high_conviction_count": 2,
+      "alerts_sent": 1,
+      "cycle_time": 255.5084412097931,
+      "top_tokens": [
+        {
+          "address": "fafSso5ssptLY1uVHpRkp9EZGmLjL7c2Lw9C9HGpump",
+          "symbol": "2PAK",
+          "name": "2PAKISTAN",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 57891.0,
+          "price": 5.7891e-05,
+          "liquidity": 36010.37963087,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 96.0763778839425,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752871141.419901,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "fafSso5ssptLY1uVHpRkp9EZGmLjL7c2Lw9C9HGpump",
+            "name": "2PAKISTAN",
+            "symbol": "2PAK",
+            "logo": "https://logo.moralis.io/solana-mainnet_fafSso5ssptLY1uVHpRkp9EZGmLjL7c2Lw9C9HGpump_4cc45bcaea65e4d344d54a8cd0c474d2.webp",
+            "decimals": 6,
+            "price_native": 3.32e-07,
+            "price_usd": 5.7891e-05,
+            "liquidity": 36010.37963087,
+            "fully_diluted_valuation": 57891.0,
+            "bonding_curve_progress": 96.0763778839425,
+            "market_cap": 57891.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.7847244232115003,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T16:41:31.793144",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 14.192076,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 6.0,
+                "momentum_cascade": 6.3138,
+                "activity_surge": 1.6,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 83.33333333333334,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 5,
+                  "timeframes_list": [
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 13.9138,
+                "final_score": 14.192076
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 83.33333333333334
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 14.192076,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 20.276076,
+                "normalization_factor": 125.0,
+                "final_score": 16.2208608,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.3734756842105263,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 83.33333333333334,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 5,
+              "timeframes_list": [
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 6.0,
+              "momentum_cascade": 6.3138,
+              "activity_surge": 1.6
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 83.33333333333334,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 5,
+            "timeframes_list": [
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 16.545278016,
+          "data_quality_assessment": {
+            "quality_level": "GOOD",
+            "quality_icon": "\ud83d\udfe1",
+            "overall_coverage_percentage": 74.07407407407408,
+            "reliability_score": 0.85,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "14/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "Good confidence - suitable for most decisions with standard risk management"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T16:43:15.674434",
+          "cycle": 7
+        },
+        {
+          "address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+          "symbol": "FART",
+          "name": "FARTCOIN",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 56749.0,
+          "price": 5.6749e-05,
+          "liquidity": 35654.997074636,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.68247813677203,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752871141.420042,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+            "name": "FARTCOIN",
+            "symbol": "FART",
+            "logo": null,
+            "decimals": 6,
+            "price_native": 3.26e-07,
+            "price_usd": 5.6749e-05,
+            "liquidity": 35654.997074636,
+            "fully_diluted_valuation": 56749.0,
+            "bonding_curve_progress": 95.68247813677203,
+            "market_cap": 56749.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.8635043726455933,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T16:41:36.315944",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 21.295560000000002,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 8.25,
+                "momentum_cascade": 7.428000000000001,
+                "activity_surge": 5.2,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 20.878,
+                "final_score": 21.295560000000002
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 21.295560000000002,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 27.37956,
+                "normalization_factor": 125.0,
+                "final_score": 21.903648,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.5604094736842106,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 8.25,
+              "momentum_cascade": 7.428000000000001,
+              "activity_surge": 5.2
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 22.34172096,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T16:43:15.674446",
+          "cycle": 7
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 20,
+        "moralis_graduated": 1
+      }
+    },
+    {
+      "cycle_number": 8,
+      "timestamp": "2025-07-18T17:05:39.905222",
+      "total_analyzed": 39,
+      "high_conviction_count": 2,
+      "alerts_sent": 0,
+      "cycle_time": 399.73338985443115,
+      "top_tokens": [
+        {
+          "address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+          "symbol": "FART",
+          "name": "FARTCOIN",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 57222.0,
+          "price": 5.7222e-05,
+          "liquidity": 35996.601339736,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.63320204044105,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752872342.565433,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+            "name": "FARTCOIN",
+            "symbol": "FART",
+            "logo": null,
+            "decimals": 6,
+            "price_native": 3.25e-07,
+            "price_usd": 5.7222e-05,
+            "liquidity": 35996.601339736,
+            "fully_diluted_valuation": 57222.0,
+            "bonding_curve_progress": 95.63320204044105,
+            "market_cap": 57222.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.8733595919117904,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T17:01:33.471912",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 8.130624,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 3.0,
+                "momentum_cascade": 2.9712,
+                "activity_surge": 2.0,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 7.9712,
+                "final_score": 8.130624
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 8.130624,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 14.214623999999999,
+                "normalization_factor": 125.0,
+                "final_score": 11.371699199999998,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.2139637894736842,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 3.0,
+              "momentum_cascade": 2.9712,
+              "activity_surge": 2.0
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 11.599133184,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T17:05:39.905338",
+          "cycle": 8
+        },
+        {
+          "address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+          "symbol": "1MTP",
+          "name": "1M Write Toilet Paper",
+          "source": "moralis_bonding",
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "market_cap": 55904.0,
+          "price": 5.5904e-05,
+          "liquidity": 35575.32878957,
+          "volume_24h": 0,
+          "price_change_24h": 0,
+          "bonding_curve_progress": 95.17732243143475,
+          "graduation_threshold": 69000,
+          "pre_graduation": true,
+          "discovery_timestamp": 1752872342.5654871,
+          "needs_enrichment": true,
+          "raw_data": {
+            "token_address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+            "name": "1M Write Toilet Paper",
+            "symbol": "1MTP",
+            "logo": "https://logo.moralis.io/solana-mainnet_5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump_61942711bec3d10df9d0ab3219e42405.webp",
+            "decimals": 6,
+            "price_native": 3.17e-07,
+            "price_usd": 5.5904e-05,
+            "liquidity": 35575.32878957,
+            "fully_diluted_valuation": 55904.0,
+            "bonding_curve_progress": 95.17732243143475,
+            "market_cap": 55904.0,
+            "source": "moralis_bonding_tokens"
+          },
+          "graduation_imminent": true,
+          "priority": "ultra_high",
+          "estimated_graduation_hours": 0.9645355137130509,
+          "enriched": "bonding_curve",
+          "quick_score": 77.4,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 85,
+          "final_score": 85,
+          "score": 85,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T17:01:38.120097",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "GENERIC_DETECTION",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 4,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 3,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 4,
+                "final_score": 4
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 10.258140000000001,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 3.0,
+                "momentum_cascade": 1.8570000000000002,
+                "activity_surge": 5.2,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 10.057,
+                "final_score": 10.258140000000001
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis_bonding"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 4,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 10.258140000000001,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 16.34214,
+                "normalization_factor": 125.0,
+                "final_score": 13.073712,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.269951052631579,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 3.0,
+              "momentum_cascade": 1.8570000000000002,
+              "activity_surge": 5.2
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 5.0,
+            "graduation_risk": 10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 13.33518624,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV"
+            ],
+            "source_diversity_score": 0.75,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T17:05:39.905352",
+          "cycle": 8
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_bonding": 18,
+        "moralis_graduated": 3
+      }
+    },
+    {
+      "cycle_number": 9,
+      "timestamp": "2025-07-18T17:23:28.242826",
+      "total_analyzed": 40,
+      "high_conviction_count": 1,
+      "alerts_sent": 1,
+      "cycle_time": 268.0709750652313,
+      "top_tokens": [
+        {
+          "symbol": "bruv",
+          "name": "bruv",
+          "address": "HibC3jm1oq2jVzMR2NSX7xdCNnsGLQ13yK8FEkmhpump",
+          "market_cap": 201096.0,
+          "price": 1.138e-06,
+          "liquidity": 50795.464864888,
+          "bonding_curve_progress": 100.0,
+          "hours_since_graduation": 0.21713405916666664,
+          "graduated_at": "2025-07-18T21:06:00.000Z",
+          "source": "moralis_graduated",
+          "platforms": [
+            "moralis"
+          ],
+          "volume_15m": 2817917155.549397,
+          "price_change_15m": -49.19103794501999,
+          "trades_15m": 1815785151304,
+          "volume_30m": 4558397795.725307,
+          "price_change_30m": -87.31273802223214,
+          "trades_30m": 1492412177991,
+          "data_sources": [
+            "birdeye_ohlcv_batch"
+          ],
+          "has_ohlcv_data": true,
+          "ohlcv_enhancement": "batch_optimized",
+          "quick_score": 93.0,
+          "triage_stage": "enhanced_only",
+          "enhanced_score": 90,
+          "final_score": 90,
+          "score": 90,
+          "scoring_breakdown": {
+            "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+            "timestamp": "2025-07-18T17:21:40.772539",
+            "early_platform_analysis": {
+              "pump_fun_stage": "unknown",
+              "launchlab_stage": "unknown",
+              "velocity_usd_per_hour": 0,
+              "velocity_sol_per_hour": 0,
+              "age_decay_factor": 1.0,
+              "graduation_risk_score": 0,
+              "bonding_curve_velocity": 0,
+              "graduation_progress": 0,
+              "early_signals": [
+                "MORALIS_GRADUATED",
+                "VERY_EARLY_0-20%"
+              ],
+              "score": 9,
+              "max_score": 50,
+              "weight_pct": 40,
+              "score_components": {
+                "base_platform": 8,
+                "velocity_bonus": 0,
+                "stage_bonus": 0,
+                "age_bonus": 0,
+                "graduation_bonus": 1,
+                "total_before_cap": 9,
+                "final_score": 9
+              }
+            },
+            "momentum_analysis": {
+              "volume_surge": "unknown",
+              "price_velocity": "unknown",
+              "holder_growth_rate": 0,
+              "liquidity_to_volume_ratio": 0,
+              "liquidity_quality_score": 0,
+              "trading_activity": 0,
+              "score": 31.124076,
+              "max_score": 38,
+              "weight_pct": 30,
+              "score_components": {
+                "volume_acceleration": 15,
+                "momentum_cascade": 6.3138,
+                "activity_surge": 9.2,
+                "velocity_confidence": {
+                  "level": "HIGH",
+                  "icon": "\u2705",
+                  "confidence_score": 0.95,
+                  "coverage_percentage": 100.0,
+                  "threshold_adjustment": 1.0,
+                  "requires_manual_review": false,
+                  "assessment_reason": "Excellent data quality for 3.0hr old token",
+                  "available_timeframes": 6,
+                  "timeframes_list": [
+                    "5m",
+                    "15m",
+                    "30m",
+                    "1h",
+                    "6h",
+                    "24h"
+                  ],
+                  "data_sources": [
+                    "DexScreener",
+                    "Birdeye_OHLCV",
+                    "Price_Data",
+                    "Trading_Data"
+                  ]
+                },
+                "total_before_cap": 30.5138,
+                "final_score": 31.124076
+              },
+              "methodology": "Multi-timeframe Velocity Analysis",
+              "timeframes_analyzed": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye OHLCV"
+              ],
+              "confidence_level": "HIGH",
+              "confidence_score": 0.95,
+              "data_coverage": 100.0
+            },
+            "safety_validation": {
+              "security_score": 0.7,
+              "liquidity_to_mcap_ratio": 0,
+              "age_safety_bonus": 0,
+              "graduation_risk_penalty": 0,
+              "dex_presence": 0,
+              "risk_factors": [],
+              "score": 0.08399999999999999,
+              "max_score": 25,
+              "weight_pct": 20
+            },
+            "cross_platform_bonus": {
+              "platforms": [
+                "moralis"
+              ],
+              "platform_count": 1,
+              "score": 2,
+              "max_score": 12,
+              "weight_pct": 10
+            },
+            "final_score_summary": {
+              "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+              "version": "2.0",
+              "enhancements": [
+                "Velocity-based bonuses",
+                "Exponential age decay",
+                "Liquidity quality analysis",
+                "Dynamic graduation risk assessment",
+                "Holder growth rate tracking"
+              ],
+              "component_scores": {
+                "early_platforms": {
+                  "raw": 9,
+                  "weight": "40%",
+                  "max": 50
+                },
+                "momentum_signals": {
+                  "raw": 31.124076,
+                  "weight": "30%",
+                  "max": 38
+                },
+                "safety_validation": {
+                  "raw": 0.08399999999999999,
+                  "weight": "20%",
+                  "max": 25
+                },
+                "cross_platform_bonus": {
+                  "raw": 2,
+                  "weight": "10%",
+                  "max": 12
+                }
+              },
+              "scoring_totals": {
+                "raw_total_score": 42.208076000000005,
+                "normalization_factor": 125.0,
+                "final_score": 33.766460800000004,
+                "max_possible_score": 100
+              },
+              "gem_detection_focus": {
+                "velocity_tracking_enabled": true,
+                "early_platform_priority": true,
+                "reduced_cross_platform_dependency": true,
+                "momentum_emphasized": true,
+                "safety_maintained": true,
+                "graduation_risk_managed": true
+              }
+            }
+          },
+          "enhanced_metrics": {
+            "velocity_score": 0.8190546315789473,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "momentum_breakdown": {
+              "volume_acceleration": 15,
+              "momentum_cascade": 6.3138,
+              "activity_surge": 9.2
+            },
+            "first_100_score": 6.0,
+            "liquidity_quality": 6.0,
+            "graduation_risk": -10.0
+          },
+          "velocity_confidence": {
+            "level": "HIGH",
+            "icon": "\u2705",
+            "confidence_score": 0.95,
+            "coverage_percentage": 100.0,
+            "threshold_adjustment": 1.0,
+            "requires_manual_review": false,
+            "assessment_reason": "Excellent data quality for 3.0hr old token",
+            "available_timeframes": 6,
+            "timeframes_list": [
+              "5m",
+              "15m",
+              "30m",
+              "1h",
+              "6h",
+              "24h"
+            ],
+            "data_sources": [
+              "DexScreener",
+              "Birdeye_OHLCV",
+              "Price_Data",
+              "Trading_Data"
+            ]
+          },
+          "conviction_level": "low",
+          "confidence_adjusted_score": 34.441790016000006,
+          "data_quality_assessment": {
+            "quality_level": "EXCELLENT",
+            "quality_icon": "\ud83d\udfe2",
+            "overall_coverage_percentage": 85.18518518518519,
+            "reliability_score": 1.0,
+            "data_breakdown": {
+              "core_data": "5/5",
+              "trading_data": "17/18",
+              "enhanced_data": "1/4"
+            },
+            "data_sources": [
+              "DexScreener",
+              "Birdeye-Core",
+              "Birdeye-OHLCV",
+              "Moralis"
+            ],
+            "source_diversity_score": 1.0,
+            "recommendation": "High confidence - reliable for automated decisions"
+          },
+          "analysis_tier": "enhanced_on_demand",
+          "found_at": "2025-07-18T17:23:28.242924",
+          "cycle": 9
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 0.0,
+        "calls_saved": 0,
+        "total_calls": 0,
+        "batch_calls": 0
+      },
+      "platform_breakdown": {
+        "unknown": 18,
+        "moralis_graduated": 5,
+        "moralis_bonding": 17
+      }
+    }
+  ],
+  "total_tokens_analyzed": 346,
+  "total_high_conviction": 10,
+  "total_alerts_sent": 6,
+  "api_calls_saved": 0,
+  "best_tokens": [
+    {
+      "symbol": "bruv",
+      "name": "bruv",
+      "address": "HibC3jm1oq2jVzMR2NSX7xdCNnsGLQ13yK8FEkmhpump",
+      "market_cap": 201096.0,
+      "price": 1.138e-06,
+      "liquidity": 50795.464864888,
+      "bonding_curve_progress": 100.0,
+      "hours_since_graduation": 0.21713405916666664,
+      "graduated_at": "2025-07-18T21:06:00.000Z",
+      "source": "moralis_graduated",
+      "platforms": [
+        "moralis"
+      ],
+      "volume_15m": 2817917155.549397,
+      "price_change_15m": -49.19103794501999,
+      "trades_15m": 1815785151304,
+      "volume_30m": 4558397795.725307,
+      "price_change_30m": -87.31273802223214,
+      "trades_30m": 1492412177991,
+      "data_sources": [
+        "birdeye_ohlcv_batch"
+      ],
+      "has_ohlcv_data": true,
+      "ohlcv_enhancement": "batch_optimized",
+      "quick_score": 93.0,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 90,
+      "final_score": 90,
+      "score": 90,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T17:21:40.772539",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "MORALIS_GRADUATED",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 9,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 8,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 9,
+            "final_score": 9
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 31.124076,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 15,
+            "momentum_cascade": 6.3138,
+            "activity_surge": 9.2,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 30.5138,
+            "final_score": 31.124076
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 9,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 31.124076,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 42.208076000000005,
+            "normalization_factor": 125.0,
+            "final_score": 33.766460800000004,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.8190546315789473,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 15,
+          "momentum_cascade": 6.3138,
+          "activity_surge": 9.2
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 6.0,
+        "graduation_risk": -10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 34.441790016000006,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV",
+          "Moralis"
+        ],
+        "source_diversity_score": 1.0,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T17:23:28.242924",
+      "cycle": 9
+    },
+    {
+      "address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+      "symbol": "1MTP",
+      "name": "1M Write Toilet Paper",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 59190.0,
+      "price": 5.919e-05,
+      "liquidity": 36923.585476376,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.96429682077633,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752863941.573667,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+        "name": "1M Write Toilet Paper",
+        "symbol": "1MTP",
+        "logo": "https://logo.moralis.io/solana-mainnet_5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump_61942711bec3d10df9d0ab3219e42405.webp",
+        "decimals": 6,
+        "price_native": 3.3e-07,
+        "price_usd": 5.919e-05,
+        "liquidity": 36923.585476376,
+        "fully_diluted_valuation": 59190.0,
+        "bonding_curve_progress": 95.96429682077633,
+        "market_cap": 59190.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.8071406358447348,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T14:41:20.560391",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 14.221452,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 3.0,
+            "momentum_cascade": 3.3426,
+            "activity_surge": 7.6,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 13.942599999999999,
+            "final_score": 14.221452
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 14.221452,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 20.305452,
+            "normalization_factor": 125.0,
+            "final_score": 16.244361599999998,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.37424873684210525,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 3.0,
+          "momentum_cascade": 3.3426,
+          "activity_surge": 7.6
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 16.569248832,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T14:42:53.469652",
+      "cycle": 1
+    },
+    {
+      "address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+      "symbol": "CBP",
+      "name": "punk nun",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 56180.0,
+      "price": 5.618e-05,
+      "liquidity": 35889.629943946,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.02004035745593,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752865141.5843682,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+        "name": "punk nun",
+        "symbol": "CBP",
+        "logo": "https://logo.moralis.io/solana-mainnet_6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP_b362b16ebbd1d0827c06f56091e17ae9.webp",
+        "decimals": 6,
+        "price_native": 3.15e-07,
+        "price_usd": 5.618e-05,
+        "liquidity": 35889.629943946,
+        "fully_diluted_valuation": 56180.0,
+        "bonding_curve_progress": 95.02004035745593,
+        "market_cap": 56180.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.9959919285088148,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T15:01:32.142449",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 17.765952000000002,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 4.875,
+            "momentum_cascade": 3.3426,
+            "activity_surge": 9.2,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 17.4176,
+            "final_score": 17.765952000000002
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 17.765952000000002,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 23.849952000000002,
+            "normalization_factor": 125.0,
+            "final_score": 19.0799616,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.467525052631579,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 4.875,
+          "momentum_cascade": 3.3426,
+          "activity_surge": 9.2
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 19.461560832,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T15:03:17.789652",
+      "cycle": 2
+    },
+    {
+      "address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+      "symbol": "CBP",
+      "name": "punk nun",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 57281.0,
+      "price": 5.7281e-05,
+      "liquidity": 36189.800147956,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.46372111869726,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752867541.636203,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP",
+        "name": "punk nun",
+        "symbol": "CBP",
+        "logo": "https://logo.moralis.io/solana-mainnet_6KGA9HtQgDmDSinBQWpxEic7xwvYAoaFtY7ucxuheoPP_b362b16ebbd1d0827c06f56091e17ae9.webp",
+        "decimals": 6,
+        "price_native": 3.22e-07,
+        "price_usd": 5.7281e-05,
+        "liquidity": 36189.800147956,
+        "fully_diluted_valuation": 57281.0,
+        "bonding_curve_progress": 95.46372111869726,
+        "market_cap": 57281.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.9072557762605471,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T15:41:32.133721",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 15.853452,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 3.0,
+            "momentum_cascade": 3.3426,
+            "activity_surge": 9.2,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 15.5426,
+            "final_score": 15.853452
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 15.853452,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 21.937452,
+            "normalization_factor": 125.0,
+            "final_score": 17.5499616,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.4171961052631579,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 3.0,
+          "momentum_cascade": 3.3426,
+          "activity_surge": 9.2
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 17.900960832,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T15:43:03.593154",
+      "cycle": 4
+    },
+    {
+      "address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+      "symbol": "FART",
+      "name": "FARTCOIN",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 56367.0,
+      "price": 5.6367e-05,
+      "liquidity": 35819.430992352,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.23019544290568,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752868741.809173,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+        "name": "FARTCOIN",
+        "symbol": "FART",
+        "logo": null,
+        "decimals": 6,
+        "price_native": 3.18e-07,
+        "price_usd": 5.6367e-05,
+        "liquidity": 35819.430992352,
+        "fully_diluted_valuation": 56367.0,
+        "bonding_curve_progress": 95.23019544290568,
+        "market_cap": 56367.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.9539609114188636,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T16:02:11.511294",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 20.159076,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 8.25,
+            "momentum_cascade": 6.3138,
+            "activity_surge": 5.2,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 83.33333333333334,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 5,
+              "timeframes_list": [
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 19.7638,
+            "final_score": 20.159076
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 83.33333333333334
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 20.159076,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 26.243076,
+            "normalization_factor": 125.0,
+            "final_score": 20.9944608,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.5305019999999999,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 83.33333333333334,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 5,
+          "timeframes_list": [
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 8.25,
+          "momentum_cascade": 6.3138,
+          "activity_surge": 5.2
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 83.33333333333334,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 5,
+        "timeframes_list": [
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 21.414350016,
+      "data_quality_assessment": {
+        "quality_level": "GOOD",
+        "quality_icon": "\ud83d\udfe1",
+        "overall_coverage_percentage": 70.37037037037037,
+        "reliability_score": 0.85,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "13/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "Good confidence - suitable for most decisions with standard risk management"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T16:03:47.056803",
+      "cycle": 5
+    },
+    {
+      "address": "27rcBCo1Bw3mXYg3mVb6Hvh2YM7CPZMeLn8FYrYSpump",
+      "symbol": "TOILET",
+      "name": "TOILET",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 57930.0,
+      "price": 5.793e-05,
+      "liquidity": 36262.959188664,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.65741327567532,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752869941.73187,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "27rcBCo1Bw3mXYg3mVb6Hvh2YM7CPZMeLn8FYrYSpump",
+        "name": "TOILET",
+        "symbol": "TOILET",
+        "logo": "https://logo.moralis.io/solana-mainnet_27rcBCo1Bw3mXYg3mVb6Hvh2YM7CPZMeLn8FYrYSpump_cf41d33db0eb92b79400cda99b7418b5.gif",
+        "decimals": 6,
+        "price_native": 3.28e-07,
+        "price_usd": 5.793e-05,
+        "liquidity": 36262.959188664,
+        "fully_diluted_valuation": 57930.0,
+        "bonding_curve_progress": 95.65741327567532,
+        "market_cap": 57930.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.8685173448649351,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T16:21:34.336263",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 13.33242,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 7.5,
+            "momentum_cascade": 5.571,
+            "activity_surge": 0.0,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 83.33333333333334,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 5,
+              "timeframes_list": [
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 13.071,
+            "final_score": 13.33242
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 83.33333333333334
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 13.33242,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 19.41642,
+            "normalization_factor": 125.0,
+            "final_score": 15.533136,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.35085315789473687,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 83.33333333333334,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 5,
+          "timeframes_list": [
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 7.5,
+          "momentum_cascade": 5.571,
+          "activity_surge": 0.0
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 6.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 83.33333333333334,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 5,
+        "timeframes_list": [
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 15.84379872,
+      "data_quality_assessment": {
+        "quality_level": "GOOD",
+        "quality_icon": "\ud83d\udfe1",
+        "overall_coverage_percentage": 74.07407407407408,
+        "reliability_score": 0.85,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "14/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "Good confidence - suitable for most decisions with standard risk management"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T16:23:49.190513",
+      "cycle": 6
+    },
+    {
+      "address": "fafSso5ssptLY1uVHpRkp9EZGmLjL7c2Lw9C9HGpump",
+      "symbol": "2PAK",
+      "name": "2PAKISTAN",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 57891.0,
+      "price": 5.7891e-05,
+      "liquidity": 36010.37963087,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 96.0763778839425,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752871141.419901,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "fafSso5ssptLY1uVHpRkp9EZGmLjL7c2Lw9C9HGpump",
+        "name": "2PAKISTAN",
+        "symbol": "2PAK",
+        "logo": "https://logo.moralis.io/solana-mainnet_fafSso5ssptLY1uVHpRkp9EZGmLjL7c2Lw9C9HGpump_4cc45bcaea65e4d344d54a8cd0c474d2.webp",
+        "decimals": 6,
+        "price_native": 3.32e-07,
+        "price_usd": 5.7891e-05,
+        "liquidity": 36010.37963087,
+        "fully_diluted_valuation": 57891.0,
+        "bonding_curve_progress": 96.0763778839425,
+        "market_cap": 57891.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.7847244232115003,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T16:41:31.793144",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 14.192076,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 6.0,
+            "momentum_cascade": 6.3138,
+            "activity_surge": 1.6,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 83.33333333333334,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 5,
+              "timeframes_list": [
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 13.9138,
+            "final_score": 14.192076
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 83.33333333333334
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 14.192076,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 20.276076,
+            "normalization_factor": 125.0,
+            "final_score": 16.2208608,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.3734756842105263,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 83.33333333333334,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 5,
+          "timeframes_list": [
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 6.0,
+          "momentum_cascade": 6.3138,
+          "activity_surge": 1.6
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 83.33333333333334,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 5,
+        "timeframes_list": [
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 16.545278016,
+      "data_quality_assessment": {
+        "quality_level": "GOOD",
+        "quality_icon": "\ud83d\udfe1",
+        "overall_coverage_percentage": 74.07407407407408,
+        "reliability_score": 0.85,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "14/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "Good confidence - suitable for most decisions with standard risk management"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T16:43:15.674434",
+      "cycle": 7
+    },
+    {
+      "address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+      "symbol": "FART",
+      "name": "FARTCOIN",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 56749.0,
+      "price": 5.6749e-05,
+      "liquidity": 35654.997074636,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.68247813677203,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752871141.420042,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+        "name": "FARTCOIN",
+        "symbol": "FART",
+        "logo": null,
+        "decimals": 6,
+        "price_native": 3.26e-07,
+        "price_usd": 5.6749e-05,
+        "liquidity": 35654.997074636,
+        "fully_diluted_valuation": 56749.0,
+        "bonding_curve_progress": 95.68247813677203,
+        "market_cap": 56749.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.8635043726455933,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T16:41:36.315944",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 21.295560000000002,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 8.25,
+            "momentum_cascade": 7.428000000000001,
+            "activity_surge": 5.2,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 20.878,
+            "final_score": 21.295560000000002
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 21.295560000000002,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 27.37956,
+            "normalization_factor": 125.0,
+            "final_score": 21.903648,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.5604094736842106,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 8.25,
+          "momentum_cascade": 7.428000000000001,
+          "activity_surge": 5.2
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 22.34172096,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T16:43:15.674446",
+      "cycle": 7
+    },
+    {
+      "address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+      "symbol": "FART",
+      "name": "FARTCOIN",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 57222.0,
+      "price": 5.7222e-05,
+      "liquidity": 35996.601339736,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.63320204044105,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752872342.565433,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "pumprbvHxnzRHBMT5rE5EB2TJVc2ryB47BXqjqYSyBN",
+        "name": "FARTCOIN",
+        "symbol": "FART",
+        "logo": null,
+        "decimals": 6,
+        "price_native": 3.25e-07,
+        "price_usd": 5.7222e-05,
+        "liquidity": 35996.601339736,
+        "fully_diluted_valuation": 57222.0,
+        "bonding_curve_progress": 95.63320204044105,
+        "market_cap": 57222.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.8733595919117904,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T17:01:33.471912",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 8.130624,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 3.0,
+            "momentum_cascade": 2.9712,
+            "activity_surge": 2.0,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 7.9712,
+            "final_score": 8.130624
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 8.130624,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 14.214623999999999,
+            "normalization_factor": 125.0,
+            "final_score": 11.371699199999998,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.2139637894736842,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 3.0,
+          "momentum_cascade": 2.9712,
+          "activity_surge": 2.0
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 11.599133184,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T17:05:39.905338",
+      "cycle": 8
+    },
+    {
+      "address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+      "symbol": "1MTP",
+      "name": "1M Write Toilet Paper",
+      "source": "moralis_bonding",
+      "platforms": [
+        "moralis_bonding"
+      ],
+      "market_cap": 55904.0,
+      "price": 5.5904e-05,
+      "liquidity": 35575.32878957,
+      "volume_24h": 0,
+      "price_change_24h": 0,
+      "bonding_curve_progress": 95.17732243143475,
+      "graduation_threshold": 69000,
+      "pre_graduation": true,
+      "discovery_timestamp": 1752872342.5654871,
+      "needs_enrichment": true,
+      "raw_data": {
+        "token_address": "5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump",
+        "name": "1M Write Toilet Paper",
+        "symbol": "1MTP",
+        "logo": "https://logo.moralis.io/solana-mainnet_5vC4exsj937T6BDzqbw3qKAczdTHDUCets4kQehipump_61942711bec3d10df9d0ab3219e42405.webp",
+        "decimals": 6,
+        "price_native": 3.17e-07,
+        "price_usd": 5.5904e-05,
+        "liquidity": 35575.32878957,
+        "fully_diluted_valuation": 55904.0,
+        "bonding_curve_progress": 95.17732243143475,
+        "market_cap": 55904.0,
+        "source": "moralis_bonding_tokens"
+      },
+      "graduation_imminent": true,
+      "priority": "ultra_high",
+      "estimated_graduation_hours": 0.9645355137130509,
+      "enriched": "bonding_curve",
+      "quick_score": 77.4,
+      "triage_stage": "enhanced_only",
+      "enhanced_score": 85,
+      "final_score": 85,
+      "score": 85,
+      "scoring_breakdown": {
+        "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking",
+        "timestamp": "2025-07-18T17:01:38.120097",
+        "early_platform_analysis": {
+          "pump_fun_stage": "unknown",
+          "launchlab_stage": "unknown",
+          "velocity_usd_per_hour": 0,
+          "velocity_sol_per_hour": 0,
+          "age_decay_factor": 1.0,
+          "graduation_risk_score": 0,
+          "bonding_curve_velocity": 0,
+          "graduation_progress": 0,
+          "early_signals": [
+            "GENERIC_DETECTION",
+            "VERY_EARLY_0-20%"
+          ],
+          "score": 4,
+          "max_score": 50,
+          "weight_pct": 40,
+          "score_components": {
+            "base_platform": 3,
+            "velocity_bonus": 0,
+            "stage_bonus": 0,
+            "age_bonus": 0,
+            "graduation_bonus": 1,
+            "total_before_cap": 4,
+            "final_score": 4
+          }
+        },
+        "momentum_analysis": {
+          "volume_surge": "unknown",
+          "price_velocity": "unknown",
+          "holder_growth_rate": 0,
+          "liquidity_to_volume_ratio": 0,
+          "liquidity_quality_score": 0,
+          "trading_activity": 0,
+          "score": 10.258140000000001,
+          "max_score": 38,
+          "weight_pct": 30,
+          "score_components": {
+            "volume_acceleration": 3.0,
+            "momentum_cascade": 1.8570000000000002,
+            "activity_surge": 5.2,
+            "velocity_confidence": {
+              "level": "HIGH",
+              "icon": "\u2705",
+              "confidence_score": 0.95,
+              "coverage_percentage": 100.0,
+              "threshold_adjustment": 1.0,
+              "requires_manual_review": false,
+              "assessment_reason": "Excellent data quality for 3.0hr old token",
+              "available_timeframes": 6,
+              "timeframes_list": [
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "6h",
+                "24h"
+              ],
+              "data_sources": [
+                "DexScreener",
+                "Birdeye_OHLCV",
+                "Price_Data",
+                "Trading_Data"
+              ]
+            },
+            "total_before_cap": 10.057,
+            "final_score": 10.258140000000001
+          },
+          "methodology": "Multi-timeframe Velocity Analysis",
+          "timeframes_analyzed": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye OHLCV"
+          ],
+          "confidence_level": "HIGH",
+          "confidence_score": 0.95,
+          "data_coverage": 100.0
+        },
+        "safety_validation": {
+          "security_score": 0.7,
+          "liquidity_to_mcap_ratio": 0,
+          "age_safety_bonus": 0,
+          "graduation_risk_penalty": 0,
+          "dex_presence": 0,
+          "risk_factors": [],
+          "score": 0.08399999999999999,
+          "max_score": 25,
+          "weight_pct": 20
+        },
+        "cross_platform_bonus": {
+          "platforms": [
+            "moralis_bonding"
+          ],
+          "platform_count": 1,
+          "score": 2,
+          "max_score": 12,
+          "weight_pct": 10
+        },
+        "final_score_summary": {
+          "scoring_methodology": "Enhanced Early Gem Focus v2.0 - Velocity Tracking System",
+          "version": "2.0",
+          "enhancements": [
+            "Velocity-based bonuses",
+            "Exponential age decay",
+            "Liquidity quality analysis",
+            "Dynamic graduation risk assessment",
+            "Holder growth rate tracking"
+          ],
+          "component_scores": {
+            "early_platforms": {
+              "raw": 4,
+              "weight": "40%",
+              "max": 50
+            },
+            "momentum_signals": {
+              "raw": 10.258140000000001,
+              "weight": "30%",
+              "max": 38
+            },
+            "safety_validation": {
+              "raw": 0.08399999999999999,
+              "weight": "20%",
+              "max": 25
+            },
+            "cross_platform_bonus": {
+              "raw": 2,
+              "weight": "10%",
+              "max": 12
+            }
+          },
+          "scoring_totals": {
+            "raw_total_score": 16.34214,
+            "normalization_factor": 125.0,
+            "final_score": 13.073712,
+            "max_possible_score": 100
+          },
+          "gem_detection_focus": {
+            "velocity_tracking_enabled": true,
+            "early_platform_priority": true,
+            "reduced_cross_platform_dependency": true,
+            "momentum_emphasized": true,
+            "safety_maintained": true,
+            "graduation_risk_managed": true
+          }
+        }
+      },
+      "enhanced_metrics": {
+        "velocity_score": 0.269951052631579,
+        "velocity_confidence": {
+          "level": "HIGH",
+          "icon": "\u2705",
+          "confidence_score": 0.95,
+          "coverage_percentage": 100.0,
+          "threshold_adjustment": 1.0,
+          "requires_manual_review": false,
+          "assessment_reason": "Excellent data quality for 3.0hr old token",
+          "available_timeframes": 6,
+          "timeframes_list": [
+            "5m",
+            "15m",
+            "30m",
+            "1h",
+            "6h",
+            "24h"
+          ],
+          "data_sources": [
+            "DexScreener",
+            "Birdeye_OHLCV",
+            "Price_Data",
+            "Trading_Data"
+          ]
+        },
+        "momentum_breakdown": {
+          "volume_acceleration": 3.0,
+          "momentum_cascade": 1.8570000000000002,
+          "activity_surge": 5.2
+        },
+        "first_100_score": 6.0,
+        "liquidity_quality": 5.0,
+        "graduation_risk": 10.0
+      },
+      "velocity_confidence": {
+        "level": "HIGH",
+        "icon": "\u2705",
+        "confidence_score": 0.95,
+        "coverage_percentage": 100.0,
+        "threshold_adjustment": 1.0,
+        "requires_manual_review": false,
+        "assessment_reason": "Excellent data quality for 3.0hr old token",
+        "available_timeframes": 6,
+        "timeframes_list": [
+          "5m",
+          "15m",
+          "30m",
+          "1h",
+          "6h",
+          "24h"
+        ],
+        "data_sources": [
+          "DexScreener",
+          "Birdeye_OHLCV",
+          "Price_Data",
+          "Trading_Data"
+        ]
+      },
+      "conviction_level": "low",
+      "confidence_adjusted_score": 13.33518624,
+      "data_quality_assessment": {
+        "quality_level": "EXCELLENT",
+        "quality_icon": "\ud83d\udfe2",
+        "overall_coverage_percentage": 85.18518518518519,
+        "reliability_score": 1.0,
+        "data_breakdown": {
+          "core_data": "5/5",
+          "trading_data": "17/18",
+          "enhanced_data": "1/4"
+        },
+        "data_sources": [
+          "DexScreener",
+          "Birdeye-Core",
+          "Birdeye-OHLCV"
+        ],
+        "source_diversity_score": 0.75,
+        "recommendation": "High confidence - reliable for automated decisions"
+      },
+      "analysis_tier": "enhanced_on_demand",
+      "found_at": "2025-07-18T17:05:39.905352",
+      "cycle": 8
+    }
+  ],
+  "platform_performance": {
+    "unknown": {
+      "total_tokens": 162,
+      "cycles_active": 9,
+      "avg_tokens_per_cycle": 18.0
+    },
+    "moralis_bonding": {
+      "total_tokens": 154,
+      "cycles_active": 9,
+      "avg_tokens_per_cycle": 17.11111111111111
+    },
+    "moralis_graduated": {
+      "total_tokens": 30,
+      "cycles_active": 7,
+      "avg_tokens_per_cycle": 4.285714285714286
+    }
+  },
+  "hourly_stats": {
+    "14": {
+      "cycles": 1,
+      "tokens_analyzed": 38,
+      "high_conviction": 1,
+      "alerts_sent": 1,
+      "avg_cycle_time": 233.33670806884766,
+      "total_cycle_time": 233.33670806884766
+    },
+    "15": {
+      "cycles": 3,
+      "tokens_analyzed": 112,
+      "high_conviction": 2,
+      "alerts_sent": 1,
+      "avg_cycle_time": 255.46761496861777,
+      "total_cycle_time": 766.4028449058533
+    },
+    "16": {
+      "cycles": 3,
+      "tokens_analyzed": 117,
+      "high_conviction": 4,
+      "alerts_sent": 3,
+      "avg_cycle_time": 277.12877623240155,
+      "total_cycle_time": 831.3863286972046
+    },
+    "17": {
+      "cycles": 2,
+      "tokens_analyzed": 79,
+      "high_conviction": 3,
+      "alerts_sent": 1,
+      "avg_cycle_time": 333.90218245983124,
+      "total_cycle_time": 667.8043649196625
+    }
+  }
+}

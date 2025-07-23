@@ -11,7 +11,7 @@ import hashlib
 import logging
 import asyncio
 from typing import Dict, Any, Optional, List, Set, Union
-from core.cache_manager import CacheManager as CoreCacheManager
+from core_local.cache_manager import CacheManager as CoreCacheManager
 
 logger = logging.getLogger(__name__)
 

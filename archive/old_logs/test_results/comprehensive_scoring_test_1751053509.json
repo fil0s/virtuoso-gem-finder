@@ -1,0 +1,138 @@
+{
+  "total_tests": 12,
+  "passed_tests": 12,
+  "failed_tests": 0,
+  "test_details": [
+    {
+      "test_name": "Traditional Components Calculation",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "All components in expected ranges. Total: 100.5",
+      "expected": "70-120",
+      "actual": 100.5,
+      "timestamp": "2025-06-27T15:45:09.100725"
+    },
+    {
+      "test_name": "Factor Normalization",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "All normalization tests passed",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.113981"
+    },
+    {
+      "test_name": "Danger Detection",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Detected 1 critical dangers including manipulation and rug pull patterns",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.114443"
+    },
+    {
+      "test_name": "Signal Amplification",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Detected 2 amplifications with modifiers: [1.8, 1.6]",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.114561"
+    },
+    {
+      "test_name": "Contradiction Detection",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Detected 1 contradictions with dampening modifiers: [0.65]",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.114598"
+    },
+    {
+      "test_name": "Score Modification Logic",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Critical override: 4.2, Amplification: 100.0 (from 85)",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.114871"
+    },
+    {
+      "test_name": "Integration with Main Detector",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Successfully integrated. Score: 41.5, Methodology: INTERACTION-BASED (Non-Linear)",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.129468"
+    },
+    {
+      "test_name": "Edge Case - Empty Data",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Handled empty data gracefully. Score: 0",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.129589"
+    },
+    {
+      "test_name": "Edge Case - Extreme Values",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Handled extreme values. Score: 2.0",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.129728"
+    },
+    {
+      "test_name": "Edge Case - Negative Components",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Handled negative components. Score: 0",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.129763"
+    },
+    {
+      "test_name": "Performance Test",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Avg time per score: 0.04ms, Consistent results: True",
+      "expected": "<10.0ms",
+      "actual": "0.04ms",
+      "timestamp": "2025-06-27T15:45:09.133526"
+    },
+    {
+      "test_name": "Fallback System",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Fallback working correctly. Score: 30, Methodology: LINEAR ADDITIVITY (MATHEMATICALLY FLAWED)",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:45:09.147994"
+    }
+  ],
+  "performance_metrics": {
+    "total_time": 0.0036878585815429688,
+    "avg_time_per_score": 3.687858581542969e-05,
+    "iterations": 100,
+    "scores_range": [
+      56.0,
+      56.0
+    ],
+    "consistent_results": true,
+    "performance_threshold_met": true
+  },
+  "edge_case_results": {
+    "passed": 3,
+    "total": 3,
+    "success_rate": 100.0
+  },
+  "integration_results": {},
+  "summary": {
+    "total_test_time": 5.345595121383667,
+    "success_rate": 100.0,
+    "production_ready": true,
+    "critical_failures": []
+  }
+}

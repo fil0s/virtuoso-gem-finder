@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Jupiter SOL Price",
+    "url": "https://quote-api.jup.ag/v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=1000000&slippageBps=50",
+    "status": "success",
+    "request_time_ms": 2011.6469860076904,
+    "total_time_ms": 2118.971824645996,
+    "status_code": 200,
+    "data_size_bytes": 1495,
+    "record_count": 1
+  },
+  {
+    "name": "Raydium Pools",
+    "url": "https://api.raydium.io/pools",
+    "status": "success",
+    "request_time_ms": 3529.9458503723145,
+    "total_time_ms": 7242.198944091797,
+    "status_code": 200,
+    "data_size_bytes": 143864515,
+    "record_count": 698569
+  },
+  {
+    "name": "Raydium Pools Processing",
+    "status": "success",
+    "processing_time_ms": 283.74338150024414,
+    "total_records": 698569,
+    "sol_pairs_found": 0,
+    "filter_rate_percent": 0.0
+  },
+  {
+    "name": "Raydium Pairs",
+    "url": "https://api.raydium.io/v2/main/pairs",
+    "status": "timeout",
+    "timeout_seconds": 30,
+    "error": "Timeout after 30s"
+  },
+  {
+    "name": "Raydium Full Liquidity",
+    "url": "https://api.raydium.io/v2/sdk/liquidity/mainnet.json",
+    "status": "success",
+    "request_time_ms": 2220.0541496276855,
+    "total_time_ms": 27032.929182052612,
+    "status_code": 200,
+    "data_size_bytes": 966072773,
+    "record_count": 1
+  },
+  {
+    "name": "Concurrent Requests Test",
+    "status": "completed",
+    "total_time_ms": 852.4577617645264,
+    "concurrent_requests": 5,
+    "successful_requests": 5,
+    "average_time_ms": 170.49155235290527
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "total_tests": 12,
+  "passed_tests": 8,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "Traditional Components Calculation",
+      "status": "\u274c FAIL",
+      "passed": false,
+      "details": "Exception: name 'FactorValues' is not defined",
+      "expected": "No exception",
+      "actual": "name 'FactorValues' is not defined",
+      "timestamp": "2025-06-27T15:39:33.487783"
+    },
+    {
+      "test_name": "Factor Normalization",
+      "status": "\u274c FAIL",
+      "passed": false,
+      "details": "Exception: name 'FactorValues' is not defined",
+      "expected": "No exception",
+      "actual": "name 'FactorValues' is not defined",
+      "timestamp": "2025-06-27T15:39:33.489819"
+    },
+    {
+      "test_name": "Danger Detection",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Detected 1 critical dangers including manipulation and rug pull patterns",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.490272"
+    },
+    {
+      "test_name": "Signal Amplification",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Detected 2 amplifications with modifiers: [1.8, 1.6]",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.490320"
+    },
+    {
+      "test_name": "Contradiction Detection",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Detected 1 contradictions with dampening modifiers: [0.65]",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.490347"
+    },
+    {
+      "test_name": "Score Modification Logic",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Critical override: 4.2, Amplification: 100.0 (from 85)",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.490623"
+    },
+    {
+      "test_name": "Integration with Main Detector",
+      "status": "\u274c FAIL",
+      "passed": false,
+      "details": "Exception: name 'FactorValues' is not defined",
+      "expected": "No exception",
+      "actual": "name 'FactorValues' is not defined",
+      "timestamp": "2025-06-27T15:39:33.492190"
+    },
+    {
+      "test_name": "Edge Case - Empty Data",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Handled empty data gracefully. Score: 0",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.492347"
+    },
+    {
+      "test_name": "Edge Case - Extreme Values",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Handled extreme values. Score: 2.0",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.492429"
+    },
+    {
+      "test_name": "Edge Case - Negative Components",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Handled negative components. Score: 0",
+      "expected": null,
+      "actual": null,
+      "timestamp": "2025-06-27T15:39:33.492463"
+    },
+    {
+      "test_name": "Performance Test",
+      "status": "\u2705 PASS",
+      "passed": true,
+      "details": "Avg time per score: 0.03ms, Consistent results: True",
+      "expected": "<10.0ms",
+      "actual": "0.03ms",
+      "timestamp": "2025-06-27T15:39:33.495606"
+    },
+    {
+      "test_name": "Fallback System",
+      "status": "\u274c FAIL",
+      "passed": false,
+      "details": "Exception: name 'FactorValues' is not defined",
+      "expected": "No exception",
+      "actual": "name 'FactorValues' is not defined",
+      "timestamp": "2025-06-27T15:39:33.497360"
+    }
+  ],
+  "performance_metrics": {
+    "total_time": 0.0030851364135742188,
+    "avg_time_per_score": 3.085136413574219e-05,
+    "iterations": 100,
+    "scores_range": [
+      56.0,
+      56.0
+    ],
+    "consistent_results": true,
+    "performance_threshold_met": true
+  },
+  "edge_case_results": {
+    "passed": 3,
+    "total": 3,
+    "success_rate": 100.0
+  },
+  "integration_results": {},
+  "summary": {
+    "total_test_time": 2.0385239124298096,
+    "success_rate": 66.66666666666666,
+    "production_ready": false,
+    "critical_failures": [
+      {
+        "test_name": "Integration with Main Detector",
+        "status": "\u274c FAIL",
+        "passed": false,
+        "details": "Exception: name 'FactorValues' is not defined",
+        "expected": "No exception",
+        "actual": "name 'FactorValues' is not defined",
+        "timestamp": "2025-06-27T15:39:33.492190"
+      }
+    ]
+  }
+}

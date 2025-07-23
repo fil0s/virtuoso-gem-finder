@@ -1,0 +1,673 @@
+"""
+Token Discovery Strategies
+
+This module implements the token discovery strategies outlined in the system requirements.
+Each strategy uses the Birdeye API's token list endpoint with different parameters
+to discover promising tokens based on various criteria.
+
+Main strategies implemented:
+1. Volume Momentum Strategy - Tokens with significant trading activity growth
+2. Recent Listings with Traction - Newly listed tokens gaining market attention
+3. Price Momentum with Volume Confirmation - Strong price performance with volume
+4. Liquidity Growth Detector - Tokens gaining liquidity rapidly
+5. High Trading Activity Filter - High trading activity relative to market cap
+"""
+
+import os
+import json
+import time
+import logging
+import asyncio
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Dict, List, Any, Optional, Set, Tuple
+
+from api.birdeye_connector import BirdeyeAPI
+from api.rugcheck_connector import RugCheckConnector
+from services.logger_setup import LoggerSetup
+from utils.structured_logger import get_structured_logger
+
+
+class BaseTokenDiscoveryStrategy:
+    """
+    Base class for token discovery strategies.
+    
+    Each strategy implements a specific approach to discovering promising tokens
+    using the Birdeye API's token list endpoint with different parameters.
+    """
+    
+    def __init__(
+        self,
+        name: str,
+        description: str,
+        api_parameters: Dict[str, Any],
+        min_consecutive_appearances: int = 3,
+        logger: Optional[logging.Logger] = None,
+        storage_dir: str = "data/discovery_results",
+        enable_rugcheck_filtering: bool = True
+    ):
+        """
+        Initialize the base token discovery strategy.
+        
+        Args:
+            name: Name of the strategy
+            description: Description of the strategy's purpose
+            api_parameters: Parameters for the Birdeye API token list call
+            min_consecutive_appearances: Min number of consecutive appearances to consider promising
+            logger: Logger instance
+            storage_dir: Directory to store strategy results
+            enable_rugcheck_filtering: Enable RugCheck security filtering
+        """
+        self.name = name
+        self.description = description
+        self.api_parameters = api_parameters
+        self.min_consecutive_appearances = min_consecutive_appearances
+        self.enable_rugcheck_filtering = enable_rugcheck_filtering
+        
+        # Setup logger
+        if logger:
+            self.logger = logger
+        else:
+            logger_setup = LoggerSetup(f"Strategy_{name}")
+            self.logger = logger_setup.logger
+        
+        # Setup RugCheck connector for security filtering
+        if self.enable_rugcheck_filtering:
+            self.rugcheck_connector = RugCheckConnector(logger=self.logger)
+            self.logger.info(f"🛡️ RugCheck security filtering enabled for {name} strategy")
+        else:
+            self.rugcheck_connector = None
+            self.logger.info(f"⚠️ RugCheck security filtering disabled for {name} strategy")
+        
+        # Setup storage
+        self.storage_dir = Path(storage_dir)
+        self.storage_dir.mkdir(parents=True, exist_ok=True)
+        self.storage_file = self.storage_dir / f"{name.lower().replace(' ', '_')}_results.json"
+        
+        # Load history or initialize empty
+        self.token_history = self.load_history()
+        
+        # Last execution time
+        self.last_execution_time = self.token_history.get("last_execution_time", 0)
+        
+        # Risk management parameters - can be overridden by subclasses
+        self.risk_management = {
+            "max_allocation_percentage": 5.0,  # Max 5% allocation per token
+            "suspicious_volume_multiplier": 3.0,  # Flag if volume jumps more than 3x
+            "min_holder_distribution": 0.5,  # Top 10 holders should have < 50% 
+            "max_concentration_pct": 70.0,  # Max 70% concentration in top wallets
+            "min_dexs_with_liquidity": 2,  # Minimum DEXs with liquidity
+            "min_days_since_listing": 2,       # Require at least 2 days history
+        }
+        
+        self.structured_logger = get_structured_logger('StrategyExecutor')
+        
+    async def execute(self, birdeye_api: BirdeyeAPI, scan_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """
+        Execute the strategy by calling the Birdeye API with the strategy's parameters.
+        
+        Args:
+            birdeye_api: Initialized Birdeye API instance
+            scan_id: Optional scan ID for structured logging
+            
+        Returns:
+            List of token data dictionaries
+        """
+        self.structured_logger.info({"event": "strategy_run_start", "strategy": self.name, "scan_id": scan_id, "params": self.api_parameters, "timestamp": int(time.time())})
+        self.logger.info(f"Executing {self.name} strategy")
+        
+        try:
+            # Extract API parameters
+            params = self.api_parameters.copy()
+            sort_by = params.pop("sort_by", "volume_24h_usd")
+            sort_type = params.pop("sort_type", "desc")
+            limit = params.pop("limit", 20)
+            
+            # Call the Birdeye API
+            result = await birdeye_api.get_token_list(
+                sort_by=sort_by,
+                sort_type=sort_type,
+                limit=limit,
+                **params
+            )
+            
+            # Process the results
+            if result and isinstance(result, dict) and result.get("success") is True and "data" in result:
+                tokens = result.get("data", {}).get("tokens", [])
+                self.structured_logger.info({"event": "strategy_run_end", "strategy": self.name, "scan_id": scan_id, "tokens_found": len(tokens), "timestamp": int(time.time())})
+                self.logger.info(f"Strategy {self.name} found {len(tokens)} tokens")
+                
+                # Filter out major tokens to save processing time
+                from services.early_token_detection import filter_major_tokens
+                tokens = filter_major_tokens(tokens)
+                self.logger.info(f"Strategy {self.name} after major token filtering: {len(tokens)} tokens")
+                
+                processed_tokens = await self.process_results(tokens, birdeye_api, scan_id=scan_id)
+                
+                self.last_execution_time = int(time.time())
+                self.token_history["last_execution_time"] = self.last_execution_time
+                
+                self.save_history()
+                
+                return processed_tokens
+            elif result and isinstance(result, dict) and result.get("success") is False:
+                self.structured_logger.warning({"event": "strategy_error", "strategy": self.name, "scan_id": scan_id, "error": result.get('message', 'No error message')})
+                self.logger.warning(f"Strategy {self.name} API call failed: {result.get('message', 'No error message')}")
+                return []
+            else:
+                self.structured_logger.warning({"event": "strategy_error", "strategy": self.name, "scan_id": scan_id, "error": f"Strategy returned invalid or unsuccessful results structure: {result}"})
+                self.logger.warning(f"Strategy {self.name} returned invalid or unsuccessful results structure: {result}")
+                return []
+                
+        except Exception as e:
+            self.structured_logger.error({"event": "strategy_error", "strategy": self.name, "scan_id": scan_id, "error": str(e)})
+            self.logger.error(f"Error executing strategy {self.name}: {e}")
+            return []
+    
+    async def process_results(self, tokens: List[Dict[str, Any]], birdeye_api: BirdeyeAPI, scan_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """
+        Process the results from the API call, apply RugCheck filtering, and track token appearances.
+        
+        Args:
+            tokens: List of token data from API
+            birdeye_api: API instance for additional data fetching
+            scan_id: Optional scan ID for structured logging
+            
+        Returns:
+            List of processed and security-filtered token data
+        """
+        processed_tokens = []
+        current_time = int(time.time())
+        
+        # Step 1: Apply RugCheck security filtering if enabled
+        if self.enable_rugcheck_filtering and self.rugcheck_connector and tokens:
+            self.logger.info(f"🛡️ Applying RugCheck security filtering to {len(tokens)} tokens from {self.name} strategy")
+            
+            # Extract token addresses for batch analysis
+            token_addresses = [token.get("address") for token in tokens if token.get("address")]
+            
+            if token_addresses:
+                # Perform batch security analysis
+                rugcheck_results = await self.rugcheck_connector.batch_analyze_tokens(token_addresses)
+                
+                # Filter tokens based on security analysis
+                tokens = self.rugcheck_connector.filter_healthy_tokens(tokens, rugcheck_results)
+                
+                self.logger.info(f"🛡️ Security filtering complete: {len(tokens)} healthy tokens remaining")
+            else:
+                self.logger.warning(f"⚠️ No valid token addresses found for security analysis")
+        
+        # Step 2: Process the filtered tokens
+        for token in tokens:
+            # Extract token address and basic info
+            token_address = token.get("address")
+            
+            if not token_address:
+                continue
+                
+            # Track this token's appearance
+            token_history = self.track_token(token_address, token, current_time)
+            
+            # Add tracking data to token
+            token["strategy_data"] = {
+                "strategy": self.name,
+                "consecutive_appearances": token_history.get("consecutive_appearances", 1),
+                "first_seen": token_history.get("first_seen", current_time),
+                "appearances": token_history.get("appearances", [current_time]),
+                "rugcheck_filtered": self.enable_rugcheck_filtering
+            }
+            
+            self.structured_logger.info({
+                "event": "strategy_token_eval",
+                "strategy": self.name,
+                "scan_id": scan_id,
+                "token": token_address,
+                "features": token,
+                "consecutive_appearances": token_history.get("consecutive_appearances", 1),
+                "decision": "promising" if token_history.get("consecutive_appearances", 1) >= self.min_consecutive_appearances else "not_promising",
+                "rugcheck_filtered": self.enable_rugcheck_filtering,
+                "security_analysis": token.get("security_analysis", {})
+            })
+            
+            # Add the processed token to the list
+            processed_tokens.append(token)
+            
+        return processed_tokens
+    
+    def track_token(self, token_address: str, token_data: Dict[str, Any], timestamp: int) -> Dict[str, Any]:
+        """
+        Track a token's appearance in the strategy results.
+        
+        Args:
+            token_address: The token's address
+            token_data: Token data from API
+            timestamp: Current timestamp
+            
+        Returns:
+            Token history dictionary
+        """
+        # Initialize if this is a new token
+        if token_address not in self.token_history.get("tokens", {}):
+            self.token_history["tokens"][token_address] = {
+                "first_seen": timestamp,
+                "appearances": [timestamp],
+                "consecutive_appearances": 1,
+                "last_seen": timestamp,
+                "last_data": token_data
+            }
+            return self.token_history["tokens"][token_address]
+            
+        # Update existing token
+        token_history = self.token_history["tokens"][token_address]
+        
+        # Check if this is a consecutive appearance (within 8 hours of last appearance)
+        last_seen = token_history.get("last_seen", 0)
+        is_consecutive = (timestamp - last_seen) < (8 * 60 * 60)  # 8 hours
+        
+        if is_consecutive:
+            token_history["consecutive_appearances"] += 1
+        else:
+            token_history["consecutive_appearances"] = 1
+            
+        # Update appearance data
+        token_history["appearances"].append(timestamp)
+        token_history["last_seen"] = timestamp
+        token_history["last_data"] = token_data
+        
+        # Keep only the last 10 appearances to save space
+        if len(token_history["appearances"]) > 10:
+            token_history["appearances"] = token_history["appearances"][-10:]
+            
+        return token_history
+    
+    def get_promising_tokens(self) -> List[str]:
+        """
+        Get tokens that have appeared in enough consecutive runs to be considered promising.
+        
+        Returns:
+            List of promising token addresses
+        """
+        promising = []
+        
+        for address, history in self.token_history.get("tokens", {}).items():
+            if history.get("consecutive_appearances", 0) >= self.min_consecutive_appearances:
+                promising.append(address)
+                
+        return promising
+    
+    def load_history(self) -> Dict[str, Any]:
+        """
+        Load token tracking history from storage.
+        
+        Returns:
+            Dictionary with token tracking data
+        """
+        if not self.storage_file.exists():
+            return {"tokens": {}, "last_execution_time": 0}
+            
+        try:
+            with open(self.storage_file, 'r') as f:
+                history = json.load(f)
+                
+            # Ensure the structure is correct
+            if not isinstance(history, dict):
+                history = {"tokens": {}, "last_execution_time": 0}
+            if "tokens" not in history:
+                history["tokens"] = {}
+            if "last_execution_time" not in history:
+                history["last_execution_time"] = 0
+                
+            return history
+            
+        except Exception as e:
+            self.logger.error(f"Error loading history for {self.name}: {e}")
+            return {"tokens": {}, "last_execution_time": 0}
+    
+    def save_history(self) -> None:
+        """Save token tracking history to storage."""
+        try:
+            with open(self.storage_file, 'w') as f:
+                json.dump(self.token_history, f, indent=2)
+                
+        except Exception as e:
+            self.logger.error(f"Error saving history for {self.name}: {e}")
+    
+    def clean_expired_tokens(self, max_age_days: int = 7) -> None:
+        """
+        Remove tokens that haven't been seen recently.
+        
+        Args:
+            max_age_days: Maximum age in days before removing a token
+        """
+        current_time = int(time.time())
+        max_age_seconds = max_age_days * 24 * 60 * 60
+        
+        tokens_to_remove = []
+        
+        for address, history in self.token_history.get("tokens", {}).items():
+            last_seen = history.get("last_seen", 0)
+            if (current_time - last_seen) > max_age_seconds:
+                tokens_to_remove.append(address)
+                
+        for address in tokens_to_remove:
+            del self.token_history["tokens"][address]
+            
+        if tokens_to_remove:
+            self.logger.info(f"Removed {len(tokens_to_remove)} expired tokens from {self.name}")
+            self.save_history()
+
+
+class VolumeMomentumStrategy(BaseTokenDiscoveryStrategy):
+    """
+    Volume Momentum Strategy - Identify tokens with significant trading activity growth
+    that may indicate emerging trends or market interest.
+    """
+    
+    def __init__(self, logger: Optional[logging.Logger] = None):
+        """Initialize the Volume Momentum Strategy."""
+        super().__init__(
+            name="Volume Momentum Strategy",
+            description="Identify tokens with significant trading activity growth that may indicate emerging trends or market interest.",
+            api_parameters={
+                "sort_by": "volume_24h_change_percent",
+                "sort_type": "desc",
+                "min_liquidity": 100000,
+                "min_volume_24h_usd": 50000,
+                "min_holder": 500,
+                "limit": 20
+            },
+            min_consecutive_appearances=3,
+            logger=logger
+        )
+    
+    async def process_results(self, tokens: List[Dict[str, Any]], birdeye_api: BirdeyeAPI, scan_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """
+        Process results with additional filtering for Volume Momentum Strategy.
+        
+        Risk Management:
+        - Exclude suspicious volume patterns
+        - Verify volume across multiple DEXs/pools
+        - Check holder concentration metrics
+        """
+        processed_tokens = await super().process_results(tokens, birdeye_api)
+        filtered_tokens = []
+        
+        for token in processed_tokens:
+            # Skip tokens with suspicious volume patterns
+            volume_24h = token.get("volume24h", 0)
+            volume_7d = token.get("volume7d", 0) or volume_24h * 7  # Estimate if not available
+            
+            # Check for abnormal volume spikes
+            if volume_24h > volume_7d / 4 * self.risk_management["suspicious_volume_multiplier"]:
+                self.logger.warning(f"Skipping token {token.get('symbol')} due to suspicious volume spike")
+                continue
+                
+            # Add to filtered tokens
+            filtered_tokens.append(token)
+            
+        return filtered_tokens
+
+
+class RecentListingsStrategy(BaseTokenDiscoveryStrategy):
+    """
+    Recent Listings with Traction - Discover newly listed tokens gaining significant
+    market attention and liquidity.
+    """
+    
+    def __init__(self, logger: Optional[logging.Logger] = None):
+        """Initialize the Recent Listings with Traction Strategy."""
+        super().__init__(
+            name="Recent Listings Strategy",
+            description="Discover newly listed tokens gaining significant market attention and liquidity.",
+            api_parameters={
+                "sort_by": "recent_listing_time",
+                "sort_type": "desc",
+                "min_liquidity": 200000,
+                "min_trade_24h_count": 500,
+                "min_holder": 300,
+                "limit": 30
+            },
+            min_consecutive_appearances=2,  # Lower threshold for new listings
+            logger=logger
+        )
+        
+        # Override risk management for new tokens
+        self.risk_management.update({
+            "max_allocation_percentage": 2.5,  # Reduce to 25% of normal size
+        })
+    
+    async def process_results(self, tokens: List[Dict[str, Any]], birdeye_api: BirdeyeAPI) -> List[Dict[str, Any]]:
+        """
+        Process results with additional filtering for Recent Listings Strategy.
+        
+        Risk Management:
+        - Position size limits for new tokens
+        - Require 7-day history before allocation
+        - Verify team/project details
+        """
+        processed_tokens_from_base = await super().process_results(tokens, birdeye_api)
+        filtered_tokens = []
+        current_time_for_processing = int(time.time()) # Consistent time for this processing run
+        
+        for token in processed_tokens_from_base:
+            token_address = token.get("address")
+            if not token_address: # Should not happen if base processed correctly
+                continue
+
+            # Get creation timestamp if available
+            creation_time = token.get("createdTime", 0) or 0
+            
+            # Calculate days since listing
+            days_since_listing = (current_time_for_processing - creation_time) / (24 * 60 * 60) if creation_time > 0 else 0
+            
+            # Add days since listing to token data for output
+            token["days_since_listing"] = days_since_listing
+            
+            # Skip if too recent (less than min days)
+            if days_since_listing < self.risk_management["min_days_since_listing"]:
+                continue
+
+            # Access the token's history entry maintained by the strategy
+            token_history_entry = self.token_history["tokens"].get(token_address)
+            if not token_history_entry: # Should not happen if base.process_results worked
+                self.logger.warning(f"Token {token_address} not found in history after base processing.")
+                continue
+
+            current_liquidity = token.get("liquidity", 0)
+
+            # Check for sustainable liquidity growth
+            initial_liquidity = token_history_entry.get("first_liquidity", 0)
+            
+            if initial_liquidity and current_liquidity < initial_liquidity:
+                # Liquidity has decreased since we first noted it, skip.
+                self.logger.info(f"Skipping {token.get('symbol')} in RecentListings as liquidity decreased from {initial_liquidity} to {current_liquidity}.")
+                continue
+                
+            # Store initial liquidity if this is first time seeing token in this strategy context for this metric
+            if not initial_liquidity: # or more explicitly: "first_liquidity" not in token_history_entry
+                token_history_entry["first_liquidity"] = current_liquidity
+                # Also add to the output token for immediate reference if needed by consumers
+                if "strategy_data" not in token: token["strategy_data"] = {}
+                token["strategy_data"]["first_liquidity_recorded_by_recent_strat"] = current_liquidity
+                self.save_history() # Save history as we've updated a strategy-specific field
+
+            # Add to filtered tokens
+            filtered_tokens.append(token)
+            
+        return filtered_tokens
+
+
+class PriceMomentumStrategy(BaseTokenDiscoveryStrategy):
+    """
+    Price Momentum with Volume Confirmation - Find tokens with strong price performance 
+    backed by increasing volume.
+    """
+    
+    def __init__(self, logger: Optional[logging.Logger] = None):
+        """Initialize the Price Momentum with Volume Confirmation Strategy."""
+        super().__init__(
+            name="Price Momentum Strategy",
+            description="Find tokens with strong price performance backed by increasing volume.",
+            api_parameters={
+                "sort_by": "price_change_24h_percent",
+                "sort_type": "desc",
+                "min_volume_24h_usd": 100000,
+                "min_volume_24h_change_percent": 20,
+                "min_liquidity": 300000,
+                "min_trade_24h_count": 700,
+                "limit": 25
+            },
+            min_consecutive_appearances=2,
+            logger=logger
+        )
+    
+    async def process_results(self, tokens: List[Dict[str, Any]], birdeye_api: BirdeyeAPI) -> List[Dict[str, Any]]:
+        """
+        Process results with additional filtering for Price Momentum Strategy.
+        
+        Risk Management:
+        - Avoid tokens up >50% in 24h
+        - Verify price action vs. broader market
+        - Check for wash trading
+        """
+        processed_tokens = await super().process_results(tokens, birdeye_api)
+        filtered_tokens = []
+        
+        for token in processed_tokens:
+            # Skip tokens with excessive price increases (>50% in 24h)
+            price_change_24h = token.get("priceChange24h", 0)
+            if price_change_24h > 50:
+                self.logger.warning(f"Skipping token {token.get('symbol')} due to excessive 24h price increase: {price_change_24h}%")
+                continue
+                
+            # Check for volume growth matching price growth
+            volume_change_24h = token.get("volumeChange24h", 0)
+            if volume_change_24h < price_change_24h * 0.5:
+                self.logger.warning(f"Skipping token {token.get('symbol')} due to volume not matching price growth")
+                continue
+                
+            # Add to filtered tokens
+            filtered_tokens.append(token)
+            
+        return filtered_tokens
+
+
+class LiquidityGrowthStrategy(BaseTokenDiscoveryStrategy):
+    """
+    Liquidity Growth Detector - Find tokens rapidly gaining liquidity, 
+    a leading indicator for price movements.
+    """
+    
+    def __init__(self, logger: Optional[logging.Logger] = None):
+        """Initialize the Liquidity Growth Detector Strategy."""
+        super().__init__(
+            name="Liquidity Growth Strategy",
+            description="Find tokens rapidly gaining liquidity, a leading indicator for price movements.",
+            api_parameters={
+                "sort_by": "liquidity",
+                "sort_type": "desc",
+                "min_market_cap": 1000000,
+                "max_market_cap": 100000000,
+                "min_holder": 1000,
+                "min_volume_24h_usd": 200000,
+                "limit": 50
+            },
+            min_consecutive_appearances=3,
+            logger=logger
+        )
+    
+    async def process_results(self, tokens: List[Dict[str, Any]], birdeye_api: BirdeyeAPI) -> List[Dict[str, Any]]:
+        """
+        Process results with additional filtering for Liquidity Growth Strategy.
+        
+        Risk Management:
+        - Verify distributed liquidity
+        - Watch for single-wallet provision
+        - Monitor 7-day liquidity stability
+        """
+        processed_tokens = await super().process_results(tokens, birdeye_api)
+        filtered_tokens = []
+        
+        for token in processed_tokens:
+            # Calculate liquidity-to-market-cap ratio
+            liquidity = token.get("liquidity", 0)
+            market_cap = token.get("marketCap", 0)
+            
+            if market_cap > 0:
+                liq_to_mcap_ratio = liquidity / market_cap
+                
+                # Add ratio to token data
+                token["liq_to_mcap_ratio"] = liq_to_mcap_ratio
+                
+                # Skip tokens with very low liquidity relative to market cap
+                if liq_to_mcap_ratio < 0.05:  # Less than 5% of market cap in liquidity
+                    continue
+            
+            # Check for growing holder count
+            holders = token.get("holder", 0)
+            prev_holders = token.get("strategy_data", {}).get("last_data", {}).get("holder", 0)
+            
+            if prev_holders and holders <= prev_holders:
+                continue
+                
+            # Add to filtered tokens
+            filtered_tokens.append(token)
+            
+        return filtered_tokens
+
+
+class HighTradingActivityStrategy(BaseTokenDiscoveryStrategy):
+    """
+    High Trading Activity Filter - Discover tokens with unusually high trading activity
+    relative to market cap.
+    """
+    
+    def __init__(self, logger: Optional[logging.Logger] = None):
+        """Initialize the High Trading Activity Filter Strategy."""
+        super().__init__(
+            name="High Trading Activity Strategy",
+            description="Discover tokens with unusually high trading activity relative to market cap.",
+            api_parameters={
+                "sort_by": "trade_24h_count",
+                "sort_type": "desc",
+                "min_liquidity": 150000,
+                "min_volume_24h_usd": 75000,
+                "min_holder": 400,
+                "limit": 30
+            },
+            min_consecutive_appearances=3,
+            logger=logger
+        )
+    
+    async def process_results(self, tokens: List[Dict[str, Any]], birdeye_api: BirdeyeAPI) -> List[Dict[str, Any]]:
+        """
+        Process results with additional filtering for High Trading Activity Strategy.
+        
+        Risk Management:
+        - Verify trade count distribution
+        - Identify bot/wash trade patterns
+        - Compare with historical activity
+        """
+        processed_tokens = await super().process_results(tokens, birdeye_api)
+        filtered_tokens = []
+        
+        for token in processed_tokens:
+            # Calculate trade count to market cap ratio
+            trade_count = token.get("txns24h", 0)
+            market_cap = token.get("marketCap", 0)
+            
+            if market_cap > 0:
+                trades_per_mcap = (trade_count * 1000000) / market_cap  # Trades per $1M market cap
+                
+                # Add ratio to token data
+                token["trades_per_mcap"] = trades_per_mcap
+                
+                # Skip tokens with abnormally high trading activity (potential wash trading)
+                if trades_per_mcap > 500:  # More than 500 trades per $1M market cap
+                    self.logger.warning(f"Skipping token {token.get('symbol')} due to potential wash trading")
+                    continue
+            
+            # Add to filtered tokens
+            filtered_tokens.append(token)
+            
+        return filtered_tokens 

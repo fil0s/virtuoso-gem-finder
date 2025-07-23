@@ -38,37 +38,34 @@ from utils.enhanced_structured_logger import create_enhanced_logger, DetectionSt
 
 # Import dashboard utilities
 try:
-    from dashboard_utils import create_dashboard
+    from src.dashboard.dashboard_utils import create_dashboard
     DASHBOARD_AVAILABLE = True
 except ImportError:
-    try:
-        from src.dashboard.dashboard_utils import create_dashboard
-        DASHBOARD_AVAILABLE = True
-    except ImportError:
-        DASHBOARD_AVAILABLE = False
-        print("⚠️ Dashboard utilities not available")
+    DASHBOARD_AVAILABLE = False
+    print("⚠️ Dashboard utilities not available")
 
 # Import styled dashboard
 try:
-    from dashboard_styled import create_futuristic_dashboard
+    from src.dashboard.dashboard_styled import create_futuristic_dashboard
     STYLED_DASHBOARD_AVAILABLE = True
 except ImportError:
-    try:
-        from src.dashboard.dashboard_styled import create_futuristic_dashboard
-        STYLED_DASHBOARD_AVAILABLE = True
-    except ImportError:
-        STYLED_DASHBOARD_AVAILABLE = False
+    STYLED_DASHBOARD_AVAILABLE = False
+    print("⚠️ Styled dashboard not available")
 
 # Import web dashboard
 try:
-    from web_dashboard import VirtuosoWebDashboard
+    # Try integrated version first for enhanced features
+    from src.dashboard.web_dashboard_integrated import VirtuosoWebDashboard
     WEB_DASHBOARD_AVAILABLE = True
+    print("✨ Enhanced web dashboard loaded")
 except ImportError:
     try:
+        # Fallback to original version
         from src.dashboard.web_dashboard import VirtuosoWebDashboard
         WEB_DASHBOARD_AVAILABLE = True
     except ImportError:
         WEB_DASHBOARD_AVAILABLE = False
+        print("⚠️ Web dashboard not available")
 
 def _display_detailed_scan_summary(detector, result, cycle_number, total_cycles):
     """Display detailed scan summary with batching optimization metrics"""
@@ -637,15 +634,27 @@ async def run_3hour_detector():
             # Call the original method
             result = await original_run_detection_cycle()
             
-            # Update web dashboard with results
+            # Update web dashboard with enhanced results
             if web_dashboard and result:
-                # Extract tokens from result
+                # Extract tokens from result with full metadata
                 if 'candidates' in result:
                     for candidate in result['candidates']:
                         web_dashboard.add_token({
                             'address': candidate.get('address', 'Unknown'),
                             'symbol': candidate.get('symbol', 'Unknown'),
-                            'score': candidate.get('score', 0)
+                            'name': candidate.get('name', ''),
+                            'score': candidate.get('score', 0),
+                            'market_cap': candidate.get('market_cap', candidate.get('marketCap', 0)),
+                            'volume_24h': candidate.get('volume_24h', candidate.get('volume24h', 0)),
+                            'liquidity': candidate.get('liquidity', 0),
+                            'price_change_24h': candidate.get('price_change_24h', 0),
+                            'discovery_source': candidate.get('discovery_source', candidate.get('source', 'unknown')),
+                            'platform': candidate.get('platform', 'unknown'),
+                            'token_age': candidate.get('token_age', 'unknown'),
+                            'holder_count': candidate.get('holder_count', 0),
+                            'current_stage': result.get('current_stage', 1),
+                            'is_early_gem_candidate': candidate.get('is_early_gem_candidate', False),
+                            'volume_tvl_ratio': candidate.get('volume_tvl_ratio', 0)
                         }, is_high_conviction=candidate.get('score', 0) >= 85)
                         
                 # Update stats

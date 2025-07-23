@@ -1,0 +1,221 @@
+{
+  "start_time": 1752854455.769089,
+  "cycles": [
+    {
+      "cycle_number": 1,
+      "timestamp": "2025-07-18T12:00:55.769158",
+      "total_analyzed": 175,
+      "high_conviction_count": 2,
+      "alerts_sent": 2,
+      "cycle_time": 46.5,
+      "top_tokens": [
+        {
+          "symbol": "TOKEN1A",
+          "score": 86.5,
+          "market_cap": 600000,
+          "source": "birdeye",
+          "platform": "raydium",
+          "address": "0x1234567890abcdef1",
+          "found_at": "2025-07-18T12:00:55.769213",
+          "cycle": 1
+        },
+        {
+          "symbol": "GEM1B",
+          "score": 79.2,
+          "market_cap": 350000,
+          "source": "moralis",
+          "platform": "orca",
+          "address": "0xabcdef12345678901",
+          "found_at": "2025-07-18T12:00:55.769219",
+          "cycle": 1
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 62.96296296296296,
+        "calls_saved": 272,
+        "total_calls": 108,
+        "batch_calls": 68
+      },
+      "platform_breakdown": {
+        "raydium": 1,
+        "orca": 1,
+        "birdeye": 1
+      }
+    },
+    {
+      "cycle_number": 2,
+      "timestamp": "2025-07-18T12:00:56.770973",
+      "total_analyzed": 200,
+      "high_conviction_count": 2,
+      "alerts_sent": 2,
+      "cycle_time": 47.5,
+      "top_tokens": [
+        {
+          "symbol": "TOKEN2A",
+          "score": 87.5,
+          "market_cap": 700000,
+          "source": "birdeye",
+          "platform": "raydium",
+          "address": "0x1234567890abcdef2",
+          "found_at": "2025-07-18T12:00:56.771082",
+          "cycle": 2
+        },
+        {
+          "symbol": "GEM2B",
+          "score": 80.2,
+          "market_cap": 400000,
+          "source": "moralis",
+          "platform": "orca",
+          "address": "0xabcdef12345678902",
+          "found_at": "2025-07-18T12:00:56.771108",
+          "cycle": 2
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 63.96396396396396,
+        "calls_saved": 284,
+        "total_calls": 111,
+        "batch_calls": 71
+      },
+      "platform_breakdown": {
+        "raydium": 1,
+        "orca": 1,
+        "birdeye": 1
+      }
+    },
+    {
+      "cycle_number": 3,
+      "timestamp": "2025-07-18T12:00:57.771879",
+      "total_analyzed": 225,
+      "high_conviction_count": 2,
+      "alerts_sent": 2,
+      "cycle_time": 48.5,
+      "top_tokens": [
+        {
+          "symbol": "TOKEN3A",
+          "score": 88.5,
+          "market_cap": 800000,
+          "source": "birdeye",
+          "platform": "raydium",
+          "address": "0x1234567890abcdef3",
+          "found_at": "2025-07-18T12:00:57.771955",
+          "cycle": 3
+        },
+        {
+          "symbol": "GEM3B",
+          "score": 81.2,
+          "market_cap": 450000,
+          "source": "moralis",
+          "platform": "orca",
+          "address": "0xabcdef12345678903",
+          "found_at": "2025-07-18T12:00:57.771965",
+          "cycle": 3
+        }
+      ],
+      "api_efficiency": {
+        "efficiency": 64.91228070175438,
+        "calls_saved": 296,
+        "total_calls": 114,
+        "batch_calls": 74
+      },
+      "platform_breakdown": {
+        "raydium": 1,
+        "orca": 1,
+        "birdeye": 1
+      }
+    }
+  ],
+  "total_tokens_analyzed": 600,
+  "total_high_conviction": 6,
+  "total_alerts_sent": 6,
+  "api_calls_saved": 0,
+  "best_tokens": [
+    {
+      "symbol": "TOKEN3A",
+      "score": 88.5,
+      "market_cap": 800000,
+      "source": "birdeye",
+      "platform": "raydium",
+      "address": "0x1234567890abcdef3",
+      "found_at": "2025-07-18T12:00:57.771955",
+      "cycle": 3
+    },
+    {
+      "symbol": "TOKEN2A",
+      "score": 87.5,
+      "market_cap": 700000,
+      "source": "birdeye",
+      "platform": "raydium",
+      "address": "0x1234567890abcdef2",
+      "found_at": "2025-07-18T12:00:56.771082",
+      "cycle": 2
+    },
+    {
+      "symbol": "TOKEN1A",
+      "score": 86.5,
+      "market_cap": 600000,
+      "source": "birdeye",
+      "platform": "raydium",
+      "address": "0x1234567890abcdef1",
+      "found_at": "2025-07-18T12:00:55.769213",
+      "cycle": 1
+    },
+    {
+      "symbol": "GEM3B",
+      "score": 81.2,
+      "market_cap": 450000,
+      "source": "moralis",
+      "platform": "orca",
+      "address": "0xabcdef12345678903",
+      "found_at": "2025-07-18T12:00:57.771965",
+      "cycle": 3
+    },
+    {
+      "symbol": "GEM2B",
+      "score": 80.2,
+      "market_cap": 400000,
+      "source": "moralis",
+      "platform": "orca",
+      "address": "0xabcdef12345678902",
+      "found_at": "2025-07-18T12:00:56.771108",
+      "cycle": 2
+    },
+    {
+      "symbol": "GEM1B",
+      "score": 79.2,
+      "market_cap": 350000,
+      "source": "moralis",
+      "platform": "orca",
+      "address": "0xabcdef12345678901",
+      "found_at": "2025-07-18T12:00:55.769219",
+      "cycle": 1
+    }
+  ],
+  "platform_performance": {
+    "raydium": {
+      "total_tokens": 3,
+      "cycles_active": 3,
+      "avg_tokens_per_cycle": 1.0
+    },
+    "orca": {
+      "total_tokens": 3,
+      "cycles_active": 3,
+      "avg_tokens_per_cycle": 1.0
+    },
+    "birdeye": {
+      "total_tokens": 3,
+      "cycles_active": 3,
+      "avg_tokens_per_cycle": 1.0
+    }
+  },
+  "hourly_stats": {
+    "12": {
+      "cycles": 3,
+      "tokens_analyzed": 600,
+      "high_conviction": 6,
+      "alerts_sent": 6,
+      "avg_cycle_time": 47.5,
+      "total_cycle_time": 142.5
+    }
+  }
+}

@@ -1,0 +1,8 @@
+python -c "
+from scripts.high_conviction_token_detector import HighConvictionTokenDetector
+detector = HighConvictionTokenDetector()
+print('✅ CONFIGURATION TEST:')
+print(f'📊 High Conviction Threshold: {detector.high_conviction_threshold} (should be 45.0)')
+print(f'🚨 Alert Threshold: {detector.alert_threshold} (should be 35.0)')
+print(f'🎯 Min Cross-Platform Score: {detector.min_cross_platform_score} (should be 30.0)')
+"

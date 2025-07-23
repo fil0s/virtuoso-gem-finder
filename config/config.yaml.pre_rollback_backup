@@ -1,0 +1,290 @@
+ANALYSIS:
+  alert_score_threshold: 35.0
+  scoring:
+    auto_threshold_adjustment:
+      adjustment_factor: 0.3
+      enabled: true
+      min_sample_size: 10
+      target_alert_rate_percent: 20
+    cross_platform:
+      excellent_score: 85.0
+      high_conviction_threshold: 37.71
+      min_candidate_score: 30.0
+      outstanding_score: 95.0
+    final_scoring:
+      adjustment_range: 15.0
+      alert_threshold: 30.0
+      cap_score: 100.0
+    max_score: 100.0
+    min_score: 0.0
+    normalization:
+      dynamic_scaling: true
+      enabled: true
+      method: percentile
+      percentile_cutoff: 95
+  scoring_weights:
+    age: 0.25
+    concentration: 0.1
+    liquidity: 0.28
+    price_change: 0.18
+    trend_dynamics: 0.05
+    volume: 0.14
+  smart_money_wallets: []
+  social_media:
+    bonuses:
+      discord_bonus: 10
+      established_community_bonus: 15
+      github_bonus: 8
+      max_social_bonus: 25
+      medium_bonus: 5
+      multi_platform_bonus: 10
+      reddit_bonus: 5
+      telegram_bonus: 20
+      twitter_bonus: 10
+      verified_accounts_bonus: 8
+      website_bonus: 15
+    quality_thresholds:
+      excellent: 80
+      good: 60
+      moderate: 40
+      weak: 20
+    validation:
+      news_domains:
+      - cointelegraph.com
+      - coindesk.com
+      - decrypt.co
+      - blockworks.co
+      - googlejapan
+      - status/
+      official_patterns:
+      - twitter.com/[^/]+$
+      - x.com/[^/]+$
+      - t.me/[^/]+$
+      - discord.gg/
+      - github.com/[^/]+$
+  stage_thresholds:
+    full_score: 70
+    medium_score: 50
+    quick_score: 30
+BIRDEYE_API:
+  api_key: ${BIRDEYE_API_KEY}
+  base_url: https://public-api.birdeye.so
+  rate_limit_burst: 20
+  rate_limit_requests_per_second: 10
+  request_timeout_seconds: 20
+  use_rate_limiting: true
+CROSS_PLATFORM_ANALYSIS:
+  analysis:
+    correlation_threshold: 0.6
+    high_conviction_score_threshold: 7.0
+    max_tokens_per_platform: 50
+  caching:
+    batch_api_calls: true
+    cache_cross_platform_data: true
+    use_enhanced_caching: true
+  cost_optimization:
+    batch_similar_requests: true
+    prefer_cached_data: true
+    rate_limit_between_batches: 0.5
+  data_sources:
+    birdeye: true
+    dexscreener: true
+    rugcheck: true
+  enabled: true
+  scheduling:
+    daemon_mode: false
+    run_interval_minutes: 15
+DATABASE:
+  enabled: false
+  path: data/tokens.db
+  type: sqlite
+DEVELOPMENT:
+  debug_data_path: debug/
+  debug_mode: false
+  mock_api_calls: false
+  save_debug_data: true
+ENHANCED_CACHING:
+  cache_warming:
+    batch_size: 20
+    enabled: true
+    max_concurrent_batches: 3
+    warmup_on_position_tracking: true
+  cost_optimization:
+    auto_refresh_critical_data: true
+    batch_similar_requests: true
+    estimate_cost_savings: true
+    prioritize_position_tokens: true
+  cross_platform:
+    correlation_data_ttl: 900
+    multi_price_ttl: 120
+    multi_trade_data_ttl: 300
+    trending_data_ttl: 600
+  enabled: true
+  position_tracking:
+    position_community_sentiment_ttl: 1800
+    position_momentum_ttl: 300
+    position_price_ttl: 180
+    position_technical_indicators_ttl: 600
+    position_token_overview_ttl: 900
+    position_volume_ttl: 300
+    position_whale_activity_ttl: 600
+LOGGING:
+  console_enabled: true
+  file_backup_count: 10
+  file_enabled: true
+  file_max_size_mb: 50
+  file_path: logs/monitor.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: DEBUG
+MONITORING:
+  enable_metrics_tracking: true
+  metrics_retention_hours: 24
+  performance_alerts:
+    high_api_usage_threshold: 200
+    low_cache_hit_rate: 0.6
+    slow_scan_threshold: 180
+OPTIMIZATION:
+  batch_size: 100
+  cache_ttl_strategies:
+    default: 300
+    historical_price: 3600
+    holders: 1800
+    ohlcv_15m: 600
+    ohlcv_1h: 1800
+    ohlcv_1m: 60
+    ohlcv_5m: 300
+    price: 30
+    token_creation_info: 86400
+    token_overview: 300
+    token_security: 3600
+    top_traders: 600
+    trade_metrics: 300
+    trades: 60
+    transaction_volume: 120
+    trend_dynamics: 300
+  concurrent_limit: 10
+POSITION_TRACKING:
+  alerts:
+    cooldown_minutes: 30
+    enabled: true
+    include_analysis_details: true
+    telegram_notifications: true
+  auto_close:
+    confirmation_required: true
+    critical_exit_threshold: 95.0
+    enabled: false
+  database:
+    backup_interval_hours: 24
+    cleanup_closed_positions_days: 30
+    path: data/positions.db
+  enabled: true
+  exit_signals:
+    enabled: true
+    factor_weights:
+      community_sentiment: 0.15
+      price_momentum: 0.25
+      technical_indicators: 0.15
+      volume_degradation: 0.25
+      whale_activity: 0.2
+    thresholds:
+      critical_exit: 90.0
+      moderate_exit: 60.0
+      strong_exit: 80.0
+      weak_exit: 40.0
+  monitoring:
+    batch_analysis: true
+    check_interval_minutes: 5
+    use_enhanced_caching: true
+STRATEGY_SCHEDULER:
+  enabled: true
+  run_hours:
+  - 0
+  - 6
+  - 12
+  - 18
+  strategies:
+    HighTradingActivityStrategy:
+      api_parameters:
+        limit: 30
+        min_holder: 400
+        min_liquidity: 150000
+        min_volume_24h_usd: 75000
+        sort_by: trade_24h_count
+        sort_type: desc
+      enabled: true
+      min_consecutive_appearances: 3
+    LiquidityGrowthStrategy:
+      api_parameters:
+        limit: 50
+        max_market_cap: 100000000
+        min_holder: 1000
+        min_market_cap: 1000000
+        min_volume_24h_usd: 200000
+        sort_by: liquidity
+        sort_type: desc
+      enabled: true
+      min_consecutive_appearances: 3
+    PriceMomentumStrategy:
+      api_parameters:
+        limit: 25
+        min_liquidity: 300000
+        min_trade_24h_count: 700
+        min_volume_24h_change_percent: 20
+        min_volume_24h_usd: 100000
+        sort_by: price_change_24h_percent
+        sort_type: desc
+      enabled: true
+      min_consecutive_appearances: 2
+    RecentListingsStrategy:
+      api_parameters:
+        limit: 30
+        min_holder: 300
+        min_liquidity: 200000
+        min_trade_24h_count: 500
+        sort_by: recent_listing_time
+        sort_type: desc
+      enabled: true
+      min_consecutive_appearances: 2
+    VolumeMomentumStrategy:
+      api_parameters:
+        limit: 20
+        min_holder: 500
+        min_liquidity: 100000
+        min_volume_24h_usd: 50000
+        sort_by: volume_24h_change_percent
+        sort_type: desc
+      enabled: true
+      min_consecutive_appearances: 3
+TELEGRAM:
+  alert_format: detailed
+  bot_token: ${TELEGRAM_BOT_TOKEN}
+  chat_id: ${TELEGRAM_CHAT_ID}
+  enabled: true
+  include_charts: false
+  max_alerts_per_hour: 10
+TOKEN_DISCOVERY:
+  max_tokens: 25
+  scan_interval_minutes: 8
+  strict_filters:
+    min_holder: 350
+    min_liquidity: 400000
+    min_trade_24h_count: 400
+    min_volume_1h_usd: 20000
+    min_volume_24h_usd: 150000
+    sort_by: liquidity
+    sort_type: desc
+TRADER_DISCOVERY:
+  alert_score_threshold: 35
+  discovery_interval_scans: 5
+  enabled: false
+  max_traders_per_discovery: 15
+  performance_timeframes:
+  - 24h
+  - 7d
+WHALE_TRACKING:
+  alert_on_whale_activity: false
+  enabled: false
+  min_wallet_balance_usd: 1000000
+  min_whale_transactions: 5
+  track_whale_movements: false
+  whale_transaction_min_usd: 100000

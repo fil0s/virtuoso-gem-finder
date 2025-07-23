@@ -1,0 +1,127 @@
+{
+  "orca": {
+    "analysis": {
+      "total_pools": 153,
+      "sample_pool_keys": [
+        "name",
+        "name2",
+        "account",
+        "mint_account",
+        "liquidity",
+        "price",
+        "apy_24h",
+        "apy_7d",
+        "apy_30d",
+        "volume_24h",
+        "volume_24h_quote",
+        "volume_7d",
+        "volume_7d_quote",
+        "volume_30d",
+        "volume_30d_quote"
+      ],
+      "data_types": {
+        "name": "str",
+        "name2": "str",
+        "account": "str",
+        "mint_account": "str",
+        "liquidity": "float",
+        "price": "float",
+        "apy_24h": "float",
+        "apy_7d": "float",
+        "apy_30d": "float",
+        "volume_24h": "float",
+        "volume_24h_quote": "float",
+        "volume_7d": "float",
+        "volume_7d_quote": "float",
+        "volume_30d": "float",
+        "volume_30d_quote": "float"
+      },
+      "sample_values": {
+        "name": "SAMO/SOL",
+        "name2": "SAMO/SOL[deprecated]",
+        "account": "Hj45HZesMQD4ghdU7GuskiMyYBfxLnfibqKNgdaj8284",
+        "mint_account": "9rguDaKqTrVjaDXafq6E7rKGn7NPHomkdb8RKpjKCDm2",
+        "liquidity": 8516.018384549954,
+        "price": 0.00020323064265015316,
+        "apy_24h": 0.044557835523012033,
+        "apy_7d": 0.08889593342238786,
+        "apy_30d": 0.09805455149081914,
+        "volume_24h": 182.3012809865685,
+        "volume_24h_quote": 8.958293905973882,
+        "volume_7d": 2696.7729794899797,
+        "volume_7d_quote": 132.51955673169434,
+        "volume_30d": 12101.719982497543,
+        "volume_30d_quote": 594.6791146190438
+      },
+      "statistics": {
+        "total_liquidity": 8092222.302749027,
+        "avg_liquidity": 53590.876177145874,
+        "total_volume_24h": 263809.4097870859,
+        "avg_volume_24h": 2013.8122884510374
+      }
+    },
+    "token_matches": {
+      "USELESS": [],
+      "TRUMP": [],
+      "aura": [],
+      "GOR": [],
+      "SPX": [],
+      "MUMU": [],
+      "$michi": [],
+      "BILLY": [],
+      "INF": []
+    }
+  },
+  "raydium": {
+    "analysis": {
+      "total_pools": 1000,
+      "sample_pool_keys": [
+        "identifier",
+        "token-id",
+        "liquidity_locked",
+        "apy",
+        "official"
+      ],
+      "data_types": {
+        "identifier": "str",
+        "token-id": "str",
+        "liquidity_locked": "float",
+        "apy": "float",
+        "official": "bool"
+      },
+      "sample_values": {
+        "identifier": "RAY",
+        "token-id": "4EwbZo8BZXP5313z5A2H11MRBP15M5n6YxfmkjXESKAW",
+        "liquidity_locked": 64155661.44578155,
+        "apy": 6.41,
+        "official": true
+      },
+      "statistics": {
+        "total_liquidity_locked": 65566945.983717546,
+        "avg_liquidity_locked": 65698.34266905565,
+        "avg_apy": 6.41,
+        "official_pools": 1
+      }
+    },
+    "token_matches": {
+      "USELESS": [],
+      "TRUMP": [
+        {
+          "identifier": "HUB-TRUMP",
+          "token-id": "9Yv5UTvSn6Hv97pECve3UopCvp6kn7qkqgGLQmPJQHQA-6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "liquidity_locked": 0.08746809604198473,
+          "apy": null,
+          "official": false
+        }
+      ],
+      "aura": [],
+      "GOR": [],
+      "SPX": [],
+      "MUMU": [],
+      "$michi": [],
+      "BILLY": [],
+      "INF": []
+    }
+  },
+  "summary": {}
+}

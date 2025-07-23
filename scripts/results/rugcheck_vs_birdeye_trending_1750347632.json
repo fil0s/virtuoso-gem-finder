@@ -1,0 +1,177 @@
+{
+  "timestamp": 1750347632,
+  "comparison_type": "rugcheck_vs_birdeye_trending",
+  "api_reference": "https://api.rugcheck.xyz/swagger/index.html#/",
+  "rugcheck_tokens": [],
+  "birdeye_tokens": [
+    {
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "volume_24h_usd": 50000000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "So11111111111111111111111111111111111111112",
+      "symbol": "SOL",
+      "name": "Solana",
+      "volume_24h_usd": 30000000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+      "symbol": "mSOL",
+      "name": "Marinade SOL",
+      "volume_24h_usd": 5000000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "symbol": "BONK",
+      "name": "Bonk",
+      "volume_24h_usd": 8000000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "symbol": "RAY",
+      "name": "Raydium",
+      "volume_24h_usd": 2000000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
+      "symbol": "stSOL",
+      "name": "Lido Staked SOL",
+      "volume_24h_usd": 3000000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
+      "symbol": "BTC",
+      "name": "Wrapped BTC",
+      "volume_24h_usd": 1500000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+      "symbol": "ETH",
+      "name": "Wrapped ETH",
+      "volume_24h_usd": 1200000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+      "symbol": "NEWCOIN",
+      "name": "New Sample Coin",
+      "volume_24h_usd": 800000,
+      "source": "birdeye_sample"
+    },
+    {
+      "address": "B2LoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto7",
+      "symbol": "MEMECOIN",
+      "name": "Meme Sample Coin",
+      "volume_24h_usd": 600000,
+      "source": "birdeye_sample"
+    }
+  ],
+  "overlap_analysis": {
+    "overlap": [],
+    "rugcheck_only": [],
+    "birdeye_only": [
+      {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "volume_24h_usd": 50000000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "So11111111111111111111111111111111111111112",
+        "symbol": "SOL",
+        "name": "Solana",
+        "volume_24h_usd": 30000000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+        "symbol": "mSOL",
+        "name": "Marinade SOL",
+        "volume_24h_usd": 5000000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "symbol": "BONK",
+        "name": "Bonk",
+        "volume_24h_usd": 8000000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "symbol": "RAY",
+        "name": "Raydium",
+        "volume_24h_usd": 2000000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
+        "symbol": "stSOL",
+        "name": "Lido Staked SOL",
+        "volume_24h_usd": 3000000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
+        "symbol": "BTC",
+        "name": "Wrapped BTC",
+        "volume_24h_usd": 1500000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+        "symbol": "ETH",
+        "name": "Wrapped ETH",
+        "volume_24h_usd": 1200000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+        "symbol": "NEWCOIN",
+        "name": "New Sample Coin",
+        "volume_24h_usd": 800000,
+        "source": "birdeye_sample"
+      },
+      {
+        "address": "B2LoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto7",
+        "symbol": "MEMECOIN",
+        "name": "Meme Sample Coin",
+        "volume_24h_usd": 600000,
+        "source": "birdeye_sample"
+      }
+    ],
+    "overlap_count": 0,
+    "rugcheck_unique": 0,
+    "birdeye_unique": 10
+  },
+  "quality_summary": {
+    "birdeye_sample": {
+      "token_count": 10,
+      "safety_rate": 70.0,
+      "safe_tokens": 7,
+      "risky_tokens": 3
+    }
+  },
+  "performance_metrics": {
+    "rugcheck_calls": 1,
+    "birdeye_calls": 1,
+    "total_time": 15.914355993270874
+  },
+  "recommendations": {
+    "total_overlap": 0,
+    "overlap_percentage": 0,
+    "analysis_time": 15.914355993270874,
+    "rugcheck_token_count": 0,
+    "birdeye_token_count": 10
+  }
+}

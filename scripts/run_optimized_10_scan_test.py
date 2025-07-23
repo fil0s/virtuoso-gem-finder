@@ -1,0 +1,1604 @@
+#!/usr/bin/env python3
+"""
+Optimized 10-Scan Test Session
+
+This script runs 10 scans with 10-minute intervals using all the new API call optimizations:
+- Ultra-batch full analysis
+- Parallel discovery strategy  
+- Enhanced intelligent caching
+- Cross-strategy data sharing
+- Cost calculator integration
+- Performance monitoring integration
+
+Monitors and reports optimization performance throughout the session.
+"""
+
+import os
+import sys
+import time
+import asyncio
+import json
+from datetime import datetime, timedelta
+from pathlib import Path
+import logging
+import traceback
+from typing import Dict, List, Any, Optional
+
+# Add project root to Python path
+project_root = Path(__file__).parent.parent.absolute()
+sys.path.insert(0, str(project_root))
+
+from core.config_manager import ConfigManager
+from api.birdeye_connector import BirdeyeAPI
+from api.batch_api_manager import BatchAPIManager, EnhancedCacheManager
+from api.birdeye_cost_calculator import BirdEyeCostCalculator
+from services.early_token_detection import EarlyTokenDetector
+from core.strategy_scheduler import StrategyScheduler
+from utils.structured_logger import get_structured_logger
+from services.logger_setup import LoggerSetup
+from services.telegram_alerter import TelegramAlerter, MinimalTokenMetrics
+from core.cache_manager import CacheManager
+from services.rate_limiter_service import RateLimiterService
+from services.cu_budget_monitor import CUBudgetMonitor  # NEW: Add CU Budget Monitor
+
+class OptimizedScanTestSession:
+    """
+    Optimized scanning test session with comprehensive performance monitoring and cost tracking.
+    """
+    
+    def __init__(self):
+        # Initialize logger first
+        self.logger = self._setup_logging()
+        
+        # Generate unique session ID
+        self.session_id = f"opt_scan_session_{int(time.time())}"
+        
+        # Then load configs
+        self.config = self._load_config()
+        self.monitoring_config = self._load_monitoring_config()
+        
+        # Initialize session statistics
+        self.session_stats = {
+            'total_scans': 0,
+            'total_tokens_discovered': 0,
+            'total_tokens_analyzed': 0,
+            'total_api_calls': 0,
+            'total_compute_units': 0,
+            'total_optimization_gains': {},
+            'performance_alerts': [],
+            'cost_tracking': [],
+            'session_start_time': time.time(),
+            'session_end_time': None,
+            'strategy_performance': {}  # Track strategy success rates
+        }
+        
+        # Strategy name mapping for detailed reporting
+        self.strategy_names = {
+            1: "Volume Momentum Strategy",
+            2: "Recent Listings Strategy", 
+            3: "Price Momentum Strategy",
+            4: "Liquidity Growth Strategy",
+            5: "High Trading Activity Strategy"
+        }
+        
+        # Initialize components
+        self.birdeye_api = None
+        self.cost_calculator = None
+        self.batch_manager = None
+        self.detector = None
+        self.strategy_scheduler = None
+        self.rugcheck = None
+        
+        # Load optimized configuration
+        self.config = self._load_optimized_config()
+        
+        # Load performance monitoring configuration
+        self.monitoring_config = self._load_monitoring_config()
+        
+        # Initialize APIs with optimization settings
+        self.birdeye_api = self._initialize_birdeye_api()
+        
+        # Initialize cost calculator
+        self.cost_calculator = BirdEyeCostCalculator(self.logger)
+        
+        # Initialize enhanced batch manager with new optimizations
+        self.batch_manager = BatchAPIManager(self.birdeye_api, self.logger)
+        
+        # Replace with enhanced cache manager
+        self.batch_manager.cache_manager = EnhancedCacheManager()
+        self.logger.info("🚀 Initialized EnhancedCacheManager with adaptive TTL and predictive prefetching")
+        
+        # Initialize optimized detection engine
+        self.detection_engine = EarlyTokenDetector(self.config, enable_whale_tracking=True)
+        
+        # Initialize optimized strategy scheduler
+        self.strategy_scheduler = StrategyScheduler(
+            birdeye_api=self.birdeye_api,
+            logger=self.logger,
+            enabled=True
+        )
+        
+        # Initialize CU Budget Monitor for cost tracking and alerts
+        daily_budget_cus = self.config.get('BIRDEYE_API', {}).get('daily_budget_cus', 100000)  # Default 100k CUs/day
+        self.cu_budget_monitor = CUBudgetMonitor(
+            daily_budget_cus=daily_budget_cus,
+            alert_enabled=True
+        )
+        self.logger.info(f"💰 CU Budget Monitor initialized with {daily_budget_cus:,} CUs daily budget")
+        
+        # Initialize Telegram alerter if configured
+        telegram_config = self.config.get('TELEGRAM', {})
+        telegram_token = telegram_config.get('bot_token') or os.environ.get('TELEGRAM_BOT_TOKEN')
+        telegram_chat_id = telegram_config.get('chat_id') or os.environ.get('TELEGRAM_CHAT_ID')
+        
+        self.telegram_alerter = None
+        if telegram_token and telegram_chat_id:
+            # Create a LoggerSetup instance for the telegram alerter
+            telegram_logger_setup = LoggerSetup('TelegramAlerter')
+            self.telegram_alerter = TelegramAlerter(
+                bot_token=telegram_token,
+                chat_id=telegram_chat_id,
+                logger_setup=telegram_logger_setup
+            )
+            self.logger.info("📱 Telegram alerter initialized and ready for alerts")
+        else:
+            self.logger.warning("⚠️ Telegram alerter not configured - no alerts will be sent")
+        
+        # Track recently alerted tokens to prevent duplicates
+        self.recently_alerted_tokens = set()
+        
+        self.logger.info("✅ OptimizedScanTestSession initialized with all optimizations enabled")
+        self.logger.info("💰 Cost calculator integrated for compute unit tracking")
+        self.logger.info("📊 Performance monitoring system integrated")
+    
+    def _setup_logging(self):
+        """Setup enhanced logging for optimization tracking."""
+        logger_setup = LoggerSetup("OptimizedTestSession")
+        self.file_logger = logger_setup.logger
+        self.file_logger.setLevel(logging.INFO)
+        return get_structured_logger('OptimizedTestSession')
+    
+    def _load_monitoring_config(self):
+        """Load performance monitoring configuration."""
+        try:
+            config_file = Path("config/performance_monitoring.json")
+            if config_file.exists():
+                with open(config_file, 'r') as f:
+                    config = json.load(f)
+                self.logger.info("📊 Performance monitoring configuration loaded")
+                return config
+            else:
+                self.logger.warning("⚠️ Performance monitoring config not found, using defaults")
+                return self._get_default_monitoring_config()
+        except Exception as e:
+            self.logger.error(f"Error loading monitoring config: {e}")
+            return self._get_default_monitoring_config()
+    
+    def _get_default_monitoring_config(self):
+        """Get default monitoring configuration."""
+        return {
+            'thresholds': {
+                'max_response_time_seconds': 30,
+                'min_cache_hit_rate': 0.60,
+                'max_error_rate': 0.05,
+                'min_efficiency_score': 0.70,
+                'max_api_calls_per_minute': 120
+            },
+            'performance_monitoring': {
+                'enabled': True,
+                'snapshot_interval_minutes': 5,
+                'history_retention_hours': 24,
+                'alert_cooldown_minutes': 5
+            }
+        }
+        
+    def _load_optimized_config(self):
+        """Load the optimized configuration."""
+        config_manager = ConfigManager()
+        
+        # Use the correct method name for getting config
+        config = config_manager.get_config()
+        
+        # Apply optimization overrides to ensure all optimizations are enabled
+        optimization_overrides = {
+            'ULTRA_BATCH': {
+                'enabled': True, 
+                'workflow_batch_size': 20,
+                'min_batch_size': 2
+            },
+            'CACHING': {
+                'enabled': True, 
+                'cache_type': 'enhanced',
+                'adaptive_ttl': True,
+                'predictive_prefetch': True  # NEW: Enable predictive prefetching
+            },
+            'STRATEGY_OPTIMIZATION': {
+                'cross_strategy_sharing': True,
+                'parallel_strategy_discovery': True
+            },
+            'ANALYSIS': {
+                'use_ultra_batch_full_analysis': True,
+                'stage_thresholds': {
+                    'quick_score': 40,
+                    'medium_score': 50,  # NEW: Increased quality threshold from 30 to 50
+                    'full_score': 40
+                }
+            },
+            'API_OPTIMIZATION': {
+                'birdeye': {
+                    'rate_limit_requests_per_second': 15,  # Optimized rate limit
+                    'rate_limit_burst': 30,
+                    'concurrent_limit': 8,
+                    'use_batch_endpoints': True,  # NEW: Ensure batch endpoints are used
+                    'cost_tracking_enabled': True  # NEW: Enable cost tracking
+                }
+            },
+            'BUDGET_MONITORING': {  # NEW: Budget monitoring configuration
+                'enabled': True,
+                'daily_budget_cus': 100000,
+                'alert_thresholds': [80, 95, 100]  # Alert at 80%, 95%, and 100%
+            }
+        }
+        
+        # Apply optimization overrides
+        config.update(optimization_overrides)
+        
+        self.logger.info("📋 Loaded configuration with optimization overrides enabled")
+        return config
+    
+    def _initialize_birdeye_api(self):
+        """Initialize Birdeye API with optimized settings."""
+        birdeye_config = self.config.get('BIRDEYE_API', {})
+        
+        # Apply optimization settings
+        api_optimization = self.config.get('API_OPTIMIZATION', {}).get('birdeye', {})
+        birdeye_config.update({
+            'rate_limit_requests_per_second': api_optimization.get('rate_limit_requests_per_second', 15),
+            'rate_limit_burst': api_optimization.get('rate_limit_burst', 30),
+            'request_timeout_seconds': api_optimization.get('request_timeout', 25)
+        })
+        
+        if not birdeye_config.get('api_key') and 'BIRDEYE_API_KEY' in os.environ:
+            birdeye_config['api_key'] = os.environ.get('BIRDEYE_API_KEY')
+        
+        # Initialize required dependencies
+        cache_manager = CacheManager()
+        rate_limiter = RateLimiterService()
+        
+        return BirdeyeAPI(
+            config=birdeye_config,
+            logger=self.logger,
+            cache_manager=cache_manager,
+            rate_limiter=rate_limiter
+        )
+    
+    async def run_optimized_scan_session(self, num_scans: int = 8, interval_minutes: int = 60) -> dict:
+        """Run the optimized scan session with proper cleanup."""
+        try:
+            # Components are already initialized in __init__, so we can start directly
+            self.session_stats['session_start_time'] = time.time()
+            
+            print(f"🚀 Starting {num_scans}-scan session with {interval_minutes}-minute intervals")
+            print(f"📅 Expected completion: {datetime.fromtimestamp(time.time() + (num_scans * interval_minutes * 60)).strftime('%Y-%m-%d %H:%M:%S')}")
+            
+            all_scan_results = []
+            
+            for scan_num in range(1, num_scans + 1):
+                try:
+                    print(f"\\n🔍 Starting Scan {scan_num}/{num_scans}")
+                    
+                    scan_results = await self._execute_optimized_scan(scan_num)
+                    all_scan_results.append(scan_results)
+                    
+                    # Update session stats
+                    self.session_stats['total_scans'] += 1
+                    self.session_stats['total_tokens_discovered'] += scan_results.get('tokens_discovered', 0)
+                    self.session_stats['total_tokens_analyzed'] += scan_results.get('tokens_analyzed', 0)
+                    self.session_stats['total_api_calls'] += scan_results.get('api_calls', 0)
+                    self.session_stats['total_compute_units'] += scan_results.get('compute_units', 0)
+                    
+                    # Add performance alerts to session
+                    if scan_results.get('performance_alerts'):
+                        self.session_stats['performance_alerts'].extend(scan_results['performance_alerts'])
+                    
+                    # Log scan results
+                    self._log_scan_results(scan_num, scan_results)
+                    
+                    # NEW: Update CU budget monitor after each scan
+                    scan_cus = scan_results.get('compute_units', 0)
+                    if scan_cus > 0:
+                        self.cu_budget_monitor.add_cu_usage(
+                            cus_used=scan_cus,
+                            operation=f"optimized_scan_{scan_num}",
+                            scan_id=f"scan_{scan_num}"
+                        )
+                        budget_status = self.cu_budget_monitor.get_budget_status()
+                        
+                        # Log budget status
+                        self.logger.info(f"💰 CU Budget Status after scan {scan_num}:")
+                        self.logger.info(f"   • CUs used this scan: {scan_cus:,}")
+                        self.logger.info(f"   • Daily CUs used: {budget_status.get('daily_usage', 0):,}")
+                        self.logger.info(f"   • Daily budget remaining: {budget_status.get('remaining_budget', 0):,}")
+                        self.logger.info(f"   • Budget utilization: {budget_status.get('usage_percentage', 0):.1f}%")
+                        
+                        # Check for budget alerts
+                        if budget_status.get('alert_triggered'):
+                            alert_threshold = budget_status.get('alert_threshold', 0)
+                            self.logger.warning(f"⚠️ CU Budget Alert: {alert_threshold}% of daily budget reached!")
+                            
+                            # Add budget alert to scan results
+                            if 'performance_alerts' not in scan_results:
+                                scan_results['performance_alerts'] = []
+                            scan_results['performance_alerts'].append({
+                                'type': 'budget_threshold',
+                                'severity': 'warning',
+                                'message': f"Daily CU budget {alert_threshold}% threshold reached",
+                                'usage_percentage': budget_status.get('usage_percentage', 0),
+                                'threshold': alert_threshold,
+                                'timestamp': time.time()
+                            })
+                    
+                    # Wait for next scan (except for the last one)
+                    if scan_num < num_scans:
+                        await self._wait_for_next_scan(interval_minutes, scan_num, num_scans)
+                
+                except Exception as e:
+                    self.logger.error(f"Error in optimized scan {scan_num}: {e}")
+                    scan_results = {
+                        'scan_number': scan_num,
+                        'scan_id': f"opt_scan_{scan_num}_{int(time.time())}",
+                        'start_time': time.time(),
+                        'api_calls': 0,
+                        'compute_units': 0,
+                        'tokens_discovered': 0,
+                        'tokens_analyzed': 0,
+                        'optimization_gains': {},
+                        'cache_performance': {},
+                        'stage_performance': {},
+                        'cost_breakdown': {},
+                        'performance_alerts': [],
+                        'debug_api_breakdown': {},
+                        'error': str(e)
+                    }
+                    all_scan_results.append(scan_results)
+                    self._log_scan_results(scan_num, scan_results)
+                    
+                    # Continue with next scan instead of failing entire session
+                    continue
+            
+            self.session_stats['session_end_time'] = time.time()
+            
+            # Generate comprehensive session summary
+            session_performance = self._generate_session_summary(all_scan_results)
+            
+            # NEW: Add CU budget analysis to session summary
+            if hasattr(self, 'cu_budget_monitor'):
+                budget_summary = await self.cu_budget_monitor.get_daily_summary()
+                session_performance['cu_budget_analysis'] = {
+                    'total_cus_used': budget_summary.get('total_usage', 0),
+                    'daily_budget': budget_summary.get('daily_budget', 0),
+                    'budget_utilization_percent': budget_summary.get('usage_percentage', 0),
+                    'estimated_monthly_cost': budget_summary.get('estimated_monthly_cost', 0),
+                    'alerts_triggered': budget_summary.get('alerts_triggered', []),
+                    'cost_efficiency_grade': self._calculate_cost_efficiency_grade(session_performance)
+                }
+                
+                self.logger.info(f"💰 Session CU Budget Summary:")
+                self.logger.info(f"   • Total CUs used: {budget_summary.get('total_usage', 0):,}")
+                self.logger.info(f"   • Budget utilization: {budget_summary.get('usage_percentage', 0):.1f}%")
+                self.logger.info(f"   • Estimated monthly cost: ${budget_summary.get('estimated_monthly_cost', 0):.2f}")
+                self.logger.info(f"   • Cost efficiency grade: {session_performance['cu_budget_analysis']['cost_efficiency_grade']}")
+            
+            return session_performance
+            
+        except Exception as e:
+            self.logger.error(f"Critical error in scan session: {e}")
+            self.logger.error(f"Traceback: {traceback.format_exc()}")
+            
+            # Return minimal session performance data
+            return {
+                'session_id': self.session_id,
+                'session_duration': time.time() - self.session_stats['session_start_time'],
+                'total_scans': len(all_scan_results) if 'all_scan_results' in locals() else 0,
+                'total_tokens_discovered': 0,
+                'total_tokens_analyzed': 0,
+                'total_api_calls': 0,
+                'error': str(e),
+                'scan_results': all_scan_results if 'all_scan_results' in locals() else []
+            }
+            
+        finally:
+            # Ensure proper cleanup
+            await self._cleanup_session()
+    
+    async def _execute_optimized_scan(self, scan_num: int) -> dict:
+        """
+        Run a single optimized scan with comprehensive performance tracking and cost monitoring.
+        """
+        scan_start_time = time.time()
+        scan_id = f"opt_scan_{scan_num}_{int(scan_start_time)}"
+        
+        # CRITICAL FIX: Track actual API calls before scan starts
+        api_calls_before = self.birdeye_api.api_call_tracker['total_api_calls']
+        
+        # Track cost before scan
+        cost_before = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+        compute_units_before = cost_before.get('total_compute_units', 0)
+        
+        # DEBUG: Track performance metrics before scan
+        perf_before = {}
+        try:
+            perf_before = dict(self.birdeye_api.performance_metrics)
+        except Exception as e:
+            self.logger.warning(f"Could not copy performance metrics before scan: {e}")
+            perf_before = {}
+        
+        scan_results = {
+            'scan_number': scan_num,
+            'scan_id': scan_id,
+            'start_time': scan_start_time,
+            'api_calls': 0,
+            'compute_units': 0,
+            'tokens_discovered': 0,
+            'tokens_analyzed': 0,
+            'optimization_gains': {},
+            'cache_performance': {},
+            'stage_performance': {},
+            'cost_breakdown': {},
+            'performance_alerts': [],
+            'debug_api_breakdown': {}  # NEW: Detailed API call tracking
+        }
+        
+        try:
+            # Stage 1: Parallel Discovery (optimized)
+            discovery_start = time.time()
+            discovery_api_before = self.birdeye_api.api_call_tracker['total_api_calls']
+            discovery_cost_before = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            discovery_cu_before = discovery_cost_before.get('total_compute_units', 0)
+            discovery_perf_before = {}
+            try:
+                discovery_perf_before = dict(self.birdeye_api.performance_metrics)
+            except Exception as e:
+                self.logger.warning(f"Could not copy discovery performance metrics: {e}")
+                discovery_perf_before = {}
+            
+            self.logger.info(f"🔍 Starting parallel discovery for scan {scan_num}")
+            self.logger.info(f"   📊 API calls before discovery: {discovery_api_before}")
+            self.logger.info(f"   💰 Compute units before discovery: {discovery_cu_before}")
+            
+            # Use optimized discovery with intelligent merging
+            discovered_tokens = await self.batch_manager.parallel_discovery_with_intelligent_merging(max_tokens=100)
+            
+            discovery_api_after = self.birdeye_api.api_call_tracker['total_api_calls']
+            discovery_cost_after = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            discovery_cu_after = discovery_cost_after.get('total_compute_units', 0)
+            discovery_perf_after = {}
+            try:
+                discovery_perf_after = dict(self.birdeye_api.performance_metrics)
+            except Exception as e:
+                self.logger.warning(f"Could not copy discovery performance metrics after: {e}")
+                discovery_perf_after = {}
+            discovery_duration = time.time() - discovery_start
+            discovery_api_calls = discovery_api_after - discovery_api_before
+            discovery_compute_units = discovery_cu_after - discovery_cu_before
+            
+            # DEBUG: Calculate endpoint usage during discovery
+            discovery_endpoint_usage = self._safe_dict_subtract(discovery_perf_after, discovery_perf_before, "discovery endpoint usage")
+            
+            self.logger.debug(f"Discovery stage API breakdown: {discovery_endpoint_usage}")
+            self.logger.debug(f"Discovery API calls: {discovery_api_calls}, CUs: {discovery_compute_units}")
+            
+            scan_results['stage_performance']['discovery'] = {
+                'duration': discovery_duration,
+                'tokens': len(discovered_tokens),
+                'optimization': 'parallel_discovery',
+                'api_calls': discovery_api_calls,
+                'compute_units': discovery_compute_units,
+                'endpoint_usage': discovery_endpoint_usage
+            }
+            scan_results['tokens_discovered'] = len(discovered_tokens)
+            
+            self.logger.info(f"   ✅ Discovery completed:")
+            self.logger.info(f"      • Tokens discovered: {len(discovered_tokens)}")
+            self.logger.info(f"      • API calls: {discovery_api_calls}")
+            self.logger.info(f"      • Compute units: {discovery_compute_units}")
+            self.logger.info(f"      • Duration: {discovery_duration:.2f}s")
+            self.logger.info(f"      • Endpoint usage: {discovery_endpoint_usage}")
+            
+            # Stage 2: Strategy-based Enhancement (optimized)
+            strategy_start = time.time()
+            strategy_api_before = self.birdeye_api.api_call_tracker['total_api_calls']
+            strategy_cost_before = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            strategy_cu_before = strategy_cost_before.get('total_compute_units', 0)
+            strategy_perf_before = {}
+            try:
+                strategy_perf_before = dict(self.birdeye_api.performance_metrics)
+            except Exception as e:
+                self.logger.warning(f"Could not copy strategy performance metrics: {e}")
+                strategy_perf_before = {}
+            
+            self.logger.info(f"📊 Running strategy enhancement for scan {scan_num}")
+            self.logger.info(f"   📊 API calls before strategy: {strategy_api_before}")
+            self.logger.info(f"   💰 Compute units before strategy: {strategy_cu_before}")
+            
+            # Run strategies with cross-strategy data sharing
+            strategy_tokens = await self.strategy_scheduler.run_due_strategies()
+            
+            strategy_api_after = self.birdeye_api.api_call_tracker['total_api_calls']
+            strategy_cost_after = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            strategy_cu_after = strategy_cost_after.get('total_compute_units', 0)
+            strategy_perf_after = {}
+            try:
+                strategy_perf_after = dict(self.birdeye_api.performance_metrics)
+            except Exception as e:
+                self.logger.warning(f"Could not copy strategy performance metrics after: {e}")
+                strategy_perf_after = {}
+            strategy_duration = time.time() - strategy_start
+            strategy_api_calls = strategy_api_after - strategy_api_before
+            strategy_compute_units = strategy_cu_after - strategy_cu_before
+            
+            # DEBUG: Calculate endpoint usage during strategy
+            strategy_endpoint_usage = self._safe_dict_subtract(strategy_perf_after, strategy_perf_before, "strategy endpoint usage")
+            
+            self.logger.debug(f"Strategy stage API breakdown: {strategy_endpoint_usage}")
+            self.logger.debug(f"Strategy API calls: {strategy_api_calls}, CUs: {strategy_compute_units}")
+            
+            scan_results['stage_performance']['strategy'] = {
+                'duration': strategy_duration,
+                'tokens': len(strategy_tokens) if strategy_tokens else 0,
+                'optimization': 'cross_strategy_data_sharing',
+                'api_calls': strategy_api_calls,
+                'compute_units': strategy_compute_units,
+                'endpoint_usage': strategy_endpoint_usage
+            }
+            
+            self.logger.info(f"   ✅ Strategy completed:")
+            self.logger.info(f"      • Strategy tokens: {len(strategy_tokens) if strategy_tokens else 0}")
+            self.logger.info(f"      • API calls: {strategy_api_calls}")
+            self.logger.info(f"      • Compute units: {strategy_compute_units}")
+            self.logger.info(f"      • Duration: {strategy_duration:.2f}s")
+            self.logger.info(f"      • Endpoint usage: {strategy_endpoint_usage}")
+            
+            # Stage 3: Ultra-Batch Analysis (optimized)
+            analysis_start = time.time()
+            analysis_api_before = self.birdeye_api.api_call_tracker['total_api_calls']
+            analysis_cost_before = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            analysis_cu_before = analysis_cost_before.get('total_compute_units', 0)
+            analysis_perf_before = {}
+            try:
+                analysis_perf_before = dict(self.birdeye_api.performance_metrics)
+            except Exception as e:
+                self.logger.warning(f"Could not copy analysis performance metrics: {e}")
+                analysis_perf_before = {}
+            
+            self.logger.info(f"⚡ Starting ultra-batch analysis for scan {scan_num}")
+            self.logger.info(f"   📊 API calls before analysis: {analysis_api_before}")
+            self.logger.info(f"   💰 Compute units before analysis: {analysis_cu_before}")
+            
+            # Select top tokens for analysis (limit to 30 for consistent comparison)
+            tokens_to_analyze = discovered_tokens[:30] if discovered_tokens else []
+            
+            if tokens_to_analyze:
+                # Extract addresses for ultra-batch analysis
+                token_addresses = [token.get('address') for token in tokens_to_analyze if token.get('address')]
+                
+                self.logger.info(f"   🎯 Analyzing {len(token_addresses)} token addresses")
+                
+                # Run ultra-batch complete analysis
+                analysis_results = await self.batch_manager.ultra_batch_complete_analysis(token_addresses)
+                scan_results['tokens_analyzed'] = len(analysis_results)
+            else:
+                self.logger.info(f"   ⚠️ No tokens available for analysis")
+                scan_results['tokens_analyzed'] = 0
+            
+            analysis_api_after = self.birdeye_api.api_call_tracker['total_api_calls']
+            analysis_cost_after = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            analysis_cu_after = analysis_cost_after.get('total_compute_units', 0)
+            analysis_perf_after = {}
+            try:
+                analysis_perf_after = dict(self.birdeye_api.performance_metrics)
+            except Exception as e:
+                self.logger.warning(f"Could not copy analysis performance metrics after: {e}")
+                analysis_perf_after = {}
+            analysis_duration = time.time() - analysis_start
+            analysis_api_calls = analysis_api_after - analysis_api_before
+            analysis_compute_units = analysis_cu_after - analysis_cu_before
+            
+            # DEBUG: Calculate endpoint usage during analysis
+            analysis_endpoint_usage = self._safe_dict_subtract(analysis_perf_after, analysis_perf_before, "analysis endpoint usage")
+            
+            scan_results['stage_performance']['analysis'] = {
+                'duration': analysis_duration,
+                'tokens': scan_results['tokens_analyzed'],
+                'optimization': 'ultra_batch_analysis',
+                'api_calls': analysis_api_calls,
+                'compute_units': analysis_compute_units,
+                'endpoint_usage': analysis_endpoint_usage,
+                'calls_per_token': analysis_api_calls / max(scan_results['tokens_analyzed'], 1),
+                'compute_units_per_token': analysis_compute_units / max(scan_results['tokens_analyzed'], 1)
+            }
+            
+            self.logger.info(f"   ✅ Analysis completed:")
+            self.logger.info(f"      • Tokens analyzed: {scan_results['tokens_analyzed']}")
+            self.logger.info(f"      • API calls: {analysis_api_calls}")
+            self.logger.info(f"      • Compute units: {analysis_compute_units}")
+            self.logger.info(f"      • Calls per token: {analysis_api_calls / max(scan_results['tokens_analyzed'], 1):.2f}")
+            self.logger.info(f"      • CUs per token: {analysis_compute_units / max(scan_results['tokens_analyzed'], 1):.2f}")
+            self.logger.info(f"      • Duration: {analysis_duration:.2f}s")
+            self.logger.info(f"      • Endpoint usage: {analysis_endpoint_usage}")
+            
+            # CRITICAL FIX: Calculate actual API calls and compute units for this scan
+            api_calls_after = self.birdeye_api.api_call_tracker['total_api_calls']
+            cost_after = self.birdeye_api.cost_calculator.get_session_summary() if hasattr(self.birdeye_api, 'cost_calculator') and self.birdeye_api.cost_calculator else {}
+            compute_units_after = cost_after.get('total_compute_units', 0)
+            
+            actual_api_calls_this_scan = api_calls_after - api_calls_before
+            actual_compute_units_this_scan = compute_units_after - compute_units_before
+            
+            scan_results['api_calls'] = actual_api_calls_this_scan
+            scan_results['compute_units'] = actual_compute_units_this_scan
+            
+            # Collect optimization metrics
+            optimization_gains = await self._collect_optimization_metrics()
+            
+            # Collect cache performance metrics first
+            cache_performance = self._collect_cache_metrics()
+            
+            scan_results['optimization_gains'] = optimization_gains
+            scan_results['cache_performance'] = {
+                'hit_rate': self.batch_manager.cache_hit_rate if hasattr(self.batch_manager, 'cache_hit_rate') else cache_performance.get('hit_rate', 0.0),
+                'total_requests': cache_performance.get('total_requests', 0),
+                'cache_hits': cache_performance.get('cache_hits', 0),
+                'cache_misses': cache_performance.get('cache_misses', 0)
+            }
+            
+            # Get cost optimization report (await the coroutine)
+            try:
+                cost_optimization_report = await self.batch_manager.get_cost_optimization_report()
+                scan_results['cost_breakdown'] = cost_optimization_report
+            except Exception as e:
+                self.logger.warning(f"Could not get cost optimization report: {e}")
+                scan_results['cost_breakdown'] = {}
+            
+            # Track strategy performance with detailed names
+            strategy_results = {}
+            if hasattr(discovered_tokens, 'strategy_results') and discovered_tokens.strategy_results:
+                for strategy_num, tokens in discovered_tokens.strategy_results.items():
+                    strategy_name = self.strategy_names.get(strategy_num, f"Strategy {strategy_num}")
+                    strategy_results[strategy_num] = {
+                        'success': len(tokens) > 0,
+                        'tokens_found': len(tokens),
+                        'duration': discovery_duration,  # Approximate
+                        'api_calls': discovery_api_after - discovery_api_before,
+                        'compute_units': discovery_cu_after - discovery_cu_before
+                    }
+                    self.logger.info(f"📊 {strategy_name} discovered {len(tokens)} tokens")
+                
+                # Track strategy performance
+                self._track_strategy_performance(strategy_results)
+            
+            # Check performance thresholds and generate alerts
+            scan_results['performance_alerts'] = self._check_performance_thresholds(scan_results)
+            
+            # Calculate total scan duration
+            scan_results['total_duration'] = time.time() - scan_start_time
+            
+            # Calculate debug API breakdown and endpoint usage
+            total_endpoint_usage = {}
+            if hasattr(self.birdeye_api, 'api_call_tracker') and 'endpoint_usage' in self.birdeye_api.api_call_tracker:
+                total_endpoint_usage = self.birdeye_api.api_call_tracker.get('endpoint_usage', {})
+            
+            stage_api_calls = discovery_api_calls + strategy_api_calls + analysis_api_calls
+            stage_compute_units = discovery_compute_units + strategy_compute_units + analysis_compute_units
+            
+            scan_results['debug_api_breakdown'] = {
+                'calls_verification': {
+                    'discovery': discovery_api_calls,
+                    'strategy': strategy_api_calls,
+                    'analysis': analysis_api_calls,
+                    'stage_sum': stage_api_calls,
+                    'actual_total': actual_api_calls_this_scan,
+                    'discrepancy': actual_api_calls_this_scan - stage_api_calls
+                },
+                'cost_verification': {
+                    'discovery': discovery_compute_units,
+                    'strategy': strategy_compute_units,
+                    'analysis': analysis_compute_units,
+                    'stage_sum': stage_compute_units,
+                    'actual_total': actual_compute_units_this_scan,
+                    'discrepancy': actual_compute_units_this_scan - stage_compute_units
+                },
+                'total_endpoint_usage': total_endpoint_usage
+            }
+            
+            # DEBUG: Comprehensive scan summary
+            self.logger.info(f"🎯 SCAN {scan_num} COMPLETE - DETAILED BREAKDOWN:")
+            self.logger.info(f"   📊 Total API calls: {actual_api_calls_this_scan}")
+            self.logger.info(f"   💰 Total compute units: {actual_compute_units_this_scan}")
+            self.logger.info(f"   🔍 Discovery: {discovery_api_calls} calls, {discovery_compute_units} CUs ({len(discovered_tokens)} tokens)")
+            self.logger.info(f"   📈 Strategy: {strategy_api_calls} calls, {strategy_compute_units} CUs")
+            self.logger.info(f"   ⚡ Analysis: {analysis_api_calls} calls, {analysis_compute_units} CUs ({scan_results['tokens_analyzed']} tokens)")
+            self.logger.info(f"   ⏱️ Total duration: {scan_results['total_duration']:.2f}s")
+            estimated_cost = scan_results.get('cost_breakdown', {}).get('estimated_usd_cost', 0.0)
+            self.logger.info(f"   💵 Estimated cost: ${estimated_cost:.4f}")
+            self.logger.info(f"   🔄 API Verification: {discovery_api_calls + strategy_api_calls + analysis_api_calls} (sum) vs {actual_api_calls_this_scan} (total)")
+            self.logger.info(f"   💰 Cost Verification: {discovery_compute_units + strategy_compute_units + analysis_compute_units} (sum) vs {actual_compute_units_this_scan} (total)")
+            
+            # Log alerts if any
+            if scan_results['performance_alerts']:
+                self.logger.warning(f"   ⚠️ Performance alerts generated: {len(scan_results['performance_alerts'])}")
+                for alert in scan_results['performance_alerts']:
+                    self.logger.warning(f"      • {alert['type']}: {alert['message']}")
+            
+            if scan_results['debug_api_breakdown']['calls_verification']['discrepancy'] != 0:
+                discrepancy = scan_results['debug_api_breakdown']['calls_verification']['discrepancy']
+                self.logger.warning(f"   ⚠️ API CALL DISCREPANCY DETECTED: {discrepancy} unaccounted calls!")
+                self.logger.warning(f"      This suggests hidden API calls not tracked in our stage breakdown")
+            
+            if scan_results['debug_api_breakdown']['cost_verification']['discrepancy'] != 0:
+                cost_discrepancy = scan_results['debug_api_breakdown']['cost_verification']['discrepancy']
+                self.logger.warning(f"   ⚠️ COST DISCREPANCY DETECTED: {cost_discrepancy} unaccounted CUs!")
+                self.logger.warning(f"      This suggests hidden compute unit consumption not tracked in our stage breakdown")
+            
+            # Print top endpoint usage
+            sorted_endpoints = sorted(total_endpoint_usage.items(), key=lambda x: x[1], reverse=True)
+            self.logger.info(f"   📡 Top endpoints used:")
+            for endpoint, count in sorted_endpoints[:5]:
+                self.logger.info(f"      • {endpoint}: {count} calls")
+            
+            # Log performance summary
+            self._log_performance_summary(scan_results['total_duration'], scan_results['tokens_discovered'], scan_results['tokens_analyzed'])
+            
+            # Process alerts for promising tokens
+            alerts_sent = 0
+            if analysis_results and len(analysis_results) > 0:
+                self.logger.info(f"📱 Checking {len(analysis_results)} tokens for alert criteria (threshold: {self.min_score_threshold})")
+                
+                for token in analysis_results:
+                    # Handle both string addresses and token dictionaries
+                    if isinstance(token, str):
+                        # If analysis_results contains just addresses, skip alert processing
+                        self.logger.debug(f"📊 Token {token[:8]}... is address string, skipping alert processing")
+                        continue
+                    elif isinstance(token, dict):
+                        # Process token dictionary
+                        token_score = token.get('token_score', 0)
+                        token_symbol = token.get('token_symbol', 'Unknown')
+                        
+                        if token_score >= self.min_score_threshold:
+                            self.logger.info(f"🚨 Token {token_symbol} qualifies for alert (Score: {token_score:.1f} >= {self.min_score_threshold})")
+                            await self._send_telegram_alert(token, scan_id)
+                            alerts_sent += 1
+                        else:
+                            self.logger.debug(f"📊 Token {token_symbol} below alert threshold (Score: {token_score:.1f} < {self.min_score_threshold})")
+                    else:
+                        self.logger.warning(f"📊 Unexpected token format: {type(token)}")
+                
+                if alerts_sent > 0:
+                    self.logger.info(f"📱 Sent {alerts_sent} alert(s) for promising tokens in scan {scan_num}")
+                else:
+                    self.logger.info(f"📱 No tokens met alert criteria in scan {scan_num} (analysis returned {len(analysis_results)} items)")
+            else:
+                self.logger.info(f"📱 No tokens to evaluate for alerts in scan {scan_num}")
+            
+            return scan_results
+            
+        except Exception as e:
+            self.logger.error(f"Error in optimized scan {scan_num}: {e}")
+            self.logger.error(f"Traceback: {traceback.format_exc()}")
+            
+            # Return error scan results
+            scan_results = {
+                'scan_number': scan_num,
+                'scan_id': scan_id,
+                'start_time': scan_start_time,
+                'total_duration': time.time() - scan_start_time,
+                'api_calls': 0,
+                'compute_units': 0,
+                'tokens_discovered': 0,
+                'tokens_analyzed': 0,
+                'optimization_gains': {},
+                'cache_performance': {},
+                'stage_performance': {},
+                'cost_breakdown': {},
+                'performance_alerts': [],
+                'debug_api_breakdown': {},
+                'error': str(e)
+            }
+            
+        return scan_results
+    
+    async def _collect_optimization_metrics(self):
+        """Collect optimization performance metrics safely."""
+        try:
+            metrics = {
+                'ultra_batch_enabled': True,
+                'parallel_discovery_enabled': True,
+                'enhanced_caching_enabled': True,
+                'cross_strategy_sharing_enabled': True
+            }
+            
+            # Get batch manager metrics if available
+            if hasattr(self.batch_manager, 'get_optimization_metrics'):
+                try:
+                    batch_metrics = await self.batch_manager.get_optimization_metrics()
+                    if isinstance(batch_metrics, dict):
+                        metrics.update(batch_metrics)
+                except Exception as e:
+                    self.logger.debug(f"Could not get batch optimization metrics: {e}")
+            
+            return metrics
+        except Exception as e:
+            self.logger.warning(f"Error collecting optimization metrics: {e}")
+            return {}
+    
+    def _collect_cache_metrics(self):
+        """Collect cache performance metrics safely."""
+        try:
+            if hasattr(self.batch_manager, 'cache_manager') and self.batch_manager.cache_manager:
+                # Try different methods to get cache stats
+                cache_stats = None
+                if hasattr(self.batch_manager.cache_manager, 'get_cache_performance_metrics'):
+                    cache_stats = self.batch_manager.cache_manager.get_cache_performance_metrics()
+                elif hasattr(self.batch_manager.cache_manager, 'metrics'):
+                    cache_stats = self.batch_manager.cache_manager.metrics
+                elif hasattr(self.batch_manager.cache_manager, 'get_stats'):
+                    cache_stats = self.batch_manager.cache_manager.get_stats()
+                
+                if cache_stats:
+                    total_requests = cache_stats.get('total_requests', 0)
+                    cache_hits = cache_stats.get('cache_hits', 0)
+                    cache_misses = cache_stats.get('cache_misses', 0)
+                    hit_rate = cache_hits / total_requests if total_requests > 0 else 0.0
+                    
+                    return {
+                        'total_requests': total_requests,
+                        'cache_hits': cache_hits,
+                        'cache_misses': cache_misses,
+                        'hit_rate': hit_rate
+                    }
+            
+            # Fallback to default values
+            return {
+                'total_requests': 0,
+                'cache_hits': 0,
+                'cache_misses': 0,
+                'hit_rate': 0.0
+            }
+        except Exception as e:
+            self.logger.warning(f"Error collecting cache metrics: {e}")
+            return {
+                'total_requests': 0,
+                'cache_hits': 0,
+                'cache_misses': 0,
+                'hit_rate': 0.0
+            }
+    
+    def _check_performance_thresholds(self, scan_results: dict) -> list:
+        """Check performance against monitoring thresholds and generate alerts."""
+        alerts = []
+        thresholds = self.monitoring_config.get('thresholds', {})
+        
+        try:
+            # Check response time
+            scan_duration = scan_results.get('total_duration', 0)
+            max_response_time = thresholds.get('max_response_time_seconds', 30)
+            if scan_duration > max_response_time:
+                alert = {
+                    'type': 'response_time',
+                    'severity': 'warning',
+                    'message': f"Scan duration {scan_duration:.1f}s exceeds threshold {max_response_time}s",
+                    'value': scan_duration,
+                    'threshold': max_response_time,
+                    'timestamp': time.time()
+                }
+                alerts.append(alert)
+                self.logger.warning(f"⚠️ Performance Alert: {alert['message']}")
+            
+            # Check cache hit rate
+            cache_perf = scan_results.get('cache_performance', {})
+            cache_hit_rate = cache_perf.get('hit_rate_percent', 0) / 100
+            min_cache_hit_rate = thresholds.get('min_cache_hit_rate', 0.60)
+            if cache_hit_rate < min_cache_hit_rate:
+                alert = {
+                    'type': 'cache_hit_rate',
+                    'severity': 'warning',
+                    'message': f"Cache hit rate {cache_hit_rate:.1%} below threshold {min_cache_hit_rate:.1%}",
+                    'value': cache_hit_rate,
+                    'threshold': min_cache_hit_rate,
+                    'timestamp': time.time()
+                }
+                alerts.append(alert)
+                self.logger.warning(f"⚠️ Performance Alert: {alert['message']}")
+            
+            # Check API calls per minute (estimated based on scan duration)
+            api_calls = scan_results.get('api_calls', 0)
+            calls_per_minute = (api_calls / (scan_duration / 60)) if scan_duration > 0 else 0
+            max_calls_per_minute = thresholds.get('max_api_calls_per_minute', 120)
+            if calls_per_minute > max_calls_per_minute:
+                alert = {
+                    'type': 'api_calls_per_minute',
+                    'severity': 'warning',
+                    'message': f"API calls per minute {calls_per_minute:.1f} exceeds threshold {max_calls_per_minute}",
+                    'value': calls_per_minute,
+                    'threshold': max_calls_per_minute,
+                    'timestamp': time.time()
+                }
+                alerts.append(alert)
+                self.logger.warning(f"⚠️ Performance Alert: {alert['message']}")
+            
+        except Exception as e:
+            self.logger.error(f"Error checking performance thresholds: {e}")
+        
+        return alerts
+    
+    def _log_scan_results(self, scan_num: int, results: dict):
+        """Log detailed scan results including cost tracking."""
+        try:
+            # Ensure all values are JSON serializable
+            safe_results = {}
+            for key, value in results.items():
+                if asyncio.iscoroutine(value):
+                    self.logger.warning(f"Skipping coroutine value for key {key}")
+                    continue
+                elif callable(value):
+                    self.logger.warning(f"Skipping callable value for key {key}")
+                    continue
+                else:
+                    safe_results[key] = value
+            
+            # Log basic scan info
+            print(f"📊 SCAN {scan_num} RESULTS:")
+            print(f"   • Tokens Discovered: {safe_results.get('tokens_discovered', 0)}")
+            print(f"   • Tokens Analyzed: {safe_results.get('tokens_analyzed', 0)}")
+            print(f"   • API Calls: {safe_results.get('api_calls', 0)}")
+            print(f"   • Compute Units: {safe_results.get('compute_units', 0)}")
+            
+            # Calculate and display cost
+            compute_units = safe_results.get('compute_units', 0)
+            estimated_cost = (compute_units / 3_000_000) * 99  # $99 per 3 million CUs
+            print(f"   • Estimated Cost: ${estimated_cost:.4f}")
+            
+            # Calculate duration
+            start_time = safe_results.get('start_time', time.time())
+            duration = time.time() - start_time
+            print(f"   • Total Duration: {duration:.2f}s")
+            
+            # Show progress
+            progress = (scan_num / 8) * 100  # 8 total scans
+            print(f"   • Progress: {progress:.1f}% ({scan_num}/8)")
+            
+            # Show performance alerts if any
+            alerts = safe_results.get('performance_alerts', [])
+            if alerts:
+                print(f"   • Performance Alerts: {len(alerts)}")
+                for alert in alerts[:3]:  # Show first 3 alerts
+                    if isinstance(alert, dict):
+                        alert_type = alert.get('type', 'unknown')
+                        alert_message = alert.get('message', 'No message')
+                        print(f"     - {alert_type}: {alert_message}")
+            
+            # Save to file with safe JSON serialization
+            try:
+                # Create a clean copy for JSON serialization
+                json_safe_results = self._make_json_safe(safe_results)
+                
+                # Save scan results to file
+                timestamp = int(time.time())
+                results_file = f"data/scan_{scan_num}_results_{timestamp}.json"
+                os.makedirs("data", exist_ok=True)
+                
+                with open(results_file, 'w') as f:
+                    json.dump(json_safe_results, f, indent=2, default=str)
+                    
+                self.logger.info(f"Scan {scan_num} results saved to {results_file}")
+                
+            except Exception as e:
+                self.logger.warning(f"Could not save scan results to file: {e}")
+            
+        except Exception as e:
+            self.logger.error(f"Error logging scan results: {e}")
+            print(f"❌ Error logging scan {scan_num} results: {e}")
+
+    def _make_json_safe(self, obj):
+        """Recursively make an object JSON serializable."""
+        if obj is None:
+            return None
+        elif isinstance(obj, (str, int, float, bool)):
+            return obj
+        elif isinstance(obj, dict):
+            return {key: self._make_json_safe(value) for key, value in obj.items() 
+                   if not asyncio.iscoroutine(value) and not callable(value)}
+        elif isinstance(obj, (list, tuple)):
+            return [self._make_json_safe(item) for item in obj 
+                   if not asyncio.iscoroutine(item) and not callable(item)]
+        elif hasattr(obj, '__dict__'):
+            return str(obj)  # Convert objects to string representation
+        else:
+            return str(obj)  # Fallback to string conversion
+    
+    def _display_scan_progress(self, scan_num: int, total_scans: int, results: dict):
+        """Display scan progress and optimization benefits with cost information."""
+        print(f"📊 SCAN {scan_num} RESULTS:")
+        print(f"   • Tokens Discovered: {results.get('tokens_discovered', 0)}")
+        print(f"   • Tokens Analyzed: {results.get('tokens_analyzed', 0)}")
+        print(f"   • API Calls: {results.get('api_calls', 0)}")
+        print(f"   • Compute Units: {results.get('compute_units', 0)}")
+        print(f"   • Estimated Cost: ${results.get('cost_breakdown', {}).get('estimated_usd_cost', 0):.4f}")
+        print(f"   • Total Duration: {results.get('total_duration', 0):.2f}s")
+        
+        # Display optimization gains
+        opt_gains = results.get('optimization_gains', {})
+        if opt_gains:
+            ultra_stats = opt_gains.get('ultra_batch', {})
+            if ultra_stats.get('efficiency_ratio'):
+                print(f"   • Ultra-Batch Efficiency: {ultra_stats.get('efficiency_ratio', 0):.1f}%")
+            
+            cost_tracking = opt_gains.get('cost_tracking', {})
+            if cost_tracking.get('batch_efficiency_percent'):
+                print(f"   • Batch Cost Efficiency: {cost_tracking.get('batch_efficiency_percent', 0):.1f}%")
+        
+        # Display cache performance
+        cache_perf = results.get('cache_performance', {})
+        if cache_perf.get('hit_rate_percent'):
+            print(f"   • Cache Hit Rate: {cache_perf.get('hit_rate_percent', 0):.1f}%")
+        
+        # Display performance alerts
+        alerts = results.get('performance_alerts', [])
+        if alerts:
+            print(f"   • Performance Alerts: {len(alerts)}")
+            for alert in alerts[:2]:  # Show first 2 alerts
+                print(f"     ⚠️ {alert['type']}: {alert['message']}")
+        
+        # Progress indicator
+        progress = (scan_num / total_scans) * 100
+        print(f"   • Progress: {progress:.1f}% ({scan_num}/{total_scans})")
+    
+    async def _wait_for_next_scan(self, interval_minutes: int, current_scan: int, total_scans: int):
+        """Wait for the next scan with countdown display."""
+        wait_seconds = interval_minutes * 60
+        next_scan_time = datetime.now() + timedelta(minutes=interval_minutes)
+        
+        print(f"\n⏳ Waiting {interval_minutes} minutes for next scan...")
+        print(f"   Next scan: {next_scan_time.strftime('%H:%M:%S')}")
+        print(f"   Remaining scans: {total_scans - current_scan}")
+        
+        # Predictive prefetching during wait time
+        if hasattr(self.batch_manager.cache_manager, 'predictive_prefetch'):
+            print("🔮 Running predictive prefetching during wait time...")
+            try:
+                # Get tokens that appeared in recent scans for prefetching
+                recent_tokens = getattr(self.batch_manager.cache_manager, 'persistent_tokens', set())
+                if recent_tokens:
+                    await self.batch_manager.cache_manager.predictive_prefetch(list(recent_tokens))
+            except Exception as e:
+                self.logger.error(f"Predictive prefetching failed: {e}")
+        
+        # Wait with periodic status updates
+        for remaining in range(wait_seconds, 0, -30):  # Update every 30 seconds
+            if remaining <= 30:
+                print(f"   ⏰ {remaining}s remaining...")
+            await asyncio.sleep(min(30, remaining))
+        
+        print("🔄 Starting next scan...\n")
+    
+    async def _generate_session_report(self, session_performance):
+        """Generate comprehensive session report with strategy analysis."""
+        print("\n" + "="*80)
+        print("📊 COMPREHENSIVE 8-HOUR SESSION REPORT")
+        print("="*80)
+        
+        # Session Overview
+        duration_hours = (self.session_stats['session_end_time'] - self.session_stats['session_start_time']) / 3600
+        print(f"\n🕐 SESSION OVERVIEW:")
+        print(f"   • Duration: {duration_hours:.1f} hours")
+        print(f"   • Total Scans: {self.session_stats['total_scans']}")
+        print(f"   • Total Tokens Discovered: {self.session_stats['total_tokens_discovered']:,}")
+        print(f"   • Total Tokens Analyzed: {self.session_stats['total_tokens_analyzed']:,}")
+        print(f"   • Total API Calls: {self.session_stats['total_api_calls']:,}")
+        print(f"   • Total Compute Units: {self.session_stats['total_compute_units']:,}")
+        
+        # Cost Analysis
+        total_cost_usd = (self.session_stats['total_compute_units'] / 1_000_000) * 10  # $10 per million CUs
+        print(f"   • Estimated Total Cost: ${total_cost_usd:.4f}")
+        print(f"   • Cost per Token Discovered: ${total_cost_usd / max(self.session_stats['total_tokens_discovered'], 1):.6f}")
+        print(f"   • Cost per Hour: ${total_cost_usd / max(duration_hours, 0.1):.4f}")
+        
+        # Strategy Performance Analysis
+        print(f"\n🎯 STRATEGY PERFORMANCE ANALYSIS:")
+        print("-" * 60)
+        
+        if self.session_stats['strategy_performance']:
+            # Sort strategies by success rate and total tokens discovered
+            sorted_strategies = sorted(
+                self.session_stats['strategy_performance'].items(),
+                key=lambda x: (x[1]['success_rate'], x[1]['total_tokens_discovered']),
+                reverse=True
+            )
+            
+            print(f"{'Strategy Name':<30} {'Success%':<10} {'Tokens':<8} {'Avg/Run':<8} {'Avg Time':<10}")
+            print("-" * 60)
+            
+            for strategy_name, stats in sorted_strategies:
+                print(f"{strategy_name:<30} {stats['success_rate']:<9.1f}% {stats['total_tokens_discovered']:<7} "
+                      f"{stats['avg_tokens_per_run']:<7.1f} {stats['avg_duration']:<9.2f}s")
+            
+            # Identify most successful strategy
+            if sorted_strategies:
+                best_strategy = sorted_strategies[0]
+                print(f"\n🏆 MOST SUCCESSFUL STRATEGY: {best_strategy[0]}")
+                print(f"   • Success Rate: {best_strategy[1]['success_rate']:.1f}%")
+                print(f"   • Total Tokens Discovered: {best_strategy[1]['total_tokens_discovered']:,}")
+                print(f"   • Average Tokens per Run: {best_strategy[1]['avg_tokens_per_run']:.1f}")
+                print(f"   • Total API Calls: {best_strategy[1]['total_api_calls']:,}")
+                print(f"   • Total Compute Units: {best_strategy[1]['total_compute_units']:,}")
+                
+                # Strategy efficiency metrics
+                efficiency = best_strategy[1]['total_tokens_discovered'] / max(best_strategy[1]['total_compute_units'], 1)
+                print(f"   • Efficiency: {efficiency:.4f} tokens per CU")
+        else:
+            print("   No strategy performance data available")
+        
+        # Performance Alerts Summary
+        if self.session_stats['performance_alerts']:
+            print(f"\n⚠️ PERFORMANCE ALERTS SUMMARY:")
+            alert_counts = {}
+            for alert in self.session_stats['performance_alerts']:
+                alert_type = alert.get('type', 'unknown')
+                alert_counts[alert_type] = alert_counts.get(alert_type, 0) + 1
+            
+            for alert_type, count in alert_counts.items():
+                print(f"   • {alert_type}: {count} alerts")
+        
+        # Optimization Gains Summary
+        if self.session_stats['total_optimization_gains']:
+            print(f"\n📈 OPTIMIZATION GAINS SUMMARY:")
+            for metric, gain in self.session_stats['total_optimization_gains'].items():
+                print(f"   • {metric}: {gain}")
+        
+        # Recommendations
+        print(f"\n💡 RECOMMENDATIONS:")
+        if self.session_stats['strategy_performance']:
+            # Find strategies with low success rates
+            low_performers = [name for name, stats in self.session_stats['strategy_performance'].items() 
+                            if stats['success_rate'] < 50]
+            if low_performers:
+                print(f"   • Consider optimizing low-performing strategies: {', '.join(low_performers)}")
+            
+            # Find most efficient strategy
+            most_efficient = max(self.session_stats['strategy_performance'].items(),
+                               key=lambda x: x[1]['total_tokens_discovered'] / max(x[1]['total_compute_units'], 1))
+            print(f"   • Focus on most cost-efficient strategy: {most_efficient[0]}")
+        
+        # Save detailed report to file
+        report_data = {
+            'session_overview': {
+                'duration_hours': duration_hours,
+                'total_scans': self.session_stats['total_scans'],
+                'total_tokens_discovered': self.session_stats['total_tokens_discovered'],
+                'total_tokens_analyzed': self.session_stats['total_tokens_analyzed'],
+                'total_api_calls': self.session_stats['total_api_calls'],
+                'total_compute_units': self.session_stats['total_compute_units'],
+                'estimated_cost_usd': total_cost_usd
+            },
+            'strategy_performance': self.session_stats['strategy_performance'],
+            'performance_alerts': self.session_stats['performance_alerts'],
+            'optimization_gains': self.session_stats['total_optimization_gains']
+        }
+        
+        timestamp = int(time.time())
+        report_file = f"data/8hour_session_report_{timestamp}.json"
+        os.makedirs("data", exist_ok=True)
+        
+        with open(report_file, 'w') as f:
+            json.dump(report_data, f, indent=2)
+        
+        print(f"\n📄 Detailed report saved to: {report_file}")
+        print("="*80)
+
+    def _generate_session_summary(self, all_scan_results: list) -> dict:
+        """Generate comprehensive session summary with detailed API analysis."""
+        session_end_time = time.time()
+        session_duration = session_end_time - self.session_stats['session_start_time']
+        
+        # Calculate totals
+        total_discovered = sum(scan.get('tokens_discovered', 0) for scan in all_scan_results)
+        total_analyzed = sum(scan.get('tokens_analyzed', 0) for scan in all_scan_results)
+        total_api_calls = sum(scan.get('api_calls', 0) for scan in all_scan_results)
+        
+        # DEBUG: Detailed API call analysis
+        api_call_analysis = {
+            'total_calls': total_api_calls,
+            'calls_per_scan': total_api_calls / len(all_scan_results) if all_scan_results else 0,
+            'stage_breakdown': {
+                'discovery': {
+                    'total_calls': sum(scan.get('stage_performance', {}).get('discovery', {}).get('api_calls', 0) for scan in all_scan_results),
+                    'avg_per_scan': 0,
+                    'calls_per_token': 0
+                },
+                'strategy': {
+                    'total_calls': sum(scan.get('stage_performance', {}).get('strategy', {}).get('api_calls', 0) for scan in all_scan_results),
+                    'avg_per_scan': 0,
+                    'calls_per_token': 0
+                },
+                'analysis': {
+                    'total_calls': sum(scan.get('stage_performance', {}).get('analysis', {}).get('api_calls', 0) for scan in all_scan_results),
+                    'avg_per_scan': 0,
+                    'calls_per_token': 0
+                }
+            },
+            'endpoint_analysis': {},
+            'discrepancy_analysis': {
+                'total_discrepancies': 0,
+                'scans_with_discrepancies': 0,
+                'largest_discrepancy': 0
+            }
+        }
+        
+        # Calculate averages and per-token metrics
+        num_scans = len(all_scan_results)
+        if num_scans > 0:
+            api_call_analysis['stage_breakdown']['discovery']['avg_per_scan'] = api_call_analysis['stage_breakdown']['discovery']['total_calls'] / num_scans
+            api_call_analysis['stage_breakdown']['strategy']['avg_per_scan'] = api_call_analysis['stage_breakdown']['strategy']['total_calls'] / num_scans
+            api_call_analysis['stage_breakdown']['analysis']['avg_per_scan'] = api_call_analysis['stage_breakdown']['analysis']['total_calls'] / num_scans
+            
+            if total_discovered > 0:
+                api_call_analysis['stage_breakdown']['discovery']['calls_per_token'] = api_call_analysis['stage_breakdown']['discovery']['total_calls'] / total_discovered
+            
+            if total_analyzed > 0:
+                api_call_analysis['stage_breakdown']['analysis']['calls_per_token'] = api_call_analysis['stage_breakdown']['analysis']['total_calls'] / total_analyzed
+        
+        # Aggregate endpoint usage across all scans
+        endpoint_totals = {}
+        for scan in all_scan_results:
+            debug_breakdown = scan.get('debug_api_breakdown', {})
+            total_endpoint_usage = debug_breakdown.get('total_endpoint_usage', {})
+            for endpoint, count in total_endpoint_usage.items():
+                endpoint_totals[endpoint] = endpoint_totals.get(endpoint, 0) + count
+        
+        api_call_analysis['endpoint_analysis'] = {
+            'total_endpoints_used': len(endpoint_totals),
+            'endpoint_usage': dict(sorted(endpoint_totals.items(), key=lambda x: x[1], reverse=True)),
+            'top_5_endpoints': dict(list(sorted(endpoint_totals.items(), key=lambda x: x[1], reverse=True))[:5])
+        }
+        
+        # Analyze discrepancies
+        for scan in all_scan_results:
+            debug_breakdown = scan.get('debug_api_breakdown', {})
+            calls_verification = debug_breakdown.get('calls_verification', {})
+            discrepancy = calls_verification.get('discrepancy', 0)
+            
+            if discrepancy != 0:
+                api_call_analysis['discrepancy_analysis']['total_discrepancies'] += abs(discrepancy)
+                api_call_analysis['discrepancy_analysis']['scans_with_discrepancies'] += 1
+                if abs(discrepancy) > abs(api_call_analysis['discrepancy_analysis']['largest_discrepancy']):
+                    api_call_analysis['discrepancy_analysis']['largest_discrepancy'] = discrepancy
+        
+        # Performance metrics
+        avg_scan_duration = sum(scan.get('total_duration', 0) for scan in all_scan_results) / len(all_scan_results) if all_scan_results else 0
+        
+        # Calculate efficiency metrics
+        efficiency_metrics = {
+            'tokens_per_minute': (total_discovered + total_analyzed) / (session_duration / 60) if session_duration > 0 else 0,
+            'api_calls_per_minute': total_api_calls / (session_duration / 60) if session_duration > 0 else 0,
+            'tokens_per_api_call': (total_discovered + total_analyzed) / total_api_calls if total_api_calls > 0 else 0,
+            'discovery_efficiency': total_discovered / api_call_analysis['stage_breakdown']['discovery']['total_calls'] if api_call_analysis['stage_breakdown']['discovery']['total_calls'] > 0 else 0,
+            'analysis_efficiency': total_analyzed / api_call_analysis['stage_breakdown']['analysis']['total_calls'] if api_call_analysis['stage_breakdown']['analysis']['total_calls'] > 0 else 0
+        }
+        
+        # Generate optimization insights
+        optimization_insights = []
+        
+        # Discovery insights
+        discovery_calls_per_token = api_call_analysis['stage_breakdown']['discovery']['calls_per_token']
+        if discovery_calls_per_token > 0.5:
+            optimization_insights.append(f"Discovery using {discovery_calls_per_token:.2f} calls per token - consider optimization")
+        
+        # Analysis insights
+        analysis_calls_per_token = api_call_analysis['stage_breakdown']['analysis']['calls_per_token']
+        if analysis_calls_per_token > 5:
+            optimization_insights.append(f"Analysis using {analysis_calls_per_token:.2f} calls per token - ultra-batch may not be working")
+        
+        # Endpoint insights
+        if endpoint_totals:
+            top_endpoint = max(endpoint_totals.items(), key=lambda x: x[1])
+            if top_endpoint[1] > total_api_calls * 0.3:
+                optimization_insights.append(f"Endpoint '{top_endpoint[0]}' dominates usage ({top_endpoint[1]} calls, {top_endpoint[1]/total_api_calls*100:.1f}%)")
+        
+        # Discrepancy insights
+        if api_call_analysis['discrepancy_analysis']['scans_with_discrepancies'] > 0:
+            optimization_insights.append(f"API call discrepancies detected in {api_call_analysis['discrepancy_analysis']['scans_with_discrepancies']} scans - investigate hidden calls")
+        
+        summary = {
+            'session_id': self.session_id,
+            'session_duration': session_duration,
+            'session_duration_formatted': f"{session_duration/3600:.1f} hours",
+            'total_scans': len(all_scan_results),
+            'total_tokens_discovered': total_discovered,
+            'total_tokens_analyzed': total_analyzed,
+            'total_api_calls': total_api_calls,
+            'avg_scan_duration': avg_scan_duration,
+            'scan_interval': 12 * 60,  # 12 minutes in seconds
+            'performance_metrics': {
+                'tokens_discovered_per_scan': total_discovered / len(all_scan_results) if all_scan_results else 0,
+                'tokens_analyzed_per_scan': total_analyzed / len(all_scan_results) if all_scan_results else 0,
+                'api_calls_per_scan': total_api_calls / len(all_scan_results) if all_scan_results else 0,
+                'efficiency_metrics': efficiency_metrics
+            },
+            'api_call_analysis': api_call_analysis,
+            'optimization_insights': optimization_insights,
+            'scan_results': all_scan_results,
+            'timestamp': session_end_time,
+            'session_type': 'optimized_10_scan_test'
+        }
+        
+        return summary
+
+    def _load_config(self):
+        """Load configuration from config manager."""
+        config_manager = ConfigManager()
+        return config_manager.get_config()
+    
+    @property
+    def min_score_threshold(self):
+        """Get minimum score threshold for alerts from config"""
+        return self.config.get('ANALYSIS', {}).get('alert_score_threshold', 70)
+    
+    async def _send_telegram_alert(self, token: Dict[str, Any], scan_id: str):
+        """Send enhanced Telegram alert for promising token"""
+        try:
+            if not self.telegram_alerter:
+                self.logger.warning("📱 Telegram alerter not initialized - skipping alert")
+                return
+            
+            token_address = token.get("token_address", "")
+            token_symbol = token.get("token_symbol", "Unknown")
+            token_score = token.get("token_score", 0)
+            
+            # Check if we've already alerted for this token recently
+            if token_address in self.recently_alerted_tokens:
+                self.logger.info(f"📱 Skipping duplicate alert for {token_symbol} ({token_address[:8]}...)")
+                return
+            
+            # Create minimal token metrics for Telegram alerter
+            metrics = MinimalTokenMetrics(
+                symbol=token_symbol,
+                address=token_address,
+                price=token.get("price_now", 0),
+                name=token.get("token_name", token_symbol),
+                liquidity=token.get("liquidity", 0),
+                volume_24h=token.get("volume_24h", 0),
+                mcap=token.get("market_cap", 0),
+                holders=token.get("holder_count", 0),
+                price_change_24h=token.get("price_change_24h", 0),
+                market_cap=token.get("market_cap", 0),
+                score=token_score
+            )
+            
+            # Prepare enhanced data for rich alert content
+            enhanced_data = {
+                'price_source': 'Birdeye',
+                'links': {
+                    'dexscreener': f"https://dexscreener.com/solana/{token_address}",
+                    'solscan': f"https://solscan.io/token/{token_address}",
+                    'birdeye': f"https://birdeye.so/token/{token_address}?chain=solana"
+                },
+                'security_info': {
+                    'is_scam': token.get('is_scam', False),
+                    'is_risky': token.get('is_risky', False)
+                },
+                'risk_explanation': f"Optimized scan analysis found promising token with score {token_score:.1f}/100",
+                'enhanced_pump_dump_analysis': token.get('enhanced_pump_dump_analysis'),
+                'strategic_coordination_analysis': token.get('strategic_coordination_analysis'),
+                'enhanced_metadata_analysis': token.get('enhanced_metadata_analysis')
+            }
+            
+            # Send the alert
+            self.telegram_alerter.send_gem_alert(
+                metrics=metrics,
+                score=token_score,
+                enhanced_data=enhanced_data,
+                pair_address=token_address,
+                scan_id=scan_id
+            )
+            
+            # Add to recently alerted tokens
+            self.recently_alerted_tokens.add(token_address)
+            
+            self.logger.info(f"📱 Sent Telegram alert for {token_symbol} (Score: {token_score:.1f}/100)")
+            
+        except Exception as e:
+            self.logger.error(f"📱 Error sending Telegram alert for {token.get('token_symbol', 'Unknown')}: {e}")
+            self.logger.error(f"📱 Alert error traceback: {traceback.format_exc()}")
+
+    def _safe_dict_subtract(self, dict_after, dict_before, operation_name="operation"):
+        """Safely subtract two dictionaries, handling type errors."""
+        result = {}
+        try:
+            for key, value_after in dict_after.items():
+                if key in dict_before:
+                    try:
+                        value_before = dict_before[key]
+                        # Ensure both values are numbers
+                        if isinstance(value_after, (int, float)) and isinstance(value_before, (int, float)):
+                            diff = value_after - value_before
+                            if diff > 0:
+                                result[key] = diff
+                        else:
+                            self.logger.debug(f"Non-numeric values in {operation_name} for {key}: {type(value_after)} vs {type(value_before)}")
+                    except (TypeError, ValueError) as e:
+                        self.logger.debug(f"Could not calculate {operation_name} diff for {key}: {e}")
+                else:
+                    # New endpoint usage
+                    if isinstance(value_after, (int, float)) and value_after > 0:
+                        result[key] = value_after
+        except Exception as e:
+            self.logger.warning(f"Error in {operation_name} calculation: {e}")
+        return result
+
+    def _track_strategy_performance(self, strategy_results):
+        """Track detailed strategy performance for session analysis."""
+        for strategy_num, result in strategy_results.items():
+            strategy_name = self.strategy_names.get(strategy_num, f"Strategy {strategy_num}")
+            
+            if strategy_name not in self.session_stats['strategy_performance']:
+                self.session_stats['strategy_performance'][strategy_name] = {
+                    'total_runs': 0,
+                    'successful_runs': 0,
+                    'total_tokens_discovered': 0,
+                    'total_duration': 0,
+                    'total_api_calls': 0,
+                    'total_compute_units': 0,
+                    'success_rate': 0.0,
+                    'avg_tokens_per_run': 0.0,
+                    'avg_duration': 0.0
+                }
+            
+            stats = self.session_stats['strategy_performance'][strategy_name]
+            stats['total_runs'] += 1
+            
+            if result.get('success', False):
+                stats['successful_runs'] += 1
+                stats['total_tokens_discovered'] += result.get('tokens_found', 0)
+                stats['total_duration'] += result.get('duration', 0)
+                stats['total_api_calls'] += result.get('api_calls', 0)
+                stats['total_compute_units'] += result.get('compute_units', 0)
+            
+            # Update calculated metrics
+            stats['success_rate'] = (stats['successful_runs'] / stats['total_runs']) * 100
+            stats['avg_tokens_per_run'] = stats['total_tokens_discovered'] / stats['total_runs'] if stats['total_runs'] > 0 else 0
+            stats['avg_duration'] = stats['total_duration'] / stats['successful_runs'] if stats['successful_runs'] > 0 else 0
+
+    async def _cleanup_session(self):
+        """Cleanup session resources and connections."""
+        try:
+            self.logger.info("🧹 Starting session cleanup...")
+            
+            # CU budget monitor doesn't need explicit closing
+            if hasattr(self, 'cu_budget_monitor') and self.cu_budget_monitor:
+                self.logger.info("✅ CU Budget Monitor session data saved")
+            
+            # Close API connections
+            if hasattr(self, 'birdeye_api') and self.birdeye_api:
+                await self.birdeye_api.close_session()
+                self.logger.info("✅ BirdEye API session closed")
+            
+            # Close telegram alerter
+            if hasattr(self, 'telegram_alerter') and self.telegram_alerter:
+                await self.telegram_alerter.close()
+                self.logger.info("✅ Telegram alerter closed")
+            
+            self.logger.info("✅ Session cleanup completed successfully")
+            
+        except Exception as e:
+            self.logger.warning(f"Error during session cleanup: {e}")
+
+    def _log_performance_summary(self, scan_duration, discovered_count, analyzed_count):
+        """Log performance summary for a scan."""
+        self.logger.info(f"🕐 SCAN PERFORMANCE SUMMARY:")
+        self.logger.info(f"   • Total Duration: {scan_duration:.2f}s")
+        self.logger.info(f"   • Tokens Discovered: {discovered_count}")
+        self.logger.info(f"   • Tokens Analyzed: {analyzed_count}")
+
+    def _calculate_cost_efficiency_grade(self, session_performance: dict) -> str:
+        """Calculate cost efficiency grade based on optimization metrics."""
+        try:
+            # Calculate efficiency metrics
+            total_tokens = session_performance.get('total_tokens_discovered', 0) + session_performance.get('total_tokens_analyzed', 0)
+            total_cus = session_performance.get('total_compute_units', 0)
+            
+            if total_cus == 0:
+                return "N/A"
+            
+            # Efficiency metrics
+            tokens_per_cu = total_tokens / total_cus
+            api_calls_per_token = session_performance.get('total_api_calls', 0) / max(total_tokens, 1)
+            
+            # Batch efficiency from cost optimization reports
+            avg_batch_efficiency = 0
+            scan_results = session_performance.get('scan_results', [])
+            if scan_results:
+                batch_efficiencies = [
+                    scan.get('cost_breakdown', {}).get('cost_summary', {}).get('batch_efficiency_percent', 0)
+                    for scan in scan_results
+                ]
+                avg_batch_efficiency = sum(batch_efficiencies) / len(batch_efficiencies) if batch_efficiencies else 0
+            
+            # Calculate grade based on multiple factors
+            efficiency_score = 0
+            
+            # Token efficiency (weight: 30%)
+            if tokens_per_cu >= 0.01:
+                efficiency_score += 30
+            elif tokens_per_cu >= 0.005:
+                efficiency_score += 20
+            elif tokens_per_cu >= 0.001:
+                efficiency_score += 10
+            
+            # API call efficiency (weight: 30%)
+            if api_calls_per_token <= 3:
+                efficiency_score += 30
+            elif api_calls_per_token <= 5:
+                efficiency_score += 20
+            elif api_calls_per_token <= 8:
+                efficiency_score += 10
+            
+            # Batch efficiency (weight: 40%)
+            if avg_batch_efficiency >= 200:
+                efficiency_score += 40
+            elif avg_batch_efficiency >= 100:
+                efficiency_score += 30
+            elif avg_batch_efficiency >= 50:
+                efficiency_score += 20
+            elif avg_batch_efficiency >= 20:
+                efficiency_score += 10
+            
+            # Assign grade
+            if efficiency_score >= 80:
+                return "A+ (Exceptional)"
+            elif efficiency_score >= 70:
+                return "A (Excellent)"
+            elif efficiency_score >= 60:
+                return "B+ (Very Good)"
+            elif efficiency_score >= 50:
+                return "B (Good)"
+            elif efficiency_score >= 40:
+                return "C+ (Fair)"
+            elif efficiency_score >= 30:
+                return "C (Needs Improvement)"
+            else:
+                return "D (Poor - Optimization Required)"
+                
+        except Exception as e:
+            self.logger.warning(f"Error calculating cost efficiency grade: {e}")
+            return "N/A"
+
+async def main():
+    """Main function to run the optimized scan session."""
+    print("🚀 Initializing Optimized Scan Test Session...")
+    
+    # Check for API key
+    if not os.environ.get('BIRDEYE_API_KEY'):
+        print("❌ Error: BIRDEYE_API_KEY environment variable not set")
+        print("Please set your Birdeye API key: export BIRDEYE_API_KEY='your-api-key'")
+        return
+    
+    try:
+        # Initialize session
+        session = OptimizedScanTestSession()
+        
+        # Run 5 scans with 10-minute intervals (50 minutes total)
+        session_performance = await session.run_optimized_scan_session(num_scans=5, interval_minutes=10)
+        
+        print("\n✅ Session completed successfully!")
+        await session._generate_session_report(session_performance)
+        
+    except KeyboardInterrupt:
+        print("\n⚠️ Session interrupted by user")
+    except Exception as e:
+        print(f"\n❌ Session failed: {e}")
+        print(f"❌ Session failed: {e}")
+        raise
+
+if __name__ == "__main__":
+    asyncio.run(main()) 

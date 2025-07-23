@@ -1,0 +1,1741 @@
+[
+  {
+    "rank": 1,
+    "token": {
+      "address": "7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t",
+      "decimals": 6,
+      "liquidity": 227358.83450997804,
+      "logoURI": "https://pump.mypinata.cloud/ipfs/QmcK31fyWmRxKrHwbabqpLNbZvg98EFSZY5fE8rdQCrZFd",
+      "name": "reddit dog",
+      "symbol": "r/snoofi",
+      "volume24hUSD": 13667.94489129941,
+      "volume24hChangePercent": -74.00280073242246,
+      "fdv": 520149.48523460113,
+      "marketcap": 520149.48523460113,
+      "rank": 1000,
+      "price": 0.0005202340998771825,
+      "price24hChangePercent": -5.340005961364408
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "r/snoofi",
+        "address": "7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t",
+        "rank": 1000
+      },
+      "whale_analysis": {
+        "token_address": "7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t",
+        "analysis_timestamp": 1750272168,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 17295891.156680003,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.413,
+            "sell_ratio": 0.587,
+            "activity_level": "very_high",
+            "total_volume": 17295891.156680003,
+            "avg_trader_volume": 1729589.1156680002,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "FBhjPgNodup8z4mN7fBU6eJyV4HX2zdtxcxZdyoJR7MX",
+              "volume": 4290741.6654670015,
+              "trade_count": 9,
+              "avg_trade_size": 476749.0739407779,
+              "volume_buy": 2421429.041669,
+              "volume_sell": 1869312.6237980013,
+              "buy_ratio": 0.5643381099256772,
+              "sell_ratio": 0.43566189007432277,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "2UM834PBBBUm7SpXS6qupqUy8LdZ6ogNou8n2SaHtGSc",
+              "volume": 2355288.446576,
+              "trade_count": 1,
+              "avg_trade_size": 2355288.446576,
+              "volume_buy": 0,
+              "volume_sell": 2355288.446576,
+              "buy_ratio": 0.0,
+              "sell_ratio": 1.0,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "6UQYhszHjDnhKHJXWx19uAjfTRVE1c3vCK6Rafv5W4Ey",
+              "volume": 1669844.2804550002,
+              "trade_count": 7,
+              "avg_trade_size": 238549.18292214288,
+              "volume_buy": 663737.8482320001,
+              "volume_sell": 1006106.432223,
+              "buy_ratio": 0.3974848768839358,
+              "sell_ratio": 0.6025151231160641,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 17295891.156680003,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 8315874.392498001,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t",
+        "analysis_timestamp": "2025-06-18T14:42:48.218206",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.4355953097731901,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.4355953097731901,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:48.218749"
+  },
+  {
+    "rank": 2,
+    "token": {
+      "address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
+      "decimals": 9,
+      "liquidity": 153185.40828676635,
+      "logoURI": "https://i.ibb.co/2vQzqWc/tooker-logo-1.jpg",
+      "name": "tooker kurlson",
+      "symbol": "tooker",
+      "volume24hUSD": 16996.8508513235,
+      "volume24hChangePercent": -19.51087608751787,
+      "fdv": 528978.8274960923,
+      "marketcap": 528978.8274960923,
+      "rank": 999,
+      "price": 0.0005448638594794498,
+      "price24hChangePercent": -6.489631398312837
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "tooker",
+        "address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
+        "rank": 999
+      },
+      "whale_analysis": {
+        "token_address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
+        "analysis_timestamp": 1750272168,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 28098455.622039992,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.432,
+            "sell_ratio": 0.568,
+            "activity_level": "very_high",
+            "total_volume": 28098455.622039992,
+            "avg_trader_volume": 2809845.562203999,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "BVNGwB9HrSLycgV5aoX86u74DyZc4Rf1NL5uQ5C14xSP",
+              "volume": 4999999.999833014,
+              "trade_count": 1,
+              "avg_trade_size": 4999999.999833014,
+              "volume_buy": 0,
+              "volume_sell": 4999999.999833014,
+              "buy_ratio": 0.0,
+              "sell_ratio": 1.0,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "GuM7P8emrNqfLahd54L6ET5LHXHPGHVzGC8iUdxaoAnK",
+              "volume": 4500000,
+              "trade_count": 4,
+              "avg_trade_size": 1125000.0,
+              "volume_buy": 3500000,
+              "volume_sell": 1000000,
+              "buy_ratio": 0.7777777777777778,
+              "sell_ratio": 0.2222222222222222,
+              "directional_bias": "accumulating",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "Bpon55HKtZvcLNDWy7cRTNvejYmrMV2rcTbbSx5QzesV",
+              "volume": 3799792.186860831,
+              "trade_count": 1,
+              "avg_trade_size": 3799792.186860831,
+              "volume_buy": 0,
+              "volume_sell": 3799792.186860831,
+              "buy_ratio": 0.0,
+              "sell_ratio": 1.0,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 28098455.622039992,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 13299792.186693845,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
+        "analysis_timestamp": "2025-06-18T14:42:48.445584",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.32803703703703707,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.32803703703703707,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:48.446306"
+  },
+  {
+    "rank": 3,
+    "token": {
+      "address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump",
+      "decimals": 6,
+      "liquidity": 39588.569267611,
+      "logoURI": "https://ipfs.io/ipfs/QmdQaV6E16YUmKzBMnPfa7woVyA9585oE4CKmP5ZQJuH9c",
+      "name": "MEME",
+      "symbol": "MPX6900",
+      "volume24hUSD": 3553.065778408002,
+      "volume24hChangePercent": -73.28119605496882,
+      "fdv": 42020.492949852414,
+      "marketcap": 42020.492949852414,
+      "rank": 998,
+      "price": 4.20324419351126e-05,
+      "price24hChangePercent": 2.721661184915141
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "MPX6900",
+        "address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump",
+        "rank": 998
+      },
+      "whale_analysis": {
+        "token_address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump",
+        "analysis_timestamp": 1750272168,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 56807497.360762924,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.525,
+            "sell_ratio": 0.475,
+            "activity_level": "very_high",
+            "total_volume": 56807497.360762924,
+            "avg_trader_volume": 5680749.736076293,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "arb9FAg5n8u63sXrHSTxNrBBuGf4LnMMMDFFhzCXMXU",
+              "volume": 14686943.137230966,
+              "trade_count": 146,
+              "avg_trade_size": 100595.50093993812,
+              "volume_buy": 7347707.458214995,
+              "volume_sell": 7339235.67901597,
+              "buy_ratio": 0.5002884119288767,
+              "sell_ratio": 0.49971158807112315,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "kip312wW3Wh9TLMcU2xmu2eBSJp16JNLps6NwPLdrtq",
+              "volume": 8513717.837864004,
+              "trade_count": 82,
+              "avg_trade_size": 103825.82729102444,
+              "volume_buy": 4259035.82463798,
+              "volume_sell": 4254682.013226024,
+              "buy_ratio": 0.500255693898651,
+              "sell_ratio": 0.49974430610134896,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "4Vw4QwzpLEXA7EdcAZK38GhZp1dLmCcSNkYfEK7NCNsG",
+              "volume": 8386732.065100969,
+              "trade_count": 98,
+              "avg_trade_size": 85578.89862347927,
+              "volume_buy": 4195671.342006987,
+              "volume_sell": 4191060.723093982,
+              "buy_ratio": 0.5002748757726618,
+              "sell_ratio": 0.49972512422733817,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 56807497.360762924,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 31587393.04019594,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump",
+        "analysis_timestamp": "2025-06-18T14:42:48.679698",
+        "skilled_traders": [
+          {
+            "address": "arb9FAg5n8u63sXrHSTxNrBBuGf4LnMMMDFFhzCXMXU",
+            "volume": 14686943.137230966,
+            "trade_count": 146,
+            "avg_trade_size": 100595.50093993812,
+            "volume_buy": 7347707.458214995,
+            "volume_sell": 7339235.67901597,
+            "buy_ratio": 0.5002884119288767,
+            "sell_ratio": 0.49971158807112315,
+            "directional_bias": "neutral",
+            "market_impact": "high",
+            "classification": "whale",
+            "skill_score": 0.8782278608084011,
+            "trading_efficiency": 0.9970401214051627,
+            "behavioral_consistency": 0.9994231761422464,
+            "risk_management": 0.9970401214051627,
+            "timing_skill": 0.4,
+            "skill_level": "expert"
+          },
+          {
+            "address": "kip312wW3Wh9TLMcU2xmu2eBSJp16JNLps6NwPLdrtq",
+            "volume": 8513717.837864004,
+            "trade_count": 82,
+            "avg_trade_size": 103825.82729102444,
+            "volume_buy": 4259035.82463798,
+            "volume_sell": 4254682.013226024,
+            "buy_ratio": 0.500255693898651,
+            "sell_ratio": 0.49974430610134896,
+            "directional_bias": "neutral",
+            "market_impact": "high",
+            "classification": "whale",
+            "skill_score": 0.8382388121230586,
+            "trading_efficiency": 0.891575743767971,
+            "behavioral_consistency": 0.999488612202698,
+            "risk_management": 0.9815757437679711,
+            "timing_skill": 0.4,
+            "skill_level": "expert"
+          },
+          {
+            "address": "4Vw4QwzpLEXA7EdcAZK38GhZp1dLmCcSNkYfEK7NCNsG",
+            "volume": 8386732.065100969,
+            "trade_count": 98,
+            "avg_trade_size": 85578.89862347927,
+            "volume_buy": 4195671.342006987,
+            "volume_sell": 4191060.723093982,
+            "buy_ratio": 0.5002748757726618,
+            "sell_ratio": 0.49972512422733817,
+            "directional_bias": "neutral",
+            "market_impact": "high",
+            "classification": "whale",
+            "skill_score": 0.876362562113669,
+            "trading_efficiency": 0.99,
+            "behavioral_consistency": 0.9994502484546763,
+            "risk_management": 1.0,
+            "timing_skill": 0.4,
+            "skill_level": "expert"
+          }
+        ],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 3,
+          "average_skill_score": 0.8642764116817095,
+          "skill_distribution": {
+            "high": 3,
+            "medium": 0,
+            "low": 0
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": true,
+          "skill_quality": "high",
+          "trader_sophistication": "very_high",
+          "market_sentiment": "neutral",
+          "risk_assessment": "low",
+          "recommendations": [
+            "High-quality trader activity detected - positive signal",
+            "Some skilled trader activity - moderate confidence"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 3,
+        "average_skill_score": 0.8642764116817095,
+        "has_smart_money": true
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:48.680040"
+  },
+  {
+    "rank": 4,
+    "token": {
+      "address": "B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump",
+      "decimals": 6,
+      "liquidity": 123781.33688258452,
+      "logoURI": "https://ipfs.io/ipfs/QmfF7svgykQL2FCEkNFU8tYrDpv3FsHSicXSkCBxQ5hDpv",
+      "name": "Chicken Jockey",
+      "symbol": "jockey",
+      "volume24hUSD": 12235.445316268551,
+      "volume24hChangePercent": -45.10337660269752,
+      "fdv": 333354.1865373055,
+      "marketcap": 333354.1865373055,
+      "rank": 997,
+      "price": 0.00033338693746537987,
+      "price24hChangePercent": 1.405676203313422
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "jockey",
+        "address": "B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump",
+        "rank": 997
+      },
+      "whale_analysis": {
+        "token_address": "B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump",
+        "analysis_timestamp": 1750272170,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 54845302.398415014,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.391,
+            "sell_ratio": 0.609,
+            "activity_level": "very_high",
+            "total_volume": 54845302.398415014,
+            "avg_trader_volume": 5484530.239841501,
+            "dominant_action": "selling"
+          },
+          "top_whales": [
+            {
+              "address": "7rtiKSUDLBm59b1SBmD9oajcP8xE64vAGSMbAN5CXy1q",
+              "volume": 7430082.995304034,
+              "trade_count": 105,
+              "avg_trade_size": 70762.69519337175,
+              "volume_buy": 3973862.591766989,
+              "volume_sell": 3456220.4035370452,
+              "buy_ratio": 0.5348342130604129,
+              "sell_ratio": 0.46516578693958704,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "9kHtPFCXHH9qjRtcPLdeYp5JRrok9MqoADetvoD9X9jZ",
+              "volume": 7292801.484495995,
+              "trade_count": 7,
+              "avg_trade_size": 1041828.7834994278,
+              "volume_buy": 3397421.690419995,
+              "volume_sell": 3895379.7940759994,
+              "buy_ratio": 0.46585961480546056,
+              "sell_ratio": 0.5341403851945394,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "K89C5ELTX98KiKET8PQCqe15NzogVgo9QqixYtuH4ok",
+              "volume": 7101121.297895992,
+              "trade_count": 167,
+              "avg_trade_size": 42521.684418538876,
+              "volume_buy": 2490937.902062977,
+              "volume_sell": 4610183.395833015,
+              "buy_ratio": 0.3507809256548009,
+              "sell_ratio": 0.6492190743451992,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 54845302.398415014,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 21824005.77769602,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "B91Nyc6SnWqr5DRR34eEMKuZrWh4zBhW9VhX4UNLpump",
+        "analysis_timestamp": "2025-06-18T14:42:50.420537",
+        "skilled_traders": [
+          {
+            "address": "7rtiKSUDLBm59b1SBmD9oajcP8xE64vAGSMbAN5CXy1q",
+            "volume": 7430082.995304034,
+            "trade_count": 105,
+            "avg_trade_size": 70762.69519337175,
+            "volume_buy": 3973862.591766989,
+            "volume_sell": 3456220.4035370452,
+            "buy_ratio": 0.5348342130604129,
+            "sell_ratio": 0.46516578693958704,
+            "directional_bias": "neutral",
+            "market_impact": "high",
+            "classification": "whale",
+            "skill_score": 0.8625828934697937,
+            "trading_efficiency": 1.0,
+            "behavioral_consistency": 0.9303315738791742,
+            "risk_management": 1.0,
+            "timing_skill": 0.4,
+            "skill_level": "expert"
+          },
+          {
+            "address": "K89C5ELTX98KiKET8PQCqe15NzogVgo9QqixYtuH4ok",
+            "volume": 7101121.297895992,
+            "trade_count": 167,
+            "avg_trade_size": 42521.684418538876,
+            "volume_buy": 2490937.902062977,
+            "volume_sell": 4610183.395833015,
+            "buy_ratio": 0.3507809256548009,
+            "sell_ratio": 0.6492190743451992,
+            "directional_bias": "neutral",
+            "market_impact": "high",
+            "classification": "whale",
+            "skill_score": 0.8453904628274004,
+            "trading_efficiency": 1.0,
+            "behavioral_consistency": 0.7015618513096017,
+            "risk_management": 1.0,
+            "timing_skill": 0.6,
+            "skill_level": "expert"
+          }
+        ],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 2,
+          "average_skill_score": 0.7202177212333081,
+          "skill_distribution": {
+            "high": 2,
+            "medium": 0,
+            "low": 1
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": true,
+          "skill_quality": "high",
+          "trader_sophistication": "very_high",
+          "market_sentiment": "neutral",
+          "risk_assessment": "medium",
+          "recommendations": [
+            "High-quality trader activity detected - positive signal",
+            "Some skilled trader activity - moderate confidence"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 2,
+        "average_skill_score": 0.7202177212333081,
+        "has_smart_money": true
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:50.420892"
+  },
+  {
+    "rank": 5,
+    "token": {
+      "address": "4uNu7jVuXjpQdKgd5Xgk8rZSnPyCBNiQwHjJZAJ5Lsfq",
+      "decimals": 2,
+      "liquidity": 9585.517037318245,
+      "logoURI": "https://gateway.irys.xyz/O2YLk3A1lLs4kVMLkglILmexUDFA9Zmd-qXpbLBjTCE",
+      "name": "$PLATINUM",
+      "symbol": "$PLAT",
+      "volume24hUSD": 13357.024203308187,
+      "volume24hChangePercent": 5.300447867342616,
+      "fdv": 26655.842012207377,
+      "marketcap": 26655.842012207377,
+      "rank": 996,
+      "price": 2.665963058894129e-13,
+      "price24hChangePercent": -9.583442573476063
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "$PLAT",
+        "address": "4uNu7jVuXjpQdKgd5Xgk8rZSnPyCBNiQwHjJZAJ5Lsfq",
+        "rank": 996
+      },
+      "whale_analysis": {
+        "token_address": "4uNu7jVuXjpQdKgd5Xgk8rZSnPyCBNiQwHjJZAJ5Lsfq",
+        "analysis_timestamp": 1750272170,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 3.550235279058499e+16,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.537,
+            "sell_ratio": 0.463,
+            "activity_level": "very_high",
+            "total_volume": 3.550235279058499e+16,
+            "avg_trader_volume": 3550235279058499.0,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "GCvHhEUYQwTJ8jyf8Lc4bv8jBXyZU4LMMsZCobwEPzvM",
+              "volume": 11016723794387556,
+              "trade_count": 90,
+              "avg_trade_size": 122408042159861.73,
+              "volume_buy": 6276675925628978,
+              "volume_sell": 4740047868758577,
+              "buy_ratio": 0.5697406999371823,
+              "sell_ratio": 0.43025930006281754,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "BZcZHzzy7ahmioBWF7CSVh1Vg4hXJk442xFzQXFKAv4U",
+              "volume": 5887760703839880,
+              "trade_count": 6,
+              "avg_trade_size": 981293450639980.0,
+              "volume_buy": 3018880352102366,
+              "volume_sell": 2868880351737514,
+              "buy_ratio": 0.5127382894711587,
+              "sell_ratio": 0.4872617105288412,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "8DZFMB2dMDeDBrRgiFUkQTBJJ8A42zvi1mvdcDwN2pG5",
+              "volume": 3389009949990567,
+              "trade_count": 5,
+              "avg_trade_size": 677801989998113.4,
+              "volume_buy": 3389009949990567,
+              "volume_sell": 0.015625,
+              "buy_ratio": 1.0,
+              "sell_ratio": 4.610491037373169e-18,
+              "directional_bias": "accumulating",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 3.550235279058499e+16,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 20293494448218003,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "4uNu7jVuXjpQdKgd5Xgk8rZSnPyCBNiQwHjJZAJ5Lsfq",
+        "analysis_timestamp": "2025-06-18T14:42:50.631654",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.4460035017652764,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.4460035017652764,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:50.632402"
+  },
+  {
+    "rank": 6,
+    "token": {
+      "address": "9fXktNdXcHHF596f8Be13aqiddNDsBGYcREwoCrwpump",
+      "decimals": 6,
+      "liquidity": 2528.2145618243,
+      "logoURI": "https://ipfs.io/ipfs/QmSmYjMR64b2MpkMi9Cc8VPeXJ3TuqtMm2Gmd9uBqtB9da",
+      "name": "Tariff or Ketamine?",
+      "symbol": "TAKET",
+      "volume24hUSD": 11918.92297510897,
+      "volume24hChangePercent": -100,
+      "fdv": 6663.220277125054,
+      "marketcap": 6663.220277125054,
+      "rank": 995,
+      "price": 6.663220277125054e-06,
+      "price24hChangePercent": 12.225914560594642
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "TAKET",
+        "address": "9fXktNdXcHHF596f8Be13aqiddNDsBGYcREwoCrwpump",
+        "rank": 995
+      },
+      "whale_analysis": {
+        "token_address": "9fXktNdXcHHF596f8Be13aqiddNDsBGYcREwoCrwpump",
+        "analysis_timestamp": 1750272170,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 656235337.2881361,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.5,
+            "sell_ratio": 0.5,
+            "activity_level": "very_high",
+            "total_volume": 656235337.2881361,
+            "avg_trader_volume": 65623533.72881361,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "8MunJEdYdH3z1ntkgozJsaqhhTAeWUqXb4AGWtCbM3jG",
+              "volume": 182269546.134922,
+              "trade_count": 4,
+              "avg_trade_size": 45567386.5337305,
+              "volume_buy": 91134773.067461,
+              "volume_sell": 91134773.067461,
+              "buy_ratio": 0.5,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "CExS5cat51JA4JkHZhuHNPWMYGeM5GYmac5WiHbCbPRD",
+              "volume": 90105384.08850399,
+              "trade_count": 9,
+              "avg_trade_size": 10011709.34316711,
+              "volume_buy": 45052692.044252,
+              "volume_sell": 45052692.04425199,
+              "buy_ratio": 0.5000000000000001,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "92JjRUxY6xYtt7UG5mwc7NJWT8QJxBXE1ye6vfPmwgkR",
+              "volume": 71540663.58933,
+              "trade_count": 3,
+              "avg_trade_size": 23846887.863110002,
+              "volume_buy": 35770331.794665,
+              "volume_sell": 35770331.794665,
+              "buy_ratio": 0.5,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 656235337.2881361,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 343915593.812756,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "9fXktNdXcHHF596f8Be13aqiddNDsBGYcREwoCrwpump",
+        "analysis_timestamp": "2025-06-18T14:42:50.955815",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.4668333333333334,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.4668333333333334,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:50.956427"
+  },
+  {
+    "rank": 7,
+    "token": {
+      "address": "BuRnmu2vyaUkowpiVdG7G3sybdkc4hEAKtFtg2QVUvfF",
+      "decimals": 9,
+      "liquidity": 6558.272907934851,
+      "logoURI": "https://ipfs.io/ipfs/QmabjEfK1TmSaqqgXG4XG2JFRWddWepBU1dMzHxQopGT7K",
+      "name": "Burny",
+      "symbol": "Burny",
+      "volume24hUSD": 4505.479797126095,
+      "volume24hChangePercent": 163.33533711732855,
+      "fdv": 14235.034752930358,
+      "marketcap": 14235.034752930358,
+      "rank": 994,
+      "price": 1.5216841172125628e-05,
+      "price24hChangePercent": 1.5654517826996444
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "Burny",
+        "address": "BuRnmu2vyaUkowpiVdG7G3sybdkc4hEAKtFtg2QVUvfF",
+        "rank": 994
+      },
+      "whale_analysis": {
+        "token_address": "BuRnmu2vyaUkowpiVdG7G3sybdkc4hEAKtFtg2QVUvfF",
+        "analysis_timestamp": 1750272171,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 366101638.27728385,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.427,
+            "sell_ratio": 0.573,
+            "activity_level": "very_high",
+            "total_volume": 366101638.27728385,
+            "avg_trader_volume": 36610163.82772838,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "Bn5gy2RiK8P5z2UkcerwuYtC5CBYDL7nifNFAxqWHfx4",
+              "volume": 86299630.58801728,
+              "trade_count": 18,
+              "avg_trade_size": 4794423.921556516,
+              "volume_buy": 34430903.2570325,
+              "volume_sell": 51868727.33098478,
+              "buy_ratio": 0.3989693005918062,
+              "sell_ratio": 0.6010306994081938,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "7TbWAVaUUX2q3hvjwZGL7bniTA9C5QuDdLybt9AHiNqd",
+              "volume": 78330743.3634608,
+              "trade_count": 18,
+              "avg_trade_size": 4351707.9646367105,
+              "volume_buy": 32521789.374646213,
+              "volume_sell": 45808953.988814585,
+              "buy_ratio": 0.41518550671404403,
+              "sell_ratio": 0.584814493285956,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "GRvMPqduvYMqSqJSXstLfp68LfKvrvvP91Uj8xcS5CtG",
+              "volume": 50596334.72145819,
+              "trade_count": 5,
+              "avg_trade_size": 10119266.944291638,
+              "volume_buy": 99072.63203570996,
+              "volume_sell": 50497262.08942248,
+              "buy_ratio": 0.001958098992370147,
+              "sell_ratio": 0.9980419010076299,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 366101638.27728385,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 215226708.67293626,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "BuRnmu2vyaUkowpiVdG7G3sybdkc4hEAKtFtg2QVUvfF",
+        "analysis_timestamp": "2025-06-18T14:42:51.288571",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.40727230946700593,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.40727230946700593,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:51.289133"
+  },
+  {
+    "rank": 8,
+    "token": {
+      "address": "7zEwmsHwp1KbE1UGp7jZUHDSVsLj5sVGLGnrJp1ppump",
+      "decimals": 6,
+      "liquidity": 4564.790868205099,
+      "logoURI": "https://ipfs.io/ipfs/Qmb8Gk1vRQta5ERfDyj86D2f5rLu3AxLkHH6gHMAB5Uv6u",
+      "name": "Tate\u2019s Sportscar",
+      "symbol": "SPORTSCAR",
+      "volume24hUSD": 11135.208795280489,
+      "volume24hChangePercent": null,
+      "fdv": 9192.721571370284,
+      "marketcap": 9192.721571370284,
+      "rank": 993,
+      "price": 9.192721598425623e-06,
+      "price24hChangePercent": 110.56621287022121
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "SPORTSCAR",
+        "address": "7zEwmsHwp1KbE1UGp7jZUHDSVsLj5sVGLGnrJp1ppump",
+        "rank": 993
+      },
+      "whale_analysis": {
+        "token_address": "7zEwmsHwp1KbE1UGp7jZUHDSVsLj5sVGLGnrJp1ppump",
+        "analysis_timestamp": 1750272171,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 659695802.7174609,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.524,
+            "sell_ratio": 0.476,
+            "activity_level": "very_high",
+            "total_volume": 659695802.7174609,
+            "avg_trader_volume": 65969580.271746084,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3",
+              "volume": 91632198.426894,
+              "trade_count": 18,
+              "avg_trade_size": 5090677.690382999,
+              "volume_buy": 45816099.213447,
+              "volume_sell": 45816099.213447,
+              "buy_ratio": 0.5,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "HNsL7AFCHJHU88TgyymJj9NWDBE6oimnDfYUga5PWPA6",
+              "volume": 89931802.53143999,
+              "trade_count": 4,
+              "avg_trade_size": 22482950.632859997,
+              "volume_buy": 44965901.265719995,
+              "volume_sell": 44965901.265719995,
+              "buy_ratio": 0.5,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "689PgJFtc6AJRvnCGNzhiHYfRjpbaxsAMvE2kLL819vW",
+              "volume": 88678100.913074,
+              "trade_count": 2,
+              "avg_trade_size": 44339050.456537,
+              "volume_buy": 44339050.456537,
+              "volume_sell": 44339050.456537,
+              "buy_ratio": 0.5,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 659695802.7174609,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 270242101.871408,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "7zEwmsHwp1KbE1UGp7jZUHDSVsLj5sVGLGnrJp1ppump",
+        "analysis_timestamp": "2025-06-18T14:42:51.604470",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.47150000000000003,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.47150000000000003,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:51.604665"
+  },
+  {
+    "rank": 9,
+    "token": {
+      "address": "2CeYw1T512SaTrmfrCTRXyDLovtHDTASM7LMU7N8grZv",
+      "decimals": 6,
+      "liquidity": 48363.617418495,
+      "logoURI": "https://ipfs.io/ipfs/Qmche4ZnJkXyr6f3pz5NVymJNtd6D2UWvq8WdwiNepAHAN",
+      "name": "The White Lion",
+      "symbol": "KIMBA",
+      "volume24hUSD": 4715.995976259802,
+      "volume24hChangePercent": -72.69938201642249,
+      "fdv": 3178595.9271177263,
+      "marketcap": 3178595.9271177263,
+      "rank": 992,
+      "price": 1.5226471055867725e-06,
+      "price24hChangePercent": 0.8473587609114639
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "KIMBA",
+        "address": "2CeYw1T512SaTrmfrCTRXyDLovtHDTASM7LMU7N8grZv",
+        "rank": 992
+      },
+      "whale_analysis": {
+        "token_address": "2CeYw1T512SaTrmfrCTRXyDLovtHDTASM7LMU7N8grZv",
+        "analysis_timestamp": 1750272171,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 2608971047.599702,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.402,
+            "sell_ratio": 0.598,
+            "activity_level": "very_high",
+            "total_volume": 2608971047.599702,
+            "avg_trader_volume": 260897104.7599702,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "FpDND4jYTCcYHs9qZEhEBeJuGdxBC1AmbWkAwvPj4gvs",
+              "volume": 616250641.219961,
+              "trade_count": 1,
+              "avg_trade_size": 616250641.219961,
+              "volume_buy": 0,
+              "volume_sell": 616250641.219961,
+              "buy_ratio": 0.0,
+              "sell_ratio": 1.0,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "GEGTTutMucYgXmGDFaitTgMxf3Sa4Rrn2kKzAcLrJAes",
+              "volume": 469804024.319086,
+              "trade_count": 1,
+              "avg_trade_size": 469804024.319086,
+              "volume_buy": 469804024.319086,
+              "volume_sell": 0,
+              "buy_ratio": 1.0,
+              "sell_ratio": 0.0,
+              "directional_bias": "accumulating",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "72tRV4y7NvUDvYFU3QbfSVYGb4UrqcEYQXpCM9U1gLxV",
+              "volume": 415029511.529058,
+              "trade_count": 2,
+              "avg_trade_size": 207514755.764529,
+              "volume_buy": 207514755.764529,
+              "volume_sell": 207514755.764529,
+              "buy_ratio": 0.5,
+              "sell_ratio": 0.5,
+              "directional_bias": "neutral",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 2608971047.599702,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 1501084177.068105,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "2CeYw1T512SaTrmfrCTRXyDLovtHDTASM7LMU7N8grZv",
+        "analysis_timestamp": "2025-06-18T14:42:51.930384",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.34650000000000003,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.34650000000000003,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:51.930570"
+  },
+  {
+    "rank": 10,
+    "token": {
+      "address": "bv88GZQfPHeTXHctPPxkbFCAKBCocXFSENYGYBppump",
+      "decimals": 6,
+      "liquidity": 124400.57229411714,
+      "logoURI": "https://ipfs.io/ipfs/QmSKCpRRPb7hKAsqSfQ1mfYcTig84rfRjZuXBRM1sWKETw",
+      "name": "fuck you boss I'm late",
+      "symbol": "LATE",
+      "volume24hUSD": 29022.278232580207,
+      "volume24hChangePercent": 159.32709532230086,
+      "fdv": 892917.3127282682,
+      "marketcap": 892917.3127282682,
+      "rank": 991,
+      "price": 0.0009017707864873221,
+      "price24hChangePercent": -3.576689415759005
+    },
+    "whale_analysis": {
+      "token_info": {
+        "symbol": "LATE",
+        "address": "bv88GZQfPHeTXHctPPxkbFCAKBCocXFSENYGYBppump",
+        "rank": 991
+      },
+      "whale_analysis": {
+        "token_address": "bv88GZQfPHeTXHctPPxkbFCAKBCocXFSENYGYBppump",
+        "analysis_timestamp": 1750272172,
+        "api_efficiency": {
+          "api_calls_used": 1,
+          "max_calls_allowed": 2,
+          "efficiency_rating": "excellent",
+          "timeframes_analyzed": [
+            "24h"
+          ]
+        },
+        "whale_analysis": {
+          "count": 10,
+          "total_volume": 27682280.598027,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.455,
+            "sell_ratio": 0.545,
+            "activity_level": "very_high",
+            "total_volume": 27682280.598027,
+            "avg_trader_volume": 2768228.0598027,
+            "dominant_action": "mixed"
+          },
+          "top_whales": [
+            {
+              "address": "HYDu8WAZGLygyFPzn1DFkaZgUFwmE3hgy2KK5Jq3mEVr",
+              "volume": 5553552.141724,
+              "trade_count": 2,
+              "avg_trade_size": 2776776.070862,
+              "volume_buy": 4.0745362639427185e-10,
+              "volume_sell": 5553552.141724,
+              "buy_ratio": 7.336811035464326e-17,
+              "sell_ratio": 1.0,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "8VXbZi3RMj2QcTmGF4cmBvojWy7ZYWo8uKYvRo2Zhum8",
+              "volume": 5253680.986876,
+              "trade_count": 12,
+              "avg_trade_size": 437806.7489063333,
+              "volume_buy": 2.3283064365386963e-10,
+              "volume_sell": 5253680.986876,
+              "buy_ratio": 4.431762115657462e-17,
+              "sell_ratio": 1.0,
+              "directional_bias": "distributing",
+              "market_impact": "high",
+              "classification": "whale"
+            },
+            {
+              "address": "DThmFv1EGssner2DvdpNmARaKj3RjF24MMiVnpFhcVY6",
+              "volume": 5155276.33565,
+              "trade_count": 20,
+              "avg_trade_size": 257763.81678249998,
+              "volume_buy": 5155276.33565,
+              "volume_sell": 0,
+              "buy_ratio": 1.0,
+              "sell_ratio": 0.0,
+              "directional_bias": "accumulating",
+              "market_impact": "high",
+              "classification": "whale"
+            }
+          ],
+          "collective_bias": "neutral"
+        },
+        "shark_analysis": {
+          "count": 0,
+          "total_volume": 0,
+          "movement_pattern": {
+            "directional_bias": "neutral",
+            "buy_ratio": 0.0,
+            "sell_ratio": 0.0,
+            "activity_level": "none"
+          },
+          "top_sharks": [],
+          "collective_bias": "neutral"
+        },
+        "market_structure": {
+          "structure_type": "whale_dominated",
+          "whale_dominance": 1.0,
+          "shark_presence": 0.0,
+          "market_control": "institutional",
+          "total_large_trader_volume": 27682280.598027,
+          "whale_count": 10,
+          "shark_count": 0,
+          "concentration_score": 1.0
+        },
+        "trading_insights": {
+          "signals": [],
+          "risk_assessment": "high",
+          "confidence_level": "medium",
+          "recommended_action": "monitor",
+          "key_observations": [
+            "Market dominated by institutional players"
+          ]
+        },
+        "analysis_valid": true
+      },
+      "summary": {
+        "whale_count": 3,
+        "whale_volume": 15962509.464249998,
+        "has_whales": true
+      }
+    },
+    "smart_money_analysis": {
+      "smart_money_analysis": {
+        "token_address": "bv88GZQfPHeTXHctPPxkbFCAKBCocXFSENYGYBppump",
+        "analysis_timestamp": "2025-06-18T14:42:52.128767",
+        "skilled_traders": [],
+        "skill_metrics": {
+          "total_analyzed": 3,
+          "skilled_count": 0,
+          "average_skill_score": 0.3454999715312416,
+          "skill_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 3
+          }
+        },
+        "smart_money_insights": {
+          "smart_money_present": false,
+          "skill_quality": "low",
+          "trader_sophistication": "none",
+          "market_sentiment": "neutral",
+          "risk_assessment": "unknown",
+          "recommendations": [
+            "No skilled traders detected - exercise caution"
+          ]
+        },
+        "data_source": "whale_shark_tracker",
+        "additional_api_calls": 0
+      },
+      "summary": {
+        "smart_trader_count": 0,
+        "average_skill_score": 0.3454999715312416,
+        "has_smart_money": false
+      }
+    },
+    "analysis_timestamp": "2025-06-18T14:42:52.129328"
+  }
+]

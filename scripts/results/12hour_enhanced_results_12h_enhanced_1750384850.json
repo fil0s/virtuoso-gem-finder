@@ -1,0 +1,100 @@
+{
+  "start_time": "2025-06-19T22:00:50.002330",
+  "session_id": "12h_enhanced_1750384850",
+  "scan_interval_minutes": 12,
+  "total_planned_scans": 60,
+  "total_duration_hours": 12,
+  "scans": [],
+  "tokens_discovered": {},
+  "api_usage_by_provider": {
+    "birdeye": {
+      "total_calls": 0,
+      "successful_calls": 0,
+      "failed_calls": 0,
+      "total_response_time_ms": 0,
+      "avg_response_time_ms": 0,
+      "endpoints": {},
+      "rate_limit_hits": 0,
+      "estimated_cost_usd": 0.0
+    },
+    "dexscreener": {
+      "total_calls": 0,
+      "successful_calls": 0,
+      "failed_calls": 0,
+      "total_response_time_ms": 0,
+      "avg_response_time_ms": 0,
+      "endpoints": {},
+      "estimated_cost_usd": 0.0
+    },
+    "rugcheck": {
+      "total_calls": 0,
+      "successful_calls": 0,
+      "failed_calls": 0,
+      "total_response_time_ms": 0,
+      "avg_response_time_ms": 0,
+      "estimated_cost_usd": 0.0
+    }
+  },
+  "cost_analysis": {
+    "total_estimated_cost_usd": 0.0,
+    "cost_per_scan_avg": 0.0,
+    "cost_per_token_discovered": 0.0,
+    "cost_per_high_conviction_token": 0.0,
+    "cost_breakdown_by_stage": {
+      "cross_platform_analysis": 0.0,
+      "detailed_birdeye_analysis": 0.0,
+      "whale_analysis": 0.0,
+      "volume_analysis": 0.0,
+      "security_analysis": 0.0,
+      "community_analysis": 0.0
+    },
+    "optimization_recommendations": []
+  },
+  "performance_analysis": {
+    "avg_scan_duration": 0,
+    "pipeline_stage_durations": {
+      "cross_platform_analysis_ms": [],
+      "detailed_analysis_ms": [],
+      "whale_analysis_ms": [],
+      "volume_analysis_ms": [],
+      "security_analysis_ms": [],
+      "community_analysis_ms": [],
+      "scoring_calculation_ms": [],
+      "alert_generation_ms": []
+    },
+    "bottlenecks_identified": [],
+    "system_resource_usage": {
+      "peak_memory_mb": 0,
+      "avg_cpu_percent": 0,
+      "disk_io_mb": 0
+    },
+    "slowest_scans": [],
+    "fastest_scans": []
+  },
+  "error_analysis": {
+    "total_errors": 0,
+    "errors_by_provider": {},
+    "errors_by_endpoint": {},
+    "errors_by_type": {},
+    "error_patterns": [],
+    "recovery_success_rate": 0.0,
+    "consecutive_failures": 0,
+    "max_consecutive_failures": 0,
+    "error_timeline": []
+  },
+  "performance_metrics": {
+    "avg_scan_duration": 0,
+    "total_tokens_found": 0,
+    "unique_tokens": 0,
+    "high_conviction_tokens": 0,
+    "tokens_per_hour": 0,
+    "high_conviction_rate": 0.0,
+    "scan_success_rate": 0.0,
+    "api_efficiency_score": 0.0
+  },
+  "detailed_token_analyses": {},
+  "end_time": "2025-06-19T22:09:20.472487",
+  "actual_duration_minutes": 8.507836133333333,
+  "completed_scans": 0,
+  "completion_rate": 0.0
+}

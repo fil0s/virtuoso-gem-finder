@@ -1,0 +1,16 @@
+{
+  "scan_info": {
+    "timestamp": "2025-06-24T21:40:13.328360",
+    "execution_time": 52.649272203445435,
+    "target_categories": [
+      "\ud83d\udd0d Gem Discovery",
+      "\ud83d\ude80 Momentum Building",
+      "\ud83d\udcb0 Peak Performance",
+      "\u26a0\ufe0f Danger Zone",
+      "\ud83d\udea8 Manipulation"
+    ],
+    "total_tokens_analyzed": 10
+  },
+  "vlr_analysis": {
+    "category_analysis": {
+      

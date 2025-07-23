@@ -1,0 +1,2548 @@
+{
+  "scan_results": [
+    {
+      "scan_number": 1,
+      "timestamp": "2025-06-17T22:10:37.861832",
+      "scan_duration": 52.71144771575928,
+      "memory_used_mb": -11.90625,
+      "total_api_calls": 20,
+      "api_breakdown": {
+        "successful_api_calls": 20,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 6019
+      },
+      "raw_strategy": {
+        "tokens_found": 9,
+        "execution_time": 37.74122905731201,
+        "api_calls_used": 20,
+        "tokens": [
+          {
+            "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+            "logo_uri": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
+            "name": "Fartcoin ",
+            "symbol": "Fartcoin ",
+            "decimals": 6,
+            "extensions": {
+              "coingecko_id": "fartcoin",
+              "twitter": "https://twitter.com/FartCoinOfSOL",
+              "website": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt"
+            },
+            "market_cap": 1095088790.4508755,
+            "fdv": 1095088790.4508755,
+            "liquidity": 38345161.74136617,
+            "last_trade_unix_time": 1750212531,
+            "volume_1h_usd": 4304913.101288501,
+            "volume_1h_change_percent": -40.74736623520825,
+            "volume_2h_usd": 10875827.789185902,
+            "volume_2h_change_percent": -39.95087654430369,
+            "volume_4h_usd": 29367433.00186784,
+            "volume_4h_change_percent": 8.484674025024797,
+            "volume_8h_usd": 54129288.285940446,
+            "volume_8h_change_percent": -20.50188973591431,
+            "volume_24h_usd": 167994486.12136176,
+            "volume_24h_change_percent": -16.390676391305476,
+            "trade_1h_count": 11736,
+            "trade_2h_count": 26925,
+            "trade_4h_count": 55450,
+            "trade_8h_count": 108763,
+            "trade_24h_count": 303212,
+            "price": 1.095097716883054,
+            "price_change_1h_percent": -2.349981500898084,
+            "price_change_2h_percent": -0.5172556571575333,
+            "price_change_4h_percent": -2.7125476750745627,
+            "price_change_8h_percent": -0.18658110430192582,
+            "price_change_24h_percent": -5.7072193088337215,
+            "holder": 161138,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+              "analysis_timestamp": 1750212586,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 3001.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 2,
+              "analysis_timestamp": 1750212622
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212622,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+            "logo_uri": "https://static.jup.ag/jlp/icon.png",
+            "name": "Jupiter Perps LP",
+            "symbol": "JLP",
+            "decimals": 6,
+            "extensions": {
+              "coingecko_id": "jupiter-perpetuals-liquidity-provider-token",
+              "discord": "https://discord.com/invite/jup",
+              "github": "https://github.com/qubic-li",
+              "twitter": "https://twitter.com/JupiterExchange",
+              "website": "https://jup.ag/",
+              "description": "JLP is the liquidity provider token for Jupiter Labs Perpetual."
+            },
+            "market_cap": 1506178740.330349,
+            "fdv": 1506178740.330349,
+            "liquidity": 25543382.474896684,
+            "last_trade_unix_time": 1750212529,
+            "volume_1h_usd": 2016017.630197903,
+            "volume_1h_change_percent": -20.624397376475706,
+            "volume_2h_usd": 4339585.533941614,
+            "volume_2h_change_percent": 72.31439614689559,
+            "volume_4h_usd": 6915358.659917312,
+            "volume_4h_change_percent": -46.3358664817132,
+            "volume_8h_usd": 18944634.434298106,
+            "volume_8h_change_percent": -5.013913359102338,
+            "volume_24h_usd": 52355615.14139481,
+            "volume_24h_change_percent": -33.27299768967034,
+            "trade_1h_count": 4367,
+            "trade_2h_count": 9082,
+            "trade_4h_count": 17466,
+            "trade_8h_count": 45765,
+            "trade_24h_count": 134256,
+            "price": 4.388053585191802,
+            "price_change_1h_percent": -0.3601123517272826,
+            "price_change_2h_percent": -0.0007152536817464255,
+            "price_change_4h_percent": -0.014202215602280473,
+            "price_change_8h_percent": 0.5698952923400207,
+            "price_change_24h_percent": -1.43231995479545,
+            "holder": 77512,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+              "analysis_timestamp": 1750212587,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 78562.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 5,
+              "analysis_timestamp": 1750212622
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212622,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+            "logo_uri": "https://ipfs.io/ipfs/QmRcEE24rqcern3n4LirX1Gw2YPuXTXdE1YrXiFvp1BvmG",
+            "name": "United States Dominant Peg",
+            "symbol": "USDP",
+            "decimals": 6,
+            "extensions": {
+              "twitter": "https://x.com/USD_Pegged"
+            },
+            "market_cap": 34644710.51146609,
+            "fdv": 34644710.51146609,
+            "liquidity": 939641.8205961321,
+            "last_trade_unix_time": 1750212531,
+            "volume_1h_usd": 1728472.5227336672,
+            "volume_1h_change_percent": -50.441733619525074,
+            "volume_2h_usd": 5066298.40349734,
+            "volume_2h_change_percent": 72.48408770493123,
+            "volume_4h_usd": 7197361.79334184,
+            "volume_4h_change_percent": 384.96833693502265,
+            "volume_8h_usd": 7982006.088211371,
+            "volume_8h_change_percent": 175.61777745549168,
+            "volume_24h_usd": 14165980.028565617,
+            "volume_24h_change_percent": -89.15663761717524,
+            "trade_1h_count": 15570,
+            "trade_2h_count": 35653,
+            "trade_4h_count": 48273,
+            "trade_8h_count": 56417,
+            "trade_24h_count": 106323,
+            "price": 0.03464483662570261,
+            "price_change_1h_percent": 0.3082679133300535,
+            "price_change_2h_percent": -0.44462467277734935,
+            "price_change_4h_percent": 78.24390215344303,
+            "price_change_8h_percent": 92.1458388226935,
+            "price_change_24h_percent": 28.722071145101047,
+            "holder": 20169,
+            "recent_listing_time": 1750021509,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+              "analysis_timestamp": 1750212587,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 2001.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 1,
+              "analysis_timestamp": 1750212622
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212622,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+            "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png",
+            "name": "Wrapped Ether (Wormhole)",
+            "symbol": "WETH",
+            "decimals": 8,
+            "extensions": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "asset_contract": "https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "bridge_contract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+              "coingecko_id": "ethereum",
+              "serum_v3_usdc": "8Gmi2HhZmwQPVdCwzS7CM66MGstMXPcTVHA7jF19cLZz",
+              "serum_v3_usdt": "ch7kmPrtoQUSEPBggcNAvLGiMQkJagVwd3gDYfd8m7Q",
+              "telegram": null,
+              "twitter": "https://twitter.com/wormholecrypto",
+              "website": "https://wormholenetwork.com/en/",
+              "discord": "https://discord.com/invite/xsT8qrHAvV"
+            },
+            "market_cap": 181159042.64948708,
+            "fdv": 181159042.64948708,
+            "liquidity": 7723263.058345276,
+            "last_trade_unix_time": 1750212531,
+            "volume_1h_usd": 549920.5235081534,
+            "volume_1h_change_percent": -34.24164179771553,
+            "volume_2h_usd": 1288618.3353420496,
+            "volume_2h_change_percent": 34.221791756653055,
+            "volume_4h_usd": 2234808.949676479,
+            "volume_4h_change_percent": -56.00494583564849,
+            "volume_8h_usd": 7139973.143241517,
+            "volume_8h_change_percent": -65.4564577343766,
+            "volume_24h_usd": 39200170.10449912,
+            "volume_24h_change_percent": -34.3527583606057,
+            "trade_1h_count": 3454,
+            "trade_2h_count": 7174,
+            "trade_4h_count": 13934,
+            "trade_8h_count": 32648,
+            "trade_24h_count": 104561,
+            "price": 2520.7289988828134,
+            "price_change_1h_percent": -0.5738558901155368,
+            "price_change_2h_percent": 0.17551892848254158,
+            "price_change_4h_percent": 0.03960964571905938,
+            "price_change_8h_percent": 1.9791192501353254,
+            "price_change_24h_percent": -2.291644000495084,
+            "holder": 64250,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+              "analysis_timestamp": 1750212588,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 67347.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 6,
+              "analysis_timestamp": 1750212622
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212622,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+            "logo_uri": "https://ipfs.io/ipfs/QmZ7L8yd5j36oXXydUiYFiFsRHbi3EdgC4RuFwvM7dcqge",
+            "name": "Coinbase Wrapped BTC",
+            "symbol": "cbBTC",
+            "decimals": 8,
+            "extensions": {
+              "coingecko_id": "coinbase-wrapped-btc",
+              "description": "Coinbase Wrapped BTC (\"cbBTC\") is an SPL token that is backed 1:1 by Bitcoin (BTC) held by Coinbase. cbBTC is built to be seamlessly compatible with DeFi applications, giving customers the option to tap into DeFi and unlock financial utility.",
+              "twitter": "https://twitter.com/coinbase",
+              "website": "https://www.coinbase.com/"
+            },
+            "market_cap": 333525170.70753294,
+            "fdv": 333525170.70753294,
+            "liquidity": 30869077.428978775,
+            "last_trade_unix_time": 1750212531,
+            "volume_1h_usd": 1085445.6482437947,
+            "volume_1h_change_percent": -30.40640151553493,
+            "volume_2h_usd": 2472241.7766824225,
+            "volume_2h_change_percent": 27.51408308014002,
+            "volume_4h_usd": 4503610.015673264,
+            "volume_4h_change_percent": -53.667750388204524,
+            "volume_8h_usd": 13634881.39271914,
+            "volume_8h_change_percent": -17.806413740845237,
+            "volume_24h_usd": 38128747.800308034,
+            "volume_24h_change_percent": -10.293263831725866,
+            "trade_1h_count": 3707,
+            "trade_2h_count": 7584,
+            "trade_4h_count": 14820,
+            "trade_8h_count": 33905,
+            "trade_24h_count": 102177,
+            "price": 104791.9217543667,
+            "price_change_1h_percent": -0.29801946722266104,
+            "price_change_2h_percent": 0.19152716925948302,
+            "price_change_4h_percent": 0.10309470205344269,
+            "price_change_8h_percent": 0.8504754362849457,
+            "price_change_24h_percent": -2.2746561937696175,
+            "holder": 30473,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+              "analysis_timestamp": 1750212589,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 89210.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 5,
+              "analysis_timestamp": 1750212622
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212622,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          }
+        ]
+      },
+      "batch_optimized": {
+        "tokens_found": 0,
+        "execution_time": 12.96699595451355,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "efficiency_comparison": {
+        "api_calls_saved": 20,
+        "time_difference": 24.774233102798462,
+        "tokens_difference": -9
+      }
+    },
+    {
+      "scan_number": 2,
+      "timestamp": "2025-06-17T22:12:58.700728",
+      "scan_duration": 20.56877112388611,
+      "memory_used_mb": 23.75,
+      "total_api_calls": 4,
+      "api_breakdown": {
+        "successful_api_calls": 24,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 7589
+      },
+      "raw_strategy": {
+        "tokens_found": 10,
+        "execution_time": 16.18941903114319,
+        "api_calls_used": 4,
+        "tokens": [
+          {
+            "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+            "logo_uri": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
+            "name": "Fartcoin ",
+            "symbol": "Fartcoin ",
+            "decimals": 6,
+            "extensions": {
+              "coingecko_id": "fartcoin",
+              "twitter": "https://twitter.com/FartCoinOfSOL",
+              "website": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt"
+            },
+            "market_cap": 1094098590.4200237,
+            "fdv": 1094098590.4200237,
+            "liquidity": 38345161.741366155,
+            "last_trade_unix_time": 1750212656,
+            "volume_1h_usd": 3764610.1039174665,
+            "volume_1h_change_percent": -48.212921339450496,
+            "volume_2h_usd": 10598445.965137238,
+            "volume_2h_change_percent": -40.812587288500836,
+            "volume_4h_usd": 29403861.31137184,
+            "volume_4h_change_percent": 8.620368170136853,
+            "volume_8h_usd": 54165716.595444456,
+            "volume_8h_change_percent": -20.447924144408468,
+            "volume_24h_usd": 168030914.43086576,
+            "volume_24h_change_percent": -16.37206952286317,
+            "trade_1h_count": 10615,
+            "trade_2h_count": 26160,
+            "trade_4h_count": 55653,
+            "trade_8h_count": 108966,
+            "trade_24h_count": 303415,
+            "price": 1.094107508780753,
+            "price_change_1h_percent": -2.066361207094981,
+            "price_change_2h_percent": -0.9291456104298024,
+            "price_change_4h_percent": -2.5811758126180533,
+            "price_change_8h_percent": -0.48881709299555726,
+            "price_change_24h_percent": -5.682770658837594,
+            "holder": 161527,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+              "analysis_timestamp": 1750212759,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 3001.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 2,
+              "analysis_timestamp": 1750212774
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 3,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212774,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "9SucTN9ngH1rMvdqpts5LLt6WHEfbTZZFM4dLP5rpump",
+            "logo_uri": "https://file.dexlab.space/file/d4ccb3c9332c42eca751e8d106b64b3c",
+            "name": "Trump Wif",
+            "symbol": "TRUMPWIF",
+            "decimals": 6,
+            "extensions": {
+              "description": "Trump Wif"
+            },
+            "market_cap": 1633510.8963240255,
+            "fdv": 1633510.8963240255,
+            "liquidity": 282463.0222621298,
+            "last_trade_unix_time": 1750212656,
+            "volume_1h_usd": 6224762.752518764,
+            "volume_1h_change_percent": -16.251165098069865,
+            "volume_2h_usd": 13001996.347908821,
+            "volume_2h_change_percent": -33.19527161171619,
+            "volume_4h_usd": 30602642.888403423,
+            "volume_4h_change_percent": 395.899229014172,
+            "volume_8h_usd": 31622315.091640934,
+            "volume_8h_change_percent": null,
+            "volume_24h_usd": 31622315.091640934,
+            "volume_24h_change_percent": null,
+            "trade_1h_count": 45015,
+            "trade_2h_count": 89482,
+            "trade_4h_count": 179179,
+            "trade_8h_count": 181106,
+            "trade_24h_count": 181106,
+            "price": 1.6335108963240255e-06,
+            "price_change_1h_percent": 0.9692597555595841,
+            "price_change_2h_percent": 3.4794552911955186,
+            "price_change_4h_percent": 39.199740990139524,
+            "price_change_8h_percent": 1551.8645157928777,
+            "price_change_24h_percent": 1551.8645157928777,
+            "holder": 10026,
+            "recent_listing_time": 1750195918,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "9SucTN9ngH1rMvdqpts5LLt6WHEfbTZZFM4dLP5rpump",
+              "analysis_timestamp": 1750212759,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 33701.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 3,
+              "analysis_timestamp": 1750212774
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 1,
+              "first_seen": 1750212760,
+              "appearances": [
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212774,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+            "logo_uri": "https://static.jup.ag/jlp/icon.png",
+            "name": "Jupiter Perps LP",
+            "symbol": "JLP",
+            "decimals": 6,
+            "extensions": {
+              "coingecko_id": "jupiter-perpetuals-liquidity-provider-token",
+              "discord": "https://discord.com/invite/jup",
+              "github": "https://github.com/qubic-li",
+              "twitter": "https://twitter.com/JupiterExchange",
+              "website": "https://jup.ag/",
+              "description": "JLP is the liquidity provider token for Jupiter Labs Perpetual."
+            },
+            "market_cap": 1506395253.3790956,
+            "fdv": 1506395253.3790956,
+            "liquidity": 25543382.474896684,
+            "last_trade_unix_time": 1750212656,
+            "volume_1h_usd": 1814714.5834623768,
+            "volume_1h_change_percent": -27.389697123841028,
+            "volume_2h_usd": 4202613.941238118,
+            "volume_2h_change_percent": 85.29219789355355,
+            "volume_4h_usd": 6925578.364370331,
+            "volume_4h_change_percent": -46.25661795180908,
+            "volume_8h_usd": 18954854.138751127,
+            "volume_8h_change_percent": -4.962658780435994,
+            "volume_24h_usd": 52365834.84584783,
+            "volume_24h_change_percent": -33.25990643950361,
+            "trade_1h_count": 3874,
+            "trade_2h_count": 8685,
+            "trade_4h_count": 17510,
+            "trade_8h_count": 45809,
+            "trade_24h_count": 134300,
+            "price": 4.388684367471723,
+            "price_change_1h_percent": -0.3348821295757433,
+            "price_change_2h_percent": 0.015017455213912533,
+            "price_change_4h_percent": 0.06202325100756151,
+            "price_change_8h_percent": 0.5061053810853625,
+            "price_change_24h_percent": -1.3880333534499938,
+            "holder": 77512,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+              "analysis_timestamp": 1750212759,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 78562.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 5,
+              "analysis_timestamp": 1750212774
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 3,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212774,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+            "logo_uri": "https://ipfs.io/ipfs/QmRcEE24rqcern3n4LirX1Gw2YPuXTXdE1YrXiFvp1BvmG",
+            "name": "United States Dominant Peg",
+            "symbol": "USDP",
+            "decimals": 6,
+            "extensions": {
+              "twitter": "https://x.com/USD_Pegged"
+            },
+            "market_cap": 33934403.192712456,
+            "fdv": 33934403.192712456,
+            "liquidity": 939641.8189173135,
+            "last_trade_unix_time": 1750212656,
+            "volume_1h_usd": 1614899.3500189781,
+            "volume_1h_change_percent": -50.754893166783646,
+            "volume_2h_usd": 4767134.7975514345,
+            "volume_2h_change_percent": 47.13414165254288,
+            "volume_4h_usd": 7258594.510083592,
+            "volume_4h_change_percent": 388.73955634695056,
+            "volume_8h_usd": 8043238.8049531225,
+            "volume_8h_change_percent": 177.42674234325852,
+            "volume_24h_usd": 14227212.74530737,
+            "volume_24h_change_percent": -89.12229515057794,
+            "trade_1h_count": 14595,
+            "trade_2h_count": 34555,
+            "trade_4h_count": 48779,
+            "trade_8h_count": 56923,
+            "trade_24h_count": 106829,
+            "price": 0.03393452672127677,
+            "price_change_1h_percent": 2.0397975220085303,
+            "price_change_2h_percent": -2.0349294592655043,
+            "price_change_4h_percent": 76.1825196799559,
+            "price_change_8h_percent": 86.757138961078,
+            "price_change_24h_percent": 29.778770936067456,
+            "holder": 37935,
+            "recent_listing_time": 1750021509,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+              "analysis_timestamp": 1750212759,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 2001.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 1,
+              "analysis_timestamp": 1750212774
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 3,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212774,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "D4frtTDnnJazLHxsUgaR6zCz77N9FrCvhufS1157pump",
+            "logo_uri": "https://file.dexlab.space/file/f10395ca71b345a3b99af2e9d640090c",
+            "name": "Pepe Man ",
+            "symbol": "PEPEMAN",
+            "decimals": 6,
+            "extensions": null,
+            "market_cap": 1311608.3964325977,
+            "fdv": 1311608.3964325977,
+            "liquidity": 266992.65648233704,
+            "last_trade_unix_time": 1750212656,
+            "volume_1h_usd": 4995327.594178509,
+            "volume_1h_change_percent": -11.8513411582543,
+            "volume_2h_usd": 10066611.308916496,
+            "volume_2h_change_percent": -27.910388845633676,
+            "volume_4h_usd": 22773013.99924765,
+            "volume_4h_change_percent": 123.5468104843256,
+            "volume_8h_usd": 27064403.166908428,
+            "volume_8h_change_percent": null,
+            "volume_24h_usd": 27064403.166908428,
+            "volume_24h_change_percent": null,
+            "trade_1h_count": 20658,
+            "trade_2h_count": 40738,
+            "trade_4h_count": 91274,
+            "trade_8h_count": 105843,
+            "trade_24h_count": 105843,
+            "price": 0.0013116083964325976,
+            "price_change_1h_percent": 2.65299863125831,
+            "price_change_2h_percent": 5.870820649239542,
+            "price_change_4h_percent": 35.79214110711333,
+            "price_change_8h_percent": 1096.2480248543716,
+            "price_change_24h_percent": 1096.2480248543716,
+            "holder": 8159,
+            "recent_listing_time": 1750194664,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "D4frtTDnnJazLHxsUgaR6zCz77N9FrCvhufS1157pump",
+              "analysis_timestamp": 1750212759,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 11501.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 2,
+              "analysis_timestamp": 1750212774
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 1,
+              "first_seen": 1750212760,
+              "appearances": [
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212774,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          }
+        ]
+      },
+      "batch_optimized": {
+        "tokens_found": 0,
+        "execution_time": 2.3757681846618652,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "efficiency_comparison": {
+        "api_calls_saved": 4,
+        "time_difference": 13.813650846481323,
+        "tokens_difference": -10
+      }
+    },
+    {
+      "scan_number": 3,
+      "timestamp": "2025-06-17T22:15:22.152485",
+      "scan_duration": 23.18502712249756,
+      "memory_used_mb": 17.28125,
+      "total_api_calls": 17,
+      "api_breakdown": {
+        "successful_api_calls": 41,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 13035
+      },
+      "raw_strategy": {
+        "tokens_found": 10,
+        "execution_time": 18.74672293663025,
+        "api_calls_used": 17,
+        "tokens": [
+          {
+            "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+            "logo_uri": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
+            "name": "Fartcoin ",
+            "symbol": "Fartcoin ",
+            "decimals": 6,
+            "extensions": {
+              "coingecko_id": "fartcoin",
+              "twitter": "https://twitter.com/FartCoinOfSOL",
+              "website": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt"
+            },
+            "market_cap": 1091685851.286093,
+            "fdv": 1091685851.286093,
+            "liquidity": 38315609.023129776,
+            "last_trade_unix_time": 1750212859,
+            "volume_1h_usd": 3969361.3825023165,
+            "volume_1h_change_percent": -45.36900288020412,
+            "volume_2h_usd": 10803197.243722089,
+            "volume_2h_change_percent": -39.669324459561935,
+            "volume_4h_usd": 29608612.589956693,
+            "volume_4h_change_percent": 9.38444277978408,
+            "volume_8h_usd": 54370467.8740293,
+            "volume_8h_change_percent": -20.14405150325535,
+            "volume_24h_usd": 168235665.7094506,
+            "volume_24h_change_percent": -16.267296868670453,
+            "trade_1h_count": 11441,
+            "trade_2h_count": 26986,
+            "trade_4h_count": 56479,
+            "trade_8h_count": 109792,
+            "trade_24h_count": 304241,
+            "price": 1.0916947499797849,
+            "price_change_1h_percent": -1.9337084987703301,
+            "price_change_2h_percent": -1.1541974617171855,
+            "price_change_4h_percent": -3.4005314157650326,
+            "price_change_8h_percent": -0.5509690678855279,
+            "price_change_24h_percent": -5.706667591064942,
+            "holder": 161526,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+              "analysis_timestamp": 1750212900,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 3001.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 2,
+              "analysis_timestamp": 1750212917
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 4,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212917,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "9SucTN9ngH1rMvdqpts5LLt6WHEfbTZZFM4dLP5rpump",
+            "logo_uri": "https://file.dexlab.space/file/d4ccb3c9332c42eca751e8d106b64b3c",
+            "name": "Trump Wif",
+            "symbol": "TRUMPWIF",
+            "decimals": 6,
+            "extensions": {
+              "description": "Trump Wif"
+            },
+            "market_cap": 1637403.1512124753,
+            "fdv": 1637403.1512124753,
+            "liquidity": 282463.0222621298,
+            "last_trade_unix_time": 1750212862,
+            "volume_1h_usd": 6585538.021952946,
+            "volume_1h_change_percent": -11.461152612930253,
+            "volume_2h_usd": 13362771.617343003,
+            "volume_2h_change_percent": -31.382342076212804,
+            "volume_4h_usd": 30963418.157837607,
+            "volume_4h_change_percent": 401.20578661747965,
+            "volume_8h_usd": 31983090.36107512,
+            "volume_8h_change_percent": null,
+            "volume_24h_usd": 31983090.36107512,
+            "volume_24h_change_percent": null,
+            "trade_1h_count": 47909,
+            "trade_2h_count": 92376,
+            "trade_4h_count": 182073,
+            "trade_8h_count": 184000,
+            "trade_24h_count": 184000,
+            "price": 1.6374031512124753e-06,
+            "price_change_1h_percent": 1.8700380798743046,
+            "price_change_2h_percent": 3.413953026138952,
+            "price_change_4h_percent": 39.15562572807659,
+            "price_change_8h_percent": 1555.800502844522,
+            "price_change_24h_percent": 1555.800502844522,
+            "holder": 10087,
+            "recent_listing_time": 1750195918,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "9SucTN9ngH1rMvdqpts5LLt6WHEfbTZZFM4dLP5rpump",
+              "analysis_timestamp": 1750212900,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 33701.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 3,
+              "analysis_timestamp": 1750212917
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750212760,
+              "appearances": [
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212917,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+            "logo_uri": "https://static.jup.ag/jlp/icon.png",
+            "name": "Jupiter Perps LP",
+            "symbol": "JLP",
+            "decimals": 6,
+            "extensions": {
+              "coingecko_id": "jupiter-perpetuals-liquidity-provider-token",
+              "discord": "https://discord.com/invite/jup",
+              "github": "https://github.com/qubic-li",
+              "twitter": "https://twitter.com/JupiterExchange",
+              "website": "https://jup.ag/",
+              "description": "JLP is the liquidity provider token for Jupiter Labs Perpetual."
+            },
+            "market_cap": 1506339115.1121986,
+            "fdv": 1506339115.1121986,
+            "liquidity": 25543382.474896684,
+            "last_trade_unix_time": 1750212840,
+            "volume_1h_usd": 1852188.0221223668,
+            "volume_1h_change_percent": -25.88893553032814,
+            "volume_2h_usd": 4240087.379898109,
+            "volume_2h_change_percent": 86.9443047851474,
+            "volume_4h_usd": 6963051.803030321,
+            "volume_4h_change_percent": -45.965988166134885,
+            "volume_8h_usd": 18992327.577411115,
+            "volume_8h_change_percent": -4.774691795677455,
+            "volume_24h_usd": 52403308.28450782,
+            "volume_24h_change_percent": -33.21189662487651,
+            "trade_1h_count": 4055,
+            "trade_2h_count": 8866,
+            "trade_4h_count": 17691,
+            "trade_8h_count": 45990,
+            "trade_24h_count": 134481,
+            "price": 4.3885208160174844,
+            "price_change_1h_percent": -0.3091298327388856,
+            "price_change_2h_percent": 0.023761321726755814,
+            "price_change_4h_percent": -0.007452585449848545,
+            "price_change_8h_percent": 0.5231331792721481,
+            "price_change_24h_percent": -1.4096716592433596,
+            "holder": 77521,
+            "recent_listing_time": null,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+              "analysis_timestamp": 1750212901,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 78562.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 5,
+              "analysis_timestamp": 1750212917
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 4,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212917,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+            "logo_uri": "https://ipfs.io/ipfs/QmRcEE24rqcern3n4LirX1Gw2YPuXTXdE1YrXiFvp1BvmG",
+            "name": "United States Dominant Peg",
+            "symbol": "USDP",
+            "decimals": 6,
+            "extensions": {
+              "twitter": "https://x.com/USD_Pegged"
+            },
+            "market_cap": 34121550.2287505,
+            "fdv": 34121550.2287505,
+            "liquidity": 939641.8189173135,
+            "last_trade_unix_time": 1750212862,
+            "volume_1h_usd": 1735245.1895446167,
+            "volume_1h_change_percent": -47.09732149243413,
+            "volume_2h_usd": 4887480.637077074,
+            "volume_2h_change_percent": 50.85062473625447,
+            "volume_4h_usd": 7378940.34960923,
+            "volume_4h_change_percent": 396.35225671023994,
+            "volume_8h_usd": 8163584.644478761,
+            "volume_8h_change_percent": 181.0783749199059,
+            "volume_24h_usd": 14347558.584833007,
+            "volume_24h_change_percent": -89.05297038333828,
+            "trade_1h_count": 15539,
+            "trade_2h_count": 35499,
+            "trade_4h_count": 49723,
+            "trade_8h_count": 57867,
+            "trade_24h_count": 107773,
+            "price": 0.03412167443857048,
+            "price_change_1h_percent": 1.9693896176215566,
+            "price_change_2h_percent": -1.8692720808920242,
+            "price_change_4h_percent": 75.89486534844447,
+            "price_change_8h_percent": 87.36476791504163,
+            "price_change_24h_percent": 33.57631131534956,
+            "holder": 37944,
+            "recent_listing_time": 1750021509,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+              "analysis_timestamp": 1750212901,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 2001.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 1,
+              "analysis_timestamp": 1750212917
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 4,
+              "first_seen": 1750209183,
+              "appearances": [
+                1750209183,
+                1750212593,
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212917,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          },
+          {
+            "address": "D4frtTDnnJazLHxsUgaR6zCz77N9FrCvhufS1157pump",
+            "logo_uri": "https://file.dexlab.space/file/f10395ca71b345a3b99af2e9d640090c",
+            "name": "Pepe Man ",
+            "symbol": "PEPEMAN",
+            "decimals": 6,
+            "extensions": null,
+            "market_cap": 1311824.3112470962,
+            "fdv": 1311824.3112470962,
+            "liquidity": 266992.65648233704,
+            "last_trade_unix_time": 1750212862,
+            "volume_1h_usd": 5315786.953640144,
+            "volume_1h_change_percent": -6.275550764673846,
+            "volume_2h_usd": 10387070.66837813,
+            "volume_2h_change_percent": -25.684091394676063,
+            "volume_4h_usd": 23093473.358709287,
+            "volume_4h_change_percent": 126.31548178643857,
+            "volume_8h_usd": 27384862.526370063,
+            "volume_8h_change_percent": null,
+            "volume_24h_usd": 27384862.526370063,
+            "volume_24h_change_percent": null,
+            "trade_1h_count": 21893,
+            "trade_2h_count": 41973,
+            "trade_4h_count": 92509,
+            "trade_8h_count": 107078,
+            "trade_24h_count": 107078,
+            "price": 0.001311824311247096,
+            "price_change_1h_percent": 2.851201987085269,
+            "price_change_2h_percent": 6.613762626636562,
+            "price_change_4h_percent": 35.5567852466031,
+            "price_change_8h_percent": 1096.4449492344556,
+            "price_change_24h_percent": 1096.4449492344556,
+            "holder": 8159,
+            "recent_listing_time": 1750194664,
+            "is_trending": false,
+            "trending_boost_applied": 1.0,
+            "smart_money_detected": false,
+            "smart_money_score": 0.0,
+            "smart_money_level": "unknown",
+            "smart_money_boost_applied": 1.0,
+            "smart_traders_count": 0,
+            "holder_analysis": {
+              "token_address": "D4frtTDnnJazLHxsUgaR6zCz77N9FrCvhufS1157pump",
+              "analysis_timestamp": 1750212902,
+              "total_holders": 0,
+              "total_supply_analyzed": 0,
+              "concentration_metrics": {
+                "top_1_holder_pct": 0,
+                "top_5_holders_pct": 0,
+                "top_10_holders_pct": 0,
+                "top_20_holders_pct": 0,
+                "herfindahl_index": 0,
+                "concentration_level": "unknown"
+              },
+              "gini_coefficient": 0.0,
+              "whale_analysis": {
+                "whale_count": 0,
+                "whale_dominance_pct": 0,
+                "largest_whale_pct": 0,
+                "whale_risk_level": "unknown",
+                "whale_threshold_pct": 1.0,
+                "average_whale_holding": 0
+              },
+              "distribution_quality": {
+                "holder_count": 0,
+                "mean_holding": 0,
+                "median_holding": 0,
+                "std_deviation": 0,
+                "coefficient_of_variation": 0,
+                "holder_adequacy": "insufficient",
+                "distribution_score": 0,
+                "quality_level": "poor"
+              },
+              "risk_assessment": {
+                "overall_risk_score": 100,
+                "risk_level": "unknown",
+                "concentration_risk": 100,
+                "inequality_risk": 100,
+                "whale_risk": 100,
+                "holder_count_risk": 100,
+                "risk_factors": [
+                  "no_data"
+                ],
+                "is_high_risk": true,
+                "recommendation": "avoid"
+              },
+              "score_adjustment": {
+                "score_multiplier": 0.5,
+                "adjustment_reason": "no_data",
+                "base_adjustment": 0.5,
+                "final_adjustment": 0.5,
+                "risk_level": "unknown"
+              },
+              "holder_categories": {
+                "whale_holders": 0,
+                "large_holders": 0,
+                "medium_holders": 0,
+                "small_holders": 0,
+                "whale_dominance": 0,
+                "large_holder_share": 0,
+                "retail_share": 0
+              },
+              "distribution_warnings": [
+                "No holder data available"
+              ],
+              "validation_passed": false
+            },
+            "holder_risk_level": "unknown",
+            "holder_quality_score": 0.0,
+            "holder_adjustment_factor": 0.5,
+            "concentration_warning": true,
+            "gini_coefficient": 0.0,
+            "security_analysis": {
+              "rugcheck_score": 11501.0,
+              "risk_level": "safe",
+              "issues_count": 0,
+              "warnings_count": 2,
+              "analysis_timestamp": 1750212917
+            },
+            "strategy_data": {
+              "strategy": "High Trading Activity Strategy",
+              "consecutive_appearances": 2,
+              "first_seen": 1750212760,
+              "appearances": [
+                1750212760,
+                1750212906
+              ],
+              "rugcheck_filtered": true
+            },
+            "strategy_analysis": {
+              "strategy_type": "high_trading_activity",
+              "analysis_timestamp": 1750212917,
+              "trading_velocity": 0.0,
+              "activity_sustainability": 0.4,
+              "smart_money_validation": false,
+              "trader_quality_score": 0,
+              "wash_trading_risk": false
+            },
+            "enhanced_score": 22.5,
+            "score": 22.5,
+            "enhancement_factors": [
+              "Holder Quality: 0.50x",
+              "Risk Penalty: 0.90x"
+            ],
+            "base_score_before_enhancement": 22.5,
+            "enhancement_summary": {
+              "is_trending": false,
+              "smart_money_detected": false,
+              "holder_risk_level": "unknown",
+              "total_boost_factor": 1.0,
+              "enhancement_count": 2
+            }
+          }
+        ]
+      },
+      "batch_optimized": {
+        "tokens_found": 0,
+        "execution_time": 2.4341771602630615,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "efficiency_comparison": {
+        "api_calls_saved": 17,
+        "time_difference": 16.312545776367188,
+        "tokens_difference": -10
+      }
+    }
+  ],
+  "optimization_insights": {
+    "test_summary": {
+      "total_scans": 3,
+      "test_duration_minutes": 5.617062250773112,
+      "strategy_tested": "High Trading Activity Strategy"
+    },
+    "api_call_analysis": {
+      "average_total_calls_per_scan": 13.7,
+      "average_raw_strategy_calls": 13.7,
+      "average_batch_optimized_calls": 0.0,
+      "api_efficiency_gain_percent": 100.0,
+      "calls_saved_per_scan": 13.7
+    },
+    "performance_analysis": {
+      "average_scan_duration_seconds": 32.16,
+      "average_raw_execution_seconds": 24.23,
+      "average_batch_execution_seconds": 5.93,
+      "time_efficiency_gain_percent": 75.5,
+      "average_memory_usage_mb": 9.7
+    },
+    "token_discovery_analysis": {
+      "average_raw_tokens_found": 9.7,
+      "average_batch_tokens_found": 0.0,
+      "token_discovery_difference": -9.7
+    },
+    "endpoint_usage_analysis": {
+      "total_calls_by_endpoint": {
+        "successful_api_calls": 85,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 26643
+      },
+      "most_used_endpoints": [
+        [
+          "total_response_time_ms",
+          26643
+        ],
+        [
+          "successful_api_calls",
+          85
+        ],
+        [
+          "failed_api_calls",
+          0
+        ],
+        [
+          "cache_hits",
+          0
+        ],
+        [
+          "cache_misses",
+          0
+        ]
+      ]
+    },
+    "optimization_recommendations": [
+      "\ud83d\ude80 EXCELLENT: Batch optimization provides 100.0% API call reduction",
+      "\u2705 Continue using batch-optimized EarlyTokenDetector for production",
+      "\ud83c\udfaf FOCUS: 'total_response_time_ms' is the most used endpoint (26643 calls)",
+      "\ud83d\udca1 Consider caching or batching this endpoint for maximum impact",
+      "\ud83d\udcca STRATEGY SPECIFIC: High Trading Activity Strategy focuses on trade counts",
+      "\ud83d\udca1 Consider pre-filtering by trade count before detailed analysis",
+      "\ud83c\udfaf Optimize for tokens with trade_count > threshold to reduce API overhead"
+    ]
+  },
+  "test_metadata": {
+    "timestamp": "20250617_221522",
+    "strategy_name": "High Trading Activity Strategy",
+    "total_scans": 3,
+    "test_duration_minutes": 5.617085218429565
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "scan_info": {
+    "timestamp": "2025-06-24T21:40:12.259501",
+    "execution_time": 49.157492876052856,
+    "target_categories": [
+      "\ud83d\udd0d Gem Discovery"
+    ],
+    "total_tokens_analyzed": 6
+  },
+  "vlr_analysis": {
+    "category_analysis": {
+      

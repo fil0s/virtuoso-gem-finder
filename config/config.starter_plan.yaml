@@ -1,0 +1,20 @@
+api_optimization:
+  cache_duration_multiplier: 2.0
+  enable_aggressive_caching: true
+  retry_attempts: 2
+  skip_expensive_endpoints: true
+  timeout_seconds: 15
+birdeye_starter_plan:
+  batch_endpoints_disabled: true
+  enabled: true
+  max_concurrent_requests: 1
+  optimization_level: starter_plan
+  rate_limit_delay: 2.0
+  rate_limit_rpm: 30
+  use_individual_calls_only: true
+detection_strategy:
+  enable_lightweight_mode: true
+  max_tokens_per_cycle: 10
+  skip_batch_operations: true
+  skip_comprehensive_analysis: true
+  use_trending_only: true

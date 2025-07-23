@@ -1,0 +1,218 @@
+# Virtuoso Gem Hunter Configuration
+# Copy this file to config.yaml and customize for your needs
+
+# Birdeye API Configuration
+BIRDEYE_API:
+  api_key: "${BIRDEYE_API_KEY}"  # Set in .env file
+  base_url: "https://public-api.birdeye.so"
+  request_timeout_seconds: 20
+  use_rate_limiting: true
+  rate_limit_requests_per_second: 10
+  rate_limit_burst: 20
+
+# Token Discovery Settings
+TOKEN_DISCOVERY:
+  scan_interval_minutes: 20      # Time between scans
+  max_tokens: 30                 # Maximum tokens to analyze per scan
+  
+  # Strict discovery filters (reduces API calls)
+  strict_filters:
+    min_liquidity: 500000        # Minimum liquidity in USD
+    min_volume_24h_usd: 200000   # Minimum 24h volume in USD
+    min_trade_24h_count: 500     # Minimum 24h trade count
+    min_volume_1h_usd: 25000     # Minimum 1h volume in USD
+    min_holder: 400              # Minimum holder count
+    sort_by: "liquidity"         # Sort criteria
+    sort_type: "desc"            # Sort direction
+
+# Analysis Configuration
+ANALYSIS:
+  alert_score_threshold: 75      # Minimum score for alerts
+  
+  # Scoring weights for token evaluation
+  scoring_weights:
+    liquidity: 0.3               # Liquidity importance (30%)
+    age: 0.2                     # Token age importance (20%)
+    price_change: 0.2            # Price momentum importance (20%)
+    volume: 0.15                 # Volume importance (15%)
+    concentration: 0.1           # Holder concentration (10%)
+    trend_dynamics: 0.05         # Trend analysis (5%)
+  
+  # Progressive analysis thresholds
+  stage_thresholds:
+    quick_score: 65              # Stage 1: Eliminate more tokens early
+    medium_score: 55             # Stage 2: More filtering
+    full_score: 75               # Stage 3: Final filtering
+
+  # Enhanced pump and dump detection thresholds
+  pump_dump_detection:
+    enabled: true
+    critical_price_spike_1h: 500.0    # >500% gain in 1 hour = CRITICAL
+    high_price_spike_1h: 200.0        # >200% gain in 1 hour = HIGH RISK
+    medium_price_spike_1h: 100.0      # >100% gain in 1 hour = MEDIUM RISK
+    critical_price_spike_24h: 2000.0  # >2000% gain in 24h = CRITICAL
+    high_price_spike_24h: 1000.0      # >1000% gain in 24h = HIGH RISK
+    medium_price_spike_24h: 500.0     # >500% gain in 24h = MEDIUM RISK
+    max_volume_mcap_ratio: 20.0       # Max volume/mcap ratio before penalty
+    max_sustainable_volume_ratio: 10.0 # Volume ratio that triggers warning
+
+  # Smart money wallet addresses (add known good wallets)
+  smart_money_wallets: []
+
+# Optimization Settings
+OPTIMIZATION:
+  # Batch processing settings
+  batch_size: 100                # Maximum tokens per batch API call
+  concurrent_limit: 10           # Maximum concurrent API calls
+  
+  # Cache TTL strategies (in seconds)
+  cache_ttl_strategies:
+    # High volatility data (short TTL)
+    price: 30
+    trades: 60
+    ohlcv_1m: 60
+    transaction_volume: 120
+    
+    # Medium volatility data (medium TTL)
+    token_overview: 300
+    ohlcv_5m: 300
+    ohlcv_15m: 600
+    trend_dynamics: 300
+    trade_metrics: 300
+    top_traders: 600
+    
+    # Low volatility data (long TTL)
+    token_security: 3600
+    token_creation_info: 86400
+    holders: 1800
+    ohlcv_1h: 1800
+    historical_price: 3600
+    
+    # Default fallback
+    default: 300
+
+# Strategy Scheduler Configuration
+STRATEGY_SCHEDULER:
+  enabled: true                       # Enable/disable the strategy scheduler
+  run_hours: [0, 6, 12, 18]           # UTC hours to run strategies (00:00, 06:00, 12:00, 18:00)
+  
+  # Strategy-specific configuration
+  strategies:
+    VolumeMomentumStrategy:
+      enabled: true
+      min_consecutive_appearances: 3  # Min consecutive appearances to consider promising
+      api_parameters:
+        sort_by: "volume_24h_change_percent"
+        sort_type: "desc"
+        min_liquidity: 100000
+        min_volume_24h_usd: 50000
+        min_holder: 500
+        limit: 20
+    
+    RecentListingsStrategy:
+      enabled: true
+      min_consecutive_appearances: 2  # Lower threshold for new listings
+      api_parameters:
+        sort_by: "recent_listing_time"
+        sort_type: "desc"
+        min_liquidity: 200000
+        min_trade_24h_count: 500
+        min_holder: 300
+        limit: 30
+    
+    PriceMomentumStrategy:
+      enabled: true
+      min_consecutive_appearances: 2
+      api_parameters:
+        sort_by: "price_change_24h_percent"
+        sort_type: "desc"
+        min_volume_24h_usd: 100000
+        min_volume_24h_change_percent: 20
+        min_liquidity: 300000
+        min_trade_24h_count: 700
+        limit: 25
+    
+    LiquidityGrowthStrategy:
+      enabled: true
+      min_consecutive_appearances: 3
+      api_parameters:
+        sort_by: "liquidity"
+        sort_type: "desc"
+        min_market_cap: 1000000
+        max_market_cap: 100000000
+        min_holder: 1000
+        min_volume_24h_usd: 200000
+        limit: 50
+    
+    HighTradingActivityStrategy:
+      enabled: true
+      min_consecutive_appearances: 3
+      api_parameters:
+        sort_by: "trade_24h_count"
+        sort_type: "desc"
+        min_liquidity: 150000
+        min_volume_24h_usd: 75000
+        min_holder: 400
+        limit: 30
+
+# Telegram Alerts (Optional)
+TELEGRAM:
+  enabled: false                 # Set to true to enable Telegram alerts
+  bot_token: "${TELEGRAM_BOT_TOKEN}"     # Set in .env file
+  chat_id: "${TELEGRAM_CHAT_ID}"         # Set in .env file
+  
+  # Alert settings
+  alert_format: "detailed"       # "minimal" or "detailed"
+  include_charts: false          # Include price charts (if available)
+  max_alerts_per_hour: 10        # Rate limit for alerts
+
+# Logging Configuration
+LOGGING:
+  level: "INFO"                  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_enabled: true
+  file_path: "logs/monitor.log"
+  file_max_size_mb: 10
+  file_backup_count: 5
+  console_enabled: true
+
+# Database Configuration (if needed for future features)
+DATABASE:
+  enabled: false
+  type: "sqlite"
+  path: "data/tokens.db"
+
+# Performance Monitoring
+MONITORING:
+  enable_metrics_tracking: true
+  metrics_retention_hours: 24
+  performance_alerts:
+    high_api_usage_threshold: 200    # Alert if API calls > 200 per scan
+    low_cache_hit_rate: 0.6          # Alert if cache hit rate < 60%
+    slow_scan_threshold: 180         # Alert if scan takes > 3 minutes
+
+# Development Settings
+DEVELOPMENT:
+  debug_mode: false
+  mock_api_calls: false
+  save_debug_data: false
+  debug_data_path: "debug/" 
+
+# Add these trader discovery settings to the configuration
+
+TRADER_DISCOVERY:
+  enabled: true                        # Enable/disable trader discovery
+  discovery_interval_scans: 5          # Run discovery every N scans (5 = ~100 minutes)
+  max_traders_per_discovery: 15        # Maximum traders to discover per run
+  alert_score_threshold: 80            # Minimum score for trader alerts
+  
+  # Performance thresholds for trader classification
+  tier_thresholds:
+    elite:
+      min_roi: 100                     # Minimum 100% ROI
+      min_win_rate: 0.8               # Minimum 80% win rate
+      min_trades: 20                  # Minimum 20 trades
+    professional:
+      min_roi: 50                     # Minimum 50% ROI
+      min_win_rate: 0.7               # Minimum 70% win rate
+      min_trades: 15                  # Minimum 15 trades 

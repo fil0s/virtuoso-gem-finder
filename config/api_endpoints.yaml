@@ -1,0 +1,134 @@
+# API Endpoints Configuration
+# Centralizes all API URLs for easy maintenance and environment switching
+
+environments:
+  production:
+    # Core Blockchain APIs
+    solana:
+      base_url: "https://api.mainnet-beta.solana.com"
+      rpc: "https://api.mainnet-beta.solana.com"
+      websocket: "wss://api.mainnet-beta.solana.com/"
+      timeout: 20
+      
+    # Data Provider APIs
+    birdeye:
+      base_url: "https://public-api.birdeye.so"
+      timeout: 30
+      max_retries: 3
+      backoff_factor: 1.5
+      
+    moralis:
+      base_url: "https://deep-index.moralis.io/api/v2.2"
+      solana_gateway: "https://solana-gateway.moralis.io"
+      timeout: 25
+      max_retries: 3
+      
+    # DEX APIs
+    jupiter:
+      base_url: "https://quote-api.jup.ag"
+      tokens_url: "https://token.jup.ag"
+      price_url: "https://lite-api.jup.ag"
+      quote_url: "https://quote-api.jup.ag"
+      rate_limited_url: "https://quote-api.jup.ag"
+      timeout: 15
+      
+    raydium:
+      base_url: "https://api-v3.raydium.io"
+      main_api: "https://api-v3.raydium.io/main"
+      v3_pools: "https://api-v3.raydium.io/pools"
+      v3_tokens: "https://api-v3.raydium.io/tokens"
+      v3_pairs: "https://api-v3.raydium.io/pairs"
+      timeout: 20
+      # Legacy v2 endpoints (deprecated)
+      v2_main_api: "https://api.raydium.io/v2/main"
+      v2_liquidity_pools: "https://api.raydium.io/v2/sdk/liquidity/mainnet.json"
+      
+    orca:
+      base_url: "https://api.mainnet.orca.so/v1"
+      timeout: 15
+      
+    # Discovery APIs
+    dexscreener:
+      base_url: "https://api.dexscreener.com"
+      endpoints:
+        search: "/latest/dex/search"
+        pairs: "/latest/dex/pairs"
+        tokens: "/latest/dex/tokens"
+        token_profiles: "/token-profiles/latest/v1"
+        token_boosts_latest: "/token-boosts/latest/v1"
+        token_boosts_top: "/token-boosts/top/v1"
+        marketing_orders: "/orders/v1/solana"
+      timeout: 12
+      rate_limit: 300  # requests per minute
+      
+    pump_fun:
+      base_url: "https://frontend-api.pump.fun"
+      endpoints:
+        latest: "/coins/latest"
+        details: "/coins"
+        trades: "/trades"
+        search: "/search"
+      timeout: 15
+      program_id: "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P"
+      
+    # Security APIs
+    rugcheck:
+      base_url: "https://api.rugcheck.xyz"
+      timeout: 10
+      
+    # External Reference URLs (for links only)
+    reference_urls:
+      birdeye_token: "https://birdeye.so/token/{address}?chain=solana"
+      dexscreener_token: "https://dexscreener.com/solana/{address}"
+      raydium_swap: "https://raydium.io/swap/?inputCurrency=sol&outputCurrency={address}"
+      solscan_token: "https://solscan.io/token/{address}"
+      
+  testnet:
+    # Testnet/Devnet configurations
+    solana:
+      rpc: "https://api.testnet.solana.com"
+      websocket: "wss://api.testnet.solana.com/"
+      
+    # Most APIs only support mainnet, so inherit from production
+    birdeye:
+      base_url: "https://public-api.birdeye.so"  # Same as mainnet
+      
+    # Testnet-specific overrides where available
+    raydium:
+      base_url: "https://api-v3.raydium.io"  # Hypothetical testnet endpoint
+      
+  development:
+    # Development environment with mock endpoints
+    solana:
+      rpc: "http://localhost:8899"  # Local test validator
+      websocket: "ws://localhost:8900/"
+      
+    # Use production APIs for development
+    birdeye:
+      base_url: "https://public-api.birdeye.so"
+      
+    moralis:
+      base_url: "https://deep-index.moralis.io/api/v2.2"
+      
+    # Mock endpoints for testing
+    mock:
+      enabled: true
+      fallback_to_production: true
+
+# Default environment
+default_environment: "production"
+
+# Global timeout settings
+global_timeouts:
+  default: 30
+  fast: 10
+  slow: 60
+  
+# Rate limiting defaults
+rate_limits:
+  free_apis:
+    default_rpm: 60  # requests per minute
+    burst_size: 10
+  paid_apis:
+    default_rpm: 300
+    burst_size: 50

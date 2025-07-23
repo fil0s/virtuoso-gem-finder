@@ -1,0 +1,59 @@
+FIXED COMPREHENSIVE API COMPARISON TEST SUMMARY
+=======================================================
+
+Test Date: 2025-06-24T14:50:17.290320
+Tokens Tested: 9
+APIs Tested: 6
+
+FIXES APPLIED:
+---------------
+  • Fixed BirdEye method names: get_token_overview(), get_multi_price()
+  • Fixed Jupiter method names: get_batch_prices(), get_comprehensive_token_analysis()
+  • Fixed Raydium method names: get_token_pairs() instead of get_token_pools()
+  • Fixed Orca session initialization and error handling
+  • Added proper async session management
+
+API PERFORMANCE METRICS:
+------------------------------
+BirdEye:
+  Success Rate: 100.0%
+  Avg Response Time: 3217.4ms
+  Avg Data Points: 249.9
+  Methods Used: get_token_overview, get_multi_price
+
+RugCheck:
+  Success Rate: 100.0%
+  Avg Response Time: 1573.9ms
+  Avg Data Points: 26.4
+  Methods Used: get_token_report
+
+Jupiter:
+  Success Rate: 100.0%
+  Avg Response Time: 3242.7ms
+  Avg Data Points: 20.0
+  Methods Used: get_comprehensive_token_analysis, get_batch_prices
+
+Orca:
+  Success Rate: 100.0%
+  Avg Response Time: 2581.6ms
+  Avg Data Points: 6.0
+  Methods Used: get_token_pools, get_pool_analytics
+
+Raydium:
+  Success Rate: 100.0%
+  Avg Response Time: 23733.9ms
+  Avg Data Points: 9.7
+  Methods Used: get_token_pairs, get_pool_stats
+
+DexScreener:
+  Success Rate: 100.0%
+  Avg Response Time: 1147.8ms
+  Avg Data Points: 290.0
+  Methods Used: get_token_data
+
+UPDATED RECOMMENDATIONS:
+-------------------------
+Best Overall API: DexScreener
+Fastest API: DexScreener
+Most Comprehensive API: DexScreener
+Most Reliable API: BirdEye

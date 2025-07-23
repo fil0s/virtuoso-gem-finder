@@ -1,0 +1,56 @@
+{
+  "enhanced_connector": {
+    "endpoint_stats": {
+      "tokens_endpoint": {
+        "calls": 2,
+        "cache_hits": 0,
+        "errors": 0
+      },
+      "price_v2_endpoint": {
+        "calls": 2,
+        "cache_hits": 0,
+        "errors": 0,
+        "tokens_priced": 70
+      },
+      "quote_endpoint": {
+        "calls": 0,
+        "cache_hits": 0,
+        "errors": 0
+      },
+      "batch_efficiency": {
+        "total_batches": 2,
+        "total_individual_requests_saved": 68
+      }
+    },
+    "summary": {
+      "total_api_calls": 4,
+      "total_cache_hits": 0,
+      "total_errors": 0,
+      "cache_hit_rate_percent": 0.0,
+      "error_rate_percent": 0.0,
+      "batch_efficiency": {
+        "total_batches": 2,
+        "total_individual_requests_saved": 68
+      }
+    }
+  },
+  "cross_platform": {
+    "jupiter_tokens": 1000,
+    "jupiter_prices": 0,
+    "normalized_tokens": 1065,
+    "jupiter_data_count": 1000,
+    "jupiter_pricing_count": 0
+  },
+  "comparison": {
+    "old": {
+      "tokens": 100,
+      "duration": 2.356994867324829,
+      "calls": 1
+    },
+    "new": {
+      "tokens": 81,
+      "duration": 2.7811429500579834,
+      "calls": 2
+    }
+  }
+}

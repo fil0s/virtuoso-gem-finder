@@ -1,0 +1,1045 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-21T10:36:02.394684",
+    "duration_seconds": 3.31,
+    "api_base_url": "https://universal-search-api.meteora.ag"
+  },
+  "pool_search_tests": {
+    "high_volume_pools": {
+      "status": "error",
+      "status_code": 400,
+      "error": "{\"message\": \"Parameter `q` is required.\"}"
+    },
+    "high_tvl_pools": {
+      "status": "error",
+      "status_code": 400,
+      "error": "{\"message\": \"Parameter `q` is required.\"}"
+    },
+    "sol_pools": {
+      "status": "success",
+      "data": {
+        "facet_counts": [],
+        "found": 127395,
+        "hits": [
+          {
+            "document": {
+              "bin_step": 1,
+              "fee_24h": 14.019994190093454,
+              "fee_pct": 0.01,
+              "id": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+              "pool_mint": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+              "pool_name": "JitoSOL-SOL",
+              "pool_type": "dlmm",
+              "token_mints": [
+                "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 13577710.749117691,
+              "volume_24h": 147205.8611628602
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+                },
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 133.7824951286371,
+              "id": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+              "pool_mint": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+              "pool_name": "SOL-mSOL",
+              "pool_type": "lst",
+              "token_mints": [
+                "So11111111111111111111111111111111111111112",
+                "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+              ],
+              "tvl": 8120099.116056612,
+              "volume_24h": 1337824.9512863727
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "bin_step": 4,
+              "fee_24h": 8824.255642310976,
+              "fee_pct": 0.04,
+              "id": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+              "pool_mint": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+              "pool_name": "SOL-USDC",
+              "pool_type": "dlmm",
+              "token_mints": [
+                "So11111111111111111111111111111111111111112",
+                "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+              ],
+              "tvl": 6032747.150555573,
+              "volume_24h": 19806330.48235472
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 1.6036833975257732,
+              "id": "EH8xLzfq2YARgQC846NWP6EfRK9gfcjDJMxcHhxFLruv",
+              "pool_mint": "EH8xLzfq2YARgQC846NWP6EfRK9gfcjDJMxcHhxFLruv",
+              "pool_name": "METAV-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "HCgvbV9Qcf9TVGPGKMGbVEj8WwwVD6HhTt5E2i3qkeN9",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 5829273.161804209,
+              "volume_24h": 80.18416987628865
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "HCgvbV9Qcf9TVGPGKMGbVEj8WwwVD6HhTt5E2i3qkeN9"
+                },
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 4092.987530389465,
+              "id": "FYFvzPiQCZpzhqcuqM76ka1c38xAM3SSw887W64d5qKK",
+              "pool_mint": "FYFvzPiQCZpzhqcuqM76ka1c38xAM3SSw887W64d5qKK",
+              "pool_name": "WATCHCOIN-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "37CsKhfnGWjGwtsfhTbrknYpYAXG7C2J4gGR5QPZSnwY",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 5200497.722693872,
+              "volume_24h": 204649.3765194736
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "37CsKhfnGWjGwtsfhTbrknYpYAXG7C2J4gGR5QPZSnwY"
+                },
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 47.240756824868896,
+              "id": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+              "pool_mint": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+              "pool_name": "SOL-JitoSOL",
+              "pool_type": "lst",
+              "token_mints": [
+                "So11111111111111111111111111111111111111112",
+                "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+              ],
+              "tvl": 3927733.39901206,
+              "volume_24h": 472407.56824868906
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "bin_step": 100,
+              "fee_24h": 0.0,
+              "fee_pct": 2.0,
+              "id": "AGJHLCTkDsZgAtoCJWAKmC4WGvXAXkviSJsQ5PeB3mhJ",
+              "pool_mint": "AGJHLCTkDsZgAtoCJWAKmC4WGvXAXkviSJsQ5PeB3mhJ",
+              "pool_name": "CDR-SOL",
+              "pool_type": "dlmm",
+              "token_mints": [
+                "HZqjjeso24PDVdLsVJQyVb8kDnbo7HhXfY1Jane66o9C",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 3865557.573249776,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "HZqjjeso24PDVdLsVJQyVb8kDnbo7HhXfY1Jane66o9C"
+                },
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "bin_step": 20,
+              "fee_24h": 3532.754080686036,
+              "fee_pct": 0.2,
+              "id": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+              "pool_mint": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+              "pool_name": "SOL-USDC",
+              "pool_type": "dlmm",
+              "token_mints": [
+                "So11111111111111111111111111111111111111112",
+                "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+              ],
+              "tvl": 3697990.388422735,
+              "volume_24h": 1798579.4014536657
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "bin_step": 100,
+              "fee_24h": 123.65421372572632,
+              "fee_pct": 1.0,
+              "id": "CopraAQegh7HohkLgYayjoRENXsf66eYaDtwFpbr8zRZ",
+              "pool_mint": "CopraAQegh7HohkLgYayjoRENXsf66eYaDtwFpbr8zRZ",
+              "pool_name": "PAIN-SOL",
+              "pool_type": "dlmm",
+              "token_mints": [
+                "1Qf8gESP4i6CFNWerUSDdLKJ9U1LpqTYvjJ2MM4pain",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 3532843.0508458535,
+              "volume_24h": 13016.227401572862
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "1Qf8gESP4i6CFNWerUSDdLKJ9U1LpqTYvjJ2MM4pain"
+                },
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 33.60150816688483,
+              "id": "DvWpLaNUPqoCGn4foM6hekAPKqMtADJJbJWhwuMiT6vK",
+              "pool_mint": "DvWpLaNUPqoCGn4foM6hekAPKqMtADJJbJWhwuMiT6vK",
+              "pool_name": "SOL-bSOL",
+              "pool_type": "pools_with_farm",
+              "token_mints": [
+                "So11111111111111111111111111111111111111112",
+                "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"
+              ],
+              "tvl": 3336067.334199718,
+              "volume_24h": 336015.0816688482
+            },
+            "highlight": {
+              "token_mints": [
+                {
+                  "matched_tokens": [
+                    "So11111111111111111111111111111111111111112"
+                  ],
+                  "snippet": "<mark>So11111111111111111111111111111111111111112</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"
+                }
+              ]
+            },
+            "highlights": [
+              {
+                "field": "token_mints",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "So11111111111111111111111111111111111111112"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>So11111111111111111111111111111111111111112</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          }
+        ],
+        "out_of": 171076,
+        "page": 1,
+        "request_params": {
+          "collection_name": "pool",
+          "first_q": "so11111111111111111111111111111111111111112",
+          "per_page": 10,
+          "q": "So11111111111111111111111111111111111111112"
+        },
+        "search_cutoff": false,
+        "search_time_ms": 54
+      },
+      "pool_count": 0,
+      "response_time_ms": "unknown"
+    },
+    "pool_name_search": {
+      "status": "success",
+      "data": {
+        "facet_counts": [],
+        "found": 1662,
+        "hits": [
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "63SWPooY9QKjNot4pX9QHPLpKUcREHucpfx8DWRYZ4zD",
+              "pool_mint": "63SWPooY9QKjNot4pX9QHPLpKUcREHucpfx8DWRYZ4zD",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "HJbsCiZ84ELMAp9mfrUFXaZ7uzQauAis9XNLAUrQyoaX",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 41048.12684909624,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "9Hswd45xjH5TRo4LS5dAP5TAwibwknsLajREBWKjnmwk",
+              "pool_mint": "9Hswd45xjH5TRo4LS5dAP5TAwibwknsLajREBWKjnmwk",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "FS6PUXxTTdk5rZaFbs61rhfuse5AxkXYDafg5eqNqLYi",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 33535.07652221621,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "AwsKG1CUWjKaS5ctshVqENfkE2F2Se1qfAv1od8DD2oZ",
+              "pool_mint": "AwsKG1CUWjKaS5ctshVqENfkE2F2Se1qfAv1od8DD2oZ",
+              "pool_name": "-SOL",
+              "pool_type": "dammv2",
+              "token_mints": [
+                "CrR9YgUfg2z7CZXVinSk8UN3njdUvToHMZmx9RsSP2i9",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 28059.768205206456,
+              "volume_24h": 10476.588064551928
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "8TGGt5c2urmE7CZPFYo72i4A1chj5ive8183VqEmKs95",
+              "pool_mint": "8TGGt5c2urmE7CZPFYo72i4A1chj5ive8183VqEmKs95",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "6r9imFLqe9y7e9c9bMyXXrAkrdHV38jKGADryF1UUxsk",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 18026.69302785987,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "ErYvhCjcJfgifCbLsCa6YuMBAmYKAtmqNAqdT4TvtMjb",
+              "pool_mint": "ErYvhCjcJfgifCbLsCa6YuMBAmYKAtmqNAqdT4TvtMjb",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "Aytc5hcNNvSC7jN98axcBMcD1Z1kZU7UYYygmrjvLWSB",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 16688.6225699957,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "BrX2RqzmBhhVMjiwUDdRaQuFWqPpcu18kJapRFWZS5VL",
+              "pool_mint": "BrX2RqzmBhhVMjiwUDdRaQuFWqPpcu18kJapRFWZS5VL",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "DFVvhxi5kcNp2kTby4UjmqkK2oV9rKceyc84FUMUF97t",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 15559.640593704486,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "BYhhhoroLrxWRzyr4w4xVvERKJrLAb1oyouJoP5q19QJ",
+              "pool_mint": "BYhhhoroLrxWRzyr4w4xVvERKJrLAb1oyouJoP5q19QJ",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "HjxwzZ8x7uZ2V78bQvwYeYvBpzaCm9te9phTBUk4iQRD",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 15152.161021619811,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "3uGk3g1jkaofV5eZGM1bxpUDnjwrUNWkfGSX1ndmMLuT",
+              "pool_mint": "3uGk3g1jkaofV5eZGM1bxpUDnjwrUNWkfGSX1ndmMLuT",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "Gpg1TDidr712P5EBkHkVXuWtEa7tf1PzJYUVRYN8Uur2",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 14968.400964603286,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "7TNujcVjuyeBFif5ydvjFbULsYm9XyVyRSz7gdQ7awPT",
+              "pool_mint": "7TNujcVjuyeBFif5ydvjFbULsYm9XyVyRSz7gdQ7awPT",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "6QxPQ5KT5exp6TRx3doPd35fLLa4JKPzg7Me8cYhmMjQ",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 13971.222343644637,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "fee_24h": 0.0,
+              "id": "9cN7RDy9dmwhhYridf5z73eunp7KtLXtkqiHh76Ax1Ng",
+              "pool_mint": "9cN7RDy9dmwhhYridf5z73eunp7KtLXtkqiHh76Ax1Ng",
+              "pool_name": "-SOL",
+              "pool_type": "dynamic_amm",
+              "token_mints": [
+                "DXgPUjBc33T8acFymKCGgiyAKLcRipC8G4RRXaYK7sU6",
+                "So11111111111111111111111111111111111111112"
+              ],
+              "tvl": 13507.286024536954,
+              "volume_24h": 0.0
+            },
+            "highlight": {
+              "pool_name": {
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "pool_name",
+                "matched_tokens": [
+                  "SOL"
+                ],
+                "snippet": "-<mark>SOL</mark>"
+              }
+            ],
+            "text_match": 578730123365711993,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 15,
+              "fields_matched": 1,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711993",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          }
+        ],
+        "out_of": 171076,
+        "page": 1,
+        "request_params": {
+          "collection_name": "pool",
+          "first_q": "sol",
+          "per_page": 10,
+          "q": "SOL"
+        },
+        "search_cutoff": false,
+        "search_time_ms": 2
+      },
+      "pool_count": 0,
+      "response_time_ms": "unknown"
+    }
+  },
+  "data_structure_analysis": {},
+  "trending_detection_feasibility": {
+    "error": "API request failed: 400"
+  }
+}

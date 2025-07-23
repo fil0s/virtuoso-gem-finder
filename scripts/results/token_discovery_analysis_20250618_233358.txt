@@ -1,0 +1,188 @@
+🔍 COMPREHENSIVE TOKEN DISCOVERY ANALYSIS
+================================================================================
+
+📊 DISCOVERY SUMMARY:
+  • Total Tokens Discovered: 10
+  • Strategies with Discoveries: 1
+
+🎯 STRATEGY BREAKDOWN:
+  • High Trading Activity Strategy: 10 tokens
+
+💰 MARKET CAP DISTRIBUTION:
+  • Large Cap (>$1B): 3 tokens
+  • Mid Cap ($100M-$1B): 5 tokens
+  • Small Cap ($1M-$100M): 1 tokens
+  • Micro Cap (<$1M): 1 tokens
+
+📈 TRADING VOLUME DISTRIBUTION:
+  • Very High Volume (>$200M): 0 tokens
+  • High Volume ($50M-$200M): 2 tokens
+  • Medium Volume ($1M-$50M): 6 tokens
+  • Low Volume (<$1M): 2 tokens
+
+📊 PRICE PERFORMANCE (24H):
+  • Strong Gainers (>+5%): 1 tokens
+  • Gainers (+1% to +5%): 3 tokens
+  • Stable (-1% to +1%): 3 tokens
+  • Decliners (-5% to -1%): 1 tokens
+  • Strong Decliners (<-5%): 1 tokens
+
+🛡️ SECURITY RISK DISTRIBUTION:
+  • Very Safe (RugCheck >50k): 5 tokens
+  • Safe (RugCheck 1k-50k): 4 tokens
+  • Moderate (RugCheck 100-1k): 1 tokens
+  • Risky (RugCheck <100): 0 tokens
+
+👥 HOLDER DISTRIBUTION:
+  • Wide Adoption (>100k holders): 3 tokens
+  • Good Adoption (10k-100k holders): 7 tokens
+  • Moderate Adoption (1k-10k holders): 0 tokens
+  • Limited Adoption (<1k holders): 0 tokens
+
+🔎 DETAILED TOKEN ANALYSIS:
+==================================================
+
+📋 HIGH TRADING ACTIVITY STRATEGY:
+
+  1. Fartcoin (9BB6NFEc...)
+     💰 Market Cap: $1,114,267,041
+     📊 24h Volume: $137,738,997
+     💲 Price: $1.1100
+     📈 24h Change: +1.75%
+     👥 Holders: 162,304
+     🛡️ RugCheck Score: 3,001 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟡 Safe
+
+  2. JLP (27G8MtK7...)
+     💰 Market Cap: $1,500,154,525
+     📊 24h Volume: $47,032,386
+     💲 Price: $4.3800
+     📉 24h Change: -0.32%
+     👥 Holders: 77,599
+     🛡️ RugCheck Score: 78,504 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟢 Very Safe
+
+  3. WETH (7vfCXTUX...)
+     💰 Market Cap: $182,089,285
+     📊 24h Volume: $33,346,302
+     💲 Price: $2524.8300
+     📈 24h Change: +0.11%
+     👥 Holders: 64,228
+     🛡️ RugCheck Score: 67,337 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟢 Very Safe
+
+  4. cbBTC (cbbtcf3a...)
+     💰 Market Cap: $334,387,301
+     📊 24h Volume: $36,201,325
+     💲 Price: $105062.8000
+     📉 24h Change: -0.04%
+     👥 Holders: 31,074
+     🛡️ RugCheck Score: 88,797 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟢 Very Safe
+
+  5. PENGU (2zMMhcVQ...)
+     💰 Market Cap: $730,236,057
+     📊 24h Volume: $7,625,160
+     💲 Price: $0.0095
+     📈 24h Change: +2.75%
+     👥 Holders: 566,077
+     🛡️ RugCheck Score: 1,090 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟡 Safe
+
+  6. SPX (J3NKxxXZ...)
+     💰 Market Cap: $169,661,139
+     📊 24h Volume: $20,143,746
+     💲 Price: $1.4700
+     📈 24h Change: +10.55%
+     👥 Holders: 55,013
+     🛡️ RugCheck Score: 50,601 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟢 Very Safe
+
+  7. LAUNCHCOIN (Ey59PH7Z...)
+     💰 Market Cap: $127,716,593
+     📊 24h Volume: $20,263,942
+     💲 Price: $0.1300
+     📈 24h Change: +1.35%
+     👥 Holders: 33,412
+     🛡️ RugCheck Score: 3,301 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟡 Safe
+
+  8. TRUMP (6p6xgHyF...)
+     💰 Market Cap: $1,879,330,294
+     📊 24h Volume: $100,315,500
+     💲 Price: $9.4000
+     📉 24h Change: -1.48%
+     👥 Holders: 641,114
+     🛡️ RugCheck Score: 18,537 (safe)
+     🎯 Decision: Not_Promising
+     🔄 Consecutive Appearances: 1
+     📋 Risk Grade: 🟡 Safe
+
+  9. KBBB (npB9cxTz...)
+     💰 Market Cap: $498,213
+     📊 24h Volume: $201,098
+     💲 Price: $0.0005
+     📉 24h Change: -18.84%
+     👥 Holders: 10,250
+     🛡️ RugCheck Score: 125,419 (safe)
+     🎯 Decision: Not_Promising
+     🔄 Consecutive Appearances: 1
+     📋 Risk Grade: 🟢 Very Safe
+
+  10. Patriot (Fz4XZp9M...)
+     💰 Market Cap: $8,756,688
+     📊 24h Volume: $713,792
+     💲 Price: $0.0088
+     ➡️ 24h Change: N/A
+     👥 Holders: 10,267
+     🛡️ RugCheck Score: 501 (safe)
+     🎯 Decision: Promising
+     🔄 Consecutive Appearances: 4
+     📋 Risk Grade: 🟠 Moderate
+
+🏆 TOP PERFORMERS:
+==============================
+
+💰 Largest Market Cap:
+  1. TRUMP: $1,879,330,294
+  2. JLP: $1,500,154,525
+  3. Fartcoin: $1,114,267,041
+
+📊 Highest 24h Volume:
+  1. Fartcoin: $137,738,997
+  2. TRUMP: $100,315,500
+  3. JLP: $47,032,386
+
+📈 Best 24h Performance:
+  1. SPX: +10.55%
+  2. PENGU: +2.75%
+  3. Fartcoin: +1.75%
+
+🛡️ Most Secure (RugCheck):
+  1. KBBB: 125,419
+  2. cbBTC: 88,797
+  3. JLP: 78,504
+
+💡 KEY INSIGHTS:
+====================
+  • Average Market Cap: $604,709,713
+  • Average 24h Volume: $40,358,225
+  • Average Holders: 165,134
+  • Average 24h Price Change: -0.46%
+  • Security: 9/10 tokens are safe or very safe (90.0%)
+  • Performance: 4 gainers vs 2 decliners
+  • Adoption: 10/10 tokens have strong adoption (>10k holders)

@@ -1,0 +1,1016 @@
+{
+  "test_results": {
+    "USELESS_Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+      "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "analysis_timestamp": "2025-06-24T11:07:11.496377",
+      "analysis_duration_seconds": 4.61,
+      "price": 0.1383754,
+      "volume_24h": 139891.48863442027,
+      "market_cap": 138375400.0,
+      "liquidity_score": 7.496421290215315,
+      "price_derivable": true,
+      "price_confidence": "high",
+      "volume_confidence": "medium",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0.1383754,
+        "price_derivable": true,
+        "method": "quote_api_via_usdc",
+        "price_impact": 0.00426130418088,
+        "route_count": 2,
+        "confidence": "high"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 7.496421290215315,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 3,
+            "price_impact": 0.0029360032868,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 2,
+            "price_impact": 0.0037814847067,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 2,
+            "price_impact": 0.00383647338514,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 3,
+            "price_impact": 0.0037608777601008,
+            "quote_successful": true
+          }
+        ],
+        "route_complexity": 2.5,
+        "average_price_impact": 0.0035787097846852,
+        "liquidity_tier": "good"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 139891.48863442027,
+        "volume_tier": "moderate",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "medium",
+        "liquidity_basis": {
+          "liquidity_score": 6.996807889861353,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 2,
+              "price_impact": 0.002372939632,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 2,
+              "price_impact": 0.0034189710066,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 2,
+              "price_impact": 0.003080020245802,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 2,
+              "price_impact": 0.0038965096701842,
+              "quote_successful": true
+            }
+          ],
+          "route_complexity": 2.0,
+          "average_price_impact": 0.00319211013864655,
+          "liquidity_tier": "good"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 138375400.0,
+        "calculation_method": "placeholder_with_estimated_supply",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ],
+        "estimated_supply": 1000000000,
+        "price_used": 0.1383754,
+        "confidence": "very_low"
+      },
+      "route_complexity": 2.5,
+      "average_price_impact": 0.0035787097846852,
+      "liquidity_tier": "good",
+      "volume_tier": "moderate",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 1.0,
+      "has_sufficient_data": true
+    },
+    "TRUMP_6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
+      "token_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+      "analysis_timestamp": "2025-06-24T11:07:16.469660",
+      "analysis_duration_seconds": 4.97,
+      "price": 9.288674875,
+      "volume_24h": 78115.73914428368,
+      "market_cap": 9288674875.0,
+      "liquidity_score": 5.999462556695604,
+      "price_derivable": true,
+      "price_confidence": "high",
+      "volume_confidence": "low",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 9.288674875,
+        "price_derivable": true,
+        "method": "quote_api_via_usdc",
+        "price_impact": 0.0005209349677375,
+        "route_count": 1,
+        "confidence": "high"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 5.999462556695604,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 1,
+            "price_impact": 0.0008380859758,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 1,
+            "price_impact": 0.0003451867741,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 1,
+            "price_impact": 0.000368063334379,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 1,
+            "price_impact": 0.000598437133306,
+            "quote_successful": true
+          }
+        ],
+        "route_complexity": 1.0,
+        "average_price_impact": 0.00053744330439625,
+        "liquidity_tier": "moderate"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 78115.73914428368,
+        "volume_tier": "low",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "low",
+        "liquidity_basis": {
+          "liquidity_score": 6.249544068157114,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 1,
+              "price_impact": 0.000398687077,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 1,
+              "price_impact": 0.00038440021291,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 1,
+              "price_impact": 0.000405885960622,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 2,
+              "price_impact": 0.000634754121014,
+              "quote_successful": true
+            }
+          ],
+          "route_complexity": 1.25,
+          "average_price_impact": 0.0004559318428865,
+          "liquidity_tier": "good"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 9288674875.0,
+        "calculation_method": "placeholder_with_estimated_supply",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ],
+        "estimated_supply": 1000000000,
+        "price_used": 9.288674875,
+        "confidence": "very_low"
+      },
+      "route_complexity": 1.0,
+      "average_price_impact": 0.00053744330439625,
+      "liquidity_tier": "moderate",
+      "volume_tier": "low",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 1.0,
+      "has_sufficient_data": true
+    },
+    "aura_DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2": {
+      "token_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+      "analysis_timestamp": "2025-06-24T11:07:19.970809",
+      "analysis_duration_seconds": 3.5,
+      "price": 0.138041684,
+      "volume_24h": 187342.02805826193,
+      "market_cap": 138041684.0,
+      "liquidity_score": 7.246405072852752,
+      "price_derivable": true,
+      "price_confidence": "high",
+      "volume_confidence": "medium",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0.138041684,
+        "price_derivable": true,
+        "method": "quote_api_via_usdc",
+        "price_impact": 0.0043267711815252,
+        "route_count": 3,
+        "confidence": "high"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 7.246405072852752,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 3,
+            "price_impact": 0.0027112102832,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 2,
+            "price_impact": 0.00378532309144,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 2,
+            "price_impact": 0.003590040788395,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 2,
+            "price_impact": 0.004293134425957,
+            "quote_successful": true
+          }
+        ],
+        "route_complexity": 2.25,
+        "average_price_impact": 0.0035949271472479997,
+        "liquidity_tier": "good"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 187342.02805826193,
+        "volume_tier": "moderate",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "medium",
+        "liquidity_basis": {
+          "liquidity_score": 7.496388467436418,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 3,
+              "price_impact": 0.0026789282077,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 2,
+              "price_impact": 0.0035260194484,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 3,
+              "price_impact": 0.003813646883584,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 2,
+              "price_impact": 0.0044275357146438,
+              "quote_successful": true
+            }
+          ],
+          "route_complexity": 2.5,
+          "average_price_impact": 0.00361153256358195,
+          "liquidity_tier": "good"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 138041684.0,
+        "calculation_method": "placeholder_with_estimated_supply",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ],
+        "estimated_supply": 1000000000,
+        "price_used": 0.138041684,
+        "confidence": "very_low"
+      },
+      "route_complexity": 2.25,
+      "average_price_impact": 0.0035949271472479997,
+      "liquidity_tier": "good",
+      "volume_tier": "moderate",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 1.0,
+      "has_sufficient_data": true
+    },
+    "GOR_71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+      "token_address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "analysis_timestamp": "2025-06-24T11:07:23.753672",
+      "analysis_duration_seconds": 3.78,
+      "price": 0.025474359,
+      "volume_24h": 163034.31944793242,
+      "market_cap": 25474359.0,
+      "liquidity_score": 6.997958120997351,
+      "price_derivable": true,
+      "price_confidence": "high",
+      "volume_confidence": "medium",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0.025474359,
+        "price_derivable": true,
+        "method": "quote_api_via_usdc",
+        "price_impact": 0.002716241509012,
+        "route_count": 2,
+        "confidence": "high"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 6.997958120997351,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 2,
+            "price_impact": 0.0,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 2,
+            "price_impact": 0.00232891774344,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 2,
+            "price_impact": 0.002945360085137,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 2,
+            "price_impact": 0.002893238182016,
+            "quote_successful": true
+          }
+        ],
+        "route_complexity": 2.0,
+        "average_price_impact": 0.00204187900264825,
+        "liquidity_tier": "good"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 163034.31944793242,
+        "volume_tier": "moderate",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "medium",
+        "liquidity_basis": {
+          "liquidity_score": 7.247663308538401,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 2,
+              "price_impact": 0.0,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 2,
+              "price_impact": 0.002587950771,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 3,
+              "price_impact": 0.003176123180325,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 2,
+              "price_impact": 0.0035826918950716,
+              "quote_successful": true
+            }
+          ],
+          "route_complexity": 2.25,
+          "average_price_impact": 0.00233669146159915,
+          "liquidity_tier": "good"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 25474359.0,
+        "calculation_method": "placeholder_with_estimated_supply",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ],
+        "estimated_supply": 1000000000,
+        "price_used": 0.025474359,
+        "confidence": "very_low"
+      },
+      "route_complexity": 2.0,
+      "average_price_impact": 0.00204187900264825,
+      "liquidity_tier": "good",
+      "volume_tier": "moderate",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 1.0,
+      "has_sufficient_data": true
+    },
+    "SPX_J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr": {
+      "token_address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "analysis_timestamp": "2025-06-24T11:07:27.528213",
+      "analysis_duration_seconds": 3.77,
+      "price": 0.013543787,
+      "volume_24h": 163117.80719489622,
+      "market_cap": 13543787.0,
+      "liquidity_score": 7.249796921264974,
+      "price_derivable": true,
+      "price_confidence": "high",
+      "volume_confidence": "medium",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0.013543787,
+        "price_derivable": true,
+        "method": "quote_api_via_usdc",
+        "price_impact": 0.0015023667737219,
+        "route_count": 2,
+        "confidence": "high"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 7.249796921264974,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 2,
+            "price_impact": 1.21903068e-05,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 3,
+            "price_impact": 0.0,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 2,
+            "price_impact": 0.00026611959556,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 2,
+            "price_impact": 0.0005340050377411,
+            "quote_successful": true
+          }
+        ],
+        "route_complexity": 2.25,
+        "average_price_impact": 0.000203078735025275,
+        "liquidity_tier": "good"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 163117.80719489622,
+        "volume_tier": "moderate",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "medium",
+        "liquidity_basis": {
+          "liquidity_score": 7.249814676138359,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 2,
+              "price_impact": 1.21903068e-05,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 3,
+              "price_impact": 0.0,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 2,
+              "price_impact": 0.000442736517992,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 2,
+              "price_impact": 0.0002863686217697,
+              "quote_successful": true
+            }
+          ],
+          "route_complexity": 2.25,
+          "average_price_impact": 0.000185323861640425,
+          "liquidity_tier": "good"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 13543787.0,
+        "calculation_method": "placeholder_with_estimated_supply",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ],
+        "estimated_supply": 1000000000,
+        "price_used": 0.013543787,
+        "confidence": "very_low"
+      },
+      "route_complexity": 2.25,
+      "average_price_impact": 0.000203078735025275,
+      "liquidity_tier": "good",
+      "volume_tier": "moderate",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 1.0,
+      "has_sufficient_data": true
+    },
+    "MUMU_5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA": {
+      "token_address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+      "analysis_timestamp": "2025-06-24T11:07:31.089365",
+      "analysis_duration_seconds": 3.56,
+      "price": 3.542e-06,
+      "volume_24h": 139743.425766821,
+      "market_cap": 3542.0,
+      "liquidity_score": 7.455878388456039,
+      "price_derivable": true,
+      "price_confidence": "high",
+      "volume_confidence": "medium",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 3.542e-06,
+        "price_derivable": true,
+        "method": "quote_api_via_usdc",
+        "price_impact": 0.003536836861634,
+        "route_count": 3,
+        "confidence": "high"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 7.455878388456039,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 2,
+            "price_impact": 0.156015990916,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 2,
+            "price_impact": 0.0154974967983,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 3,
+            "price_impact": 0.00128621424585,
+            "quote_successful": true
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 3,
+            "price_impact": 0.003686744215692,
+            "quote_successful": true
+          }
+        ],
+        "route_complexity": 2.5,
+        "average_price_impact": 0.0441216115439605,
+        "liquidity_tier": "good"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 139743.425766821,
+        "volume_tier": "moderate",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "medium",
+        "liquidity_basis": {
+          "liquidity_score": 6.99245034624345,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 2,
+              "price_impact": 0.0,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 2,
+              "price_impact": 0.0150993075131,
+              "quote_successful": true
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            }
+          ],
+          "route_complexity": 2.0,
+          "average_price_impact": 0.00754965375655,
+          "liquidity_tier": "good"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 3542.0,
+        "calculation_method": "placeholder_with_estimated_supply",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ],
+        "estimated_supply": 1000000000,
+        "price_used": 3.542e-06,
+        "confidence": "very_low"
+      },
+      "route_complexity": 2.5,
+      "average_price_impact": 0.0441216115439605,
+      "liquidity_tier": "good",
+      "volume_tier": "moderate",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 1.0,
+      "has_sufficient_data": true
+    },
+    "$michi_5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp": {
+      "token_address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+      "analysis_timestamp": "2025-06-24T11:07:34.018007",
+      "analysis_duration_seconds": 2.93,
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity_score": 0,
+      "price_derivable": false,
+      "price_confidence": "none",
+      "volume_confidence": "low",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0,
+        "price_derivable": false,
+        "method": "failed_all_attempts",
+        "confidence": "none"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 0,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          }
+        ],
+        "route_complexity": 0,
+        "average_price_impact": 0,
+        "liquidity_tier": "unknown"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 0,
+        "volume_tier": "unknown",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "low",
+        "liquidity_basis": {
+          "liquidity_score": 0,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            }
+          ],
+          "route_complexity": 0,
+          "average_price_impact": 0,
+          "liquidity_tier": "unknown"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 0,
+        "calculation_method": "price_times_supply_placeholder",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ]
+      },
+      "route_complexity": 0,
+      "average_price_impact": 0,
+      "liquidity_tier": "unknown",
+      "volume_tier": "unknown",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 0.0,
+      "has_sufficient_data": false
+    },
+    "BILLY_3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump": {
+      "token_address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+      "analysis_timestamp": "2025-06-24T11:07:37.003358",
+      "analysis_duration_seconds": 2.98,
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity_score": 0,
+      "price_derivable": false,
+      "price_confidence": "none",
+      "volume_confidence": "low",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0,
+        "price_derivable": false,
+        "method": "failed_all_attempts",
+        "confidence": "none"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 0,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          }
+        ],
+        "route_complexity": 0,
+        "average_price_impact": 0,
+        "liquidity_tier": "unknown"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 0,
+        "volume_tier": "unknown",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "low",
+        "liquidity_basis": {
+          "liquidity_score": 0,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            }
+          ],
+          "route_complexity": 0,
+          "average_price_impact": 0,
+          "liquidity_tier": "unknown"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 0,
+        "calculation_method": "price_times_supply_placeholder",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ]
+      },
+      "route_complexity": 0,
+      "average_price_impact": 0,
+      "liquidity_tier": "unknown",
+      "volume_tier": "unknown",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 0.0,
+      "has_sufficient_data": false
+    },
+    "INF_5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm": {
+      "token_address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+      "analysis_timestamp": "2025-06-24T11:07:40.181109",
+      "analysis_duration_seconds": 3.17,
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity_score": 0,
+      "price_derivable": false,
+      "price_confidence": "none",
+      "volume_confidence": "low",
+      "market_cap_confidence": "very_low",
+      "price_analysis": {
+        "price": 0,
+        "price_derivable": false,
+        "method": "failed_all_attempts",
+        "confidence": "none"
+      },
+      "liquidity_analysis": {
+        "liquidity_score": 0,
+        "depth_analysis": [
+          {
+            "amount_usd": 1.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 10.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 100.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          },
+          {
+            "amount_usd": 1000.0,
+            "route_count": 0,
+            "price_impact": 100.0,
+            "quote_successful": false
+          }
+        ],
+        "route_complexity": 0,
+        "average_price_impact": 0,
+        "liquidity_tier": "unknown"
+      },
+      "volume_analysis": {
+        "estimated_volume_24h": 0,
+        "volume_tier": "unknown",
+        "estimation_method": "route_complexity_proxy",
+        "confidence": "low",
+        "liquidity_basis": {
+          "liquidity_score": 0,
+          "depth_analysis": [
+            {
+              "amount_usd": 1.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 10.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 100.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            },
+            {
+              "amount_usd": 1000.0,
+              "route_count": 0,
+              "price_impact": 100.0,
+              "quote_successful": false
+            }
+          ],
+          "route_complexity": 0,
+          "average_price_impact": 0,
+          "liquidity_tier": "unknown"
+        }
+      },
+      "market_cap_analysis": {
+        "market_cap": 0,
+        "calculation_method": "price_times_supply_placeholder",
+        "data_available": false,
+        "requires_implementation": true,
+        "implementation_notes": [
+          "Need Solana RPC integration for getTokenSupply",
+          "Need to handle token decimals properly",
+          "Need circulating supply vs total supply logic"
+        ]
+      },
+      "route_complexity": 0,
+      "average_price_impact": 0,
+      "liquidity_tier": "unknown",
+      "volume_tier": "unknown",
+      "data_source": "jupiter_enhanced_financial_connector",
+      "primary_method": "quote_api_derivation",
+      "data_quality_score": 0.0,
+      "has_sufficient_data": false
+    }
+  },
+  "api_statistics": {
+    "total_api_calls": 84,
+    "successful_calls": 52,
+    "failed_calls": 32,
+    "success_rate_percent": 61.9,
+    "price_derivations": 9,
+    "liquidity_analyses": 18,
+    "volume_estimations": 9
+  },
+  "test_timestamp": "2025-06-24T11:07:40.186402"
+}

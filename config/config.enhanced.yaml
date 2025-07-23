@@ -1,0 +1,536 @@
+# Enhanced Token Discovery Configuration
+# Comprehensive settings for enhanced endpoint integration with Birdeye API
+
+# API Configuration
+api:
+  birdeye:
+    base_url: "https://public-api.birdeye.so"
+    api_key: "${BIRDEYE_API_KEY}"
+    rate_limit: 100  # requests per minute
+    request_timeout_seconds: 20
+    max_retries: 3
+    backoff_factor: 2
+    
+    # Enhanced endpoint settings
+    endpoints:
+      trending:
+        enabled: true
+        cache_ttl: 300  # 5 minutes
+        limit: 100
+      new_listings:
+        enabled: true
+        cache_ttl: 600  # 10 minutes
+        limit: 50
+      top_traders:
+        enabled: true
+        cache_ttl: 1800  # 30 minutes
+        limit: 20
+      token_holders:
+        enabled: true
+        cache_ttl: 1200  # 20 minutes
+        limit: 100
+
+# Enhanced Enrichment Services Configuration
+enrichment:
+  trending_monitor:
+    enabled: true
+    cache_ttl: 300  # 5 minutes
+    momentum_window: 3600  # 1 hour
+    hot_trending_threshold: 0.7
+    trend_strength_threshold: 0.6
+    
+  smart_money_detector:
+    enabled: true
+    cache_ttl: 1800  # 30 minutes
+    quality_threshold: 0.7
+    known_wallets_enabled: true
+    min_traders_for_analysis: 5
+    
+  holder_distribution_analyzer:
+    enabled: true
+    cache_ttl: 1200  # 20 minutes
+    risk_thresholds:
+      high_concentration: 0.7  # 70%+ in top 10 holders
+      whale_threshold: 0.05    # 5%+ individual holding
+      gini_high_risk: 0.8      # Gini coefficient > 0.8
+      min_holders_healthy: 100
+
+# Enhanced Scoring Configuration
+scoring:
+  enhanced_scoring:
+    enabled: true
+    
+    # Signal weights (must sum to 1.0)
+    signal_weights:
+      trending_analysis: 0.20    # 20% weight
+      smart_money_detection: 0.20 # 20% weight
+      holder_quality: 0.10       # 10% weight
+      freshness_factor: 0.05     # 5% weight
+      base_metrics: 0.45         # 45% weight (volume, liquidity, etc.)
+    
+    # Boost factors
+    boost_factors:
+      trending:
+        hot_trending: 1.5        # 50% boost
+        regular_trending: 1.2    # 20% boost
+      smart_money:
+        very_strong: 1.5         # 50% boost
+        strong: 1.4              # 40% boost
+        moderate: 1.3            # 30% boost
+        weak: 1.2                # 20% boost
+      holder_quality:
+        very_low_risk: 1.2       # 20% bonus
+        low_risk: 1.0            # No adjustment
+        medium_risk: 0.9         # 10% penalty
+        high_risk: 0.7           # 30% penalty
+        very_high_risk: 0.5      # 50% penalty
+      freshness:
+        under_24h: 1.1           # 10% bonus for very fresh tokens
+    
+    # Risk penalties
+    risk_penalties:
+      concentration_warning: 0.9  # 10% penalty
+      wash_trading_suspected: 0.8 # 20% penalty
+      poor_trader_quality: 0.9   # 10% penalty
+
+# Strategy-Specific Enhanced Configuration
+strategies:
+  recent_listings:
+    enhanced_features:
+      new_listings_endpoint: true
+      quality_filters:
+        min_liquidity: 50000     # $50k minimum
+        min_volume_24h: 10000    # $10k minimum
+        min_holders: 50
+      freshness_scoring: true
+    
+  high_trading_activity:
+    enhanced_features:
+      smart_money_validation: true
+      wash_trading_detection: true
+      trader_quality_analysis: true
+      thresholds:
+        max_trades_per_mcap: 500  # Trades per $1M market cap
+        min_smart_money_score: 0.1
+    
+  volume_momentum:
+    enhanced_features:
+      trending_cross_reference: true
+      momentum_validation: true
+      volume_quality_analysis: true
+      boost_factors:
+        trending_momentum_match: 1.3  # 30% boost
+    
+  liquidity_growth:
+    enhanced_features:
+      holder_distribution_analysis: true
+      concentration_risk_filtering: true
+      liquidity_quality_scoring: true
+      thresholds:
+        min_liq_to_mcap_ratio: 0.05  # 5% minimum
+        max_concentration_risk: 0.7   # 70% maximum
+
+# Performance and Optimization Settings
+performance:
+  batch_processing:
+    enabled: true
+    max_concurrent_enrichments: 10
+    batch_size: 20
+    timeout_seconds: 30
+    
+  caching:
+    enabled: true
+    default_ttl: 300
+    max_cache_size: 1000
+    cleanup_interval: 3600  # 1 hour
+    
+  rate_limiting:
+    enabled: true
+    adaptive_throttling: true
+    burst_allowance: 10
+    
+  parallel_processing:
+    max_workers: 5
+    enable_async_enrichment: true
+
+# Risk Management Enhanced Settings
+risk_management:
+  enhanced_filters:
+    enabled: true
+    
+    # Concentration risk
+    concentration_limits:
+      max_top_10_percentage: 70    # 70% maximum in top 10 holders
+      max_single_holder: 30        # 30% maximum single holder
+      min_effective_holders: 50    # Minimum effective number of holders
+    
+    # Smart money requirements
+    smart_money_validation:
+      enabled: true
+      min_quality_score: 0.3
+      require_known_wallets: false
+    
+    # Volume and trading analysis
+    trading_analysis:
+      max_volume_to_mcap: 5.0      # 5x maximum volume to market cap
+      min_avg_trade_size: 10       # $10 minimum average trade
+      max_trades_per_mcap: 500     # Maximum trades per $1M market cap
+    
+    # Freshness and age requirements
+    age_requirements:
+      min_age_hours: 24            # 24 hours minimum age
+      max_age_days: 30             # 30 days maximum for "new" classification
+
+# Monitoring and Alerting
+monitoring:
+  performance_tracking:
+    enabled: true
+    metrics_collection: true
+    alert_thresholds:
+      api_failure_rate: 0.1       # 10% failure rate
+      cache_hit_rate: 0.7         # 70% minimum cache hit rate
+      processing_time_ms: 5000    # 5 second maximum processing time
+    
+  enhancement_tracking:
+    track_boost_factors: true
+    track_filter_effectiveness: true
+    track_discovery_quality: true
+
+# Logging Configuration
+logging:
+  level: INFO
+  structured_logging: true
+  include_enrichment_details: true
+  performance_logging: true
+  
+  loggers:
+    trending_monitor: INFO
+    smart_money_detector: INFO
+    holder_analyzer: INFO
+    strategy_executor: INFO
+    enhancement_engine: DEBUG
+
+# Development and Testing
+development:
+  test_mode: false
+  mock_data_enabled: false
+  enhanced_validation: true
+  debug_enrichment: false
+  
+  test_configuration:
+    max_test_tokens: 10
+    enable_all_enrichments: true
+    detailed_analysis: true
+    performance_benchmarking: true
+
+# Feature Flags
+features:
+  enhanced_endpoint_integration: true
+  multi_signal_scoring: true
+  smart_money_detection: true
+  holder_distribution_analysis: true
+  trending_momentum_analysis: true
+  risk_based_filtering: true
+  adaptive_caching: true
+  parallel_enrichment: true
+  
+  # Experimental features
+  experimental:
+    predictive_analytics: false
+    cross_chain_analysis: false
+    social_sentiment_integration: false
+    machine_learning_scoring: false
+
+# Backup and Fallback Configuration
+fallback:
+  disable_enrichment_on_failure: false
+  max_enrichment_failures: 3
+  fallback_to_basic_analysis: true
+  emergency_mode_enabled: true
+  
+  endpoint_fallbacks:
+    trending: "/defi/token_list"  # Fallback if trending endpoint fails
+    new_listings: "/defi/token_list"
+    top_traders: null  # No fallback, skip if unavailable
+    holders: null      # No fallback, skip if unavailable
+
+# Enhanced Production Configuration for High Conviction Token Detector
+# With Emerging Token Discovery (Jupiter + Meteora Integration)
+
+# ===== EMERGING TOKEN DISCOVERY SETTINGS =====
+emerging_tokens:
+  enabled: true
+  score_weight: 1.2
+  graduated_bonus: 1.5
+  
+  jupiter:
+    enabled: true
+    min_liquidity: 10000
+    quote_analysis_enabled: true
+    symbol_resolution: true
+    max_tokens_per_batch: 100
+    sample_size: 1000  # Tokens to sample for liquidity analysis
+    cache_ttl_seconds: 300  # 5 minutes
+    
+  meteora:
+    enabled: true
+    min_pool_volume: 100000
+    vlr_threshold: 2.0
+    max_pool_age_days: 30
+    emerging_pool_detection: true
+    cache_ttl_seconds: 300  # 5 minutes
+    
+  risk_adjustments:
+    emerging_risk_penalty: 0.05  # 5% penalty for emerging tokens
+    graduated_confidence_bonus: 0.5  # 50% bonus for cross-validated tokens
+    
+  alerts:
+    show_category: true
+    show_risk_level: true
+    show_platform_count: true
+    category_specific_messaging: true
+    include_discovery_metrics: true
+
+# ===== ENHANCED SCORING CONFIGURATION =====
+SCORING:
+  high_conviction_threshold: 70.0
+  alert_threshold: 35.0
+  min_candidate_score: 30.0
+  
+  # Category-specific thresholds
+  category_thresholds:
+    ESTABLISHED: 70.0
+    EMERGING: 65.0      # Slightly lower threshold for emerging
+    GRADUATED: 75.0     # Higher threshold for cross-validated
+    
+  # Enhanced scoring weights
+  scoring_weights:
+    cross_platform_presence: 1.0
+    volume_momentum: 0.8
+    liquidity_depth: 0.7
+    price_stability: 0.6
+    community_strength: 0.5
+    emerging_discovery_bonus: 0.3
+
+# ===== ANALYSIS CONFIGURATION =====
+ANALYSIS:
+  alert_score_threshold: 7.0
+  min_cross_platform_score: 6.0
+  min_volume_24h: 50000
+  min_liquidity: 25000
+  min_market_cap: 100000
+  max_market_cap: 50000000
+  
+  # Enhanced analysis settings
+  enhanced_analysis:
+    enable_deep_whale_analysis: true
+    enable_smart_money_detection: true
+    enable_momentum_analysis: true
+    enable_risk_assessment: true
+    
+  # Platform-specific weights
+  platform_weights:
+    dexscreener: 1.0
+    rugcheck: 0.9
+    birdeye: 1.1
+    birdeye_emerging_stars: 0.8
+    jupiter_high_liquidity: 0.7
+    meteora_high_volume: 0.7
+    meteora_emerging_pools: 0.6
+
+# ===== API CONFIGURATION =====
+BIRDEYE_API:
+  api_key: "${BIRDEYE_API_KEY}"
+  base_url: "https://public-api.birdeye.so"
+  rate_limit_requests_per_second: 10
+  request_timeout_seconds: 20
+  max_retries: 3
+  retry_delay_seconds: 2
+  cache_ttl_seconds: 300
+  
+  # Enhanced API usage monitoring
+  monitoring:
+    track_usage: true
+    daily_limit_warning_threshold: 0.8
+    enable_cost_optimization: true
+
+DEXSCREENER_API:
+  base_url: "https://api.dexscreener.com"
+  rate_limit_requests_per_second: 5
+  request_timeout_seconds: 15
+  cache_ttl_seconds: 180
+  
+RUGCHECK_API:
+  base_url: "https://api.rugcheck.xyz"
+  rate_limit_requests_per_second: 3
+  request_timeout_seconds: 10
+  cache_ttl_seconds: 300
+
+# ===== TELEGRAM CONFIGURATION =====
+TELEGRAM:
+  enabled: true
+  bot_token: "${TELEGRAM_BOT_TOKEN}"
+  chat_id: "${TELEGRAM_CHAT_ID}"
+  
+  # Enhanced alert settings
+  alerts:
+    max_alerts_per_hour: 10
+    duplicate_prevention_hours: 168  # 7 days
+    alert_format: "enhanced"  # enhanced, standard, minimal
+    include_charts: true
+    include_risk_warnings: true
+    
+  # Category-specific alert settings
+  category_alerts:
+    ESTABLISHED:
+      enabled: true
+      min_score: 70.0
+      emoji: "💎"
+    EMERGING:
+      enabled: true
+      min_score: 65.0
+      emoji: "🌟"
+      include_risk_warning: true
+    GRADUATED:
+      enabled: true
+      min_score: 75.0
+      emoji: "🎓"
+      priority: "high"
+
+# ===== CACHING CONFIGURATION =====
+CACHING:
+  enabled: true
+  cache_type: "memory"  # memory, redis, file
+  
+  # Cache TTL settings by data type
+  ttl_settings:
+    token_prices: 60      # 1 minute
+    token_metadata: 300   # 5 minutes
+    platform_data: 180   # 3 minutes
+    analysis_results: 600 # 10 minutes
+    jupiter_universe: 3600 # 1 hour
+    meteora_pools: 900    # 15 minutes
+    
+  # Cache size limits
+  size_limits:
+    max_entries: 10000
+    max_memory_mb: 512
+
+# ===== PERFORMANCE MONITORING =====
+MONITORING:
+  enabled: true
+  
+  # Performance metrics
+  performance:
+    track_cycle_duration: true
+    track_api_response_times: true
+    track_memory_usage: true
+    track_cache_hit_rates: true
+    
+  # Alert thresholds
+  thresholds:
+    max_cycle_duration_seconds: 90
+    max_memory_usage_mb: 1024
+    min_cache_hit_rate: 0.7
+    max_api_error_rate: 0.1
+    
+  # Logging configuration
+  logging:
+    level: "INFO"
+    include_performance_metrics: true
+    include_api_statistics: true
+    include_emerging_discovery_stats: true
+
+# ===== DEVELOPMENT SETTINGS =====
+DEVELOPMENT:
+  debug_mode: false
+  test_mode: false
+  
+  # Enhanced debugging
+  enhanced_debug:
+    log_api_requests: false
+    log_scoring_details: false
+    log_categorization_logic: false
+    save_raw_api_responses: false
+    
+  # Testing overrides
+  testing:
+    use_mock_data: false
+    reduce_api_calls: false
+    skip_telegram_alerts: false
+
+# ===== SECURITY SETTINGS =====
+SECURITY:
+  # API key validation
+  validate_api_keys_on_startup: true
+  
+  # Rate limiting
+  global_rate_limiting:
+    enabled: true
+    max_requests_per_minute: 100
+    
+  # Input validation
+  input_validation:
+    validate_token_addresses: true
+    sanitize_symbols: true
+    check_address_format: true
+
+# ===== BACKUP AND RECOVERY =====
+BACKUP:
+  enabled: true
+  
+  # Session data backup
+  session_backup:
+    save_session_results: true
+    backup_interval_hours: 6
+    max_backup_files: 48  # 2 weeks of 6-hour backups
+    
+  # Configuration backup
+  config_backup:
+    backup_on_changes: true
+    max_config_backups: 10
+
+# ===== FEATURE FLAGS =====
+FEATURES:
+  # Core features
+  cross_platform_analysis: true
+  detailed_birdeye_analysis: true
+  telegram_alerts: true
+  
+  # Enhanced features
+  emerging_token_discovery: true
+  token_categorization: true
+  risk_assessment: true
+  smart_money_detection: true
+  
+  # Experimental features
+  ai_powered_analysis: false
+  predictive_scoring: false
+  social_sentiment_analysis: false
+
+# ===== NETWORK CONFIGURATION =====
+NETWORK:
+  # Connection settings
+  connection_timeout: 30
+  read_timeout: 20
+  max_connections: 100
+  
+  # Retry configuration
+  retry_settings:
+    max_retries: 3
+    backoff_factor: 2
+    max_backoff_time: 60
+
+# ===== RESOURCE LIMITS =====
+RESOURCES:
+  # Memory limits
+  max_memory_usage_mb: 2048
+  
+  # Processing limits
+  max_concurrent_api_calls: 20
+  max_tokens_per_analysis: 200
+  max_analysis_duration_seconds: 300
+  
+  # Storage limits
+  max_log_file_size_mb: 100
+  max_cache_size_mb: 512 

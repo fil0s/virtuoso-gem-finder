@@ -1,0 +1,271 @@
+{
+  "test_timestamp": "2025-06-18T10:56:44.236309",
+  "holder_analysis_debug": {
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "token_address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+      "raw_api_success": true,
+      "analysis_success": true,
+      "errors": [],
+      "data_flow": {
+        "raw_data_structure": {
+          "type": "<class 'dict'>",
+          "keys": [
+            "items",
+            "total",
+            "offset",
+            "limit"
+          ],
+          "items_count": 100
+        },
+        "analysis_result": {
+          "validation_passed": false,
+          "total_holders": 0,
+          "risk_level": "unknown",
+          "errors_in_analysis": []
+        }
+      }
+    },
+    "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+      "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+      "raw_api_success": true,
+      "analysis_success": true,
+      "errors": [],
+      "data_flow": {
+        "raw_data_structure": {
+          "type": "<class 'dict'>",
+          "keys": [
+            "items",
+            "total",
+            "offset",
+            "limit"
+          ],
+          "items_count": 100
+        },
+        "analysis_result": {
+          "validation_passed": false,
+          "total_holders": 0,
+          "risk_level": "unknown",
+          "errors_in_analysis": []
+        }
+      }
+    },
+    "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+      "token_address": "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg",
+      "raw_api_success": true,
+      "analysis_success": true,
+      "errors": [],
+      "data_flow": {
+        "raw_data_structure": {
+          "type": "<class 'dict'>",
+          "keys": [
+            "items",
+            "total",
+            "offset",
+            "limit"
+          ],
+          "items_count": 100
+        },
+        "analysis_result": {
+          "validation_passed": false,
+          "total_holders": 0,
+          "risk_level": "unknown",
+          "errors_in_analysis": []
+        }
+      }
+    }
+  },
+  "volatility_analysis_debug": {
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "token_address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+      "raw_api_success": true,
+      "analysis_success": true,
+      "errors": [],
+      "data_flow": {
+        "raw_transaction_data": {
+          "total_transactions": 100,
+          "sample_price_fields": {
+            "tokenPrice": 0.00019818371466893248,
+            "from.price": 145.14868349222473,
+            "to.price": 0.00019818371466893248
+          },
+          "manual_price_extraction": {
+            "prices_found": 10,
+            "sample_prices": [
+              0.00019818371466893248,
+              0.00019712226773474856,
+              0.00019661942828950714,
+              0.0001979655237871514,
+              0.0001970886767101169
+            ]
+          }
+        },
+        "analysis_result": {
+          "price_data_available": true,
+          "price_points_analyzed": 161,
+          "volatility_classification": "Very stable",
+          "errors_in_analysis": []
+        }
+      }
+    },
+    "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+      "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+      "raw_api_success": true,
+      "analysis_success": true,
+      "errors": [],
+      "data_flow": {
+        "raw_transaction_data": {
+          "total_transactions": 100,
+          "sample_price_fields": {
+            "tokenPrice": 0.00579822947491371,
+            "from.price": 0.00579822947491371,
+            "to.price": 145.13325073855486
+          },
+          "manual_price_extraction": {
+            "prices_found": 10,
+            "sample_prices": [
+              0.00579822947491371,
+              0.0058207426565167674,
+              0.005857646636574325,
+              0.005842320989089291,
+              0.005832567222160665
+            ]
+          }
+        },
+        "analysis_result": {
+          "price_data_available": true,
+          "price_points_analyzed": 52,
+          "volatility_classification": "Very stable",
+          "errors_in_analysis": []
+        }
+      }
+    },
+    "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+      "token_address": "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg",
+      "raw_api_success": true,
+      "analysis_success": true,
+      "errors": [],
+      "data_flow": {
+        "raw_transaction_data": {
+          "total_transactions": 100,
+          "sample_price_fields": {
+            "tokenPrice": 5167.0483401897645,
+            "from.price": 5167.0483401897645,
+            "to.price": 148.04424694409465
+          },
+          "manual_price_extraction": {
+            "prices_found": 10,
+            "sample_prices": [
+              5167.0483401897645,
+              5167.0483401897645,
+              5167.0483401897645,
+              5167.0483401897645,
+              5167.0483401897645
+            ]
+          }
+        },
+        "analysis_result": {
+          "price_data_available": false,
+          "price_points_analyzed": 0,
+          "volatility_classification": "unknown",
+          "errors_in_analysis": [
+            "Insufficient price data (need 10, got 5)"
+          ]
+        }
+      }
+    }
+  },
+  "raw_api_data_samples": {
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "holder_data": {
+        "type": "<class 'dict'>",
+        "keys": [
+          "items",
+          "total",
+          "offset",
+          "limit"
+        ],
+        "items_type": "<class 'list'>",
+        "items_count": 10,
+        "sample_item": {
+          "amount": "139366170110914",
+          "decimals": 6,
+          "mint": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+          "owner": "9JbzXJqP4xdcQ7dwZ5fbM1qtsfTBNuCSCT38JCQUpSod",
+          "token_account": "9ooqvpk6b13EV4BSfqKNdeRDWyM3qWQ6cfZGtSLoLmh9",
+          "ui_amount": 139366170.110914
+        },
+        "total_field": 0
+      },
+      "transaction_data": {
+        "type": "<class 'list'>",
+        "count": 5,
+        "sample_transaction": {
+          "quote": {
+            "symbol": "SOL",
+            "decimals": 9,
+            "address": "So11111111111111111111111111111111111111112",
+            "amount": 989012961,
+            "uiAmount": 0.989012961,
+            "price": 145.14868349222473,
+            "nearestPrice": 145.14868349222473,
+            "changeAmount": -989012961,
+            "uiChangeAmount": -0.989012961
+          },
+          "base": {
+            "symbol": "could",
+            "decimals": 6,
+            "address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+            "amount": 724347757260,
+            "uiAmount": 724347.75726,
+            "price": 0.00019818371466893248,
+            "nearestPrice": 0.00019712226773474856,
+            "changeAmount": 724347757260,
+            "uiChangeAmount": 724347.75726
+          },
+          "basePrice": 0.00019818371466893248,
+          "quotePrice": 145.14868349222473,
+          "txHash": "5A7ZAwoYUV6jYuKWvMe2GHAK3QmHjyixDo1zQt4ggXU5QDoacdmWaBLcJwCLtpXyrpX45kT9JdKKHtusQTaTGW2b",
+          "source": "pump_amm",
+          "blockUnixTime": 1750258564,
+          "txType": "swap",
+          "owner": "HnuW5AeYB6NYdvJH7GwqSCNEBu33dhobYZhshn2KzY3c",
+          "side": "buy",
+          "alias": null,
+          "pricePair": 1.3653841695336404e-06,
+          "from": {
+            "symbol": "SOL",
+            "decimals": 9,
+            "address": "So11111111111111111111111111111111111111112",
+            "amount": 989012961,
+            "uiAmount": 0.989012961,
+            "price": 145.14868349222473,
+            "nearestPrice": 145.14868349222473,
+            "changeAmount": -989012961,
+            "uiChangeAmount": -0.989012961
+          },
+          "to": {
+            "symbol": "could",
+            "decimals": 6,
+            "address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+            "amount": 724347757260,
+            "uiAmount": 724347.75726,
+            "price": 0.00019818371466893248,
+            "nearestPrice": 0.00019712226773474856,
+            "changeAmount": 724347757260,
+            "uiChangeAmount": 724347.75726
+          },
+          "tokenPrice": 0.00019818371466893248,
+          "poolId": "9JbzXJqP4xdcQ7dwZ5fbM1qtsfTBNuCSCT38JCQUpSod",
+          "time": 1750258564
+        },
+        "price_fields_found": {
+          "tokenPrice": 0.00019818371466893248,
+          "from.price": 145.14868349222473,
+          "to.price": 0.00019818371466893248
+        }
+      }
+    }
+  },
+  "parsing_issues_found": [],
+  "recommended_fixes": []
+}

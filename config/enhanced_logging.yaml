@@ -1,0 +1,51 @@
+# Enhanced Structured Logging Configuration
+# This file contains settings for the enhanced structured logging system
+
+logging_config:
+  # Global logging level (DEBUG, INFO, WARNING, ERROR)
+  log_level: "INFO"
+  
+  # Enable/disable different tracking features
+  performance_tracking: true
+  api_tracking: true
+  context_tracking: true
+  
+  # Output configuration
+  output_format: "json"  # json or text
+  enable_console_output: true
+  enable_file_output: true
+  log_file_path: "logs/gem_detection.log"
+  
+  # Performance thresholds for alerts
+  thresholds:
+    max_stage_duration_seconds: 30
+    max_api_call_duration_seconds: 5
+    min_cache_hit_rate_percent: 80
+    max_errors_per_scan: 5
+  
+  # API call tracking
+  api_tracking:
+    track_individual_calls: true
+    track_batch_calls: true
+    track_cache_operations: true
+    log_slow_calls_threshold_ms: 1000
+  
+  # Context tracking
+  context_tracking:
+    track_scan_ids: true
+    track_stage_progression: true
+    track_token_processing: true
+    max_context_stack_depth: 10
+
+# Integration settings
+integration:
+  # Automatically apply to these components
+  patch_components:
+    - "early_gem_detector"
+    - "batch_api_manager" 
+    - "birdeye_connector"
+    - "token_validator"
+  
+  # Backup settings
+  create_backups: true
+  backup_retention_days: 30

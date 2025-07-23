@@ -1,0 +1,221 @@
+{
+  "test_timestamp": "2025-06-17T21:20:03.231570",
+  "package_type": "Starter",
+  "endpoints_tested": {
+    "get_token_list": {
+      "endpoint": "/defi/v3/token/list",
+      "status": "success",
+      "response_time_ms": 1167,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    "get_token_metadata": {
+      "endpoint": "/defi/v3/token/meta-data/single",
+      "status": "success",
+      "response_time_ms": 856,
+      "response_keys": [
+        "data",
+        "success"
+      ]
+    },
+    "get_token_market_data": {
+      "endpoint": "/defi/v3/token/market-data",
+      "status": "success",
+      "response_time_ms": 373,
+      "response_keys": [
+        "data",
+        "success"
+      ]
+    },
+    "get_token_trading_data": {
+      "endpoint": "/defi/v3/token/trading-data/single",
+      "status": "failed",
+      "error": "No response"
+    },
+    "get_token_holders": {
+      "endpoint": "/defi/v3/token/holder",
+      "status": "error",
+      "error": "BirdeyeAPI.get_token_holders() got an unexpected keyword argument 'address'",
+      "response_time_ms": 0
+    },
+    "get_new_listings": {
+      "endpoint": "/defi/v2/tokens/new_listing",
+      "status": "error",
+      "error": "BirdeyeAPI.get_new_listings() got an unexpected keyword argument 'limit'",
+      "response_time_ms": 0
+    },
+    "get_trending_tokens": {
+      "endpoint": "/defi/token_trending",
+      "status": "error",
+      "error": "BirdeyeAPI.get_trending_tokens() got an unexpected keyword argument 'limit'",
+      "response_time_ms": 0
+    },
+    "get_top_traders": {
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "status": "error",
+      "error": "BirdeyeAPI.get_top_traders() got an unexpected keyword argument 'address'",
+      "response_time_ms": 0
+    },
+    "get_token_trades": {
+      "endpoint": "/defi/txs/token",
+      "status": "success",
+      "response_time_ms": 316,
+      "response_keys": [
+        "data",
+        "success"
+      ]
+    },
+    "get_ohlcv": {
+      "endpoint": "/defi/ohlcv",
+      "status": "success",
+      "response_time_ms": 244,
+      "response_keys": [
+        "data",
+        "success"
+      ]
+    },
+    "filtering_liquidity_filtering": {
+      "status": "success",
+      "tokens_found": 5,
+      "response_time_ms": 335,
+      "params": {
+        "min_liquidity": 1000000,
+        "limit": 5
+      }
+    },
+    "filtering_volume_filtering": {
+      "status": "success",
+      "tokens_found": 5,
+      "response_time_ms": 362,
+      "params": {
+        "min_volume_24h_usd": 100000,
+        "limit": 5
+      }
+    },
+    "filtering_holder_filtering": {
+      "status": "success",
+      "tokens_found": 5,
+      "response_time_ms": 406,
+      "params": {
+        "min_holder": 1000,
+        "limit": 5
+      }
+    },
+    "filtering_trade_count_filtering": {
+      "status": "success",
+      "tokens_found": 5,
+      "response_time_ms": 495,
+      "params": {
+        "min_trade_24h_count": 1000,
+        "limit": 5
+      }
+    },
+    "filtering_combined_filtering": {
+      "status": "success",
+      "tokens_found": 10,
+      "response_time_ms": 440,
+      "params": {
+        "min_liquidity": 500000,
+        "min_volume_24h_usd": 50000,
+        "min_holder": 500,
+        "sort_by": "trade_24h_count",
+        "sort_type": "desc",
+        "limit": 10
+      }
+    },
+    "pagination_page_1": {
+      "status": "success",
+      "tokens_found": 10,
+      "has_next": false,
+      "response_time_ms": 482,
+      "params": {
+        "limit": 10,
+        "offset": 0
+      }
+    },
+    "pagination_page_2": {
+      "status": "success",
+      "tokens_found": 10,
+      "has_next": false,
+      "response_time_ms": 390,
+      "params": {
+        "limit": 10,
+        "offset": 10
+      }
+    },
+    "pagination_large_page": {
+      "status": "success",
+      "tokens_found": 50,
+      "has_next": false,
+      "response_time_ms": 446,
+      "params": {
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    "pagination_max_page": {
+      "status": "success",
+      "tokens_found": 100,
+      "has_next": false,
+      "response_time_ms": 569,
+      "params": {
+        "limit": 100,
+        "offset": 0
+      }
+    }
+  },
+  "capabilities_summary": {
+    "total_endpoints_tested": 19,
+    "successful_endpoints": 14,
+    "failed_endpoints": 5,
+    "success_rate": 73.7,
+    "working_endpoints": [
+      "get_token_list",
+      "get_token_metadata",
+      "get_token_market_data",
+      "get_token_trades",
+      "get_ohlcv",
+      "filtering_liquidity_filtering",
+      "filtering_volume_filtering",
+      "filtering_holder_filtering",
+      "filtering_trade_count_filtering",
+      "filtering_combined_filtering",
+      "pagination_page_1",
+      "pagination_page_2",
+      "pagination_large_page",
+      "pagination_max_page"
+    ],
+    "blocked_endpoints": [
+      "get_token_trading_data",
+      "get_token_holders",
+      "get_new_listings",
+      "get_trending_tokens",
+      "get_top_traders"
+    ]
+  },
+  "performance_metrics": {
+    "rate_limit_test": {
+      "requests_completed": 10,
+      "average_response_time_ms": 325,
+      "request_times_ms": [
+        353,
+        360,
+        354,
+        364,
+        352,
+        361,
+        255,
+        253,
+        367,
+        232
+      ]
+    }
+  },
+  "recommendations": [
+    "Excellent V3 access! Most endpoints are working with Starter package.",
+    "Advanced filtering capabilities available - leverage for precise token discovery.",
+    "Pagination working - can access large datasets efficiently."
+  ]
+}

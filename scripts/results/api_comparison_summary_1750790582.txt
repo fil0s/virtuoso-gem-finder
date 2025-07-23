@@ -1,0 +1,45 @@
+COMPREHENSIVE API COMPARISON TEST SUMMARY
+==================================================
+
+Test Date: 2025-06-24T14:42:38.515463
+Tokens Tested: 9
+APIs Tested: 6
+
+API PERFORMANCE METRICS:
+------------------------------
+BirdEye:
+  Success Rate: 0.0%
+  Avg Response Time: 0.0ms
+  Avg Data Points: 0.0
+
+RugCheck:
+  Success Rate: 100.0%
+  Avg Response Time: 1328.1ms
+  Avg Data Points: 26.4
+
+Jupiter:
+  Success Rate: 0.0%
+  Avg Response Time: 0.0ms
+  Avg Data Points: 0.0
+
+Orca:
+  Success Rate: 0.0%
+  Avg Response Time: 0.0ms
+  Avg Data Points: 0.0
+
+Raydium:
+  Success Rate: 0.0%
+  Avg Response Time: 0.0ms
+  Avg Data Points: 0.0
+
+DexScreener:
+  Success Rate: 100.0%
+  Avg Response Time: 841.2ms
+  Avg Data Points: 290.0
+
+RECOMMENDATIONS:
+---------------
+Best Overall API: DexScreener
+Fastest API: DexScreener
+Most Comprehensive API: DexScreener
+Most Reliable API: RugCheck

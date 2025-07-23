@@ -1,0 +1,450 @@
+[
+  {
+    "username": "solana",
+    "timestamp": "2025-05-28 11:22:18",
+    "methods": {
+      "twitter_mobile": {
+        "success": false,
+        "platform": "Twitter Mobile",
+        "username": "solana",
+        "error": "HTTP 400",
+        "url": "https://mobile.twitter.com/solana"
+      },
+      "nitter_instances": {
+        "success": false,
+        "platform": "Nitter Instances",
+        "username": "solana",
+        "successful_extractions": [],
+        "all_instances": [
+          {
+            "instance": "https://nitter.it",
+            "status": "HTTP 200 but no profile data",
+            "html_length": 172
+          },
+          {
+            "instance": "https://nitter.net",
+            "status": "HTTP 429",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.42l.fr",
+            "status": "HTTP 503",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.pussthecat.org",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.pussthecat.org', port=443): Max retries exceeded with url: /solana (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5f82bc3d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.fdn.fr",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.fdn.fr', port=443): Max retries exceeded with url: /solana (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5f82bf850>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.kavin.rocks",
+            "status": "HTTP 502",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.unixfox.eu",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.unixfox.eu', port=443): Max retries exceeded with url: /solana (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1091)')))"
+          }
+        ],
+        "working_count": 0
+      },
+      "twitter_api_setup": {
+        "success": true,
+        "platform": "Twitter API v1.1 Setup",
+        "missing_env_vars": [
+          "TWITTER_API_KEY",
+          "TWITTER_API_SECRET",
+          "TWITTER_ACCESS_TOKEN",
+          "TWITTER_ACCESS_TOKEN_SECRET"
+        ],
+        "present_env_vars": [],
+        "setup_complete": false,
+        "setup_guide": {
+          "step_1": "Go to https://developer.twitter.com/en/portal/dashboard",
+          "step_2": "Create a new app or use existing app",
+          "step_3": "Generate API keys and access tokens",
+          "step_4": "Set environment variables in .env file",
+          "step_5": "Test connection with tweepy",
+          "required_permissions": [
+            "Read",
+            "Write",
+            "Direct Messages (optional)"
+          ],
+          "rate_limits": {
+            "followers/list": "15 requests per 15-min window",
+            "followers/ids": "15 requests per 15-min window",
+            "users/lookup": "300 requests per 15-min window"
+          },
+          "costs": {
+            "free_tier": "1M tweets per month",
+            "basic_tier": "$100/month for 10M tweets",
+            "pro_tier": "$5000/month for 50M tweets"
+          }
+        },
+        "recommendation": "Most reliable method for production use"
+      },
+      "socialdata_tools": {
+        "success": true,
+        "platform": "SocialData.Tools",
+        "status": "Temporarily unavailable",
+        "message": "Service is taking a short break while implementing improvements",
+        "pricing": "$0.99 per 1000 followers",
+        "website_accessible": true,
+        "last_checked": "2025-05-28 11:22:27"
+      }
+    },
+    "summary": {
+      "successful_methods": [],
+      "total_methods_tested": 4,
+      "working_methods": 0,
+      "recommended_approach": {
+        "primary": "Twitter API Setup",
+        "reason": "No working scraping methods found",
+        "implementation": "Set up official Twitter Developer account",
+        "fallback": "Graceful degradation without follower counts"
+      }
+    }
+  },
+  {
+    "username": "elonmusk",
+    "timestamp": "2025-05-28 11:22:27",
+    "methods": {
+      "twitter_mobile": {
+        "success": false,
+        "platform": "Twitter Mobile",
+        "username": "elonmusk",
+        "error": "HTTP 400",
+        "url": "https://mobile.twitter.com/elonmusk"
+      },
+      "nitter_instances": {
+        "success": false,
+        "platform": "Nitter Instances",
+        "username": "elonmusk",
+        "successful_extractions": [],
+        "all_instances": [
+          {
+            "instance": "https://nitter.it",
+            "status": "HTTP 200 but no profile data",
+            "html_length": 172
+          },
+          {
+            "instance": "https://nitter.net",
+            "status": "HTTP 429",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.42l.fr",
+            "status": "HTTP 503",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.pussthecat.org",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.pussthecat.org', port=443): Max retries exceeded with url: /elonmusk (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5d84ae8d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.fdn.fr",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.fdn.fr', port=443): Max retries exceeded with url: /elonmusk (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5f82bf850>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.kavin.rocks",
+            "status": "HTTP 502",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.unixfox.eu",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.unixfox.eu', port=443): Max retries exceeded with url: /elonmusk (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1091)')))"
+          }
+        ],
+        "working_count": 0
+      },
+      "twitter_api_setup": {
+        "success": true,
+        "platform": "Twitter API v1.1 Setup",
+        "missing_env_vars": [
+          "TWITTER_API_KEY",
+          "TWITTER_API_SECRET",
+          "TWITTER_ACCESS_TOKEN",
+          "TWITTER_ACCESS_TOKEN_SECRET"
+        ],
+        "present_env_vars": [],
+        "setup_complete": false,
+        "setup_guide": {
+          "step_1": "Go to https://developer.twitter.com/en/portal/dashboard",
+          "step_2": "Create a new app or use existing app",
+          "step_3": "Generate API keys and access tokens",
+          "step_4": "Set environment variables in .env file",
+          "step_5": "Test connection with tweepy",
+          "required_permissions": [
+            "Read",
+            "Write",
+            "Direct Messages (optional)"
+          ],
+          "rate_limits": {
+            "followers/list": "15 requests per 15-min window",
+            "followers/ids": "15 requests per 15-min window",
+            "users/lookup": "300 requests per 15-min window"
+          },
+          "costs": {
+            "free_tier": "1M tweets per month",
+            "basic_tier": "$100/month for 10M tweets",
+            "pro_tier": "$5000/month for 50M tweets"
+          }
+        },
+        "recommendation": "Most reliable method for production use"
+      },
+      "socialdata_tools": {
+        "success": true,
+        "platform": "SocialData.Tools",
+        "status": "Temporarily unavailable",
+        "message": "Service is taking a short break while implementing improvements",
+        "pricing": "$0.99 per 1000 followers",
+        "website_accessible": true,
+        "last_checked": "2025-05-28 11:22:34"
+      }
+    },
+    "summary": {
+      "successful_methods": [],
+      "total_methods_tested": 4,
+      "working_methods": 0,
+      "recommended_approach": {
+        "primary": "Twitter API Setup",
+        "reason": "No working scraping methods found",
+        "implementation": "Set up official Twitter Developer account",
+        "fallback": "Graceful degradation without follower counts"
+      }
+    }
+  },
+  {
+    "username": "twitter",
+    "timestamp": "2025-05-28 11:22:34",
+    "methods": {
+      "twitter_mobile": {
+        "success": false,
+        "platform": "Twitter Mobile",
+        "username": "twitter",
+        "error": "HTTP 400",
+        "url": "https://mobile.twitter.com/twitter"
+      },
+      "nitter_instances": {
+        "success": false,
+        "platform": "Nitter Instances",
+        "username": "twitter",
+        "successful_extractions": [],
+        "all_instances": [
+          {
+            "instance": "https://nitter.it",
+            "status": "HTTP 200 but no profile data",
+            "html_length": 172
+          },
+          {
+            "instance": "https://nitter.net",
+            "status": "HTTP 429",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.42l.fr",
+            "status": "HTTP 503",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.pussthecat.org",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.pussthecat.org', port=443): Max retries exceeded with url: /twitter (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5d849c690>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.fdn.fr",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.fdn.fr', port=443): Max retries exceeded with url: /twitter (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5d84c46d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.kavin.rocks",
+            "status": "HTTP 502",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.unixfox.eu",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.unixfox.eu', port=443): Max retries exceeded with url: /twitter (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1091)')))"
+          }
+        ],
+        "working_count": 0
+      },
+      "twitter_api_setup": {
+        "success": true,
+        "platform": "Twitter API v1.1 Setup",
+        "missing_env_vars": [
+          "TWITTER_API_KEY",
+          "TWITTER_API_SECRET",
+          "TWITTER_ACCESS_TOKEN",
+          "TWITTER_ACCESS_TOKEN_SECRET"
+        ],
+        "present_env_vars": [],
+        "setup_complete": false,
+        "setup_guide": {
+          "step_1": "Go to https://developer.twitter.com/en/portal/dashboard",
+          "step_2": "Create a new app or use existing app",
+          "step_3": "Generate API keys and access tokens",
+          "step_4": "Set environment variables in .env file",
+          "step_5": "Test connection with tweepy",
+          "required_permissions": [
+            "Read",
+            "Write",
+            "Direct Messages (optional)"
+          ],
+          "rate_limits": {
+            "followers/list": "15 requests per 15-min window",
+            "followers/ids": "15 requests per 15-min window",
+            "users/lookup": "300 requests per 15-min window"
+          },
+          "costs": {
+            "free_tier": "1M tweets per month",
+            "basic_tier": "$100/month for 10M tweets",
+            "pro_tier": "$5000/month for 50M tweets"
+          }
+        },
+        "recommendation": "Most reliable method for production use"
+      },
+      "socialdata_tools": {
+        "success": true,
+        "platform": "SocialData.Tools",
+        "status": "Temporarily unavailable",
+        "message": "Service is taking a short break while implementing improvements",
+        "pricing": "$0.99 per 1000 followers",
+        "website_accessible": true,
+        "last_checked": "2025-05-28 11:22:41"
+      }
+    },
+    "summary": {
+      "successful_methods": [],
+      "total_methods_tested": 4,
+      "working_methods": 0,
+      "recommended_approach": {
+        "primary": "Twitter API Setup",
+        "reason": "No working scraping methods found",
+        "implementation": "Set up official Twitter Developer account",
+        "fallback": "Graceful degradation without follower counts"
+      }
+    }
+  },
+  {
+    "username": "twitterdev",
+    "timestamp": "2025-05-28 11:22:41",
+    "methods": {
+      "twitter_mobile": {
+        "success": false,
+        "platform": "Twitter Mobile",
+        "username": "twitterdev",
+        "error": "HTTP 400",
+        "url": "https://mobile.twitter.com/twitterdev"
+      },
+      "nitter_instances": {
+        "success": false,
+        "platform": "Nitter Instances",
+        "username": "twitterdev",
+        "successful_extractions": [],
+        "all_instances": [
+          {
+            "instance": "https://nitter.it",
+            "status": "HTTP 200 but no profile data",
+            "html_length": 172
+          },
+          {
+            "instance": "https://nitter.net",
+            "status": "HTTP 429",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.42l.fr",
+            "status": "HTTP 503",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.pussthecat.org",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.pussthecat.org', port=443): Max retries exceeded with url: /twitterdev (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5d84a5610>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.fdn.fr",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.fdn.fr', port=443): Max retries exceeded with url: /twitterdev (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5d84cf510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+          },
+          {
+            "instance": "https://nitter.kavin.rocks",
+            "status": "HTTP 502",
+            "error": "Non-200 response"
+          },
+          {
+            "instance": "https://nitter.unixfox.eu",
+            "status": "Connection failed",
+            "error": "HTTPSConnectionPool(host='nitter.unixfox.eu', port=443): Max retries exceeded with url: /twitterdev (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1091)')))"
+          }
+        ],
+        "working_count": 0
+      },
+      "twitter_api_setup": {
+        "success": true,
+        "platform": "Twitter API v1.1 Setup",
+        "missing_env_vars": [
+          "TWITTER_API_KEY",
+          "TWITTER_API_SECRET",
+          "TWITTER_ACCESS_TOKEN",
+          "TWITTER_ACCESS_TOKEN_SECRET"
+        ],
+        "present_env_vars": [],
+        "setup_complete": false,
+        "setup_guide": {
+          "step_1": "Go to https://developer.twitter.com/en/portal/dashboard",
+          "step_2": "Create a new app or use existing app",
+          "step_3": "Generate API keys and access tokens",
+          "step_4": "Set environment variables in .env file",
+          "step_5": "Test connection with tweepy",
+          "required_permissions": [
+            "Read",
+            "Write",
+            "Direct Messages (optional)"
+          ],
+          "rate_limits": {
+            "followers/list": "15 requests per 15-min window",
+            "followers/ids": "15 requests per 15-min window",
+            "users/lookup": "300 requests per 15-min window"
+          },
+          "costs": {
+            "free_tier": "1M tweets per month",
+            "basic_tier": "$100/month for 10M tweets",
+            "pro_tier": "$5000/month for 50M tweets"
+          }
+        },
+        "recommendation": "Most reliable method for production use"
+      },
+      "socialdata_tools": {
+        "success": true,
+        "platform": "SocialData.Tools",
+        "status": "Temporarily unavailable",
+        "message": "Service is taking a short break while implementing improvements",
+        "pricing": "$0.99 per 1000 followers",
+        "website_accessible": true,
+        "last_checked": "2025-05-28 11:22:48"
+      }
+    },
+    "summary": {
+      "successful_methods": [],
+      "total_methods_tested": 4,
+      "working_methods": 0,
+      "recommended_approach": {
+        "primary": "Twitter API Setup",
+        "reason": "No working scraping methods found",
+        "implementation": "Set up official Twitter Developer account",
+        "fallback": "Graceful degradation without follower counts"
+      }
+    }
+  }
+]

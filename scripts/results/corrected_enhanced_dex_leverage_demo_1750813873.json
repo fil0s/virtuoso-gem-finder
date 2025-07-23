@@ -1,0 +1,381 @@
+{
+  "demo_info": {
+    "timestamp": "2025-06-24T21:11:13.629333",
+    "sample_tokens_tested": 9,
+    "tokens_discovered": 6,
+    "discovery_rate": 66.66666666666666,
+    "correction_applied": true,
+    "corrected_addresses": [
+      "GOR",
+      "SPX",
+      "INF"
+    ]
+  },
+  "address_corrections": {
+    "original_demo_issues": {
+      "GOR": {
+        "original": "GoRiLLaMaXiMuS1xRbNPNwkcyJHjneFJHKdXvLvXqK7L",
+        "issue": "Fake address (45 chars, not valid Solana format)",
+        "corrected": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "validation": "Real GOR token address confirmed via DexScreener"
+      },
+      "SPX": {
+        "original": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "issue": "Wrong token (actually RAY/Raydium, not SPX)",
+        "corrected": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "validation": "Real SPX token address confirmed via DexScreener"
+      },
+      "INF": {
+        "original": "9ny7t7bMmEWzfb6k7Lm9mEV7GdLvxhRHdKXW3x2fQvpL",
+        "issue": "Wrong address for INF token",
+        "corrected": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+        "validation": "Real INF token address found in system data"
+      }
+    }
+  },
+  "sample_token_analysis": {
+    "USELESS": {
+      "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "found_in_analysis": true,
+      "platforms": [
+        "birdeye_emerging_stars",
+        "jupiter",
+        "birdeye",
+        "jupiter_pricing"
+      ],
+      "score": 47.0,
+      "symbol": "USELESS",
+      "name": "USELESS COIN",
+      "price": 0.13317546488779544,
+      "volume_24h": 16113981.353214959,
+      "market_cap": 133165777.81382787,
+      "liquidity": 6211605.255314839,
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "TRUMP": {
+      "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+      "found_in_analysis": true,
+      "platforms": [
+        "birdeye_emerging_stars",
+        "meteora",
+        "jupiter",
+        "jupiter_pricing"
+      ],
+      "score": 53.0,
+      "symbol": "TRUMP",
+      "name": "OFFICIAL TRUMP",
+      "price": 9.284231442904396,
+      "volume_24h": 94621154.25052571,
+      "market_cap": 1856840243.3697402,
+      "liquidity": 359204649.4295325,
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "aura": {
+      "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+      "found_in_analysis": true,
+      "platforms": [
+        "birdeye",
+        "jupiter",
+        "jupiter_pricing"
+      ],
+      "score": 18.0,
+      "symbol": "aura",
+      "name": "aura",
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity": 0,
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "GOR": {
+      "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "found_in_analysis": true,
+      "platforms": [
+        "birdeye_emerging_stars",
+        "jupiter",
+        "jupiter_pricing"
+      ],
+      "score": 43.0,
+      "symbol": "GOR",
+      "name": "Gorbagana",
+      "price": 0.020011918752816573,
+      "volume_24h": 25631689.37697833,
+      "market_cap": 20010865.086218026,
+      "liquidity": 3999721.6348765623,
+      "correction_status": "CORRECTED"
+    },
+    "SPX": {
+      "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "found_in_analysis": true,
+      "platforms": [
+        "birdeye_emerging_stars",
+        "jupiter",
+        "birdeye",
+        "jupiter_pricing"
+      ],
+      "score": 48.0,
+      "symbol": "SPX",
+      "name": "SPX6900 (Wormhole)",
+      "price": 1.3239313461955022,
+      "volume_24h": 11677175.056590967,
+      "market_cap": 153236667.12077197,
+      "liquidity": 7784032.646291515,
+      "correction_status": "CORRECTED"
+    },
+    "MUMU": {
+      "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+      "found_in_analysis": false,
+      "platforms": [],
+      "score": 0,
+      "symbol": "MUMU",
+      "reason": "Not discovered by any platform (likely low activity)",
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "$michi": {
+      "address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+      "found_in_analysis": false,
+      "platforms": [],
+      "score": 0,
+      "symbol": "$michi",
+      "reason": "Not discovered by any platform (likely low activity)",
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "BILLY": {
+      "address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+      "found_in_analysis": false,
+      "platforms": [],
+      "score": 0,
+      "symbol": "BILLY",
+      "reason": "Not discovered by any platform (likely low activity)",
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "INF": {
+      "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+      "found_in_analysis": true,
+      "platforms": [
+        "birdeye",
+        "jupiter",
+        "jupiter_pricing"
+      ],
+      "score": 18.0,
+      "symbol": "INF",
+      "name": "Infinity",
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity": 0,
+      "correction_status": "CORRECTED"
+    }
+  },
+  "platform_effectiveness": {
+    "platform_stats": {
+      "birdeye_emerging_stars": 4,
+      "jupiter": 6,
+      "birdeye": 4,
+      "jupiter_pricing": 6,
+      "meteora": 1
+    },
+    "platform_effectiveness": {
+      "birdeye_emerging_stars": {
+        "tokens_discovered": 4,
+        "avg_score": 47.75,
+        "max_score": 53.0,
+        "effectiveness_rating": 127.75
+      },
+      "jupiter": {
+        "tokens_discovered": 6,
+        "avg_score": 37.833333333333336,
+        "max_score": 53.0,
+        "effectiveness_rating": 157.83333333333334
+      },
+      "birdeye": {
+        "tokens_discovered": 4,
+        "avg_score": 32.75,
+        "max_score": 48.0,
+        "effectiveness_rating": 112.75
+      },
+      "jupiter_pricing": {
+        "tokens_discovered": 6,
+        "avg_score": 37.833333333333336,
+        "max_score": 53.0,
+        "effectiveness_rating": 157.83333333333334
+      },
+      "meteora": {
+        "tokens_discovered": 1,
+        "avg_score": 53.0,
+        "max_score": 53.0,
+        "effectiveness_rating": 73.0
+      }
+    },
+    "most_effective_platform": "jupiter"
+  },
+  "dex_leverage_opportunities": {
+    "yield_farming_candidates": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "dex_platforms": [
+          "jupiter"
+        ],
+        "score": 47.0,
+        "potential_yield_rating": 40.0
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "dex_platforms": [
+          "meteora",
+          "jupiter"
+        ],
+        "score": 53.0,
+        "potential_yield_rating": 55.0
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "dex_platforms": [
+          "jupiter"
+        ],
+        "score": 43.0,
+        "potential_yield_rating": 40.0
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "dex_platforms": [
+          "jupiter"
+        ],
+        "score": 48.0,
+        "potential_yield_rating": 40.0
+      }
+    ],
+    "arbitrage_opportunities": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "jupiter",
+          "birdeye",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 90.0
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "meteora",
+          "jupiter",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 90.0
+      },
+      {
+        "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+        "symbol": "aura",
+        "platforms": [
+          "birdeye",
+          "jupiter",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 45.0
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "jupiter",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 75.0
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "jupiter",
+          "birdeye",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 90.0
+      },
+      {
+        "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+        "symbol": "INF",
+        "platforms": [
+          "birdeye",
+          "jupiter",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 45.0
+      }
+    ],
+    "liquidity_provision_opportunities": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "liquidity_usd": 6211605.255314839,
+        "volume_24h_usd": 16113981.353214959,
+        "volume_to_liquidity_ratio": 2.5941734367983775,
+        "lp_attractiveness_score": 79.6524230310792,
+        "lp_analysis": "Good VLR (2.59) - solid fee generation; Medium pool ($6.2M) - balanced risk; High volume ($16.1M) - active trading"
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "liquidity_usd": 359204649.4295325,
+        "volume_24h_usd": 94621154.25052571,
+        "volume_to_liquidity_ratio": 0.2634185119841778,
+        "lp_attractiveness_score": 16.321732529799547,
+        "lp_analysis": "Low VLR (0.26) - limited fee potential; Large pool ($359.2M) - lower IL risk; Very high volume ($94.6M) - strong market"
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "liquidity_usd": 3999721.6348765623,
+        "volume_24h_usd": 25631689.37697833,
+        "volume_to_liquidity_ratio": 6.40836831080355,
+        "lp_attractiveness_score": 100.0,
+        "lp_analysis": "Excellent VLR (6.41) - strong fee potential; Medium pool ($4.0M) - balanced risk; High volume ($25.6M) - active trading"
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "liquidity_usd": 7784032.646291515,
+        "volume_24h_usd": 11677175.056590967,
+        "volume_to_liquidity_ratio": 1.500144666293792,
+        "lp_attractiveness_score": 60.64167723923325,
+        "lp_analysis": "Moderate VLR (1.50) - decent fees; Medium pool ($7.8M) - balanced risk; High volume ($11.7M) - active trading"
+      }
+    ]
+  },
+  "cross_platform_insights": [
+    "\u2705 Address corrections successful: 3 tokens now properly discovered",
+    "\ud83d\udcca Average discovery score: 37.8 (improved with correct addresses)",
+    "\ud83c\udf10 Cross-platform coverage: 5 unique platforms",
+    "\ud83d\udc8e High-conviction discoveries: 1 tokens with score \u226550",
+    "\ud83d\udd27 System validation: Discovery engine correctly rejected fake/mislabeled addresses"
+  ],
+  "original_analysis_summary": {
+    "total_tokens_analyzed": 186,
+    "execution_time": 51.95,
+    "platforms_used": [
+      "dexscreener_boosted",
+      "dexscreener_top",
+      "dexscreener_profiles",
+      "dexscreener_narratives",
+      "rugcheck_trending",
+      "birdeye_trending",
+      "birdeye_emerging_stars",
+      "jupiter_token_list",
+      "jupiter_quote_analysis",
+      "meteora_volume_trending",
+      "jupiter_batch_prices"
+    ]
+  },
+  "execution_time_seconds": 51.96791124343872
+}

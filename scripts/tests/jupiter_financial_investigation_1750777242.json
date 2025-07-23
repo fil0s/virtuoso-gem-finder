@@ -1,0 +1,592 @@
+{
+  "investigation_metadata": {
+    "timestamp": "2025-06-24T10:59:22.927490",
+    "jupiter_endpoints_tested": [
+      "quote",
+      "tokens",
+      "tokens_strict",
+      "price",
+      "stats"
+    ],
+    "reference_tokens": {
+      "SOL": "So11111111111111111111111111111111111111112",
+      "USDC": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "USDT": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "JUP": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "RAY": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+    }
+  },
+  "token_list_analysis": {
+    "all_tokens": {
+      "success": true,
+      "token_count": 287863,
+      "sample_token": {
+        "address": "So11111111111111111111111111111111111111112",
+        "chainId": 101,
+        "decimals": 9,
+        "name": "Wrapped SOL",
+        "symbol": "SOL",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+        "tags": [
+          "old-registry"
+        ],
+        "extensions": {
+          "coingeckoId": "wrapped-solana"
+        }
+      },
+      "all_fields": [
+        "tags",
+        "logoURI",
+        "chainId",
+        "symbol",
+        "extensions",
+        "decimals",
+        "address",
+        "name"
+      ],
+      "financial_fields_found": [],
+      "has_financial_data": false
+    },
+    "strict_tokens": {
+      "success": true,
+      "token_count": 1497,
+      "sample_token": {
+        "address": "So11111111111111111111111111111111111111112",
+        "chainId": 101,
+        "decimals": 9,
+        "name": "Wrapped SOL",
+        "symbol": "SOL",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+        "tags": [
+          "old-registry"
+        ],
+        "extensions": {
+          "coingeckoId": "wrapped-solana"
+        }
+      },
+      "all_fields": [
+        "tags",
+        "logoURI",
+        "chainId",
+        "symbol",
+        "extensions",
+        "decimals",
+        "address",
+        "name"
+      ],
+      "financial_fields_found": [],
+      "has_financial_data": false
+    }
+  },
+  "quote_pricing_analysis": {
+    "sol_to_usdc_small": {
+      "success": true,
+      "description": "1 SOL \u2192 USDC",
+      "pricing_analysis": {
+        "price_derivable": true,
+        "effective_price": 0.144931942,
+        "price_impact": 0.0015448075048212,
+        "liquidity_indicators": {
+          "input_amount": 1000000000,
+          "output_amount": 144931942,
+          "price_ratio": 0.144931942,
+          "has_price_impact": true
+        },
+        "route_analysis": {
+          "route_count": 2,
+          "is_direct_swap": false,
+          "dexes_involved": [
+            "Lifinity V2",
+            "Stabble Stable Swap"
+          ],
+          "swap_steps": 2,
+          "unique_dexes": [
+            "Stabble Stable Swap",
+            "Lifinity V2"
+          ]
+        },
+        "slippage_analysis": {
+          "slippage_bps": 50,
+          "slippage_percent": 0.5,
+          "within_tolerance": true
+        }
+      },
+      "raw_quote": {
+        "inputMint": "So11111111111111111111111111111111111111112",
+        "inAmount": "1000000000",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "outAmount": "144931942",
+        "otherAmountThreshold": "144207283",
+        "swapMode": "ExactIn",
+        "slippageBps": 50,
+        "platformFee": null,
+        "priceImpactPct": "0.0015448075048212000000000031",
+        "routePlan": [
+          {
+            "swapInfo": {
+              "ammKey": "FuTkxuFrEkjj61FPpW3KGBX8287bb2Bhj4ZnLVsYRgJ4",
+              "label": "Lifinity V2",
+              "inputMint": "So11111111111111111111111111111111111111112",
+              "outputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+              "inAmount": "1000000000",
+              "outAmount": "144857530",
+              "feeAmount": "50000",
+              "feeMint": "So11111111111111111111111111111111111111112"
+            },
+            "percent": 100,
+            "bps": 10000
+          },
+          {
+            "swapInfo": {
+              "ammKey": "5K7CHUbBYAh6wrantyJvDDqwT4VoKuZTi73CN1DTUUer",
+              "label": "Stabble Stable Swap",
+              "inputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+              "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "inAmount": "144857530",
+              "outAmount": "144931942",
+              "feeAmount": "724",
+              "feeMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+            },
+            "percent": 100,
+            "bps": 10000
+          }
+        ],
+        "contextSlot": 348913325,
+        "timeTaken": 0.001993469,
+        "swapUsdValue": "145.15618035678634319560227868",
+        "simplerRouteUsed": false,
+        "mostReliableAmmsQuoteReport": {
+          "info": {
+            "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "144878998",
+            "32D4zRxNc1EssbJieVHfPhZM3rH6CzfUPrWUuWxD9prG": "144883359",
+            "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "144883810"
+          }
+        },
+        "useIncurredSlippageForQuoting": null,
+        "otherRoutePlans": null,
+        "aggregatorVersion": null
+      },
+      "response_time": "unknown"
+    },
+    "jup_to_usdc_medium": {
+      "success": true,
+      "description": "1 JUP \u2192 USDC",
+      "pricing_analysis": {
+        "price_derivable": true,
+        "effective_price": 0.418341371,
+        "price_impact": 0.0023417993167405,
+        "liquidity_indicators": {
+          "input_amount": 1000000000,
+          "output_amount": 418341371,
+          "price_ratio": 0.418341371,
+          "has_price_impact": true
+        },
+        "route_analysis": {
+          "route_count": 2,
+          "is_direct_swap": false,
+          "dexes_involved": [
+            "Whirlpool",
+            "SolFi"
+          ],
+          "swap_steps": 2,
+          "unique_dexes": [
+            "SolFi",
+            "Whirlpool"
+          ]
+        },
+        "slippage_analysis": {
+          "slippage_bps": 50,
+          "slippage_percent": 0.5,
+          "within_tolerance": true
+        }
+      },
+      "raw_quote": {
+        "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "inAmount": "1000000000",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "outAmount": "418341371",
+        "otherAmountThreshold": "416249665",
+        "swapMode": "ExactIn",
+        "slippageBps": 50,
+        "platformFee": null,
+        "priceImpactPct": "0.002341799316740500000",
+        "routePlan": [
+          {
+            "swapInfo": {
+              "ammKey": "C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz",
+              "label": "Whirlpool",
+              "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "outputMint": "So11111111111111111111111111111111111111112",
+              "inAmount": "1000000000",
+              "outAmount": "2886538412",
+              "feeAmount": "500000",
+              "feeMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+            },
+            "percent": 100
+          },
+          {
+            "swapInfo": {
+              "ammKey": "DH4xmaWDnTzKXehVaPSNy9tMKJxnYL5Mo5U3oTHFtNYJ",
+              "label": "SolFi",
+              "inputMint": "So11111111111111111111111111111111111111112",
+              "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "inAmount": "2886538412",
+              "outAmount": "418341371",
+              "feeAmount": "0",
+              "feeMint": "So11111111111111111111111111111111111111112"
+            },
+            "percent": 100
+          }
+        ],
+        "contextSlot": 348913326,
+        "timeTaken": 0.004608796,
+        "swapUsdValue": "418.341371",
+        "simplerRouteUsed": false,
+        "mostReliableAmmsQuoteReport": {
+          "info": {
+            "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "418212282",
+            "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg": "2881230241",
+            "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "418198211"
+          }
+        },
+        "useIncurredSlippageForQuoting": null,
+        "otherRoutePlans": null
+      },
+      "response_time": "unknown"
+    },
+    "ray_to_sol_large": {
+      "success": true,
+      "description": "100 RAY \u2192 SOL",
+      "pricing_analysis": {
+        "price_derivable": true,
+        "effective_price": 13.92842980831,
+        "price_impact": 0.009876583175297255,
+        "liquidity_indicators": {
+          "input_amount": 100000000000,
+          "output_amount": 1392842980831,
+          "price_ratio": 13.92842980831,
+          "has_price_impact": true
+        },
+        "route_analysis": {
+          "route_count": 4,
+          "is_direct_swap": false,
+          "dexes_involved": [
+            "Raydium",
+            "Raydium",
+            "SolFi",
+            "Raydium CLMM"
+          ],
+          "swap_steps": 4,
+          "unique_dexes": [
+            "SolFi",
+            "Raydium CLMM",
+            "Raydium"
+          ]
+        },
+        "slippage_analysis": {
+          "slippage_bps": 50,
+          "slippage_percent": 0.5,
+          "within_tolerance": true
+        }
+      },
+      "raw_quote": {
+        "inputMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "inAmount": "100000000000",
+        "outputMint": "So11111111111111111111111111111111111111112",
+        "outAmount": "1392842980831",
+        "otherAmountThreshold": "1385878765927",
+        "swapMode": "ExactIn",
+        "slippageBps": 50,
+        "platformFee": null,
+        "priceImpactPct": "0.0098765831752972560195814478",
+        "routePlan": [
+          {
+            "swapInfo": {
+              "ammKey": "AVs9TA4nWDzfPJE9gGVNJMVhcQy3V9PGazuz33BfG2RA",
+              "label": "Raydium",
+              "inputMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+              "outputMint": "So11111111111111111111111111111111111111112",
+              "inAmount": "15000000000",
+              "outAmount": "208881377607",
+              "feeAmount": "37500000",
+              "feeMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+            },
+            "percent": 15
+          },
+          {
+            "swapInfo": {
+              "ammKey": "6UmmUiYoBjSrhakAobJw8BvkmJtDVxaeBtbt7rxWo1mg",
+              "label": "Raydium",
+              "inputMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+              "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "inAmount": "15000000000",
+              "outAmount": "30241349494",
+              "feeAmount": "37500000",
+              "feeMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+            },
+            "percent": 15
+          },
+          {
+            "swapInfo": {
+              "ammKey": "5guD4Uz462GT4Y4gEuqyGsHZ59JGxFN4a3rF6KWguMcJ",
+              "label": "SolFi",
+              "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "outputMint": "So11111111111111111111111111111111111111112",
+              "inAmount": "30241349494",
+              "outAmount": "208639516914",
+              "feeAmount": "0",
+              "feeMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+            },
+            "percent": 100
+          },
+          {
+            "swapInfo": {
+              "ammKey": "2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2",
+              "label": "Raydium CLMM",
+              "inputMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+              "outputMint": "So11111111111111111111111111111111111111112",
+              "inAmount": "70000000000",
+              "outAmount": "975322086310",
+              "feeAmount": "29400028",
+              "feeMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+            },
+            "percent": 70
+          }
+        ],
+        "contextSlot": 348913328,
+        "timeTaken": 0.152974503,
+        "swapUsdValue": "201842.16459230778438368930297",
+        "simplerRouteUsed": false,
+        "mostReliableAmmsQuoteReport": {
+          "info": {
+            "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "1315552169627",
+            "2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2": "1385742591817",
+            "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "161929881687"
+          }
+        },
+        "useIncurredSlippageForQuoting": null,
+        "otherRoutePlans": null
+      },
+      "response_time": "unknown"
+    }
+  },
+  "liquidity_depth_analysis": {
+    "$1": {
+      "amount_tested": 1000000,
+      "amount_label": "$1",
+      "quote_successful": true,
+      "price_impact": 0.0,
+      "route_complexity": 1,
+      "effective_price": 0.144988
+    },
+    "$10": {
+      "amount_tested": 10000000,
+      "amount_label": "$10",
+      "quote_successful": true,
+      "price_impact": 0.0,
+      "route_complexity": 1,
+      "effective_price": 0.1450169
+    },
+    "$100": {
+      "amount_tested": 100000000,
+      "amount_label": "$100",
+      "quote_successful": true,
+      "price_impact": 0.0,
+      "route_complexity": 2,
+      "effective_price": 0.14502743
+    },
+    "$1000": {
+      "amount_tested": 1000000000,
+      "amount_label": "$1000",
+      "quote_successful": true,
+      "price_impact": 0.0,
+      "route_complexity": 1,
+      "effective_price": 0.145001961
+    },
+    "$10000": {
+      "amount_tested": 10000000000,
+      "amount_label": "$10000",
+      "quote_successful": true,
+      "price_impact": 0.0,
+      "route_complexity": 3,
+      "effective_price": 0.1450052427
+    }
+  },
+  "volume_estimation_analysis": {
+    "direct_api_volume": {
+      "volume_endpoint_1": {
+        "url": "https://stats.jup.ag/api/volume",
+        "success": false,
+        "error": "",
+        "has_volume_data": false
+      },
+      "volume_endpoint_2": {
+        "url": "https://price.jup.ag/v4/price/volume",
+        "success": false,
+        "error": "Cannot connect to host price.jup.ag:443 ssl:default [nodename nor servname provided, or not known]",
+        "has_volume_data": false
+      },
+      "volume_endpoint_3": {
+        "url": "https://stats.jup.ag/api/daily",
+        "success": false,
+        "error": "",
+        "has_volume_data": false
+      }
+    },
+    "quote_based_volume": {
+      "approach": "quote_based_volume_estimation",
+      "feasible": true,
+      "description": "Estimate volume by tracking quote changes over time",
+      "requirements": [
+        "Multiple quotes over time intervals",
+        "Price impact tracking",
+        "Route complexity monitoring",
+        "Historical quote data storage"
+      ],
+      "pros": [
+        "Uses working Jupiter quote API",
+        "Real-time data",
+        "Liquidity-aware"
+      ],
+      "cons": [
+        "Requires multiple API calls",
+        "Indirect measurement",
+        "Time-dependent accuracy"
+      ]
+    },
+    "route_complexity_volume": {
+      "approach": "route_complexity_volume_estimation",
+      "feasible": true,
+      "sample_results": [
+        {
+          "token": "So11111111111111111111111111111111111111112",
+          "route_count": 1,
+          "price_impact": 0.0,
+          "liquidity_score": 6.0
+        },
+        {
+          "token": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "route_count": 3,
+          "price_impact": 0.0,
+          "liquidity_score": 8.0
+        }
+      ],
+      "description": "Estimate volume/activity from routing complexity",
+      "scoring_method": "More routes + lower impact = higher volume/liquidity"
+    }
+  },
+  "market_cap_derivation": {
+    "token_list_mcap": {
+      "success": true,
+      "market_cap_fields_found": [],
+      "has_market_cap_data": false,
+      "sample_token": {
+        "address": "So11111111111111111111111111111111111111112",
+        "chainId": 101,
+        "decimals": 9,
+        "name": "Wrapped SOL",
+        "symbol": "SOL",
+        "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+        "tags": [
+          "old-registry"
+        ],
+        "extensions": {
+          "coingeckoId": "wrapped-solana"
+        }
+      }
+    },
+    "price_times_supply": {
+      "approach": "price_times_circulating_supply",
+      "feasible": true,
+      "requirements": [
+        "Token price (from Jupiter quotes)",
+        "Circulating supply (from token metadata)",
+        "Decimals (from token list)"
+      ],
+      "calculation": "market_cap = (price_per_token * circulating_supply)",
+      "data_sources": {
+        "price": "Jupiter quote API",
+        "supply": "Solana RPC getTokenSupply",
+        "decimals": "Jupiter token list"
+      },
+      "pros": [
+        "Accurate calculation",
+        "Real-time pricing",
+        "Uses available data"
+      ],
+      "cons": [
+        "Requires multiple API calls",
+        "Need RPC access for supply",
+        "Complex implementation"
+      ]
+    },
+    "external_api_integration": {
+      "approach": "external_api_integration",
+      "feasible": true,
+      "recommended_sources": [
+        "CoinGecko API (free tier available)",
+        "CoinMarketCap API",
+        "DexScreener API (already integrated)",
+        "BirdEye API (already integrated)"
+      ],
+      "integration_strategy": "Use Jupiter for liquidity validation, external APIs for financial metrics",
+      "fallback_chain": [
+        "Primary: BirdEye/DexScreener (already working)",
+        "Secondary: Jupiter quotes for price",
+        "Tertiary: CoinGecko for market cap"
+      ]
+    }
+  },
+  "recommendations": {
+    "immediate_actionable_solutions": {
+      "1_price_data": {
+        "solution": "Use Jupiter Quote API for real-time pricing",
+        "implementation": "Quote SOL\u2192Token or Token\u2192USDC to derive prices",
+        "reliability": "High - Quote API is working well",
+        "api_calls": "1 call per token price",
+        "update_frequency": "Real-time"
+      },
+      "2_liquidity_data": {
+        "solution": "Derive liquidity from quote route complexity",
+        "implementation": "More routes + lower price impact = higher liquidity",
+        "reliability": "Medium-High - Good proxy for liquidity",
+        "api_calls": "1 call per token (same as price)",
+        "scoring": "Route count (0-10) + Impact score (0-10) / 2"
+      },
+      "3_volume_estimation": {
+        "solution": "Use external APIs for volume, Jupiter for validation",
+        "implementation": "BirdEye/DexScreener for volume, Jupiter quotes for liquidity validation",
+        "reliability": "High - Combines proven APIs",
+        "fallback": "Route complexity as volume proxy"
+      }
+    },
+    "integration_strategy": {
+      "primary_approach": "Hybrid Jupiter + External API",
+      "jupiter_role": "Real-time pricing, liquidity validation, token discovery",
+      "external_role": "Volume data, market cap, historical metrics",
+      "data_flow": [
+        "1. Discover tokens via Jupiter token list",
+        "2. Get financial metrics from BirdEye/DexScreener",
+        "3. Validate liquidity via Jupiter quotes",
+        "4. Fill gaps with Jupiter-derived metrics"
+      ]
+    },
+    "fix_pre_filter_issue": {
+      "problem": "Pre-filter uses zero values from Jupiter-only tokens",
+      "solution": "Skip financial filtering for Jupiter-only tokens OR derive metrics",
+      "immediate_fix": "Check if token has valid financial data before applying thresholds",
+      "code_location": "scripts/high_conviction_token_detector.py line 2440-2445"
+    }
+  },
+  "investigation_summary": {
+    "duration_seconds": 79.51,
+    "key_findings": [
+      "Jupiter Quote API works reliably for pricing",
+      "Token list lacks financial data",
+      "Route complexity indicates liquidity",
+      "Volume requires external APIs or estimation",
+      "Market cap needs calculation or external source"
+    ],
+    "recommended_action": "Implement hybrid approach: Jupiter for pricing/liquidity + external APIs for volume/mcap"
+  }
+}

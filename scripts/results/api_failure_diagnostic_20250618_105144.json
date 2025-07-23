@@ -1,0 +1,353 @@
+{
+  "test_timestamp": "2025-06-18T10:50:58.687155",
+  "api_connectivity": {
+    "api_key_configured": true,
+    "base_url": "https://public-api.birdeye.so",
+    "endpoints_tested": {
+      "token_overview": "success"
+    },
+    "authentication_status": "success"
+  },
+  "endpoint_diagnostics": {
+    "get_token_overview": {
+      "total_tests": 5,
+      "successful_tests": 5,
+      "failed_tests": 0,
+      "error_details": [],
+      "success_rate": 100.0
+    },
+    "get_token_holders": {
+      "total_tests": 5,
+      "successful_tests": 5,
+      "failed_tests": 0,
+      "error_details": [],
+      "success_rate": 100.0
+    },
+    "get_token_transactions": {
+      "total_tests": 5,
+      "successful_tests": 5,
+      "failed_tests": 0,
+      "error_details": [],
+      "success_rate": 100.0
+    },
+    "get_token_creation_info": {
+      "total_tests": 5,
+      "successful_tests": 3,
+      "failed_tests": 2,
+      "error_details": [
+        "DezXAZ8z: returned None",
+        "EPjFWdd5: returned None"
+      ],
+      "success_rate": 60.0
+    },
+    "get_token_security": {
+      "total_tests": 5,
+      "successful_tests": 5,
+      "failed_tests": 0,
+      "error_details": [],
+      "success_rate": 100.0
+    }
+  },
+  "holder_analysis_issues": {
+    "tokens_tested": [
+      {
+        "token_address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+        "holder_endpoint_result": "success",
+        "data_structure": "dict",
+        "items_found": 100,
+        "total_holders": 0,
+        "failure_reason": null
+      },
+      {
+        "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+        "holder_endpoint_result": "success",
+        "data_structure": "dict",
+        "items_found": 100,
+        "total_holders": 0,
+        "failure_reason": null
+      },
+      {
+        "token_address": "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg",
+        "holder_endpoint_result": "success",
+        "data_structure": "dict",
+        "items_found": 100,
+        "total_holders": 0,
+        "failure_reason": null
+      },
+      {
+        "token_address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "holder_endpoint_result": "success",
+        "data_structure": "dict",
+        "items_found": 100,
+        "total_holders": 0,
+        "failure_reason": null
+      },
+      {
+        "token_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "holder_endpoint_result": "success",
+        "data_structure": "dict",
+        "items_found": 100,
+        "total_holders": 0,
+        "failure_reason": null
+      }
+    ],
+    "common_failure_patterns": [],
+    "success_rate": 100.0
+  },
+  "volatility_analysis_issues": {
+    "tokens_tested": [
+      {
+        "token_address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+        "price_sources": {
+          "transactions": {
+            "total_transactions": 100,
+            "price_points_extracted": 100
+          },
+          "ohlcv": {
+            "candles_available": 45,
+            "price_points_extracted": 45
+          }
+        },
+        "total_price_points": 145,
+        "usable_price_points": 145,
+        "failure_reason": null
+      },
+      {
+        "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+        "price_sources": {
+          "transactions": {
+            "total_transactions": 100,
+            "price_points_extracted": 100
+          },
+          "ohlcv": {
+            "candles_available": 66,
+            "price_points_extracted": 66
+          }
+        },
+        "total_price_points": 166,
+        "usable_price_points": 166,
+        "failure_reason": null
+      },
+      {
+        "token_address": "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg",
+        "price_sources": {
+          "transactions": {
+            "total_transactions": 100,
+            "price_points_extracted": 100
+          },
+          "ohlcv": {
+            "candles_available": 25,
+            "price_points_extracted": 25
+          }
+        },
+        "total_price_points": 125,
+        "usable_price_points": 125,
+        "failure_reason": null
+      },
+      {
+        "token_address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "price_sources": {
+          "transactions": {
+            "total_transactions": 100,
+            "price_points_extracted": 100
+          },
+          "ohlcv": {
+            "candles_available": 1000,
+            "price_points_extracted": 1000
+          }
+        },
+        "total_price_points": 1100,
+        "usable_price_points": 1100,
+        "failure_reason": null
+      },
+      {
+        "token_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "price_sources": {
+          "transactions": {
+            "total_transactions": 100,
+            "price_points_extracted": 100
+          },
+          "ohlcv": {
+            "candles_available": 1000,
+            "price_points_extracted": 1000
+          }
+        },
+        "total_price_points": 1100,
+        "usable_price_points": 1100,
+        "failure_reason": null
+      }
+    ],
+    "success_rate": 100.0
+  },
+  "strategy_execution_issues": {
+    "token_list_endpoint": {
+      "test_1": {
+        "success": true,
+        "tokens_returned": 10,
+        "params": {
+          "sort_by": "volume_24h_usd",
+          "limit": 10,
+          "min_liquidity": 100000
+        }
+      },
+      "test_2": {
+        "success": true,
+        "tokens_returned": 10,
+        "params": {
+          "sort_by": "trade_24h_count",
+          "limit": 10,
+          "min_volume_24h_usd": 50000
+        }
+      }
+    }
+  },
+  "recommendations": [],
+  "api_call_statistics": {
+    "total_api_calls": 67,
+    "successful_api_calls": 67,
+    "failed_api_calls": 0,
+    "success_rate_percent": 100.0,
+    "failure_rate_percent": 0.0,
+    "cache_hits": 1,
+    "cache_misses": 10,
+    "cache_hit_rate_percent": 9.09,
+    "total_cache_requests": 11,
+    "average_response_time_ms": 292.73,
+    "total_response_time_ms": 19613,
+    "session_duration_minutes": 0.77,
+    "calls_per_minute": 87.28,
+    "session_start_time": 1750258258.6838489,
+    "calls_by_status_code": {
+      "200": 67
+    },
+    "top_endpoints": [
+      {
+        "endpoint": "/defi/txs/token",
+        "total_calls": 30,
+        "successful_calls": 30,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 278.17
+      },
+      {
+        "endpoint": "/defi/v3/token/holder",
+        "total_calls": 10,
+        "successful_calls": 10,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 226.7
+      },
+      {
+        "endpoint": "/defi/token_overview",
+        "total_calls": 5,
+        "successful_calls": 5,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 522.6
+      },
+      {
+        "endpoint": "/defi/token_creation_info",
+        "total_calls": 5,
+        "successful_calls": 5,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 212.4
+      },
+      {
+        "endpoint": "/defi/token_security",
+        "total_calls": 5,
+        "successful_calls": 5,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 229.2
+      },
+      {
+        "endpoint": "/defi/v3/ohlcv",
+        "total_calls": 5,
+        "successful_calls": 5,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 266.6
+      },
+      {
+        "endpoint": "/defi/ohlcv",
+        "total_calls": 5,
+        "successful_calls": 5,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 450.8
+      },
+      {
+        "endpoint": "/defi/v3/token/list",
+        "total_calls": 2,
+        "successful_calls": 2,
+        "failed_calls": 0,
+        "success_rate_percent": 100.0,
+        "avg_response_time_ms": 296.5
+      }
+    ],
+    "api_calls_vs_cache_ratio": 0.99,
+    "cache_efficiency_score": 0.09,
+    "cost_tracking": {
+      "total_compute_units": 1375,
+      "total_http_requests": 67,
+      "avg_cus_per_request": 20.52,
+      "batch_savings_cus": 0,
+      "batch_efficiency_percent": 0.0,
+      "cost_by_endpoint": {
+        "/defi/token_overview": 150,
+        "/defi/txs/token": 300,
+        "/defi/v3/token/holder": 100,
+        "/defi/token_creation_info": 50,
+        "/defi/token_security": 250,
+        "/defi/v3/ohlcv": 150,
+        "/defi/ohlcv": 175,
+        "/defi/v3/token/list": 200
+      },
+      "calls_by_endpoint": {
+        "/defi/token_overview": 5,
+        "/defi/txs/token": 30,
+        "/defi/v3/token/holder": 10,
+        "/defi/token_creation_info": 5,
+        "/defi/token_security": 5,
+        "/defi/v3/ohlcv": 5,
+        "/defi/ohlcv": 5,
+        "/defi/v3/token/list": 2
+      },
+      "top_cost_endpoints": [
+        {
+          "endpoint": "/defi/txs/token",
+          "total_cus": 300,
+          "calls": 30,
+          "avg_cus_per_call": 10.0
+        },
+        {
+          "endpoint": "/defi/token_security",
+          "total_cus": 250,
+          "calls": 5,
+          "avg_cus_per_call": 50.0
+        },
+        {
+          "endpoint": "/defi/v3/token/list",
+          "total_cus": 200,
+          "calls": 2,
+          "avg_cus_per_call": 100.0
+        },
+        {
+          "endpoint": "/defi/ohlcv",
+          "total_cus": 175,
+          "calls": 5,
+          "avg_cus_per_call": 35.0
+        },
+        {
+          "endpoint": "/defi/token_overview",
+          "total_cus": 150,
+          "calls": 5,
+          "avg_cus_per_call": 30.0
+        }
+      ]
+    },
+    "health_status": "Excellent",
+    "last_reset_time": 1750258258.6838489
+  }
+}

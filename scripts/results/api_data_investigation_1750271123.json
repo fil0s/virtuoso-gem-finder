@@ -1,0 +1,4691 @@
+{
+  "investigation_timestamp": "2025-06-18T14:25:23.872637",
+  "tokens_analyzed": 7,
+  "analyses": [
+    {
+      "token_address": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+      "timestamp": "2025-06-18T14:25:20.706250",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "5BxLAM2JPx39kdnEtLeKjdwPXnhb5U6oMPEhrc1Y283t",
+            "tags": [],
+            "type": "24h",
+            "volume": 8362440.770923,
+            "trade": 130,
+            "tradeBuy": 130,
+            "tradeSell": 0,
+            "volumeBuy": 8362440.770923,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "Bu1aMATbqpbPrNJ5jjFY2qFLbonZBqhH7WVhChxJpcbY",
+            "tags": [],
+            "type": "24h",
+            "volume": 7704871.127404001,
+            "trade": 17,
+            "tradeBuy": 8,
+            "tradeSell": 9,
+            "volumeBuy": 3852435.5637020003,
+            "volumeSell": 3852435.563702,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "86ssNTYmFVux4NABe22hjjicVsgLzaNfgQzLa1ScicPg",
+            "tags": [],
+            "type": "24h",
+            "volume": 7247864.311005002,
+            "trade": 19,
+            "tradeBuy": 0,
+            "tradeSell": 19,
+            "volumeBuy": 1.4842953532934189e-09,
+            "volumeSell": 7247864.311005,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "JD1dHSqYkrXvqUVL8s6gzL1yB7kpYymsHfwsGxgwp55h",
+            "tags": [],
+            "type": "24h",
+            "volume": 7240768.329474005,
+            "trade": 122,
+            "tradeBuy": 120,
+            "tradeSell": 2,
+            "volumeBuy": 6995054.677027004,
+            "volumeSell": 245713.6524470007,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "CrtRBxr2WhiRRpUrhoFMu7DrjtTq45zRvN1QXjPuHxFn",
+            "tags": [],
+            "type": "24h",
+            "volume": 4523976.263948,
+            "trade": 16,
+            "tradeBuy": 7,
+            "tradeSell": 9,
+            "volumeBuy": 2261988.131974,
+            "volumeSell": 2261988.131974,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "57XPStCQKWVA7FDGvvuAN1MMvidmgyEBZSCqqgmGfi87",
+            "tags": [],
+            "type": "24h",
+            "volume": 4166865.140553,
+            "trade": 8,
+            "tradeBuy": 5,
+            "tradeSell": 3,
+            "volumeBuy": 2587699.58936,
+            "volumeSell": 1579165.5511929998,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "CgsWkvaQrMnALGJKz4nBsGG3Q5xVJmWXcLW7FPK8nrtA",
+            "tags": [],
+            "type": "24h",
+            "volume": 3714533.6386320004,
+            "trade": 6,
+            "tradeBuy": 6,
+            "tradeSell": 0,
+            "volumeBuy": 3714533.6386320004,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "7dGrdJRYtsNR8UYxZ3TnifXGjGc9eRYLq9sELwYpuuUu",
+            "tags": [],
+            "type": "24h",
+            "volume": 3094699.0582740037,
+            "trade": 144,
+            "tradeBuy": 72,
+            "tradeSell": 72,
+            "volumeBuy": 1547350.069255002,
+            "volumeSell": 1547348.9890190018,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "8QKeertKJ3PmVPRA6iFx87LMa5MnPZJThasJF4FyPKY1",
+            "tags": [],
+            "type": "24h",
+            "volume": 2632504.5361,
+            "trade": 2,
+            "tradeBuy": 1,
+            "tradeSell": 1,
+            "volumeBuy": 1316252.26805,
+            "volumeSell": 1316252.26805,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+            "owner": "GCRWvwoemBmVVQPYA8GSFKfMF8hyad9A8c8vkQc6D4gG",
+            "tags": [],
+            "type": "24h",
+            "volume": 2601764.707059,
+            "trade": 12,
+            "tradeBuy": 10,
+            "tradeSell": 2,
+            "volumeBuy": 2101764.707059,
+            "volumeSell": 500000,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "9doRRAik",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 51290287.88337201,
+        "whale_candidates": [
+          {
+            "rank": 1,
+            "address": "5BxLAM2J",
+            "volume_24h": 8362440.770923,
+            "volume_usd": 8362440.770923,
+            "trade_count": 130,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 8362440.770923,
+            "volume_sell": 0,
+            "trade_buy": 130,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "Bu1aMATb",
+            "volume_24h": 7704871.127404001,
+            "volume_usd": 7704871.127404001,
+            "trade_count": 17,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 3852435.5637020003,
+            "volume_sell": 3852435.563702,
+            "trade_buy": 8,
+            "trade_sell": 9,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "86ssNTYm",
+            "volume_24h": 7247864.311005002,
+            "volume_usd": 7247864.311005002,
+            "trade_count": 19,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1.4842953532934189e-09,
+            "volume_sell": 7247864.311005,
+            "trade_buy": 0,
+            "trade_sell": 19,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "JD1dHSqY",
+            "volume_24h": 7240768.329474005,
+            "volume_usd": 7240768.329474005,
+            "trade_count": 122,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 6995054.677027004,
+            "volume_sell": 245713.6524470007,
+            "trade_buy": 120,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "CrtRBxr2",
+            "volume_24h": 4523976.263948,
+            "volume_usd": 4523976.263948,
+            "trade_count": 16,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2261988.131974,
+            "volume_sell": 2261988.131974,
+            "trade_buy": 7,
+            "trade_sell": 9,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "57XPStCQ",
+            "volume_24h": 4166865.140553,
+            "volume_usd": 4166865.140553,
+            "trade_count": 8,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2587699.58936,
+            "volume_sell": 1579165.5511929998,
+            "trade_buy": 5,
+            "trade_sell": 3,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "CgsWkvaQ",
+            "volume_24h": 3714533.6386320004,
+            "volume_usd": 3714533.6386320004,
+            "trade_count": 6,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 3714533.6386320004,
+            "volume_sell": 0,
+            "trade_buy": 6,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "7dGrdJRY",
+            "volume_24h": 3094699.0582740037,
+            "volume_usd": 3094699.0582740037,
+            "trade_count": 144,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1547350.069255002,
+            "volume_sell": 1547348.9890190018,
+            "trade_buy": 72,
+            "trade_sell": 72,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "8QKeertK",
+            "volume_24h": 2632504.5361,
+            "volume_usd": 2632504.5361,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1316252.26805,
+            "volume_sell": 1316252.26805,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "GCRWvwoe",
+            "volume_24h": 2601764.707059,
+            "volume_usd": 2601764.707059,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2101764.707059,
+            "volume_sell": 500000,
+            "trade_buy": 10,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "5BxLAM2J",
+            "volume_24h": 8362440.770923,
+            "volume_usd": 8362440.770923,
+            "trade_count": 130,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 8362440.770923,
+            "volume_sell": 0,
+            "trade_buy": 130,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "Bu1aMATb",
+            "volume_24h": 7704871.127404001,
+            "volume_usd": 7704871.127404001,
+            "trade_count": 17,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 3852435.5637020003,
+            "volume_sell": 3852435.563702,
+            "trade_buy": 8,
+            "trade_sell": 9,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "86ssNTYm",
+            "volume_24h": 7247864.311005002,
+            "volume_usd": 7247864.311005002,
+            "trade_count": 19,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1.4842953532934189e-09,
+            "volume_sell": 7247864.311005,
+            "trade_buy": 0,
+            "trade_sell": 19,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "JD1dHSqY",
+            "volume_24h": 7240768.329474005,
+            "volume_usd": 7240768.329474005,
+            "trade_count": 122,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 6995054.677027004,
+            "volume_sell": 245713.6524470007,
+            "trade_buy": 120,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "CrtRBxr2",
+            "volume_24h": 4523976.263948,
+            "volume_usd": 4523976.263948,
+            "trade_count": 16,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2261988.131974,
+            "volume_sell": 2261988.131974,
+            "trade_buy": 7,
+            "trade_sell": 9,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "57XPStCQ",
+            "volume_24h": 4166865.140553,
+            "volume_usd": 4166865.140553,
+            "trade_count": 8,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2587699.58936,
+            "volume_sell": 1579165.5511929998,
+            "trade_buy": 5,
+            "trade_sell": 3,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "CgsWkvaQ",
+            "volume_24h": 3714533.6386320004,
+            "volume_usd": 3714533.6386320004,
+            "trade_count": 6,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 3714533.6386320004,
+            "volume_sell": 0,
+            "trade_buy": 6,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "7dGrdJRY",
+            "volume_24h": 3094699.0582740037,
+            "volume_usd": 3094699.0582740037,
+            "trade_count": 144,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1547350.069255002,
+            "volume_sell": 1547348.9890190018,
+            "trade_buy": 72,
+            "trade_sell": 72,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "8QKeertK",
+            "volume_24h": 2632504.5361,
+            "volume_usd": 2632504.5361,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1316252.26805,
+            "volume_sell": 1316252.26805,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "GCRWvwoe",
+            "volume_24h": 2601764.707059,
+            "volume_usd": 2601764.707059,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2101764.707059,
+            "volume_sell": 500000,
+            "trade_buy": 10,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 5129028.788337201,
+        "max_volume": 8362440.770923,
+        "min_volume": 2601764.707059
+      },
+      "whale_detection": {
+        "token": "9doRRAik",
+        "whale_analysis": {
+          "token_address": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+          "analysis_timestamp": 1750271121,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 10,
+            "total_volume": 51290287.88337201,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.638,
+              "sell_ratio": 0.362,
+              "activity_level": "very_high",
+              "total_volume": 51290287.88337201,
+              "avg_trader_volume": 5129028.788337201,
+              "dominant_action": "buying"
+            },
+            "top_whales": [
+              {
+                "address": "5BxLAM2JPx39kdnEtLeKjdwPXnhb5U6oMPEhrc1Y283t",
+                "volume": 8362440.770923,
+                "trade_count": 130,
+                "avg_trade_size": 64326.46746863846,
+                "volume_buy": 8362440.770923,
+                "volume_sell": 0,
+                "buy_ratio": 1.0,
+                "sell_ratio": 0.0,
+                "directional_bias": "accumulating",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "Bu1aMATbqpbPrNJ5jjFY2qFLbonZBqhH7WVhChxJpcbY",
+                "volume": 7704871.127404001,
+                "trade_count": 17,
+                "avg_trade_size": 453227.71337670594,
+                "volume_buy": 3852435.5637020003,
+                "volume_sell": 3852435.563702,
+                "buy_ratio": 0.5,
+                "sell_ratio": 0.49999999999999994,
+                "directional_bias": "neutral",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "86ssNTYmFVux4NABe22hjjicVsgLzaNfgQzLa1ScicPg",
+                "volume": 7247864.311005002,
+                "trade_count": 19,
+                "avg_trade_size": 381466.5426844738,
+                "volume_buy": 1.4842953532934189e-09,
+                "volume_sell": 7247864.311005,
+                "buy_ratio": 2.047907203560222e-16,
+                "sell_ratio": 0.9999999999999998,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              }
+            ],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "whale_dominated",
+            "whale_dominance": 1.0,
+            "shark_presence": 0.0,
+            "market_control": "institutional",
+            "total_large_trader_volume": 51290287.88337201,
+            "whale_count": 10,
+            "shark_count": 0,
+            "concentration_score": 1.0
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "high",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": [
+              "Market dominated by institutional players"
+            ]
+          },
+          "analysis_valid": true
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "9doRRAik",
+        "smart_analysis": {
+          "token_address": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+          "analysis_timestamp": "2025-06-18T14:25:21.711323",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 3,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 3
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "low",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No skilled traders detected - exercise caution"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    },
+    {
+      "token_address": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+      "timestamp": "2025-06-18T14:25:21.712100",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "659ChZ8cjHzihiXXEKVqL7aj1tUkVkjUpmwV4ZmSd6ce",
+            "tags": [],
+            "type": "24h",
+            "volume": 4234134.793548999,
+            "trade": 166,
+            "tradeBuy": 97,
+            "tradeSell": 69,
+            "volumeBuy": 2125382.06963,
+            "volumeSell": 2108752.723919,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "88AmUiGJ5PNMyckLdYRyNbZiFXRuDhNB5ydgbws5qRx1",
+            "tags": [],
+            "type": "24h",
+            "volume": 4206090.600317,
+            "trade": 160,
+            "tradeBuy": 93,
+            "tradeSell": 67,
+            "volumeBuy": 2059785.6457170006,
+            "volumeSell": 2146304.9546,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "B11kwBFoDq6tECrzDT43yHAAbE7QjpMbqAWyZCvBtpuv",
+            "tags": [],
+            "type": "24h",
+            "volume": 2776180.7876399998,
+            "trade": 7,
+            "tradeBuy": 4,
+            "tradeSell": 3,
+            "volumeBuy": 801976.055007,
+            "volumeSell": 1974204.7326329998,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "GUEcN6s4YkrhE2a8BneEHQWQnJzTHCaNhnoen38oBupH",
+            "tags": [],
+            "type": "24h",
+            "volume": 2250978.922699999,
+            "trade": 127,
+            "tradeBuy": 73,
+            "tradeSell": 54,
+            "volumeBuy": 1133668.7236669993,
+            "volumeSell": 1117310.199033,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "4mSyzPCuKc58EXcj2eeJHV6HrfFPHxq8cCQGMeADjMtw",
+            "tags": [],
+            "type": "24h",
+            "volume": 2117038.3389070006,
+            "trade": 125,
+            "tradeBuy": 69,
+            "tradeSell": 56,
+            "volumeBuy": 1040698.0462420003,
+            "volumeSell": 1076340.292665,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "59ndDcCkgXCAfyktyjXCyVkdXT7zLKjE698ZmJX6kZaR",
+            "tags": [],
+            "type": "24h",
+            "volume": 1533061.291314004,
+            "trade": 41,
+            "tradeBuy": 21,
+            "tradeSell": 20,
+            "volumeBuy": 790837.8908500031,
+            "volumeSell": 742223.4004640008,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "9UvA1Tz5U1V4qi8waLoqnGSgXqs4TdL45JeTumaiAZNV",
+            "tags": [],
+            "type": "24h",
+            "volume": 1484764.6572470008,
+            "trade": 39,
+            "tradeBuy": 20,
+            "tradeSell": 19,
+            "volumeBuy": 751930.8469249986,
+            "volumeSell": 732833.8103220022,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "HFbjAhs7ngv8DJ6FzvCt8uy9uFELXNW8oot9FhtH2P5s",
+            "tags": [],
+            "type": "24h",
+            "volume": 1364228.7531530005,
+            "trade": 36,
+            "tradeBuy": 18,
+            "tradeSell": 18,
+            "volumeBuy": 695251.8350590017,
+            "volumeSell": 668976.9180939988,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "BcpKy7n5pzTXaUg3RLgbd6XzWAVWgWTVNpR27JjXfUev",
+            "tags": [],
+            "type": "24h",
+            "volume": 1252650.570832999,
+            "trade": 34,
+            "tradeBuy": 17,
+            "tradeSell": 17,
+            "volumeBuy": 608320.978343999,
+            "volumeSell": 644329.5924889998,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+            "owner": "Dk5VZZB15sNHL8AzZQMK1bf2YvXwxRSHPpbt5TyS4aH9",
+            "tags": [],
+            "type": "24h",
+            "volume": 741753.530085,
+            "trade": 1,
+            "tradeBuy": 0,
+            "tradeSell": 1,
+            "volumeBuy": 0,
+            "volumeSell": 741753.530085,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "Creiuhfw",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 21960882.245745003,
+        "whale_candidates": [
+          {
+            "rank": 1,
+            "address": "659ChZ8c",
+            "volume_24h": 4234134.793548999,
+            "volume_usd": 4234134.793548999,
+            "trade_count": 166,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2125382.06963,
+            "volume_sell": 2108752.723919,
+            "trade_buy": 97,
+            "trade_sell": 69,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "88AmUiGJ",
+            "volume_24h": 4206090.600317,
+            "volume_usd": 4206090.600317,
+            "trade_count": 160,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2059785.6457170006,
+            "volume_sell": 2146304.9546,
+            "trade_buy": 93,
+            "trade_sell": 67,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "B11kwBFo",
+            "volume_24h": 2776180.7876399998,
+            "volume_usd": 2776180.7876399998,
+            "trade_count": 7,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 801976.055007,
+            "volume_sell": 1974204.7326329998,
+            "trade_buy": 4,
+            "trade_sell": 3,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "GUEcN6s4",
+            "volume_24h": 2250978.922699999,
+            "volume_usd": 2250978.922699999,
+            "trade_count": 127,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1133668.7236669993,
+            "volume_sell": 1117310.199033,
+            "trade_buy": 73,
+            "trade_sell": 54,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "4mSyzPCu",
+            "volume_24h": 2117038.3389070006,
+            "volume_usd": 2117038.3389070006,
+            "trade_count": 125,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1040698.0462420003,
+            "volume_sell": 1076340.292665,
+            "trade_buy": 69,
+            "trade_sell": 56,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "59ndDcCk",
+            "volume_24h": 1533061.291314004,
+            "volume_usd": 1533061.291314004,
+            "trade_count": 41,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 790837.8908500031,
+            "volume_sell": 742223.4004640008,
+            "trade_buy": 21,
+            "trade_sell": 20,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "9UvA1Tz5",
+            "volume_24h": 1484764.6572470008,
+            "volume_usd": 1484764.6572470008,
+            "trade_count": 39,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 751930.8469249986,
+            "volume_sell": 732833.8103220022,
+            "trade_buy": 20,
+            "trade_sell": 19,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "HFbjAhs7",
+            "volume_24h": 1364228.7531530005,
+            "volume_usd": 1364228.7531530005,
+            "trade_count": 36,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 695251.8350590017,
+            "volume_sell": 668976.9180939988,
+            "trade_buy": 18,
+            "trade_sell": 18,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "BcpKy7n5",
+            "volume_24h": 1252650.570832999,
+            "volume_usd": 1252650.570832999,
+            "trade_count": 34,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 608320.978343999,
+            "volume_sell": 644329.5924889998,
+            "trade_buy": 17,
+            "trade_sell": 17,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "Dk5VZZB1",
+            "volume_24h": 741753.530085,
+            "volume_usd": 741753.530085,
+            "trade_count": 1,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 741753.530085,
+            "trade_buy": 0,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "659ChZ8c",
+            "volume_24h": 4234134.793548999,
+            "volume_usd": 4234134.793548999,
+            "trade_count": 166,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2125382.06963,
+            "volume_sell": 2108752.723919,
+            "trade_buy": 97,
+            "trade_sell": 69,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "88AmUiGJ",
+            "volume_24h": 4206090.600317,
+            "volume_usd": 4206090.600317,
+            "trade_count": 160,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2059785.6457170006,
+            "volume_sell": 2146304.9546,
+            "trade_buy": 93,
+            "trade_sell": 67,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "B11kwBFo",
+            "volume_24h": 2776180.7876399998,
+            "volume_usd": 2776180.7876399998,
+            "trade_count": 7,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 801976.055007,
+            "volume_sell": 1974204.7326329998,
+            "trade_buy": 4,
+            "trade_sell": 3,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "GUEcN6s4",
+            "volume_24h": 2250978.922699999,
+            "volume_usd": 2250978.922699999,
+            "trade_count": 127,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1133668.7236669993,
+            "volume_sell": 1117310.199033,
+            "trade_buy": 73,
+            "trade_sell": 54,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "4mSyzPCu",
+            "volume_24h": 2117038.3389070006,
+            "volume_usd": 2117038.3389070006,
+            "trade_count": 125,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1040698.0462420003,
+            "volume_sell": 1076340.292665,
+            "trade_buy": 69,
+            "trade_sell": 56,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "59ndDcCk",
+            "volume_24h": 1533061.291314004,
+            "volume_usd": 1533061.291314004,
+            "trade_count": 41,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 790837.8908500031,
+            "volume_sell": 742223.4004640008,
+            "trade_buy": 21,
+            "trade_sell": 20,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "9UvA1Tz5",
+            "volume_24h": 1484764.6572470008,
+            "volume_usd": 1484764.6572470008,
+            "trade_count": 39,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 751930.8469249986,
+            "volume_sell": 732833.8103220022,
+            "trade_buy": 20,
+            "trade_sell": 19,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "HFbjAhs7",
+            "volume_24h": 1364228.7531530005,
+            "volume_usd": 1364228.7531530005,
+            "trade_count": 36,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 695251.8350590017,
+            "volume_sell": 668976.9180939988,
+            "trade_buy": 18,
+            "trade_sell": 18,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "BcpKy7n5",
+            "volume_24h": 1252650.570832999,
+            "volume_usd": 1252650.570832999,
+            "trade_count": 34,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 608320.978343999,
+            "volume_sell": 644329.5924889998,
+            "trade_buy": 17,
+            "trade_sell": 17,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "Dk5VZZB1",
+            "volume_24h": 741753.530085,
+            "volume_usd": 741753.530085,
+            "trade_count": 1,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 741753.530085,
+            "trade_buy": 0,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 2196088.2245745,
+        "max_volume": 4234134.793548999,
+        "min_volume": 741753.530085
+      },
+      "whale_detection": {
+        "token": "Creiuhfw",
+        "whale_analysis": {
+          "token_address": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+          "analysis_timestamp": 1750271122,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 10,
+            "total_volume": 21960882.245745003,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.456,
+              "sell_ratio": 0.544,
+              "activity_level": "very_high",
+              "total_volume": 21960882.245745003,
+              "avg_trader_volume": 2196088.2245745,
+              "dominant_action": "mixed"
+            },
+            "top_whales": [
+              {
+                "address": "659ChZ8cjHzihiXXEKVqL7aj1tUkVkjUpmwV4ZmSd6ce",
+                "volume": 4234134.793548999,
+                "trade_count": 166,
+                "avg_trade_size": 25506.836105716862,
+                "volume_buy": 2125382.06963,
+                "volume_sell": 2108752.723919,
+                "buy_ratio": 0.5019637241752832,
+                "sell_ratio": 0.4980362758247169,
+                "directional_bias": "neutral",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "88AmUiGJ5PNMyckLdYRyNbZiFXRuDhNB5ydgbws5qRx1",
+                "volume": 4206090.600317,
+                "trade_count": 160,
+                "avg_trade_size": 26288.066251981254,
+                "volume_buy": 2059785.6457170006,
+                "volume_sell": 2146304.9546,
+                "buy_ratio": 0.4897149970002455,
+                "sell_ratio": 0.5102850029997545,
+                "directional_bias": "neutral",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "B11kwBFoDq6tECrzDT43yHAAbE7QjpMbqAWyZCvBtpuv",
+                "volume": 2776180.7876399998,
+                "trade_count": 7,
+                "avg_trade_size": 396597.2553771428,
+                "volume_buy": 801976.055007,
+                "volume_sell": 1974204.7326329998,
+                "buy_ratio": 0.2888774602063113,
+                "sell_ratio": 0.7111225397936887,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              }
+            ],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "whale_dominated",
+            "whale_dominance": 1.0,
+            "shark_presence": 0.0,
+            "market_control": "institutional",
+            "total_large_trader_volume": 21960882.245745003,
+            "whale_count": 10,
+            "shark_count": 0,
+            "concentration_score": 1.0
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "high",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": [
+              "Market dominated by institutional players"
+            ]
+          },
+          "analysis_valid": true
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "Creiuhfw",
+        "smart_analysis": {
+          "token_address": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+          "analysis_timestamp": "2025-06-18T14:25:22.064000",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 3,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 3
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "low",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No skilled traders detected - exercise caution"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    },
+    {
+      "token_address": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+      "timestamp": "2025-06-18T14:25:22.064301",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "8vhEqPHfVquPw1e96d8bAG9DffWCC6tWQNFDCuqxLswz",
+            "tags": [],
+            "type": "24h",
+            "volume": 16629084.351915,
+            "trade": 4,
+            "tradeBuy": 2,
+            "tradeSell": 2,
+            "volumeBuy": 138108.913724,
+            "volumeSell": 16490975.438191,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "BDzu84TVpqEC883KbxSThgBykFV8JFoc2qhfi3KQVp6J",
+            "tags": [],
+            "type": "24h",
+            "volume": 14490744.363897,
+            "trade": 4,
+            "tradeBuy": 1,
+            "tradeSell": 3,
+            "volumeBuy": 7245372.186949,
+            "volumeSell": 7245372.176948,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "6BEMFZXcsA2nHPbKL6wixtyy4CZYeSLTGiDvTbox6NiG",
+            "tags": [],
+            "type": "24h",
+            "volume": 5659640.941547,
+            "trade": 16,
+            "tradeBuy": 6,
+            "tradeSell": 10,
+            "volumeBuy": 2830433.306124,
+            "volumeSell": 2829207.635423,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "8w1Zdm1GEzMXatN9hYERByrJWqqtpUHioMcVqZ57zYKH",
+            "tags": [],
+            "type": "24h",
+            "volume": 3877602.1664720047,
+            "trade": 61,
+            "tradeBuy": 7,
+            "tradeSell": 54,
+            "volumeBuy": 1938801.0832360007,
+            "volumeSell": 1938801.0832360038,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "EszHafhSBX18jvLjJMvnRjnNdUoewRjNwhTEBf58Vbff",
+            "tags": [],
+            "type": "24h",
+            "volume": 3648390.414597001,
+            "trade": 35,
+            "tradeBuy": 18,
+            "tradeSell": 17,
+            "volumeBuy": 1745055.2590719997,
+            "volumeSell": 1903335.155525001,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "7Z9Av4QVUiuBfpW3yrgVyVsUUQBmJDr3UufFrutUtW7L",
+            "tags": [],
+            "type": "24h",
+            "volume": 3458570.0434020003,
+            "trade": 13,
+            "tradeBuy": 6,
+            "tradeSell": 7,
+            "volumeBuy": 1657657.6241240003,
+            "volumeSell": 1800912.4192780002,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "5gMwGbY6gQnPPNwhB59rpBnvEw4PYDsDhKR6CJT8dnRh",
+            "tags": [],
+            "type": "24h",
+            "volume": 3219997.973389002,
+            "trade": 20,
+            "tradeBuy": 11,
+            "tradeSell": 9,
+            "volumeBuy": 1427741.5504410006,
+            "volumeSell": 1792256.4229480014,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "2UuMd695sqXRXQM7aCQyNH6HMXBL9wVksnd1Gt8UTmP3",
+            "tags": [],
+            "type": "24h",
+            "volume": 3172526.0494779996,
+            "trade": 63,
+            "tradeBuy": 31,
+            "tradeSell": 32,
+            "volumeBuy": 1638294.934228,
+            "volumeSell": 1534231.1152499996,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "BKgWjCyZEfRQeo9T7RAHdYevCmL6vXrjn25bkgszQyUz",
+            "tags": [],
+            "type": "24h",
+            "volume": 2895164.953526,
+            "trade": 2,
+            "tradeBuy": 1,
+            "tradeSell": 1,
+            "volumeBuy": 1447582.476763,
+            "volumeSell": 1447582.476763,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+            "owner": "5bXytjbiVpZ8ABScBJsRRPxT4sZn6ygREkicD1K5uMCL",
+            "tags": [],
+            "type": "24h",
+            "volume": 2622031.70322,
+            "trade": 20,
+            "tradeBuy": 20,
+            "tradeSell": 0,
+            "volumeBuy": 2622031.70322,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "JosjEXh6",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 59673752.961443,
+        "whale_candidates": [
+          {
+            "rank": 1,
+            "address": "8vhEqPHf",
+            "volume_24h": 16629084.351915,
+            "volume_usd": 16629084.351915,
+            "trade_count": 4,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 138108.913724,
+            "volume_sell": 16490975.438191,
+            "trade_buy": 2,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "BDzu84TV",
+            "volume_24h": 14490744.363897,
+            "volume_usd": 14490744.363897,
+            "trade_count": 4,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 7245372.186949,
+            "volume_sell": 7245372.176948,
+            "trade_buy": 1,
+            "trade_sell": 3,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "6BEMFZXc",
+            "volume_24h": 5659640.941547,
+            "volume_usd": 5659640.941547,
+            "trade_count": 16,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2830433.306124,
+            "volume_sell": 2829207.635423,
+            "trade_buy": 6,
+            "trade_sell": 10,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "8w1Zdm1G",
+            "volume_24h": 3877602.1664720047,
+            "volume_usd": 3877602.1664720047,
+            "trade_count": 61,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1938801.0832360007,
+            "volume_sell": 1938801.0832360038,
+            "trade_buy": 7,
+            "trade_sell": 54,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "EszHafhS",
+            "volume_24h": 3648390.414597001,
+            "volume_usd": 3648390.414597001,
+            "trade_count": 35,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1745055.2590719997,
+            "volume_sell": 1903335.155525001,
+            "trade_buy": 18,
+            "trade_sell": 17,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "7Z9Av4QV",
+            "volume_24h": 3458570.0434020003,
+            "volume_usd": 3458570.0434020003,
+            "trade_count": 13,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1657657.6241240003,
+            "volume_sell": 1800912.4192780002,
+            "trade_buy": 6,
+            "trade_sell": 7,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "5gMwGbY6",
+            "volume_24h": 3219997.973389002,
+            "volume_usd": 3219997.973389002,
+            "trade_count": 20,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1427741.5504410006,
+            "volume_sell": 1792256.4229480014,
+            "trade_buy": 11,
+            "trade_sell": 9,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "2UuMd695",
+            "volume_24h": 3172526.0494779996,
+            "volume_usd": 3172526.0494779996,
+            "trade_count": 63,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1638294.934228,
+            "volume_sell": 1534231.1152499996,
+            "trade_buy": 31,
+            "trade_sell": 32,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "BKgWjCyZ",
+            "volume_24h": 2895164.953526,
+            "volume_usd": 2895164.953526,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1447582.476763,
+            "volume_sell": 1447582.476763,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "5bXytjbi",
+            "volume_24h": 2622031.70322,
+            "volume_usd": 2622031.70322,
+            "trade_count": 20,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2622031.70322,
+            "volume_sell": 0,
+            "trade_buy": 20,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "8vhEqPHf",
+            "volume_24h": 16629084.351915,
+            "volume_usd": 16629084.351915,
+            "trade_count": 4,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 138108.913724,
+            "volume_sell": 16490975.438191,
+            "trade_buy": 2,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "BDzu84TV",
+            "volume_24h": 14490744.363897,
+            "volume_usd": 14490744.363897,
+            "trade_count": 4,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 7245372.186949,
+            "volume_sell": 7245372.176948,
+            "trade_buy": 1,
+            "trade_sell": 3,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "6BEMFZXc",
+            "volume_24h": 5659640.941547,
+            "volume_usd": 5659640.941547,
+            "trade_count": 16,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2830433.306124,
+            "volume_sell": 2829207.635423,
+            "trade_buy": 6,
+            "trade_sell": 10,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "8w1Zdm1G",
+            "volume_24h": 3877602.1664720047,
+            "volume_usd": 3877602.1664720047,
+            "trade_count": 61,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1938801.0832360007,
+            "volume_sell": 1938801.0832360038,
+            "trade_buy": 7,
+            "trade_sell": 54,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "EszHafhS",
+            "volume_24h": 3648390.414597001,
+            "volume_usd": 3648390.414597001,
+            "trade_count": 35,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1745055.2590719997,
+            "volume_sell": 1903335.155525001,
+            "trade_buy": 18,
+            "trade_sell": 17,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "7Z9Av4QV",
+            "volume_24h": 3458570.0434020003,
+            "volume_usd": 3458570.0434020003,
+            "trade_count": 13,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1657657.6241240003,
+            "volume_sell": 1800912.4192780002,
+            "trade_buy": 6,
+            "trade_sell": 7,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "5gMwGbY6",
+            "volume_24h": 3219997.973389002,
+            "volume_usd": 3219997.973389002,
+            "trade_count": 20,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1427741.5504410006,
+            "volume_sell": 1792256.4229480014,
+            "trade_buy": 11,
+            "trade_sell": 9,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "2UuMd695",
+            "volume_24h": 3172526.0494779996,
+            "volume_usd": 3172526.0494779996,
+            "trade_count": 63,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1638294.934228,
+            "volume_sell": 1534231.1152499996,
+            "trade_buy": 31,
+            "trade_sell": 32,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "BKgWjCyZ",
+            "volume_24h": 2895164.953526,
+            "volume_usd": 2895164.953526,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1447582.476763,
+            "volume_sell": 1447582.476763,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "5bXytjbi",
+            "volume_24h": 2622031.70322,
+            "volume_usd": 2622031.70322,
+            "trade_count": 20,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2622031.70322,
+            "volume_sell": 0,
+            "trade_buy": 20,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 5967375.2961443,
+        "max_volume": 16629084.351915,
+        "min_volume": 2622031.70322
+      },
+      "whale_detection": {
+        "token": "JosjEXh6",
+        "whale_analysis": {
+          "token_address": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+          "analysis_timestamp": 1750271122,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 10,
+            "total_volume": 59673752.961443,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.38,
+              "sell_ratio": 0.62,
+              "activity_level": "very_high",
+              "total_volume": 59673752.961443,
+              "avg_trader_volume": 5967375.2961443,
+              "dominant_action": "selling"
+            },
+            "top_whales": [
+              {
+                "address": "8vhEqPHfVquPw1e96d8bAG9DffWCC6tWQNFDCuqxLswz",
+                "volume": 16629084.351915,
+                "trade_count": 4,
+                "avg_trade_size": 4157271.08797875,
+                "volume_buy": 138108.913724,
+                "volume_sell": 16490975.438191,
+                "buy_ratio": 0.008305262683215353,
+                "sell_ratio": 0.9916947373167847,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "BDzu84TVpqEC883KbxSThgBykFV8JFoc2qhfi3KQVp6J",
+                "volume": 14490744.363897,
+                "trade_count": 4,
+                "avg_trade_size": 3622686.09097425,
+                "volume_buy": 7245372.186949,
+                "volume_sell": 7245372.176948,
+                "buy_ratio": 0.5000000003450823,
+                "sell_ratio": 0.49999999965491765,
+                "directional_bias": "neutral",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "6BEMFZXcsA2nHPbKL6wixtyy4CZYeSLTGiDvTbox6NiG",
+                "volume": 5659640.941547,
+                "trade_count": 16,
+                "avg_trade_size": 353727.5588466875,
+                "volume_buy": 2830433.306124,
+                "volume_sell": 2829207.635423,
+                "buy_ratio": 0.5001082816660685,
+                "sell_ratio": 0.49989171833393153,
+                "directional_bias": "neutral",
+                "market_impact": "high",
+                "classification": "whale"
+              }
+            ],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "whale_dominated",
+            "whale_dominance": 1.0,
+            "shark_presence": 0.0,
+            "market_control": "institutional",
+            "total_large_trader_volume": 59673752.961443,
+            "whale_count": 10,
+            "shark_count": 0,
+            "concentration_score": 1.0
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "high",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": [
+              "Market dominated by institutional players"
+            ]
+          },
+          "analysis_valid": true
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "JosjEXh6",
+        "smart_analysis": {
+          "token_address": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+          "analysis_timestamp": "2025-06-18T14:25:22.288031",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 3,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 3
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "low",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No skilled traders detected - exercise caution"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    },
+    {
+      "token_address": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+      "timestamp": "2025-06-18T14:25:22.288359",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "E2m72dbFVDNBVwHWFCCUNsUY7MgB7cD7VFKqXiHTKywL",
+            "tags": [],
+            "type": "24h",
+            "volume": 1143881.323202,
+            "trade": 102,
+            "tradeBuy": 52,
+            "tradeSell": 50,
+            "volumeBuy": 571940.6616010001,
+            "volumeSell": 571940.661601,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "7KsDKHDy1g25gKxeMd191yVKDyWJP1W5GYSpG8JQqNP6",
+            "tags": [],
+            "type": "24h",
+            "volume": 671504.840025,
+            "trade": 23,
+            "tradeBuy": 7,
+            "tradeSell": 16,
+            "volumeBuy": 158604.840025,
+            "volumeSell": 512900,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "EFKXN2jX15mT2TSsNkQfvid99eAJjVZNg9uN4GzPULhh",
+            "tags": [],
+            "type": "24h",
+            "volume": 564297.728047,
+            "trade": 15,
+            "tradeBuy": 15,
+            "tradeSell": 0,
+            "volumeBuy": 564297.728047,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "Fxn4ec9CsWhE9vJMVajsnbvUtWkjy3cmVCxQwDTeoV35",
+            "tags": [],
+            "type": "24h",
+            "volume": 503801.6583319999,
+            "trade": 31,
+            "tradeBuy": 15,
+            "tradeSell": 16,
+            "volumeBuy": 251900.82916599998,
+            "volumeSell": 251900.82916599995,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "8MZ6J1d6P2yRWeZ36Jn94UpYXc1ow9uL6iFYtCQMcK7x",
+            "tags": [],
+            "type": "24h",
+            "volume": 268371,
+            "trade": 5,
+            "tradeBuy": 0,
+            "tradeSell": 5,
+            "volumeBuy": 0,
+            "volumeSell": 268371,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "H5XivnMG2gD8nzwHyu3zfsT4ofe1AemdXJgdr4eJ799h",
+            "tags": [],
+            "type": "24h",
+            "volume": 251085.15949599998,
+            "trade": 2,
+            "tradeBuy": 1,
+            "tradeSell": 1,
+            "volumeBuy": 201085.15949599998,
+            "volumeSell": 50000,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "7kCDSnaYDrVkTRrho1KXZUCSnJabxcJ1KsjU8v58Tu1s",
+            "tags": [],
+            "type": "24h",
+            "volume": 227517.60244600038,
+            "trade": 594,
+            "tradeBuy": 295,
+            "tradeSell": 299,
+            "volumeBuy": 114784.05137800002,
+            "volumeSell": 112733.55106800038,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "GVk4bmZeRedJzugQyTBm2Xw4Jj1RxWQ8BivJ7eyQZBkm",
+            "tags": [],
+            "type": "24h",
+            "volume": 207299.9600560002,
+            "trade": 525,
+            "tradeBuy": 269,
+            "tradeSell": 256,
+            "volumeBuy": 103905.92410200009,
+            "volumeSell": 103394.03595400012,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "CHUBwcGSRBpdx19qtQKB8Foq5GuLLvpVmpCw7cvbLATn",
+            "tags": [],
+            "type": "24h",
+            "volume": 206938.2483979997,
+            "trade": 1822,
+            "tradeBuy": 911,
+            "tradeSell": 911,
+            "volumeBuy": 103469.12419899985,
+            "volumeSell": 103469.12419899985,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+            "owner": "Anw5yWJYJGJBRWw7jzVnoedG5GXvJEo2Xkj7zUK9f8wG",
+            "tags": [],
+            "type": "24h",
+            "volume": 201000,
+            "trade": 5,
+            "tradeBuy": 0,
+            "tradeSell": 5,
+            "volumeBuy": 0,
+            "volumeSell": 201000,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "JDzPbXbo",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 4245697.520002001,
+        "whale_candidates": [
+          {
+            "rank": 1,
+            "address": "E2m72dbF",
+            "volume_24h": 1143881.323202,
+            "volume_usd": 1143881.323202,
+            "trade_count": 102,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 571940.6616010001,
+            "volume_sell": 571940.661601,
+            "trade_buy": 52,
+            "trade_sell": 50,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "7KsDKHDy",
+            "volume_24h": 671504.840025,
+            "volume_usd": 671504.840025,
+            "trade_count": 23,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 158604.840025,
+            "volume_sell": 512900,
+            "trade_buy": 7,
+            "trade_sell": 16,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "EFKXN2jX",
+            "volume_24h": 564297.728047,
+            "volume_usd": 564297.728047,
+            "trade_count": 15,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 564297.728047,
+            "volume_sell": 0,
+            "trade_buy": 15,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "Fxn4ec9C",
+            "volume_24h": 503801.6583319999,
+            "volume_usd": 503801.6583319999,
+            "trade_count": 31,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 251900.82916599998,
+            "volume_sell": 251900.82916599995,
+            "trade_buy": 15,
+            "trade_sell": 16,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "8MZ6J1d6",
+            "volume_24h": 268371.0,
+            "volume_usd": 268371.0,
+            "trade_count": 5,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 268371,
+            "trade_buy": 0,
+            "trade_sell": 5,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "H5XivnMG",
+            "volume_24h": 251085.15949599998,
+            "volume_usd": 251085.15949599998,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 201085.15949599998,
+            "volume_sell": 50000,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "7kCDSnaY",
+            "volume_24h": 227517.60244600038,
+            "volume_usd": 227517.60244600038,
+            "trade_count": 594,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 114784.05137800002,
+            "volume_sell": 112733.55106800038,
+            "trade_buy": 295,
+            "trade_sell": 299,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "GVk4bmZe",
+            "volume_24h": 207299.9600560002,
+            "volume_usd": 207299.9600560002,
+            "trade_count": 525,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 103905.92410200009,
+            "volume_sell": 103394.03595400012,
+            "trade_buy": 269,
+            "trade_sell": 256,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "CHUBwcGS",
+            "volume_24h": 206938.2483979997,
+            "volume_usd": 206938.2483979997,
+            "trade_count": 1822,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 103469.12419899985,
+            "volume_sell": 103469.12419899985,
+            "trade_buy": 911,
+            "trade_sell": 911,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "Anw5yWJY",
+            "volume_24h": 201000.0,
+            "volume_usd": 201000.0,
+            "trade_count": 5,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 201000,
+            "trade_buy": 0,
+            "trade_sell": 5,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "E2m72dbF",
+            "volume_24h": 1143881.323202,
+            "volume_usd": 1143881.323202,
+            "trade_count": 102,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 571940.6616010001,
+            "volume_sell": 571940.661601,
+            "trade_buy": 52,
+            "trade_sell": 50,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "7KsDKHDy",
+            "volume_24h": 671504.840025,
+            "volume_usd": 671504.840025,
+            "trade_count": 23,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 158604.840025,
+            "volume_sell": 512900,
+            "trade_buy": 7,
+            "trade_sell": 16,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "EFKXN2jX",
+            "volume_24h": 564297.728047,
+            "volume_usd": 564297.728047,
+            "trade_count": 15,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 564297.728047,
+            "volume_sell": 0,
+            "trade_buy": 15,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "Fxn4ec9C",
+            "volume_24h": 503801.6583319999,
+            "volume_usd": 503801.6583319999,
+            "trade_count": 31,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 251900.82916599998,
+            "volume_sell": 251900.82916599995,
+            "trade_buy": 15,
+            "trade_sell": 16,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "8MZ6J1d6",
+            "volume_24h": 268371.0,
+            "volume_usd": 268371.0,
+            "trade_count": 5,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 268371,
+            "trade_buy": 0,
+            "trade_sell": 5,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "H5XivnMG",
+            "volume_24h": 251085.15949599998,
+            "volume_usd": 251085.15949599998,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 201085.15949599998,
+            "volume_sell": 50000,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "7kCDSnaY",
+            "volume_24h": 227517.60244600038,
+            "volume_usd": 227517.60244600038,
+            "trade_count": 594,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 114784.05137800002,
+            "volume_sell": 112733.55106800038,
+            "trade_buy": 295,
+            "trade_sell": 299,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "GVk4bmZe",
+            "volume_24h": 207299.9600560002,
+            "volume_usd": 207299.9600560002,
+            "trade_count": 525,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 103905.92410200009,
+            "volume_sell": 103394.03595400012,
+            "trade_buy": 269,
+            "trade_sell": 256,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "CHUBwcGS",
+            "volume_24h": 206938.2483979997,
+            "volume_usd": 206938.2483979997,
+            "trade_count": 1822,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 103469.12419899985,
+            "volume_sell": 103469.12419899985,
+            "trade_buy": 911,
+            "trade_sell": 911,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "Anw5yWJY",
+            "volume_24h": 201000.0,
+            "volume_usd": 201000.0,
+            "trade_count": 5,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 201000,
+            "trade_buy": 0,
+            "trade_sell": 5,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 424569.7520002001,
+        "max_volume": 1143881.323202,
+        "min_volume": 201000.0
+      },
+      "whale_detection": {
+        "token": "JDzPbXbo",
+        "whale_analysis": {
+          "token_address": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+          "analysis_timestamp": 1750271122,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 7,
+            "total_volume": 3603941.709102,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.485,
+              "sell_ratio": 0.515,
+              "activity_level": "very_high",
+              "total_volume": 3603941.709102,
+              "avg_trader_volume": 514848.81558600004,
+              "dominant_action": "mixed"
+            },
+            "top_whales": [
+              {
+                "address": "E2m72dbFVDNBVwHWFCCUNsUY7MgB7cD7VFKqXiHTKywL",
+                "volume": 1143881.323202,
+                "trade_count": 102,
+                "avg_trade_size": 11214.522776490196,
+                "volume_buy": 571940.6616010001,
+                "volume_sell": 571940.661601,
+                "buy_ratio": 0.5000000000000001,
+                "sell_ratio": 0.5,
+                "directional_bias": "neutral",
+                "market_impact": "medium",
+                "classification": "whale"
+              },
+              {
+                "address": "7KsDKHDy1g25gKxeMd191yVKDyWJP1W5GYSpG8JQqNP6",
+                "volume": 671504.840025,
+                "trade_count": 23,
+                "avg_trade_size": 29195.86260978261,
+                "volume_buy": 158604.840025,
+                "volume_sell": 512900,
+                "buy_ratio": 0.23619314496541108,
+                "sell_ratio": 0.7638068550345889,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "EFKXN2jX15mT2TSsNkQfvid99eAJjVZNg9uN4GzPULhh",
+                "volume": 564297.728047,
+                "trade_count": 15,
+                "avg_trade_size": 37619.84853646667,
+                "volume_buy": 564297.728047,
+                "volume_sell": 0,
+                "buy_ratio": 1.0,
+                "sell_ratio": 0.0,
+                "directional_bias": "accumulating",
+                "market_impact": "high",
+                "classification": "whale"
+              }
+            ],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "whale_dominated",
+            "whale_dominance": 1.0,
+            "shark_presence": 0.0,
+            "market_control": "institutional",
+            "total_large_trader_volume": 3603941.709102,
+            "whale_count": 7,
+            "shark_count": 0,
+            "concentration_score": 1.0
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "high",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": [
+              "Market dominated by institutional players"
+            ]
+          },
+          "analysis_valid": true
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "JDzPbXbo",
+        "smart_analysis": {
+          "token_address": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+          "analysis_timestamp": "2025-06-18T14:25:22.683058",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 3,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 3
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "low",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No skilled traders detected - exercise caution"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    },
+    {
+      "token_address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+      "timestamp": "2025-06-18T14:25:22.685686",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "353dpYVa8DTG3T6hhowKwZFfetiGhE82T4bbnKZPPJoh",
+            "tags": [],
+            "type": "24h",
+            "volume": 3815.5738845220208,
+            "trade": 66,
+            "tradeBuy": 52,
+            "tradeSell": 14,
+            "volumeBuy": 3454.258171922023,
+            "volumeSell": 361.3157125999978,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "AJcFW7r4gRoKddmKZ7AMMHevg9jqAXDMPfPt1SE1iJRc",
+            "tags": [],
+            "type": "24h",
+            "volume": 2206.077493117034,
+            "trade": 30,
+            "tradeBuy": 29,
+            "tradeSell": 1,
+            "volumeBuy": 473.8721583670338,
+            "volumeSell": 1732.2053347500002,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "GDTq6DCbtGD5ziPafPUuicvfyra1Ae1EJWapbUW1Tb4T",
+            "tags": [],
+            "type": "24h",
+            "volume": 995.9540172900001,
+            "trade": 2,
+            "tradeBuy": 0,
+            "tradeSell": 2,
+            "volumeBuy": 5.684341886080802e-14,
+            "volumeSell": 995.95401729,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "C1hSEhnm64H54DsXpCdMXrNdNZBxz6dSGTPMTT7bVQdr",
+            "tags": [],
+            "type": "24h",
+            "volume": 619.2011820970056,
+            "trade": 1,
+            "tradeBuy": 1,
+            "tradeSell": 0,
+            "volumeBuy": 619.2011820970001,
+            "volumeSell": 5.4569682106375694e-12,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "ChLVNdtHP3aipHMWRgL3AxEXnSKoMSTmCQgFH1QeYmEY",
+            "tags": [],
+            "type": "24h",
+            "volume": 34.244684086999996,
+            "trade": 9,
+            "tradeBuy": 5,
+            "tradeSell": 4,
+            "volumeBuy": 17.728828915000005,
+            "volumeSell": 16.515855171999988,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "A4cJ8BCinXi6GbLFp438rayLKt2jzpo1W4Bcv4HdAH5C",
+            "tags": [],
+            "type": "24h",
+            "volume": 27.95533532,
+            "trade": 1,
+            "tradeBuy": 0,
+            "tradeSell": 1,
+            "volumeBuy": 0,
+            "volumeSell": 27.95533532,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "Fuvc7LWtL9aDjFsHwSZjAe2tvBUwjPLRGR5duDAAiueW",
+            "tags": [],
+            "type": "24h",
+            "volume": 21.02387575,
+            "trade": 1,
+            "tradeBuy": 0,
+            "tradeSell": 1,
+            "volumeBuy": 0,
+            "volumeSell": 21.02387575,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "8sMx9uBSNjJgiqjSLzg5bHMFBEi43gZp4yAEPcvwqyAw",
+            "tags": [],
+            "type": "24h",
+            "volume": 20,
+            "trade": 4,
+            "tradeBuy": 0,
+            "tradeSell": 4,
+            "volumeBuy": 0,
+            "volumeSell": 20,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "3oPVV4BWv7D9vwjzKqh4XxiEuHNYocrw5kuyVwcDcs6B",
+            "tags": [],
+            "type": "24h",
+            "volume": 12.870843524000009,
+            "trade": 2,
+            "tradeBuy": 1,
+            "tradeSell": 1,
+            "volumeBuy": 6.435421762000004,
+            "volumeSell": 6.435421762000004,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+            "owner": "2bhkQ6uVn32ddiG4Fe3DVbLsrExdb3ubaY6i1G4szEmq",
+            "tags": [],
+            "type": "24h",
+            "volume": 12.325491792000044,
+            "trade": 142,
+            "tradeBuy": 142,
+            "tradeSell": 0,
+            "volumeBuy": 12.325491792000035,
+            "volumeSell": 8.049116928532385e-15,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "Bybit2vB",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 7765.22680749906,
+        "whale_candidates": [],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "353dpYVa",
+            "volume_24h": 3815.5738845220208,
+            "volume_usd": 3815.5738845220208,
+            "trade_count": 66,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 3454.258171922023,
+            "volume_sell": 361.3157125999978,
+            "trade_buy": 52,
+            "trade_sell": 14,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 2,
+            "address": "AJcFW7r4",
+            "volume_24h": 2206.077493117034,
+            "volume_usd": 2206.077493117034,
+            "trade_count": 30,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 473.8721583670338,
+            "volume_sell": 1732.2053347500002,
+            "trade_buy": 29,
+            "trade_sell": 1,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 3,
+            "address": "GDTq6DCb",
+            "volume_24h": 995.9540172900001,
+            "volume_usd": 995.9540172900001,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 5.684341886080802e-14,
+            "volume_sell": 995.95401729,
+            "trade_buy": 0,
+            "trade_sell": 2,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 4,
+            "address": "C1hSEhnm",
+            "volume_24h": 619.2011820970056,
+            "volume_usd": 619.2011820970056,
+            "trade_count": 1,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 619.2011820970001,
+            "volume_sell": 5.4569682106375694e-12,
+            "trade_buy": 1,
+            "trade_sell": 0,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 5,
+            "address": "ChLVNdtH",
+            "volume_24h": 34.244684086999996,
+            "volume_usd": 34.244684086999996,
+            "trade_count": 9,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 17.728828915000005,
+            "volume_sell": 16.515855171999988,
+            "trade_buy": 5,
+            "trade_sell": 4,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 6,
+            "address": "A4cJ8BCi",
+            "volume_24h": 27.95533532,
+            "volume_usd": 27.95533532,
+            "trade_count": 1,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 27.95533532,
+            "trade_buy": 0,
+            "trade_sell": 1,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 7,
+            "address": "Fuvc7LWt",
+            "volume_24h": 21.02387575,
+            "volume_usd": 21.02387575,
+            "trade_count": 1,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 21.02387575,
+            "trade_buy": 0,
+            "trade_sell": 1,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 8,
+            "address": "8sMx9uBS",
+            "volume_24h": 20.0,
+            "volume_usd": 20.0,
+            "trade_count": 4,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 20,
+            "trade_buy": 0,
+            "trade_sell": 4,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 9,
+            "address": "3oPVV4BW",
+            "volume_24h": 12.870843524000009,
+            "volume_usd": 12.870843524000009,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 6.435421762000004,
+            "volume_sell": 6.435421762000004,
+            "trade_buy": 1,
+            "trade_sell": 1,
+            "qualifies_as_whale": []
+          },
+          {
+            "rank": 10,
+            "address": "2bhkQ6uV",
+            "volume_24h": 12.325491792000044,
+            "volume_usd": 12.325491792000044,
+            "trade_count": 142,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 12.325491792000035,
+            "volume_sell": 8.049116928532385e-15,
+            "trade_buy": 142,
+            "trade_sell": 0,
+            "qualifies_as_whale": []
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 776.5226807499059,
+        "max_volume": 3815.5738845220208,
+        "min_volume": 12.325491792000044
+      },
+      "whale_detection": {
+        "token": "Bybit2vB",
+        "whale_analysis": {
+          "token_address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+          "analysis_timestamp": 1750271123,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_whales": [],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "unknown",
+            "whale_dominance": 0.0,
+            "shark_presence": 0.0,
+            "market_control": "retail"
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "medium",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": []
+          },
+          "analysis_valid": false
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "Bybit2vB",
+        "smart_analysis": {
+          "token_address": "",
+          "analysis_timestamp": "2025-06-18T14:25:23.221900",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 0,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 0
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "none",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No data available for analysis"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    },
+    {
+      "token_address": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+      "timestamp": "2025-06-18T14:25:23.224490",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+            "tags": [],
+            "type": "24h",
+            "volume": 2972681.3640224617,
+            "trade": 577,
+            "tradeBuy": 210,
+            "tradeSell": 367,
+            "volumeBuy": 1553191.6996044964,
+            "volumeSell": 1419489.6644179653,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS",
+            "tags": [],
+            "type": "24h",
+            "volume": 1704221.0317374836,
+            "trade": 486,
+            "tradeBuy": 222,
+            "tradeSell": 264,
+            "volumeBuy": 919185.0391800033,
+            "volumeSell": 785035.9925574801,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "JDKJLgtv9pqfjTPGuRLS5mQQAuXW9BuVhCUyqnN4FyXU",
+            "tags": [],
+            "type": "24h",
+            "volume": 1418490.294291695,
+            "trade": 34,
+            "tradeBuy": 6,
+            "tradeSell": 28,
+            "volumeBuy": 212766.8595905031,
+            "volumeSell": 1205723.434701192,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ",
+            "tags": [],
+            "type": "24h",
+            "volume": 1259065.368723522,
+            "trade": 685,
+            "tradeBuy": 344,
+            "tradeSell": 341,
+            "volumeBuy": 656167.5201958666,
+            "volumeSell": 602897.8485276554,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
+            "tags": [],
+            "type": "24h",
+            "volume": 692387.9167746056,
+            "trade": 1262,
+            "tradeBuy": 591,
+            "tradeSell": 671,
+            "volumeBuy": 357137.77638779976,
+            "volumeSell": 335250.1403868059,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "AzDByJsGm9gAVQPX8v8WS3iAs3PPdTwZZDDUNP2u5nVj",
+            "tags": [],
+            "type": "24h",
+            "volume": 672554.3342640755,
+            "trade": 144,
+            "tradeBuy": 70,
+            "tradeSell": 74,
+            "volumeBuy": 297430.30925008364,
+            "volumeSell": 375124.02501399186,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "3ycVYaNhpon3DcwGmgbLQxvsi1t1QDVXoU3izpotGMUv",
+            "tags": [],
+            "type": "24h",
+            "volume": 508885.65228100005,
+            "trade": 5,
+            "tradeBuy": 5,
+            "tradeSell": 0,
+            "volumeBuy": 508885.65228100005,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "524X2N4SN1jqHy3c2RdictkQ1tpdXnXqUEEs66d6ih3A",
+            "tags": [],
+            "type": "24h",
+            "volume": 348010.3991956707,
+            "trade": 17,
+            "tradeBuy": 5,
+            "tradeSell": 12,
+            "volumeBuy": 103798.35287406326,
+            "volumeSell": 244212.0463216074,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "D5Zfkkb99YhnurivHDuY43PDmCkn42AVP1xpeRxcFatj",
+            "tags": [],
+            "type": "24h",
+            "volume": 338638.35711910634,
+            "trade": 12,
+            "tradeBuy": 8,
+            "tradeSell": 4,
+            "volumeBuy": 93737.85711910634,
+            "volumeSell": 244900.5,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+            "owner": "Hp5fxe7QfH1wA7zmtysM6cUb4c4wC1sKtFgY4omFQM9h",
+            "tags": [],
+            "type": "24h",
+            "volume": 293728.238424418,
+            "trade": 2,
+            "tradeBuy": 0,
+            "tradeSell": 2,
+            "volumeBuy": 0,
+            "volumeSell": 293728.238424418,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "Hax9LTgs",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 10208662.956834039,
+        "whale_candidates": [
+          {
+            "rank": 1,
+            "address": "MfDuWeqS",
+            "volume_24h": 2972681.3640224617,
+            "volume_usd": 2972681.3640224617,
+            "trade_count": 577,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1553191.6996044964,
+            "volume_sell": 1419489.6644179653,
+            "trade_buy": 210,
+            "trade_sell": 367,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "4GQeEya6",
+            "volume_24h": 1704221.0317374836,
+            "volume_usd": 1704221.0317374836,
+            "trade_count": 486,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 919185.0391800033,
+            "volume_sell": 785035.9925574801,
+            "trade_buy": 222,
+            "trade_sell": 264,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "JDKJLgtv",
+            "volume_24h": 1418490.294291695,
+            "volume_usd": 1418490.294291695,
+            "trade_count": 34,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 212766.8595905031,
+            "volume_sell": 1205723.434701192,
+            "trade_buy": 6,
+            "trade_sell": 28,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "BMnT51N4",
+            "volume_24h": 1259065.368723522,
+            "volume_usd": 1259065.368723522,
+            "trade_count": 685,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 656167.5201958666,
+            "volume_sell": 602897.8485276554,
+            "trade_buy": 344,
+            "trade_sell": 341,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "CsVdJ8WH",
+            "volume_24h": 692387.9167746056,
+            "volume_usd": 692387.9167746056,
+            "trade_count": 1262,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 357137.77638779976,
+            "volume_sell": 335250.1403868059,
+            "trade_buy": 591,
+            "trade_sell": 671,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "AzDByJsG",
+            "volume_24h": 672554.3342640755,
+            "volume_usd": 672554.3342640755,
+            "trade_count": 144,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 297430.30925008364,
+            "volume_sell": 375124.02501399186,
+            "trade_buy": 70,
+            "trade_sell": 74,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "3ycVYaNh",
+            "volume_24h": 508885.65228100005,
+            "volume_usd": 508885.65228100005,
+            "trade_count": 5,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 508885.65228100005,
+            "volume_sell": 0,
+            "trade_buy": 5,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "524X2N4S",
+            "volume_24h": 348010.3991956707,
+            "volume_usd": 348010.3991956707,
+            "trade_count": 17,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 103798.35287406326,
+            "volume_sell": 244212.0463216074,
+            "trade_buy": 5,
+            "trade_sell": 12,
+            "qualifies_as_whale": [
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "D5Zfkkb9",
+            "volume_24h": 338638.35711910634,
+            "volume_usd": 338638.35711910634,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 93737.85711910634,
+            "volume_sell": 244900.5,
+            "trade_buy": 8,
+            "trade_sell": 4,
+            "qualifies_as_whale": [
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "Hp5fxe7Q",
+            "volume_24h": 293728.238424418,
+            "volume_usd": 293728.238424418,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 293728.238424418,
+            "trade_buy": 0,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "MfDuWeqS",
+            "volume_24h": 2972681.3640224617,
+            "volume_usd": 2972681.3640224617,
+            "trade_count": 577,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1553191.6996044964,
+            "volume_sell": 1419489.6644179653,
+            "trade_buy": 210,
+            "trade_sell": 367,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "4GQeEya6",
+            "volume_24h": 1704221.0317374836,
+            "volume_usd": 1704221.0317374836,
+            "trade_count": 486,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 919185.0391800033,
+            "volume_sell": 785035.9925574801,
+            "trade_buy": 222,
+            "trade_sell": 264,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "JDKJLgtv",
+            "volume_24h": 1418490.294291695,
+            "volume_usd": 1418490.294291695,
+            "trade_count": 34,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 212766.8595905031,
+            "volume_sell": 1205723.434701192,
+            "trade_buy": 6,
+            "trade_sell": 28,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "BMnT51N4",
+            "volume_24h": 1259065.368723522,
+            "volume_usd": 1259065.368723522,
+            "trade_count": 685,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 656167.5201958666,
+            "volume_sell": 602897.8485276554,
+            "trade_buy": 344,
+            "trade_sell": 341,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "CsVdJ8WH",
+            "volume_24h": 692387.9167746056,
+            "volume_usd": 692387.9167746056,
+            "trade_count": 1262,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 357137.77638779976,
+            "volume_sell": 335250.1403868059,
+            "trade_buy": 591,
+            "trade_sell": 671,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "AzDByJsG",
+            "volume_24h": 672554.3342640755,
+            "volume_usd": 672554.3342640755,
+            "trade_count": 144,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 297430.30925008364,
+            "volume_sell": 375124.02501399186,
+            "trade_buy": 70,
+            "trade_sell": 74,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "3ycVYaNh",
+            "volume_24h": 508885.65228100005,
+            "volume_usd": 508885.65228100005,
+            "trade_count": 5,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 508885.65228100005,
+            "volume_sell": 0,
+            "trade_buy": 5,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "524X2N4S",
+            "volume_24h": 348010.3991956707,
+            "volume_usd": 348010.3991956707,
+            "trade_count": 17,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 103798.35287406326,
+            "volume_sell": 244212.0463216074,
+            "trade_buy": 5,
+            "trade_sell": 12,
+            "qualifies_as_whale": [
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "D5Zfkkb9",
+            "volume_24h": 338638.35711910634,
+            "volume_usd": 338638.35711910634,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 93737.85711910634,
+            "volume_sell": 244900.5,
+            "trade_buy": 8,
+            "trade_sell": 4,
+            "qualifies_as_whale": [
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "Hp5fxe7Q",
+            "volume_24h": 293728.238424418,
+            "volume_usd": 293728.238424418,
+            "trade_count": 2,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 293728.238424418,
+            "trade_buy": 0,
+            "trade_sell": 2,
+            "qualifies_as_whale": [
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 1020866.2956834038,
+        "max_volume": 2972681.3640224617,
+        "min_volume": 293728.238424418
+      },
+      "whale_detection": {
+        "token": "Hax9LTgs",
+        "whale_analysis": {
+          "token_address": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+          "analysis_timestamp": 1750271123,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 9,
+            "total_volume": 9516275.040059434,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.457,
+              "sell_ratio": 0.543,
+              "activity_level": "very_high",
+              "total_volume": 9516275.040059434,
+              "avg_trader_volume": 1057363.893339937,
+              "dominant_action": "mixed"
+            },
+            "top_whales": [
+              {
+                "address": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+                "volume": 2972681.3640224617,
+                "trade_count": 577,
+                "avg_trade_size": 5151.960769536328,
+                "volume_buy": 1553191.6996044964,
+                "volume_sell": 1419489.6644179653,
+                "buy_ratio": 0.522488457189642,
+                "sell_ratio": 0.47751154281035807,
+                "directional_bias": "neutral",
+                "market_impact": "medium",
+                "classification": "whale"
+              },
+              {
+                "address": "4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS",
+                "volume": 1704221.0317374836,
+                "trade_count": 486,
+                "avg_trade_size": 3506.6276373199253,
+                "volume_buy": 919185.0391800033,
+                "volume_sell": 785035.9925574801,
+                "buy_ratio": 0.539357877917325,
+                "sell_ratio": 0.4606421220826749,
+                "directional_bias": "neutral",
+                "market_impact": "low",
+                "classification": "whale"
+              },
+              {
+                "address": "JDKJLgtv9pqfjTPGuRLS5mQQAuXW9BuVhCUyqnN4FyXU",
+                "volume": 1418490.294291695,
+                "trade_count": 34,
+                "avg_trade_size": 41720.30277328515,
+                "volume_buy": 212766.8595905031,
+                "volume_sell": 1205723.434701192,
+                "buy_ratio": 0.1499952875579917,
+                "sell_ratio": 0.8500047124420083,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              }
+            ],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "whale_dominated",
+            "whale_dominance": 1.0,
+            "shark_presence": 0.0,
+            "market_control": "institutional",
+            "total_large_trader_volume": 9516275.040059434,
+            "whale_count": 9,
+            "shark_count": 0,
+            "concentration_score": 1.0
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "high",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": [
+              "Market dominated by institutional players"
+            ]
+          },
+          "analysis_valid": true
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "Hax9LTgs",
+        "smart_analysis": {
+          "token_address": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+          "analysis_timestamp": "2025-06-18T14:25:23.542902",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 3,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 3
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "low",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No skilled traders detected - exercise caution"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    },
+    {
+      "token_address": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+      "timestamp": "2025-06-18T14:25:23.543247",
+      "raw_data": {
+        "data": [
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "CzVQdofvocU3Tk2F4qiswvqybPhu4g2DvX2Z4QLHFxJ7",
+            "tags": [],
+            "type": "24h",
+            "volume": 3383738.062927627,
+            "trade": 12,
+            "tradeBuy": 0,
+            "tradeSell": 12,
+            "volumeBuy": 0,
+            "volumeSell": 3383738.062927627,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "GCvHhEUYQwTJ8jyf8Lc4bv8jBXyZU4LMMsZCobwEPzvM",
+            "tags": [],
+            "type": "24h",
+            "volume": 2669390.6289747893,
+            "trade": 132,
+            "tradeBuy": 40,
+            "tradeSell": 92,
+            "volumeBuy": 254672.89506268647,
+            "volumeSell": 2414717.733912103,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "3aSfUCnZ5GgifrffHhynq2BR4EWdDRFrQRTseZBhPAEH",
+            "tags": [],
+            "type": "24h",
+            "volume": 2592845.836014794,
+            "trade": 12,
+            "tradeBuy": 12,
+            "tradeSell": 0,
+            "volumeBuy": 2592845.836014794,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "HV1KXxWFaSeriyFvXyx48FqG9BoFbfinB8njCJonqP7K",
+            "tags": [],
+            "type": "24h",
+            "volume": 2279433.076765399,
+            "trade": 100,
+            "tradeBuy": 100,
+            "tradeSell": 0,
+            "volumeBuy": 2279433.076765399,
+            "volumeSell": 1.4551915228366852e-11,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "EaCKeQFDpt8iJPbF673HhuJBVkNmSU9Kx2L7AsjSkuXb",
+            "tags": [],
+            "type": "24h",
+            "volume": 2251775.789436351,
+            "trade": 19,
+            "tradeBuy": 13,
+            "tradeSell": 6,
+            "volumeBuy": 1191879.1866095248,
+            "volumeSell": 1059896.6028268263,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "7dGrdJRYtsNR8UYxZ3TnifXGjGc9eRYLq9sELwYpuuUu",
+            "tags": [],
+            "type": "24h",
+            "volume": 1908122.2468823446,
+            "trade": 67,
+            "tradeBuy": 33,
+            "tradeSell": 34,
+            "volumeBuy": 954061.1738246407,
+            "volumeSell": 954061.073057704,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "5BxLAM2JPx39kdnEtLeKjdwPXnhb5U6oMPEhrc1Y283t",
+            "tags": [],
+            "type": "24h",
+            "volume": 1855069.4807724084,
+            "trade": 140,
+            "tradeBuy": 140,
+            "tradeSell": 0,
+            "volumeBuy": 1855069.4807724084,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "JD1dHSqYkrXvqUVL8s6gzL1yB7kpYymsHfwsGxgwp55h",
+            "tags": [],
+            "type": "24h",
+            "volume": 1742619.3070754528,
+            "trade": 141,
+            "tradeBuy": 141,
+            "tradeSell": 0,
+            "volumeBuy": 1742619.307075448,
+            "volumeSell": 4.700268618762493e-09,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "7b6zbKiTPZJrtmusNi3KEy3U25dmkStQWcZTAzE58K3Y",
+            "tags": [],
+            "type": "24h",
+            "volume": 1269941.8291964289,
+            "trade": 8,
+            "tradeBuy": 3,
+            "tradeSell": 5,
+            "volumeBuy": 635523.820321894,
+            "volumeSell": 634418.008874535,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          },
+          {
+            "tokenAddress": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+            "owner": "6zwy22huAQWvESfWmgd1EQptWkhgasc6ZefharvpggHJ",
+            "tags": [],
+            "type": "24h",
+            "volume": 1253627.9669946712,
+            "trade": 6,
+            "tradeBuy": 6,
+            "tradeSell": 0,
+            "volumeBuy": 1253627.9669946712,
+            "volumeSell": 0,
+            "query_timeframe": "24h",
+            "query_sort_by": "volume",
+            "query_sort_type": "desc",
+            "api_endpoint": "/defi/v2/tokens/top_traders"
+          }
+        ]
+      },
+      "trader_analysis": {
+        "token": "fRfKGCri",
+        "total_traders": 10,
+        "traders_with_volume": 10,
+        "total_volume": 21206564.225040272,
+        "whale_candidates": [
+          {
+            "rank": 1,
+            "address": "CzVQdofv",
+            "volume_24h": 3383738.062927627,
+            "volume_usd": 3383738.062927627,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 3383738.062927627,
+            "trade_buy": 0,
+            "trade_sell": 12,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "GCvHhEUY",
+            "volume_24h": 2669390.6289747893,
+            "volume_usd": 2669390.6289747893,
+            "trade_count": 132,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 254672.89506268647,
+            "volume_sell": 2414717.733912103,
+            "trade_buy": 40,
+            "trade_sell": 92,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "3aSfUCnZ",
+            "volume_24h": 2592845.836014794,
+            "volume_usd": 2592845.836014794,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2592845.836014794,
+            "volume_sell": 0,
+            "trade_buy": 12,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "HV1KXxWF",
+            "volume_24h": 2279433.076765399,
+            "volume_usd": 2279433.076765399,
+            "trade_count": 100,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2279433.076765399,
+            "volume_sell": 1.4551915228366852e-11,
+            "trade_buy": 100,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "EaCKeQFD",
+            "volume_24h": 2251775.789436351,
+            "volume_usd": 2251775.789436351,
+            "trade_count": 19,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1191879.1866095248,
+            "volume_sell": 1059896.6028268263,
+            "trade_buy": 13,
+            "trade_sell": 6,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "7dGrdJRY",
+            "volume_24h": 1908122.2468823446,
+            "volume_usd": 1908122.2468823446,
+            "trade_count": 67,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 954061.1738246407,
+            "volume_sell": 954061.073057704,
+            "trade_buy": 33,
+            "trade_sell": 34,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "5BxLAM2J",
+            "volume_24h": 1855069.4807724084,
+            "volume_usd": 1855069.4807724084,
+            "trade_count": 140,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1855069.4807724084,
+            "volume_sell": 0,
+            "trade_buy": 140,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "JD1dHSqY",
+            "volume_24h": 1742619.3070754528,
+            "volume_usd": 1742619.3070754528,
+            "trade_count": 141,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1742619.307075448,
+            "volume_sell": 4.700268618762493e-09,
+            "trade_buy": 141,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "7b6zbKiT",
+            "volume_24h": 1269941.8291964289,
+            "volume_usd": 1269941.8291964289,
+            "trade_count": 8,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 635523.820321894,
+            "volume_sell": 634418.008874535,
+            "trade_buy": 3,
+            "trade_sell": 5,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "6zwy22hu",
+            "volume_24h": 1253627.9669946712,
+            "volume_usd": 1253627.9669946712,
+            "trade_count": 6,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1253627.9669946712,
+            "volume_sell": 0,
+            "trade_buy": 6,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "volume_distribution": [
+          {
+            "rank": 1,
+            "address": "CzVQdofv",
+            "volume_24h": 3383738.062927627,
+            "volume_usd": 3383738.062927627,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 0,
+            "volume_sell": 3383738.062927627,
+            "trade_buy": 0,
+            "trade_sell": 12,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 2,
+            "address": "GCvHhEUY",
+            "volume_24h": 2669390.6289747893,
+            "volume_usd": 2669390.6289747893,
+            "trade_count": 132,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 254672.89506268647,
+            "volume_sell": 2414717.733912103,
+            "trade_buy": 40,
+            "trade_sell": 92,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 3,
+            "address": "3aSfUCnZ",
+            "volume_24h": 2592845.836014794,
+            "volume_usd": 2592845.836014794,
+            "trade_count": 12,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2592845.836014794,
+            "volume_sell": 0,
+            "trade_buy": 12,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 4,
+            "address": "HV1KXxWF",
+            "volume_24h": 2279433.076765399,
+            "volume_usd": 2279433.076765399,
+            "trade_count": 100,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 2279433.076765399,
+            "volume_sell": 1.4551915228366852e-11,
+            "trade_buy": 100,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 5,
+            "address": "EaCKeQFD",
+            "volume_24h": 2251775.789436351,
+            "volume_usd": 2251775.789436351,
+            "trade_count": 19,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1191879.1866095248,
+            "volume_sell": 1059896.6028268263,
+            "trade_buy": 13,
+            "trade_sell": 6,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 6,
+            "address": "7dGrdJRY",
+            "volume_24h": 1908122.2468823446,
+            "volume_usd": 1908122.2468823446,
+            "trade_count": 67,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 954061.1738246407,
+            "volume_sell": 954061.073057704,
+            "trade_buy": 33,
+            "trade_sell": 34,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 7,
+            "address": "5BxLAM2J",
+            "volume_24h": 1855069.4807724084,
+            "volume_usd": 1855069.4807724084,
+            "trade_count": 140,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1855069.4807724084,
+            "volume_sell": 0,
+            "trade_buy": 140,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 8,
+            "address": "JD1dHSqY",
+            "volume_24h": 1742619.3070754528,
+            "volume_usd": 1742619.3070754528,
+            "trade_count": 141,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1742619.307075448,
+            "volume_sell": 4.700268618762493e-09,
+            "trade_buy": 141,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 9,
+            "address": "7b6zbKiT",
+            "volume_24h": 1269941.8291964289,
+            "volume_usd": 1269941.8291964289,
+            "trade_count": 8,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 635523.820321894,
+            "volume_sell": 634418.008874535,
+            "trade_buy": 3,
+            "trade_sell": 5,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          },
+          {
+            "rank": 10,
+            "address": "6zwy22hu",
+            "volume_24h": 1253627.9669946712,
+            "volume_usd": 1253627.9669946712,
+            "trade_count": 6,
+            "pnl": 0,
+            "pnl_percentage": 0,
+            "volume_buy": 1253627.9669946712,
+            "volume_sell": 0,
+            "trade_buy": 6,
+            "trade_sell": 0,
+            "qualifies_as_whale": [
+              "Level 1",
+              "Level 2",
+              "Level 3",
+              "Level 4",
+              "Level 5"
+            ]
+          }
+        ],
+        "data_quality_issues": [],
+        "avg_volume": 2120656.4225040274,
+        "max_volume": 3383738.062927627,
+        "min_volume": 1253627.9669946712
+      },
+      "whale_detection": {
+        "token": "fRfKGCri",
+        "whale_analysis": {
+          "token_address": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+          "analysis_timestamp": 1750271123,
+          "api_efficiency": {
+            "api_calls_used": 1,
+            "max_calls_allowed": 2,
+            "efficiency_rating": "excellent",
+            "timeframes_analyzed": [
+              "24h"
+            ]
+          },
+          "whale_analysis": {
+            "count": 10,
+            "total_volume": 21206564.225040272,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.602,
+              "sell_ratio": 0.398,
+              "activity_level": "very_high",
+              "total_volume": 21206564.225040272,
+              "avg_trader_volume": 2120656.4225040274,
+              "dominant_action": "buying"
+            },
+            "top_whales": [
+              {
+                "address": "CzVQdofvocU3Tk2F4qiswvqybPhu4g2DvX2Z4QLHFxJ7",
+                "volume": 3383738.062927627,
+                "trade_count": 12,
+                "avg_trade_size": 281978.1719106356,
+                "volume_buy": 0,
+                "volume_sell": 3383738.062927627,
+                "buy_ratio": 0.0,
+                "sell_ratio": 1.0,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "GCvHhEUYQwTJ8jyf8Lc4bv8jBXyZU4LMMsZCobwEPzvM",
+                "volume": 2669390.6289747893,
+                "trade_count": 132,
+                "avg_trade_size": 20222.65628011204,
+                "volume_buy": 254672.89506268647,
+                "volume_sell": 2414717.733912103,
+                "buy_ratio": 0.09540488091115258,
+                "sell_ratio": 0.9045951190888475,
+                "directional_bias": "distributing",
+                "market_impact": "high",
+                "classification": "whale"
+              },
+              {
+                "address": "3aSfUCnZ5GgifrffHhynq2BR4EWdDRFrQRTseZBhPAEH",
+                "volume": 2592845.836014794,
+                "trade_count": 12,
+                "avg_trade_size": 216070.48633456617,
+                "volume_buy": 2592845.836014794,
+                "volume_sell": 0,
+                "buy_ratio": 1.0,
+                "sell_ratio": 0.0,
+                "directional_bias": "accumulating",
+                "market_impact": "high",
+                "classification": "whale"
+              }
+            ],
+            "collective_bias": "neutral"
+          },
+          "shark_analysis": {
+            "count": 0,
+            "total_volume": 0,
+            "movement_pattern": {
+              "directional_bias": "neutral",
+              "buy_ratio": 0.0,
+              "sell_ratio": 0.0,
+              "activity_level": "none"
+            },
+            "top_sharks": [],
+            "collective_bias": "neutral"
+          },
+          "market_structure": {
+            "structure_type": "whale_dominated",
+            "whale_dominance": 1.0,
+            "shark_presence": 0.0,
+            "market_control": "institutional",
+            "total_large_trader_volume": 21206564.225040272,
+            "whale_count": 10,
+            "shark_count": 0,
+            "concentration_score": 1.0
+          },
+          "trading_insights": {
+            "signals": [],
+            "risk_assessment": "high",
+            "confidence_level": "medium",
+            "recommended_action": "monitor",
+            "key_observations": [
+              "Market dominated by institutional players"
+            ]
+          },
+          "analysis_valid": true
+        },
+        "whale_count": 0,
+        "whale_volume": 0
+      },
+      "smart_money_detection": {
+        "token": "fRfKGCri",
+        "smart_analysis": {
+          "token_address": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+          "analysis_timestamp": "2025-06-18T14:25:23.871438",
+          "skilled_traders": [],
+          "skill_metrics": {
+            "total_analyzed": 3,
+            "skilled_count": 0,
+            "average_skill_score": 0.0,
+            "skill_distribution": {
+              "high": 0,
+              "medium": 0,
+              "low": 3
+            }
+          },
+          "smart_money_insights": {
+            "smart_money_present": false,
+            "skill_quality": "low",
+            "trader_sophistication": "none",
+            "market_sentiment": "neutral",
+            "risk_assessment": "unknown",
+            "recommendations": [
+              "No skilled traders detected - exercise caution"
+            ]
+          },
+          "data_source": "whale_shark_tracker",
+          "additional_api_calls": 0
+        },
+        "smart_trader_count": 0,
+        "avg_skill_score": 0
+      }
+    }
+  ],
+  "recommendations": {
+    "current_market_reality": {
+      "avg_total_volume": 24084801.859891977,
+      "max_total_volume": 59673752.961443,
+      "min_total_volume": 7765.22680749906,
+      "avg_whale_count": 4.615384615384615,
+      "max_whale_count": 10,
+      "avg_smart_trader_count": 0.0,
+      "max_smart_trader_count": 0
+    },
+    "suggested_thresholds": {
+      "min_whale_volume": 2408480,
+      "min_smart_traders": 1
+    },
+    "data_insights": [
+      "Average total volume: $24,084,802",
+      "Suggested whale threshold: $2,408,480"
+    ]
+  }
+}

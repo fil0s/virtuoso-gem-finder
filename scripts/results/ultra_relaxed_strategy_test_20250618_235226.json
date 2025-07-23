@@ -1,0 +1,144 @@
+{
+  "test_metadata": {
+    "timestamp": 1750305146,
+    "test_date": "2025-06-18T23:52:26",
+    "scan_id": "ultra_relaxed_test_1750305146",
+    "configuration_level": "ultra_relaxed"
+  },
+  "strategy_results": {
+    "Recent Listings Strategy": {
+      "success": true,
+      "tokens_found": 0,
+      "execution_time": 85.52424383163452,
+      "api_calls_made": 46,
+      "tokens_per_api_call": 0.0,
+      "config_applied": {
+        "api_parameters": {
+          "sort_by": "created_time",
+          "sort_type": "desc",
+          "min_liquidity": 5000,
+          "min_volume_24h_usd": 1000,
+          "min_holder": 25,
+          "limit": 50
+        },
+        "min_consecutive_appearances": 1,
+        "processing_relaxations": {
+          "age_limit_hours": 168,
+          "holder_concentration_threshold": 0.8,
+          "min_trade_count": 5,
+          "suspicious_volume_multiplier": 15.0
+        }
+      },
+      "sample_tokens": []
+    },
+    "Price Momentum Strategy": {
+      "success": true,
+      "tokens_found": 0,
+      "execution_time": 139.53492784500122,
+      "api_calls_made": 53,
+      "tokens_per_api_call": 0.0,
+      "config_applied": {
+        "api_parameters": {
+          "sort_by": "price_change_24h_percent",
+          "sort_type": "desc",
+          "min_liquidity": 10000,
+          "min_volume_24h_usd": 5000,
+          "min_holder": 50,
+          "limit": 50
+        },
+        "min_consecutive_appearances": 1,
+        "processing_relaxations": {
+          "min_price_change": 5.0,
+          "max_price_change": 2000.0,
+          "holder_concentration_threshold": 0.8,
+          "suspicious_volume_multiplier": 15.0
+        }
+      },
+      "sample_tokens": []
+    },
+    "Liquidity Growth Strategy": {
+      "success": true,
+      "tokens_found": 0,
+      "execution_time": 0.0005240440368652344,
+      "api_calls_made": 0,
+      "tokens_per_api_call": 0,
+      "config_applied": {
+        "api_parameters": {
+          "sort_by": "liquidity",
+          "sort_type": "desc",
+          "min_liquidity": 15000,
+          "min_volume_24h_usd": 8000,
+          "min_holder": 75,
+          "limit": 50
+        },
+        "min_consecutive_appearances": 1,
+        "processing_relaxations": {
+          "min_liquidity_growth": 10.0,
+          "min_market_cap": 50000,
+          "holder_concentration_threshold": 0.8,
+          "suspicious_volume_multiplier": 15.0
+        }
+      },
+      "sample_tokens": []
+    },
+    "Smart Money Whale Strategy": {
+      "success": true,
+      "tokens_found": 0,
+      "execution_time": 2.3319787979125977,
+      "api_calls_made": 5,
+      "tokens_per_api_call": 0.0,
+      "config_applied": {
+        "api_parameters": {
+          "sort_by": "volume_24h",
+          "sort_type": "desc",
+          "min_liquidity": 20000,
+          "min_volume_24h_usd": 15000,
+          "min_holder": 100,
+          "limit": 50
+        },
+        "min_consecutive_appearances": 1,
+        "processing_relaxations": {
+          "min_whale_threshold": 5000,
+          "min_smart_money_score": 0.1,
+          "min_trader_count": 3,
+          "holder_concentration_threshold": 0.8,
+          "suspicious_volume_multiplier": 15.0
+        }
+      },
+      "sample_tokens": []
+    }
+  },
+  "summary": {
+    "total_strategies_tested": 4,
+    "successful_strategies": 0,
+    "total_tokens_found": 0,
+    "success_rate": 0.0,
+    "avg_tokens_per_successful_strategy": 0,
+    "improvement_analysis": {
+      "Recent Listings Strategy": {
+        "previous": 0,
+        "current": 0,
+        "improvement": "No improvement",
+        "status": "NEEDS_MORE_WORK"
+      },
+      "Price Momentum Strategy": {
+        "previous": 0,
+        "current": 0,
+        "improvement": "No improvement",
+        "status": "NEEDS_MORE_WORK"
+      },
+      "Liquidity Growth Strategy": {
+        "previous": 0,
+        "current": 0,
+        "improvement": "No improvement",
+        "status": "NEEDS_MORE_WORK"
+      },
+      "Smart Money Whale Strategy": {
+        "previous": 0,
+        "current": 0,
+        "improvement": "No improvement",
+        "status": "NEEDS_MORE_WORK"
+      }
+    }
+  }
+}

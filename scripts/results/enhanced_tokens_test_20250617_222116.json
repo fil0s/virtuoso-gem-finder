@@ -1,0 +1,645 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-06-17T22:20:54.298674",
+    "tokens_tested": 6,
+    "config_used": "config/config.enhanced.yaml"
+  },
+  "trending_analysis": {
+    "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump": {
+      "is_trending": false,
+      "trending_rank": 0,
+      "trending_score": 0.0,
+      "momentum_metrics": {},
+      "score_boost": 1.0
+    },
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "is_trending": false,
+      "trending_rank": 0,
+      "trending_score": 0.0,
+      "momentum_metrics": {},
+      "score_boost": 1.0
+    },
+    "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+      "is_trending": false,
+      "trending_rank": 0,
+      "trending_score": 0.0,
+      "momentum_metrics": {},
+      "score_boost": 1.0
+    },
+    "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump": {
+      "is_trending": false,
+      "trending_rank": 0,
+      "trending_score": 0.0,
+      "momentum_metrics": {},
+      "score_boost": 1.0
+    },
+    "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+      "is_trending": false,
+      "trending_rank": 0,
+      "trending_score": 0.0,
+      "momentum_metrics": {},
+      "score_boost": 1.0
+    },
+    "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump": {
+      "is_trending": false,
+      "trending_rank": 0,
+      "trending_score": 0.0,
+      "momentum_metrics": {},
+      "score_boost": 1.0
+    }
+  },
+  "smart_money_analysis": {
+    "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump": {
+      "token_address": "",
+      "analysis_timestamp": 1750213257,
+      "total_traders_analyzed": 0,
+      "smart_traders_count": 0,
+      "smart_money_ratio": 0.0,
+      "smart_money_level": "unknown",
+      "score_boost": 1.0,
+      "aggregate_metrics": {
+        "avg_quality_score": 0.0,
+        "avg_win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_volume": 0.0,
+        "quality_distribution": {
+          "exceptional": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "poor": 0
+        }
+      },
+      "smart_traders": [],
+      "validation_passed": false
+    },
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "token_address": "",
+      "analysis_timestamp": 1750213258,
+      "total_traders_analyzed": 0,
+      "smart_traders_count": 0,
+      "smart_money_ratio": 0.0,
+      "smart_money_level": "unknown",
+      "score_boost": 1.0,
+      "aggregate_metrics": {
+        "avg_quality_score": 0.0,
+        "avg_win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_volume": 0.0,
+        "quality_distribution": {
+          "exceptional": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "poor": 0
+        }
+      },
+      "smart_traders": [],
+      "validation_passed": false
+    },
+    "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+      "token_address": "",
+      "analysis_timestamp": 1750213259,
+      "total_traders_analyzed": 0,
+      "smart_traders_count": 0,
+      "smart_money_ratio": 0.0,
+      "smart_money_level": "unknown",
+      "score_boost": 1.0,
+      "aggregate_metrics": {
+        "avg_quality_score": 0.0,
+        "avg_win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_volume": 0.0,
+        "quality_distribution": {
+          "exceptional": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "poor": 0
+        }
+      },
+      "smart_traders": [],
+      "validation_passed": false
+    },
+    "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump": {
+      "token_address": "",
+      "analysis_timestamp": 1750213260,
+      "total_traders_analyzed": 0,
+      "smart_traders_count": 0,
+      "smart_money_ratio": 0.0,
+      "smart_money_level": "unknown",
+      "score_boost": 1.0,
+      "aggregate_metrics": {
+        "avg_quality_score": 0.0,
+        "avg_win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_volume": 0.0,
+        "quality_distribution": {
+          "exceptional": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "poor": 0
+        }
+      },
+      "smart_traders": [],
+      "validation_passed": false
+    },
+    "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+      "token_address": "",
+      "analysis_timestamp": 1750213261,
+      "total_traders_analyzed": 0,
+      "smart_traders_count": 0,
+      "smart_money_ratio": 0.0,
+      "smart_money_level": "unknown",
+      "score_boost": 1.0,
+      "aggregate_metrics": {
+        "avg_quality_score": 0.0,
+        "avg_win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_volume": 0.0,
+        "quality_distribution": {
+          "exceptional": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "poor": 0
+        }
+      },
+      "smart_traders": [],
+      "validation_passed": false
+    },
+    "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump": {
+      "token_address": "",
+      "analysis_timestamp": 1750213262,
+      "total_traders_analyzed": 0,
+      "smart_traders_count": 0,
+      "smart_money_ratio": 0.0,
+      "smart_money_level": "unknown",
+      "score_boost": 1.0,
+      "aggregate_metrics": {
+        "avg_quality_score": 0.0,
+        "avg_win_rate": 0.0,
+        "total_pnl": 0.0,
+        "total_volume": 0.0,
+        "quality_distribution": {
+          "exceptional": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "poor": 0
+        }
+      },
+      "smart_traders": [],
+      "validation_passed": false
+    }
+  },
+  "holder_distribution_analysis": {
+    "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump": {
+      "token_address": "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump",
+      "analysis_timestamp": 1750213268,
+      "total_holders": 0,
+      "total_supply_analyzed": 0,
+      "concentration_metrics": {
+        "top_1_holder_pct": 0,
+        "top_5_holders_pct": 0,
+        "top_10_holders_pct": 0,
+        "top_20_holders_pct": 0,
+        "herfindahl_index": 0,
+        "concentration_level": "unknown"
+      },
+      "gini_coefficient": 0.0,
+      "whale_analysis": {
+        "whale_count": 0,
+        "whale_dominance_pct": 0,
+        "largest_whale_pct": 0,
+        "whale_risk_level": "unknown",
+        "whale_threshold_pct": 1.0,
+        "average_whale_holding": 0
+      },
+      "distribution_quality": {
+        "holder_count": 0,
+        "mean_holding": 0,
+        "median_holding": 0,
+        "std_deviation": 0,
+        "coefficient_of_variation": 0,
+        "holder_adequacy": "insufficient",
+        "distribution_score": 0,
+        "quality_level": "poor"
+      },
+      "risk_assessment": {
+        "overall_risk_score": 100,
+        "risk_level": "unknown",
+        "concentration_risk": 100,
+        "inequality_risk": 100,
+        "whale_risk": 100,
+        "holder_count_risk": 100,
+        "risk_factors": [
+          "no_data"
+        ],
+        "is_high_risk": true,
+        "recommendation": "avoid"
+      },
+      "score_adjustment": {
+        "score_multiplier": 0.5,
+        "adjustment_reason": "no_data",
+        "base_adjustment": 0.5,
+        "final_adjustment": 0.5,
+        "risk_level": "unknown"
+      },
+      "holder_categories": {
+        "whale_holders": 0,
+        "large_holders": 0,
+        "medium_holders": 0,
+        "small_holders": 0,
+        "whale_dominance": 0,
+        "large_holder_share": 0,
+        "retail_share": 0
+      },
+      "distribution_warnings": [
+        "No holder data available"
+      ],
+      "validation_passed": false
+    },
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "token_address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+      "analysis_timestamp": 1750213269,
+      "total_holders": 0,
+      "total_supply_analyzed": 0,
+      "concentration_metrics": {
+        "top_1_holder_pct": 0,
+        "top_5_holders_pct": 0,
+        "top_10_holders_pct": 0,
+        "top_20_holders_pct": 0,
+        "herfindahl_index": 0,
+        "concentration_level": "unknown"
+      },
+      "gini_coefficient": 0.0,
+      "whale_analysis": {
+        "whale_count": 0,
+        "whale_dominance_pct": 0,
+        "largest_whale_pct": 0,
+        "whale_risk_level": "unknown",
+        "whale_threshold_pct": 1.0,
+        "average_whale_holding": 0
+      },
+      "distribution_quality": {
+        "holder_count": 0,
+        "mean_holding": 0,
+        "median_holding": 0,
+        "std_deviation": 0,
+        "coefficient_of_variation": 0,
+        "holder_adequacy": "insufficient",
+        "distribution_score": 0,
+        "quality_level": "poor"
+      },
+      "risk_assessment": {
+        "overall_risk_score": 100,
+        "risk_level": "unknown",
+        "concentration_risk": 100,
+        "inequality_risk": 100,
+        "whale_risk": 100,
+        "holder_count_risk": 100,
+        "risk_factors": [
+          "no_data"
+        ],
+        "is_high_risk": true,
+        "recommendation": "avoid"
+      },
+      "score_adjustment": {
+        "score_multiplier": 0.5,
+        "adjustment_reason": "no_data",
+        "base_adjustment": 0.5,
+        "final_adjustment": 0.5,
+        "risk_level": "unknown"
+      },
+      "holder_categories": {
+        "whale_holders": 0,
+        "large_holders": 0,
+        "medium_holders": 0,
+        "small_holders": 0,
+        "whale_dominance": 0,
+        "large_holder_share": 0,
+        "retail_share": 0
+      },
+      "distribution_warnings": [
+        "No holder data available"
+      ],
+      "validation_passed": false
+    },
+    "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+      "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+      "analysis_timestamp": 1750213271,
+      "total_holders": 0,
+      "total_supply_analyzed": 0,
+      "concentration_metrics": {
+        "top_1_holder_pct": 0,
+        "top_5_holders_pct": 0,
+        "top_10_holders_pct": 0,
+        "top_20_holders_pct": 0,
+        "herfindahl_index": 0,
+        "concentration_level": "unknown"
+      },
+      "gini_coefficient": 0.0,
+      "whale_analysis": {
+        "whale_count": 0,
+        "whale_dominance_pct": 0,
+        "largest_whale_pct": 0,
+        "whale_risk_level": "unknown",
+        "whale_threshold_pct": 1.0,
+        "average_whale_holding": 0
+      },
+      "distribution_quality": {
+        "holder_count": 0,
+        "mean_holding": 0,
+        "median_holding": 0,
+        "std_deviation": 0,
+        "coefficient_of_variation": 0,
+        "holder_adequacy": "insufficient",
+        "distribution_score": 0,
+        "quality_level": "poor"
+      },
+      "risk_assessment": {
+        "overall_risk_score": 100,
+        "risk_level": "unknown",
+        "concentration_risk": 100,
+        "inequality_risk": 100,
+        "whale_risk": 100,
+        "holder_count_risk": 100,
+        "risk_factors": [
+          "no_data"
+        ],
+        "is_high_risk": true,
+        "recommendation": "avoid"
+      },
+      "score_adjustment": {
+        "score_multiplier": 0.5,
+        "adjustment_reason": "no_data",
+        "base_adjustment": 0.5,
+        "final_adjustment": 0.5,
+        "risk_level": "unknown"
+      },
+      "holder_categories": {
+        "whale_holders": 0,
+        "large_holders": 0,
+        "medium_holders": 0,
+        "small_holders": 0,
+        "whale_dominance": 0,
+        "large_holder_share": 0,
+        "retail_share": 0
+      },
+      "distribution_warnings": [
+        "No holder data available"
+      ],
+      "validation_passed": false
+    },
+    "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump": {
+      "token_address": "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump",
+      "analysis_timestamp": 1750213272,
+      "total_holders": 0,
+      "total_supply_analyzed": 0,
+      "concentration_metrics": {
+        "top_1_holder_pct": 0,
+        "top_5_holders_pct": 0,
+        "top_10_holders_pct": 0,
+        "top_20_holders_pct": 0,
+        "herfindahl_index": 0,
+        "concentration_level": "unknown"
+      },
+      "gini_coefficient": 0.0,
+      "whale_analysis": {
+        "whale_count": 0,
+        "whale_dominance_pct": 0,
+        "largest_whale_pct": 0,
+        "whale_risk_level": "unknown",
+        "whale_threshold_pct": 1.0,
+        "average_whale_holding": 0
+      },
+      "distribution_quality": {
+        "holder_count": 0,
+        "mean_holding": 0,
+        "median_holding": 0,
+        "std_deviation": 0,
+        "coefficient_of_variation": 0,
+        "holder_adequacy": "insufficient",
+        "distribution_score": 0,
+        "quality_level": "poor"
+      },
+      "risk_assessment": {
+        "overall_risk_score": 100,
+        "risk_level": "unknown",
+        "concentration_risk": 100,
+        "inequality_risk": 100,
+        "whale_risk": 100,
+        "holder_count_risk": 100,
+        "risk_factors": [
+          "no_data"
+        ],
+        "is_high_risk": true,
+        "recommendation": "avoid"
+      },
+      "score_adjustment": {
+        "score_multiplier": 0.5,
+        "adjustment_reason": "no_data",
+        "base_adjustment": 0.5,
+        "final_adjustment": 0.5,
+        "risk_level": "unknown"
+      },
+      "holder_categories": {
+        "whale_holders": 0,
+        "large_holders": 0,
+        "medium_holders": 0,
+        "small_holders": 0,
+        "whale_dominance": 0,
+        "large_holder_share": 0,
+        "retail_share": 0
+      },
+      "distribution_warnings": [
+        "No holder data available"
+      ],
+      "validation_passed": false
+    },
+    "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+      "token_address": "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg",
+      "analysis_timestamp": 1750213273,
+      "total_holders": 0,
+      "total_supply_analyzed": 0,
+      "concentration_metrics": {
+        "top_1_holder_pct": 0,
+        "top_5_holders_pct": 0,
+        "top_10_holders_pct": 0,
+        "top_20_holders_pct": 0,
+        "herfindahl_index": 0,
+        "concentration_level": "unknown"
+      },
+      "gini_coefficient": 0.0,
+      "whale_analysis": {
+        "whale_count": 0,
+        "whale_dominance_pct": 0,
+        "largest_whale_pct": 0,
+        "whale_risk_level": "unknown",
+        "whale_threshold_pct": 1.0,
+        "average_whale_holding": 0
+      },
+      "distribution_quality": {
+        "holder_count": 0,
+        "mean_holding": 0,
+        "median_holding": 0,
+        "std_deviation": 0,
+        "coefficient_of_variation": 0,
+        "holder_adequacy": "insufficient",
+        "distribution_score": 0,
+        "quality_level": "poor"
+      },
+      "risk_assessment": {
+        "overall_risk_score": 100,
+        "risk_level": "unknown",
+        "concentration_risk": 100,
+        "inequality_risk": 100,
+        "whale_risk": 100,
+        "holder_count_risk": 100,
+        "risk_factors": [
+          "no_data"
+        ],
+        "is_high_risk": true,
+        "recommendation": "avoid"
+      },
+      "score_adjustment": {
+        "score_multiplier": 0.5,
+        "adjustment_reason": "no_data",
+        "base_adjustment": 0.5,
+        "final_adjustment": 0.5,
+        "risk_level": "unknown"
+      },
+      "holder_categories": {
+        "whale_holders": 0,
+        "large_holders": 0,
+        "medium_holders": 0,
+        "small_holders": 0,
+        "whale_dominance": 0,
+        "large_holder_share": 0,
+        "retail_share": 0
+      },
+      "distribution_warnings": [
+        "No holder data available"
+      ],
+      "validation_passed": false
+    },
+    "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump": {
+      "token_address": "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump",
+      "analysis_timestamp": 1750213275,
+      "total_holders": 0,
+      "total_supply_analyzed": 0,
+      "concentration_metrics": {
+        "top_1_holder_pct": 0,
+        "top_5_holders_pct": 0,
+        "top_10_holders_pct": 0,
+        "top_20_holders_pct": 0,
+        "herfindahl_index": 0,
+        "concentration_level": "unknown"
+      },
+      "gini_coefficient": 0.0,
+      "whale_analysis": {
+        "whale_count": 0,
+        "whale_dominance_pct": 0,
+        "largest_whale_pct": 0,
+        "whale_risk_level": "unknown",
+        "whale_threshold_pct": 1.0,
+        "average_whale_holding": 0
+      },
+      "distribution_quality": {
+        "holder_count": 0,
+        "mean_holding": 0,
+        "median_holding": 0,
+        "std_deviation": 0,
+        "coefficient_of_variation": 0,
+        "holder_adequacy": "insufficient",
+        "distribution_score": 0,
+        "quality_level": "poor"
+      },
+      "risk_assessment": {
+        "overall_risk_score": 100,
+        "risk_level": "unknown",
+        "concentration_risk": 100,
+        "inequality_risk": 100,
+        "whale_risk": 100,
+        "holder_count_risk": 100,
+        "risk_factors": [
+          "no_data"
+        ],
+        "is_high_risk": true,
+        "recommendation": "avoid"
+      },
+      "score_adjustment": {
+        "score_multiplier": 0.5,
+        "adjustment_reason": "no_data",
+        "base_adjustment": 0.5,
+        "final_adjustment": 0.5,
+        "risk_level": "unknown"
+      },
+      "holder_categories": {
+        "whale_holders": 0,
+        "large_holders": 0,
+        "medium_holders": 0,
+        "small_holders": 0,
+        "whale_dominance": 0,
+        "large_holder_share": 0,
+        "retail_share": 0
+      },
+      "distribution_warnings": [
+        "No holder data available"
+      ],
+      "validation_passed": false
+    }
+  },
+  "enhanced_scoring_results": {
+    "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump": {
+      "base_score": 50.0,
+      "enhanced_score": 25.0,
+      "total_enhancement": 0.5,
+      "enhancement_factors": [
+        "Holder Quality: 0.50x"
+      ]
+    },
+    "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+      "base_score": 50.0,
+      "enhanced_score": 25.0,
+      "total_enhancement": 0.5,
+      "enhancement_factors": [
+        "Holder Quality: 0.50x"
+      ]
+    },
+    "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+      "base_score": 50.0,
+      "enhanced_score": 25.0,
+      "total_enhancement": 0.5,
+      "enhancement_factors": [
+        "Holder Quality: 0.50x"
+      ]
+    },
+    "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump": {
+      "base_score": 50.0,
+      "enhanced_score": 25.0,
+      "total_enhancement": 0.5,
+      "enhancement_factors": [
+        "Holder Quality: 0.50x"
+      ]
+    },
+    "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+      "base_score": 50.0,
+      "enhanced_score": 25.0,
+      "total_enhancement": 0.5,
+      "enhancement_factors": [
+        "Holder Quality: 0.50x"
+      ]
+    },
+    "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump": {
+      "base_score": 50.0,
+      "enhanced_score": 25.0,
+      "total_enhancement": 0.5,
+      "enhancement_factors": [
+        "Holder Quality: 0.50x"
+      ]
+    }
+  }
+}

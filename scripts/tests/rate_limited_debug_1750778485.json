@@ -1,0 +1,272 @@
+{
+  "debug_results": {
+    "$michi": {
+      "token_name": "$michi",
+      "token_address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+      "debug_timestamp": "2025-06-24T11:20:44.406920",
+      "debug_duration_seconds": 21.44,
+      "endpoint_tests": {
+        "https://quote-api.jup.ag/v6/quote": {
+          "endpoint": "https://quote-api.jup.ag/v6/quote",
+          "status_code": 200,
+          "success": true,
+          "response_text": "{\"inputMint\":\"5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp\",\"inAmount\":\"1000000\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"outAmount\":\"31886\",\"otherAmountThreshold\":\"31727\",\"swapMode\":\"ExactIn\",\"slippageBps\":50,\"platformFee\":null,\"priceImpactPct\":\"0.0028893514654000000000000009\",\"routePlan\":[{\"swapInfo\":{\"ammKey\":\"CATK9eqtn8Qwv95JF6JS4xdC4AYRFqPiuswG7fwsnVN1\",\"label\":\"Whirlpool\",\"inputMint\":\"5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp\",\"outputMint\":\"So11111111111111111111111111111111111111112\",\"inAmount\":\"1000000\",\"outAmount\":\"220140\",\"feeAmount\":\"3000\",\"feeMint\":\"5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp\"},\"percent\":100,\"bps\":10000},{\"swapInfo\":{\"ammKey\":\"3SFQjmDsi5NsjJeZfz7fgJ6VddX3TcuZkv2eUibWJN8N\",\"label\":\"Meteora DLMM\",\"inputMint\":\"So11111111111111111111111111111111111111112\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"inAmount\":\"220140\",\"outAmount\":\"31886\",\"feeAmount\":\"441\",\"feeMint\":\"So11111111111111111111111111111111111111112\"},\"percent\":100,\"bps\":10000}],\"contextSlot\":348916441,\"timeTaken\":0.003020027,\"swapUsdValue\":\"0.031886\",\"simplerRouteUsed\":false,\"mostReliableAmmsQuoteReport\":{\"info\":{\"Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE\":\"31805\",\"BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU\":\"31853\",\"GH8Ers4yzKR3UKDvgVu8cqJfGzU4cU62mTeg9bcJ7ug6\":\"220012\"}},\"useIncurredSlippageForQuoting\":null,\"otherRoutePlans\":null,\"aggregatorVersion\":null}",
+          "has_data": true,
+          "out_amount": "31886",
+          "price_impact": "0.0028893514654000000000000009"
+        },
+        "https://lite-api.jup.ag/v6/quote": {
+          "endpoint": "https://lite-api.jup.ag/v6/quote",
+          "status_code": 404,
+          "success": false,
+          "response_text": "Route not found",
+          "has_data": false
+        },
+        "https://api.jup.ag/v6/quote": {
+          "endpoint": "https://api.jup.ag/v6/quote",
+          "status_code": 404,
+          "success": false,
+          "response_text": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+          "has_data": false
+        }
+      },
+      "token_list_tests": {
+        "https://token.jup.ag/all": {
+          "success": true,
+          "found": true,
+          "token_info": {
+            "address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+            "chainId": 101,
+            "decimals": 6,
+            "name": "michi",
+            "symbol": "$michi",
+            "logoURI": "https://i.ibb.co/GxG0314/5mb-K36-SZ7-J19-An8j-Fochh-QS4of8g6-Bw-Ujbe-CSx-BSo-Wdp.png",
+            "tags": [
+              "community"
+            ],
+            "extensions": {
+              "coingeckoId": "michicoin"
+            }
+          },
+          "total_tokens": 287863
+        },
+        "https://token.jup.ag/strict": {
+          "success": true,
+          "found": true,
+          "token_info": {
+            "address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+            "chainId": 101,
+            "decimals": 6,
+            "name": "michi",
+            "symbol": "$michi",
+            "logoURI": "https://i.ibb.co/GxG0314/5mb-K36-SZ7-J19-An8j-Fochh-QS4of8g6-Bw-Ujbe-CSx-BSo-Wdp.png",
+            "tags": [
+              "community"
+            ],
+            "extensions": {
+              "coingeckoId": "michicoin"
+            }
+          },
+          "total_tokens": 1497
+        },
+        "https://cache.jup.ag/tokens": {
+          "success": true,
+          "found": true,
+          "token_info": {
+            "address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+            "chainId": 101,
+            "decimals": 6,
+            "name": "michi",
+            "symbol": "$michi",
+            "logoURI": "https://i.ibb.co/GxG0314/5mb-K36-SZ7-J19-An8j-Fochh-QS4of8g6-Bw-Ujbe-CSx-BSo-Wdp.png",
+            "tags": [
+              "community"
+            ],
+            "extensions": {
+              "coingeckoId": "michicoin"
+            }
+          },
+          "total_tokens": 287863
+        }
+      },
+      "summary": {
+        "working_endpoints": [
+          "https://quote-api.jup.ag/v6/quote"
+        ],
+        "failed_endpoints": [
+          "https://lite-api.jup.ag/v6/quote",
+          "https://api.jup.ag/v6/quote"
+        ],
+        "token_found_in_lists": 3,
+        "token_lists_checked": 3,
+        "main_issue": "Original endpoint works but lite-api endpoint fails"
+      }
+    },
+    "BILLY": {
+      "token_name": "BILLY",
+      "token_address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+      "debug_timestamp": "2025-06-24T11:21:04.583082",
+      "debug_duration_seconds": 20.17,
+      "endpoint_tests": {
+        "https://quote-api.jup.ag/v6/quote": {
+          "endpoint": "https://quote-api.jup.ag/v6/quote",
+          "status_code": 200,
+          "success": true,
+          "response_text": "{\"inputMint\":\"3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump\",\"inAmount\":\"1000000\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"outAmount\":\"5493\",\"otherAmountThreshold\":\"5466\",\"swapMode\":\"ExactIn\",\"slippageBps\":50,\"platformFee\":null,\"priceImpactPct\":\"0.0029191942489000000000000041\",\"routePlan\":[{\"swapInfo\":{\"ammKey\":\"9uWW4C36HiCTGr6pZW9VFhr9vdXktZ8NA8jVnzQU35pJ\",\"label\":\"Raydium\",\"inputMint\":\"3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump\",\"outputMint\":\"So11111111111111111111111111111111111111112\",\"inAmount\":\"1000000\",\"outAmount\":\"37904\",\"feeAmount\":\"2500\",\"feeMint\":\"3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump\"},\"percent\":100,\"bps\":10000},{\"swapInfo\":{\"ammKey\":\"BPmGkx4Hg5fSM8ouqpfK1Uo4Pf6rzcJYiDDuqG67qC53\",\"label\":\"Pump.fun Amm\",\"inputMint\":\"So11111111111111111111111111111111111111112\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"inAmount\":\"37904\",\"outAmount\":\"5493\",\"feeAmount\":\"95\",\"feeMint\":\"So11111111111111111111111111111111111111112\"},\"percent\":100,\"bps\":10000}],\"contextSlot\":348916493,\"timeTaken\":0.00190402,\"swapUsdValue\":\"0.005493\",\"simplerRouteUsed\":false,\"mostReliableAmmsQuoteReport\":{\"info\":{\"9uWW4C36HiCTGr6pZW9VFhr9vdXktZ8NA8jVnzQU35pJ\":\"37904\",\"Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE\":\"5480\",\"BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU\":\"5476\"}},\"useIncurredSlippageForQuoting\":null,\"otherRoutePlans\":null,\"aggregatorVersion\":null}",
+          "has_data": true,
+          "out_amount": "5493",
+          "price_impact": "0.0029191942489000000000000041"
+        },
+        "https://lite-api.jup.ag/v6/quote": {
+          "endpoint": "https://lite-api.jup.ag/v6/quote",
+          "status_code": 404,
+          "success": false,
+          "response_text": "Route not found",
+          "has_data": false
+        },
+        "https://api.jup.ag/v6/quote": {
+          "endpoint": "https://api.jup.ag/v6/quote",
+          "status_code": 404,
+          "success": false,
+          "response_text": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+          "has_data": false
+        }
+      },
+      "token_list_tests": {
+        "https://token.jup.ag/all": {
+          "success": true,
+          "found": true,
+          "token_info": {
+            "address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+            "chainId": 101,
+            "decimals": 6,
+            "name": "BILLY",
+            "symbol": "BILLY",
+            "logoURI": "https://cf-ipfs.com/ipfs/QmdRU5EkGt1VsgLsXJdHK5kjojQqggQHjhyqeJwmApR53R",
+            "tags": [
+              "community"
+            ],
+            "extensions": {
+              "coingeckoId": "billy"
+            }
+          },
+          "total_tokens": 287863
+        },
+        "https://token.jup.ag/strict": {
+          "success": true,
+          "found": true,
+          "token_info": {
+            "address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+            "chainId": 101,
+            "decimals": 6,
+            "name": "BILLY",
+            "symbol": "BILLY",
+            "logoURI": "https://cf-ipfs.com/ipfs/QmdRU5EkGt1VsgLsXJdHK5kjojQqggQHjhyqeJwmApR53R",
+            "tags": [
+              "community"
+            ],
+            "extensions": {
+              "coingeckoId": "billy"
+            }
+          },
+          "total_tokens": 1497
+        },
+        "https://cache.jup.ag/tokens": {
+          "success": true,
+          "found": true,
+          "token_info": {
+            "address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+            "chainId": 101,
+            "decimals": 6,
+            "name": "BILLY",
+            "symbol": "BILLY",
+            "logoURI": "https://cf-ipfs.com/ipfs/QmdRU5EkGt1VsgLsXJdHK5kjojQqggQHjhyqeJwmApR53R",
+            "tags": [
+              "community"
+            ],
+            "extensions": {
+              "coingeckoId": "billy"
+            }
+          },
+          "total_tokens": 287863
+        }
+      },
+      "summary": {
+        "working_endpoints": [
+          "https://quote-api.jup.ag/v6/quote"
+        ],
+        "failed_endpoints": [
+          "https://lite-api.jup.ag/v6/quote",
+          "https://api.jup.ag/v6/quote"
+        ],
+        "token_found_in_lists": 3,
+        "token_lists_checked": 3,
+        "main_issue": "Original endpoint works but lite-api endpoint fails"
+      }
+    },
+    "USELESS": {
+      "token_name": "USELESS",
+      "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "debug_timestamp": "2025-06-24T11:21:25.100568",
+      "debug_duration_seconds": 20.52,
+      "endpoint_tests": {
+        "https://quote-api.jup.ag/v6/quote": {
+          "endpoint": "https://quote-api.jup.ag/v6/quote",
+          "status_code": 200,
+          "success": true,
+          "response_text": "{\"inputMint\":\"Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk\",\"inAmount\":\"1000000\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"outAmount\":\"138272\",\"otherAmountThreshold\":\"137581\",\"swapMode\":\"ExactIn\",\"slippageBps\":50,\"platformFee\":null,\"priceImpactPct\":\"0.0029588955168000000000000001\",\"routePlan\":[{\"swapInfo\":{\"ammKey\":\"Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp\",\"label\":\"Raydium CP\",\"inputMint\":\"Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk\",\"outputMint\":\"So11111111111111111111111111111111111111112\",\"inAmount\":\"1000000\",\"outAmount\":\"955591\",\"feeAmount\":\"2500\",\"feeMint\":\"Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk\"},\"percent\":100,\"bps\":10000},{\"swapInfo\":{\"ammKey\":\"Fvn8HfE9y6rGYwd7HvdXiN6RxueUaB5YqHbynFdMJfkW\",\"label\":\"Whirlpool\",\"inputMint\":\"So11111111111111111111111111111111111111112\",\"outputMint\":\"Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB\",\"inAmount\":\"955591\",\"outAmount\":\"138200\",\"feeAmount\":\"796\",\"feeMint\":\"So11111111111111111111111111111111111111112\"},\"percent\":100,\"bps\":10000},{\"swapInfo\":{\"ammKey\":\"6dB49iS94RnwUhQwJwjnE7mEqPedZDtU7XBZXaLBbfbt\",\"label\":\"Stabble Stable Swap\",\"inputMint\":\"Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB\",\"outputMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"inAmount\":\"138200\",\"outAmount\":\"138272\",\"feeAmount\":\"1\",\"feeMint\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\"},\"percent\":100,\"bps\":10000}],\"contextSlot\":348916545,\"timeTaken\":0.003107288,\"swapUsdValue\":\"0.138272\",\"simplerRouteUsed\":false,\"mostReliableAmmsQuoteReport\":{\"info\":{\"Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp\":\"955591\",\"Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE\":\"137979\",\"BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU\":\"137960\",\"32D4zRxNc1EssbJieVHfPhZM3rH6CzfUPrWUuWxD9prG\":\"137960\"}},\"useIncurredSlippageForQuoting\":null,\"otherRoutePlans\":null,\"aggregatorVersion\":null}",
+          "has_data": true,
+          "out_amount": "138272",
+          "price_impact": "0.0029588955168000000000000001"
+        },
+        "https://lite-api.jup.ag/v6/quote": {
+          "endpoint": "https://lite-api.jup.ag/v6/quote",
+          "status_code": 404,
+          "success": false,
+          "response_text": "Route not found",
+          "has_data": false
+        },
+        "https://api.jup.ag/v6/quote": {
+          "endpoint": "https://api.jup.ag/v6/quote",
+          "status_code": 404,
+          "success": false,
+          "response_text": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+          "has_data": false
+        }
+      },
+      "token_list_tests": {
+        "https://token.jup.ag/all": {
+          "success": true,
+          "found": false,
+          "token_info": null,
+          "total_tokens": 287863
+        },
+        "https://token.jup.ag/strict": {
+          "success": true,
+          "found": false,
+          "token_info": null,
+          "total_tokens": 1497
+        },
+        "https://cache.jup.ag/tokens": {
+          "success": true,
+          "found": false,
+          "token_info": null,
+          "total_tokens": 287863
+        }
+      },
+      "summary": {
+        "working_endpoints": [
+          "https://quote-api.jup.ag/v6/quote"
+        ],
+        "failed_endpoints": [
+          "https://lite-api.jup.ag/v6/quote",
+          "https://api.jup.ag/v6/quote"
+        ],
+        "token_found_in_lists": 0,
+        "token_lists_checked": 3,
+        "main_issue": "Token not found in any Jupiter token lists"
+      }
+    }
+  },
+  "debug_timestamp": "2025-06-24T11:21:25.103793"
+}

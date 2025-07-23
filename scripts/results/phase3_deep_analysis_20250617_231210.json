@@ -1,0 +1,176 @@
+{
+  "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump": {
+    "token_address": "9b1BzC1af9gQBtegh5WcuFB6ARBYQk7PgURW1aogpump",
+    "analysis_timestamp": "2025-06-17T23:07:07.483552",
+    "phase": "Phase 3",
+    "basic_data": {
+      "overview": {},
+      "age_days": 30,
+      "age_description": "established",
+      "security": {},
+      "recent_transactions": [],
+      "data_quality": {
+        "quality_score": 15,
+        "quality_factors": [
+          "Token age available"
+        ],
+        "data_completeness": 16.666666666666664
+      }
+    },
+    "holder_analysis": {},
+    "volatility_analysis": {},
+    "market_analysis": {},
+    "comprehensive_scoring": {},
+    "risk_assessment": {},
+    "trading_recommendations": {},
+    "alerts": [],
+    "errors": [
+      "Failed to fetch basic token data"
+    ]
+  },
+  "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump": {
+    "token_address": "9civd7ktdbBtSUgkyduxQoHhBLtThf9xr1Kvj5dcpump",
+    "analysis_timestamp": "2025-06-17T23:07:54.630183",
+    "phase": "Phase 3",
+    "basic_data": {
+      "overview": {},
+      "age_days": 30,
+      "age_description": "established",
+      "security": {},
+      "recent_transactions": [],
+      "data_quality": {
+        "quality_score": 15,
+        "quality_factors": [
+          "Token age available"
+        ],
+        "data_completeness": 16.666666666666664
+      }
+    },
+    "holder_analysis": {},
+    "volatility_analysis": {},
+    "market_analysis": {},
+    "comprehensive_scoring": {},
+    "risk_assessment": {},
+    "trading_recommendations": {},
+    "alerts": [],
+    "errors": [
+      "Failed to fetch basic token data"
+    ]
+  },
+  "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump": {
+    "token_address": "rCDpCrYepyYffZz7AQhBV1LMJvWo7mps8fWr4Bvpump",
+    "analysis_timestamp": "2025-06-17T23:08:46.030824",
+    "phase": "Phase 3",
+    "basic_data": {
+      "overview": {},
+      "age_days": 30,
+      "age_description": "established",
+      "security": {},
+      "recent_transactions": [],
+      "data_quality": {
+        "quality_score": 15,
+        "quality_factors": [
+          "Token age available"
+        ],
+        "data_completeness": 16.666666666666664
+      }
+    },
+    "holder_analysis": {},
+    "volatility_analysis": {},
+    "market_analysis": {},
+    "comprehensive_scoring": {},
+    "risk_assessment": {},
+    "trading_recommendations": {},
+    "alerts": [],
+    "errors": [
+      "Failed to fetch basic token data"
+    ]
+  },
+  "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump": {
+    "token_address": "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump",
+    "analysis_timestamp": "2025-06-17T23:09:37.226002",
+    "phase": "Phase 3",
+    "basic_data": {
+      "overview": {},
+      "age_days": 30,
+      "age_description": "established",
+      "security": {},
+      "recent_transactions": [],
+      "data_quality": {
+        "quality_score": 15,
+        "quality_factors": [
+          "Token age available"
+        ],
+        "data_completeness": 16.666666666666664
+      }
+    },
+    "holder_analysis": {},
+    "volatility_analysis": {},
+    "market_analysis": {},
+    "comprehensive_scoring": {},
+    "risk_assessment": {},
+    "trading_recommendations": {},
+    "alerts": [],
+    "errors": [
+      "Failed to fetch basic token data"
+    ]
+  },
+  "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg": {
+    "token_address": "4jXJcKQoojvFuA7MSzJLpgDvXyiACqLnMyh6ULEEnVhg",
+    "analysis_timestamp": "2025-06-17T23:10:31.229061",
+    "phase": "Phase 3",
+    "basic_data": {
+      "overview": {},
+      "age_days": 30,
+      "age_description": "established",
+      "security": {},
+      "recent_transactions": [],
+      "data_quality": {
+        "quality_score": 15,
+        "quality_factors": [
+          "Token age available"
+        ],
+        "data_completeness": 16.666666666666664
+      }
+    },
+    "holder_analysis": {},
+    "volatility_analysis": {},
+    "market_analysis": {},
+    "comprehensive_scoring": {},
+    "risk_assessment": {},
+    "trading_recommendations": {},
+    "alerts": [],
+    "errors": [
+      "Failed to fetch basic token data"
+    ]
+  },
+  "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump": {
+    "token_address": "8jFpBJoJwHkYLgNgequJJu6CMt3LkY3P6QndUupLpump",
+    "analysis_timestamp": "2025-06-17T23:11:23.459834",
+    "phase": "Phase 3",
+    "basic_data": {
+      "overview": {},
+      "age_days": 30,
+      "age_description": "established",
+      "security": {},
+      "recent_transactions": [],
+      "data_quality": {
+        "quality_score": 15,
+        "quality_factors": [
+          "Token age available"
+        ],
+        "data_completeness": 16.666666666666664
+      }
+    },
+    "holder_analysis": {},
+    "volatility_analysis": {},
+    "market_analysis": {},
+    "comprehensive_scoring": {},
+    "risk_assessment": {},
+    "trading_recommendations": {},
+    "alerts": [],
+    "errors": [
+      "Failed to fetch basic token data"
+    ]
+  }
+}

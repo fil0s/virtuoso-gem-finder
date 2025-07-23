@@ -1,0 +1,199 @@
+{
+  "timestamp": "2025-06-18T13:56:15.560125",
+  "total_execution_time": 33.34495306015015,
+  "levels_tested": 5,
+  "successful_levels": 0,
+  "results": [
+    {
+      "level_name": "Level 1: Maximum Selectivity",
+      "level_number": 1,
+      "selectivity_level": "maximum",
+      "description": "Ultra-strict criteria for highest conviction plays only",
+      "criteria": {
+        "min_whale_count": 2,
+        "min_whale_volume": 500000,
+        "whale_confidence_threshold": 0.6,
+        "min_smart_traders": 3,
+        "smart_money_skill_threshold": 0.65,
+        "smart_money_confidence_threshold": 0.7,
+        "confluence_bonus_multiplier": 1.5,
+        "min_confluence_score": 0.8,
+        "max_whale_concentration": 0.4,
+        "min_whale_diversity": 3,
+        "whale_directional_bias_threshold": 0.7
+      },
+      "risk_management": {
+        "max_allocation_percentage": 7.5,
+        "suspicious_volume_multiplier": 5.0,
+        "min_holder_distribution": 0.5,
+        "max_concentration_pct": 70.0,
+        "min_dexs_with_liquidity": 3,
+        "min_days_since_listing": 2
+      },
+      "execution_time": 26.8272807598114,
+      "api_calls": 0,
+      "tokens_found": 0,
+      "tokens": [],
+      "quality_metrics": {},
+      "success": false,
+      "scan_id": "threshold_tune_L1_1750269342"
+    },
+    {
+      "level_name": "Level 2: High Selectivity",
+      "level_number": 2,
+      "selectivity_level": "high",
+      "description": "Slightly relaxed criteria for quality opportunities",
+      "criteria": {
+        "min_whale_count": 2,
+        "min_whale_volume": 400000,
+        "whale_confidence_threshold": 0.54,
+        "min_smart_traders": 2,
+        "smart_money_skill_threshold": 0.5850000000000001,
+        "smart_money_confidence_threshold": 0.63,
+        "confluence_bonus_multiplier": 1.4249999999999998,
+        "min_confluence_score": 0.68,
+        "max_whale_concentration": 0.44000000000000006,
+        "min_whale_diversity": 2,
+        "whale_directional_bias_threshold": 0.63
+      },
+      "risk_management": {
+        "max_allocation_percentage": 8.25,
+        "suspicious_volume_multiplier": 5.0,
+        "min_holder_distribution": 0.45,
+        "max_concentration_pct": 73.5,
+        "min_dexs_with_liquidity": 2,
+        "min_days_since_listing": 1
+      },
+      "execution_time": 1.9634323120117188,
+      "api_calls": 0,
+      "tokens_found": 0,
+      "tokens": [],
+      "quality_metrics": {},
+      "success": false,
+      "scan_id": "threshold_tune_L2_1750269369"
+    },
+    {
+      "level_name": "Level 3: Medium Selectivity",
+      "level_number": 3,
+      "selectivity_level": "medium",
+      "description": "Balanced criteria for broader opportunity capture",
+      "criteria": {
+        "min_whale_count": 1,
+        "min_whale_volume": 300000,
+        "whale_confidence_threshold": 0.48,
+        "min_smart_traders": 2,
+        "smart_money_skill_threshold": 0.52,
+        "smart_money_confidence_threshold": 0.5599999999999999,
+        "confluence_bonus_multiplier": 1.35,
+        "min_confluence_score": 0.5599999999999999,
+        "max_whale_concentration": 0.5,
+        "min_whale_diversity": 2,
+        "whale_directional_bias_threshold": 0.5599999999999999
+      },
+      "risk_management": {
+        "max_allocation_percentage": 9.0,
+        "suspicious_volume_multiplier": 5.0,
+        "min_holder_distribution": 0.4,
+        "max_concentration_pct": 77.0,
+        "min_dexs_with_liquidity": 2,
+        "min_days_since_listing": 1
+      },
+      "execution_time": 1.400575876235962,
+      "api_calls": 0,
+      "tokens_found": 0,
+      "tokens": [],
+      "quality_metrics": {},
+      "success": false,
+      "scan_id": "threshold_tune_L3_1750269371"
+    },
+    {
+      "level_name": "Level 4: Low Selectivity",
+      "level_number": 4,
+      "selectivity_level": "low",
+      "description": "Relaxed criteria for maximum opportunity discovery",
+      "criteria": {
+        "min_whale_count": 1,
+        "min_whale_volume": 200000,
+        "whale_confidence_threshold": 0.42,
+        "min_smart_traders": 1,
+        "smart_money_skill_threshold": 0.45499999999999996,
+        "smart_money_confidence_threshold": 0.48999999999999994,
+        "confluence_bonus_multiplier": 1.275,
+        "min_confluence_score": 0.48,
+        "max_whale_concentration": 0.5599999999999999,
+        "min_whale_diversity": 1,
+        "whale_directional_bias_threshold": 0.48999999999999994
+      },
+      "risk_management": {
+        "max_allocation_percentage": 9.75,
+        "suspicious_volume_multiplier": 5.0,
+        "min_holder_distribution": 0.35,
+        "max_concentration_pct": 80.5,
+        "min_dexs_with_liquidity": 1,
+        "min_days_since_listing": 0
+      },
+      "execution_time": 2.068798780441284,
+      "api_calls": 0,
+      "tokens_found": 0,
+      "tokens": [],
+      "quality_metrics": {},
+      "success": false,
+      "scan_id": "threshold_tune_L4_1750269372"
+    },
+    {
+      "level_name": "Level 5: Minimum Viable",
+      "level_number": 5,
+      "selectivity_level": "minimum",
+      "description": "Most relaxed criteria for comprehensive market scanning",
+      "criteria": {
+        "min_whale_count": 1,
+        "min_whale_volume": 100000,
+        "whale_confidence_threshold": 0.36,
+        "min_smart_traders": 1,
+        "smart_money_skill_threshold": 0.39,
+        "smart_money_confidence_threshold": 0.42,
+        "confluence_bonus_multiplier": 1.2000000000000002,
+        "min_confluence_score": 0.4,
+        "max_whale_concentration": 0.6000000000000001,
+        "min_whale_diversity": 1,
+        "whale_directional_bias_threshold": 0.42
+      },
+      "risk_management": {
+        "max_allocation_percentage": 10.5,
+        "suspicious_volume_multiplier": 5.0,
+        "min_holder_distribution": 0.3,
+        "max_concentration_pct": 84.0,
+        "min_dexs_with_liquidity": 1,
+        "min_days_since_listing": 0
+      },
+      "execution_time": 1.0687658786773682,
+      "api_calls": 0,
+      "tokens_found": 0,
+      "tokens": [],
+      "quality_metrics": {},
+      "success": false,
+      "scan_id": "threshold_tune_L5_1750269374"
+    }
+  ],
+  "best_performers": {
+    "best_quality": null,
+    "most_efficient": null,
+    "fastest": null
+  },
+  "recommendations": {
+    "status": "no_success",
+    "recommendation": "Consider further relaxing thresholds or checking market conditions",
+    "suggested_actions": [
+      "Check if API is returning data correctly",
+      "Verify whale and smart money services are functioning",
+      "Consider market conditions (low activity periods)",
+      "Test with different time frames",
+      "Review base token filtering criteria"
+    ]
+  },
+  "summary": {
+    "success_rate": 0.0,
+    "total_tokens_found": 0,
+    "avg_execution_time": 6.665770721435547
+  }
+}

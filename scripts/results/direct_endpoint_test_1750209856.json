@@ -1,0 +1,93 @@
+{
+  "test_timestamp": "2025-06-17T21:24:03.433879",
+  "package_type": "Starter",
+  "direct_endpoint_tests": {
+    "Token Holders": {
+      "endpoint": "/defi/v3/token/holder",
+      "status": "success",
+      "response_time_ms": 1059,
+      "response_keys": [
+        "data",
+        "success"
+      ],
+      "has_data": true
+    },
+    "New Listings": {
+      "endpoint": "/defi/v2/tokens/new_listing",
+      "status": "success",
+      "response_time_ms": 468,
+      "response_keys": [
+        "success",
+        "data"
+      ],
+      "has_data": true
+    },
+    "Trending Tokens": {
+      "endpoint": "/defi/token_trending",
+      "status": "success",
+      "response_time_ms": 318,
+      "response_keys": [
+        "data",
+        "success"
+      ],
+      "has_data": true
+    },
+    "Top Traders": {
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "status": "success",
+      "response_time_ms": 303,
+      "response_keys": [
+        "success",
+        "data"
+      ],
+      "has_data": true
+    },
+    "Token Trading Data Single": {
+      "endpoint": "/defi/v3/token/trading-data/single",
+      "status": "failed",
+      "error": "No response"
+    }
+  },
+  "method_tests": {
+    "get_token_holders": {
+      "method": "get_token_holders",
+      "status": "success",
+      "response_time_ms": 307,
+      "data_type": "dict",
+      "data_size": 4
+    },
+    "get_new_listings": {
+      "method": "get_new_listings",
+      "status": "success",
+      "response_time_ms": 338,
+      "data_type": "list",
+      "data_size": 10
+    },
+    "get_trending_tokens": {
+      "method": "get_trending_tokens",
+      "status": "success",
+      "response_time_ms": 318,
+      "data_type": "list",
+      "data_size": 20
+    },
+    "get_top_traders": {
+      "method": "get_top_traders",
+      "status": "success",
+      "response_time_ms": 314,
+      "data_type": "list",
+      "data_size": 10
+    }
+  },
+  "summary": {
+    "direct_endpoints": {
+      "total": 5,
+      "successful": 4,
+      "success_rate": 80.0
+    },
+    "method_implementations": {
+      "total": 4,
+      "successful": 4,
+      "success_rate": 100.0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "test_results": {
+    "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+      "error": "'<' not supported between instances of 'str' and 'float'"
+    },
+    "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R": {
+      "error": "'<' not supported between instances of 'str' and 'float'"
+    },
+    "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So": {
+      "error": "'<' not supported between instances of 'str' and 'float'"
+    }
+  },
+  "api_statistics": {
+    "total_api_calls": 3,
+    "successful_calls": 3,
+    "failed_calls": 0,
+    "success_rate_percent": 100.0,
+    "price_derivations": 3,
+    "liquidity_analyses": 0,
+    "volume_estimations": 0
+  },
+  "test_timestamp": "2025-06-24T11:05:26.903326"
+}

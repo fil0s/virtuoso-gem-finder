@@ -1,0 +1,850 @@
+{
+  "discovery_summary": {
+    "timestamp": "2025-06-23T10:26:36.887243",
+    "duration_seconds": 8.62,
+    "status": "SUCCESS"
+  },
+  "discovery_results": {
+    "meteora_emerging_count": 20,
+    "jupiter_emerging_count": 0,
+    "cross_platform_count": 0,
+    "risk_filtered_count": 10
+  },
+  "emerging_tokens": {
+    "meteora_only": [
+      {
+        "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+        "symbol": "CUDIS",
+        "pool_data": {
+          "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+          "pool_id": "E2SC1KKRgCoLKXurwZfgpbQYH1VFBXRpoUy2TotmvsW5",
+          "pool_name": "CUDIS-SOL",
+          "volume_24h": 11902643.890426813,
+          "tvl": 22709.029511248984,
+          "vlr": 524.1370567831093,
+          "fee_24h": 34069.192850202795,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 524.1370567831093,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "MEDIUM"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "symbol": "JLP",
+        "pool_data": {
+          "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "pool_id": "DbTk2SNKWxu9TJbPzmK9HcQCAmraBCFb5VMo8Svwh34z",
+          "pool_name": "JLP-USDC",
+          "volume_24h": 2458116.006425129,
+          "tvl": 23542.155121890475,
+          "vlr": 104.4133807503235,
+          "fee_24h": 303.2736159106772,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 104.4133807503235,
+        "emerging_score": 15.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "MEDIUM"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "7h1L5U4zDJwpHkaFVfWxM1xT1RWPW8ev9Nfj9a6djups",
+        "symbol": "CATDET",
+        "pool_data": {
+          "address": "7h1L5U4zDJwpHkaFVfWxM1xT1RWPW8ev9Nfj9a6djups",
+          "pool_id": "83bLPVYtSjYKz7Qzv8N4kscSvkuBWTN67iac4YRKpYSe",
+          "pool_name": "CATDET-USDC",
+          "volume_24h": 850725.8735501217,
+          "tvl": 30786.67580847384,
+          "vlr": 27.632924023449284,
+          "fee_24h": 0.0,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 27.632924023449284,
+        "emerging_score": 15.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "MEDIUM",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "HrXK98VXjxuiRYj4PmWSZ26pJ2tCTJA223Jffv1wpump",
+        "symbol": "DANGER",
+        "pool_data": {
+          "address": "HrXK98VXjxuiRYj4PmWSZ26pJ2tCTJA223Jffv1wpump",
+          "pool_id": "127hScTWc7u4qDojxuQBgnJDuD27Yacxc6qSEqVVKKFN",
+          "pool_name": "DANGER-SOL",
+          "volume_24h": 772636.9545857861,
+          "tvl": 14272.594401532884,
+          "vlr": 54.13430332629676,
+          "fee_24h": 25451.44193757927,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 54.13430332629676,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "MEDIUM"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "3WzaZwVmjr3JMWKknJtnEn3R4kaX9pVkwQJmC9fxpump",
+        "symbol": "Bunker",
+        "pool_data": {
+          "address": "3WzaZwVmjr3JMWKknJtnEn3R4kaX9pVkwQJmC9fxpump",
+          "pool_id": "9fm2oaiiHqWPYuyPNx7HgaTfkAyXjhG5R4bnkYkswN3m",
+          "pool_name": "Bunker-SOL",
+          "volume_24h": 640729.9873868634,
+          "tvl": 488.73021725393306,
+          "vlr": 1311.0095606262764,
+          "fee_24h": 20005.131358937742,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 1311.0095606262764,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "HIGH",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "HIGH"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump",
+        "symbol": "Oil",
+        "pool_data": {
+          "address": "5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump",
+          "pool_id": "J6xB9FsYE653Kf1zYz45rReGuDWZRpLfZdfbBjYFQyg8",
+          "pool_name": "Oil-SOL",
+          "volume_24h": 509259.2932572372,
+          "tvl": 5952.9188972227175,
+          "vlr": 85.54782990489383,
+          "fee_24h": 9993.811603980534,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 85.54782990489383,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "HIGH",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "HIGH"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "J3rYdme789g1zAysfbH9oP4zjagvfVM2PX7KJgFDpump",
+        "symbol": "BlackCoin",
+        "pool_data": {
+          "address": "J3rYdme789g1zAysfbH9oP4zjagvfVM2PX7KJgFDpump",
+          "pool_id": "9sW5yM5w9w1CxkVZX82Kwef3k575xx138935woTtgn1f",
+          "pool_name": "BlackCoin-SOL",
+          "volume_24h": 479835.06646929984,
+          "tvl": 19491.136241509877,
+          "vlr": 24.618116692828035,
+          "fee_24h": 10305.91567146252,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 24.618116692828035,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "MEDIUM",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump",
+        "symbol": "ww3",
+        "pool_data": {
+          "address": "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump",
+          "pool_id": "FgNcj8siix3CK2Q6rZRd5armmW8nnBPAXHrUWFabAMB",
+          "pool_name": "ww3-SOL",
+          "volume_24h": 404183.7623991891,
+          "tvl": 3196.496941390658,
+          "vlr": 126.44584675352331,
+          "fee_24h": 12963.98846462342,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 126.44584675352331,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "HIGH",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "HIGH"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+        "symbol": "ZBCN",
+        "pool_data": {
+          "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+          "pool_id": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+          "pool_name": "ZBCN-USDC",
+          "volume_24h": 1137284.508639107,
+          "tvl": 93291.53231700577,
+          "vlr": 12.190650966848741,
+          "fee_24h": 2459.555644637239,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 12.190650966848741,
+        "emerging_score": 14.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "symbol": "MASK",
+        "pool_data": {
+          "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "pool_id": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+          "pool_name": "MASK-SOL",
+          "volume_24h": 864938.7775666454,
+          "tvl": 82277.74239796243,
+          "vlr": 10.512427205198392,
+          "fee_24h": 2677.9798382160643,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 10.512427205198392,
+        "emerging_score": 14.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
+        "symbol": "KLED",
+        "pool_data": {
+          "address": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
+          "pool_id": "AKLAc7iH6HqGgihRZfU22sbpKQCVSaiBCooqVRyPP74J",
+          "pool_name": "KLED-SOL",
+          "volume_24h": 458894.9462187874,
+          "tvl": 45359.10609325012,
+          "vlr": 10.116930992321198,
+          "fee_24h": 1606.521677216596,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 10.116930992321198,
+        "emerging_score": 14.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+        "symbol": "OSCAR",
+        "pool_data": {
+          "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+          "pool_id": "6YAU2qApjPzZj4m3uFccuMybTfy4QYqYBEUNhgpnQRCt",
+          "pool_name": "OSCAR-SOL",
+          "volume_24h": 278385.52805179195,
+          "tvl": 24344.134975152443,
+          "vlr": 11.435424932368075,
+          "fee_24h": 6869.469106612593,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 11.435424932368075,
+        "emerging_score": 14.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "pool_data": {
+          "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+          "pool_id": "62KR7tk1KWARJ9PdCgoK9tTcTJBvDjB1aEcdr8myxKXN",
+          "pool_name": "SPX-SOL",
+          "volume_24h": 2883661.726831227,
+          "tvl": 196751.86078575853,
+          "vlr": 14.656337761253615,
+          "fee_24h": 5702.033013096576,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 14.656337761253615,
+        "emerging_score": 12.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "pool_data": {
+          "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "pool_id": "E4qkx57hvi43wtxZkygTKRHs4XCb96i3v1WGNS856uSa",
+          "pool_name": "GOR-SOL",
+          "volume_24h": 1982524.1175379052,
+          "tvl": 175257.03966782795,
+          "vlr": 11.312094060789038,
+          "fee_24h": 2790.0833841070353,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 11.312094060789038,
+        "emerging_score": 12.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+        "symbol": "aura",
+        "pool_data": {
+          "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+          "pool_id": "4pnYfNT552r22vzRtW9ZL6MXhj7GvwgzrKXx75bnFCQq",
+          "pool_name": "aura-SOL",
+          "volume_24h": 489218.57717530703,
+          "tvl": 92636.19532668284,
+          "vlr": 5.281073725556959,
+          "fee_24h": 1375.9228310362762,
+          "trending_score": 5.281073725556959,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 5.281073725556959,
+        "emerging_score": 11.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+        "symbol": "Fartcoin",
+        "pool_data": {
+          "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "pool_id": "7wkFP7EHYTgeUG5ouX64ftTsMuXpR1gFCJK6knyp22Rd",
+          "pool_name": "Fartcoin -USDC",
+          "volume_24h": 1096379.2822398392,
+          "tvl": 127684.76903990736,
+          "vlr": 8.586609745890446,
+          "fee_24h": 2137.6695712259216,
+          "trending_score": 8.586609745890446,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 8.586609745890446,
+        "emerging_score": 10.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+        "symbol": "House",
+        "pool_data": {
+          "address": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+          "pool_id": "2KQLFXbAGiv2ZEiCTENwknkvUNk2Boy4LVVzByFGLt3s",
+          "pool_name": "House-SOL",
+          "volume_24h": 812919.7049056542,
+          "tvl": 105099.70884364164,
+          "vlr": 7.734747449348757,
+          "fee_24h": 1727.0800742329154,
+          "trending_score": 7.734747449348757,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 7.734747449348757,
+        "emerging_score": 10.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "mae8vJGf8Wju8Ron1oDTQVaTGGBpcpWDwoRQJALMMf2",
+        "symbol": "MASHA",
+        "pool_data": {
+          "address": "mae8vJGf8Wju8Ron1oDTQVaTGGBpcpWDwoRQJALMMf2",
+          "pool_id": "An9RssbZfzqfLiyrXvaD8mVmRjmUEnvkCBNTurt3Qmja",
+          "pool_name": "MASHA-SOL",
+          "volume_24h": 806304.204940283,
+          "tvl": 118919.14580949224,
+          "vlr": 6.780272423348697,
+          "fee_24h": 2298.914831097067,
+          "trending_score": 6.780272423348697,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 6.780272423348697,
+        "emerging_score": 10.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+        "symbol": "moonpig",
+        "pool_data": {
+          "address": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+          "pool_id": "63Re6vKokT4zDm5Eyd58AV9Yrpbd3MV97JNRwb3ZZcyb",
+          "pool_name": "moonpig-SOL",
+          "volume_24h": 297074.7553169739,
+          "tvl": 93339.85619156856,
+          "vlr": 3.1827213736784055,
+          "fee_24h": 2177.1754277478626,
+          "trending_score": 3.1827213736784055,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 3.1827213736784055,
+        "emerging_score": 9.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        }
+      },
+      {
+        "address": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+        "symbol": "LABUBU",
+        "pool_data": {
+          "address": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+          "pool_id": "EHks3xWvbScHwygkB1QMsz38rEmht5tE1yyAreRUWELj",
+          "pool_name": "LABUBU-SOL",
+          "volume_24h": 995425.5669804172,
+          "tvl": 383737.3211826376,
+          "vlr": 2.5940285503443388,
+          "fee_24h": 11219.650962555372,
+          "trending_score": 2.5940285503443388,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 2.5940285503443388,
+        "emerging_score": 8.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        }
+      }
+    ],
+    "jupiter_only": [],
+    "cross_platform": [],
+    "risk_filtered": [
+      {
+        "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+        "symbol": "CUDIS",
+        "pool_data": {
+          "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+          "pool_id": "E2SC1KKRgCoLKXurwZfgpbQYH1VFBXRpoUy2TotmvsW5",
+          "pool_name": "CUDIS-SOL",
+          "volume_24h": 11902643.890426813,
+          "tvl": 22709.029511248984,
+          "vlr": 524.1370567831093,
+          "fee_24h": 34069.192850202795,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 524.1370567831093,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "MEDIUM"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "symbol": "JLP",
+        "pool_data": {
+          "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "pool_id": "DbTk2SNKWxu9TJbPzmK9HcQCAmraBCFb5VMo8Svwh34z",
+          "pool_name": "JLP-USDC",
+          "volume_24h": 2458116.006425129,
+          "tvl": 23542.155121890475,
+          "vlr": 104.4133807503235,
+          "fee_24h": 303.2736159106772,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 104.4133807503235,
+        "emerging_score": 15.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "MEDIUM"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "7h1L5U4zDJwpHkaFVfWxM1xT1RWPW8ev9Nfj9a6djups",
+        "symbol": "CATDET",
+        "pool_data": {
+          "address": "7h1L5U4zDJwpHkaFVfWxM1xT1RWPW8ev9Nfj9a6djups",
+          "pool_id": "83bLPVYtSjYKz7Qzv8N4kscSvkuBWTN67iac4YRKpYSe",
+          "pool_name": "CATDET-USDC",
+          "volume_24h": 850725.8735501217,
+          "tvl": 30786.67580847384,
+          "vlr": 27.632924023449284,
+          "fee_24h": 0.0,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 27.632924023449284,
+        "emerging_score": 15.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "MEDIUM",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "HrXK98VXjxuiRYj4PmWSZ26pJ2tCTJA223Jffv1wpump",
+        "symbol": "DANGER",
+        "pool_data": {
+          "address": "HrXK98VXjxuiRYj4PmWSZ26pJ2tCTJA223Jffv1wpump",
+          "pool_id": "127hScTWc7u4qDojxuQBgnJDuD27Yacxc6qSEqVVKKFN",
+          "pool_name": "DANGER-SOL",
+          "volume_24h": 772636.9545857861,
+          "tvl": 14272.594401532884,
+          "vlr": 54.13430332629676,
+          "fee_24h": 25451.44193757927,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 54.13430332629676,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "MEDIUM"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "3WzaZwVmjr3JMWKknJtnEn3R4kaX9pVkwQJmC9fxpump",
+        "symbol": "Bunker",
+        "pool_data": {
+          "address": "3WzaZwVmjr3JMWKknJtnEn3R4kaX9pVkwQJmC9fxpump",
+          "pool_id": "9fm2oaiiHqWPYuyPNx7HgaTfkAyXjhG5R4bnkYkswN3m",
+          "pool_name": "Bunker-SOL",
+          "volume_24h": 640729.9873868634,
+          "tvl": 488.73021725393306,
+          "vlr": 1311.0095606262764,
+          "fee_24h": 20005.131358937742,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 1311.0095606262764,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "HIGH",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "HIGH"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump",
+        "symbol": "Oil",
+        "pool_data": {
+          "address": "5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump",
+          "pool_id": "J6xB9FsYE653Kf1zYz45rReGuDWZRpLfZdfbBjYFQyg8",
+          "pool_name": "Oil-SOL",
+          "volume_24h": 509259.2932572372,
+          "tvl": 5952.9188972227175,
+          "vlr": 85.54782990489383,
+          "fee_24h": 9993.811603980534,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 85.54782990489383,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "HIGH",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "HIGH"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "J3rYdme789g1zAysfbH9oP4zjagvfVM2PX7KJgFDpump",
+        "symbol": "BlackCoin",
+        "pool_data": {
+          "address": "J3rYdme789g1zAysfbH9oP4zjagvfVM2PX7KJgFDpump",
+          "pool_id": "9sW5yM5w9w1CxkVZX82Kwef3k575xx138935woTtgn1f",
+          "pool_name": "BlackCoin-SOL",
+          "volume_24h": 479835.06646929984,
+          "tvl": 19491.136241509877,
+          "vlr": 24.618116692828035,
+          "fee_24h": 10305.91567146252,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 24.618116692828035,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "MEDIUM",
+          "volume_risk": "MEDIUM",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump",
+        "symbol": "ww3",
+        "pool_data": {
+          "address": "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump",
+          "pool_id": "FgNcj8siix3CK2Q6rZRd5armmW8nnBPAXHrUWFabAMB",
+          "pool_name": "ww3-SOL",
+          "volume_24h": 404183.7623991891,
+          "tvl": 3196.496941390658,
+          "vlr": 126.44584675352331,
+          "fee_24h": 12963.98846462342,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 126.44584675352331,
+        "emerging_score": 15,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "HIGH",
+          "volume_risk": "HIGH",
+          "age_risk": "MEDIUM",
+          "overall_risk": "HIGH"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+        "symbol": "ZBCN",
+        "pool_data": {
+          "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+          "pool_id": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+          "pool_name": "ZBCN-USDC",
+          "volume_24h": 1137284.508639107,
+          "tvl": 93291.53231700577,
+          "vlr": 12.190650966848741,
+          "fee_24h": 2459.555644637239,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 12.190650966848741,
+        "emerging_score": 14.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      },
+      {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "symbol": "MASK",
+        "pool_data": {
+          "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "pool_id": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+          "pool_name": "MASK-SOL",
+          "volume_24h": 864938.7775666454,
+          "tvl": 82277.74239796243,
+          "vlr": 10.512427205198392,
+          "fee_24h": 2677.9798382160643,
+          "trending_score": 10,
+          "discovery_source": "meteora_volume_trending"
+        },
+        "vlr": 10.512427205198392,
+        "emerging_score": 14.0,
+        "discovery_source": "meteora_emerging",
+        "discovery_time": "2025-06-23T10:26:29.089949",
+        "risk_indicators": {
+          "liquidity_risk": "LOW",
+          "volume_risk": "LOW",
+          "age_risk": "MEDIUM",
+          "overall_risk": "LOW"
+        },
+        "confidence_level": "MEDIUM",
+        "platform_count": 1
+      }
+    ]
+  },
+  "risk_analysis": {
+    "overall_risk_distribution": {
+      "LOW": 14,
+      "MEDIUM": 3,
+      "HIGH": 3
+    },
+    "platform_risk_comparison": {
+      "meteora_avg_risk": "MEDIUM",
+      "jupiter_avg_risk": "MEDIUM",
+      "cross_platform_avg_risk": "LOW"
+    },
+    "risk_factors": {
+      "liquidity_concerns": 0,
+      "high_volatility_indicators": 0,
+      "new_token_warnings": 20
+    }
+  },
+  "recommendations": [
+    "\ud83c\udf0a Meteora showing more emerging activity - focus on DEX volume analysis",
+    "\u26a0\ufe0f Limited cross-platform validation - exercise extra caution",
+    "\ud83d\udea8 All emerging tokens carry HIGH risk - use appropriate position sizing",
+    "\ud83d\udcca Monitor these tokens for 24-48h before significant investment"
+  ]
+}

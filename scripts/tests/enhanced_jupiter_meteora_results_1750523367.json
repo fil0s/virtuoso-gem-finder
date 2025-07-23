@@ -1,0 +1,734 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-21T12:29:27.866032",
+    "duration_seconds": 34.59,
+    "status": "SUCCESS",
+    "enhancement_level": "ADVANCED"
+  },
+  "enhanced_analytics": {
+    "meteora_pools_analyzed": 90,
+    "jupiter_liquidity_analysis": 15,
+    "cross_platform_correlations": 25,
+    "momentum_scoring_enabled": true,
+    "multi_depth_analysis_enabled": true
+  },
+  "api_performance": {
+    "dexscreener": {
+      "calls": 12,
+      "successes": 12,
+      "failures": 0,
+      "total_time_ms": 11176.529884338379,
+      "estimated_cost": 0.0
+    },
+    "rugcheck": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 675,
+      "estimated_cost": 0.0001
+    },
+    "birdeye": {
+      "calls": 3,
+      "successes": 3,
+      "failures": 0,
+      "total_time_ms": 2112,
+      "estimated_cost": 0.0
+    },
+    "enhanced_jupiter": {
+      "calls": 60,
+      "successes": 55,
+      "failures": 5,
+      "depth_analysis_calls": 60,
+      "batch_processing_calls": 15,
+      "total_time_ms": 22830.96146583557,
+      "estimated_cost": 0.0
+    },
+    "enhanced_meteora": {
+      "calls": 3,
+      "successes": 3,
+      "failures": 0,
+      "pool_metrics_calls": 3,
+      "comprehensive_analysis_calls": 0,
+      "total_time_ms": 1553.3933639526367,
+      "estimated_cost": 0.0
+    }
+  },
+  "top_momentum_tokens": [
+    {
+      "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.9,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.67,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.52,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0006543996917,
+            "route_count": 2,
+            "effective_price": 0.051163,
+            "out_amount": 51163,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.00116739360164,
+            "route_count": 3,
+            "effective_price": 0.0511418,
+            "out_amount": 511418,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.00117520586172,
+            "route_count": 3,
+            "effective_price": 0.0511414,
+            "out_amount": 5114140,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.051195721,
+            "out_amount": 51195721,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.666666666666667,
+        "effective_spread": 0.10617765848670468,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0006543996917
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.00116739360164
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.00117520586172
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.9,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.67,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.52,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.003132,
+            "out_amount": 3132,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.0031015,
+            "out_amount": 31015,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.00311877,
+            "out_amount": 311877,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.003082658,
+            "out_amount": 3082658,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.666666666666667,
+        "effective_spread": 1.5872066167170396,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.8,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.33,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.44,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0132643181863,
+            "route_count": 2,
+            "effective_price": 9.1e-05,
+            "out_amount": 91,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.01217999326123,
+            "route_count": 2,
+            "effective_price": 9.11e-05,
+            "out_amount": 911,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.01934021006385,
+            "route_count": 3,
+            "effective_price": 9.05e-05,
+            "out_amount": 9050,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.020178121659883,
+            "route_count": 3,
+            "effective_price": 9.039e-05,
+            "out_amount": 90390,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.333333333333334,
+        "effective_spread": 0.782390699468318,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0132643181863
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.01217999326123
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.01934021006385
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.020178121659883
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.8,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.33,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.44,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0028045440118,
+            "route_count": 3,
+            "effective_price": 0.009177,
+            "out_amount": 9177,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.0033651417187,
+            "route_count": 3,
+            "effective_price": 0.009171,
+            "out_amount": 91710,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.00323492815524,
+            "route_count": 2,
+            "effective_price": 0.00917269,
+            "out_amount": 917269,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0039891417911632,
+            "route_count": 2,
+            "effective_price": 0.009166418,
+            "out_amount": 9166418,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.333333333333334,
+        "effective_spread": 0.11537567910775157,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0028045440118
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.0033651417187
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.00323492815524
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0039891417911632
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "EBCqxfSMVSJPDGFLcf2yAfQoeLJRD1z8VbEUemZSbonk",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.8,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.33,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.44,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "EBCqxfSMVSJPDGFLcf2yAfQoeLJRD1z8VbEUemZSbonk",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.000658,
+            "out_amount": 658,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.00130612723116,
+            "route_count": 2,
+            "effective_price": 0.0006541,
+            "out_amount": 6541,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.00065708,
+            "out_amount": 65708,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.000656228,
+            "out_amount": 656228,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.333333333333334,
+        "effective_spread": 0.5941933596606596,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.00130612723116
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "Fgn5ebhuR44J212yHg8R144pwe5Dubwf2rtrPi4trash",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.8,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.33,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.44,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "Fgn5ebhuR44J212yHg8R144pwe5Dubwf2rtrPi4trash",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0118365536806,
+            "route_count": 2,
+            "effective_price": 0.000663,
+            "out_amount": 663,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.01751889956542,
+            "route_count": 2,
+            "effective_price": 0.0006593,
+            "out_amount": 6593,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.017563102872076,
+            "route_count": 3,
+            "effective_price": 0.00065916,
+            "out_amount": 65916,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0183639928410069,
+            "route_count": 3,
+            "effective_price": 0.000658781,
+            "out_amount": 658781,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.333333333333334,
+        "effective_spread": 0.6391840744841047,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0118365536806
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.01751889956542
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.017563102872076
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0183639928410069
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "23FH7fk4aLajVppQzr5BALeZh9fpnW8jkQevqRcgpump",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.8,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.33,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.44,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "23FH7fk4aLajVppQzr5BALeZh9fpnW8jkQevqRcgpump",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.000143,
+            "out_amount": 143,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.0001441,
+            "out_amount": 1441,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.00076544389873,
+            "route_count": 3,
+            "effective_price": 0.0001431,
+            "out_amount": 14310,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.000143109,
+            "out_amount": 143109,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.333333333333334,
+        "effective_spread": 0.7674744335079334,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.00076544389873
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "BtoVudqcKLhtBp84hBeXV7Jone2r1EMSnZhHB1ispump",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.7,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.0,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.36,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "BtoVudqcKLhtBp84hBeXV7Jone2r1EMSnZhHB1ispump",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.000475,
+            "out_amount": 475,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.0004743,
+            "out_amount": 4743,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.00047376,
+            "out_amount": 47376,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.000473492,
+            "out_amount": 473492,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.0000000000000004,
+        "effective_spread": 0.3180508628289654,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.7,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 3.0,
+      "route_diversity_score": 4,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.36,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0080512846771,
+            "route_count": 3,
+            "effective_price": 0.039867,
+            "out_amount": 39867,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.00862604614207,
+            "route_count": 2,
+            "effective_price": 0.0398439,
+            "out_amount": 398439,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.008626543771044,
+            "route_count": 2,
+            "effective_price": 0.03984388,
+            "out_amount": 3984388,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0086170639390893,
+            "route_count": 2,
+            "effective_price": 0.039844261,
+            "out_amount": 39844261,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 3.0000000000000004,
+        "effective_spread": 0.05801791492585322,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0080512846771
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.00862604614207
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.008626543771044
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0086170639390893
+          }
+        ],
+        "route_diversity_score": 4
+      }
+    },
+    {
+      "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+      "meteora_score": 5.0,
+      "jupiter_composite_score": 6.65,
+      "liquidity_depth_score": 10,
+      "market_maker_presence": 1.5,
+      "route_diversity_score": 6,
+      "correlation_bonus": 2.0,
+      "momentum_score": 11.32,
+      "cross_platform_validated": true,
+      "risk_adjusted": false,
+      "jupiter_data": {
+        "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+        "depth_tests": {
+          "$1": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.89363,
+            "out_amount": 893630,
+            "quote_success": true
+          },
+          "$10": {
+            "price_impact": 0.0,
+            "route_count": 3,
+            "effective_price": 0.8935545,
+            "out_amount": 8935545,
+            "quote_success": true
+          },
+          "$100": {
+            "price_impact": 0.0,
+            "route_count": 2,
+            "effective_price": 0.89300132,
+            "out_amount": 89300132,
+            "quote_success": true
+          },
+          "$1000": {
+            "price_impact": 0.0003851897955544,
+            "route_count": 1,
+            "effective_price": 0.892360566,
+            "out_amount": 892360566,
+            "quote_success": true
+          }
+        },
+        "liquidity_depth_score": 10,
+        "market_maker_presence": 1.5000000000000002,
+        "effective_spread": 0.14213212233992403,
+        "price_impact_curve": [
+          {
+            "amount_usd": 1.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 10.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 100.0,
+            "price_impact": 0.0
+          },
+          {
+            "amount_usd": 1000.0,
+            "price_impact": 0.0003851897955544
+          }
+        ],
+        "route_diversity_score": 6
+      }
+    }
+  ],
+  "recommendations": [
+    "\u2705 Enhanced multi-depth liquidity analysis operational",
+    "\u2705 Comprehensive Meteora pool metrics integrated",
+    "\u2705 Cross-platform momentum scoring active",
+    "\ud83c\udfaf Ready for advanced trending detection deployment"
+  ]
+}

@@ -1,0 +1,18 @@
+
+# Ultra-conservative rate limiting patch for Starter Plan
+# Apply to api/batch_api_manager.py
+
+# REPLACE:
+semaphore = asyncio.Semaphore(5)  # Limit concurrent requests for rate limiting
+
+# WITH:
+semaphore = asyncio.Semaphore(2)  # Ultra-conservative for Starter Plan
+
+# REPLACE: 
+semaphore = asyncio.Semaphore(3)  # Conservative limit for metadata calls
+
+# WITH:
+semaphore = asyncio.Semaphore(1)  # Single concurrent metadata call
+
+# ADD DELAY BETWEEN REQUESTS:
+await asyncio.sleep(0.1)  # 100ms delay between requests

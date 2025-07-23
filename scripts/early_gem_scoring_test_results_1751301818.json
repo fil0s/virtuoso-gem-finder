@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Pump.fun Ultra Early Token",
+    "score": 80.72,
+    "conviction": "\ud83d\udfe1 HIGH CONVICTION",
+    "breakdown": {
+      "scoring_methodology": "Early Gem Focus - Pump.fun/Launchlab Priority",
+      "timestamp": "2025-06-30T12:43:38.116501",
+      "early_platform_analysis": {
+        "pump_fun_stage": "ULTRA_EARLY",
+        "launchlab_stage": "unknown",
+        "bonding_curve_velocity": 0,
+        "graduation_progress": 15,
+        "early_signals": [
+          "PUMP_FUN_STAGE_0_LAUNCH",
+          "ULTRA_FRESH_0-10_MIN"
+        ],
+        "score": 48,
+        "max_score": 50,
+        "weight_pct": 40
+      },
+      "momentum_analysis": {
+        "volume_surge": "surging",
+        "price_velocity": "strong_bullish",
+        "holder_growth": 25,
+        "trading_activity": 85,
+        "score": 36,
+        "max_score": 38,
+        "weight_pct": 30
+      },
+      "safety_validation": {
+        "security_score": 90,
+        "dex_presence": 3,
+        "risk_factors": [],
+        "score": 14.9,
+        "max_score": 25,
+        "weight_pct": 20
+      },
+      "cross_platform_bonus": {
+        "platforms": [
+          "pump_fun"
+        ],
+        "platform_count": 1,
+        "score": 2,
+        "max_score": 12,
+        "weight_pct": 10
+      },
+      "final_score_summary": {
+        "scoring_methodology": "Early Gem Focus - Platform Priority System",
+        "component_scores": {
+          "early_platforms": {
+            "raw": 48,
+            "weight": "40%",
+            "max": 50
+          },
+          "momentum_signals": {
+            "raw": 36,
+            "weight": "30%",
+            "max": 38
+          },
+          "safety_validation": {
+            "raw": 14.9,
+            "weight": "20%",
+            "max": 25
+          },
+          "cross_platform_bonus": {
+            "raw": 2,
+            "weight": "10%",
+            "max": 12
+          }
+        },
+        "scoring_totals": {
+          "raw_total_score": 100.9,
+          "normalization_factor": 125.0,
+          "final_score": 80.72,
+          "max_possible_score": 100
+        },
+        "gem_detection_focus": {
+          "early_platform_priority": true,
+          "reduced_cross_platform_dependency": true,
+          "momentum_emphasized": true,
+          "safety_maintained": true
+        }
+      }
+    }
+  },
+  {
+    "name": "Launchlab Early Growth Token",
+    "score": 66.72,
+    "conviction": "\ud83d\udfe0 MEDIUM CONVICTION",
+    "breakdown": {
+      "scoring_methodology": "Early Gem Focus - Pump.fun/Launchlab Priority",
+      "timestamp": "2025-06-30T12:43:38.117121",
+      "early_platform_analysis": {
+        "pump_fun_stage": "unknown",
+        "launchlab_stage": "EARLY_GROWTH",
+        "bonding_curve_velocity": 0,
+        "graduation_progress": 35,
+        "early_signals": [
+          "RAYDIUM_LAUNCHLAB",
+          "FRESH_10-60_MIN"
+        ],
+        "score": 33,
+        "max_score": 50,
+        "weight_pct": 40
+      },
+      "momentum_analysis": {
+        "volume_surge": "increasing",
+        "price_velocity": "bullish",
+        "holder_growth": 150,
+        "trading_activity": 70,
+        "score": 30,
+        "max_score": 38,
+        "weight_pct": 30
+      },
+      "safety_validation": {
+        "security_score": 85,
+        "dex_presence": 6,
+        "risk_factors": [
+          "low_liquidity"
+        ],
+        "score": 14.399999999999999,
+        "max_score": 25,
+        "weight_pct": 20
+      },
+      "cross_platform_bonus": {
+        "platforms": [
+          "launchlab",
+          "birdeye"
+        ],
+        "platform_count": 2,
+        "score": 6,
+        "max_score": 12,
+        "weight_pct": 10
+      },
+      "final_score_summary": {
+        "scoring_methodology": "Early Gem Focus - Platform Priority System",
+        "component_scores": {
+          "early_platforms": {
+            "raw": 33,
+            "weight": "40%",
+            "max": 50
+          },
+          "momentum_signals": {
+            "raw": 30,
+            "weight": "30%",
+            "max": 38
+          },
+          "safety_validation": {
+            "raw": 14.399999999999999,
+            "weight": "20%",
+            "max": 25
+          },
+          "cross_platform_bonus": {
+            "raw": 6,
+            "weight": "10%",
+            "max": 12
+          }
+        },
+        "scoring_totals": {
+          "raw_total_score": 83.4,
+          "normalization_factor": 125.0,
+          "final_score": 66.72,
+          "max_possible_score": 100
+        },
+        "gem_detection_focus": {
+          "early_platform_priority": true,
+          "reduced_cross_platform_dependency": true,
+          "momentum_emphasized": true,
+          "safety_maintained": true
+        }
+      }
+    }
+  },
+  {
+    "name": "Traditional Cross-Platform Token (for comparison)",
+    "score": 38.96,
+    "conviction": "\ufffd\ufffd LOW CONVICTION",
+    "breakdown": {
+      "scoring_methodology": "Early Gem Focus - Pump.fun/Launchlab Priority",
+      "timestamp": "2025-06-30T12:43:38.117190",
+      "early_platform_analysis": {
+        "pump_fun_stage": "unknown",
+        "launchlab_stage": "unknown",
+        "bonding_curve_velocity": 0,
+        "graduation_progress": 0,
+        "early_signals": [],
+        "score": 0,
+        "max_score": 50,
+        "weight_pct": 40
+      },
+      "momentum_analysis": {
+        "volume_surge": "stable",
+        "price_velocity": "neutral",
+        "holder_growth": 800,
+        "trading_activity": 45,
+        "score": 17,
+        "max_score": 38,
+        "weight_pct": 30
+      },
+      "safety_validation": {
+        "security_score": 95,
+        "dex_presence": 9,
+        "risk_factors": [],
+        "score": 20.7,
+        "max_score": 25,
+        "weight_pct": 20
+      },
+      "cross_platform_bonus": {
+        "platforms": [
+          "birdeye",
+          "dexscreener",
+          "jupiter",
+          "meteora"
+        ],
+        "platform_count": 4,
+        "score": 11,
+        "max_score": 12,
+        "weight_pct": 10
+      },
+      "final_score_summary": {
+        "scoring_methodology": "Early Gem Focus - Platform Priority System",
+        "component_scores": {
+          "early_platforms": {
+            "raw": 0,
+            "weight": "40%",
+            "max": 50
+          },
+          "momentum_signals": {
+            "raw": 17,
+            "weight": "30%",
+            "max": 38
+          },
+          "safety_validation": {
+            "raw": 20.7,
+            "weight": "20%",
+            "max": 25
+          },
+          "cross_platform_bonus": {
+            "raw": 11,
+            "weight": "10%",
+            "max": 12
+          }
+        },
+        "scoring_totals": {
+          "raw_total_score": 48.7,
+          "normalization_factor": 125.0,
+          "final_score": 38.96,
+          "max_possible_score": 100
+        },
+        "gem_detection_focus": {
+          "early_platform_priority": true,
+          "reduced_cross_platform_dependency": true,
+          "momentum_emphasized": true,
+          "safety_maintained": true
+        }
+      }
+    }
+  }
+]

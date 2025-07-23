@@ -1,0 +1,298 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-21T12:00:46.655880",
+    "duration_seconds": 18.18,
+    "status": "SUCCESS"
+  },
+  "data_collection_results": {
+    "jupiter_all_tokens": 287863,
+    "jupiter_trending_analysis": 14,
+    "meteora_trending_pools": 36,
+    "integrated_unique_tokens": 30
+  },
+  "api_performance": {
+    "dexscreener": {
+      "calls": 12,
+      "successes": 12,
+      "failures": 0,
+      "total_time_ms": 6405.195474624634,
+      "estimated_cost": 0.0
+    },
+    "rugcheck": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 726,
+      "estimated_cost": 0.0001
+    },
+    "birdeye": {
+      "calls": 3,
+      "successes": 3,
+      "failures": 0,
+      "total_time_ms": 2234,
+      "estimated_cost": 0.0
+    },
+    "jupiter": {
+      "calls": 15,
+      "successes": 15,
+      "failures": 0,
+      "total_time_ms": 6610.418796539307,
+      "estimated_cost": 0.0
+    },
+    "meteora": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 458.67419242858887,
+      "estimated_cost": 0.0
+    }
+  },
+  "integration_analysis": {
+    "jupiter_api_status": "WORKING",
+    "meteora_api_status": "WORKING",
+    "cross_platform_correlation": "ENABLED",
+    "trending_detection_feasibility": "HIGH"
+  },
+  "sample_integrated_tokens": [
+    {
+      "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "sources": [
+        "meteora",
+        "jupiter"
+      ],
+      "meteora_data": {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "pool_id": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+        "pool_name": "JLP-USDC",
+        "volume_24h": 2859436.142064085,
+        "tvl": 282214.5175815809,
+        "vlr": 10.13213695230082,
+        "fee_24h": 968.7445195805876,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 16.4,
+      "jupiter_data": {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 4,
+          "activity_score": 10,
+          "route_complexity": 1,
+          "price_impact": 3.72554593e-05,
+          "trending_score": 6.4
+        },
+        "liquidity_score": 4,
+        "activity_score": 10,
+        "route_complexity": 1,
+        "price_impact": 3.72554593e-05,
+        "trending_score": 6.4,
+        "discovery_source": "jupiter_quote_analysis"
+      }
+    },
+    {
+      "address": "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+        "pool_id": "394eDzqVnrbYJS8JUVsp11rHJLUkr2AAafGfsHXxPh38",
+        "pool_name": "OSCAR-SOL",
+        "volume_24h": 81544633.41970634,
+        "tvl": 1.369857843840541,
+        "vlr": 59527807.05411545,
+        "fee_24h": 4344570.119852184,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "pool_id": "2fCWHEyzgnULbhrMoKTDwc2n6jy6zhxC9frEJFuHJVGW",
+        "pool_name": "GOR-SOL",
+        "volume_24h": 17098323.148491535,
+        "tvl": 547760.684624716,
+        "vlr": 31.21495139835749,
+        "fee_24h": 51945.37354159412,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "pool_id": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+        "pool_name": "USELESS-SOL",
+        "volume_24h": 5290707.5130670285,
+        "tvl": 445740.1845761474,
+        "vlr": 11.869487419219206,
+        "fee_24h": 13709.423032477358,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 10,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0,
+          "trending_score": 10.0
+        },
+        "liquidity_score": 10,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0,
+        "trending_score": 10.0,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 10.0
+    },
+    {
+      "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 10,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0,
+          "trending_score": 10.0
+        },
+        "liquidity_score": 10,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0,
+        "trending_score": 10.0,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 10.0
+    },
+    {
+      "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 10,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0005015039856445,
+          "trending_score": 10.0
+        },
+        "liquidity_score": 10,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0005015039856445,
+        "trending_score": 10.0,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 10.0
+    },
+    {
+      "address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 10,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0048495169412534,
+          "trending_score": 10.0
+        },
+        "liquidity_score": 10,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0048495169412534,
+        "trending_score": 10.0,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 10.0
+    },
+    {
+      "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 7,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.0,
+          "trending_score": 8.2
+        },
+        "liquidity_score": 7,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.0,
+        "trending_score": 8.2,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 8.2
+    },
+    {
+      "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 7,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.0003105901995028,
+          "trending_score": 8.2
+        },
+        "liquidity_score": 7,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.0003105901995028,
+        "trending_score": 8.2,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 8.2
+    }
+  ],
+  "recommendations": [
+    "\u2705 Jupiter Token List API working - use for comprehensive token discovery",
+    "\u2705 Jupiter Quote API working - use for real-time liquidity analysis",
+    "\u2705 Meteora Pool API working - use for volume/TVL trending detection",
+    "\ud83c\udfaf High integration success - ready for production deployment"
+  ]
+}

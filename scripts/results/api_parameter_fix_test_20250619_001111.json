@@ -1,0 +1,50 @@
+{
+  "liquidity_growth": {
+    "strategy_name": "Liquidity Growth Strategy",
+    "test_timestamp": 1750306271,
+    "execution_successful": true,
+    "tokens_found": 33,
+    "execution_time": 130.42080807685852,
+    "api_calls_made": 40,
+    "errors": [],
+    "market_cap_filtering": {
+      "tokens_before_filter": 0,
+      "tokens_after_filter": 0,
+      "tokens_filtered_out": 0
+    },
+    "api_parameters_used": {
+      "sort_by": "liquidity",
+      "sort_type": "desc",
+      "min_liquidity": 50000,
+      "min_volume_24h_usd": 25000,
+      "min_holder": 250,
+      "limit": 50
+    },
+    "market_cap_filters_used": {
+      "min_market_cap": 500000,
+      "max_market_cap": 100000000
+    }
+  },
+  "recent_listings": {
+    "strategy_name": "Recent Listings Strategy",
+    "test_timestamp": 1750306271,
+    "execution_successful": true,
+    "tokens_found": 0,
+    "execution_time": 31.012389183044434,
+    "api_calls_made": 21,
+    "errors": [],
+    "new_listings_detection": {
+      "new_listings_endpoint_called": false,
+      "new_listings_found": 0,
+      "cross_referenced_tokens": 0
+    },
+    "api_parameters_used": {
+      "sort_by": "liquidity",
+      "sort_type": "desc",
+      "min_liquidity": 50000,
+      "min_trade_24h_count": 300,
+      "min_holder": 100,
+      "limit": 30
+    }
+  }
+}

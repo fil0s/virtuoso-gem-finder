@@ -1,0 +1,134 @@
+{
+  "orca": {
+    "pools": {
+      "USELESS": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "TRUMP": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "aura": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "GOR": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "SPX": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "MUMU": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "$michi": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "BILLY": {
+        "pools": [],
+        "whirlpools_mention": false
+      },
+      "INF": {
+        "pools": [],
+        "whirlpools_mention": false
+      }
+    },
+    "whirlpools": {},
+    "summary": {
+      "total_pools": 153,
+      "tokens_found": 0,
+      "whirlpools_data_size": 618
+    }
+  },
+  "raydium": {
+    "pools": {
+      "USELESS": [],
+      "TRUMP": [
+        {
+          "identifier": "HUB-TRUMP",
+          "token-id": "9Yv5UTvSn6Hv97pECve3UopCvp6kn7qkqgGLQmPJQHQA-6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "liquidity_locked": 0.08746809604198473,
+          "apy": null,
+          "official": false
+        }
+      ],
+      "aura": [],
+      "GOR": [],
+      "SPX": [],
+      "MUMU": [],
+      "$michi": [],
+      "BILLY": [],
+      "INF": []
+    },
+    "pairs": {
+      "USELESS": [],
+      "TRUMP": [
+        {
+          "name": "TRUMP/WSOL",
+          "pair_id": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN-So11111111111111111111111111111111111111112",
+          "lp_mint": "Dnq43CmGeh6PHB7YYKBvexWXP372MrXCgnTXTijm4iuK",
+          "official": false,
+          "liquidity": 4957.405281298082,
+          "market": "72MSUMnhiZTppiAZFSUnnHxgE5b1QddJoB8EH3miaQdE",
+          "volume_24h": 394.0455383890478,
+          "volume_24h_quote": 2.979773293959345,
+          "fee_24h": 0.9851138459726216,
+          "fee_24h_quote": 0.0036115770356136287,
+          "volume_7d": 2747.808366219411,
+          "volume_7d_quote": 20.146162932439704,
+          "fee_7d": 6.869520915548532,
+          "fee_7d_quote": 0.02520281784092118,
+          "price": 0.06412073161100548,
+          "lp_price": 47.17549676531286,
+          "amm_id": "uCk125EJf7iCjz43aSdzuyMAT5eii6c5zKVxEnGnosa",
+          "token_amount_coin": 267.93118,
+          "token_amount_pc": 17.179943283,
+          "token_amount_lp": 105.084326,
+          "apy": 7.2
+        },
+        {
+          "name": "WSOL/TRUMP",
+          "pair_id": "So11111111111111111111111111111111111111112-6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "lp_mint": "4YBQyqaT2yUykisRoCfJnjuQVqTKfgGbzLmo1p2sgwbE",
+          "official": false,
+          "liquidity": 2390.972602786941,
+          "market": "E9chpojCq71yFqMBWq8TGFfNy2prdp65C6xaPvSCQQun",
+          "volume_24h": 60.56800364954091,
+          "volume_24h_quote": 6.659297357708333,
+          "fee_24h": 0.1514200091238523,
+          "fee_24h_quote": 0.00904465540590278,
+          "volume_7d": 477.4926742336896,
+          "volume_7d_quote": 52.37176512840278,
+          "fee_7d": 1.193731685584224,
+          "fee_7d_quote": 0.065667645371875,
+          "price": 15.581967701284055,
+          "lp_price": 2390.972602786941,
+          "amm_id": "HPUFRpydYrA5FCBm7W1oL6JdbRg26qt6H5wo4yAud4vq",
+          "token_amount_coin": 8.285942217,
+          "token_amount_pc": 129.111284,
+          "token_amount_lp": 1,
+          "apy": 2.59
+        }
+      ],
+      "aura": [],
+      "GOR": [],
+      "SPX": [],
+      "MUMU": [],
+      "$michi": [],
+      "BILLY": [],
+      "INF": []
+    },
+    "summary": {
+      "total_pools": "696k+",
+      "total_pairs": "696k+",
+      "tokens_found": 1,
+      "search_limit": 100000
+    }
+  },
+  "overall_summary": {}
+}

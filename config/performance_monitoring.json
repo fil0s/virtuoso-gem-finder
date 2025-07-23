@@ -1,0 +1,21 @@
+{
+  "performance_monitoring": {
+    "enabled": true,
+    "snapshot_interval_minutes": 5,
+    "history_retention_hours": 24,
+    "alert_cooldown_minutes": 5
+  },
+  "batch_optimization": {
+    "track_api_calls": true,
+    "track_compute_units": true,
+    "track_cost_savings": true,
+    "track_cache_performance": true
+  },
+  "thresholds": {
+    "max_response_time_seconds": 30,
+    "min_cache_hit_rate": 0.6,
+    "max_error_rate": 0.05,
+    "min_efficiency_score": 0.7,
+    "max_api_calls_per_minute": 120
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-06-24T14:11:48.752064",
+  "orca_tests": {},
+  "raydium_tests": {},
+  "integration_analysis": {},
+  "performance_metrics": {
+    "orca_response_times": [],
+    "raydium_response_times": [],
+    "success_rates": {
+      "orca": 0.0,
+      "raydium": 0.0
+    },
+    "api_call_stats": {
+      "orca": {
+        "total_calls": 0,
+        "successful_calls": 0,
+        "failed_calls": 0,
+        "success_rate": 0.0,
+        "average_response_time": 0.0,
+        "last_call_time": 0
+      },
+      "raydium": {
+        "total_calls": 0,
+        "successful_calls": 0,
+        "failed_calls": 0,
+        "success_rate": 0.0,
+        "average_response_time": 0.0,
+        "last_call_time": 0
+      }
+    }
+  },
+  "errors": [
+    "Orca connector test failed: 'EnhancedAPICacheManager' object has no attribute 'get_cached_data'",
+    "Raydium connector test failed: 'EnhancedAPICacheManager' object has no attribute 'get_cached_data'",
+    "Integration benefits test failed: 'EnhancedAPICacheManager' object has no attribute 'get_cached_data'"
+  ]
+}

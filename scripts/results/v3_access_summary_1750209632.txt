@@ -1,0 +1,38 @@
+V3 Access Capabilities Test Summary
+========================================
+
+Package Type: Starter
+Test Date: 2025-06-17T21:20:03.231570
+
+Total Endpoints Tested: 19
+Successful: 14
+Failed: 5
+Success Rate: 73.7%
+
+Working Endpoints:
+  ✅ get_token_list
+  ✅ get_token_metadata
+  ✅ get_token_market_data
+  ✅ get_token_trades
+  ✅ get_ohlcv
+  ✅ filtering_liquidity_filtering
+  ✅ filtering_volume_filtering
+  ✅ filtering_holder_filtering
+  ✅ filtering_trade_count_filtering
+  ✅ filtering_combined_filtering
+  ✅ pagination_page_1
+  ✅ pagination_page_2
+  ✅ pagination_large_page
+  ✅ pagination_max_page
+
+Blocked Endpoints:
+  ❌ get_token_trading_data
+  ❌ get_token_holders
+  ❌ get_new_listings
+  ❌ get_trending_tokens
+  ❌ get_top_traders
+
+Recommendations:
+  • Excellent V3 access! Most endpoints are working with Starter package.
+  • Advanced filtering capabilities available - leverage for precise token discovery.
+  • Pagination working - can access large datasets efficiently.

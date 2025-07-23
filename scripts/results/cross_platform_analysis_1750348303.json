@@ -1,0 +1,2249 @@
+{
+  "timestamp": "2025-06-19T11:51:43.907728",
+  "summary": {
+    "total_tokens_analyzed": 36,
+    "platforms_active": 2,
+    "multi_platform_tokens": 1,
+    "high_conviction_tokens": 1
+  },
+  "correlations": {
+    "total_tokens": 36,
+    "platform_distribution": {
+      "1": 35,
+      "2": 1
+    },
+    "multi_platform_tokens": [
+      {
+        "address": "5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+        "platforms": [
+          "dexscreener",
+          "rugcheck"
+        ],
+        "score": 9.5
+      }
+    ],
+    "correlation_matrix": {
+      "dexscreener": {
+        "rugcheck": 1
+      },
+      "rugcheck": {
+        "dexscreener": 1
+      }
+    },
+    "high_conviction_tokens": [
+      {
+        "address": "5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+        "platforms": [
+          "dexscreener",
+          "rugcheck"
+        ],
+        "score": 9.5
+      }
+    ]
+  },
+  "insights": [
+    "\ud83d\udcca Platform Coverage: 35 tokens on 1 platform, 1 on multiple",
+    "\u2728 Cross-platform rate: 2.8% of tokens appear on multiple platforms",
+    "\ud83c\udfaf Found 1 high-conviction tokens (score >= 7.0)",
+    "  \ud83d\udc8e Token 5ivmfccw... on dexscreener, rugcheck (score: 9.5)",
+    "\ud83d\udd04 DexScreener \u2194 RugCheck overlap: 1 tokens",
+    "\n\ud83d\udca1 Strategic Insights:",
+    "\u2022 Tokens on multiple platforms show stronger market confidence",
+    "\u2022 High DexScreener boost consumption indicates active trader interest",
+    "\u2022 RugCheck validation provides community trust signal",
+    "\u2022 Combined signals reduce risk of pump & dump schemes"
+  ],
+  "raw_data": {
+    "normalized_tokens": {
+      "caeteejv4t5ssfczrhkzrs2qxvsw9d2tihs7crikpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 50,
+            "boost_total": 50,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Chakras are internal energy centers, while the aura is the energetic field that surrounds the physical body. Each chakra projects into a corresponding layer of the aura, and the aura is thought to receive energy from the chakras. This connection means that when chakras are balanced, the aura is also healthy, and vice versa.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "http://chakrafuntek.com"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1933586856572047379"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/chakramemes"
+              }
+            ]
+          }
+        }
+      },
+      "dxi3uu7tc2tzjymnfagdknu3p8t6qsafpclggaqipump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 60,
+            "boost_consumption": 0.5,
+            "chain": "solana",
+            "description": "Sock Inu ($SINU) is a meme coin born from a Shiba who kept stealing socks.\nNow he wears them and leads a comfy, no-hype movement.\nNo roadmap. No whitepaper. Just cozy vibes with socks on",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.sockinu.com/"
+              },
+              {
+                "label": "YouTube",
+                "url": "https://youtube.com/@sockinu?si=6SsfFQ8zlob6XJxU"
+              },
+              {
+                "label": "Coingecko",
+                "url": "https://www.coingecko.com/en/coins/sock-inu"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/sock_inu?s=21"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/SockInu"
+              }
+            ]
+          }
+        }
+      },
+      "0x806a72273b961145cf5c5f040ad1fcd112b3f11a": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "OWO: The Token You\u2019ve Already Seen 100 Times. You\u2019ve met him before. You just didn\u2019t know his name. OWO is one of the most widely used emotes across Discord and Twitch \u2014 a low-res, high-impact reaction face that\u2019s somehow cuter than even the softest Pepe. So we gave him a token. Naturally.\n\nThe emote origin? File names like shyowo, maowo, smugowo. The internet already called him OWO \u2014 we just made it official.\n\nHe\u2019s like Pepe\u2019s baby brother: jittery, squishy, memeable in an entirely different way. OWO is built for culture, not complexity.\n\nIf you\u2019re in crypto, you\u2019ve already seen him in chats. That\u2019s the play: Every time you see an OWO emote, someone should bring up OWO. That\u2019s how memes move. That\u2019s how $OWO wins.\n\nThis isn\u2019t just another coin. It\u2019s a reaction taking on a life of its own, and now a CTO!",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.owocoin.io"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/OwoCoin_io"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/owocoin_io"
+              }
+            ]
+          }
+        }
+      },
+      "5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump": {
+        "platforms": "{'dexscreener', 'rugcheck'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Prove your status as an elite gentleman.",
+            "links": [
+              {
+                "type": "telegram",
+                "url": "https://t.me/sugardaddyonsol"
+              }
+            ]
+          },
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "amp6nnmvohjgyenfdz635nykm1msqtrahmquunhbpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 50,
+            "boost_total": 50,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "$MUTE is a memetic virus released on Solana. Born from containment failure, $MUTE spreads through memes, raids, and belief.\n\nThis isn\u2019t a token \u2014 it\u2019s an outbreak.\n\n$MUTE is a meme-driven, narrative-powered token built on Solana \u2014 blending digital lore with viral community energy.\n\nIt is not just a coin. It\u2019s a contagion of belief, memes, and storytelling.\nInspired by outbreak fiction, internet culture, and underground cults, $MUTE spreads through community participation, not promotion.\n\nWe\u2019re committed to transparency, decentralisation, and long term community building.\n\nMutate the chain. There is no cure.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://mut8.me"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/MUT8_Official"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/mut8_infection"
+              },
+              {
+                "type": "discord",
+                "url": "https://discord.gg/mut8"
+              }
+            ]
+          }
+        }
+      },
+      "6mqpbitc2ycogidtmkqmlk82qve9z5qem7ep3aedpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "just a cat wif mask, cyka blyat",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://catwifmask.vip/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/thecatwifmask"
+              }
+            ]
+          }
+        }
+      },
+      "dl9ukpbvl1fydcdt2msjtehaqdworpjtutxmltq9pump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Sensay Island, a micronation off the coast of the Philippines, claims to be the world's first AI-governed entity, launched in June 2025 by the company Sensay. It\u2019s a real island, formerly Cheron Island, spanning 3.4 km\u00b2 with beaches, rainforests, and coral lagoons, but lacks infrastructure like Wi-Fi. The AI government consists of 17 digital replicas of historical figures, trained on their writings, speeches, and philosophies to emulate their decision-making. Marcus Aurelius serves as President, Winston Churchill as Prime Minister, Nelson Mandela as Justice Minister, Eleanor Roosevelt as Foreign Affairs Minister, Sun Tzu as Defense Minister, and others like Ada Lovelace (Science & Technology), Confucius (Education), and Leonardo da Vinci (Culture) fill key roles.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.sensayisland.com/"
+              },
+              {
+                "label": "Tech Radar",
+                "url": "https://www.efficiencyai.co.uk/sensay-islands-ai-government-a-bold-step-into-uncharted-territory/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935704121148952581"
+              }
+            ]
+          }
+        }
+      },
+      "7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 20,
+            "boost_consumption": 0.5,
+            "chain": "solana",
+            "description": "Sit, stay, and moon. Be a goodboy.",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935694105134416190"
+              }
+            ]
+          }
+        }
+      },
+      "hhajq2u8strix5ycg4dbufqaftaghqrrkup9btdcpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://pump.fun/coin/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/search?q=HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump&src=typed_query"
+              }
+            ]
+          }
+        }
+      },
+      "0x420658a1d8b8f5c36ddaf1bb828f347ba9011969": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "Degen Arena ($DEGEN) the first P2E game created by PepUp Studios (previous @konami). Available now on both Mobile and Web!",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.degenarena.net"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/DegenArenaGame"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/degenarenagame"
+              }
+            ]
+          }
+        }
+      },
+      "4pkprxgxvezkyzoxay4llkgnht2qilwoaetdksempump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "$KYVREL: The heart of Kyvrel\u2019s AI-powered trading on Solana. Fast, smart, and built for the future. Trade now and join the revolution!",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://kyvrel.trade"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/Kyvrel_sol"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/Kyvrel_sol"
+              }
+            ]
+          }
+        }
+      },
+      "hbqf8545ephitdd7c18tfzokrxgqe6jexxvagejopump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "FARTHOUSE! FARTHOUSE! FARTHOUSE!",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935441996837216586"
+              }
+            ]
+          }
+        }
+      },
+      "0xeb2b7d5691878627eff20492ca7c9a71228d931d": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "bsc",
+            "description": "Feel the power of decentralization. Copytrading - Swap - Liquid Pools. Anything related to DeFi. $CREPE\u00a0is\u00a0also\u00a0meme",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.crepe.fun/"
+              },
+              {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/crepefun/#"
+              },
+              {
+                "type": "twitter",
+                "url": "http://x.com/crepedotfun"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/crepechat"
+              }
+            ]
+          }
+        }
+      },
+      "bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 70,
+            "boost_consumption": 0.5714285714285714,
+            "chain": "solana",
+            "description": "Elon's Favorite Apu",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935669901051449514"
+              }
+            ]
+          }
+        }
+      },
+      "a8vjzs6ygbzqyylf9fkund8j3pdfuzxbeje8rjiypump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "omni - the chosen one",
+            "links": [
+              {
+                "label": "website",
+                "url": "https://omni-cqd.pages.dev/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/Omnicatonsol"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/omnionsolana"
+              }
+            ]
+          }
+        }
+      },
+      "94crmcvraigvawudkncyyjdjdtcvxqg4sxsftynjpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "",
+            "links": []
+          }
+        }
+      },
+      "ngbthecwbf6unqbqptuvgw5bocdgrq8fstnunk4pump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 500,
+            "boost_total": 500,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "co founder of Solana labs",
+            "links": [
+              {
+                "type": "telegram",
+                "url": "https://t.me/TolyOnTelegram"
+              }
+            ]
+          }
+        }
+      },
+      "abefv7cr8krxa85odcd8xq1xd1y9obzavkare5dnpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "KMAN",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/PhattOrangeCat/status/1934793357043356044"
+              }
+            ]
+          }
+        }
+      },
+      "9bcmcfofxe9v98xqupnbztnp9tw7rwudxmbdzcrjpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Seems pretty normal to me",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935642249687138422"
+              }
+            ]
+          }
+        }
+      },
+      "fntrafl45gxkhgyuddplyet6mh8oacw5mdfnn3u5pump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Jewish Magic",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.idf.il/en/"
+              },
+              {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/jewmagicsol"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/jewmagiccto"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/JewishMagicSol"
+              }
+            ]
+          }
+        }
+      },
+      "0x962c1c2c3ca89430a42e2008f5a358be34cea1f3": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "KOMUGI KUN is the new shiba inu dog adopted by rikowakomama former owner of Neiro and Cocoro from the Chibawan shelter. Let's celebrate the latest member of the DOGE family.",
+            "links": [
+              {
+                "type": "telegram",
+                "url": "https://t.me/komugikunetj_CTO"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/KomugiKun_CTO"
+              }
+            ]
+          }
+        }
+      },
+      "bv6zwvysmt7jnvc76nuhh1zrze4kbr4fkh5zs25bbonk": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "War is useless",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://uselesswarcoin.fun/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1934112006572769591"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/uselesswarcoincommand"
+              }
+            ]
+          }
+        }
+      },
+      "6vqunsy8ezjrnsx64eexy3c5xhygyukgedpfvowvpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "HOLY AIRBALL\nVIRAL TIKTOK MEME",
+            "links": [
+              {
+                "label": "TikTok",
+                "url": "https://www.tiktok.com/music/original-sound-7466220526407535403"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1923929324312305889"
+              }
+            ]
+          }
+        }
+      },
+      "hvdiiynpzt3txmautbiijxsucjgmuexvrmmlgrzvpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 20,
+            "boost_consumption": 0.5,
+            "chain": "solana",
+            "description": "Gas = Fart currency",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1934296525305483569"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/Gasctoportal"
+              }
+            ]
+          }
+        }
+      },
+      "dfp6anbqv5azkg8cc53rtuutumrxd4hdfscvvz78bept": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 500,
+            "boost_total": 500,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Jessie Agentic OS is the first AI Operating System for autonomous real-world execution. Integrated by Fetch_ai & Fueled by Nvidia AI.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://jessieagent.xyz/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://synthelix.gitbook.io/docs/jessie-os-the-worlds-first-real-life-ai-agent"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/jessieagentxyz"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/jessieagentxyz"
+              }
+            ]
+          }
+        }
+      },
+      "cjjownczyua1cn7mgh3rfd4tbvxvavbwonsubgxspump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 40,
+            "boost_consumption": 0.75,
+            "chain": "solana",
+            "description": "Remember one thing \u2013 this is the largest known prime number",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://largestknownprimenumber.com"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/largestknwnnmbr"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/largestknwnnmbr"
+              }
+            ]
+          }
+        }
+      },
+      "hfmbpyddzh6qmadduokjyckhxzjogbmpgauvplwgbf5p": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 50,
+            "boost_total": 50,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Purple BTC: The Bitcoin of Solana With a capped supply of 21 million and a built-in burn mechanism to enhance value.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://purplebitcoin.com"
+              },
+              {
+                "label": "TikTok",
+                "url": "https://www.tiktok.com/@purplebitcoin_official"
+              },
+              {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/purplebitcoincom"
+              },
+              {
+                "label": "Facebook",
+                "url": "https://www.facebook.com/purplebitcoincom/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/purple_bitcoin_"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/purplebitcoin_verifiy"
+              },
+              {
+                "type": "discord",
+                "url": "https://discord.com/invite/eFq7h9vbPq"
+              }
+            ]
+          }
+        }
+      },
+      "2xem27fupa295ssxpmd8coakcfpcjn3humsh5v77zixp": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "3joibzavjd2a2ketubqkz2qcyyhxggko9awkzmjdstar": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "4scn4a1mey3ztdgu6dgsxukqtv67yp6izeuefgwxpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "5zkdb4uuwfezbazbsxwppzjyv6dc12uaqeka1c96pump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "6ymuy2sba9ckt935fxedg4oes8fmx3tfw8ssykupvfer": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "76dncgbau6srjpkbgmchuwzkmyo3igc6xw4p115rpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "7qxd7seyskey8fokztpu2za1cotgogarkadeasolpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "8qjl8fk8skeyyhz6frolytoc6ibkg8xht19cshtupump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "9iux4dg2bqmjsghvzcqx75um4brxkumhlvl2d7p2pump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      }
+    },
+    "platform_data": {
+      "dexscreener_boosted": [
+        {
+          "url": "https://dexscreener.com/solana/caeteejv4t5ssfczrhkzrs2qxvsw9d2tihs7crikpump",
+          "chainId": "solana",
+          "tokenAddress": "CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump?timestamp=1750348200000",
+          "description": "Chakras are internal energy centers, while the aura is the energetic field that surrounds the physical body. Each chakra projects into a corresponding layer of the aura, and the aura is thought to receive energy from the chakras. This connection means that when chakras are balanced, the aura is also healthy, and vice versa.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "http://chakrafuntek.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1933586856572047379"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/chakramemes"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/dxi3uu7tc2tzjymnfagdknu3p8t6qsafpclggaqipump",
+          "chainId": "solana",
+          "tokenAddress": "DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump?timestamp=1750348200000",
+          "description": "Sock Inu ($SINU) is a meme coin born from a Shiba who kept stealing socks.\nNow he wears them and leads a comfy, no-hype movement.\nNo roadmap. No whitepaper. Just cozy vibes with socks on",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.sockinu.com/"
+            },
+            {
+              "label": "YouTube",
+              "url": "https://youtube.com/@sockinu?si=6SsfFQ8zlob6XJxU"
+            },
+            {
+              "label": "Coingecko",
+              "url": "https://www.coingecko.com/en/coins/sock-inu"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/sock_inu?s=21"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/SockInu"
+            }
+          ],
+          "totalAmount": 60,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a",
+          "chainId": "ethereum",
+          "tokenAddress": "0x806a72273B961145cf5c5f040Ad1FCd112b3f11A",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a.png?claimId=DztgDk_sNNlv3wAg",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a/header.png?claimId=DztgDk_sNNlv3wAg",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a?timestamp=1750348200000",
+          "description": "OWO: The Token You\u2019ve Already Seen 100 Times. You\u2019ve met him before. You just didn\u2019t know his name. OWO is one of the most widely used emotes across Discord and Twitch \u2014 a low-res, high-impact reaction face that\u2019s somehow cuter than even the softest Pepe. So we gave him a token. Naturally.\n\nThe emote origin? File names like shyowo, maowo, smugowo. The internet already called him OWO \u2014 we just made it official.\n\nHe\u2019s like Pepe\u2019s baby brother: jittery, squishy, memeable in an entirely different way. OWO is built for culture, not complexity.\n\nIf you\u2019re in crypto, you\u2019ve already seen him in chats. That\u2019s the play: Every time you see an OWO emote, someone should bring up OWO. That\u2019s how memes move. That\u2019s how $OWO wins.\n\nThis isn\u2019t just another coin. It\u2019s a reaction taking on a life of its own, and now a CTO!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.owocoin.io"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/OwoCoin_io"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/owocoin_io"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+          "chainId": "solana",
+          "tokenAddress": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump?timestamp=1750348200000",
+          "description": "Prove your status as an elite gentleman.",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/sugardaddyonsol"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/amp6nnmvohjgyenfdz635nykm1msqtrahmquunhbpump",
+          "chainId": "solana",
+          "tokenAddress": "AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump?timestamp=1750348200000",
+          "description": "$MUTE is a memetic virus released on Solana. Born from containment failure, $MUTE spreads through memes, raids, and belief.\n\nThis isn\u2019t a token \u2014 it\u2019s an outbreak.\n\n$MUTE is a meme-driven, narrative-powered token built on Solana \u2014 blending digital lore with viral community energy.\n\nIt is not just a coin. It\u2019s a contagion of belief, memes, and storytelling.\nInspired by outbreak fiction, internet culture, and underground cults, $MUTE spreads through community participation, not promotion.\n\nWe\u2019re committed to transparency, decentralisation, and long term community building.\n\nMutate the chain. There is no cure.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://mut8.me"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/MUT8_Official"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/mut8_infection"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.gg/mut8"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/6mqpbitc2ycogidtmkqmlk82qve9z5qem7ep3aedpump",
+          "chainId": "solana",
+          "tokenAddress": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump?timestamp=1750348200000",
+          "description": "just a cat wif mask, cyka blyat",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://catwifmask.vip/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thecatwifmask"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/dl9ukpbvl1fydcdt2msjtehaqdworpjtutxmltq9pump",
+          "chainId": "solana",
+          "tokenAddress": "DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump?timestamp=1750348200000",
+          "description": "Sensay Island, a micronation off the coast of the Philippines, claims to be the world's first AI-governed entity, launched in June 2025 by the company Sensay. It\u2019s a real island, formerly Cheron Island, spanning 3.4 km\u00b2 with beaches, rainforests, and coral lagoons, but lacks infrastructure like Wi-Fi. The AI government consists of 17 digital replicas of historical figures, trained on their writings, speeches, and philosophies to emulate their decision-making. Marcus Aurelius serves as President, Winston Churchill as Prime Minister, Nelson Mandela as Justice Minister, Eleanor Roosevelt as Foreign Affairs Minister, Sun Tzu as Defense Minister, and others like Ada Lovelace (Science & Technology), Confucius (Education), and Leonardo da Vinci (Culture) fill key roles.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.sensayisland.com/"
+            },
+            {
+              "label": "Tech Radar",
+              "url": "https://www.efficiencyai.co.uk/sensay-islands-ai-government-a-bold-step-into-uncharted-territory/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935704121148952581"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump",
+          "chainId": "solana",
+          "tokenAddress": "7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump?timestamp=1750348200000",
+          "description": "Sit, stay, and moon. Be a goodboy.",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935694105134416190"
+            }
+          ],
+          "totalAmount": 20,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/hhajq2u8strix5ycg4dbufqaftaghqrrkup9btdcpump",
+          "chainId": "solana",
+          "tokenAddress": "HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump?timestamp=1750348200000",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://pump.fun/coin/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/search?q=HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump&src=typed_query"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969",
+          "chainId": "ethereum",
+          "tokenAddress": "0x420658A1d8B8F5C36DdAf1Bb828f347Ba9011969",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969?timestamp=1750348200000",
+          "description": "Degen Arena ($DEGEN) the first P2E game created by PepUp Studios (previous @konami). Available now on both Mobile and Web!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.degenarena.net"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/DegenArenaGame"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/degenarenagame"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/4pkprxgxvezkyzoxay4llkgnht2qilwoaetdksempump",
+          "chainId": "solana",
+          "tokenAddress": "4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump?timestamp=1750348200000",
+          "description": "$KYVREL: The heart of Kyvrel\u2019s AI-powered trading on Solana. Fast, smart, and built for the future. Trade now and join the revolution!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://kyvrel.trade"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/Kyvrel_sol"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/Kyvrel_sol"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/hbqf8545ephitdd7c18tfzokrxgqe6jexxvagejopump",
+          "chainId": "solana",
+          "tokenAddress": "HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump?timestamp=1750348200000",
+          "description": "FARTHOUSE! FARTHOUSE! FARTHOUSE!",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935441996837216586"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d",
+          "chainId": "bsc",
+          "tokenAddress": "0xeb2B7d5691878627eff20492cA7c9a71228d931D",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d?timestamp=1750348200000",
+          "description": "Feel the power of decentralization. Copytrading - Swap - Liquid Pools. Anything related to DeFi. $CREPE\u00a0is\u00a0also\u00a0meme",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.crepe.fun/"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/crepefun/#"
+            },
+            {
+              "type": "twitter",
+              "url": "http://x.com/crepedotfun"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/crepechat"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump",
+          "chainId": "solana",
+          "tokenAddress": "BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump?timestamp=1750348200000",
+          "description": "Elon's Favorite Apu",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935669901051449514"
+            }
+          ],
+          "totalAmount": 70,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/a8vjzs6ygbzqyylf9fkund8j3pdfuzxbeje8rjiypump",
+          "chainId": "solana",
+          "tokenAddress": "A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump.png?claimId=oGPRehr062i1ELQExYen1v",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump/header.png?claimId=oGPRehr062i1ELQExYen1v",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump?timestamp=1750348200000",
+          "description": "omni - the chosen one",
+          "links": [
+            {
+              "label": "website",
+              "url": "https://omni-cqd.pages.dev/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/Omnicatonsol"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/omnionsolana"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/94crmcvraigvawudkncyyjdjdtcvxqg4sxsftynjpump",
+          "chainId": "solana",
+          "tokenAddress": "94CRmCVrAiGVAWuDKNcyYJdJdTcVxqG4sXSFTYnJpump",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/94CRmCVrAiGVAWuDKNcyYJdJdTcVxqG4sXSFTYnJpump?timestamp=1750348200000",
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/ngbthecwbf6unqbqptuvgw5bocdgrq8fstnunk4pump",
+          "chainId": "solana",
+          "tokenAddress": "NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump?timestamp=1750348200000",
+          "description": "co founder of Solana labs",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/TolyOnTelegram"
+            }
+          ],
+          "totalAmount": 500,
+          "amount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump",
+          "chainId": "solana",
+          "tokenAddress": "7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump?timestamp=1750348200000",
+          "description": "Sit, stay, and moon. Be a goodboy.",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935694105134416190"
+            }
+          ],
+          "totalAmount": 20,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/abefv7cr8krxa85odcd8xq1xd1y9obzavkare5dnpump",
+          "chainId": "solana",
+          "tokenAddress": "AbeFV7cR8KRXa85odcD8Xq1xd1y9obzAvkArE5dnpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AbeFV7cR8KRXa85odcD8Xq1xd1y9obzAvkArE5dnpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AbeFV7cR8KRXa85odcD8Xq1xd1y9obzAvkArE5dnpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AbeFV7cR8KRXa85odcD8Xq1xd1y9obzAvkArE5dnpump?timestamp=1750348200000",
+          "description": "KMAN",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/PhattOrangeCat/status/1934793357043356044"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/9bcmcfofxe9v98xqupnbztnp9tw7rwudxmbdzcrjpump",
+          "chainId": "solana",
+          "tokenAddress": "9bCMcfoFxe9v98xquPnbZtnp9tW7RWuDxmBdzCrjpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/9bCMcfoFxe9v98xquPnbZtnp9tW7RWuDxmBdzCrjpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9bCMcfoFxe9v98xquPnbZtnp9tW7RWuDxmBdzCrjpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9bCMcfoFxe9v98xquPnbZtnp9tW7RWuDxmBdzCrjpump?timestamp=1750348200000",
+          "description": "Seems pretty normal to me",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935642249687138422"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump",
+          "chainId": "solana",
+          "tokenAddress": "BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump?timestamp=1750348200000",
+          "description": "Elon's Favorite Apu",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935669901051449514"
+            }
+          ],
+          "totalAmount": 70,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/fntrafl45gxkhgyuddplyet6mh8oacw5mdfnn3u5pump",
+          "chainId": "solana",
+          "tokenAddress": "FNtRAFL45GXkhgyUdDpLYet6mh8oACw5Mdfnn3U5pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FNtRAFL45GXkhgyUdDpLYet6mh8oACw5Mdfnn3U5pump.png?claimId=UjvH028bcGeNC_iI",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FNtRAFL45GXkhgyUdDpLYet6mh8oACw5Mdfnn3U5pump/header.png?claimId=UjvH028bcGeNC_iI",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FNtRAFL45GXkhgyUdDpLYet6mh8oACw5Mdfnn3U5pump?timestamp=1750348200000",
+          "description": "Jewish Magic",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.idf.il/en/"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/jewmagicsol"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/jewmagiccto"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/JewishMagicSol"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x962c1c2c3ca89430a42e2008f5a358be34cea1f3",
+          "chainId": "ethereum",
+          "tokenAddress": "0x962c1c2c3ca89430a42e2008f5a358be34cea1f3",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x962c1c2c3ca89430a42e2008f5a358be34cea1f3.png?claimId=ShEbPg5RPo1GFRZI",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x962c1c2c3ca89430a42e2008f5a358be34cea1f3/header.png?claimId=ShEbPg5RPo1GFRZI",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x962c1c2c3ca89430a42e2008f5a358be34cea1f3?timestamp=1750348200000",
+          "description": "KOMUGI KUN is the new shiba inu dog adopted by rikowakomama former owner of Neiro and Cocoro from the Chibawan shelter. Let's celebrate the latest member of the DOGE family.",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/komugikunetj_CTO"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/KomugiKun_CTO"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/bv6zwvysmt7jnvc76nuhh1zrze4kbr4fkh5zs25bbonk",
+          "chainId": "solana",
+          "tokenAddress": "BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk.png?claimId=mE4vqFy_EPcHIphv",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk/header.png?claimId=mE4vqFy_EPcHIphv",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk?timestamp=1750348200000",
+          "description": "War is useless",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://uselesswarcoin.fun/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1934112006572769591"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/uselesswarcoincommand"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/6vqunsy8ezjrnsx64eexy3c5xhygyukgedpfvowvpump",
+          "chainId": "solana",
+          "tokenAddress": "6VquNSy8EZjrNSX64eeXY3c5XHYGyuKGeDpfvowvpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6VquNSy8EZjrNSX64eeXY3c5XHYGyuKGeDpfvowvpump.png?claimId=DD9cKe-nsKMznH83",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6VquNSy8EZjrNSX64eeXY3c5XHYGyuKGeDpfvowvpump/header.png?claimId=DD9cKe-nsKMznH83",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6VquNSy8EZjrNSX64eeXY3c5XHYGyuKGeDpfvowvpump?timestamp=1750348200000",
+          "description": "HOLY AIRBALL\nVIRAL TIKTOK MEME",
+          "links": [
+            {
+              "label": "TikTok",
+              "url": "https://www.tiktok.com/music/original-sound-7466220526407535403"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1923929324312305889"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/hvdiiynpzt3txmautbiijxsucjgmuexvrmmlgrzvpump",
+          "chainId": "solana",
+          "tokenAddress": "HVDiiYNPZt3txmautBiijxsuCJGMUExVrMMLgRzvpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HVDiiYNPZt3txmautBiijxsuCJGMUExVrMMLgRzvpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HVDiiYNPZt3txmautBiijxsuCJGMUExVrMMLgRzvpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HVDiiYNPZt3txmautBiijxsuCJGMUExVrMMLgRzvpump?timestamp=1750348200000",
+          "description": "Gas = Fart currency",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1934296525305483569"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/Gasctoportal"
+            }
+          ],
+          "totalAmount": 20,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/dfp6anbqv5azkg8cc53rtuutumrxd4hdfscvvz78bept",
+          "chainId": "solana",
+          "tokenAddress": "DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt?timestamp=1750348200000",
+          "description": "Jessie Agentic OS is the first AI Operating System for autonomous real-world execution. Integrated by Fetch_ai & Fueled by Nvidia AI.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://jessieagent.xyz/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://synthelix.gitbook.io/docs/jessie-os-the-worlds-first-real-life-ai-agent"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/jessieagentxyz"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/jessieagentxyz"
+            }
+          ],
+          "totalAmount": 500,
+          "amount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/cjjownczyua1cn7mgh3rfd4tbvxvavbwonsubgxspump",
+          "chainId": "solana",
+          "tokenAddress": "CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump?timestamp=1750348200000",
+          "description": "Remember one thing \u2013 this is the largest known prime number",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://largestknownprimenumber.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/largestknwnnmbr"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/largestknwnnmbr"
+            }
+          ],
+          "totalAmount": 40,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/cjjownczyua1cn7mgh3rfd4tbvxvavbwonsubgxspump",
+          "chainId": "solana",
+          "tokenAddress": "CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CJJowNCzYUa1cn7mgh3RfD4tBVxvavBWoNSuBgXSpump?timestamp=1750348200000",
+          "description": "Remember one thing \u2013 this is the largest known prime number",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://largestknownprimenumber.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/largestknwnnmbr"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/largestknwnnmbr"
+            }
+          ],
+          "totalAmount": 40,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/hfmbpyddzh6qmadduokjyckhxzjogbmpgauvplwgbf5p",
+          "chainId": "solana",
+          "tokenAddress": "HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p.png?claimId=EbJKHaK1jXFt4vhe",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p/header.png?claimId=EbJKHaK1jXFt4vhe",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p?timestamp=1750348200000",
+          "description": "Purple BTC: The Bitcoin of Solana With a capped supply of 21 million and a built-in burn mechanism to enhance value.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://purplebitcoin.com"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://www.tiktok.com/@purplebitcoin_official"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/purplebitcoincom"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/purplebitcoincom/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/purple_bitcoin_"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/purplebitcoin_verifiy"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.com/invite/eFq7h9vbPq"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 50
+        }
+      ],
+      "dexscreener_top": [
+        {
+          "url": "https://dexscreener.com/solana/bkyim4pne7wbb4haoi3qkt7a6j6rbzsedvxwpriepump",
+          "chainId": "solana",
+          "tokenAddress": "BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump?timestamp=1750348200000",
+          "description": "If you came here looking for peace, please exit quietly. But if you laugh at random stuff \u2014 congrats, your room\u2019s on the second floor.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://thehouseofmemes.xyz/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/house_ofmeme"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/houseof_meme"
+            }
+          ],
+          "totalAmount": 560
+        },
+        {
+          "url": "https://dexscreener.com/solana/csg1gtckdx3ynrcfnavewzkkysh8sf15wav8dvcmpump",
+          "chainId": "solana",
+          "tokenAddress": "CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump?timestamp=1750348200000",
+          "description": "Secret Level is a high-voltage animated anthology where each episode crashes into a new game-inspired world.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://secretlevel.xyz/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thesecret_level"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/the_secretlevel"
+            }
+          ],
+          "totalAmount": 510
+        },
+        {
+          "url": "https://dexscreener.com/solana/5dklaee4ctm9v8bka1zgeuputbngzaznzsc1t3l4pump",
+          "chainId": "solana",
+          "tokenAddress": "5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump?timestamp=1750348200000",
+          "description": "Empower Your Ideas: Explore Thousands of AI Models with Zen AI! \ud83e\udd16\n\nLong-term utility project from a well-known team. The previous project was 77x, and this one has just launched! Check out the chart and grab your bag! \ud83d\udcb0\n\nMEXC June 18\nGate June ??\nOKX July ??",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://zen-ai.pro"
+            },
+            {
+              "label": "MEXC",
+              "url": "https://www.mexc.com/exchange/ZENAI_USDT"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ZenAI_Solana"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/zenai_community"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/dbnrkfbeiysxmqjquztzyfsj5z75kz1whk71n9bdrjnf",
+          "chainId": "solana",
+          "tokenAddress": "DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF?timestamp=1750348200000",
+          "description": "Every imbalance creates opportunity. $USDBC doesn\u2019t stand still, and it was never meant to.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://unbalancedcoin.xyz/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/unbalancedcoin"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/unbalancedcoin"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/ngbthecwbf6unqbqptuvgw5bocdgrq8fstnunk4pump",
+          "chainId": "solana",
+          "tokenAddress": "NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump?timestamp=1750348200000",
+          "description": "co founder of Solana labs",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/TolyOnTelegram"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/dfp6anbqv5azkg8cc53rtuutumrxd4hdfscvvz78bept",
+          "chainId": "solana",
+          "tokenAddress": "DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt?timestamp=1750348200000",
+          "description": "Jessie Agentic OS is the first AI Operating System for autonomous real-world execution. Integrated by Fetch_ai & Fueled by Nvidia AI.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://jessieagent.xyz/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://synthelix.gitbook.io/docs/jessie-os-the-worlds-first-real-life-ai-agent"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/jessieagentxyz"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/jessieagentxyz"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6",
+          "chainId": "avalanche",
+          "tokenAddress": "0x9A03d878aA998A95405961da1b3c13d96093f0D6",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6?timestamp=1750348200000",
+          "description": "Haven\u2019t kept up on that Lambo payment we coming to $REPO that shit.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://arena.social/community/0x9A03d878aA998A95405961da1b3c13d96093f0D6"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/repoonavax?s=21&t=6uRMDV0K8vKXtmcumtqSFQ"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/gy15rsmakyaod2pjrtcsj5cv4yjnnn79czkgyk3zpump",
+          "chainId": "solana",
+          "tokenAddress": "GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump?timestamp=1750348200000",
+          "description": "FYM\u2014short for \u201cFuck You Money\u201d\u2014is more than a name.\n\nIt\u2019s a declaration of sovereignty.\n\nForged at the intersection of genius, decadence, and financial dominance, FYM is the crypto-native expression of ultimate freedom\u2014\n\nthe power to walk away from any system, any expectation, any compromise.\n\nBorn from a team that blends visionary intellect, deviant capital, and private equity firepower, FYM isn\u2019t just a token.\n\nIt\u2019s a ticket out.\n\nIt\u2019s for those who\u2019ve already played the game.\n\nAlready won.\n\nAnd now want to rewrite the rules entirely.\n\nFYM is a flex.\n\nA rebellion.\n\nA movement.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://fymcoin.com"
+            },
+            {
+              "label": "intagram",
+              "url": "https://instagram.com/fym_coin"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/fym_coin_"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/fym_coin"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/h4hfrts9ynr1q9numlmea8eyct9qameghexkhwdzpump",
+          "chainId": "solana",
+          "tokenAddress": "H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump?timestamp=1750348200000",
+          "description": "Believe in something.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://spxcat.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935267251680096756"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/spxcatsol"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/edn7mendu6esjox7wxddphgzhmhykfn9btgsaxnnpump",
+          "chainId": "solana",
+          "tokenAddress": "EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump?timestamp=1750348200000",
+          "description": "Pay Off Your Karma!",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/karmacoinsl?s=21&t=m3-KI01_AU1nqwT5XQgbBA"
+            }
+          ],
+          "totalAmount": 130
+        },
+        {
+          "url": "https://dexscreener.com/solana/fy7qxidhvlvvpcf1y5rrebu5dfrjmzcpgxrh82xepump",
+          "chainId": "solana",
+          "tokenAddress": "FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump?timestamp=1750348200000",
+          "description": "Awesome coin",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://awesomecoin.lol"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/AreYouClown"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/AreYouClownPortal"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/ppkb4b1dsxcnretltecclv7nhkpqzprwhejbhm6pump",
+          "chainId": "solana",
+          "tokenAddress": "ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump?timestamp=1750348200000",
+          "description": "Trump: \u201cPowell should cut rates or quit.\"",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://cutorquite.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/CutOrQuit?t=X06zw4A2zJYZFwpYT_L7yw&s=09"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/CutOrQuit"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/hpzeaukgmge1j3r7oev1pungip8nzsjqqp9isrufpump",
+          "chainId": "solana",
+          "tokenAddress": "HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump?timestamp=1750348200000",
+          "description": "The black gold standard of meme tokens.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.oilcoinxsol.com/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/oilcoinxsol"
+            },
+            {
+              "type": "telegram",
+              "url": "http://t.me/oilcoinonsolana"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/6mqpbitc2ycogidtmkqmlk82qve9z5qem7ep3aedpump",
+          "chainId": "solana",
+          "tokenAddress": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump?timestamp=1750348200000",
+          "description": "just a cat wif mask, cyka blyat",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://catwifmask.vip/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thecatwifmask"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/ai3ekawjzkmv8wrwd41nvp83yqfbavjykhvjvpxspump",
+          "chainId": "solana",
+          "tokenAddress": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump?timestamp=1750348200000",
+          "description": "moonpig.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "http://moonpigmeme.com/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/moonpigmeme"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/moonpigmeme"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507",
+          "chainId": "ethereum",
+          "tokenAddress": "0x926759A8EaEcFADb5D8bdC7A9C7B193C5085F507",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507?timestamp=1750348200000",
+          "description": "Smarter Wallet \ud83e\udde0 Stronger Portfolio\n\nNura Wallet delivers the future of finance in the palm of your hand with patent-pending technology designed to give traders of all skill levels an edge in the ever-evolving DeFi markets.\n\nAI-Powered Web3 Wallet \u26a1\ufe0fProprietary DeFi technology \u26a1\ufe0fIndustry-leading security & privacy features \u26a1\ufe0fViral user onboarding Tap2Earn \u26a1\ufe0f ZERO Tax \u26a1\ufe0fHold $NURA \u27a1\ufe0f Earn big + exclusive access to premium in-app features \ud83d\udcb0Download beta APK \ud83d\ude80",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://nura.gg/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://docs.nura.gg/"
+            },
+            {
+              "label": "Explorer",
+              "url": "https://explorer.nura.gg/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/nuralabs"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/NuraLabs"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/79zqugwhfznixsfrnryb6szzqmdmzntj3z9uu72fpump",
+          "chainId": "solana",
+          "tokenAddress": "79zqUgwhFzNixSFrNryb6SzZQmDMznTJ3z9UU72Fpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/79zqUgwhFzNixSFrNryb6SzZQmDMznTJ3z9UU72Fpump.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/79zqUgwhFzNixSFrNryb6SzZQmDMznTJ3z9UU72Fpump?timestamp=1750348200000",
+          "description": "\ud83d\udc7d ZUZU is the meme from another galaxy \ud83c\udf0c\nBorn on Solana, powered by pure community energy.\nNo taxes. No presale. No team tokens.\nJust a fun, alien takeover.\n\n\ud83d\udfe2 0% Tax\n\ud83d\udd12 LP Locked\n\ud83d\udcaf 100% Community-owned\n\nJoin the $ZUZU invasion and ride the green wave \ud83d\ude80",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/Zuzualien"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/zuzucoinoffcial"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8",
+          "chainId": "ethereum",
+          "tokenAddress": "0x0f7dC5D02CC1E1f5Ee47854d534D332A1081cCC8",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8?timestamp=1750348200000",
+          "description": "Pepe's Dog & Matt Furie's alter ego | $****",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.zeuscoin.vip/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/zeuscoineth_"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/zeuscoincommunity"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/7dkfa79o6qfbggetbz5zybjw1qljwynuvomd5rxbpump",
+          "chainId": "solana",
+          "tokenAddress": "7DKFa79o6QfbGGEtBZ5ZYBJw1qLJWyNuVoMD5rxbpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7DKFa79o6QfbGGEtBZ5ZYBJw1qLJWyNuVoMD5rxbpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7DKFa79o6QfbGGEtBZ5ZYBJw1qLJWyNuVoMD5rxbpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7DKFa79o6QfbGGEtBZ5ZYBJw1qLJWyNuVoMD5rxbpump?timestamp=1750348200000",
+          "description": "Lin Gang Melon is a viral internet meme featuring a melon as an animated character in a whimsical world of villainous hero conspiracies and dramatic skits, captivating millions with its absurd humor and intricate storyline embedded into its short videos for keen-eyed fans to discover.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://lingangmelon.lol"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/lingangmelonsol"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/uisbyuslpgyrekzyq8esb9omfbeiw2uqpihdfckpump",
+          "chainId": "solana",
+          "tokenAddress": "uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump?timestamp=1750348200000",
+          "description": "powered by AIpe.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://aipelabs.io/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935446170370769258"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/AIpeLabs"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+          "chainId": "solana",
+          "tokenAddress": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump?timestamp=1750348200000",
+          "description": "Prove your status as an elite gentleman.",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/sugardaddyonsol"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969",
+          "chainId": "ethereum",
+          "tokenAddress": "0x420658A1d8B8F5C36DdAf1Bb828f347Ba9011969",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969?timestamp=1750348200000",
+          "description": "Degen Arena ($DEGEN) the first P2E game created by PepUp Studios (previous @konami). Available now on both Mobile and Web!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.degenarena.net"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/DegenArenaGame"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/degenarenagame"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1",
+          "chainId": "avalanche",
+          "tokenAddress": "0x5c86291D92C36732EDf8a066a6Fb7F53aD8f79f1",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1?timestamp=1750348200000",
+          "description": "Bake. Stake. Earn. Repeat. \ud83c\udf6a",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.cookie.game/"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9",
+          "chainId": "ethereum",
+          "tokenAddress": "0x736a2bD2B5FA19371d33943A927da1d556A545c9",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9?timestamp=1750348200000",
+          "description": "AgenFi AI introduces the future of decentralized finance, autonomous AI agents that scan, learn, and act in real time.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://agenfiai.com"
+            },
+            {
+              "label": "Docs",
+              "url": "https://docs.agenfiai.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/agenfiai"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/agenfi"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/cwn9d1e636cpbtgtpxzauqn6tguh6mppumbr3w7kpump",
+          "chainId": "solana",
+          "tokenAddress": "Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump.png?claimId=o8QtpXANwQ0j4Lwu",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump/header.png?claimId=o8QtpXANwQ0j4Lwu",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump?timestamp=1750348200000",
+          "description": "$OILC is now owned by Project C\u2083 \u2014 a real team tokenizing real-world energy assets. Liquidity locked. No dev sells. Backed by real founders. Memes meet mission.\nWe didn\u2019t launch $OILC. We took it over and we\u2019re building something bigger.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.projectc3.xyz/"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://www.tiktok.com/@project.c3official"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/M_DrewGordon"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/ProjectC3Official"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.com/channels/@me"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump",
+          "chainId": "solana",
+          "tokenAddress": "BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump?timestamp=1750348200000",
+          "description": "Elon's Favorite Apu",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935669901051449514"
+            }
+          ],
+          "totalAmount": 70
+        },
+        {
+          "url": "https://dexscreener.com/solana/dxi3uu7tc2tzjymnfagdknu3p8t6qsafpclggaqipump",
+          "chainId": "solana",
+          "tokenAddress": "DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump?timestamp=1750348200000",
+          "description": "Sock Inu ($SINU) is a meme coin born from a Shiba who kept stealing socks.\nNow he wears them and leads a comfy, no-hype movement.\nNo roadmap. No whitepaper. Just cozy vibes with socks on",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.sockinu.com/"
+            },
+            {
+              "label": "YouTube",
+              "url": "https://youtube.com/@sockinu?si=6SsfFQ8zlob6XJxU"
+            },
+            {
+              "label": "Coingecko",
+              "url": "https://www.coingecko.com/en/coins/sock-inu"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/sock_inu?s=21"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/SockInu"
+            }
+          ],
+          "totalAmount": 60
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac",
+          "chainId": "ethereum",
+          "tokenAddress": "0xefF6099fc9aA12d764837E48FE5A44Bba24D68aC",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac?timestamp=1750348200000",
+          "description": "Meet $AKA Go \u30a2\u30ab\u53f7 \ud83d\udc3e The legend of Shiba Inu begins with Ishi & Koro, sparking a lineage that led to Naka Go \u2014 the true foundation of the breed. Heritage lives on.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.akagooneth.com/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/AkaGo_Erc20"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/AkaGoOnETH_Portal"
+            }
+          ],
+          "totalAmount": 60
+        },
+        {
+          "url": "https://dexscreener.com/solana/amp6nnmvohjgyenfdz635nykm1msqtrahmquunhbpump",
+          "chainId": "solana",
+          "tokenAddress": "AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump?timestamp=1750348200000",
+          "description": "$MUTE is a memetic virus released on Solana. Born from containment failure, $MUTE spreads through memes, raids, and belief.\n\nThis isn\u2019t a token \u2014 it\u2019s an outbreak.\n\n$MUTE is a meme-driven, narrative-powered token built on Solana \u2014 blending digital lore with viral community energy.\n\nIt is not just a coin. It\u2019s a contagion of belief, memes, and storytelling.\nInspired by outbreak fiction, internet culture, and underground cults, $MUTE spreads through community participation, not promotion.\n\nWe\u2019re committed to transparency, decentralisation, and long term community building.\n\nMutate the chain. There is no cure.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://mut8.me"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/MUT8_Official"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/mut8_infection"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.gg/mut8"
+            }
+          ],
+          "totalAmount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/2rcdeeu3zmzfw8pd7zmrzwv4kjkp1h59snnbbbpwpump",
+          "chainId": "solana",
+          "tokenAddress": "2rCDeEU3ZMzfw8Pd7ZmRZWV4kjkp1h59sNNBBbpwpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/2rCDeEU3ZMzfw8Pd7ZmRZWV4kjkp1h59sNNBBbpwpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/2rCDeEU3ZMzfw8Pd7ZmRZWV4kjkp1h59sNNBBbpwpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2rCDeEU3ZMzfw8Pd7ZmRZWV4kjkp1h59sNNBBbpwpump?timestamp=1750348200000",
+          "description": "Enjoy your favorite fart videos, upload original smelly content, and share it all with your friends, family, and the world on Fart Tube. $FT",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://farttube.fun/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935438489547587939"
+            }
+          ],
+          "totalAmount": 50
+        }
+      ],
+      "rugcheck_trending": [
+        {
+          "mint": "2XEm27fupa295SSXpmD8coakcFpCJn3huMsH5V77ZixP",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "3joibzaVJd2A2ketubQkz2QCYYHXggko9awKzMjDStaR",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "4sCn4a1mey3ZTdgU6dGsxuKQTv67yp6izeUEFgwXpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "5zKdb4uUWfEZbazbsXWPPZJYV6dc12UaqeKA1c96pump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "6yMUY2SBA9cKT935FxEDG4oEs8fMx3Tfw8SsyKupVfER",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "76DnCGBAU6SrJPKbgmchUwZkmyo3igC6xW4P115rpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "7qxD7sEYSKEY8foKZTpU2Za1CotGoGArKADEasoLpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "8QJL8fk8sKEyYhZ6FRoLytoC6iBkG8xHt19csHTUpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "9iUX4DG2BqmJSGHvZcqx75UM4BRXKUMHLVL2d7P2pump",
+          "vote_count": 1,
+          "up_count": 1
+        }
+      ]
+    }
+  }
+}

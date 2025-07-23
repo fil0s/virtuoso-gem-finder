@@ -1,0 +1,1006 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-22T23:58:59.535752",
+    "duration_seconds": 45.35,
+    "status": "SUCCESS"
+  },
+  "data_collection_results": {
+    "jupiter_all_tokens": 287863,
+    "jupiter_trending_analysis": 14,
+    "meteora_trending_pools": 39,
+    "integrated_unique_tokens": 25
+  },
+  "platform_breakdown": {
+    "platform_summary": {
+      "total_platforms": 8,
+      "platform_counts": {
+        "DexScreener Boosted": 28,
+        "DexScreener Top": 30,
+        "DexScreener Profiles": 30,
+        "DexScreener Narratives": 9,
+        "RugCheck Trending": 10,
+        "Birdeye Trending": 0,
+        "Birdeye Emerging Stars": 0,
+        "Meteora Volume Trending": 39,
+        "Jupiter Quote Analysis": 14,
+        "Jupiter Token List": 287863
+      },
+      "total_unique_tokens": 65
+    },
+    "token_distribution": {
+      "by_platform_count": {
+        "1": 58,
+        "3": 2,
+        "2": 5
+      },
+      "multi_platform_tokens": 7,
+      "single_platform_tokens": 58
+    },
+    "cross_platform_analysis": {
+      "top_multi_platform_tokens": [
+        {
+          "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+              "pool_id": "E4qkx57hvi43wtxZkygTKRHs4XCb96i3v1WGNS856uSa",
+              "pool_name": "GOR-SOL",
+              "volume_24h": 2257919.8172444366,
+              "tvl": 190271.71871582064,
+              "vlr": 11.866817793435404,
+              "fee_24h": 3388.847826887177,
+              "trending_score": 10,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 22.202951924380603,
+          "platform_count": 3
+        },
+        {
+          "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+              "pool_id": "3eDLxhhkW95xpaBMdGuNTCaP8T1QCPYT3jbM9zZgV5qZ",
+              "pool_name": "JLP-JitoSOL",
+              "volume_24h": 1580973.1139832418,
+              "tvl": 677962.9771098159,
+              "vlr": 2.331946090512192,
+              "fee_24h": 768.6930887266768,
+              "trending_score": 2.331946090512192,
+              "discovery_source": "meteora_volume_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 8,
+                "activity_score": 10,
+                "route_complexity": 3,
+                "price_impact": 0.0,
+                "trending_score": 8.8,
+                "validation_errors": []
+              },
+              "liquidity_score": 8,
+              "activity_score": 10,
+              "route_complexity": 3,
+              "price_impact": 0.0,
+              "trending_score": 8.8,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 11.373974917986892,
+          "platform_count": 3
+        },
+        {
+          "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+              "pool_id": "5LAzU2jn92pJpUbBUSurT7i4GgSPkrrWbqfchUNU8fyB",
+              "pool_name": "USDT-SOL",
+              "volume_24h": 11799742.86168879,
+              "tvl": 321830.8742065635,
+              "vlr": 36.66442161827911,
+              "fee_24h": 2290.5991598370665,
+              "trending_score": 10,
+              "discovery_source": "meteora_volume_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 6,
+                "activity_score": 10,
+                "route_complexity": 2,
+                "price_impact": 0.0,
+                "trending_score": 7.6,
+                "validation_errors": []
+              },
+              "liquidity_score": 6,
+              "activity_score": 10,
+              "route_complexity": 2,
+              "price_impact": 0.0,
+              "trending_score": 7.6,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 17.6,
+          "platform_count": 2
+        },
+        {
+          "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+              "pool_id": "GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr",
+              "pool_name": "CUDIS-SOL",
+              "volume_24h": 1737163.528506886,
+              "tvl": 343312.8356797348,
+              "vlr": 5.0600016893263735,
+              "fee_24h": 0.0,
+              "trending_score": 5.0600016893263735,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 15.060001689326374,
+          "platform_count": 2
+        },
+        {
+          "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+              "pool_id": "3fUj4dDSwgpJuzriE32KsgmGGowKNZpnt7T9AD1noZrV",
+              "pool_name": "WBTC-USDC",
+              "volume_24h": 1959900.342577906,
+              "tvl": 264865.36652385263,
+              "vlr": 7.399609727387314,
+              "fee_24h": 927.586014891376,
+              "trending_score": 7.399609727387314,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 14.294689566421816,
+          "platform_count": 2
+        },
+        {
+          "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+              "pool_id": "BBXyTX5UfbASibLRo3iaptuwF5846njxm7M4xFQTQz3d",
+              "pool_name": "USELESS-SOL",
+              "volume_24h": 1645433.219691828,
+              "tvl": 815550.9560838884,
+              "vlr": 2.017572547021301,
+              "fee_24h": 19003.8595813988,
+              "trending_score": 2.017572547021301,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 12.0175725470213,
+          "platform_count": 2
+        },
+        {
+          "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "symbol": "Unknown",
+          "platforms": [
+            "Meteora Volume Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Meteora Volume Trending": {
+              "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "pool_id": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+              "pool_name": "JUP-SOL",
+              "volume_24h": 1880778.6113486383,
+              "tvl": 3018230.6316515817,
+              "vlr": 0.6231394617844271,
+              "fee_24h": 2707.570466220387,
+              "trending_score": 0.6231394617844271,
+              "discovery_source": "meteora_volume_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 4,
+                "activity_score": 10,
+                "route_complexity": 1,
+                "price_impact": 0.00010626328,
+                "trending_score": 6.4,
+                "validation_errors": []
+              },
+              "liquidity_score": 4,
+              "activity_score": 10,
+              "route_complexity": 1,
+              "price_impact": 0.00010626328,
+              "trending_score": 6.4,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 7.023139461784427,
+          "platform_count": 2
+        }
+      ],
+      "highest_platform_count": 3,
+      "cross_platform_percentage": 10.76923076923077
+    },
+    "detailed_token_table": [
+      {
+        "rank": 1,
+        "symbol": "Unknown",
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "platform_count": 3,
+        "platforms": "Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 22.2,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 2,
+        "symbol": "Unknown",
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "platform_count": 3,
+        "platforms": "Meteora Volume Trending, Meteora Volume Trending, Jupiter Quote Analysis",
+        "total_score": 11.37,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 3,
+        "symbol": "Unknown",
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "platform_count": 2,
+        "platforms": "Meteora Volume Trending, Jupiter Quote Analysis",
+        "total_score": 17.6,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 4,
+        "symbol": "Unknown",
+        "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+        "platform_count": 2,
+        "platforms": "Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 15.06,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 5,
+        "symbol": "Unknown",
+        "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+        "platform_count": 2,
+        "platforms": "Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 14.29,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 6,
+        "symbol": "Unknown",
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "platform_count": 2,
+        "platforms": "Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 12.02,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 7,
+        "symbol": "Unknown",
+        "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "platform_count": 2,
+        "platforms": "Meteora Volume Trending, Jupiter Quote Analysis",
+        "total_score": 7.02,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 8,
+        "symbol": "Unknown",
+        "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 10,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 9,
+        "symbol": "Unknown",
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 10,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 10,
+        "symbol": "Unknown",
+        "address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 8.8,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 11,
+        "symbol": "Unknown",
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 8.64,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 12,
+        "symbol": "Unknown",
+        "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 7.78,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 13,
+        "symbol": "Unknown",
+        "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 14,
+        "symbol": "Unknown",
+        "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 15,
+        "symbol": "Unknown",
+        "address": "GiG7Hr61RVm4CSUxJmgiCoySFQtdiwxtqf64MsRppump",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 16,
+        "symbol": "Unknown",
+        "address": "GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 17,
+        "symbol": "Unknown",
+        "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 6.84,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 18,
+        "symbol": "Unknown",
+        "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 19,
+        "symbol": "Unknown",
+        "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 20,
+        "symbol": "Unknown",
+        "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 21,
+        "symbol": "Unknown",
+        "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 6.36,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 22,
+        "symbol": "UNKNOWN",
+        "address": "8HV9BVVvRDW2BgtqjTdX9URTD1mdSXMgVCUFYVkubonk",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 2,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 23,
+        "symbol": "UNKNOWN",
+        "address": "23A3kTcrDM31DvCN2E2GWfbjkGbLCRWG8cYASxtWpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 24,
+        "symbol": "UNKNOWN",
+        "address": "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 25,
+        "symbol": "UNKNOWN",
+        "address": "3AXBNcz2qcj86LVAViAYavdKZDa56zGZzo8ptuKgpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 26,
+        "symbol": "UNKNOWN",
+        "address": "3QJJtYxAG6ANJQRnFSendo2E3NLZkB7vWtUK3KR4pump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 27,
+        "symbol": "UNKNOWN",
+        "address": "4m5SiTrc7M5c97LEmuNSdmWVNFoLZL2rosWokdXipump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 28,
+        "symbol": "UNKNOWN",
+        "address": "5tpkrCVVh6tjjve4TuyP8MXBwURufgAnaboaLwo49uau",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 29,
+        "symbol": "UNKNOWN",
+        "address": "68bdbmCFcBDs3uuetizSzwkR5u8UwXAAPi5LRh1apump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 30,
+        "symbol": "UNKNOWN",
+        "address": "6M7gm6ZYuyNaG1YTT3JvLL5DVKkKzSUm5w6Pm3RRpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 31,
+        "symbol": "UNKNOWN",
+        "address": "6SkjygWMP4jEngfwKaU1RViUgT5DUeuRNyQq31VTpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 32,
+        "symbol": "Unknown",
+        "address": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 0.88,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 33,
+        "symbol": "Unknown",
+        "address": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 0.55,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 34,
+        "symbol": "Unknown",
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 0.35,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 35,
+        "symbol": "Unknown",
+        "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 0.16,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 36,
+        "symbol": "Unknown",
+        "address": "4ADKg1H3WD6fRz8r8RDKqrzNSkhpjJFBsMbDgmTnpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 37,
+        "symbol": "Unknown",
+        "address": "6uFSRi5TTm2MBwLKWuptojk1YpmBEq3DYh4K3bp8DMEu",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 38,
+        "symbol": "Unknown",
+        "address": "8ZnmkfV8t1z7fAqAKNisNRWbxipKqvzoTxSSdTTvpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 39,
+        "symbol": "Unknown",
+        "address": "0x281e6d2d46caf567cc96006331f1634b639235f3",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 40,
+        "symbol": "Unknown",
+        "address": "ENv6jxWgXjm1TJe2tGqtuwS2ojHSuZEnJWL3kHc9pump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 41,
+        "symbol": "Unknown",
+        "address": "5buAgV8nWVa3TazM1J1WeyZxUPX1r6tRgSk1LWBYpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 42,
+        "symbol": "Unknown",
+        "address": "0x12Cc679BC8159f95b9aEe63516832e4691f55372",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 43,
+        "symbol": "Unknown",
+        "address": "8bKgFP9B5PrHmUgqnnuziyKpuxLiCSUGuh6zUgPDpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 44,
+        "symbol": "Unknown",
+        "address": "0x0195EA52a14E3be29a40b6E49b934aEA71fa7EfF",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 45,
+        "symbol": "Unknown",
+        "address": "2Ew9jGhGb76aq9B9XyZMuCFxVxnQnE3xLTH6ag2dpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 46,
+        "symbol": "Unknown",
+        "address": "2mcnL7BANAgyH1fQWiSybx58dCPyBsY44Eh7X9Mvpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 47,
+        "symbol": "Unknown",
+        "address": "EFrWUiCJxX5yu5zi26GJVrX3JDLGm2pVueWE1ScQpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 48,
+        "symbol": "Unknown",
+        "address": "ERkF1A9tEQVcY6x6hDxZ9VXzJxWpmozALprKwPzBpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 49,
+        "symbol": "Unknown",
+        "address": "0x90ba788b3243939595942ffed1dd37526136b0e5",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 50,
+        "symbol": "Unknown",
+        "address": "0x6a5fde3bd8c78436da00e611b927da742e1defbc",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      }
+    ]
+  },
+  "api_performance": {
+    "dexscreener": {
+      "calls": 12,
+      "successes": 12,
+      "failures": 0,
+      "total_time_ms": 10819.44227218628,
+      "estimated_cost": 0.0
+    },
+    "rugcheck": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 847,
+      "estimated_cost": 0.0001
+    },
+    "birdeye": {
+      "calls": 33,
+      "successes": 0,
+      "failures": 33,
+      "total_time_ms": 7958,
+      "estimated_cost": 0.0
+    },
+    "jupiter": {
+      "calls": 15,
+      "successes": 15,
+      "failures": 0,
+      "total_time_ms": 12156.917333602905,
+      "estimated_cost": 0.0
+    },
+    "meteora": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 939.8269653320312,
+      "estimated_cost": 0.0
+    }
+  },
+  "integration_analysis": {
+    "jupiter_api_status": "WORKING",
+    "meteora_api_status": "WORKING",
+    "cross_platform_correlation": "ENABLED",
+    "trending_detection_feasibility": "HIGH"
+  },
+  "sample_integrated_tokens": [
+    {
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "sources": [
+        "meteora",
+        "jupiter"
+      ],
+      "meteora_data": {
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "pool_id": "5LAzU2jn92pJpUbBUSurT7i4GgSPkrrWbqfchUNU8fyB",
+        "pool_name": "USDT-SOL",
+        "volume_24h": 11799742.86168879,
+        "tvl": 321830.8742065635,
+        "vlr": 36.66442161827911,
+        "fee_24h": 2290.5991598370665,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 17.6,
+      "jupiter_data": {
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 6,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.0,
+          "trending_score": 7.6,
+          "validation_errors": []
+        },
+        "liquidity_score": 6,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.0,
+        "trending_score": 7.6,
+        "discovery_source": "jupiter_quote_analysis"
+      }
+    },
+    {
+      "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "pool_id": "2fCWHEyzgnULbhrMoKTDwc2n6jy6zhxC9frEJFuHJVGW",
+        "pool_name": "GOR-SOL",
+        "volume_24h": 13269538.656704254,
+        "tvl": 745530.8156457524,
+        "vlr": 17.798779578561955,
+        "fee_24h": 36566.96824967936,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "pool_id": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+        "pool_name": "USELESS-SOL",
+        "volume_24h": 7622866.454342624,
+        "tvl": 536444.1792287332,
+        "vlr": 14.209990059547888,
+        "fee_24h": 23633.9958892932,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+        "pool_id": "E2SC1KKRgCoLKXurwZfgpbQYH1VFBXRpoUy2TotmvsW5",
+        "pool_name": "CUDIS-SOL",
+        "volume_24h": 7264962.231753652,
+        "tvl": 47585.877426497245,
+        "vlr": 152.67055321140938,
+        "fee_24h": 20719.26475643781,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+        "pool_id": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+        "pool_name": "ZBCN-USDC",
+        "volume_24h": 1158212.9175327392,
+        "tvl": 52435.744662043035,
+        "vlr": 22.08823246427816,
+        "fee_24h": 2355.778679436821,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "pool_id": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+        "pool_name": "MASK-SOL",
+        "volume_24h": 1107348.9887730244,
+        "tvl": 34075.10518753798,
+        "vlr": 32.49730214121266,
+        "fee_24h": 2946.9407653895564,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "sources": [
+        "meteora",
+        "jupiter"
+      ],
+      "meteora_data": {
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "pool_id": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+        "pool_name": "JitoSOL-SOL",
+        "volume_24h": 3060789.119611929,
+        "tvl": 12646382.464220628,
+        "vlr": 0.24202882747470025,
+        "fee_24h": 290.8033057188343,
+        "trending_score": 0.24202882747470025,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 9.0420288274747,
+      "jupiter_data": {
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 8,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0,
+          "trending_score": 8.8,
+          "validation_errors": []
+        },
+        "liquidity_score": 8,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0,
+        "trending_score": 8.8,
+        "discovery_source": "jupiter_quote_analysis"
+      }
+    },
+    {
+      "address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 8,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0046497192244413,
+          "trending_score": 8.8,
+          "validation_errors": []
+        },
+        "liquidity_score": 8,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0046497192244413,
+        "trending_score": 8.8,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 8.8
+    },
+    {
+      "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "pool_id": "62KR7tk1KWARJ9PdCgoK9tTcTJBvDjB1aEcdr8myxKXN",
+        "pool_name": "SPX-SOL",
+        "volume_24h": 2698096.8924734797,
+        "tvl": 312399.3511593433,
+        "vlr": 8.636691729546136,
+        "fee_24h": 5344.075945551619,
+        "trending_score": 8.636691729546136,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 8.636691729546136
+    },
+    {
+      "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+        "pool_id": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+        "pool_name": "cbBTC-USDC",
+        "volume_24h": 5808747.477324628,
+        "tvl": 746864.0579660569,
+        "vlr": 7.777516423997768,
+        "fee_24h": 2369.3560095722046,
+        "trending_score": 7.777516423997768,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 7.777516423997768
+    }
+  ],
+  "recommendations": [
+    "\u2705 Jupiter Token List API working - use for comprehensive token discovery",
+    "\u2705 Jupiter Quote API working - use for real-time liquidity analysis",
+    "\u2705 Meteora Pool API working - use for volume/TVL trending detection",
+    "\ud83c\udfaf High integration success - ready for production deployment",
+    "\ud83d\udd34 Test accuracy issues detected - review validation errors"
+  ],
+  "accuracy_validation": {
+    "overall_accuracy": 80.25806451612904,
+    "validation_errors": [],
+    "validation_warnings": [
+      "birdeye API success rate: 0.0%"
+    ],
+    "data_consistency_checks": {
+      "api_success_rate": 46.774193548387096,
+      "token_count_realistic": true,
+      "score_validation_rate": 100.0
+    },
+    "score_validation": {},
+    "api_validation": {}
+  }
+}

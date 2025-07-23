@@ -1,0 +1,380 @@
+{
+  "timestamp": "2025-06-24T14:14:42.377915",
+  "orca_tests": {
+    "total_pools": 153,
+    "sample_pools": [
+      {
+        "name": "SAMO/SOL",
+        "name2": "SAMO/SOL[deprecated]",
+        "account": "Hj45HZesMQD4ghdU7GuskiMyYBfxLnfibqKNgdaj8284",
+        "mint_account": "9rguDaKqTrVjaDXafq6E7rKGn7NPHomkdb8RKpjKCDm2",
+        "liquidity": 8516.018384549954,
+        "price": 0.00020323064265015316,
+        "apy_24h": 0.044557835523012033,
+        "apy_7d": 0.08889593342238786,
+        "apy_30d": 0.09805455149081914,
+        "volume_24h": 182.3012809865685,
+        "volume_24h_quote": 8.958293905973882,
+        "volume_7d": 2696.7729794899797,
+        "volume_7d_quote": 132.51955673169434,
+        "volume_30d": 12101.719982497543,
+        "volume_30d_quote": 594.6791146190438
+      },
+      {
+        "name": "SOL/USDC",
+        "name2": "SOL/USDC[deprecated]",
+        "account": "6fTRDD7sYxCN7oyoSQaN1AWC3P2m8A6gVZzGrpej9DvL",
+        "mint_account": "ECFcUGwHHMaZynAQpqRHkYeTBnS5GnPWZywM8aggcs3A",
+        "liquidity": 31526.06789115484,
+        "price": 18.381437845018986,
+        "apy_24h": 0.06023957946632608,
+        "apy_7d": 0.09415670991273022,
+        "apy_30d": 0.08494947110961289,
+        "volume_24h": 1044.2619466753088,
+        "volume_24h_quote": 1044.2828323319554,
+        "volume_7d": 11322.443961654639,
+        "volume_7d_quote": 11322.67041506294,
+        "volume_30d": 44735.066823073415,
+        "volume_30d_quote": 44735.96154230426
+      },
+      {
+        "name": "USDC/USDT",
+        "name2": "USDC/USDT[deprecated]",
+        "account": "8KZjKCNTshjwapD4TjWQonXBdi1Jm4Eks5rgrViK9UCx",
+        "mint_account": "3H5XKkE9uVvxsdrFeN4BLLGCmohiQN6aZJVVcJiXQ4WC",
+        "liquidity": 9413.019034257532,
+        "price": 1.0010214911030073,
+        "apy_24h": 0,
+        "apy_7d": 0,
+        "apy_30d": 6.659720436061865e-05,
+        "volume_24h": 0,
+        "volume_24h_quote": 0,
+        "volume_7d": 0,
+        "volume_7d_quote": 0,
+        "volume_30d": 14.226597413586621,
+        "volume_30d_quote": 14.229400605505905
+      },
+      {
+        "name": "ETH/USDC",
+        "name2": "ETH/USDC[deprecated]",
+        "account": "DY8qBwVGLeLJSrWib7L16mL7oB4HNAQ2f9yiYWKof54v",
+        "mint_account": "7TYb32qkwYosUQfUspU45cou7Bb3nefJocVMFX2mEGTT",
+        "liquidity": 116.61844808906,
+        "price": 166.16038471203007,
+        "apy_24h": 0.00979562968282746,
+        "apy_7d": 0.07277802118801964,
+        "apy_30d": 0.041608943971319555,
+        "volume_24h": 1.6185249465066773,
+        "volume_24h_quote": 1.6185573176530303,
+        "volume_7d": 48.73816430104508,
+        "volume_7d_quote": 48.73913908382676,
+        "volume_30d": 125.42697388178982,
+        "volume_30d_quote": 125.42948247143926
+      },
+      {
+        "name": "BTC/ETH",
+        "name2": "BTC/ETH[deprecated]",
+        "account": "Fz6yRGsNiXK7hVu4D2zvbwNXW8FQvyJ5edacs3piR1P7",
+        "mint_account": "8pFwdcuXM7pvHdEGHLZbUR8nNsjj133iUXWG6CgdRHk2",
+        "liquidity": 2.96240716,
+        "price": 13.218676122931441,
+        "apy_24h": 0.23033253648809254,
+        "apy_7d": 0.12109361157193858,
+        "apy_30d": 0.04346194285767485,
+        "volume_24h": 1.9656570987466142,
+        "volume_24h_quote": 0.014794950314215068,
+        "volume_7d": 6.779220537620225,
+        "volume_7d_quote": 0.05102529382523126,
+        "volume_30d": 7.18578761792748,
+        "volume_30d_quote": 0.05408541034116724
+      }
+    ],
+    "token_searches": {
+      "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+        "pools_found": 0,
+        "pools": []
+      },
+      "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
+        "pools_found": 0,
+        "pools": []
+      },
+      "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2": {
+        "pools_found": 0,
+        "pools": []
+      },
+      "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+        "pools_found": 0,
+        "pools": []
+      },
+      "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr": {
+        "pools_found": 0,
+        "pools": []
+      }
+    },
+    "trending_pools": {
+      "count": 25,
+      "pools": [
+        {
+          "name": "SOL/USDC[aquafarm]",
+          "name2": "SOL/USDC",
+          "account": "EGZ7tiLeH62TPV1gL8WwbXGzEPa9zmcpVnnkPKKnrE2U",
+          "mint_account": "APDFRM3HMr8CAGXwKHiu2f5ePSpaiEJhaURwhsRrUUt9",
+          "liquidity": 1827481.652931844,
+          "price": 18.391037812318174,
+          "apy_24h": 0.07334968713843429,
+          "apy_7d": 0.10474738734768985,
+          "apy_30d": 0.09517351221410175,
+          "volume_24h": 109384.41087256794,
+          "volume_24h_quote": 109386.59860454004,
+          "volume_7d": 1200606.200204246,
+          "volume_7d_quote": 1200630.2128085021,
+          "volume_30d": 4741710.43345158,
+          "volume_30d_quote": 4741805.269556971
+        },
+        {
+          "name": "AUDIO/USDC[aquafarm]",
+          "name2": "AUDIO/USDC",
+          "account": "2arG3AznFJbLknAQUqk44PgeABZDHpBfcRsPmPWjjBPY",
+          "mint_account": "3hksYA17VxgiKSeihjnZkBbjc2CTbEBfvDCYgQhojTo5",
+          "liquidity": 515035.9275243907,
+          "price": 0.18202246910505024,
+          "apy_24h": 0.04724434758816782,
+          "apy_7d": 0.042915261387699674,
+          "apy_30d": 0.03039995860641714,
+          "volume_24h": 22687.184689858495,
+          "volume_24h_quote": 22687.638442627347,
+          "volume_7d": 139162.5529413687,
+          "volume_7d_quote": 139165.33624809366,
+          "volume_30d": 425407.7491393506,
+          "volume_30d_quote": 425416.2574644999
+        },
+        {
+          "name": "ATLAS/USDC[aquafarm]",
+          "name2": "ATLAS/USDC",
+          "account": "3V5sjXj1mrWjjB1Xt6Xwp554QwHE5fppGSxbk4GzAtEW",
+          "mint_account": "FZ8x1LCRSPDeHBDoAc3Gc6Y7ETCynuHEr5q5YWV7uRCJ",
+          "liquidity": 235342.02801512633,
+          "price": 0.00158214646904978,
+          "apy_24h": 0.10146746239503852,
+          "apy_7d": 0.12711284923757588,
+          "apy_30d": 0.12453209824388167,
+          "volume_24h": 15505.593175829972,
+          "volume_24h_quote": 15505.90329389585,
+          "volume_7d": 144817.76111716716,
+          "volume_7d_quote": 144820.65753031778,
+          "volume_30d": 665751.2812762999,
+          "volume_30d_quote": 665764.5965682312
+        },
+        {
+          "name": "SAMO/USDC[aquafarm]",
+          "name2": "SAMO/USDC",
+          "account": "Epvp7qMYAF21VVjacdB3VfKn6nnXQSF4rGYu8sD6Bkow",
+          "mint_account": "6VK1ksrmYGMBWUUZfygGF8tHRGpNxQEWv8pfvzQHdyyc",
+          "liquidity": 307420.70466245746,
+          "price": 0.003732919262808098,
+          "apy_24h": 0.06563353371393746,
+          "apy_7d": 0.16050268339743537,
+          "apy_30d": 0.17086331315069817,
+          "volume_24h": 15063.737119331025,
+          "volume_24h_quote": 15064.038400099027,
+          "volume_7d": 301560.86485431227,
+          "volume_7d_quote": 301566.8961922361,
+          "volume_30d": 1279437.8080032223,
+          "volume_30d_quote": 1279463.3972711677
+        },
+        {
+          "name": "POLIS/USDC[aquafarm]",
+          "name2": "POLIS/USDC",
+          "account": "CdKPtCb5fBRaGFS4bJgytfReeHuFyhpe9YUyWHPnEWZG",
+          "mint_account": "GteBdo9sqE7T41G8AJsaG9WHW48uXBwsLLznmu2TBdgy",
+          "liquidity": 73439.48903194845,
+          "price": 0.1393821365651446,
+          "apy_24h": 0.26627389042325256,
+          "apy_7d": 0.24183999398764516,
+          "apy_30d": 0.31679703534345754,
+          "volume_24h": 14440.940434429578,
+          "volume_24h_quote": 14441.229259014759,
+          "volume_7d": 93395.50888171737,
+          "volume_7d_quote": 93397.37682925396,
+          "volume_30d": 591122.948447715,
+          "volume_30d_quote": 591134.771143138
+        }
+      ]
+    }
+  },
+  "raydium_tests": {
+    "pools_retrieved": 100,
+    "sample_pools": [
+      {
+        "identifier": "RAY",
+        "token-id": "4EwbZo8BZXP5313z5A2H11MRBP15M5n6YxfmkjXESKAW",
+        "liquidity_locked": 64155661.44578155,
+        "apy": 6.41,
+        "official": true
+      },
+      {
+        "identifier": "WSOL-DNA",
+        "token-id": "So11111111111111111111111111111111111111112-yHQEHGqdZ4C2HREPQR4ruHutaV5U3FuYMUZCb7wpump",
+        "liquidity_locked": 5150.532089894893,
+        "apy": null,
+        "official": false
+      },
+      {
+        "identifier": "USEDGF-WSOL",
+        "token-id": "8ACfFkb2cMLfZGa9YcMYKxGvTCrTDtGuQjdQhoReifNN-So11111111111111111111111111111111111111112",
+        "liquidity_locked": 1.480495392674786,
+        "apy": null,
+        "official": false
+      },
+      {
+        "identifier": "ERIC-WSOL",
+        "token-id": "ByTAAxBccN9YjqxtZBfk2EN1aJvYzUy311Tagfw14Xnp-So11111111111111111111111111111111111111112",
+        "liquidity_locked": 40.46421227591562,
+        "apy": null,
+        "official": false
+      },
+      {
+        "identifier": "GTA6-WSOL",
+        "token-id": "CLHKz9nfymRAiJj7skqmVvrZMxwksoFv4rcKGig4EcR-So11111111111111111111111111111111111111112",
+        "liquidity_locked": 0.5552219054824916,
+        "apy": null,
+        "official": false
+      }
+    ],
+    "pairs_retrieved": 50,
+    "high_apy_opportunities": 4,
+    "token_searches": {
+      "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+        "pairs_found": 0,
+        "pairs": []
+      },
+      "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
+        "pairs_found": 2,
+        "pairs": [
+          {
+            "name": "TRUMP/WSOL",
+            "pair_id": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN-So11111111111111111111111111111111111111112",
+            "lp_mint": "Dnq43CmGeh6PHB7YYKBvexWXP372MrXCgnTXTijm4iuK",
+            "official": false,
+            "liquidity": 4982.559851079621,
+            "market": "72MSUMnhiZTppiAZFSUnnHxgE5b1QddJoB8EH3miaQdE",
+            "volume_24h": 348.95506837980366,
+            "volume_24h_quote": 2.6122268119056056,
+            "fee_24h": 0.8723876709495109,
+            "fee_24h_quote": 0.003185146931865857,
+            "volume_7d": 2728.548849579415,
+            "volume_7d_quote": 20.019004762901268,
+            "fee_7d": 6.821372123948545,
+            "fee_7d_quote": 0.025049177984341205,
+            "price": 0.064179454405851,
+            "lp_price": 47.41487185329257,
+            "amm_id": "uCk125EJf7iCjz43aSdzuyMAT5eii6c5zKVxEnGnosa",
+            "token_amount_coin": 267.809067,
+            "token_amount_pc": 17.187839805,
+            "token_amount_lp": 105.084326,
+            "apy": 7.11
+          },
+          {
+            "name": "WSOL/TRUMP",
+            "pair_id": "So11111111111111111111111111111111111111112-6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+            "lp_mint": "4YBQyqaT2yUykisRoCfJnjuQVqTKfgGbzLmo1p2sgwbE",
+            "official": false,
+            "liquidity": 2402.000686949611,
+            "market": "E9chpojCq71yFqMBWq8TGFfNy2prdp65C6xaPvSCQQun",
+            "volume_24h": 55.695707686340654,
+            "volume_24h_quote": 6.104598098055556,
+            "fee_24h": 0.13923926921585167,
+            "fee_24h_quote": 0.008179317972685186,
+            "volume_7d": 472.0010930301025,
+            "volume_7d_quote": 51.79807347601852,
+            "fee_7d": 1.1800027325752565,
+            "fee_7d_quote": 0.0649766707125,
+            "price": 15.581967701284055,
+            "lp_price": 2402.000686949611,
+            "amm_id": "HPUFRpydYrA5FCBm7W1oL6JdbRg26qt6H5wo4yAud4vq",
+            "token_amount_coin": 8.285942217,
+            "token_amount_pc": 129.111284,
+            "token_amount_lp": 1,
+            "apy": 2.55
+          }
+        ]
+      },
+      "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2": {
+        "pairs_found": 0,
+        "pairs": []
+      },
+      "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+        "pairs_found": 0,
+        "pairs": []
+      },
+      "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr": {
+        "pairs_found": 0,
+        "pairs": []
+      }
+    }
+  },
+  "integration_analysis": {
+    "cross_platform_correlation": {
+      "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+        "orca_presence": false,
+        "raydium_presence": false,
+        "orca_pools": 0,
+        "raydium_pairs": 0,
+        "total_dex_presence": 0,
+        "risk_assessment": "HIGH - No DEX presence"
+      },
+      "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
+        "orca_presence": false,
+        "raydium_presence": true,
+        "orca_pools": 0,
+        "raydium_pairs": 2,
+        "total_dex_presence": 2,
+        "risk_assessment": "LOW - Multi-DEX presence"
+      },
+      "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2": {
+        "orca_presence": false,
+        "raydium_presence": false,
+        "orca_pools": 0,
+        "raydium_pairs": 0,
+        "total_dex_presence": 0,
+        "risk_assessment": "HIGH - No DEX presence"
+      }
+    },
+    "liquidity_quality": {}
+  },
+  "performance_metrics": {
+    "orca_response_times": [
+      2.09808349609375e-05,
+      7.867813110351562e-06,
+      2.1457672119140625e-06
+    ],
+    "raydium_response_times": [
+      17.247010946273804,
+      6.723403930664062e-05,
+      2.6226043701171875e-06
+    ],
+    "success_rates": {
+      "orca": 1.0,
+      "raydium": 1.0
+    },
+    "api_call_stats": {
+      "orca": {
+        "total_calls": 1,
+        "successful_calls": 1,
+        "failed_calls": 0,
+        "success_rate": 1.0,
+        "average_response_time": 1.4741179943084717,
+        "last_call_time": 1750788882.378052
+      },
+      "raydium": {
+        "total_calls": 4,
+        "successful_calls": 4,
+        "failed_calls": 0,
+        "success_rate": 1.0,
+        "average_response_time": 0.3197632431983948,
+        "last_call_time": 1750788933.3452532
+      }
+    }
+  },
+  "errors": []
+}

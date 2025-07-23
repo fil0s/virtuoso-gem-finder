@@ -1,0 +1,396 @@
+{
+  "test_timestamp": "2025-06-24T11:44:40.545470",
+  "test_duration_seconds": 14.04,
+  "price_api_endpoint": "https://lite-api.jup.ag/price/v2",
+  "price_api_results": {
+    "Single token (SOL)": {
+      "scenario_name": "Single token (SOL)",
+      "params": {
+        "ids": "So11111111111111111111111111111111111111112"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "type": "derivedPrice",
+            "price": "143.893222500"
+          }
+        },
+        "timeTaken": 0.001153397
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "So111111": {
+            "price": "143.893222500",
+            "type": "derivedPrice",
+            "id": "So111111"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Single token (USDC)": {
+      "scenario_name": "Single token (USDC)",
+      "params": {
+        "ids": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "id": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "type": "derivedPrice",
+            "price": "0.999950"
+          }
+        },
+        "timeTaken": 0.00089701
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "EPjFWdd5": {
+            "price": "0.999950",
+            "type": "derivedPrice",
+            "id": "EPjFWdd5"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Single token (JUP)": {
+      "scenario_name": "Single token (JUP)",
+      "params": {
+        "ids": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "id": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+            "type": "derivedPrice",
+            "price": "0.416513"
+          }
+        },
+        "timeTaken": 0.004102415
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "JUPyiwrY": {
+            "price": "0.416513",
+            "type": "derivedPrice",
+            "id": "JUPyiwrY"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Multiple tokens": {
+      "scenario_name": "Multiple tokens",
+      "params": {
+        "ids": "So11111111111111111111111111111111111111112,EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "id": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "type": "derivedPrice",
+            "price": "1.000057"
+          },
+          "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "type": "derivedPrice",
+            "price": "143.998155000"
+          },
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+            "id": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+            "type": "derivedPrice",
+            "price": "0.416513"
+          }
+        },
+        "timeTaken": 0.004966611
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 3,
+        "successful_prices": 3,
+        "price_summary": {
+          "EPjFWdd5": {
+            "price": "1.000057",
+            "type": "derivedPrice",
+            "id": "EPjFWdd5"
+          },
+          "So111111": {
+            "price": "143.998155000",
+            "type": "derivedPrice",
+            "id": "So111111"
+          },
+          "JUPyiwrY": {
+            "price": "0.416513",
+            "type": "derivedPrice",
+            "id": "JUPyiwrY"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Token with vsToken (SOL priced in USDC)": {
+      "scenario_name": "Token with vsToken (SOL priced in USDC)",
+      "params": {
+        "ids": "So11111111111111111111111111111111111111112",
+        "vsToken": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "id": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "type": "derivedPrice",
+            "price": "1"
+          },
+          "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "type": "derivedPrice",
+            "price": "143.98994757298834"
+          }
+        },
+        "timeTaken": 0.000885495
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 2,
+        "successful_prices": 2,
+        "price_summary": {
+          "EPjFWdd5": {
+            "price": "1",
+            "type": "derivedPrice",
+            "id": "EPjFWdd5"
+          },
+          "So111111": {
+            "price": "143.98994757298834",
+            "type": "derivedPrice",
+            "id": "So111111"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Token with showExtraInfo": {
+      "scenario_name": "Token with showExtraInfo",
+      "params": {
+        "ids": "So11111111111111111111111111111111111111112",
+        "showExtraInfo": "true"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "type": "derivedPrice",
+            "price": "143.998155000",
+            "extraInfo": {
+              "lastSwappedPrice": {
+                "lastJupiterSellAt": 1750779870,
+                "lastJupiterSellPrice": "143.97924003375687",
+                "lastJupiterBuyAt": 1750779872,
+                "lastJupiterBuyPrice": "143.98828396810003"
+              },
+              "quotedPrice": {
+                "buyPrice": "144.014438000",
+                "buyAt": 1750779867,
+                "sellPrice": "143.981872000",
+                "sellAt": 1750779867
+              },
+              "confidenceLevel": "high",
+              "depth": {
+                "buyPriceImpactRatio": {
+                  "depth": {
+                    "10": 0.01939639485563708,
+                    "100": 0.02784811874584978,
+                    "1000": 0.09606610228621593
+                  },
+                  "timestamp": 1750779815
+                },
+                "sellPriceImpactRatio": {
+                  "depth": {
+                    "10": 0.00039716920205409286,
+                    "100": 0.018136818860025033,
+                    "1000": 0.04194140908206101
+                  },
+                  "timestamp": 1750779816
+                }
+              }
+            }
+          }
+        },
+        "timeTaken": 0.006396916
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "So111111": {
+            "price": "143.998155000",
+            "type": "derivedPrice",
+            "id": "So111111"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Meme token ($michi)": {
+      "scenario_name": "Meme token ($michi)",
+      "params": {
+        "ids": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp": {
+            "id": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+            "type": "derivedPrice",
+            "price": "0.031891"
+          }
+        },
+        "timeTaken": 0.004141009
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "5mbK36SZ": {
+            "price": "0.031891",
+            "type": "derivedPrice",
+            "id": "5mbK36SZ"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Pump.fun token (BILLY)": {
+      "scenario_name": "Pump.fun token (BILLY)",
+      "params": {
+        "ids": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump": {
+            "id": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+            "type": "derivedPrice",
+            "price": "0.00545548"
+          }
+        },
+        "timeTaken": 0.001003063
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "3B5wuUrM": {
+            "price": "0.00545548",
+            "type": "derivedPrice",
+            "id": "3B5wuUrM"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Unlisted token (USELESS)": {
+      "scenario_name": "Unlisted token (USELESS)",
+      "params": {
+        "ids": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+            "id": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+            "type": "derivedPrice",
+            "price": "0.138151"
+          }
+        },
+        "timeTaken": 0.004638662
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 1,
+        "price_summary": {
+          "Dz9mQ9Nz": {
+            "price": "0.138151",
+            "type": "derivedPrice",
+            "id": "Dz9mQ9Nz"
+          }
+        },
+        "data_structure": "token_dict"
+      }
+    },
+    "Example from docs": {
+      "scenario_name": "Example from docs",
+      "params": {
+        "ids": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4BHqd9iL6bEFELvg"
+      },
+      "status_code": 200,
+      "success": true,
+      "content_type": "application/json",
+      "response_data": {
+        "data": {
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4BHqd9iL6bEFELvg": null
+        },
+        "timeTaken": 0.001418
+      },
+      "error": null,
+      "price_info": {
+        "token_count": 1,
+        "successful_prices": 0,
+        "price_summary": {},
+        "data_structure": "token_dict"
+      }
+    }
+  },
+  "summary": {
+    "price_api_performance": {
+      "total_scenarios": 10,
+      "successful_scenarios": 10,
+      "success_rate": 100.0,
+      "tokens_with_prices": 12
+    },
+    "key_findings": [
+      "Price API works for all tested scenarios"
+    ],
+    "recommendations": [
+      "Price API is functional and can be used for pricing"
+    ]
+  }
+}

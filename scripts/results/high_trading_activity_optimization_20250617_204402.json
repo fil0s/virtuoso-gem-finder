@@ -1,0 +1,169 @@
+{
+  "scan_results": [
+    {
+      "scan_number": 1,
+      "timestamp": "2025-06-17T20:39:53.105674",
+      "scan_duration": 11.031064748764038,
+      "memory_used_mb": -0.546875,
+      "total_api_calls": 1,
+      "api_breakdown": {
+        "successful_api_calls": 1,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 980
+      },
+      "raw_strategy": {
+        "tokens_found": 0,
+        "execution_time": 1.1125760078430176,
+        "api_calls_used": 1,
+        "tokens": []
+      },
+      "batch_optimized": {
+        "tokens_found": 0,
+        "execution_time": 7.917154788970947,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "efficiency_comparison": {
+        "api_calls_saved": 1,
+        "time_difference": -6.80457878112793,
+        "tokens_difference": 0
+      }
+    },
+    {
+      "scan_number": 2,
+      "timestamp": "2025-06-17T20:41:57.930162",
+      "scan_duration": 4.649539232254028,
+      "memory_used_mb": 24.09375,
+      "total_api_calls": 0,
+      "api_breakdown": {
+        "successful_api_calls": 1,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 980
+      },
+      "raw_strategy": {
+        "tokens_found": 0,
+        "execution_time": 0.0875539779663086,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "batch_optimized": {
+        "tokens_found": 0,
+        "execution_time": 2.5526089668273926,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "efficiency_comparison": {
+        "api_calls_saved": 0,
+        "time_difference": -2.465054988861084,
+        "tokens_difference": 0
+      }
+    },
+    {
+      "scan_number": 3,
+      "timestamp": "2025-06-17T20:44:02.755044",
+      "scan_duration": 4.621446132659912,
+      "memory_used_mb": 24.8125,
+      "total_api_calls": 0,
+      "api_breakdown": {
+        "successful_api_calls": 1,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 980
+      },
+      "raw_strategy": {
+        "tokens_found": 0,
+        "execution_time": 0.010656118392944336,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "batch_optimized": {
+        "tokens_found": 0,
+        "execution_time": 2.607206106185913,
+        "api_calls_used": 0,
+        "tokens": []
+      },
+      "efficiency_comparison": {
+        "api_calls_saved": 0,
+        "time_difference": -2.5965499877929688,
+        "tokens_difference": 0
+      }
+    }
+  ],
+  "optimization_insights": {
+    "test_summary": {
+      "total_scans": 3,
+      "test_duration_minutes": 4.344999953111013,
+      "strategy_tested": "High Trading Activity Strategy"
+    },
+    "api_call_analysis": {
+      "average_total_calls_per_scan": 0.3,
+      "average_raw_strategy_calls": 0.3,
+      "average_batch_optimized_calls": 0.0,
+      "api_efficiency_gain_percent": 100.0,
+      "calls_saved_per_scan": 0.3
+    },
+    "performance_analysis": {
+      "average_scan_duration_seconds": 6.77,
+      "average_raw_execution_seconds": 0.4,
+      "average_batch_execution_seconds": 4.36,
+      "time_efficiency_gain_percent": -980.0,
+      "average_memory_usage_mb": 16.1
+    },
+    "token_discovery_analysis": {
+      "average_raw_tokens_found": 0.0,
+      "average_batch_tokens_found": 0.0,
+      "token_discovery_difference": 0.0
+    },
+    "endpoint_usage_analysis": {
+      "total_calls_by_endpoint": {
+        "successful_api_calls": 3,
+        "failed_api_calls": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "total_response_time_ms": 2940
+      },
+      "most_used_endpoints": [
+        [
+          "total_response_time_ms",
+          2940
+        ],
+        [
+          "successful_api_calls",
+          3
+        ],
+        [
+          "failed_api_calls",
+          0
+        ],
+        [
+          "cache_hits",
+          0
+        ],
+        [
+          "cache_misses",
+          0
+        ]
+      ]
+    },
+    "optimization_recommendations": [
+      "\ud83d\ude80 EXCELLENT: Batch optimization provides 100.0% API call reduction",
+      "\u2705 Continue using batch-optimized EarlyTokenDetector for production",
+      "\ud83c\udfaf FOCUS: 'total_response_time_ms' is the most used endpoint (2940 calls)",
+      "\ud83d\udca1 Consider caching or batching this endpoint for maximum impact",
+      "\ud83d\udcca STRATEGY SPECIFIC: High Trading Activity Strategy focuses on trade counts",
+      "\ud83d\udca1 Consider pre-filtering by trade count before detailed analysis",
+      "\ud83c\udfaf Optimize for tokens with trade_count > threshold to reduce API overhead"
+    ]
+  },
+  "test_metadata": {
+    "timestamp": "20250617_204402",
+    "strategy_name": "High Trading Activity Strategy",
+    "total_scans": 3,
+    "test_duration_minutes": 4.345022706190745
+  }
+}

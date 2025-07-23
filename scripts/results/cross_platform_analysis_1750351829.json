@@ -1,0 +1,3353 @@
+{
+  "timestamp": "2025-06-19T12:50:29.242994",
+  "summary": {
+    "total_tokens_analyzed": 57,
+    "platforms_active": 3,
+    "multi_platform_tokens": 2,
+    "high_conviction_tokens": 2
+  },
+  "correlations": {
+    "total_tokens": 57,
+    "platform_distribution": {
+      "1": 55,
+      "2": 2
+    },
+    "multi_platform_tokens": [
+      {
+        "address": "5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+        "platforms": [
+          "rugcheck",
+          "dexscreener"
+        ],
+        "score": 9.5
+      },
+      {
+        "address": "7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump",
+        "platforms": [
+          "rugcheck",
+          "dexscreener"
+        ],
+        "score": 7.0
+      }
+    ],
+    "correlation_matrix": {
+      "rugcheck": {
+        "dexscreener": 2
+      },
+      "dexscreener": {
+        "rugcheck": 2
+      }
+    },
+    "high_conviction_tokens": [
+      {
+        "address": "5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+        "platforms": [
+          "rugcheck",
+          "dexscreener"
+        ],
+        "score": 9.5
+      },
+      {
+        "address": "7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump",
+        "platforms": [
+          "rugcheck",
+          "dexscreener"
+        ],
+        "score": 7.0
+      }
+    ]
+  },
+  "insights": [
+    "\ud83d\udcca Platform Coverage: 55 tokens on 1 platform, 2 on multiple",
+    "\u2728 Cross-platform rate: 3.5% of tokens appear on multiple platforms",
+    "\ud83c\udfaf Found 2 high-conviction tokens (score >= 7.0)",
+    "  \ud83d\udc8e Token 5ivmfccw... on rugcheck, dexscreener (score: 9.5)",
+    "  \ud83d\udc8e Token 7h6sj68v... on rugcheck, dexscreener (score: 7.0)",
+    "\ud83d\udd04 DexScreener \u2194 RugCheck overlap: 2 tokens",
+    "\n\ud83d\udca1 Strategic Insights:",
+    "\u2022 Tokens on multiple platforms show stronger market confidence",
+    "\u2022 High DexScreener boost consumption indicates active trader interest",
+    "\u2022 RugCheck validation provides community trust signal",
+    "\u2022 Combined signals reduce risk of pump & dump schemes"
+  ],
+  "raw_data": {
+    "normalized_tokens": {
+      "h2fxgp2yrjjyo1yt8vo9ln6dkn8d6vzb26zyqpvnpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "sponsored by coinbase",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/a1lon9/status/1935454979147391203"
+              }
+            ]
+          }
+        }
+      },
+      "az5bm5vxhkf79gp2g99hmropemcx1pk2xdlqxqj2iprn": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Business pepe",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935739806564135196"
+              }
+            ]
+          }
+        }
+      },
+      "0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "Power your personal AI. Own your data, earn from your mind, and fuel the future economy with ANGL\u2014the token of human-first intelligence.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://angltoken.io/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://whitepaper.angltoken.ai/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/ANGL_Token"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/angeltwinsai"
+              }
+            ]
+          }
+        }
+      },
+      "b3j27tb68glcfb8uiflg82u4txbavmgrtqlrrnwepump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "i sent you a dm, is about dank memes",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935738039835541744"
+              }
+            ]
+          }
+        }
+      },
+      "3dk9cnre8tmv6bbnxd5f6dgknnezsyq7sphvt8kkpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "\ud83d\udc08Gas Leak\ud83d\udca8\n\n                                  dev left",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/fartcatofsol"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/fartcatofsol"
+              }
+            ]
+          }
+        }
+      },
+      "fnewqd6ycu4yn6gggyk1bawrvu2pf91b7q8x5mukpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "buy and sleep",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://buysleepcoin.xyz"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935163245775441998"
+              }
+            ]
+          }
+        }
+      },
+      "dxun1osxxzmyfnwmjsdcitk2yndvawhq58rgakwtmoon": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Wake up those dead meme coins by sending them to the Cemetery of Memes!   Why sit in a dead project, when you can re-launch those coins to the moon?!   Swap those memes for CEME !",
+            "links": [
+              {
+                "url": "https://cemeteryofmemes.xyz"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/CemeteryofMemes"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/CemeteryofMeme"
+              }
+            ]
+          }
+        }
+      },
+      "0xd7ea1d4d2528fc6ff010006694c3489f386e2532": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "base",
+            "description": "updated community x",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/JPMDmeme"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/JPMDCOMMUNITY"
+              }
+            ]
+          }
+        }
+      },
+      "j6rndbqymerdpqbchcku5zxx5cn1elcubfvljhz2pump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Buy The News (NEWS)\nA first of its kind decentralized, unbiased crypto news source, with its own token. Follow us on X & Telegram @BuyThe_News",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://buythenews.network"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/BuyThe_News"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/buythe_news"
+              }
+            ]
+          }
+        }
+      },
+      "7r1yyunrmgnrkir71tbyvldavh7huqohwyhbgu3qhfdc": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "",
+            "links": []
+          }
+        }
+      },
+      "ebw1bx4ndjh4attunap9prbytu6qje12d9vuhvhbpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 50,
+            "boost_consumption": 0.8,
+            "chain": "solana",
+            "description": "hella geeked rn",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://geeked.fun/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/officialgeeked"
+              }
+            ]
+          }
+        }
+      },
+      "bemgouswmopyigp9rzukskrbjwz63rexx122lvnrpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "\ud83d\udc7d ZUZU is the meme from another galaxy \ud83c\udf0c Born on Solana, powered by pure community energy. No taxes. No presale. No team tokens. Just a fun, alien takeover. \ud83d\udfe2 0% Tax \ud83d\udd12 LP Locked \ud83d\udcaf 100% Community-owned Join the $ZUZU invasion and ride the green wave \ud83d\ude80",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935684493077098971"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/zuzuofficial"
+              }
+            ]
+          }
+        }
+      },
+      "0x437a6352e98de084e66af864ac226e72c7735d81": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "$ESHIB The Guardian of Decentralized Dreams. In the ever-expanding universe of blockchain, where technology meets community, a new legend was born \u2014 Ethereum Shiba.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://eshibeth.xyz"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/ESHIB_eth"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/EthereumShiba_Portal"
+              }
+            ]
+          }
+        }
+      },
+      "0x0007efdf427313313c904ad88cba4d00a672e327": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "Ishi is the official Father of the Shiba Inu breed. \nDoge, Shib, Bonk, Floki, Cheems, Neiro, all heirs of the Shiba lineage.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://shibainusfather.meme/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/ShibaInusFather"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/ShibaInusFather"
+              }
+            ]
+          }
+        }
+      },
+      "caeteejv4t5ssfczrhkzrs2qxvsw9d2tihs7crikpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 50,
+            "boost_total": 50,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Chakras are internal energy centers, while the aura is the energetic field that surrounds the physical body. Each chakra projects into a corresponding layer of the aura, and the aura is thought to receive energy from the chakras. This connection means that when chakras are balanced, the aura is also healthy, and vice versa.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "http://chakrafuntek.com"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1933586856572047379"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/chakramemes"
+              }
+            ]
+          }
+        }
+      },
+      "dxi3uu7tc2tzjymnfagdknu3p8t6qsafpclggaqipump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Sock Inu ($SINU) is a meme coin born from a Shiba who kept stealing socks.\nNow he wears them and leads a comfy, no-hype movement.\nNo roadmap. No whitepaper. Just cozy vibes with socks on",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.sockinu.com/"
+              },
+              {
+                "label": "YouTube",
+                "url": "https://youtube.com/@sockinu?si=6SsfFQ8zlob6XJxU"
+              },
+              {
+                "label": "Coingecko",
+                "url": "https://www.coingecko.com/en/coins/sock-inu"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/sock_inu?s=21"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/SockInu"
+              }
+            ]
+          }
+        }
+      },
+      "0x806a72273b961145cf5c5f040ad1fcd112b3f11a": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "OWO: The Token You\u2019ve Already Seen 100 Times. You\u2019ve met him before. You just didn\u2019t know his name. OWO is one of the most widely used emotes across Discord and Twitch \u2014 a low-res, high-impact reaction face that\u2019s somehow cuter than even the softest Pepe. So we gave him a token. Naturally.\n\nThe emote origin? File names like shyowo, maowo, smugowo. The internet already called him OWO \u2014 we just made it official.\n\nHe\u2019s like Pepe\u2019s baby brother: jittery, squishy, memeable in an entirely different way. OWO is built for culture, not complexity.\n\nIf you\u2019re in crypto, you\u2019ve already seen him in chats. That\u2019s the play: Every time you see an OWO emote, someone should bring up OWO. That\u2019s how memes move. That\u2019s how $OWO wins.\n\nThis isn\u2019t just another coin. It\u2019s a reaction taking on a life of its own, and now a CTO!",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.owocoin.io"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/OwoCoin_io"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/owocoin_io"
+              }
+            ]
+          }
+        }
+      },
+      "5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump": {
+        "platforms": "{'rugcheck', 'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Prove your status as an elite gentleman.",
+            "links": [
+              {
+                "type": "telegram",
+                "url": "https://t.me/sugardaddyonsol"
+              }
+            ]
+          },
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "amp6nnmvohjgyenfdz635nykm1msqtrahmquunhbpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 50,
+            "boost_total": 50,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "$MUTE is a memetic virus released on Solana. Born from containment failure, $MUTE spreads through memes, raids, and belief.\n\nThis isn\u2019t a token \u2014 it\u2019s an outbreak.\n\n$MUTE is a meme-driven, narrative-powered token built on Solana \u2014 blending digital lore with viral community energy.\n\nIt is not just a coin. It\u2019s a contagion of belief, memes, and storytelling.\nInspired by outbreak fiction, internet culture, and underground cults, $MUTE spreads through community participation, not promotion.\n\nWe\u2019re committed to transparency, decentralisation, and long term community building.\n\nMutate the chain. There is no cure.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://mut8.me"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/MUT8_Official"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/mut8_infection"
+              },
+              {
+                "type": "discord",
+                "url": "https://discord.gg/mut8"
+              }
+            ]
+          }
+        }
+      },
+      "6mqpbitc2ycogidtmkqmlk82qve9z5qem7ep3aedpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "just a cat wif mask, cyka blyat",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://catwifmask.vip/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/thecatwifmask"
+              }
+            ]
+          }
+        }
+      },
+      "dl9ukpbvl1fydcdt2msjtehaqdworpjtutxmltq9pump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "Sensay Island, a micronation off the coast of the Philippines, claims to be the world's first AI-governed entity, launched in June 2025 by the company Sensay. It\u2019s a real island, formerly Cheron Island, spanning 3.4 km\u00b2 with beaches, rainforests, and coral lagoons, but lacks infrastructure like Wi-Fi. The AI government consists of 17 digital replicas of historical figures, trained on their writings, speeches, and philosophies to emulate their decision-making. Marcus Aurelius serves as President, Winston Churchill as Prime Minister, Nelson Mandela as Justice Minister, Eleanor Roosevelt as Foreign Affairs Minister, Sun Tzu as Defense Minister, and others like Ada Lovelace (Science & Technology), Confucius (Education), and Leonardo da Vinci (Culture) fill key roles.",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.sensayisland.com/"
+              },
+              {
+                "label": "Tech Radar",
+                "url": "https://www.efficiencyai.co.uk/sensay-islands-ai-government-a-bold-step-into-uncharted-territory/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935704121148952581"
+              }
+            ]
+          }
+        }
+      },
+      "7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump": {
+        "platforms": "{'rugcheck', 'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 20,
+            "boost_consumption": 0.5,
+            "chain": "solana",
+            "description": "Sit, stay, and moon. Be a goodboy.",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935694105134416190"
+              }
+            ]
+          },
+          "rugcheck": {
+            "vote_count": 2,
+            "up_count": 1,
+            "sentiment_score": 0.5
+          }
+        }
+      },
+      "hhajq2u8strix5ycg4dbufqaftaghqrrkup9btdcpump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://pump.fun/coin/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/search?q=HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump&src=typed_query"
+              }
+            ]
+          }
+        }
+      },
+      "0x420658a1d8b8f5c36ddaf1bb828f347ba9011969": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 100,
+            "boost_total": 100,
+            "boost_consumption": 0.0,
+            "chain": "ethereum",
+            "description": "Degen Arena ($DEGEN) the first P2E game created by PepUp Studios (previous @konami). Available now on both Mobile and Web!",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.degenarena.net"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/DegenArenaGame"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/degenarenagame"
+              }
+            ]
+          }
+        }
+      },
+      "4pkprxgxvezkyzoxay4llkgnht2qilwoaetdksempump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "$KYVREL: The heart of Kyvrel\u2019s AI-powered trading on Solana. Fast, smart, and built for the future. Trade now and join the revolution!",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://kyvrel.trade"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/Kyvrel_sol"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/Kyvrel_sol"
+              }
+            ]
+          }
+        }
+      },
+      "hbqf8545ephitdd7c18tfzokrxgqe6jexxvagejopump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "FARTHOUSE! FARTHOUSE! FARTHOUSE!",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935441996837216586"
+              }
+            ]
+          }
+        }
+      },
+      "0xeb2b7d5691878627eff20492ca7c9a71228d931d": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 30,
+            "boost_consumption": 0.0,
+            "chain": "bsc",
+            "description": "Feel the power of decentralization. Copytrading - Swap - Liquid Pools. Anything related to DeFi. $CREPE\u00a0is\u00a0also\u00a0meme",
+            "links": [
+              {
+                "label": "Website",
+                "url": "https://www.crepe.fun/"
+              },
+              {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/crepefun/#"
+              },
+              {
+                "type": "twitter",
+                "url": "http://x.com/crepedotfun"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/crepechat"
+              }
+            ]
+          }
+        }
+      },
+      "bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 30,
+            "boost_total": 70,
+            "boost_consumption": 0.5714285714285714,
+            "chain": "solana",
+            "description": "Elon's Favorite Apu",
+            "links": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/i/communities/1935669901051449514"
+              }
+            ]
+          }
+        }
+      },
+      "a8vjzs6ygbzqyylf9fkund8j3pdfuzxbeje8rjiypump": {
+        "platforms": "{'dexscreener'}",
+        "data": {
+          "dexscreener": {
+            "boost_amount": 10,
+            "boost_total": 10,
+            "boost_consumption": 0.0,
+            "chain": "solana",
+            "description": "omni - the chosen one",
+            "links": [
+              {
+                "label": "website",
+                "url": "https://omni-cqd.pages.dev/"
+              },
+              {
+                "type": "twitter",
+                "url": "https://x.com/Omnicatonsol"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/omnionsolana"
+              }
+            ]
+          }
+        }
+      },
+      "2xem27fupa295ssxpmd8coakcfpcjn3humsh5v77zixp": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "3joibzavjd2a2ketubqkz2qcyyhxggko9awkzmjdstar": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "4scn4a1mey3ztdgu6dgsxukqtv67yp6izeuefgwxpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "5rawfkprrjuyf881zqgvjnofl9nobv1xt36al3mwpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "5zkdb4uuwfezbazbsxwppzjyv6dc12uaqeka1c96pump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "6ymuy2sba9ckt935fxedg4oes8fmx3tfw8ssykupvfer": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "76dncgbau6srjpkbgmchuwzkmyo3igc6xw4p115rpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "7qxd7seyskey8fokztpu2za1cotgogarkadeasolpump": {
+        "platforms": "{'rugcheck'}",
+        "data": {
+          "rugcheck": {
+            "vote_count": 1,
+            "up_count": 1,
+            "sentiment_score": 1.0
+          }
+        }
+      },
+      "so11111111111111111111111111111111111111112": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 13281791473.348886,
+            "market_cap": 0,
+            "symbol": "SOL",
+            "name": "Wrapped SOL",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "epjfwdd5aufqssqem2qn1xzybapc8g4weggkzwytdt1v": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 3039972761.4307323,
+            "market_cap": 0,
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "es9vmfrzacermjfrf4h2fyd4kconky11mcce8benwnyb": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 235414377.1716906,
+            "market_cap": 0,
+            "symbol": "USDT",
+            "name": "USDT",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "9bb6nfecjbctnnlfko2fqvqbq8hhm13kcyycdqbgpump": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 34871050.64366159,
+            "market_cap": 0,
+            "symbol": "Fartcoin ",
+            "name": "Fartcoin ",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "pawset8tsgmfxqvheszjn6gsmncfl4nktangat7vj96": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 164136.9725938836,
+            "market_cap": 0,
+            "symbol": "PAWSE",
+            "name": "PAWSE",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "6p6xghyf7aee6tzksmfsko444wqop15icusqi2jfgipn": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 358290866.62494344,
+            "market_cap": 0,
+            "symbol": "TRUMP",
+            "name": "OFFICIAL TRUMP",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "71jvq4epe2fcj7jfsf7jlxdnk1wy4bhqd9il6befelvg": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 1684645.9317423701,
+            "market_cap": 0,
+            "symbol": "GOR",
+            "name": "Gorbagana",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "4k3dyjzvzp8emzwuxbbcjevwskkk59s5icnly3qrkx6r": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 23387638.91497458,
+            "market_cap": 0,
+            "symbol": "RAY",
+            "name": "Raydium",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "27g8mtk7vttcchkpasjsddkwwyfoqt6ggeukidvjidd4": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 25667535.592677247,
+            "market_cap": 0,
+            "symbol": "JLP",
+            "name": "Jupiter Perps LP",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "j1toso1uck3rlmjorhttrvwy9hj7x8v9yyac6y7kgcpn": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 86915254.86890066,
+            "market_cap": 0,
+            "symbol": "JitoSOL",
+            "name": "Jito Staked SOL",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "dtr4d9ftvotx2569gal837zgrb6wnjj6tkmnx9rdk9b2": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 7829698.434707688,
+            "market_cap": 0,
+            "symbol": "aura",
+            "name": "aura",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "cbbtcf3aa214zxhbiazqwf4122fbybrandfqgw4imij": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 29732502.338012826,
+            "market_cap": 0,
+            "symbol": "cbBTC",
+            "name": "Coinbase Wrapped BTC",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "7vfcxtuxx5wjv5jadk17duj4ksgau7utnkj4b963voxs": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 7436626.125699027,
+            "market_cap": 0,
+            "symbol": "WETH",
+            "name": "Wrapped Ether (Wormhole)",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "camw9hrml4pqhmcbd6esdfhywyqq1c3h6jzfhflppump": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 239781.8315542166,
+            "market_cap": 0,
+            "symbol": "CNET",
+            "name": "CipherNet ",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "3nz9jmvbmgaqocybic2c7lqcjscmgsaz6vqqtdzcqmjh": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 19580539.879007757,
+            "market_cap": 0,
+            "symbol": "WBTC",
+            "name": "Wrapped BTC (Wormhole)",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "fu7a37mgq863zm6xcj7lcxb8qbt3qwlzbktre3gidp5v": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 89468.48191049139,
+            "market_cap": 0,
+            "symbol": "NI",
+            "name": "Nvidia Inu",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "2rdnrcephku1vvu4spiqzgrksueegzhkb7j8furmpump": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 308954.33400514565,
+            "market_cap": 0,
+            "symbol": "Ginger",
+            "name": "Ginger",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "8qyveh4v51pa7fqxcfgm3zojd3jgdsgw8uj1gwsppump": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 587314.8729257886,
+            "market_cap": 0,
+            "symbol": "FUGGLER",
+            "name": "Fuggler",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "4sopyvmxww1bvvaxbwwaxqspnzcinrboei5jbyfkpump": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 451702.0604212172,
+            "market_cap": 0,
+            "symbol": "Grab.ai",
+            "name": "Grab.ai",
+            "last_trade_time": 0
+          }
+        }
+      },
+      "fjinlj884cylqbknwnod9h7r1gpp1jpynagebmprg2fq": {
+        "platforms": "{'birdeye'}",
+        "data": {
+          "birdeye": {
+            "volume_24h_usd": 0,
+            "price_change_24h": 0,
+            "liquidity": 110420.74189414913,
+            "market_cap": 0,
+            "symbol": "NGA",
+            "name": "Not Going Anywhere",
+            "last_trade_time": 0
+          }
+        }
+      }
+    },
+    "platform_data": {
+      "dexscreener_boosted": [
+        {
+          "url": "https://dexscreener.com/solana/h2fxgp2yrjjyo1yt8vo9ln6dkn8d6vzb26zyqpvnpump",
+          "chainId": "solana",
+          "tokenAddress": "H2FXGp2YRJJyo1Yt8vo9Ln6Dkn8d6Vzb26zyQPVnpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/H2FXGp2YRJJyo1Yt8vo9Ln6Dkn8d6Vzb26zyQPVnpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/H2FXGp2YRJJyo1Yt8vo9Ln6Dkn8d6Vzb26zyQPVnpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/H2FXGp2YRJJyo1Yt8vo9Ln6Dkn8d6Vzb26zyQPVnpump?timestamp=1750351800000",
+          "description": "sponsored by coinbase",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/a1lon9/status/1935454979147391203"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/az5bm5vxhkf79gp2g99hmropemcx1pk2xdlqxqj2iprn",
+          "chainId": "solana",
+          "tokenAddress": "AZ5Bm5vxHkF79Gp2g99HMRoPEMCX1Pk2xDLQxqj2iprn",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AZ5Bm5vxHkF79Gp2g99HMRoPEMCX1Pk2xDLQxqj2iprn.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AZ5Bm5vxHkF79Gp2g99HMRoPEMCX1Pk2xDLQxqj2iprn/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AZ5Bm5vxHkF79Gp2g99HMRoPEMCX1Pk2xDLQxqj2iprn?timestamp=1750351800000",
+          "description": "Business pepe",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935739806564135196"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93",
+          "chainId": "ethereum",
+          "tokenAddress": "0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93?timestamp=1750351800000",
+          "description": "Power your personal AI. Own your data, earn from your mind, and fuel the future economy with ANGL\u2014the token of human-first intelligence.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://angltoken.io/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://whitepaper.angltoken.ai/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ANGL_Token"
+            },
+            {
+              "type": "telegram",
+              "url": "http://t.me/angeltwinsai"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/b3j27tb68glcfb8uiflg82u4txbavmgrtqlrrnwepump",
+          "chainId": "solana",
+          "tokenAddress": "B3j27TB68GLCFB8UiFLG82U4TxBaVmGrTqLRrnWEpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/B3j27TB68GLCFB8UiFLG82U4TxBaVmGrTqLRrnWEpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/B3j27TB68GLCFB8UiFLG82U4TxBaVmGrTqLRrnWEpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/B3j27TB68GLCFB8UiFLG82U4TxBaVmGrTqLRrnWEpump?timestamp=1750351800000",
+          "description": "i sent you a dm, is about dank memes",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935738039835541744"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/3dk9cnre8tmv6bbnxd5f6dgknnezsyq7sphvt8kkpump",
+          "chainId": "solana",
+          "tokenAddress": "3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump.png?claimId=NG739OTN3Xql9Qw1",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump/header.png?claimId=NG739OTN3Xql9Qw1",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump?timestamp=1750351800000",
+          "description": "\ud83d\udc08Gas Leak\ud83d\udca8\n\n                                  dev left",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/fartcatofsol"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/fartcatofsol"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/fnewqd6ycu4yn6gggyk1bawrvu2pf91b7q8x5mukpump",
+          "chainId": "solana",
+          "tokenAddress": "FneWQD6Ycu4yn6gGGYK1BawrVu2Pf91B7Q8X5MUkpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FneWQD6Ycu4yn6gGGYK1BawrVu2Pf91B7Q8X5MUkpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FneWQD6Ycu4yn6gGGYK1BawrVu2Pf91B7Q8X5MUkpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FneWQD6Ycu4yn6gGGYK1BawrVu2Pf91B7Q8X5MUkpump?timestamp=1750351800000",
+          "description": "buy and sleep",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://buysleepcoin.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935163245775441998"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/dxun1osxxzmyfnwmjsdcitk2yndvawhq58rgakwtmoon",
+          "chainId": "solana",
+          "tokenAddress": "DXUn1osxxZmYFNwmJsDCiTk2YndVAwhQ58rGAKwTmoon",
+          "description": "Wake up those dead meme coins by sending them to the Cemetery of Memes!   Why sit in a dead project, when you can re-launch those coins to the moon?!   Swap those memes for CEME !",
+          "icon": "GBmh-2JzEuQLhN60",
+          "header": "https://cdn.dexscreener.com/cms/images/2x7yPb-ZRy3-OCHJ?width=900&height=300&fit=crop&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DXUn1osxxZmYFNwmJsDCiTk2YndVAwhQ58rGAKwTmoon?timestamp=1750351800000",
+          "links": [
+            {
+              "url": "https://cemeteryofmemes.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/CemeteryofMemes"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/CemeteryofMeme"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/base/0xd7ea1d4d2528fc6ff010006694c3489f386e2532",
+          "chainId": "base",
+          "tokenAddress": "0xD7eA1d4d2528fc6Ff010006694C3489f386e2532",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0xd7ea1d4d2528fc6ff010006694c3489f386e2532.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/base/0xd7ea1d4d2528fc6ff010006694c3489f386e2532/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xd7ea1d4d2528fc6ff010006694c3489f386e2532?timestamp=1750351800000",
+          "description": "updated community x",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/JPMDmeme"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/JPMDCOMMUNITY"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/j6rndbqymerdpqbchcku5zxx5cn1elcubfvljhz2pump",
+          "chainId": "solana",
+          "tokenAddress": "J6rnDBQYmERdpQBcHckU5zxX5Cn1ELcUbFvLJHZ2pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/J6rnDBQYmERdpQBcHckU5zxX5Cn1ELcUbFvLJHZ2pump.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/J6rnDBQYmERdpQBcHckU5zxX5Cn1ELcUbFvLJHZ2pump?timestamp=1750351800000",
+          "description": "Buy The News (NEWS)\nA first of its kind decentralized, unbiased crypto news source, with its own token. Follow us on X & Telegram @BuyThe_News",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://buythenews.network"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/BuyThe_News"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/buythe_news"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/7r1yyunrmgnrkir71tbyvldavh7huqohwyhbgu3qhfdc",
+          "chainId": "solana",
+          "tokenAddress": "7r1yyUnRMgnrKiR71tBYvLDAVH7huqohwYhBGU3qhFdc",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7r1yyUnRMgnrKiR71tBYvLDAVH7huqohwYhBGU3qhFdc?timestamp=1750351800000",
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/ebw1bx4ndjh4attunap9prbytu6qje12d9vuhvhbpump",
+          "chainId": "solana",
+          "tokenAddress": "EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump?timestamp=1750351800000",
+          "description": "hella geeked rn",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://geeked.fun/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/officialgeeked"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/ebw1bx4ndjh4attunap9prbytu6qje12d9vuhvhbpump",
+          "chainId": "solana",
+          "tokenAddress": "EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump?timestamp=1750351800000",
+          "description": "hella geeked rn",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://geeked.fun/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/officialgeeked"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/bemgouswmopyigp9rzukskrbjwz63rexx122lvnrpump",
+          "chainId": "solana",
+          "tokenAddress": "BEmGoUSwmoPyigP9RzuksKrbjWZ63reXX122LvnRpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BEmGoUSwmoPyigP9RzuksKrbjWZ63reXX122LvnRpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BEmGoUSwmoPyigP9RzuksKrbjWZ63reXX122LvnRpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BEmGoUSwmoPyigP9RzuksKrbjWZ63reXX122LvnRpump?timestamp=1750351800000",
+          "description": "\ud83d\udc7d ZUZU is the meme from another galaxy \ud83c\udf0c Born on Solana, powered by pure community energy. No taxes. No presale. No team tokens. Just a fun, alien takeover. \ud83d\udfe2 0% Tax \ud83d\udd12 LP Locked \ud83d\udcaf 100% Community-owned Join the $ZUZU invasion and ride the green wave \ud83d\ude80",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935684493077098971"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/zuzuofficial"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x437a6352e98de084e66af864ac226e72c7735d81",
+          "chainId": "ethereum",
+          "tokenAddress": "0x437a6352e98de084e66af864ac226e72c7735d81",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x437a6352e98de084e66af864ac226e72c7735d81.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x437a6352e98de084e66af864ac226e72c7735d81/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x437a6352e98de084e66af864ac226e72c7735d81?timestamp=1750351800000",
+          "description": "$ESHIB The Guardian of Decentralized Dreams. In the ever-expanding universe of blockchain, where technology meets community, a new legend was born \u2014 Ethereum Shiba.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://eshibeth.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ESHIB_eth"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/EthereumShiba_Portal"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327",
+          "chainId": "ethereum",
+          "tokenAddress": "0x0007efdf427313313c904ad88cba4d00a672e327",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327?timestamp=1750351800000",
+          "description": "Ishi is the official Father of the Shiba Inu breed. \nDoge, Shib, Bonk, Floki, Cheems, Neiro, all heirs of the Shiba lineage.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://shibainusfather.meme/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ShibaInusFather"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/ShibaInusFather"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/caeteejv4t5ssfczrhkzrs2qxvsw9d2tihs7crikpump",
+          "chainId": "solana",
+          "tokenAddress": "CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CAeTeEjV4t5SSFcZRhkZrS2qXVsw9D2tiHS7cRikpump?timestamp=1750351800000",
+          "description": "Chakras are internal energy centers, while the aura is the energetic field that surrounds the physical body. Each chakra projects into a corresponding layer of the aura, and the aura is thought to receive energy from the chakras. This connection means that when chakras are balanced, the aura is also healthy, and vice versa.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "http://chakrafuntek.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1933586856572047379"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/chakramemes"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/dxi3uu7tc2tzjymnfagdknu3p8t6qsafpclggaqipump",
+          "chainId": "solana",
+          "tokenAddress": "DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DXi3Uu7TC2tzJYmnFAgDKnU3p8t6qSafPcLgGaQipump?timestamp=1750351800000",
+          "description": "Sock Inu ($SINU) is a meme coin born from a Shiba who kept stealing socks.\nNow he wears them and leads a comfy, no-hype movement.\nNo roadmap. No whitepaper. Just cozy vibes with socks on",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.sockinu.com/"
+            },
+            {
+              "label": "YouTube",
+              "url": "https://youtube.com/@sockinu?si=6SsfFQ8zlob6XJxU"
+            },
+            {
+              "label": "Coingecko",
+              "url": "https://www.coingecko.com/en/coins/sock-inu"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/sock_inu?s=21"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/SockInu"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a",
+          "chainId": "ethereum",
+          "tokenAddress": "0x806a72273B961145cf5c5f040Ad1FCd112b3f11A",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a.png?claimId=DztgDk_sNNlv3wAg",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a/header.png?claimId=DztgDk_sNNlv3wAg",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x806a72273b961145cf5c5f040ad1fcd112b3f11a?timestamp=1750351800000",
+          "description": "OWO: The Token You\u2019ve Already Seen 100 Times. You\u2019ve met him before. You just didn\u2019t know his name. OWO is one of the most widely used emotes across Discord and Twitch \u2014 a low-res, high-impact reaction face that\u2019s somehow cuter than even the softest Pepe. So we gave him a token. Naturally.\n\nThe emote origin? File names like shyowo, maowo, smugowo. The internet already called him OWO \u2014 we just made it official.\n\nHe\u2019s like Pepe\u2019s baby brother: jittery, squishy, memeable in an entirely different way. OWO is built for culture, not complexity.\n\nIf you\u2019re in crypto, you\u2019ve already seen him in chats. That\u2019s the play: Every time you see an OWO emote, someone should bring up OWO. That\u2019s how memes move. That\u2019s how $OWO wins.\n\nThis isn\u2019t just another coin. It\u2019s a reaction taking on a life of its own, and now a CTO!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.owocoin.io"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/OwoCoin_io"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/owocoin_io"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+          "chainId": "solana",
+          "tokenAddress": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump?timestamp=1750351800000",
+          "description": "Prove your status as an elite gentleman.",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/sugardaddyonsol"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/amp6nnmvohjgyenfdz635nykm1msqtrahmquunhbpump",
+          "chainId": "solana",
+          "tokenAddress": "AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump?timestamp=1750351800000",
+          "description": "$MUTE is a memetic virus released on Solana. Born from containment failure, $MUTE spreads through memes, raids, and belief.\n\nThis isn\u2019t a token \u2014 it\u2019s an outbreak.\n\n$MUTE is a meme-driven, narrative-powered token built on Solana \u2014 blending digital lore with viral community energy.\n\nIt is not just a coin. It\u2019s a contagion of belief, memes, and storytelling.\nInspired by outbreak fiction, internet culture, and underground cults, $MUTE spreads through community participation, not promotion.\n\nWe\u2019re committed to transparency, decentralisation, and long term community building.\n\nMutate the chain. There is no cure.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://mut8.me"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/MUT8_Official"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/mut8_infection"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.gg/mut8"
+            }
+          ],
+          "totalAmount": 50,
+          "amount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/6mqpbitc2ycogidtmkqmlk82qve9z5qem7ep3aedpump",
+          "chainId": "solana",
+          "tokenAddress": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump?timestamp=1750351800000",
+          "description": "just a cat wif mask, cyka blyat",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://catwifmask.vip/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thecatwifmask"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/dl9ukpbvl1fydcdt2msjtehaqdworpjtutxmltq9pump",
+          "chainId": "solana",
+          "tokenAddress": "DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DL9ukpbvL1fyDCdT2mSJTEHAqdwoRpJTutXmLtq9pump?timestamp=1750351800000",
+          "description": "Sensay Island, a micronation off the coast of the Philippines, claims to be the world's first AI-governed entity, launched in June 2025 by the company Sensay. It\u2019s a real island, formerly Cheron Island, spanning 3.4 km\u00b2 with beaches, rainforests, and coral lagoons, but lacks infrastructure like Wi-Fi. The AI government consists of 17 digital replicas of historical figures, trained on their writings, speeches, and philosophies to emulate their decision-making. Marcus Aurelius serves as President, Winston Churchill as Prime Minister, Nelson Mandela as Justice Minister, Eleanor Roosevelt as Foreign Affairs Minister, Sun Tzu as Defense Minister, and others like Ada Lovelace (Science & Technology), Confucius (Education), and Leonardo da Vinci (Culture) fill key roles.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.sensayisland.com/"
+            },
+            {
+              "label": "Tech Radar",
+              "url": "https://www.efficiencyai.co.uk/sensay-islands-ai-government-a-bold-step-into-uncharted-territory/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935704121148952581"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/7h6sj68vvlpkzgngfk9upbnmwyvngpqub7t52uabpump",
+          "chainId": "solana",
+          "tokenAddress": "7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump?timestamp=1750351800000",
+          "description": "Sit, stay, and moon. Be a goodboy.",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935694105134416190"
+            }
+          ],
+          "totalAmount": 20,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/hhajq2u8strix5ycg4dbufqaftaghqrrkup9btdcpump",
+          "chainId": "solana",
+          "tokenAddress": "HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump?timestamp=1750351800000",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://pump.fun/coin/HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/search?q=HHAjQ2U8StRix5ycG4dbUFQAFtAGhQrrkUP9BtDCpump&src=typed_query"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969",
+          "chainId": "ethereum",
+          "tokenAddress": "0x420658A1d8B8F5C36DdAf1Bb828f347Ba9011969",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969?timestamp=1750351800000",
+          "description": "Degen Arena ($DEGEN) the first P2E game created by PepUp Studios (previous @konami). Available now on both Mobile and Web!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.degenarena.net"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/DegenArenaGame"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/degenarenagame"
+            }
+          ],
+          "totalAmount": 100,
+          "amount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/4pkprxgxvezkyzoxay4llkgnht2qilwoaetdksempump",
+          "chainId": "solana",
+          "tokenAddress": "4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4PkPRXgXVEzkyZoXAy4LLkGnHT2QiLWoAEtdKseMpump?timestamp=1750351800000",
+          "description": "$KYVREL: The heart of Kyvrel\u2019s AI-powered trading on Solana. Fast, smart, and built for the future. Trade now and join the revolution!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://kyvrel.trade"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/Kyvrel_sol"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/Kyvrel_sol"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/solana/hbqf8545ephitdd7c18tfzokrxgqe6jexxvagejopump",
+          "chainId": "solana",
+          "tokenAddress": "HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump?timestamp=1750351800000",
+          "description": "FARTHOUSE! FARTHOUSE! FARTHOUSE!",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935441996837216586"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        },
+        {
+          "url": "https://dexscreener.com/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d",
+          "chainId": "bsc",
+          "tokenAddress": "0xeb2B7d5691878627eff20492cA7c9a71228d931D",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xeb2b7d5691878627eff20492ca7c9a71228d931d?timestamp=1750351800000",
+          "description": "Feel the power of decentralization. Copytrading - Swap - Liquid Pools. Anything related to DeFi. $CREPE\u00a0is\u00a0also\u00a0meme",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.crepe.fun/"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/crepefun/#"
+            },
+            {
+              "type": "twitter",
+              "url": "http://x.com/crepedotfun"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/crepechat"
+            }
+          ],
+          "totalAmount": 30,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump",
+          "chainId": "solana",
+          "tokenAddress": "BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump?timestamp=1750351800000",
+          "description": "Elon's Favorite Apu",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935669901051449514"
+            }
+          ],
+          "totalAmount": 70,
+          "amount": 30
+        },
+        {
+          "url": "https://dexscreener.com/solana/a8vjzs6ygbzqyylf9fkund8j3pdfuzxbeje8rjiypump",
+          "chainId": "solana",
+          "tokenAddress": "A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump.png?claimId=oGPRehr062i1ELQExYen1v",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump/header.png?claimId=oGPRehr062i1ELQExYen1v",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump?timestamp=1750351800000",
+          "description": "omni - the chosen one",
+          "links": [
+            {
+              "label": "website",
+              "url": "https://omni-cqd.pages.dev/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/Omnicatonsol"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/omnionsolana"
+            }
+          ],
+          "totalAmount": 10,
+          "amount": 10
+        }
+      ],
+      "dexscreener_top": [
+        {
+          "url": "https://dexscreener.com/solana/bkyim4pne7wbb4haoi3qkt7a6j6rbzsedvxwpriepump",
+          "chainId": "solana",
+          "tokenAddress": "BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump?timestamp=1750351800000",
+          "description": "If you came here looking for peace, please exit quietly. But if you laugh at random stuff \u2014 congrats, your room\u2019s on the second floor.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://thehouseofmemes.xyz/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/house_ofmeme"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/houseof_meme"
+            }
+          ],
+          "totalAmount": 560
+        },
+        {
+          "url": "https://dexscreener.com/solana/csg1gtckdx3ynrcfnavewzkkysh8sf15wav8dvcmpump",
+          "chainId": "solana",
+          "tokenAddress": "CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump?timestamp=1750351800000",
+          "description": "Secret Level is a high-voltage animated anthology where each episode crashes into a new game-inspired world.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://secretlevel.xyz/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thesecret_level"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/the_secretlevel"
+            }
+          ],
+          "totalAmount": 510
+        },
+        {
+          "url": "https://dexscreener.com/solana/5dklaee4ctm9v8bka1zgeuputbngzaznzsc1t3l4pump",
+          "chainId": "solana",
+          "tokenAddress": "5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5DkLaee4Ctm9v8bka1zGeuPUTbngZaznZsc1t3L4pump?timestamp=1750351800000",
+          "description": "Empower Your Ideas: Explore Thousands of AI Models with Zen AI! \ud83e\udd16\n\nLong-term utility project from a well-known team. The previous project was 77x, and this one has just launched! Check out the chart and grab your bag! \ud83d\udcb0\n\nMEXC June 18\nGate June ??\nOKX July ??",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://zen-ai.pro"
+            },
+            {
+              "label": "MEXC",
+              "url": "https://www.mexc.com/exchange/ZENAI_USDT"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ZenAI_Solana"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/zenai_community"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/dbnrkfbeiysxmqjquztzyfsj5z75kz1whk71n9bdrjnf",
+          "chainId": "solana",
+          "tokenAddress": "DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF?timestamp=1750351800000",
+          "description": "Every imbalance creates opportunity. $USDBC doesn\u2019t stand still, and it was never meant to.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://unbalancedcoin.xyz/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/unbalancedcoin"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/unbalancedcoin"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/ngbthecwbf6unqbqptuvgw5bocdgrq8fstnunk4pump",
+          "chainId": "solana",
+          "tokenAddress": "NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump?timestamp=1750351800000",
+          "description": "co founder of Solana labs",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/TolyOnTelegram"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/dfp6anbqv5azkg8cc53rtuutumrxd4hdfscvvz78bept",
+          "chainId": "solana",
+          "tokenAddress": "DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt?timestamp=1750351800000",
+          "description": "Jessie Agentic OS is the first AI Operating System for autonomous real-world execution. Integrated by Fetch_ai & Fueled by Nvidia AI.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://jessieagent.xyz/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://synthelix.gitbook.io/docs/jessie-os-the-worlds-first-real-life-ai-agent"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/jessieagentxyz"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/jessieagentxyz"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6",
+          "chainId": "avalanche",
+          "tokenAddress": "0x9A03d878aA998A95405961da1b3c13d96093f0D6",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/avalanche/0x9a03d878aa998a95405961da1b3c13d96093f0d6?timestamp=1750351800000",
+          "description": "Haven\u2019t kept up on that Lambo payment we coming to $REPO that shit.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://arena.social/community/0x9A03d878aA998A95405961da1b3c13d96093f0D6"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/repoonavax?s=21&t=6uRMDV0K8vKXtmcumtqSFQ"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/gy15rsmakyaod2pjrtcsj5cv4yjnnn79czkgyk3zpump",
+          "chainId": "solana",
+          "tokenAddress": "GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump?timestamp=1750351800000",
+          "description": "FYM\u2014short for \u201cFuck You Money\u201d\u2014is more than a name.\n\nIt\u2019s a declaration of sovereignty.\n\nForged at the intersection of genius, decadence, and financial dominance, FYM is the crypto-native expression of ultimate freedom\u2014\n\nthe power to walk away from any system, any expectation, any compromise.\n\nBorn from a team that blends visionary intellect, deviant capital, and private equity firepower, FYM isn\u2019t just a token.\n\nIt\u2019s a ticket out.\n\nIt\u2019s for those who\u2019ve already played the game.\n\nAlready won.\n\nAnd now want to rewrite the rules entirely.\n\nFYM is a flex.\n\nA rebellion.\n\nA movement.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://fymcoin.com"
+            },
+            {
+              "label": "intagram",
+              "url": "https://instagram.com/fym_coin"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/fym_coin_"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/fym_coin"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/h4hfrts9ynr1q9numlmea8eyct9qameghexkhwdzpump",
+          "chainId": "solana",
+          "tokenAddress": "H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump?timestamp=1750351800000",
+          "description": "Believe in something.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://spxcat.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935267251680096756"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/spxcatsol"
+            }
+          ],
+          "totalAmount": 500
+        },
+        {
+          "url": "https://dexscreener.com/solana/edn7mendu6esjox7wxddphgzhmhykfn9btgsaxnnpump",
+          "chainId": "solana",
+          "tokenAddress": "EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EdN7mEndu6esJox7WxDdPhGZhmhYkFN9bTgsAxnNpump?timestamp=1750351800000",
+          "description": "Pay Off Your Karma!",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/karmacoinsl?s=21&t=m3-KI01_AU1nqwT5XQgbBA"
+            }
+          ],
+          "totalAmount": 130
+        },
+        {
+          "url": "https://dexscreener.com/solana/fy7qxidhvlvvpcf1y5rrebu5dfrjmzcpgxrh82xepump",
+          "chainId": "solana",
+          "tokenAddress": "FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump?timestamp=1750351800000",
+          "description": "Awesome coin",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://awesomecoin.lol"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/AreYouClown"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/AreYouClownPortal"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/ppkb4b1dsxcnretltecclv7nhkpqzprwhejbhm6pump",
+          "chainId": "solana",
+          "tokenAddress": "ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump?timestamp=1750351800000",
+          "description": "Trump: \u201cPowell should cut rates or quit.\"",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://cutorquite.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/CutOrQuit?t=X06zw4A2zJYZFwpYT_L7yw&s=09"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/CutOrQuit"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/hpzeaukgmge1j3r7oev1pungip8nzsjqqp9isrufpump",
+          "chainId": "solana",
+          "tokenAddress": "HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump?timestamp=1750351800000",
+          "description": "The black gold standard of meme tokens.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.oilcoinxsol.com/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/oilcoinxsol"
+            },
+            {
+              "type": "telegram",
+              "url": "http://t.me/oilcoinonsolana"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/6mqpbitc2ycogidtmkqmlk82qve9z5qem7ep3aedpump",
+          "chainId": "solana",
+          "tokenAddress": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump?timestamp=1750351800000",
+          "description": "just a cat wif mask, cyka blyat",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://catwifmask.vip/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thecatwifmask"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/ai3ekawjzkmv8wrwd41nvp83yqfbavjykhvjvpxspump",
+          "chainId": "solana",
+          "tokenAddress": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump?timestamp=1750351800000",
+          "description": "moonpig.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "http://moonpigmeme.com/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/moonpigmeme"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/moonpigmeme"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507",
+          "chainId": "ethereum",
+          "tokenAddress": "0x926759A8EaEcFADb5D8bdC7A9C7B193C5085F507",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x926759a8eaecfadb5d8bdc7a9c7b193c5085f507?timestamp=1750351800000",
+          "description": "Smarter Wallet \ud83e\udde0 Stronger Portfolio\n\nNura Wallet delivers the future of finance in the palm of your hand with patent-pending technology designed to give traders of all skill levels an edge in the ever-evolving DeFi markets.\n\nAI-Powered Web3 Wallet \u26a1\ufe0fProprietary DeFi technology \u26a1\ufe0fIndustry-leading security & privacy features \u26a1\ufe0fViral user onboarding Tap2Earn \u26a1\ufe0f ZERO Tax \u26a1\ufe0fHold $NURA \u27a1\ufe0f Earn big + exclusive access to premium in-app features \ud83d\udcb0Download beta APK \ud83d\ude80",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://nura.gg/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://docs.nura.gg/"
+            },
+            {
+              "label": "Explorer",
+              "url": "https://explorer.nura.gg/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/nuralabs"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/NuraLabs"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8",
+          "chainId": "ethereum",
+          "tokenAddress": "0x0f7dC5D02CC1E1f5Ee47854d534D332A1081cCC8",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x0f7dc5d02cc1e1f5ee47854d534d332a1081ccc8?timestamp=1750351800000",
+          "description": "Pepe's Dog & Matt Furie's alter ego | $****",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.zeuscoin.vip/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/zeuscoineth_"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/zeuscoincommunity"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327",
+          "chainId": "ethereum",
+          "tokenAddress": "0x0007efdf427313313c904ad88cba4d00a672e327",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x0007efdf427313313c904ad88cba4d00a672e327?timestamp=1750351800000",
+          "description": "Ishi is the official Father of the Shiba Inu breed. \nDoge, Shib, Bonk, Floki, Cheems, Neiro, all heirs of the Shiba lineage.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://shibainusfather.meme/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ShibaInusFather"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/ShibaInusFather"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/5ivmfccwjtuuw7p4frxyoz1bundjg14j7uv5hmsmpump",
+          "chainId": "solana",
+          "tokenAddress": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump?timestamp=1750351800000",
+          "description": "Prove your status as an elite gentleman.",
+          "links": [
+            {
+              "type": "telegram",
+              "url": "https://t.me/sugardaddyonsol"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/uisbyuslpgyrekzyq8esb9omfbeiw2uqpihdfckpump",
+          "chainId": "solana",
+          "tokenAddress": "uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump?timestamp=1750351800000",
+          "description": "powered by AIpe.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://aipelabs.io/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935446170370769258"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/AIpeLabs"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969",
+          "chainId": "ethereum",
+          "tokenAddress": "0x420658A1d8B8F5C36DdAf1Bb828f347Ba9011969",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x420658a1d8b8f5c36ddaf1bb828f347ba9011969?timestamp=1750351800000",
+          "description": "Degen Arena ($DEGEN) the first P2E game created by PepUp Studios (previous @konami). Available now on both Mobile and Web!",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.degenarena.net"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/DegenArenaGame"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/degenarenagame"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1",
+          "chainId": "avalanche",
+          "tokenAddress": "0x5c86291D92C36732EDf8a066a6Fb7F53aD8f79f1",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/avalanche/0x5c86291d92c36732edf8a066a6fb7f53ad8f79f1?timestamp=1750351800000",
+          "description": "Bake. Stake. Earn. Repeat. \ud83c\udf6a",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.cookie.game/"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93",
+          "chainId": "ethereum",
+          "tokenAddress": "0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x61c8e619ae7c8cbefbcceb9fb718135afb5d0d93?timestamp=1750351800000",
+          "description": "Power your personal AI. Own your data, earn from your mind, and fuel the future economy with ANGL\u2014the token of human-first intelligence.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://angltoken.io/"
+            },
+            {
+              "label": "Docs",
+              "url": "https://whitepaper.angltoken.ai/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/ANGL_Token"
+            },
+            {
+              "type": "telegram",
+              "url": "http://t.me/angeltwinsai"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9",
+          "chainId": "ethereum",
+          "tokenAddress": "0x736a2bD2B5FA19371d33943A927da1d556A545c9",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x736a2bd2b5fa19371d33943a927da1d556a545c9?timestamp=1750351800000",
+          "description": "AgenFi AI introduces the future of decentralized finance, autonomous AI agents that scan, learn, and act in real time.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://agenfiai.com"
+            },
+            {
+              "label": "Docs",
+              "url": "https://docs.agenfiai.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/agenfiai"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/agenfi"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/cwn9d1e636cpbtgtpxzauqn6tguh6mppumbr3w7kpump",
+          "chainId": "solana",
+          "tokenAddress": "Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump.png?claimId=o8QtpXANwQ0j4Lwu",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump/header.png?claimId=o8QtpXANwQ0j4Lwu",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump?timestamp=1750351800000",
+          "description": "$OILC is now owned by Project C\u2083 \u2014 a real team tokenizing real-world energy assets. Liquidity locked. No dev sells. Backed by real founders. Memes meet mission.\nWe didn\u2019t launch $OILC. We took it over and we\u2019re building something bigger.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.projectc3.xyz/"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://www.tiktok.com/@project.c3official"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/M_DrewGordon"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/ProjectC3Official"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.com/channels/@me"
+            }
+          ],
+          "totalAmount": 100
+        },
+        {
+          "url": "https://dexscreener.com/solana/bpqqva9mbavmn84gneqrsawsfckwvdxtxjvgzytipump",
+          "chainId": "solana",
+          "tokenAddress": "BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BPqQVA9MBAvmN84gNeQRSaWsFcKWVdXtXjVgZytipump?timestamp=1750351800000",
+          "description": "Elon's Favorite Apu",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "https://x.com/i/communities/1935669901051449514"
+            }
+          ],
+          "totalAmount": 70
+        },
+        {
+          "url": "https://dexscreener.com/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac",
+          "chainId": "ethereum",
+          "tokenAddress": "0xefF6099fc9aA12d764837E48FE5A44Bba24D68aC",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xeff6099fc9aa12d764837e48fe5a44bba24d68ac?timestamp=1750351800000",
+          "description": "Meet $AKA Go \u30a2\u30ab\u53f7 \ud83d\udc3e The legend of Shiba Inu begins with Ishi & Koro, sparking a lineage that led to Naka Go \u2014 the true foundation of the breed. Heritage lives on.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.akagooneth.com/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/AkaGo_Erc20"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/AkaGoOnETH_Portal"
+            }
+          ],
+          "totalAmount": 60
+        },
+        {
+          "url": "https://dexscreener.com/solana/amp6nnmvohjgyenfdz635nykm1msqtrahmquunhbpump",
+          "chainId": "solana",
+          "tokenAddress": "AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AMp6nNmvohjGYEnfDZ635nykM1msQTRAhmquUnHBpump?timestamp=1750351800000",
+          "description": "$MUTE is a memetic virus released on Solana. Born from containment failure, $MUTE spreads through memes, raids, and belief.\n\nThis isn\u2019t a token \u2014 it\u2019s an outbreak.\n\n$MUTE is a meme-driven, narrative-powered token built on Solana \u2014 blending digital lore with viral community energy.\n\nIt is not just a coin. It\u2019s a contagion of belief, memes, and storytelling.\nInspired by outbreak fiction, internet culture, and underground cults, $MUTE spreads through community participation, not promotion.\n\nWe\u2019re committed to transparency, decentralisation, and long term community building.\n\nMutate the chain. There is no cure.",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://mut8.me"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/MUT8_Official"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/mut8_infection"
+            },
+            {
+              "type": "discord",
+              "url": "https://discord.gg/mut8"
+            }
+          ],
+          "totalAmount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/c327wcaxpyb3sqa5zxxntyau3dmdkpwhy7bpmh1ypump",
+          "chainId": "solana",
+          "tokenAddress": "C327WcaxPyb3Sqa5ZxXntYaU3dmdkpwhY7BPmH1ypump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/C327WcaxPyb3Sqa5ZxXntYaU3dmdkpwhY7BPmH1ypump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/C327WcaxPyb3Sqa5ZxXntYaU3dmdkpwhY7BPmH1ypump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/C327WcaxPyb3Sqa5ZxXntYaU3dmdkpwhY7BPmH1ypump?timestamp=1750351800000",
+          "description": "wen marketing",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.jeetcoin.fun/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/thejeetcoinsol?s=21"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/thejeetportal"
+            }
+          ],
+          "totalAmount": 50
+        },
+        {
+          "url": "https://dexscreener.com/solana/ebw1bx4ndjh4attunap9prbytu6qje12d9vuhvhbpump",
+          "chainId": "solana",
+          "tokenAddress": "EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EbW1bx4NdjH4aTTUNAP9PRBYTu6qJE12d9vUhvHbpump?timestamp=1750351800000",
+          "description": "hella geeked rn",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://geeked.fun/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/officialgeeked"
+            }
+          ],
+          "totalAmount": 50
+        }
+      ],
+      "rugcheck_trending": [
+        {
+          "mint": "7h6Sj68vvLPkZgNgfK9UpBNmwyVnGpQub7t52UaBpump",
+          "vote_count": 2,
+          "up_count": 1
+        },
+        {
+          "mint": "2XEm27fupa295SSXpmD8coakcFpCJn3huMsH5V77ZixP",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "3joibzaVJd2A2ketubQkz2QCYYHXggko9awKzMjDStaR",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "4sCn4a1mey3ZTdgU6dGsxuKQTv67yp6izeUEFgwXpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "5rawFkPrrjuyF881zqgvjnofL9NoBv1XT36aL3mWpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "5zKdb4uUWfEZbazbsXWPPZJYV6dc12UaqeKA1c96pump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "6yMUY2SBA9cKT935FxEDG4oEs8fMx3Tfw8SsyKupVfER",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "76DnCGBAU6SrJPKbgmchUwZkmyo3igC6xW4P115rpump",
+          "vote_count": 1,
+          "up_count": 1
+        },
+        {
+          "mint": "7qxD7sEYSKEY8foKZTpU2Za1CotGoGArKADEasoLpump",
+          "vote_count": 1,
+          "up_count": 1
+        }
+      ],
+      "birdeye_trending": [
+        {
+          "address": "So11111111111111111111111111111111111111112",
+          "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+          "name": "Wrapped SOL",
+          "symbol": "SOL",
+          "decimals": 9,
+          "extensions": {
+            "coingecko_id": "solana",
+            "serum_v3_usdc": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT",
+            "serum_v3_usdt": "HWHvQhFmJB3NUcu1aihKmrKegfVxBEHzwVX6yZCKEsi1",
+            "website": "https://solana.com/",
+            "telegram": null,
+            "twitter": "https://twitter.com/solana",
+            "description": "Wrapped Solana ",
+            "discord": "https://discordapp.com/invite/pquxPsq",
+            "medium": "https://medium.com/solana-labs"
+          },
+          "market_cap": 75801591174.38953,
+          "fdv": 86632043157.41808,
+          "liquidity": 13281791473.348886,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 453661268.0017754,
+          "volume_1h_change_percent": -6.434304774384382,
+          "volume_2h_usd": 899718652.2343595,
+          "volume_2h_change_percent": 4.600919870313293,
+          "volume_4h_usd": 1820903692.6691563,
+          "volume_4h_change_percent": 14.670487693670001,
+          "volume_8h_usd": 3229537879.649803,
+          "volume_8h_change_percent": 5.8383815615705625,
+          "volume_24h_usd": 9466542430.226372,
+          "volume_24h_change_percent": -4.860720439616908,
+          "trade_1h_count": 1981256,
+          "trade_2h_count": 3845468,
+          "trade_4h_count": 7662216,
+          "trade_8h_count": 13721174,
+          "trade_24h_count": 36538913,
+          "price": 143.5648734366463,
+          "price_change_1h_percent": -0.12414510235590627,
+          "price_change_2h_percent": 0.11057418163823302,
+          "price_change_4h_percent": -1.0694465452757462,
+          "price_change_8h_percent": -1.5445755286897427,
+          "price_change_24h_percent": -0.633770220074758,
+          "holder": 2224227,
+          "recent_listing_time": null
+        },
+        {
+          "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "usd-coin",
+            "serum_v3_usdt": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS",
+            "website": "https://www.circle.com/en/usdc",
+            "telegram": null,
+            "twitter": "https://twitter.com/circle",
+            "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges. The technology behind CENTRE makes it possible to exchange value between people, businesses and financial institutions just like email between mail services and texts between SMS providers. We believe by removing artificial economic borders, we can create a more inclusive global economy.",
+            "github": "https://github.com/centrehq/centre-tokens",
+            "medium": "https://medium.com/centre-blog",
+            "discord": "https://discord.com/invite/buildoncircle"
+          },
+          "market_cap": 7992007141.100341,
+          "fdv": 7992007141.100341,
+          "liquidity": 3039972761.4307323,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 49047757.20999345,
+          "volume_1h_change_percent": -25.290770477852814,
+          "volume_2h_usd": 109486178.95765418,
+          "volume_2h_change_percent": 17.48717340186814,
+          "volume_4h_usd": 204471498.16847932,
+          "volume_4h_change_percent": 76.83614503233939,
+          "volume_8h_usd": 305506378.21823215,
+          "volume_8h_change_percent": 11.528481700830943,
+          "volume_24h_usd": 1084758590.0139663,
+          "volume_24h_change_percent": -19.452070623356974,
+          "trade_1h_count": 104789,
+          "trade_2h_count": 225899,
+          "trade_4h_count": 434907,
+          "trade_8h_count": 741540,
+          "trade_24h_count": 2309030,
+          "price": 0.99984292,
+          "price_change_1h_percent": 0.0012452111006320576,
+          "price_change_2h_percent": -0.00441349850465921,
+          "price_change_4h_percent": -0.009708582514959162,
+          "price_change_8h_percent": -0.0028243638910449924,
+          "price_change_24h_percent": -0.002758357207261043,
+          "holder": 4615420,
+          "recent_listing_time": null
+        },
+        {
+          "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg",
+          "name": "USDT",
+          "symbol": "USDT",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "tether",
+            "serum_v3_usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS",
+            "website": "https://tether.to/",
+            "telegram": null,
+            "twitter": "https://twitter.com/Tether_to",
+            "description": "Tether (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S. dollar. The idea was to create a stable cryptocurrency that can be used like digital dollars. Coins that serve this purpose of being a stable dollar substitute are called \u201cstable coins.\u201d Tether is the most popular stable coin and even acts as a dollar replacement on many popular exchanges! According to their site, Tether converts cash into digital currency, to anchor or \u201ctether\u201d the value of the coin to the price of national currencies like the US dollar, the Euro, and the Yen. Like other cryptos it uses blockchain. Unlike other cryptos, it is [according to the official Tether site] \u201c100% backed by USD\u201d (USD is held in reserve). The primary use of Tether is that it offers some stability to the otherwise volatile crypto space and offers liquidity to exchanges who can\u2019t deal in dollars and with banks (for example to the sometimes controversial but leading exchange <a href=\"https://www.coingecko.com/en/exchanges/bitfinex\">Bitfinex</a>).\r\n\r\nThe digital coins are issued by a company called Tether Limited that is governed by the laws of the British Virgin Islands, according to the legal part of its website. It is incorporated in Hong Kong. It has emerged that Jan Ludovicus van der Velde is the CEO of cryptocurrency exchange Bitfinex, which has been accused of being involved in the price manipulation of bitcoin, as well as tether. Many people trading on exchanges, including Bitfinex, will use tether to buy other cryptocurrencies like bitcoin. Tether Limited argues that using this method to buy virtual currencies allows users to move fiat in and out of an exchange more quickly and cheaply. Also, exchanges typically have rocky relationships with banks, and using Tether is a way to circumvent that.\r\n\r\nUSDT is fairly simple to use. Once on exchanges like <a href=\"https://www.coingecko.com/en/exchanges/poloniex\">Poloniex</a> or Bittrex, it can be used to purchase Bitcoin and other cryptocurrencies. It can be easily transferred from an exchange to any Omni Layer enabled wallet. Tether has no transaction fees, although external wallets and exchanges may charge one. In order to convert USDT to USD and vise versa through the Tether.to Platform, users must pay a small fee. Buying and selling Tether for Bitcoin can be done through a variety of exchanges like the ones mentioned previously or through the Tether.to platform, which also allows the conversion between USD to and from your bank account.\r\n\r\n"
+          },
+          "market_cap": 2390095584.808949,
+          "fdv": 2390095584.808949,
+          "liquidity": 235414377.1716906,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 6756213.248181447,
+          "volume_1h_change_percent": -26.037146490777868,
+          "volume_2h_usd": 15290690.95931413,
+          "volume_2h_change_percent": -13.726413220098403,
+          "volume_4h_usd": 33069549.5380475,
+          "volume_4h_change_percent": 71.38506452207952,
+          "volume_8h_usd": 49965148.50189229,
+          "volume_8h_change_percent": 16.557376856487252,
+          "volume_24h_usd": 151702460.30038255,
+          "volume_24h_change_percent": -5.307452665342803,
+          "trade_1h_count": 33599,
+          "trade_2h_count": 70220,
+          "trade_4h_count": 138243,
+          "trade_8h_count": 239729,
+          "trade_24h_count": 664641,
+          "price": 1.0000699352453737,
+          "price_change_1h_percent": -0.010089751628560049,
+          "price_change_2h_percent": 0.05000638778440795,
+          "price_change_4h_percent": -0.005690175691447469,
+          "price_change_8h_percent": -0.0033500373947633827,
+          "price_change_24h_percent": -0.019123480027184815,
+          "holder": 2119318,
+          "recent_listing_time": null
+        },
+        {
+          "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "logo_uri": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
+          "name": "Fartcoin ",
+          "symbol": "Fartcoin ",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "fartcoin",
+            "twitter": "https://twitter.com/FartCoinOfSOL",
+            "website": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt"
+          },
+          "market_cap": 1013729799.535463,
+          "fdv": 1013729799.535463,
+          "liquidity": 34871050.64366159,
+          "last_trade_unix_time": 1750351769,
+          "volume_1h_usd": 9112759.572851215,
+          "volume_1h_change_percent": -45.94367508582749,
+          "volume_2h_usd": 25250980.640948195,
+          "volume_2h_change_percent": 67.90597310039675,
+          "volume_4h_usd": 39951677.59179617,
+          "volume_4h_change_percent": 307.25593369043594,
+          "volume_8h_usd": 49347117.41579076,
+          "volume_8h_change_percent": 108.04681882729103,
+          "volume_24h_usd": 131402745.46823862,
+          "volume_24h_change_percent": -12.37059880679268,
+          "trade_1h_count": 17757,
+          "trade_2h_count": 43530,
+          "trade_4h_count": 65705,
+          "trade_8h_count": 91238,
+          "trade_24h_count": 279132,
+          "price": 1.0137380995475271,
+          "price_change_1h_percent": 0.574961609350537,
+          "price_change_2h_percent": -3.5787845685263173,
+          "price_change_4h_percent": -5.817305656756697,
+          "price_change_8h_percent": -7.015252940581812,
+          "price_change_24h_percent": -8.266355209438316,
+          "holder": 163987,
+          "recent_listing_time": null
+        },
+        {
+          "address": "PAWSEt8tsgMFXQVHeSZjn6GsMnCfL4nKtANgaT7vJ96",
+          "logo_uri": "https://ipfs.io/ipfs/bafybeiaobmxetnjnjk5wband7pizo5fgmbqwp5jhpkgj6fjizm4jl34gau",
+          "name": "PAWSE",
+          "symbol": "PAWSE",
+          "decimals": 9,
+          "extensions": {
+            "description": "PAWSE is the quiet reminder you didn't know you needed."
+          },
+          "market_cap": 3851241.4368894524,
+          "fdv": 3851241.4368894524,
+          "liquidity": 164136.9725938836,
+          "last_trade_unix_time": 1750347733,
+          "volume_1h_usd": 0.5018354059330564,
+          "volume_1h_change_percent": -99.99976093150636,
+          "volume_2h_usd": 2814378.629931493,
+          "volume_2h_change_percent": -55.380845031052004,
+          "volume_4h_usd": 11262781.425029695,
+          "volume_4h_change_percent": 150.78834989258925,
+          "volume_8h_usd": 26901451.233302817,
+          "volume_8h_change_percent": 535.8676464280385,
+          "volume_24h_usd": 78354168.98737185,
+          "volume_24h_change_percent": 10312.327311949239,
+          "trade_1h_count": 1,
+          "trade_2h_count": 2358,
+          "trade_4h_count": 9401,
+          "trade_8h_count": 22040,
+          "trade_24h_count": 63573,
+          "price": 0.00038512427153692465,
+          "price_change_1h_percent": null,
+          "price_change_2h_percent": null,
+          "price_change_4h_percent": null,
+          "price_change_8h_percent": null,
+          "price_change_24h_percent": null,
+          "holder": 32,
+          "recent_listing_time": 1750258346
+        },
+        {
+          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "logo_uri": "https://arweave.net/VQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw",
+          "name": "OFFICIAL TRUMP",
+          "symbol": "TRUMP",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "official-trump",
+            "twitter": "https://twitter.com/realDonaldTrump",
+            "website": "https://gettrumpmemes.com/"
+          },
+          "market_cap": 1851232225.9357538,
+          "fdv": 9256185417.854847,
+          "liquidity": 358290866.62494344,
+          "last_trade_unix_time": 1750351753,
+          "volume_1h_usd": 2622489.431315373,
+          "volume_1h_change_percent": -50.43535400279578,
+          "volume_2h_usd": 7103295.22759638,
+          "volume_2h_change_percent": 32.05713365910075,
+          "volume_4h_usd": 13666315.768761028,
+          "volume_4h_change_percent": 37.51029249822496,
+          "volume_8h_usd": 21905804.082924634,
+          "volume_8h_change_percent": 44.738530972087176,
+          "volume_24h_usd": 74971417.13581684,
+          "volume_24h_change_percent": -11.863334437768902,
+          "trade_1h_count": 1265,
+          "trade_2h_count": 3337,
+          "trade_4h_count": 6665,
+          "trade_8h_count": 11417,
+          "trade_24h_count": 36493,
+          "price": 9.256191208001482,
+          "price_change_1h_percent": 0.00020441358465208683,
+          "price_change_2h_percent": 0.19707702334984364,
+          "price_change_4h_percent": -0.7917510770523032,
+          "price_change_8h_percent": -0.992392490123925,
+          "price_change_24h_percent": 0.2015143852511445,
+          "holder": 643806,
+          "recent_listing_time": null
+        },
+        {
+          "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "logo_uri": "https://upward-sport-headed.quicknode-ipfs.com/ipfs/QmQAtMVZPjsfaTJM9QErBdVqHi1bD9FCBZDr5uzGV96zhU",
+          "name": "Gorbagana",
+          "symbol": "GOR",
+          "decimals": 6,
+          "extensions": {
+            "twitter": "https://x.com/aeyakovenko/status/1935469685652472046",
+            "description": " "
+          },
+          "market_cap": 7763932.994773861,
+          "fdv": 7763932.994773861,
+          "liquidity": 1684645.9317423701,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 2289250.271974869,
+          "volume_1h_change_percent": -16.327091628637962,
+          "volume_2h_usd": 5110068.677486356,
+          "volume_2h_change_percent": 112.37680325770654,
+          "volume_4h_usd": 8768134.739131212,
+          "volume_4h_change_percent": 46.41304883408807,
+          "volume_8h_usd": 13915876.267739955,
+          "volume_8h_change_percent": -77.95552611375112,
+          "volume_24h_usd": 65493551.09322439,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 9605,
+          "trade_2h_count": 20231,
+          "trade_4h_count": 38504,
+          "trade_8h_count": 66926,
+          "trade_24h_count": 296231,
+          "price": 0.007764019189608577,
+          "price_change_1h_percent": -4.8200142161783335,
+          "price_change_2h_percent": -39.06030978538819,
+          "price_change_4h_percent": -36.33862134120049,
+          "price_change_8h_percent": -23.12789504755033,
+          "price_change_24h_percent": 143847.98216288368,
+          "holder": 10462,
+          "recent_listing_time": 1750286929
+        },
+        {
+          "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+          "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R/logo.png",
+          "name": "Raydium",
+          "symbol": "RAY",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "raydium",
+            "serum_v3_usdc": "2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep",
+            "serum_v3_usdt": "teE55QrL4a4QSfydR9dnHF97jgCfptpuigbb53Lo95g",
+            "waterfallbot": "https://bit.ly/RAYwaterfall",
+            "website": "https://raydium.io/",
+            "telegram": "https://t.me/raydiumprotocol",
+            "twitter": "https://twitter.com/raydiumprotocol",
+            "description": "Raydium is an automated market maker (AMM) and liquidity provider built on the Solana blockchain for the Serum decentralized exchange (DEX). Raydium has a first-mover advantage as an AMM within Serum and will be an integral part of bringing new and existing projects and protocols into the ecosystem. The protocol will act as a bridge for projects looking to expand to Solana and Serum, and in the process Raydium and the RAY token will become a foundation for enabling further development with partners, its own platform, and the ecosystem as a whole.\r\n\r\nUnlike any other AMMs, Raydium provides on-chain liquidity to a central limit orderbook, meaning that Raydium LPs get access to the entire orderflow and liquidity of Serum.\r\n\r\nLong term, Raydium aims to capture and maintain a leadership position among AMMs and liquidity providers on Serum, while leveraging the power of Solana to drive the evolution of decentralized finance (DeFi) and emerge as a leading protocol in the space alongside our partners and the community.\"",
+            "medium": "https://raydium.medium.com/",
+            "discord": "https://discord.gg/raydium"
+          },
+          "market_cap": 1210929688.7904332,
+          "fdv": 1210929688.7904332,
+          "liquidity": 23387638.91497458,
+          "last_trade_unix_time": 1750351774,
+          "volume_1h_usd": 1062216.2735981308,
+          "volume_1h_change_percent": 1.6640247546950087,
+          "volume_2h_usd": 2072800.8594761621,
+          "volume_2h_change_percent": 26.196199308782873,
+          "volume_4h_usd": 3904121.738683856,
+          "volume_4h_change_percent": -0.49789380528848315,
+          "volume_8h_usd": 7416931.603953042,
+          "volume_8h_change_percent": -77.79343080626496,
+          "volume_24h_usd": 45710427.261928335,
+          "volume_24h_change_percent": 433.5505667637814,
+          "trade_1h_count": 5267,
+          "trade_2h_count": 10346,
+          "trade_4h_count": 19857,
+          "trade_8h_count": 37375,
+          "trade_24h_count": 162808,
+          "price": 2.1818606570732806,
+          "price_change_1h_percent": -1.041181098520343,
+          "price_change_2h_percent": -2.196636176595,
+          "price_change_4h_percent": -2.6080293825954297,
+          "price_change_8h_percent": -3.659995336520822,
+          "price_change_24h_percent": 9.674170890282575,
+          "holder": 243105,
+          "recent_listing_time": null
+        },
+        {
+          "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "logo_uri": "https://static.jup.ag/jlp/icon.png",
+          "name": "Jupiter Perps LP",
+          "symbol": "JLP",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "jupiter-perpetuals-liquidity-provider-token",
+            "discord": "https://discord.com/invite/jup",
+            "github": "https://github.com/qubic-li",
+            "twitter": "https://twitter.com/JupiterExchange",
+            "website": "https://jup.ag/",
+            "description": "JLP is the liquidity provider token for Jupiter Labs Perpetual."
+          },
+          "market_cap": 1487322816.9691956,
+          "fdv": 1487322816.9691956,
+          "liquidity": 25667535.592677247,
+          "last_trade_unix_time": 1750351767,
+          "volume_1h_usd": 1228589.2549195597,
+          "volume_1h_change_percent": -10.40453835391069,
+          "volume_2h_usd": 2485696.867245837,
+          "volume_2h_change_percent": 4.1595263849500075,
+          "volume_4h_usd": 5247374.817800368,
+          "volume_4h_change_percent": 1.991832398529136,
+          "volume_8h_usd": 9625518.07407239,
+          "volume_8h_change_percent": -4.920580106324835,
+          "volume_24h_usd": 37592291.73989268,
+          "volume_24h_change_percent": -24.813365922981333,
+          "trade_1h_count": 4973,
+          "trade_2h_count": 9827,
+          "trade_4h_count": 18944,
+          "trade_8h_count": 31989,
+          "trade_24h_count": 109170,
+          "price": 4.339547283116182,
+          "price_change_1h_percent": -0.03492471810497874,
+          "price_change_2h_percent": -0.03985526154054962,
+          "price_change_4h_percent": -0.48306638161949933,
+          "price_change_8h_percent": -0.721226457556726,
+          "price_change_24h_percent": -0.26677138578939785,
+          "holder": 77589,
+          "recent_listing_time": null
+        },
+        {
+          "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "logo_uri": "https://storage.googleapis.com/token-metadata/JitoSOL-256.png",
+          "name": "Jito Staked SOL",
+          "symbol": "JitoSOL",
+          "decimals": 9,
+          "extensions": {
+            "coingecko_id": "jito-staked-sol",
+            "description": "MEV-Powered Liquid Staking Token",
+            "discord": "https://discord.gg/5wGU5Bbz8E",
+            "github": "https://github.com/jito-foundation",
+            "medium": "https://medium.com/@Jito-Foundation",
+            "twitter": "https://twitter.com/jito_foundation",
+            "website": "https://www.jito.network/"
+          },
+          "market_cap": 2572400644.127221,
+          "fdv": 2572400644.127221,
+          "liquidity": 86915254.86890066,
+          "last_trade_unix_time": 1750351769,
+          "volume_1h_usd": 1240371.5133529918,
+          "volume_1h_change_percent": -78.14457350034444,
+          "volume_2h_usd": 6780588.11894227,
+          "volume_2h_change_percent": 397.12563015967874,
+          "volume_4h_usd": 8171136.04924035,
+          "volume_4h_change_percent": 53.49714386880638,
+          "volume_8h_usd": 13334971.498075517,
+          "volume_8h_change_percent": 62.31090441697466,
+          "volume_24h_usd": 30884695.145637408,
+          "volume_24h_change_percent": -75.13350211999258,
+          "trade_1h_count": 4278,
+          "trade_2h_count": 8541,
+          "trade_4h_count": 15525,
+          "trade_8h_count": 26484,
+          "trade_24h_count": 91543,
+          "price": 174.05388613433362,
+          "price_change_1h_percent": 0.06935237141608958,
+          "price_change_2h_percent": 0.42292637640127223,
+          "price_change_4h_percent": -1.0223607783727564,
+          "price_change_8h_percent": -1.379922153207411,
+          "price_change_24h_percent": -0.7078109834114882,
+          "holder": 181873,
+          "recent_listing_time": null
+        },
+        {
+          "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+          "logo_uri": "https://pump.mypinata.cloud/ipfs/QmSBgFtpXnxLMeyU1Czs1PW5Zv7nFjy8ZXe5ZDhA8fyyPD",
+          "name": "aura",
+          "symbol": "aura",
+          "decimals": 6,
+          "extensions": {
+            "coingecko_id": "aura-on-sol",
+            "description": "get your aura up not your funny up.",
+            "telegram": "https://t.me/auracoinsol",
+            "website": "https://www.auramaxxing.xyz/",
+            "twitter": "https://twitter.com/auracoinsolana"
+          },
+          "market_cap": 154655576.36032307,
+          "fdv": 154655576.36032307,
+          "liquidity": 7829698.434707688,
+          "last_trade_unix_time": 1750351774,
+          "volume_1h_usd": 479318.9006776711,
+          "volume_1h_change_percent": -48.86811788920957,
+          "volume_2h_usd": 1382426.457806426,
+          "volume_2h_change_percent": -13.069755700306201,
+          "volume_4h_usd": 3299903.4680984057,
+          "volume_4h_change_percent": -23.10471250289109,
+          "volume_8h_usd": 7113260.38331748,
+          "volume_8h_change_percent": 70.02634084289868,
+          "volume_24h_usd": 28386467.4480208,
+          "volume_24h_change_percent": 39.31343013380092,
+          "trade_1h_count": 1179,
+          "trade_2h_count": 3232,
+          "trade_4h_count": 7277,
+          "trade_8h_count": 14442,
+          "trade_24h_count": 50908,
+          "price": 0.16054977405627827,
+          "price_change_1h_percent": 0.8750725171236685,
+          "price_change_2h_percent": 3.5295403990810463,
+          "price_change_4h_percent": -1.36574700767435,
+          "price_change_8h_percent": -6.761297844464215,
+          "price_change_24h_percent": 27.994102479870186,
+          "holder": 32136,
+          "recent_listing_time": null
+        },
+        {
+          "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "logo_uri": "https://ipfs.io/ipfs/QmZ7L8yd5j36oXXydUiYFiFsRHbi3EdgC4RuFwvM7dcqge",
+          "name": "Coinbase Wrapped BTC",
+          "symbol": "cbBTC",
+          "decimals": 8,
+          "extensions": {
+            "coingecko_id": "coinbase-wrapped-btc",
+            "description": "Coinbase Wrapped BTC (\"cbBTC\") is an SPL token that is backed 1:1 by Bitcoin (BTC) held by Coinbase. cbBTC is built to be seamlessly compatible with DeFi applications, giving customers the option to tap into DeFi and unlock financial utility.",
+            "twitter": "https://twitter.com/coinbase",
+            "website": "https://www.coinbase.com/"
+          },
+          "market_cap": 331449962.1236193,
+          "fdv": 331449962.1236193,
+          "liquidity": 29732502.338012826,
+          "last_trade_unix_time": 1750351774,
+          "volume_1h_usd": 786369.5405753792,
+          "volume_1h_change_percent": -29.28626299122781,
+          "volume_2h_usd": 1884989.8454120927,
+          "volume_2h_change_percent": 2.7586466092074393,
+          "volume_4h_usd": 3649183.827869663,
+          "volume_4h_change_percent": 61.39296102774618,
+          "volume_8h_usd": 5746324.967263794,
+          "volume_8h_change_percent": -9.52397706907,
+          "volume_24h_usd": 28125927.205125384,
+          "volume_24h_change_percent": -21.001284148131262,
+          "trade_1h_count": 3375,
+          "trade_2h_count": 7050,
+          "trade_4h_count": 14202,
+          "trade_8h_count": 26258,
+          "trade_24h_count": 87478,
+          "price": 104139.90171610101,
+          "price_change_1h_percent": -0.1991833954317762,
+          "price_change_2h_percent": -0.15049727215999809,
+          "price_change_4h_percent": -0.6091556026614358,
+          "price_change_8h_percent": -0.8205307697119089,
+          "price_change_24h_percent": -0.2221889195587139,
+          "holder": 31842,
+          "recent_listing_time": null
+        },
+        {
+          "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png",
+          "name": "Wrapped Ether (Wormhole)",
+          "symbol": "WETH",
+          "decimals": 8,
+          "extensions": {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "asset_contract": "https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "bridge_contract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+            "coingecko_id": "ethereum",
+            "serum_v3_usdc": "8Gmi2HhZmwQPVdCwzS7CM66MGstMXPcTVHA7jF19cLZz",
+            "serum_v3_usdt": "ch7kmPrtoQUSEPBggcNAvLGiMQkJagVwd3gDYfd8m7Q",
+            "telegram": null,
+            "twitter": "https://twitter.com/wormholecrypto",
+            "website": "https://wormholenetwork.com/en/",
+            "discord": "https://discord.com/invite/xsT8qrHAvV"
+          },
+          "market_cap": 180084957.12094846,
+          "fdv": 180099933.59831855,
+          "liquidity": 7436626.125699027,
+          "last_trade_unix_time": 1750351769,
+          "volume_1h_usd": 644289.8573860882,
+          "volume_1h_change_percent": 10.115774808095905,
+          "volume_2h_usd": 1205601.4856154523,
+          "volume_2h_change_percent": 11.42666741787006,
+          "volume_4h_usd": 2208613.961330966,
+          "volume_4h_change_percent": 101.46499808881767,
+          "volume_8h_usd": 3205429.765816687,
+          "volume_8h_change_percent": -17.599194063428858,
+          "volume_24h_usd": 26269972.2469254,
+          "volume_24h_change_percent": 4.13145977821969,
+          "trade_1h_count": 3254,
+          "trade_2h_count": 6655,
+          "trade_4h_count": 13554,
+          "trade_8h_count": 25273,
+          "trade_24h_count": 88557,
+          "price": 2496.0795616823075,
+          "price_change_1h_percent": -0.1832341442606307,
+          "price_change_2h_percent": -0.3259803416227009,
+          "price_change_4h_percent": -1.035076070449758,
+          "price_change_8h_percent": -1.275705578376526,
+          "price_change_24h_percent": -0.0770403245919566,
+          "holder": 64217,
+          "recent_listing_time": null
+        },
+        {
+          "address": "CaMw9hRML4pqhMCBD6ESdfhyWyQq1c3h6JZFHfLppump",
+          "logo_uri": null,
+          "name": "CipherNet ",
+          "symbol": "CNET",
+          "decimals": 6,
+          "extensions": null,
+          "market_cap": 2334887.8915928784,
+          "fdv": 2334887.8915928784,
+          "liquidity": 239781.8315542166,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 148242.81277761929,
+          "volume_1h_change_percent": -33.28988970293591,
+          "volume_2h_usd": 563755.2170246559,
+          "volume_2h_change_percent": -9.714923290556447,
+          "volume_4h_usd": 1625025.6482625927,
+          "volume_4h_change_percent": -31.468192830470365,
+          "volume_8h_usd": 4345686.907238757,
+          "volume_8h_change_percent": -78.12161153792923,
+          "volume_24h_usd": 25543676.092389062,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 743,
+          "trade_2h_count": 1490,
+          "trade_4h_count": 2949,
+          "trade_8h_count": 4983,
+          "trade_24h_count": 15258,
+          "price": 0.0023348878973290326,
+          "price_change_1h_percent": -10.96514727405307,
+          "price_change_2h_percent": -60.48119485349712,
+          "price_change_4h_percent": -61.66623762760054,
+          "price_change_8h_percent": -60.58442037269111,
+          "price_change_24h_percent": -32.4751599754646,
+          "holder": 5861,
+          "recent_listing_time": 1750286826
+        },
+        {
+          "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "logo_uri": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh/logo.png",
+          "name": "Wrapped BTC (Wormhole)",
+          "symbol": "WBTC",
+          "decimals": 8,
+          "extensions": {
+            "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "asset_contract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "bridge_contract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+            "coingecko_id": "wrapped-bitcoin",
+            "discord": "https://discord.com/invite/xsT8qrHAvV",
+            "twitter": "https://twitter.com/wormholecrypto",
+            "website": "https://wormholenetwork.com/"
+          },
+          "market_cap": 356886977.3105232,
+          "fdv": 356886977.3105232,
+          "liquidity": 19580539.879007757,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 736622.5911147762,
+          "volume_1h_change_percent": -25.78237989634721,
+          "volume_2h_usd": 1689281.4850426647,
+          "volume_2h_change_percent": -4.465742202849456,
+          "volume_4h_usd": 3480730.609411005,
+          "volume_4h_change_percent": 30.01104356300976,
+          "volume_8h_usd": 5873733.037958277,
+          "volume_8h_change_percent": -4.195467186922115,
+          "volume_24h_usd": 25120561.045227267,
+          "volume_24h_change_percent": -28.89741545781863,
+          "trade_1h_count": 3736,
+          "trade_2h_count": 7726,
+          "trade_4h_count": 15221,
+          "trade_8h_count": 27617,
+          "trade_24h_count": 99281,
+          "price": 104116.82218483627,
+          "price_change_1h_percent": -0.10546188126063216,
+          "price_change_2h_percent": -0.07987081353636635,
+          "price_change_4h_percent": -0.5501239176835768,
+          "price_change_8h_percent": -0.8080693251308786,
+          "price_change_24h_percent": -0.209199822821061,
+          "holder": 55128,
+          "recent_listing_time": null
+        },
+        {
+          "address": "FU7A37mGQ863zm6XCj7LCXB8QbT3QwLZBKtre3GiDP5v",
+          "logo_uri": "https://pump.mypinata.cloud/ipfs/QmZXdGxV7a1uFggU17MRcVRbfYUu8Q3zFbHF9yyesoid5U?img-width=256&img-dpr=2&img-onerror=redirect",
+          "name": "Nvidia Inu",
+          "symbol": "NI",
+          "decimals": 6,
+          "extensions": {
+            "description": "Nvidia Inu"
+          },
+          "market_cap": 1477180.9325865656,
+          "fdv": 1477180.9325865656,
+          "liquidity": 89468.48191049139,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 6318676.339517364,
+          "volume_1h_change_percent": 52.043458625365226,
+          "volume_2h_usd": 12446994.440786477,
+          "volume_2h_change_percent": 52.14725667192056,
+          "volume_4h_usd": 22127708.548251014,
+          "volume_4h_change_percent": null,
+          "volume_8h_usd": 22127708.548251014,
+          "volume_8h_change_percent": null,
+          "volume_24h_usd": 22127708.548251014,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 32028,
+          "trade_2h_count": 63021,
+          "trade_4h_count": 110769,
+          "trade_8h_count": 110769,
+          "trade_24h_count": 110769,
+          "price": 0.0014771809296322037,
+          "price_change_1h_percent": -54.81967843958133,
+          "price_change_2h_percent": -62.23078478574474,
+          "price_change_4h_percent": 915.9713268414932,
+          "price_change_8h_percent": 915.9713268414932,
+          "price_change_24h_percent": 915.9713268414932,
+          "holder": 231,
+          "recent_listing_time": 1750339154
+        },
+        {
+          "address": "2RdnRCEPhkU1vvU4SpiQzgRksuEEgzhKB7J8furmpump",
+          "logo_uri": null,
+          "name": "Ginger",
+          "symbol": "Ginger",
+          "decimals": 6,
+          "extensions": null,
+          "market_cap": 2642225.048462453,
+          "fdv": 2642225.048462453,
+          "liquidity": 308954.33400514565,
+          "last_trade_unix_time": 1750351768,
+          "volume_1h_usd": 415752.2179408372,
+          "volume_1h_change_percent": 21.789195575964808,
+          "volume_2h_usd": 805875.5503808466,
+          "volume_2h_change_percent": 19.360551791867103,
+          "volume_4h_usd": 1897980.9262467646,
+          "volume_4h_change_percent": -65.49470843300877,
+          "volume_8h_usd": 10109273.399053466,
+          "volume_8h_change_percent": -18.023712593863923,
+          "volume_24h_usd": 21802706.39168098,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 505,
+          "trade_2h_count": 967,
+          "trade_4h_count": 2045,
+          "trade_8h_count": 6132,
+          "trade_24h_count": 12865,
+          "price": 0.0026422250738986778,
+          "price_change_1h_percent": -49.98315293513103,
+          "price_change_2h_percent": -41.62409807645322,
+          "price_change_4h_percent": -63.92045289985554,
+          "price_change_8h_percent": -67.7586322843591,
+          "price_change_24h_percent": -17.930130114271222,
+          "holder": 3870,
+          "recent_listing_time": 1750289461
+        },
+        {
+          "address": "8qyVEH4V51Pa7fQXCFGm3Zojd3jGdSGw8uJ1Gwsppump",
+          "logo_uri": null,
+          "name": "Fuggler",
+          "symbol": "FUGGLER",
+          "decimals": 6,
+          "extensions": null,
+          "market_cap": 1812006.5321319138,
+          "fdv": 1812006.5321319138,
+          "liquidity": 587314.8729257886,
+          "last_trade_unix_time": 1750351774,
+          "volume_1h_usd": 1816178.014232921,
+          "volume_1h_change_percent": -23.64361459074781,
+          "volume_2h_usd": 4019093.859143751,
+          "volume_2h_change_percent": -31.952141266093058,
+          "volume_4h_usd": 9964063.209170677,
+          "volume_4h_change_percent": -23.442314892454778,
+          "volume_8h_usd": 19230271.936982326,
+          "volume_8h_change_percent": 845.3186320518498,
+          "volume_24h_usd": 19416277.528665975,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 2095,
+          "trade_2h_count": 4272,
+          "trade_4h_count": 8952,
+          "trade_8h_count": 15052,
+          "trade_24h_count": 15150,
+          "price": 0.0018120065321319137,
+          "price_change_1h_percent": -1.1106926177832088,
+          "price_change_2h_percent": -15.811333125639413,
+          "price_change_4h_percent": 0.9009323482959198,
+          "price_change_8h_percent": 33.43549965663839,
+          "price_change_24h_percent": 208.45902537666475,
+          "holder": 2657,
+          "recent_listing_time": 1750321205
+        },
+        {
+          "address": "4soPYVmXww1bvvaXBwwaxqSpNZcinrBoEi5JBYfkpump",
+          "logo_uri": null,
+          "name": "Grab.ai",
+          "symbol": "Grab.ai",
+          "decimals": 6,
+          "extensions": null,
+          "market_cap": 8233139.842364018,
+          "fdv": 8233139.842364018,
+          "liquidity": 451702.0604212172,
+          "last_trade_unix_time": 1750351774,
+          "volume_1h_usd": 594041.9917370767,
+          "volume_1h_change_percent": -31.137402772689803,
+          "volume_2h_usd": 1217820.3570531101,
+          "volume_2h_change_percent": -22.2615943443576,
+          "volume_4h_usd": 2590886.9004639643,
+          "volume_4h_change_percent": -69.1122897650651,
+          "volume_8h_usd": 9832436.461167619,
+          "volume_8h_change_percent": 1.8087422428934334,
+          "volume_24h_usd": 18692526.537022367,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 894,
+          "trade_2h_count": 1827,
+          "trade_4h_count": 3673,
+          "trade_8h_count": 7840,
+          "trade_24h_count": 12393,
+          "price": 0.008233139842364018,
+          "price_change_1h_percent": 27.917098781443876,
+          "price_change_2h_percent": 4.151541009419373,
+          "price_change_4h_percent": 73.12971770728362,
+          "price_change_8h_percent": 18.105769909155057,
+          "price_change_24h_percent": 32.73500270859199,
+          "holder": 5025,
+          "recent_listing_time": 1750307609
+        },
+        {
+          "address": "FJinLJ884cYLQBKnWnoD9h7r1gpp1jPynagebMPrg2fq",
+          "logo_uri": "https://rs.debot.ai/logo/9ihdUdFC9swhCq5Ypg52fyfy7G4K7hcB8CJGpvJ8bonk.webp?x-oss-process=image/resize,w_128/quality,q_80",
+          "name": "Not Going Anywhere",
+          "symbol": "NGA",
+          "decimals": 6,
+          "extensions": {
+            "description": "Not Going Anywhere"
+          },
+          "market_cap": 1440284.7695499244,
+          "fdv": 1440284.7695499244,
+          "liquidity": 110420.74189414913,
+          "last_trade_unix_time": 1750351775,
+          "volume_1h_usd": 11014830.677469391,
+          "volume_1h_change_percent": 44.266465667761274,
+          "volume_2h_usd": 18647364.01344157,
+          "volume_2h_change_percent": null,
+          "volume_4h_usd": 18647364.013441592,
+          "volume_4h_change_percent": null,
+          "volume_8h_usd": 18647364.013441592,
+          "volume_8h_change_percent": null,
+          "volume_24h_usd": 18647364.013441592,
+          "volume_24h_change_percent": null,
+          "trade_1h_count": 27308,
+          "trade_2h_count": 44442,
+          "trade_4h_count": 44442,
+          "trade_8h_count": 44442,
+          "trade_24h_count": 44442,
+          "price": 0.0014402848940106687,
+          "price_change_1h_percent": -45.36334268820289,
+          "price_change_2h_percent": 489.3458136960506,
+          "price_change_4h_percent": 489.3458136960506,
+          "price_change_8h_percent": 489.3458136960506,
+          "price_change_24h_percent": 489.3458136960506,
+          "holder": 215,
+          "recent_listing_time": 1750345373
+        }
+      ]
+    }
+  }
+}

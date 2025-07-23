@@ -1,0 +1,433 @@
+{
+  "timestamp": "2025-06-19T20:56:05.995669",
+  "execution_time_seconds": 14.48,
+  "platform_data_counts": {
+    "dexscreener_boosted": 28,
+    "dexscreener_top": 30,
+    "dexscreener_profiles": 30,
+    "dexscreener_narratives": 0,
+    "rugcheck_trending": 10,
+    "birdeye_trending": 20
+  },
+  "correlations": {
+    "total_tokens": 68,
+    "platform_distribution": {
+      "2": 41,
+      "1": 27
+    },
+    "multi_platform_tokens": [
+      {
+        "address": "HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 8.5
+      },
+      {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 8.5
+      },
+      {
+        "address": "9yxwiDRUSMxCauCwd93nf3MUXMqdSL1owsCFMShbmoon",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.7
+      },
+      {
+        "address": "LTRYGGgNA3S6FFrg6vbM9dZZKQV91S9DWQeig32pjx2",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "h2h3tNnocBwoEd8SGgzZxHuKYkXQE7TFbSoygkUpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "82PyToVgLpYkPrRVN4ibJGF4bstYEduqzTJwcwnunrVM",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "85vdovHhkXnDi98EYMQmD2vXS82jRP1VDDXfkJ38pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "wqWakQjj9P5iKKnzhFk4by7ssTjm627a8CucjqXpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.8
+      },
+      {
+        "address": "BYpJEjZ8YBBWjF66oihbLnipwtmMHnLeJnkp4aBcpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.5
+      },
+      {
+        "address": "urWxhf2vMUXNDcuvxLiSA1oqs24RNX7ZRbqcNLHpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "B3j27TB68GLCFB8UiFLG82U4TxBaVmGrTqLRrnWEpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "BkYim4pnE7wBb4hAoi3qKT7a6J6rbZSEDvXWPriEpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "DBnrkFbEiySXmqjquZtzyFSj5z75Kz1WhK71N9bdRjNF",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "CSg1gtcKDX3ynrCFnAvewzKkYsh8SF15WAV8DVcmpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "NGbThecwbf6unQBQPTuvgW5BocDgrQ8FsTNuNK4pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "DfP6ANbqv5aZkg8cC53rTuUtumrxD4hDFscvvz78bEPt",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "GY15RsMaKYaoD2PJrTCsJ5CV4yJNnN79czKgYK3zpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "H4HFRTS9YNR1q9NumLmEa8EYCT9QameGheXKHWDZpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "FY7QxiDhvLvvpcf1Y5RReBu5DFRJmzcPgxrH82xEpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "ppkb4b1DSXcnRETLTeCCLV7nhkpqzPrwHejBHM6pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "HpZEAUkgmgE1J3r7oeV1pUngip8NzsjqQp9isrUFpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "5iVmFCCwJTuuw7p4FrxYoZ1bUNdjg14j7uv5hMsMpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "uiSbyUSLPgyREkzYQ8eSB9omfbeiW2uQPiHdfckpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "8QCdHbCchQJVtUctss7E115oFWBJggRz1L5LfQcvCeyn",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 6.0
+      },
+      {
+        "address": "nNghHqamjrYP3sFDUkt1TAz8j4DLZrEuwAgzcZ3pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.9
+      },
+      {
+        "address": "HtrmuNs4nESVg5i8gHyufDpGN5HHKqPmFfbQV9yupump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.8
+      },
+      {
+        "address": "EBCqxfSMVSJPDGFLcf2yAfQoeLJRD1z8VbEUemZSbonk",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.5
+      },
+      {
+        "address": "5w68xqRpVFqi7hCXuN7QLc5ReLv1PfpmT9TVm11Cpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "CgzdCjj5YNH51uFfQftFbuJKMrwgdWheVjwqjU84MV8y",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "J1xPNXbK6comnUgjdbcPTNgsMqxXu3cUgNvzvFu8pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "8CDe8CVX74r3mEpcr2LsGGrNoGdJFt4uSYWyGfKUpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "qTNw7ueCsvxLWejrgp2fU53XcQNxhh68gDDvzoFvBLV",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "FneWQD6Ycu4yn6gGGYK1BawrVu2Pf91B7Q8X5MUkpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "719cLKqG9nhJCAYCjrBUGxsUSwJwPCcQjNkkq1Gypump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "7aR6zLzTkkeUjYWc2auYsNpokUs9usVoQuyorkVLpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "sxv1symoD4WXjpeXCs5USFEyt8hBhmCuuptLjA8uRNy",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "AjiKdAQptBaZbnvoC1BweA511MhMN6wThwnTh66Npump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "EWQqHFoS7FrDp8Fmj4sN5qV5YKpV3cReCFjiFGtXpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      },
+      {
+        "address": "G6PoCxqBkc7pBgPNTwcHzrgNVekiyhGXdZaM4oqLLBr6",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 5.0
+      }
+    ],
+    "correlation_matrix": {
+      "birdeye": {
+        "dexscreener": 41
+      },
+      "dexscreener": {
+        "birdeye": 41
+      }
+    },
+    "high_conviction_tokens": [
+      {
+        "address": "HBQF8545EPhitdD7c18TFzoKrXGQE6jeXxVaGEjopump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 8.5
+      },
+      {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 8.5
+      },
+      {
+        "address": "9yxwiDRUSMxCauCwd93nf3MUXMqdSL1owsCFMShbmoon",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.7
+      },
+      {
+        "address": "LTRYGGgNA3S6FFrg6vbM9dZZKQV91S9DWQeig32pjx2",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "h2h3tNnocBwoEd8SGgzZxHuKYkXQE7TFbSoygkUpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "82PyToVgLpYkPrRVN4ibJGF4bstYEduqzTJwcwnunrVM",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      },
+      {
+        "address": "85vdovHhkXnDi98EYMQmD2vXS82jRP1VDDXfkJ38pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener"
+        ],
+        "score": 7.5
+      }
+    ]
+  },
+  "insights": [
+    "Cross-platform validation rate: 60.3% (41/68 tokens)",
+    "Identified 7 high-conviction tokens (score \u22657.0)",
+    "Top token: HBQF8545... (Score: 8.5, Platforms: birdeye, dexscreener)",
+    "DexScreener-Birdeye overlap: 41 tokens",
+    "Cache efficiency: 0.0% hit rate",
+    "Estimated cost savings: $0.0031"
+  ],
+  "cache_statistics": {
+    "cache_hits": 0,
+    "cache_misses": 84,
+    "hit_rate_percent": 0.0,
+    "api_calls_saved": 66,
+    "estimated_cost_savings_usd": 0.0031,
+    "tracked_tokens": 68,
+    "position_tokens": 0,
+    "auto_refresh_queue_size": 0
+  }
+}

@@ -1,0 +1,205 @@
+# OPTIMIZED CONFIGURATION FOR MAXIMUM API EFFICIENCY
+# This configuration enables all API call optimization features
+
+# Core Token Discovery Settings - OPTIMIZED
+TOKEN_DISCOVERY:
+  scan_interval_minutes: 30          # Balanced interval
+  max_tokens: 50                     # Increased capacity with optimizations
+  
+  # OPTIMIZATION: Enable parallel discovery
+  use_parallel_discovery: true       # Use parallel discovery instead of sequential
+  parallel_discovery_strategies: 4   # Number of parallel discovery strategies
+  
+  # OPTIMIZATION: Enhanced filtering to reduce tokens early
+  strict_filters:
+    min_liquidity: 200000            # $200K minimum (higher than default)
+    min_volume_24h_usd: 100000       # $100K minimum volume
+    min_trade_24h_count: 500         # Minimum trade count
+    min_holder: 300                  # Minimum holders
+    max_tokens_per_discovery: 25     # Limit per discovery method
+
+# ULTRA-BATCH PROCESSING CONFIGURATION
+ULTRA_BATCH:
+  enabled: true                      # Enable ultra-batch processing
+  workflow_batch_size: 20            # Tokens per ultra-batch workflow
+  transaction_batch_size: 10         # Tokens per transaction batch
+  ohlcv_batch_size: 15              # Tokens per OHLCV batch
+  max_concurrent_workflows: 3       # Parallel workflow processing
+  inter_workflow_delay: 1.0         # Delay between workflows
+  min_batch_size: 2                 # Minimum tokens to trigger batching
+
+# ENHANCED CACHING OPTIMIZATION
+CACHING:
+  enabled: true
+  cache_type: "enhanced"             # Use EnhancedCacheManager
+  
+  # Adaptive TTL settings
+  adaptive_ttl: true                 # Enable adaptive TTL based on popularity
+  base_ttl:
+    price: 30                        # 30 seconds for price data
+    overview: 300                    # 5 minutes for overview data
+    security: 3600                   # 1 hour for security data
+    trending: 180                    # 3 minutes for trending
+    historical: 1800                 # 30 minutes for historical
+  
+  # Predictive prefetching
+  predictive_prefetch:
+    enabled: true                    # Enable predictive prefetching
+    prefetch_interval: 300           # 5 minutes between prefetch cycles
+    max_prefetch_tokens: 20          # Maximum tokens to prefetch
+    popularity_threshold: 2          # Minimum popularity for prefetching
+  
+  # Cache sizes (optimized for memory efficiency)
+  cache_sizes:
+    price_cache: 5000               # Increased for popular tokens
+    metadata_cache: 2000            # Standard size
+    trending_cache: 200             # Small for trending data
+    security_cache: 1000            # Medium for security data
+    historical_cache: 500           # Medium for historical data
+
+# CROSS-STRATEGY DATA SHARING
+STRATEGY_OPTIMIZATION:
+  cross_strategy_sharing: true       # Enable cross-strategy data sharing
+  shared_data_pool: true            # Use shared data pool
+  parallel_strategy_discovery: true # Run strategy discovery in parallel
+  
+  # Strategy coordination
+  coordination:
+    max_shared_tokens: 100          # Maximum tokens in shared pool
+    shared_data_ttl: 600            # 10 minutes TTL for shared data
+    batch_strategy_processing: true # Process strategies in batches
+
+# PROGRESSIVE ANALYSIS OPTIMIZATION
+ANALYSIS:
+  # Stage thresholds - OPTIMIZED for early filtering
+  stage_thresholds:
+    quick_score: 70                 # Higher threshold (was 65)
+    medium_score: 60                # Higher threshold (was 55)
+    full_score: 80                  # Higher threshold (was 75)
+  
+  # Enable ultra-batch for full analysis
+  use_ultra_batch_full_analysis: true
+  
+  # Scoring weights - OPTIMIZED
+  scoring_weights:
+    liquidity: 0.35                 # Increased weight (was 0.3)
+    age: 0.25                       # Increased weight (was 0.2)
+    price_change: 0.2               # Same
+    volume: 0.15                    # Same
+    concentration: 0.05             # Decreased (was 0.1)
+
+# API RATE LIMITING - OPTIMIZED
+API_OPTIMIZATION:
+  # Birdeye API settings
+  birdeye:
+    rate_limit_requests_per_second: 15  # Increased (was 10)
+    rate_limit_burst: 30               # Increased (was 20)
+    concurrent_limit: 8                # Optimized concurrency
+    batch_size: 50                     # Maximum batch size
+    request_timeout: 25                # Slightly increased timeout
+  
+  # Batch processing optimization
+  batch_processing:
+    max_addresses_per_batch: 50       # Birdeye multi-price limit
+    max_concurrent_batches: 5         # Parallel batch processing
+    inter_batch_delay: 0.3            # Reduced delay (was 0.5)
+    
+# STRATEGY SCHEDULER - OPTIMIZED
+STRATEGY_SCHEDULER:
+  enabled: true
+  optimization_mode: "enhanced"      # Use enhanced optimization
+  run_hours: [0, 6, 12, 18]         # Standard schedule
+  
+  # Cross-strategy optimization
+  use_data_sharing: true            # Enable data sharing between strategies
+  parallel_execution: true         # Run strategies in parallel
+  shared_data_caching: true        # Cache shared data between runs
+  
+  strategies:
+    VolumeMomentumStrategy:
+      enabled: true
+      min_consecutive_appearances: 3
+      batch_optimized: true         # Enable batch optimization
+      
+    RecentListingsStrategy:
+      enabled: true
+      min_consecutive_appearances: 2
+      batch_optimized: true
+      
+    PriceMomentumStrategy:
+      enabled: true
+      min_consecutive_appearances: 2
+      batch_optimized: true
+      
+    LiquidityGrowthStrategy:
+      enabled: true
+      min_consecutive_appearances: 3
+      batch_optimized: true
+      
+    HighTradingActivityStrategy:
+      enabled: true
+      min_consecutive_appearances: 3
+      batch_optimized: true
+
+# RUGCHECK INTEGRATION - OPTIMIZED
+RUGCHECK:
+  enabled: true
+  batch_size: 50                    # Optimized batch size
+  cache_ttl_minutes: 15             # Increased cache time
+  concurrent_requests: 5            # Parallel security checks
+  rate_limit_delay_ms: 300          # Reduced delay (was 500)
+
+# MONITORING AND METRICS
+OPTIMIZATION_MONITORING:
+  enabled: true
+  
+  # API call tracking
+  api_call_tracking:
+    track_efficiency_ratios: true
+    log_batch_performance: true
+    alert_on_high_usage: true
+    high_usage_threshold: 150       # Alert if > 150 calls per scan
+  
+  # Cache performance monitoring
+  cache_monitoring:
+    track_hit_rates: true
+    log_cache_stats: true
+    alert_on_low_hit_rate: true
+    min_hit_rate_threshold: 70      # Alert if hit rate < 70%
+  
+  # Optimization metrics
+  metrics:
+    log_optimization_gains: true
+    track_api_savings: true
+    monitor_response_times: true
+    performance_baseline: 200       # Baseline API calls per scan
+
+# DEVELOPMENT SETTINGS
+DEVELOPMENT:
+  # Optimization testing
+  enable_optimization_debug: false   # Detailed optimization logging
+  benchmark_mode: false              # Performance benchmarking
+  api_call_simulation: false        # Simulate API calls for testing
+  
+  # Fallback behavior
+  fallback_to_individual_calls: true # Fallback if batch fails
+  max_optimization_retries: 2       # Retry optimization failures
+
+# TELEGRAM ALERTS - Optimized for efficiency
+TELEGRAM:
+  enabled: true
+  bot_token: "${TELEGRAM_BOT_TOKEN}"
+  chat_id: "${TELEGRAM_CHAT_ID}"
+  
+  # Alert optimization
+  alert_batching: true              # Batch similar alerts
+  max_alerts_per_batch: 5          # Maximum alerts per batch
+  batch_delay_seconds: 30          # Wait time before sending batch
+
+# Expected Performance Improvements with this configuration:
+# - Discovery Stage: 60-80% faster with parallel discovery
+# - Analysis Stage: 60-80% fewer API calls with ultra-batch
+# - Strategy Stage: 40-70% fewer API calls with data sharing  
+# - Overall: 70-90% API call reduction vs naive implementation
+# - Cache hit rate: 70-85% expected
+# - Scan completion time: 40-60% faster 

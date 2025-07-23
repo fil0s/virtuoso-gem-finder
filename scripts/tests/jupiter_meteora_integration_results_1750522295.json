@@ -1,0 +1,1936 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-21T12:11:35.347227",
+    "duration_seconds": 22.53,
+    "status": "SUCCESS"
+  },
+  "data_collection_results": {
+    "jupiter_all_tokens": 287863,
+    "jupiter_trending_analysis": 14,
+    "meteora_trending_pools": 36,
+    "integrated_unique_tokens": 30
+  },
+  "platform_breakdown": {
+    "platform_summary": {
+      "total_platforms": 10,
+      "platform_counts": {
+        "DexScreener Boosted": 30,
+        "DexScreener Top": 30,
+        "DexScreener Profiles": 30,
+        "DexScreener Narratives": 9,
+        "RugCheck Trending": 10,
+        "Birdeye Trending": 20,
+        "Birdeye Emerging Stars": 20,
+        "Meteora Volume Trending": 36,
+        "Jupiter Quote Analysis": 14,
+        "Jupiter Token List": 287863
+      },
+      "total_unique_tokens": 83
+    },
+    "token_distribution": {
+      "by_platform_count": {
+        "1": 60,
+        "2": 14,
+        "6": 1,
+        "3": 5,
+        "4": 2,
+        "13": 1
+      },
+      "multi_platform_tokens": 23,
+      "single_platform_tokens": 60
+    },
+    "cross_platform_analysis": {
+      "top_multi_platform_tokens": [
+        {
+          "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "symbol": "USDC",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "symbol": "USDC",
+              "name": "USD Coin",
+              "volume_24h_usd": 1449457298.8962815,
+              "market_cap": 7901033520.254699,
+              "holder_count": 4626436,
+              "trade_24h_count": 2191497,
+              "price": 0.99987998,
+              "price_change_24h_percent": 0.00013801675523916456,
+              "liquidity": 8436378737.004857,
+              "fdv": 7901033520.254699,
+              "last_trade_unix_time": 1750522245,
+              "volume_to_mcap_ratio": 0.18,
+              "emerging_star_score": 55.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 56989903.3188022,
+              "volume_2h_usd": 109923342.59648532,
+              "volume_4h_usd": 227524362.8690793,
+              "volume_8h_usd": 371385640.09689295,
+              "price_change_1h_percent": -0.0034882969936019742,
+              "price_change_2h_percent": 0.000663083979586761,
+              "price_change_4h_percent": -0.006743354633018095,
+              "price_change_8h_percent": -0.009875210045721302,
+              "trade_1h_count": 114852,
+              "trade_2h_count": 221824,
+              "trade_4h_count": 422326,
+              "trade_8h_count": 710378
+            },
+            "Meteora Volume Trending": {
+              "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "pool_id": "E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8",
+              "pool_name": "DBR-USDC",
+              "volume_24h": 1151776.4608116378,
+              "tvl": 4751389.238552813,
+              "vlr": 0.24240835742652142,
+              "fee_24h": 3455.329382434922,
+              "trending_score": 0.24240835742652142,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 54.85295016688578,
+          "platform_count": 13
+        },
+        {
+          "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "symbol": "GOR",
+          "platforms": [
+            "Birdeye Trending",
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+              "symbol": "GOR",
+              "name": "Gorbagana",
+              "price": 0.043790251907680815,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 6046371.9819632,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Birdeye Emerging Stars": {
+              "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+              "symbol": "GOR",
+              "name": "Gorbagana",
+              "volume_24h_usd": 48020161.160701066,
+              "market_cap": 43797541.774884425,
+              "holder_count": 19686,
+              "trade_24h_count": 155512,
+              "price": 0.0437994746995054,
+              "price_change_24h_percent": 12.991710648113555,
+              "liquidity": 5985386.400293158,
+              "fdv": 43797541.774884425,
+              "last_trade_unix_time": 1750522244,
+              "volume_to_mcap_ratio": 1.1,
+              "emerging_star_score": 65.0,
+              "momentum_tier": "LOW_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1572855.7376214373,
+              "volume_2h_usd": 2587129.4708954366,
+              "volume_4h_usd": 6087038.992733236,
+              "volume_8h_usd": 12644327.45743851,
+              "price_change_1h_percent": 6.4048287803510116,
+              "price_change_2h_percent": 4.488033758163569,
+              "price_change_4h_percent": -3.8399414591068943,
+              "price_change_8h_percent": 25.697957740983323,
+              "trade_1h_count": 4926,
+              "trade_2h_count": 9040,
+              "trade_4h_count": 21184,
+              "trade_8h_count": 45248
+            },
+            "Meteora Volume Trending": {
+              "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+              "pool_id": "3CGpV2Vqx5KGKq1xigmNv8VhvepuQdwvEQwdB4wNasWE",
+              "pool_name": "GOR-SOL",
+              "volume_24h": 1864698.2982041424,
+              "tvl": 219614.92668666356,
+              "vlr": 8.490763020241369,
+              "fee_24h": 10820.414769227937,
+              "trending_score": 8.490763020241369,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 30.952854817341233,
+          "platform_count": 6
+        },
+        {
+          "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "symbol": "JLP",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+              "symbol": "JLP",
+              "name": "Jupiter Perps LP",
+              "volume_24h_usd": 42073352.85221934,
+              "market_cap": 1470827781.537026,
+              "holder_count": 77509,
+              "trade_24h_count": 110506,
+              "price": 4.292673396588792,
+              "price_change_24h_percent": -0.8481515045038737,
+              "liquidity": 28005154.460673265,
+              "fdv": 1470827781.537026,
+              "last_trade_unix_time": 1750522244,
+              "volume_to_mcap_ratio": 0.03,
+              "emerging_star_score": 50.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1878044.9027866158,
+              "volume_2h_usd": 3996195.283525223,
+              "volume_4h_usd": 6204250.353563831,
+              "volume_8h_usd": 9429098.439715523,
+              "price_change_1h_percent": -0.03835927710460335,
+              "price_change_2h_percent": -0.10020232270304193,
+              "price_change_4h_percent": -0.6636645925672116,
+              "price_change_8h_percent": -0.13600625103935948,
+              "trade_1h_count": 5663,
+              "trade_2h_count": 10988,
+              "trade_4h_count": 19111,
+              "trade_8h_count": 31365
+            },
+            "Meteora Volume Trending": {
+              "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+              "pool_id": "DbTk2SNKWxu9TJbPzmK9HcQCAmraBCFb5VMo8Svwh34z",
+              "pool_name": "JLP-USDC",
+              "volume_24h": 1217845.9206293882,
+              "tvl": 21785.650880099543,
+              "vlr": 55.90128692192756,
+              "fee_24h": 139.92346683218344,
+              "trending_score": 10,
+              "discovery_source": "meteora_volume_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 6,
+                "activity_score": 10,
+                "route_complexity": 2,
+                "price_impact": 0.0001091326078072,
+                "trending_score": 7.6,
+                "validation_errors": []
+              },
+              "liquidity_score": 6,
+              "activity_score": 10,
+              "route_complexity": 2,
+              "price_impact": 0.0001091326078072,
+              "trending_score": 7.6,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 27.6,
+          "platform_count": 4
+        },
+        {
+          "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "symbol": "USELESS",
+          "platforms": [
+            "Birdeye Trending",
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+              "symbol": "USELESS",
+              "name": "USELESS COIN",
+              "price": 0.11166771335261169,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 4365725.2918544,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Birdeye Emerging Stars": {
+              "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+              "symbol": "USELESS",
+              "name": "USELESS COIN",
+              "volume_24h_usd": 18478156.286882028,
+              "market_cap": 111659594.71324341,
+              "holder_count": 13474,
+              "trade_24h_count": 40862,
+              "price": 0.11166771335261169,
+              "price_change_24h_percent": 28.676318001577723,
+              "liquidity": 4239387.530809043,
+              "fdv": 111659594.71324341,
+              "last_trade_unix_time": 1750522243,
+              "volume_to_mcap_ratio": 0.17,
+              "emerging_star_score": 55.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 391522.1094082101,
+              "volume_2h_usd": 1248050.2629782737,
+              "volume_4h_usd": 2657707.1059322865,
+              "volume_8h_usd": 5647723.112680171,
+              "price_change_1h_percent": -0.7914128869633237,
+              "price_change_2h_percent": 4.7485635392638255,
+              "price_change_4h_percent": -1.6099609419568468,
+              "price_change_8h_percent": 13.753641710844178,
+              "trade_1h_count": 1288,
+              "trade_2h_count": 3419,
+              "trade_4h_count": 6826,
+              "trade_8h_count": 14088
+            },
+            "Meteora Volume Trending": {
+              "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+              "pool_id": "BBXyTX5UfbASibLRo3iaptuwF5846njxm7M4xFQTQz3d",
+              "pool_name": "USELESS-SOL",
+              "volume_24h": 1224233.489021702,
+              "tvl": 614019.8274011142,
+              "vlr": 1.9938012331024615,
+              "fee_24h": 14072.921482925289,
+              "trending_score": 1.9938012331024615,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 11.993801233102461,
+          "platform_count": 4
+        },
+        {
+          "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "symbol": "Fartcoin ",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+              "symbol": "Fartcoin ",
+              "name": "Fartcoin ",
+              "volume_24h_usd": 111455433.26850182,
+              "market_cap": 897617507.4240559,
+              "holder_count": 162964,
+              "trade_24h_count": 247153,
+              "price": 0.897624868431506,
+              "price_change_24h_percent": -2.695287570405818,
+              "liquidity": 33432411.770272154,
+              "fdv": 897617507.4240559,
+              "last_trade_unix_time": 1750522244,
+              "volume_to_mcap_ratio": 0.12,
+              "emerging_star_score": 55.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 8162266.521791184,
+              "volume_2h_usd": 10992863.208037918,
+              "volume_4h_usd": 23111695.73288811,
+              "volume_8h_usd": 32318295.103982553,
+              "price_change_1h_percent": -1.0638059229177563,
+              "price_change_2h_percent": -1.5384877229243488,
+              "price_change_4h_percent": -4.934955337137595,
+              "price_change_8h_percent": -4.663843630891238,
+              "trade_1h_count": 15835,
+              "trade_2h_count": 26552,
+              "trade_4h_count": 51535,
+              "trade_8h_count": 79803
+            },
+            "Meteora Volume Trending": {
+              "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+              "pool_id": "4Dvr3ghgphp4aTAsB34fmPP9Uk6e6xui6PbPaNiAHqRo",
+              "pool_name": "Fartcoin -SOL",
+              "volume_24h": 1502013.68446298,
+              "tvl": 313979.5045180284,
+              "vlr": 4.783795320553274,
+              "fee_24h": 1534.442122050518,
+              "trending_score": 4.783795320553274,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 9.6650573310327,
+          "platform_count": 3
+        },
+        {
+          "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+          "symbol": "LAUNCHCOIN",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+              "symbol": "LAUNCHCOIN",
+              "name": "Launch Coin on Believe",
+              "volume_24h_usd": 30125445.381196775,
+              "market_cap": 91606363.02666609,
+              "holder_count": 33337,
+              "trade_24h_count": 89251,
+              "price": 0.09162888578930792,
+              "price_change_24h_percent": -20.340114430282576,
+              "liquidity": 5449122.815385856,
+              "fdv": 91617246.41931331,
+              "last_trade_unix_time": 1750522243,
+              "volume_to_mcap_ratio": 0.33,
+              "emerging_star_score": 50.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1431100.8962457604,
+              "volume_2h_usd": 2432230.9071057597,
+              "volume_4h_usd": 3889305.863562663,
+              "volume_8h_usd": 6491496.620591542,
+              "price_change_1h_percent": -3.663331397309216,
+              "price_change_2h_percent": -5.889630144231994,
+              "price_change_4h_percent": -10.10292335628745,
+              "price_change_8h_percent": -11.530840630532044,
+              "trade_1h_count": 3958,
+              "trade_2h_count": 7384,
+              "trade_4h_count": 13801,
+              "trade_8h_count": 23586
+            },
+            "Meteora Volume Trending": {
+              "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+              "pool_id": "5imLaMuSTQ3qXdYHajgPb4EhVjXsX7FGySvhpg2rL2We",
+              "pool_name": "LAUNCHCOIN-SOL",
+              "volume_24h": 1610138.7879474943,
+              "tvl": 764909.1854883892,
+              "vlr": 2.105006474617548,
+              "fee_24h": 13129.265789050503,
+              "trending_score": 2.105006474617548,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 9.610120555138902,
+          "platform_count": 3
+        },
+        {
+          "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "symbol": "JUP",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "symbol": "JUP",
+              "name": "Jupiter",
+              "volume_24h_usd": 7071645.469285132,
+              "market_cap": 1216843837.7479234,
+              "holder_count": 932729,
+              "trade_24h_count": 58629,
+              "price": 0.37252044463347533,
+              "price_change_24h_percent": -3.7127215987664393,
+              "liquidity": 9394034.307419825,
+              "fdv": 2607350901.9957647,
+              "last_trade_unix_time": 1750522242,
+              "volume_to_mcap_ratio": 0.01,
+              "emerging_star_score": 40.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 584816.415912566,
+              "volume_2h_usd": 891865.9447720414,
+              "volume_4h_usd": 1601144.0409024875,
+              "volume_8h_usd": 2191420.0757288947,
+              "price_change_1h_percent": -0.19460560983574032,
+              "price_change_2h_percent": -0.8369095284590332,
+              "price_change_4h_percent": -4.322926449991397,
+              "price_change_8h_percent": -3.7358571141862242,
+              "trade_1h_count": 4468,
+              "trade_2h_count": 8134,
+              "trade_4h_count": 14842,
+              "trade_8h_count": 21688
+            },
+            "Meteora Volume Trending": {
+              "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "pool_id": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+              "pool_name": "JUP-SOL",
+              "volume_24h": 1219165.4208314924,
+              "tvl": 3249581.7178295185,
+              "vlr": 0.37517610778712934,
+              "fee_24h": 1784.2709218812322,
+              "trending_score": 0.37517610778712934,
+              "discovery_source": "meteora_volume_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 4,
+                "activity_score": 10,
+                "route_complexity": 1,
+                "price_impact": 0.0007468,
+                "trending_score": 6.4,
+                "validation_errors": []
+              },
+              "liquidity_score": 4,
+              "activity_score": 10,
+              "route_complexity": 1,
+              "price_impact": 0.0007468,
+              "trending_score": 6.4,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 6.7751761077871295,
+          "platform_count": 3
+        },
+        {
+          "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+          "symbol": "POPCAT",
+          "platforms": [
+            "Birdeye Trending",
+            "Birdeye Emerging Stars",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+              "symbol": "POPCAT",
+              "name": "POPCAT",
+              "price": 0.2634471952287266,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 13662127.013997,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Birdeye Emerging Stars": {
+              "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+              "symbol": "POPCAT",
+              "name": "POPCAT",
+              "volume_24h_usd": 15950702.04496558,
+              "market_cap": 258162333.99462223,
+              "holder_count": 144396,
+              "trade_24h_count": 94277,
+              "price": 0.2634471952287266,
+              "price_change_24h_percent": -5.133009207883305,
+              "liquidity": 13521403.098319234,
+              "fdv": 258162333.99462223,
+              "last_trade_unix_time": 1750522244,
+              "volume_to_mcap_ratio": 0.06,
+              "emerging_star_score": 45.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1092611.4165407862,
+              "volume_2h_usd": 1838432.5650407462,
+              "volume_4h_usd": 3298796.313861265,
+              "volume_8h_usd": 4413206.799599155,
+              "price_change_1h_percent": -1.438977947748273,
+              "price_change_2h_percent": -1.8344055785573299,
+              "price_change_4h_percent": -6.075243344381341,
+              "price_change_8h_percent": -7.0829096433569845,
+              "trade_1h_count": 5673,
+              "trade_2h_count": 10407,
+              "trade_4h_count": 19360,
+              "trade_8h_count": 28104
+            },
+            "Jupiter Quote Analysis": {
+              "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 4,
+                "activity_score": 10,
+                "route_complexity": 1,
+                "price_impact": 0.000202899613399,
+                "trending_score": 6.4,
+                "validation_errors": []
+              },
+              "liquidity_score": 4,
+              "activity_score": 10,
+              "route_complexity": 1,
+              "price_impact": 0.000202899613399,
+              "trending_score": 6.4,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 6.4,
+          "platform_count": 3
+        },
+        {
+          "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "symbol": "WBTC",
+          "platforms": [
+            "Birdeye Trending",
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+              "symbol": "WBTC",
+              "name": "Wrapped BTC (Wormhole)",
+              "price": 103551.04285978434,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 20629979.102159,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Birdeye Emerging Stars": {
+              "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+              "symbol": "WBTC",
+              "name": "Wrapped BTC (Wormhole)",
+              "volume_24h_usd": 24776906.785500266,
+              "market_cap": 355281505.434454,
+              "holder_count": 54966,
+              "trade_24h_count": 100309,
+              "price": 103543.65712891684,
+              "price_change_24h_percent": -0.45145263544823283,
+              "liquidity": 19263593.468453232,
+              "fdv": 355281505.434454,
+              "last_trade_unix_time": 1750522245,
+              "volume_to_mcap_ratio": 0.07,
+              "emerging_star_score": 50.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1170806.8153556297,
+              "volume_2h_usd": 2314038.838843561,
+              "volume_4h_usd": 4265673.057978173,
+              "volume_8h_usd": 7115320.333482141,
+              "price_change_1h_percent": 0.011979001351089523,
+              "price_change_2h_percent": 0.03837625071606987,
+              "price_change_4h_percent": -0.3671093084489631,
+              "price_change_8h_percent": 0.03349749581983696,
+              "trade_1h_count": 4388,
+              "trade_2h_count": 8512,
+              "trade_4h_count": 16075,
+              "trade_8h_count": 29907
+            },
+            "Meteora Volume Trending": {
+              "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+              "pool_id": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
+              "pool_name": "WBTC-SOL",
+              "volume_24h": 5456656.240035398,
+              "tvl": 1529316.9983190014,
+              "vlr": 3.568034780253708,
+              "fee_24h": 1786.2659479220126,
+              "trending_score": 3.568034780253708,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 3.568034780253708,
+          "platform_count": 3
+        },
+        {
+          "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "symbol": "MASK",
+          "platforms": [
+            "Birdeye Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+              "symbol": "MASK",
+              "name": "catwifmask",
+              "price": 0.009110576246973735,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 1079083.906298,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Meteora Volume Trending": {
+              "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+              "pool_id": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+              "pool_name": "MASK-SOL",
+              "volume_24h": 1141454.1003537974,
+              "tvl": 107167.44740565991,
+              "vlr": 10.651127072506096,
+              "fee_24h": 2606.9323748464844,
+              "trending_score": 10,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 10,
+          "platform_count": 2
+        },
+        {
+          "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          "symbol": "Bonk",
+          "platforms": [
+            "Birdeye Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+              "symbol": "Bonk",
+              "name": "Bonk",
+              "price": 1.3247794312399785e-05,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 8902619.9354462,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 6,
+                "activity_score": 10,
+                "route_complexity": 2,
+                "price_impact": 0.000640064364848,
+                "trending_score": 7.6,
+                "validation_errors": []
+              },
+              "liquidity_score": 6,
+              "activity_score": 10,
+              "route_complexity": 2,
+              "price_impact": 0.000640064364848,
+              "trending_score": 7.6,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 7.6,
+          "platform_count": 2
+        },
+        {
+          "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "symbol": "JitoSOL",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+              "symbol": "JitoSOL",
+              "name": "Jito Staked SOL",
+              "volume_24h_usd": 35133330.5192082,
+              "market_cap": 2520592906.1885047,
+              "holder_count": 181831,
+              "trade_24h_count": 87607,
+              "price": 169.8855194077053,
+              "price_change_24h_percent": -1.7905473782239496,
+              "liquidity": 92159691.02295333,
+              "fdv": 2520592906.1885047,
+              "last_trade_unix_time": 1750522245,
+              "volume_to_mcap_ratio": 0.01,
+              "emerging_star_score": 50.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1010181.3969858582,
+              "volume_2h_usd": 1661692.8998969556,
+              "volume_4h_usd": 3237098.0179971936,
+              "volume_8h_usd": 16956153.07245794,
+              "price_change_1h_percent": -0.09525325792294007,
+              "price_change_2h_percent": -0.30804437909001253,
+              "price_change_4h_percent": -1.4716428149870262,
+              "price_change_8h_percent": -0.3669198482073327,
+              "trade_1h_count": 4577,
+              "trade_2h_count": 8599,
+              "trade_4h_count": 14726,
+              "trade_8h_count": 26862
+            },
+            "Jupiter Quote Analysis": {
+              "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 6,
+                "activity_score": 10,
+                "route_complexity": 2,
+                "price_impact": 0.000142738804,
+                "trending_score": 7.6,
+                "validation_errors": []
+              },
+              "liquidity_score": 6,
+              "activity_score": 10,
+              "route_complexity": 2,
+              "price_impact": 0.000142738804,
+              "trending_score": 7.6,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 7.6,
+          "platform_count": 2
+        },
+        {
+          "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+          "symbol": "JupSOL",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+              "symbol": "JupSOL",
+              "name": "Jupiter Staked SOL",
+              "volume_24h_usd": 7730452.579675557,
+              "market_cap": 712676157.2073127,
+              "holder_count": 28974,
+              "trade_24h_count": 21312,
+              "price": 156.83985828109374,
+              "price_change_24h_percent": -1.7905473782239496,
+              "liquidity": 5459145.118777931,
+              "fdv": 712676157.2073127,
+              "last_trade_unix_time": 1750522241,
+              "volume_to_mcap_ratio": 0.01,
+              "emerging_star_score": 40.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 67186.53502192657,
+              "volume_2h_usd": 178320.37907633232,
+              "volume_4h_usd": 234065.7441635221,
+              "volume_8h_usd": 5089707.45114492,
+              "price_change_1h_percent": -0.09525325792294007,
+              "price_change_2h_percent": -0.30804437909001253,
+              "price_change_4h_percent": -1.4716428149870262,
+              "price_change_8h_percent": -0.3669198482073327,
+              "trade_1h_count": 882,
+              "trade_2h_count": 1829,
+              "trade_4h_count": 2733,
+              "trade_8h_count": 7033
+            },
+            "Jupiter Quote Analysis": {
+              "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 6,
+                "activity_score": 10,
+                "route_complexity": 2,
+                "price_impact": 0.0001041683542924,
+                "trending_score": 7.6,
+                "validation_errors": []
+              },
+              "liquidity_score": 6,
+              "activity_score": 10,
+              "route_complexity": 2,
+              "price_impact": 0.0001041683542924,
+              "trending_score": 7.6,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 7.6,
+          "platform_count": 2
+        },
+        {
+          "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+          "symbol": "$WIF",
+          "platforms": [
+            "Birdeye Trending",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+              "symbol": "$WIF",
+              "name": "dogwifhat",
+              "price": 0.7211148914280308,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 14224754.115893,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Jupiter Quote Analysis": {
+              "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 4,
+                "activity_score": 10,
+                "route_complexity": 1,
+                "price_impact": 0.000626269016845,
+                "trending_score": 6.4,
+                "validation_errors": []
+              },
+              "liquidity_score": 4,
+              "activity_score": 10,
+              "route_complexity": 1,
+              "price_impact": 0.000626269016845,
+              "trending_score": 6.4,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 6.4,
+          "platform_count": 2
+        },
+        {
+          "address": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "So11111111111111111111111111111111111111112",
+              "symbol": "SOL",
+              "name": "Wrapped SOL",
+              "volume_24h_usd": 9338427285.4347,
+              "market_cap": 74550520156.48074,
+              "holder_count": 2243114,
+              "trade_24h_count": 38482485,
+              "price": 140.37343534793146,
+              "price_change_24h_percent": -1.651552684440334,
+              "liquidity": 39611122185.70018,
+              "fdv": 84726656957.02298,
+              "last_trade_unix_time": 1750522245,
+              "volume_to_mcap_ratio": 0.13,
+              "emerging_star_score": 55.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 439678245.1884439,
+              "volume_2h_usd": 838372013.7705425,
+              "volume_4h_usd": 1704767060.8890214,
+              "volume_8h_usd": 3046923825.3774495,
+              "price_change_1h_percent": 0.027604899646413893,
+              "price_change_2h_percent": -0.23977167443330333,
+              "price_change_4h_percent": -1.3475052818947109,
+              "price_change_8h_percent": -0.2462753050854457,
+              "trade_1h_count": 1885092,
+              "trade_2h_count": 3749411,
+              "trade_4h_count": 7331096,
+              "trade_8h_count": 13199044
+            },
+            "Jupiter Quote Analysis": {
+              "address": "So11111111111111111111111111111111111111112",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 4,
+                "activity_score": 10,
+                "route_complexity": 1,
+                "price_impact": 0.0,
+                "trending_score": 6.4,
+                "validation_errors": []
+              },
+              "liquidity_score": 4,
+              "activity_score": 10,
+              "route_complexity": 1,
+              "price_impact": 0.0,
+              "trending_score": 6.4,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 6.4,
+          "platform_count": 2
+        },
+        {
+          "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "symbol": "USDT",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Jupiter Quote Analysis"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+              "symbol": "USDT",
+              "name": "USDT",
+              "volume_24h_usd": 141002066.32056835,
+              "market_cap": 2390464308.792504,
+              "holder_count": 2122220,
+              "trade_24h_count": 596745,
+              "price": 1.00022423,
+              "price_change_24h_percent": 0.013639116192754727,
+              "liquidity": 105851055.12005724,
+              "fdv": 2390464308.792504,
+              "last_trade_unix_time": 1750522245,
+              "volume_to_mcap_ratio": 0.06,
+              "emerging_star_score": 55.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 5612053.105128722,
+              "volume_2h_usd": 11276224.311210059,
+              "volume_4h_usd": 23296717.15373239,
+              "volume_8h_usd": 39176407.77754519,
+              "price_change_1h_percent": -0.006523111689629754,
+              "price_change_2h_percent": 0.007728864397937594,
+              "price_change_4h_percent": 0.005160109261926077,
+              "price_change_8h_percent": 0.011771684748851733,
+              "trade_1h_count": 29500,
+              "trade_2h_count": 61365,
+              "trade_4h_count": 114143,
+              "trade_8h_count": 194676
+            },
+            "Jupiter Quote Analysis": {
+              "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+              "quote_analysis": {
+                "is_tradeable": true,
+                "liquidity_score": 4,
+                "activity_score": 10,
+                "route_complexity": 1,
+                "price_impact": 0.0,
+                "trending_score": 6.4,
+                "validation_errors": []
+              },
+              "liquidity_score": 4,
+              "activity_score": 10,
+              "route_complexity": 1,
+              "price_impact": 0.0,
+              "trending_score": 6.4,
+              "discovery_source": "jupiter_quote_analysis"
+            }
+          },
+          "total_score": 6.4,
+          "platform_count": 2
+        },
+        {
+          "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+          "symbol": "OSCAR",
+          "platforms": [
+            "Birdeye Trending",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Trending": {
+              "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+              "symbol": "OSCAR",
+              "name": "Gorbagana Daemon",
+              "price": 0.002619091876914215,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 558121.07528928,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            },
+            "Meteora Volume Trending": {
+              "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+              "pool_id": "6YAU2qApjPzZj4m3uFccuMybTfy4QYqYBEUNhgpnQRCt",
+              "pool_name": "OSCAR-SOL",
+              "volume_24h": 1482664.593075174,
+              "tvl": 306499.72864266223,
+              "vlr": 4.837409154132605,
+              "fee_24h": 41513.2081374262,
+              "trending_score": 4.837409154132605,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 4.837409154132605,
+          "platform_count": 2
+        },
+        {
+          "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "symbol": "cbBTC",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+              "symbol": "cbBTC",
+              "name": "Coinbase Wrapped BTC",
+              "volume_24h_usd": 21467005.954833277,
+              "market_cap": 327381703.84072834,
+              "holder_count": 31953,
+              "trade_24h_count": 85147,
+              "price": 103591.05923202864,
+              "price_change_24h_percent": -0.5795272401606194,
+              "liquidity": 28990615.437355913,
+              "fdv": 327381703.84072834,
+              "last_trade_unix_time": 1750522244,
+              "volume_to_mcap_ratio": 0.07,
+              "emerging_star_score": 50.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 1069857.0470783315,
+              "volume_2h_usd": 2015423.0285582575,
+              "volume_4h_usd": 3306021.77842551,
+              "volume_8h_usd": 5136028.653802438,
+              "price_change_1h_percent": -0.0038746232933986936,
+              "price_change_2h_percent": 0.04433809844761743,
+              "price_change_4h_percent": -0.3623912918917807,
+              "price_change_8h_percent": 0.03562168999225755,
+              "trade_1h_count": 4072,
+              "trade_2h_count": 7523,
+              "trade_4h_count": 14500,
+              "trade_8h_count": 27825
+            },
+            "Meteora Volume Trending": {
+              "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+              "pool_id": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+              "pool_name": "cbBTC-USDC",
+              "volume_24h": 1833649.1594903888,
+              "tvl": 742348.4111900042,
+              "vlr": 2.4700654461575535,
+              "fee_24h": 715.9796079744339,
+              "trending_score": 2.4700654461575535,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 2.4700654461575535,
+          "platform_count": 2
+        },
+        {
+          "address": "3h9qxTziiuyH8vc3RVnZHUiihUVq2y8engyPGuPxpump",
+          "symbol": "UNKNOWN",
+          "platforms": [
+            "RugCheck Trending",
+            "Birdeye Trending"
+          ],
+          "platform_data": {
+            "RugCheck Trending": {
+              "address": "3h9qxTziiuyH8vc3RVnZHUiihUVq2y8engyPGuPxpump",
+              "symbol": "UNKNOWN",
+              "name": "Trending Token",
+              "vote_count": 1,
+              "up_count": 1,
+              "score": 1,
+              "risk_level": "unknown",
+              "source": "rugcheck_trending"
+            },
+            "Birdeye Trending": {
+              "address": "3h9qxTziiuyH8vc3RVnZHUiihUVq2y8engyPGuPxpump",
+              "symbol": "1MIL",
+              "name": "Saying Pumpfun 1MIL Times Live",
+              "price": 0.0010558252197228194,
+              "volume_24h_usd": 0,
+              "market_cap": 0,
+              "liquidity": 139529.01522825,
+              "price_change_24h_percent": 0,
+              "holder_count": 0,
+              "trade_24h_count": 0,
+              "last_trade_unix_time": 0,
+              "discovery_source": "birdeye_trending"
+            }
+          },
+          "total_score": 1,
+          "platform_count": 2
+        },
+        {
+          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "symbol": "TRUMP",
+          "platforms": [
+            "Birdeye Emerging Stars",
+            "Meteora Volume Trending"
+          ],
+          "platform_data": {
+            "Birdeye Emerging Stars": {
+              "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+              "symbol": "TRUMP",
+              "name": "OFFICIAL TRUMP",
+              "volume_24h_usd": 79709740.19787027,
+              "market_cap": 1805689959.9509957,
+              "holder_count": 643296,
+              "trade_24h_count": 30161,
+              "price": 9.028479168285358,
+              "price_change_24h_percent": -3.4332852573798047,
+              "liquidity": 355283066.07799214,
+              "fdv": 9028473514.549212,
+              "last_trade_unix_time": 1750522245,
+              "volume_to_mcap_ratio": 0.04,
+              "emerging_star_score": 55.0,
+              "momentum_tier": "MINIMAL_MOMENTUM",
+              "discovery_source": "birdeye_emerging_stars",
+              "volume_1h_usd": 7582159.471922183,
+              "volume_2h_usd": 12492342.912679562,
+              "volume_4h_usd": 16211406.933175018,
+              "volume_8h_usd": 24471601.84520817,
+              "price_change_1h_percent": -0.8012872389419459,
+              "price_change_2h_percent": -0.9886536644087337,
+              "price_change_4h_percent": -2.472751109451757,
+              "price_change_8h_percent": -2.951680152836603,
+              "trade_1h_count": 3889,
+              "trade_2h_count": 5323,
+              "trade_4h_count": 7121,
+              "trade_8h_count": 10385
+            },
+            "Meteora Volume Trending": {
+              "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+              "pool_id": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+              "pool_name": "TRUMP-USDC",
+              "volume_24h": 59308271.8443984,
+              "tvl": 350423750.1821209,
+              "vlr": 0.16924729506369054,
+              "fee_24h": 57204.58482792718,
+              "trending_score": 0.16924729506369054,
+              "discovery_source": "meteora_volume_trending"
+            }
+          },
+          "total_score": 0.16924729506369054,
+          "platform_count": 2
+        }
+      ],
+      "highest_platform_count": 13,
+      "cross_platform_percentage": 27.710843373493976
+    },
+    "detailed_token_table": [
+      {
+        "rank": 1,
+        "symbol": "USDC",
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "platform_count": 13,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 54.85,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 2,
+        "symbol": "GOR",
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "platform_count": 6,
+        "platforms": "Birdeye Trending, Birdeye Emerging Stars, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 30.95,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 3,
+        "symbol": "JLP",
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "platform_count": 4,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending, Meteora Volume Trending, Jupiter Quote Analysis",
+        "total_score": 27.6,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 4,
+        "symbol": "USELESS",
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "platform_count": 4,
+        "platforms": "Birdeye Trending, Birdeye Emerging Stars, Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 11.99,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 5,
+        "symbol": "Fartcoin ",
+        "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+        "platform_count": 3,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 9.67,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 6,
+        "symbol": "LAUNCHCOIN",
+        "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+        "platform_count": 3,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending, Meteora Volume Trending",
+        "total_score": 9.61,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 7,
+        "symbol": "JUP",
+        "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "platform_count": 3,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending, Jupiter Quote Analysis",
+        "total_score": 6.78,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 8,
+        "symbol": "POPCAT",
+        "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+        "platform_count": 3,
+        "platforms": "Birdeye Trending, Birdeye Emerging Stars, Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 9,
+        "symbol": "WBTC",
+        "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+        "platform_count": 3,
+        "platforms": "Birdeye Trending, Birdeye Emerging Stars, Meteora Volume Trending",
+        "total_score": 3.57,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 10,
+        "symbol": "MASK",
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "platform_count": 2,
+        "platforms": "Birdeye Trending, Meteora Volume Trending",
+        "total_score": 10,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 11,
+        "symbol": "Bonk",
+        "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "platform_count": 2,
+        "platforms": "Birdeye Trending, Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 12,
+        "symbol": "JitoSOL",
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 13,
+        "symbol": "JupSOL",
+        "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 14,
+        "symbol": "$WIF",
+        "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "platform_count": 2,
+        "platforms": "Birdeye Trending, Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 15,
+        "symbol": "SOL",
+        "address": "So11111111111111111111111111111111111111112",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 16,
+        "symbol": "USDT",
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Jupiter Quote Analysis",
+        "total_score": 6.4,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 17,
+        "symbol": "OSCAR",
+        "address": "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+        "platform_count": 2,
+        "platforms": "Birdeye Trending, Meteora Volume Trending",
+        "total_score": 4.84,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 18,
+        "symbol": "cbBTC",
+        "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending",
+        "total_score": 2.47,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 19,
+        "symbol": "UNKNOWN",
+        "address": "3h9qxTziiuyH8vc3RVnZHUiihUVq2y8engyPGuPxpump",
+        "platform_count": 2,
+        "platforms": "RugCheck Trending, Birdeye Trending",
+        "total_score": 1,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 20,
+        "symbol": "TRUMP",
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending",
+        "total_score": 0.17,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 21,
+        "symbol": "mSOL",
+        "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+        "platform_count": 2,
+        "platforms": "Birdeye Emerging Stars, Meteora Volume Trending",
+        "total_score": 0.17,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 22,
+        "symbol": "aura",
+        "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+        "platform_count": 2,
+        "platforms": "Birdeye Trending, Birdeye Emerging Stars",
+        "total_score": 0,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 23,
+        "symbol": "WETH",
+        "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+        "platform_count": 2,
+        "platforms": "Birdeye Trending, Birdeye Emerging Stars",
+        "total_score": 0,
+        "status": "\ud83c\udfc6 Multi-Platform"
+      },
+      {
+        "rank": 24,
+        "symbol": "Unknown",
+        "address": "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 10,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 25,
+        "symbol": "Unknown",
+        "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 8.8,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 26,
+        "symbol": "Unknown",
+        "address": "Etd4QU7PGuzh4ozkzzBBjMmySNkU21BZamB7qPR1xBLV",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 7.65,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 27,
+        "symbol": "Unknown",
+        "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 28,
+        "symbol": "Unknown",
+        "address": "GiG7Hr61RVm4CSUxJmgiCoySFQtdiwxtqf64MsRppump",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 29,
+        "symbol": "Unknown",
+        "address": "GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 30,
+        "symbol": "Unknown",
+        "address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump",
+        "platform_count": 1,
+        "platforms": "Jupiter Quote Analysis",
+        "total_score": 7.6,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 31,
+        "symbol": "Unknown",
+        "address": "8bmDcRBjBfcoAtU9xFg8gSdUzvjK85cBmdgbMN9kuBLV",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 7.21,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 32,
+        "symbol": "Unknown",
+        "address": "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 6.99,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 33,
+        "symbol": "UNKNOWN",
+        "address": "5tpkrCVVh6tjjve4TuyP8MXBwURufgAnaboaLwo49uau",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 2,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 34,
+        "symbol": "UNKNOWN",
+        "address": "FfutyQkkA1xbv3f9sxiw3HneXHPecBVHoihbAemKpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 35,
+        "symbol": "UNKNOWN",
+        "address": "28xFxEXbgRrSiBwi1Bkwm8qkuQvjZ6uR4FNxcyj3pump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 36,
+        "symbol": "UNKNOWN",
+        "address": "2aSmQHnEdV22zYsoYZbjo36iY32geLYGn7LPAoMfpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 37,
+        "symbol": "UNKNOWN",
+        "address": "2rCDeEU3ZMzfw8Pd7ZmRZWV4kjkp1h59sNNBBbpwpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 38,
+        "symbol": "UNKNOWN",
+        "address": "3LuFLwgefb6DnBBKJj3wQrtENgj21YzSF2LJMLtVpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 39,
+        "symbol": "UNKNOWN",
+        "address": "3Y7uP2UhEE68dpyAmWfXc7biSQmQqQonCiyDp6KYpump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 40,
+        "symbol": "UNKNOWN",
+        "address": "3Zx7iadiVjE1Erzuwd8f2o8bYAChoAzFtmZrnjSspump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 41,
+        "symbol": "UNKNOWN",
+        "address": "3fp2XrffoXFEntFzUmsCQKu8ozzwMrL9BrauG3Aspump",
+        "platform_count": 1,
+        "platforms": "RugCheck Trending",
+        "total_score": 1,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 42,
+        "symbol": "Unknown",
+        "address": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+        "platform_count": 1,
+        "platforms": "Meteora Volume Trending",
+        "total_score": 0.24,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 43,
+        "symbol": "Unknown",
+        "address": "GjqLHu2WEHfnJhBTegvAh9pTwHMk7Ygx2MA9fddPpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 44,
+        "symbol": "Unknown",
+        "address": "GwEC9zdFyfe8LjLAtVspgH2PMT4f7zeYzP6xDLcqpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 45,
+        "symbol": "Unknown",
+        "address": "RZFiQuc5Hy5HdGa35THxqH4xnLpoTZYnEDtYY7zpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 46,
+        "symbol": "Unknown",
+        "address": "4ejoZrKhopsdSUYQyBUGUB6RtGzSCs9wf3EtzHaspump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 47,
+        "symbol": "Unknown",
+        "address": "9pViKxceHPL8A4VcacNNtszSDEUwjmau1Uz96Gtspump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 48,
+        "symbol": "Unknown",
+        "address": "yCrUxZKHoQLe5LAzmHKrHGmKLQM35MX7MgpyjY3Poor",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 49,
+        "symbol": "Unknown",
+        "address": "F2anRzg9UxnygozoKxcULMSLt4skMMYA3yue2sfcpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      },
+      {
+        "rank": 50,
+        "symbol": "Unknown",
+        "address": "7rhAVVAXPqpyt8hjX7rJPMseNKRvpP4L7Q1hf7mHpump",
+        "platform_count": 1,
+        "platforms": "DexScreener Profiles",
+        "total_score": 0,
+        "status": "\u26aa Single-Platform"
+      }
+    ]
+  },
+  "api_performance": {
+    "dexscreener": {
+      "calls": 12,
+      "successes": 12,
+      "failures": 0,
+      "total_time_ms": 10135.69164276123,
+      "estimated_cost": 0.0
+    },
+    "rugcheck": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 706,
+      "estimated_cost": 0.0001
+    },
+    "birdeye": {
+      "calls": 3,
+      "successes": 3,
+      "failures": 0,
+      "total_time_ms": 2829,
+      "estimated_cost": 0.0
+    },
+    "jupiter": {
+      "calls": 15,
+      "successes": 15,
+      "failures": 0,
+      "total_time_ms": 6476.18293762207,
+      "estimated_cost": 0.0
+    },
+    "meteora": {
+      "calls": 1,
+      "successes": 1,
+      "failures": 0,
+      "total_time_ms": 595.3190326690674,
+      "estimated_cost": 0.0
+    }
+  },
+  "integration_analysis": {
+    "jupiter_api_status": "WORKING",
+    "meteora_api_status": "WORKING",
+    "cross_platform_correlation": "ENABLED",
+    "trending_detection_feasibility": "HIGH"
+  },
+  "sample_integrated_tokens": [
+    {
+      "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "sources": [
+        "meteora",
+        "jupiter"
+      ],
+      "meteora_data": {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "pool_id": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+        "pool_name": "JLP-USDC",
+        "volume_24h": 2874436.0185179044,
+        "tvl": 282177.619188156,
+        "vlr": 10.186619430654531,
+        "fee_24h": 973.0374024784394,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 17.6,
+      "jupiter_data": {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 6,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.0001091326078072,
+          "trending_score": 7.6,
+          "validation_errors": []
+        },
+        "liquidity_score": 6,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.0001091326078072,
+        "trending_score": 7.6,
+        "discovery_source": "jupiter_quote_analysis"
+      }
+    },
+    {
+      "address": "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+        "pool_id": "394eDzqVnrbYJS8JUVsp11rHJLUkr2AAafGfsHXxPh38",
+        "pool_name": "OSCAR-SOL",
+        "volume_24h": 77296594.69648074,
+        "tvl": 1.369857843840541,
+        "vlr": 56426727.082696095,
+        "fee_24h": 4142788.280498876,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "pool_id": "2fCWHEyzgnULbhrMoKTDwc2n6jy6zhxC9frEJFuHJVGW",
+        "pool_name": "GOR-SOL",
+        "volume_24h": 17076252.638615813,
+        "tvl": 518560.9639809449,
+        "vlr": 32.93007731920851,
+        "fee_24h": 51866.14096930612,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "pool_id": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+        "pool_name": "USELESS-SOL",
+        "volume_24h": 5239319.399659125,
+        "tvl": 446477.1412347467,
+        "vlr": 11.734798751778468,
+        "fee_24h": 13603.311089134482,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "pool_id": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+        "pool_name": "MASK-SOL",
+        "volume_24h": 1141454.1003537974,
+        "tvl": 107167.44740565991,
+        "vlr": 10.651127072506096,
+        "fee_24h": 2606.9323748464844,
+        "trending_score": 10,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 10
+    },
+    {
+      "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 8,
+          "activity_score": 10,
+          "route_complexity": 3,
+          "price_impact": 0.0,
+          "trending_score": 8.8,
+          "validation_errors": []
+        },
+        "liquidity_score": 8,
+        "activity_score": 10,
+        "route_complexity": 3,
+        "price_impact": 0.0,
+        "trending_score": 8.8,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 8.8
+    },
+    {
+      "address": "Etd4QU7PGuzh4ozkzzBBjMmySNkU21BZamB7qPR1xBLV",
+      "sources": [
+        "meteora"
+      ],
+      "meteora_data": {
+        "address": "Etd4QU7PGuzh4ozkzzBBjMmySNkU21BZamB7qPR1xBLV",
+        "pool_id": "HSk5DDQFgJpUpQfrrnUwZi5H21qv3q1YvwxiKqmueidS",
+        "pool_name": "YOURSELF-SOL",
+        "volume_24h": 1468356.2206079082,
+        "tvl": 191872.55779490535,
+        "vlr": 7.652768261824341,
+        "fee_24h": 0.0,
+        "trending_score": 7.652768261824341,
+        "discovery_source": "meteora_volume_trending"
+      },
+      "combined_score": 7.652768261824341
+    },
+    {
+      "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 6,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.0,
+          "trending_score": 7.6,
+          "validation_errors": []
+        },
+        "liquidity_score": 6,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.0,
+        "trending_score": 7.6,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 7.6
+    },
+    {
+      "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 6,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.000142738804,
+          "trending_score": 7.6,
+          "validation_errors": []
+        },
+        "liquidity_score": 6,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.000142738804,
+        "trending_score": 7.6,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 7.6
+    },
+    {
+      "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "sources": [
+        "jupiter"
+      ],
+      "jupiter_data": {
+        "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "quote_analysis": {
+          "is_tradeable": true,
+          "liquidity_score": 6,
+          "activity_score": 10,
+          "route_complexity": 2,
+          "price_impact": 0.000640064364848,
+          "trending_score": 7.6,
+          "validation_errors": []
+        },
+        "liquidity_score": 6,
+        "activity_score": 10,
+        "route_complexity": 2,
+        "price_impact": 0.000640064364848,
+        "trending_score": 7.6,
+        "discovery_source": "jupiter_quote_analysis"
+      },
+      "combined_score": 7.6
+    }
+  ],
+  "recommendations": [
+    "\u2705 Jupiter Token List API working - use for comprehensive token discovery",
+    "\u2705 Jupiter Quote API working - use for real-time liquidity analysis",
+    "\u2705 Meteora Pool API working - use for volume/TVL trending detection",
+    "\ud83c\udfaf High integration success - ready for production deployment",
+    "\u2705 Test results highly accurate - ready for production"
+  ],
+  "accuracy_validation": {
+    "overall_accuracy": 100.0,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "data_consistency_checks": {
+      "api_success_rate": 100.0,
+      "token_count_realistic": true,
+      "score_validation_rate": 100.0
+    },
+    "score_validation": {},
+    "api_validation": {}
+  }
+}

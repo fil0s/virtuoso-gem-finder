@@ -1,0 +1,197 @@
+{
+  "test_timestamp": "2025-06-24T11:49:02.951777",
+  "test_duration_seconds": 17.69,
+  "token_addresses": {
+    "user_provided": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+    "docs_example": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4BHqd9iL6bEFELvg",
+    "known_working": "So11111111111111111111111111111111111111112"
+  },
+  "address_comparison_results": {
+    "user_provided": {
+      "token_name": "user_provided",
+      "token_address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "status_code": 200,
+      "success": true,
+      "response_data": {
+        "data": {
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+            "id": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+            "type": "derivedPrice",
+            "price": "0.023908"
+          }
+        },
+        "timeTaken": 0.000849539
+      },
+      "error": null,
+      "price_found": true,
+      "price_value": "0.023908"
+    },
+    "docs_example": {
+      "token_name": "docs_example",
+      "token_address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4BHqd9iL6bEFELvg",
+      "status_code": 200,
+      "success": true,
+      "response_data": {
+        "data": {
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4BHqd9iL6bEFELvg": null
+        },
+        "timeTaken": 0.007163173
+      },
+      "error": null,
+      "price_found": false,
+      "price_value": null
+    },
+    "known_working": {
+      "token_name": "known_working",
+      "token_address": "So11111111111111111111111111111111111111112",
+      "status_code": 200,
+      "success": true,
+      "response_data": {
+        "data": {
+          "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "type": "derivedPrice",
+            "price": "144.293998000"
+          }
+        },
+        "timeTaken": 0.004694989
+      },
+      "error": null,
+      "price_found": true,
+      "price_value": "144.293998000"
+    }
+  },
+  "parameter_test_results": {
+    "Basic query": {
+      "scenario": "Basic query",
+      "params": {
+        "ids": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg"
+      },
+      "status_code": 200,
+      "success": true,
+      "has_price": true,
+      "response_data": {
+        "data": {
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+            "id": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+            "type": "derivedPrice",
+            "price": "0.023884"
+          }
+        },
+        "timeTaken": 0.000830264
+      }
+    },
+    "With showExtraInfo": {
+      "scenario": "With showExtraInfo",
+      "params": {
+        "ids": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "showExtraInfo": "true"
+      },
+      "status_code": 200,
+      "success": true,
+      "has_price": true,
+      "response_data": {
+        "data": {
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+            "id": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+            "type": "derivedPrice",
+            "price": "0.023884",
+            "extraInfo": {
+              "lastSwappedPrice": {
+                "lastJupiterSellAt": 1750780121,
+                "lastJupiterSellPrice": "0.02377305312992958",
+                "lastJupiterBuyAt": 1750780127,
+                "lastJupiterBuyPrice": "0.023824247104466907"
+              },
+              "quotedPrice": {
+                "buyPrice": "0.023955",
+                "buyAt": 1750780126,
+                "sellPrice": "0.023813",
+                "sellAt": 1750780127
+              },
+              "confidenceLevel": "high",
+              "depth": {
+                "buyPriceImpactRatio": {
+                  "depth": {
+                    "10": 0.12488441660966174,
+                    "100": 1.24196773160073,
+                    "1000": 11.3327355496824
+                  },
+                  "timestamp": 1750780061
+                },
+                "sellPriceImpactRatio": {
+                  "depth": {
+                    "10": 1.916891467115905,
+                    "100": null,
+                    "1000": null
+                  },
+                  "timestamp": 1750780062
+                }
+              }
+            }
+          }
+        },
+        "timeTaken": 0.004861266
+      }
+    },
+    "With vsToken (USDC)": {
+      "scenario": "With vsToken (USDC)",
+      "params": {
+        "ids": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "vsToken": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "status_code": 200,
+      "success": true,
+      "has_price": true,
+      "response_data": {
+        "data": {
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+            "id": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "type": "derivedPrice",
+            "price": "1"
+          },
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+            "id": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+            "type": "derivedPrice",
+            "price": "0.02388354621262196"
+          }
+        },
+        "timeTaken": 0.001333951
+      }
+    },
+    "With vsToken (SOL)": {
+      "scenario": "With vsToken (SOL)",
+      "params": {
+        "ids": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "vsToken": "So11111111111111111111111111111111111111112"
+      },
+      "status_code": 200,
+      "success": true,
+      "has_price": true,
+      "response_data": {
+        "data": {
+          "So11111111111111111111111111111111111111112": {
+            "id": "So11111111111111111111111111111111111111112",
+            "type": "derivedPrice",
+            "price": "1"
+          },
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+            "id": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+            "type": "derivedPrice",
+            "price": "0.00016552317027074127"
+          }
+        },
+        "timeTaken": 0.001011382
+      }
+    }
+  },
+  "summary": {
+    "user_token_success": true,
+    "user_token_has_price": true,
+    "docs_token_success": true,
+    "docs_token_has_price": false,
+    "addresses_identical": false,
+    "parameter_tests_with_price": 4,
+    "total_parameter_tests": 4
+  }
+}

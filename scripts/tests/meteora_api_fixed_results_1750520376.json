@@ -1,0 +1,1217 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-21T11:39:36.165954",
+    "duration_seconds": 6.13,
+    "api_base_url": "https://universal-search-api.meteora.ag",
+    "status": "FIXED - Working with correct parameters"
+  },
+  "volume_trending_test": {
+    "status": "success",
+    "total_found": 171102,
+    "pools_returned": 30,
+    "response_time_ms": 549.0,
+    "pools": [
+      {
+        "bin_step": 250,
+        "fee_24h": 4410345.161733843,
+        "fee_pct": 5.0,
+        "id": "394eDzqVnrbYJS8JUVsp11rHJLUkr2AAafGfsHXxPh38",
+        "pool_mint": "394eDzqVnrbYJS8JUVsp11rHJLUkr2AAafGfsHXxPh38",
+        "pool_name": "OSCAR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 1.3685278534736491,
+        "volume_24h": 82927025.50828202
+      },
+      {
+        "bin_step": 50,
+        "fee_24h": 55863.911764926306,
+        "fee_pct": 0.1,
+        "id": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+        "pool_mint": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+        "pool_name": "TRUMP-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 349803189.0238848,
+        "volume_24h": 57895592.947348714
+      },
+      {
+        "bin_step": 4,
+        "fee_24h": 7772.519896136458,
+        "fee_pct": 0.04,
+        "id": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+        "pool_mint": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 5989526.555438171,
+        "volume_24h": 17345233.176337022
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 52544.100491201134,
+        "fee_pct": 0.2,
+        "id": "2fCWHEyzgnULbhrMoKTDwc2n6jy6zhxC9frEJFuHJVGW",
+        "pool_mint": "2fCWHEyzgnULbhrMoKTDwc2n6jy6zhxC9frEJFuHJVGW",
+        "pool_name": "GOR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 552984.7853919307,
+        "volume_24h": 17129892.658917353
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 35112.836887612095,
+        "fee_pct": 0.2,
+        "id": "AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
+        "pool_mint": "AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
+        "pool_name": "LAUNCHCOIN-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 1916305.435676284,
+        "volume_24h": 15958966.199882578
+      },
+      {
+        "bin_step": 1,
+        "fee_24h": 1836.8779308957885,
+        "fee_pct": 0.01,
+        "id": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "pool_mint": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 701755.0417855883,
+        "volume_24h": 12224954.016073445
+      },
+      {
+        "bin_step": 10,
+        "fee_24h": 6329.765165226647,
+        "fee_pct": 0.1,
+        "id": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+        "pool_mint": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 2647993.564004988,
+        "volume_24h": 6241918.46426821
+      },
+      {
+        "bin_step": 5,
+        "fee_24h": 1809.646327803068,
+        "fee_pct": 0.03,
+        "id": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
+        "pool_mint": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
+        "pool_name": "WBTC-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 1526932.1722284665,
+        "volume_24h": 5537571.938326961
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 14090.736984600417,
+        "fee_pct": 0.2,
+        "id": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+        "pool_mint": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+        "pool_name": "USELESS-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 443172.04579402745,
+        "volume_24h": 5436821.51092161
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 110397.47305531029,
+        "fee_pct": 2.0,
+        "id": "CpaQjgRZuVJ9yv4ewnZXuFhoy2VUwr4pStbTSHvHtK4w",
+        "pool_mint": "CpaQjgRZuVJ9yv4ewnZXuFhoy2VUwr4pStbTSHvHtK4w",
+        "pool_name": "GOR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 2106452.6146558486,
+        "volume_24h": 5219672.560035429
+      },
+      {
+        "bin_step": 10,
+        "fee_24h": 3649.0080611178296,
+        "fee_pct": 0.1,
+        "id": "ANrJZimFmLFH1LpMQqhU1eEbXSHrjPV7jegHH5KV4wro",
+        "pool_mint": "ANrJZimFmLFH1LpMQqhU1eEbXSHrjPV7jegHH5KV4wro",
+        "pool_name": "Fartcoin -USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 750493.344363984,
+        "volume_24h": 3690935.494127024
+      },
+      {
+        "bin_step": 10,
+        "fee_24h": 7313.354923857436,
+        "fee_pct": 0.1,
+        "id": "E4qkx57hvi43wtxZkygTKRHs4XCb96i3v1WGNS856uSa",
+        "pool_mint": "E4qkx57hvi43wtxZkygTKRHs4XCb96i3v1WGNS856uSa",
+        "pool_name": "GOR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 81227.48499088004,
+        "volume_24h": 3122212.011328273
+      },
+      {
+        "bin_step": 2,
+        "fee_24h": 951.566096798853,
+        "fee_pct": 0.03,
+        "id": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+        "pool_mint": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+        "pool_name": "JLP-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 282067.9834240349,
+        "volume_24h": 2799468.2521596113
+      },
+      {
+        "fee_24h": 0.0,
+        "id": "GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr",
+        "pool_mint": "GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr",
+        "pool_name": "CUDIS-SOL",
+        "pool_type": "dammv2",
+        "token_mints": [
+          "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 360257.9637112138,
+        "volume_24h": 2555133.944056574
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 1313.2656656779611,
+        "fee_pct": 0.05,
+        "id": "CgqwPLSFfht89pF5RSKGUUMFj5zRxoUt4861w2SkXaqY",
+        "pool_mint": "CgqwPLSFfht89pF5RSKGUUMFj5zRxoUt4861w2SkXaqY",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 1775527.0611010797,
+        "volume_24h": 2468184.391798406
+      },
+      {
+        "bin_step": 50,
+        "fee_24h": 11392.246662328962,
+        "fee_pct": 0.4,
+        "id": "3CGpV2Vqx5KGKq1xigmNv8VhvepuQdwvEQwdB4wNasWE",
+        "pool_mint": "3CGpV2Vqx5KGKq1xigmNv8VhvepuQdwvEQwdB4wNasWE",
+        "pool_name": "GOR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 216595.54192439804,
+        "volume_24h": 1970959.649369504
+      },
+      {
+        "bin_step": 4,
+        "fee_24h": 745.5837792276197,
+        "fee_pct": 0.04,
+        "id": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+        "pool_mint": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+        "pool_name": "cbBTC-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 741855.594356676,
+        "volume_24h": 1908787.16610942
+      },
+      {
+        "bin_step": 10,
+        "fee_24h": 1923.010260672359,
+        "fee_pct": 0.1,
+        "id": "4Dvr3ghgphp4aTAsB34fmPP9Uk6e6xui6PbPaNiAHqRo",
+        "pool_mint": "4Dvr3ghgphp4aTAsB34fmPP9Uk6e6xui6PbPaNiAHqRo",
+        "pool_name": "Fartcoin -SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 146981.21893833618,
+        "volume_24h": 1872786.611831111
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 3470.534335387859,
+        "fee_pct": 0.2,
+        "id": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+        "pool_mint": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 3679344.847461678,
+        "volume_24h": 1766981.083111037
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 13582.262560347055,
+        "fee_pct": 0.8,
+        "id": "5imLaMuSTQ3qXdYHajgPb4EhVjXsX7FGySvhpg2rL2We",
+        "pool_mint": "5imLaMuSTQ3qXdYHajgPb4EhVjXsX7FGySvhpg2rL2We",
+        "pool_name": "LAUNCHCOIN-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 761880.0204533824,
+        "volume_24h": 1654128.0491965502
+      },
+      {
+        "fee_24h": 0.0,
+        "id": "HSk5DDQFgJpUpQfrrnUwZi5H21qv3q1YvwxiKqmueidS",
+        "pool_mint": "HSk5DDQFgJpUpQfrrnUwZi5H21qv3q1YvwxiKqmueidS",
+        "pool_name": "YOURSELF-SOL",
+        "pool_type": "dammv2",
+        "token_mints": [
+          "Etd4QU7PGuzh4ozkzzBBjMmySNkU21BZamB7qPR1xBLV",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 177742.54419002152,
+        "volume_24h": 1505099.3044889388
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 40534.18387130731,
+        "fee_pct": 2.0,
+        "id": "6YAU2qApjPzZj4m3uFccuMybTfy4QYqYBEUNhgpnQRCt",
+        "pool_mint": "6YAU2qApjPzZj4m3uFccuMybTfy4QYqYBEUNhgpnQRCt",
+        "pool_name": "OSCAR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 312738.10388737434,
+        "volume_24h": 1438687.5757237873
+      },
+      {
+        "fee_24h": 0.0,
+        "id": "EcL9YDP3PsViKs2aDzDeTYdNXUCPLDodcKTbS4ayqf4N",
+        "pool_mint": "EcL9YDP3PsViKs2aDzDeTYdNXUCPLDodcKTbS4ayqf4N",
+        "pool_name": "JTVO-SOL",
+        "pool_type": "dammv2",
+        "token_mints": [
+          "9VY2rDbtsBmTsBxoRF8hWSEUKGqnoQoe9V6W3JnjNgfm",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 266078.42894980987,
+        "volume_24h": 1411610.4954424328
+      },
+      {
+        "fee_24h": 0.0,
+        "id": "D7rcRvaqeJuCoo5uBWWSeMvQvu5b2Pae58s7RhGUYuR7",
+        "pool_mint": "D7rcRvaqeJuCoo5uBWWSeMvQvu5b2Pae58s7RhGUYuR7",
+        "pool_name": "FINNA-SOL",
+        "pool_type": "dammv2",
+        "token_mints": [
+          "8bmDcRBjBfcoAtU9xFg8gSdUzvjK85cBmdgbMN9kuBLV",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 175766.20338065815,
+        "volume_24h": 1379877.3398866402
+      },
+      {
+        "fee_24h": 134.3824585932956,
+        "id": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+        "pool_mint": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+        "pool_name": "SOL-mSOL",
+        "pool_type": "lst",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+        ],
+        "tvl": 8089559.519465556,
+        "volume_24h": 1343824.5859329568
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 14512.186759869131,
+        "fee_pct": 1.0,
+        "id": "BBXyTX5UfbASibLRo3iaptuwF5846njxm7M4xFQTQz3d",
+        "pool_mint": "BBXyTX5UfbASibLRo3iaptuwF5846njxm7M4xFQTQz3d",
+        "pool_name": "USELESS-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 609552.5101468757,
+        "volume_24h": 1265353.257620832
+      },
+      {
+        "bin_step": 1,
+        "fee_24h": 140.58040649974393,
+        "fee_pct": 0.01,
+        "id": "DbTk2SNKWxu9TJbPzmK9HcQCAmraBCFb5VMo8Svwh34z",
+        "pool_mint": "DbTk2SNKWxu9TJbPzmK9HcQCAmraBCFb5VMo8Svwh34z",
+        "pool_name": "JLP-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 21774.644062855627,
+        "volume_24h": 1222157.75144153
+      },
+      {
+        "bin_step": 5,
+        "fee_24h": 157.10862219289174,
+        "fee_pct": 0.01,
+        "id": "GMgh4NtWrGaUf1RR2kcXD7LY1jou1qFAuSsQeKp5ow4a",
+        "pool_mint": "GMgh4NtWrGaUf1RR2kcXD7LY1jou1qFAuSsQeKp5ow4a",
+        "pool_name": "USDC-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 32314.60868599795,
+        "volume_24h": 1167097.280855201
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 2633.210349383076,
+        "fee_pct": 0.2,
+        "id": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+        "pool_mint": "3shatpFgdVVwy8Pr723iE9L1fozzaXNdGYKtgrSwHYeJ",
+        "pool_name": "MASK-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 101115.29877824924,
+        "volume_24h": 1154086.864735501
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 1668.909995154039,
+        "fee_pct": 0.15,
+        "id": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+        "pool_mint": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+        "pool_name": "JUP-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 3226781.93155907,
+        "volume_24h": 1140946.2394384623
+      }
+    ],
+    "trending_analysis": {
+      "total_pools": 30,
+      "volume_range": {
+        "min": 1140946.2394384623,
+        "max": 82927025.50828202,
+        "avg": 8758532.210968237,
+        "top_10_avg": 22591764.898039334
+      },
+      "tvl_range": {
+        "min": 1.3685278534736491,
+        "max": 349803189.0238848,
+        "avg": 12916598.915374003,
+        "top_10_avg": 38076161.27254759
+      },
+      "vlr_analysis": {
+        "min": 0.16550904841349393,
+        "max": 60595789.33508259,
+        "avg": 2019869.705282013,
+        "high_activity_pools": 26,
+        "trending_potential": "HIGH"
+      },
+      "token_extraction": {
+        "unique_tokens_found": 19,
+        "avg_tokens_per_pool": 2.0,
+        "sample_tokens": [
+          "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+          "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "Etd4QU7PGuzh4ozkzzBBjMmySNkU21BZamB7qPR1xBLV",
+          "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+          "So11111111111111111111111111111111111111112"
+        ]
+      },
+      "data_quality": {
+        "pools_with_volume": 30,
+        "pools_with_tvl": 30,
+        "pools_with_tokens": 30,
+        "data_completeness_score": 100.0
+      }
+    }
+  },
+  "tvl_trending_test": {
+    "status": "success",
+    "total_found": 171102,
+    "pools_returned": 30,
+    "response_time_ms": 124.9,
+    "pools": [
+      {
+        "bin_step": 50,
+        "fee_24h": 55863.911764926306,
+        "fee_pct": 0.1,
+        "id": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+        "pool_mint": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+        "pool_name": "TRUMP-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 349803189.0238848,
+        "volume_24h": 57895592.947348714
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 3377.8279524328477,
+        "fee_pct": 1.5,
+        "id": "9DiruRpjnAnzhn6ts5HGLouHtJrT1JGsPbXNYCrFz2ad",
+        "pool_mint": "9DiruRpjnAnzhn6ts5HGLouHtJrT1JGsPbXNYCrFz2ad",
+        "pool_name": "MELANIA-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "FUAfBo2jgks6gB4Z4LfZkqSZgzNucisEHqnNebaRxM1P",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 23511784.987066142,
+        "volume_24h": 280146.29470581026
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 171.7476751007488,
+        "fee_pct": 0.2,
+        "id": "AXXo7N2gcLeVyo8nDsN99UW8Fv6NCsa2DP21WD3SKtM3",
+        "pool_mint": "AXXo7N2gcLeVyo8nDsN99UW8Fv6NCsa2DP21WD3SKtM3",
+        "pool_name": "FO-USDT",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+        ],
+        "tvl": 21568190.41215815,
+        "volume_24h": 89003.93688911977
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 0.0,
+        "fee_pct": 1.5,
+        "id": "BzzMNvfm7T6zSGFeLXzERmRxfKaNLdo4fSzvsisxcSzz",
+        "pool_mint": "BzzMNvfm7T6zSGFeLXzERmRxfKaNLdo4fSzvsisxcSzz",
+        "pool_name": "LIBRA-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "Bo9jh3wsmcC2AjakLWzNmKJ3SgtZmXEcSaW7L2FAvUsU",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 16837102.15055159,
+        "volume_24h": 0.0
+      },
+      {
+        "bin_step": 1,
+        "fee_24h": 13.90424191478212,
+        "fee_pct": 0.01,
+        "id": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+        "pool_mint": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+        "pool_name": "JitoSOL-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 11463305.01038684,
+        "volume_24h": 145990.29434624373
+      },
+      {
+        "fee_24h": 0.15501882921778892,
+        "id": "ESHGamEJZbN6rjwPZ9Ls4yNqNJp7aY98oUig67Jd5YRX",
+        "pool_mint": "ESHGamEJZbN6rjwPZ9Ls4yNqNJp7aY98oUig67Jd5YRX",
+        "pool_name": "MAGA-USDC",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "CFjRDZahCBEPRGsESM3ViLvKkBURJgnqEVdzce4DF8p6",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 9660732.4363897,
+        "volume_24h": 62.00753168711557
+      },
+      {
+        "fee_24h": 4.433926536539389,
+        "id": "32D4zRxNc1EssbJieVHfPhZM3rH6CzfUPrWUuWxD9prG",
+        "pool_mint": "32D4zRxNc1EssbJieVHfPhZM3rH6CzfUPrWUuWxD9prG",
+        "pool_name": "USDC-USDT",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+        ],
+        "tvl": 8174395.045604248,
+        "volume_24h": 44339.2653653939
+      },
+      {
+        "fee_24h": 134.3824585932956,
+        "id": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+        "pool_mint": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+        "pool_name": "SOL-mSOL",
+        "pool_type": "lst",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+        ],
+        "tvl": 8089559.519465556,
+        "volume_24h": 1343824.5859329568
+      },
+      {
+        "bin_step": 4,
+        "fee_24h": 7772.519896136458,
+        "fee_pct": 0.04,
+        "id": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+        "pool_mint": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 5989526.555438171,
+        "volume_24h": 17345233.176337022
+      },
+      {
+        "fee_24h": 1.438922669655842,
+        "id": "EH8xLzfq2YARgQC846NWP6EfRK9gfcjDJMxcHhxFLruv",
+        "pool_mint": "EH8xLzfq2YARgQC846NWP6EfRK9gfcjDJMxcHhxFLruv",
+        "pool_name": "METAV-SOL",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "HCgvbV9Qcf9TVGPGKMGbVEj8WwwVD6HhTt5E2i3qkeN9",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 5810920.084639695,
+        "volume_24h": 71.9461334827921
+      },
+      {
+        "fee_24h": 3972.70382576277,
+        "id": "FYFvzPiQCZpzhqcuqM76ka1c38xAM3SSw887W64d5qKK",
+        "pool_mint": "FYFvzPiQCZpzhqcuqM76ka1c38xAM3SSw887W64d5qKK",
+        "pool_name": "WATCHCOIN-SOL",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "37CsKhfnGWjGwtsfhTbrknYpYAXG7C2J4gGR5QPZSnwY",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 5191296.33351601,
+        "volume_24h": 198635.1912881378
+      },
+      {
+        "fee_24h": 3397.0207862879306,
+        "id": "E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8",
+        "pool_mint": "E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8",
+        "pool_name": "DBR-USDC",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 4792774.194203715,
+        "volume_24h": 1132340.262095975
+      },
+      {
+        "bin_step": 2,
+        "fee_24h": 0.0,
+        "fee_pct": 0.02,
+        "id": "GshsaUh5TxTmQVv13aLcDTPC7YVtPNhp42efjnBbQA2J",
+        "pool_mint": "GshsaUh5TxTmQVv13aLcDTPC7YVtPNhp42efjnBbQA2J",
+        "pool_name": "BTC-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "GCinYWDnJnoTsPUmVggitqcpScyp1DJQDsA62FYvyGWM",
+          "DZdEzZCwva7qovnZ9bjkYRcRdy2tX2dZ2gpNVJmakEwn"
+        ],
+        "tvl": 4406272.195504006,
+        "volume_24h": 0.0
+      },
+      {
+        "bin_step": 1,
+        "fee_24h": 19.655014344411818,
+        "fee_pct": 0.01,
+        "id": "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+        "pool_mint": "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+        "pool_name": "USDC-USDT",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+        ],
+        "tvl": 4087665.112587825,
+        "volume_24h": 206492.696482374
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 1627.8383662054662,
+        "fee_pct": 0.6,
+        "id": "22hGJjJNckPqzpDnmgmJUYS6Yh1qeRtYyMV57bkcdDWK",
+        "pool_mint": "22hGJjJNckPqzpDnmgmJUYS6Yh1qeRtYyMV57bkcdDWK",
+        "pool_name": "JLP-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 4032411.277974777,
+        "volume_24h": 284845.55839304
+      },
+      {
+        "fee_24h": 46.74140261764403,
+        "id": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+        "pool_mint": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+        "pool_name": "SOL-JitoSOL",
+        "pool_type": "lst",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+        ],
+        "tvl": 3909414.5904808776,
+        "volume_24h": 467414.0261764403
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 361.914359470852,
+        "fee_pct": 0.2,
+        "id": "F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv",
+        "pool_mint": "F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv",
+        "pool_name": "USDC-CLOUD",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu"
+        ],
+        "tvl": 3907929.4803442257,
+        "volume_24h": 190075.07768715173
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 248.40783605056467,
+        "fee_pct": 2.0,
+        "id": "AGJHLCTkDsZgAtoCJWAKmC4WGvXAXkviSJsQ5PeB3mhJ",
+        "pool_mint": "AGJHLCTkDsZgAtoCJWAKmC4WGvXAXkviSJsQ5PeB3mhJ",
+        "pool_name": "CDR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "HZqjjeso24PDVdLsVJQyVb8kDnbo7HhXfY1Jane66o9C",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 3739199.314538022,
+        "volume_24h": 12902.740070490454
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 3470.534335387859,
+        "fee_pct": 0.2,
+        "id": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+        "pool_mint": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 3679344.847461678,
+        "volume_24h": 1766981.083111037
+      },
+      {
+        "fee_24h": 15.704480239303,
+        "id": "9cfr3qnHbQMEGAn4Cxt1iDFfPCokNs1g8nf8xMmuK2Vn",
+        "pool_mint": "9cfr3qnHbQMEGAn4Cxt1iDFfPCokNs1g8nf8xMmuK2Vn",
+        "pool_name": "LFNTY-USDC",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 3608861.5377360303,
+        "volume_24h": 6281.7920957212
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 117.57522093141014,
+        "fee_pct": 1.0,
+        "id": "CopraAQegh7HohkLgYayjoRENXsf66eYaDtwFpbr8zRZ",
+        "pool_mint": "CopraAQegh7HohkLgYayjoRENXsf66eYaDtwFpbr8zRZ",
+        "pool_name": "PAIN-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "1Qf8gESP4i6CFNWerUSDdLKJ9U1LpqTYvjJ2MM4pain",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 3504717.416725998,
+        "volume_24h": 12376.333551326436
+      },
+      {
+        "fee_24h": 33.516480791322905,
+        "id": "DvWpLaNUPqoCGn4foM6hekAPKqMtADJJbJWhwuMiT6vK",
+        "pool_mint": "DvWpLaNUPqoCGn4foM6hekAPKqMtADJJbJWhwuMiT6vK",
+        "pool_name": "SOL-bSOL",
+        "pool_type": "pools_with_farm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"
+        ],
+        "tvl": 3326792.837108678,
+        "volume_24h": 335164.8079132287
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 1668.909995154039,
+        "fee_pct": 0.15,
+        "id": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+        "pool_mint": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+        "pool_name": "JUP-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 3226781.93155907,
+        "volume_24h": 1140946.2394384623
+      },
+      {
+        "bin_step": 10,
+        "fee_24h": 6329.765165226647,
+        "fee_pct": 0.1,
+        "id": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+        "pool_mint": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 2647993.564004988,
+        "volume_24h": 6241918.46426821
+      },
+      {
+        "fee_24h": 9.53212078571358,
+        "id": "HjbGLmq2ZkHFZGArgDRDDXokgo5GKZfGHvUGjc9Po8ME",
+        "pool_mint": "HjbGLmq2ZkHFZGArgDRDDXokgo5GKZfGHvUGjc9Po8ME",
+        "pool_name": "SOL-ZERO",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "93RC484oMK5T9H89rzT5qiAXKHGP9jscXfFfrihNbe57"
+        ],
+        "tvl": 2627126.8153123134,
+        "volume_24h": 953.212078571358
+      },
+      {
+        "fee_24h": 683.1778946688286,
+        "id": "B1AdQ85N2mJ2xtMg9bgThhsPoA6T3M26rt4TChWSiPpr",
+        "pool_mint": "B1AdQ85N2mJ2xtMg9bgThhsPoA6T3M26rt4TChWSiPpr",
+        "pool_name": "VIRTUAL-SOL",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 2212111.230263469,
+        "volume_24h": 227725.96488960952
+      },
+      {
+        "fee_24h": 1353.6049803774413,
+        "id": "HoEENcw9WWxZdL69mTYVqKSwfGJLCKembNU5wmN4pWsW",
+        "pool_mint": "HoEENcw9WWxZdL69mTYVqKSwfGJLCKembNU5wmN4pWsW",
+        "pool_name": "CANDLE-SOL",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 2131606.131938768,
+        "volume_24h": 135360.49803774414
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 110397.47305531029,
+        "fee_pct": 2.0,
+        "id": "CpaQjgRZuVJ9yv4ewnZXuFhoy2VUwr4pStbTSHvHtK4w",
+        "pool_mint": "CpaQjgRZuVJ9yv4ewnZXuFhoy2VUwr4pStbTSHvHtK4w",
+        "pool_name": "GOR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 2106452.6146558486,
+        "volume_24h": 5219672.560035429
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 35112.836887612095,
+        "fee_pct": 0.2,
+        "id": "AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
+        "pool_mint": "AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
+        "pool_name": "LAUNCHCOIN-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 1916305.435676284,
+        "volume_24h": 15958966.199882578
+      },
+      {
+        "bin_step": 80,
+        "fee_24h": 431.9598683446844,
+        "fee_pct": 0.1,
+        "id": "EwUU8oiKTomjekU5eszctx3kneKJnKm5BJpn5sTT4CUf",
+        "pool_mint": "EwUU8oiKTomjekU5eszctx3kneKJnKm5BJpn5sTT4CUf",
+        "pool_name": "PYTHIA-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 1859671.818230006,
+        "volume_24h": 453548.1223516732
+      }
+    ],
+    "trending_analysis": {
+      "total_pools": 30,
+      "volume_range": {
+        "min": 0.0,
+        "max": 57895592.947348714,
+        "avg": 3704562.176147921,
+        "top_10_avg": 10851288.954462683
+      },
+      "tvl_range": {
+        "min": 1859671.818230006,
+        "max": 349803189.0238848,
+        "avg": 17594114.46351358,
+        "top_10_avg": 46090870.52255849
+      },
+      "vlr_analysis": {
+        "min": 6.418512477744217e-06,
+        "max": 8.327986709618916,
+        "avg": 0.6551001603163821,
+        "high_activity_pools": 4,
+        "trending_potential": "HIGH"
+      },
+      "token_extraction": {
+        "unique_tokens_found": 28,
+        "avg_tokens_per_pool": 2.0,
+        "sample_tokens": [
+          "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+          "GCinYWDnJnoTsPUmVggitqcpScyp1DJQDsA62FYvyGWM",
+          "LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp",
+          "Bo9jh3wsmcC2AjakLWzNmKJ3SgtZmXEcSaW7L2FAvUsU",
+          "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "1Qf8gESP4i6CFNWerUSDdLKJ9U1LpqTYvjJ2MM4pain",
+          "93RC484oMK5T9H89rzT5qiAXKHGP9jscXfFfrihNbe57",
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y"
+        ]
+      },
+      "data_quality": {
+        "pools_with_volume": 28,
+        "pools_with_tvl": 30,
+        "pools_with_tokens": 30,
+        "data_completeness_score": 97.8
+      }
+    }
+  },
+  "token_specific_test": {
+    "status": "success",
+    "token_address": "So11111111111111111111111111111111111111112",
+    "pools_found": 10,
+    "response_time_ms": 147.4,
+    "pools": [
+      {
+        "bin_step": 1,
+        "fee_24h": 13.90424191478212,
+        "fee_pct": 0.01,
+        "id": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+        "pool_mint": "BoeMUkCLHchTD31HdXsbDExuZZfcUppSLpYtV3LZTH6U",
+        "pool_name": "JitoSOL-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 11463305.01038684,
+        "volume_24h": 145990.29434624373
+      },
+      {
+        "fee_24h": 134.3824585932956,
+        "id": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+        "pool_mint": "HcjZvfeSNJbNkfLD4eEcRBr96AD3w1GpmMppaeRZf7ur",
+        "pool_name": "SOL-mSOL",
+        "pool_type": "lst",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+        ],
+        "tvl": 8089559.519465556,
+        "volume_24h": 1343824.5859329568
+      },
+      {
+        "bin_step": 4,
+        "fee_24h": 7772.519896136458,
+        "fee_pct": 0.04,
+        "id": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+        "pool_mint": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 5989526.555438171,
+        "volume_24h": 17345233.176337022
+      },
+      {
+        "fee_24h": 1.438922669655842,
+        "id": "EH8xLzfq2YARgQC846NWP6EfRK9gfcjDJMxcHhxFLruv",
+        "pool_mint": "EH8xLzfq2YARgQC846NWP6EfRK9gfcjDJMxcHhxFLruv",
+        "pool_name": "METAV-SOL",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "HCgvbV9Qcf9TVGPGKMGbVEj8WwwVD6HhTt5E2i3qkeN9",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 5810920.084639695,
+        "volume_24h": 71.9461334827921
+      },
+      {
+        "fee_24h": 3972.70382576277,
+        "id": "FYFvzPiQCZpzhqcuqM76ka1c38xAM3SSw887W64d5qKK",
+        "pool_mint": "FYFvzPiQCZpzhqcuqM76ka1c38xAM3SSw887W64d5qKK",
+        "pool_name": "WATCHCOIN-SOL",
+        "pool_type": "dynamic_amm",
+        "token_mints": [
+          "37CsKhfnGWjGwtsfhTbrknYpYAXG7C2J4gGR5QPZSnwY",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 5191296.33351601,
+        "volume_24h": 198635.1912881378
+      },
+      {
+        "fee_24h": 46.74140261764403,
+        "id": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+        "pool_mint": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+        "pool_name": "SOL-JitoSOL",
+        "pool_type": "lst",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+        ],
+        "tvl": 3909414.5904808776,
+        "volume_24h": 467414.0261764403
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 248.40783605056467,
+        "fee_pct": 2.0,
+        "id": "AGJHLCTkDsZgAtoCJWAKmC4WGvXAXkviSJsQ5PeB3mhJ",
+        "pool_mint": "AGJHLCTkDsZgAtoCJWAKmC4WGvXAXkviSJsQ5PeB3mhJ",
+        "pool_name": "CDR-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "HZqjjeso24PDVdLsVJQyVb8kDnbo7HhXfY1Jane66o9C",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 3739199.314538022,
+        "volume_24h": 12902.740070490454
+      },
+      {
+        "bin_step": 20,
+        "fee_24h": 3470.534335387859,
+        "fee_pct": 0.2,
+        "id": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+        "pool_mint": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+        "pool_name": "SOL-USDC",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        ],
+        "tvl": 3679344.847461678,
+        "volume_24h": 1766981.083111037
+      },
+      {
+        "bin_step": 100,
+        "fee_24h": 117.57522093141014,
+        "fee_pct": 1.0,
+        "id": "CopraAQegh7HohkLgYayjoRENXsf66eYaDtwFpbr8zRZ",
+        "pool_mint": "CopraAQegh7HohkLgYayjoRENXsf66eYaDtwFpbr8zRZ",
+        "pool_name": "PAIN-SOL",
+        "pool_type": "dlmm",
+        "token_mints": [
+          "1Qf8gESP4i6CFNWerUSDdLKJ9U1LpqTYvjJ2MM4pain",
+          "So11111111111111111111111111111111111111112"
+        ],
+        "tvl": 3504717.416725998,
+        "volume_24h": 12376.333551326436
+      },
+      {
+        "fee_24h": 33.516480791322905,
+        "id": "DvWpLaNUPqoCGn4foM6hekAPKqMtADJJbJWhwuMiT6vK",
+        "pool_mint": "DvWpLaNUPqoCGn4foM6hekAPKqMtADJJbJWhwuMiT6vK",
+        "pool_name": "SOL-bSOL",
+        "pool_type": "pools_with_farm",
+        "token_mints": [
+          "So11111111111111111111111111111111111111112",
+          "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"
+        ],
+        "tvl": 3326792.837108678,
+        "volume_24h": 335164.8079132287
+      }
+    ]
+  },
+  "rate_limiting_test": {
+    "status": "success",
+    "total_requests": 10,
+    "total_time_seconds": 5.21,
+    "avg_response_time_ms": 419.5,
+    "requests_per_second": 1.92,
+    "request_details": [
+      {
+        "request": 1,
+        "status": 200,
+        "time_ms": 120.2
+      },
+      {
+        "request": 2,
+        "status": 200,
+        "time_ms": 487.8
+      },
+      {
+        "request": 3,
+        "status": 200,
+        "time_ms": 529.0
+      },
+      {
+        "request": 4,
+        "status": 200,
+        "time_ms": 464.2
+      },
+      {
+        "request": 5,
+        "status": 200,
+        "time_ms": 539.8
+      },
+      {
+        "request": 6,
+        "status": 200,
+        "time_ms": 499.1
+      },
+      {
+        "request": 7,
+        "status": 200,
+        "time_ms": 189.4
+      },
+      {
+        "request": 8,
+        "status": 200,
+        "time_ms": 513.5
+      },
+      {
+        "request": 9,
+        "status": 200,
+        "time_ms": 465.2
+      },
+      {
+        "request": 10,
+        "status": 200,
+        "time_ms": 386.7
+      }
+    ],
+    "rate_limit_detected": false
+  },
+  "trending_token_discovery": {
+    "unique_tokens_discovered": 19,
+    "sample_tokens": [
+      "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+      "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+      "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "8Q8Kmek42mP4fJxjJBDibP5JZok7nXJv7iGeLVPiqmhm",
+      "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+      "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+      "Etd4QU7PGuzh4ozkzzBBjMmySNkU21BZamB7qPR1xBLV",
+      "8Q8KPBL21FVatn2C1EaxAQSorAkHW2W2jDUXapVPZmhm",
+      "So11111111111111111111111111111111111111112",
+      "8bmDcRBjBfcoAtU9xFg8gSdUzvjK85cBmdgbMN9kuBLV",
+      "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "9VY2rDbtsBmTsBxoRF8hWSEUKGqnoQoe9V6W3JnjNgfm",
+      "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "CudisfkgWvMKnZ3TWf6iCuHm8pN2ikXhDcWytwz6f6RN",
+      "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg"
+    ],
+    "discovery_feasibility": "LOW"
+  },
+  "integration_readiness": {
+    "api_connectivity": "WORKING",
+    "data_structure": "COMPATIBLE",
+    "trending_detection": "READY",
+    "rate_limiting": "ACCEPTABLE"
+  }
+}

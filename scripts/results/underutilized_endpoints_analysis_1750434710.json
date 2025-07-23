@@ -1,0 +1,1054 @@
+{
+  "test_results": {
+    "rugcheck": {
+      "trending_tokens": {
+        "status": "success",
+        "count": 10,
+        "sample_data": [
+          {
+            "mint": "BuLL65dUKeRgZ1TUo3g9F3SAgJmdwq23mcx7erb9QX9D",
+            "vote_count": 5,
+            "up_count": 4
+          },
+          {
+            "mint": "5Fxk572o7JgkNhv4VbHt7DKfvKiBpapGr3fxjGd6pump",
+            "vote_count": 2,
+            "up_count": 2
+          },
+          {
+            "mint": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+            "vote_count": 2,
+            "up_count": 2
+          }
+        ],
+        "data_structure": {
+          "mint": "string",
+          "vote_count": "number",
+          "up_count": "number"
+        }
+      },
+      "detailed_token_report": {
+        "status": "success",
+        "token_tested": "BuLL65dUKeRgZ1TUo3g9F3SAgJmdwq23mcx7erb9QX9D",
+        "available_sections": [
+          "mint",
+          "tokenProgram",
+          "creator",
+          "creatorBalance",
+          "token",
+          "token_extensions",
+          "tokenMeta",
+          "topHolders",
+          "freezeAuthority",
+          "mintAuthority",
+          "risks",
+          "score",
+          "score_normalised",
+          "fileMeta",
+          "lockerOwners",
+          "lockers",
+          "markets",
+          "totalMarketLiquidity",
+          "totalLPProviders",
+          "totalHolders",
+          "price",
+          "rugged",
+          "tokenType",
+          "transferFee",
+          "knownAccounts",
+          "events",
+          "verification",
+          "graphInsidersDetected",
+          "insiderNetworks",
+          "detectedAt",
+          "creatorTokens"
+        ],
+        "risk_analysis": {
+          "risks_count": 8,
+          "sample_risks": [
+            {
+              "name": "Large Amount of LP Unlocked",
+              "value": "100.00%",
+              "description": "A large amount of LP tokens are unlocked, allowing the owner to remove liquidity at any point.",
+              "score": 10999,
+              "level": "danger"
+            },
+            {
+              "name": "Top 10 holders high ownership",
+              "value": "",
+              "description": "The top 10 users hold more than 70% token supply",
+              "score": 8360,
+              "level": "danger"
+            }
+          ]
+        },
+        "holder_analysis": {
+          "top_holders_count": 20,
+          "sample_holder": {
+            "address": "HqjuwLrHMjZf1srxYFT5ZiHTPemE8Nc3fW69GuWTKi2g",
+            "amount": 209500000000000000,
+            "decimals": 9,
+            "pct": 20.95,
+            "uiAmount": 209500000,
+            "uiAmountString": "209500000",
+            "owner": "3cMFG8FJbFiwQTuR9FugrcqCazUtnuDPzZh6pzyVNaGw",
+            "insider": false
+          }
+        },
+        "token_metadata": {
+          "creator": "5AzyUg645hFppnV8PN6drjKBYLFtPyoMKfVVZTSTZga8",
+          "supply": 1000000000000000000,
+          "decimals": 9
+        }
+      }
+    },
+    "dexscreener": {
+      "token_profiles": {
+        "status": "success",
+        "count": 30,
+        "sample_profile": {
+          "url": "https://dexscreener.com/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253",
+          "chainId": "ethereum",
+          "tokenAddress": "0x27674a271d8ba463186ecaa344288e1a59d30253",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253?timestamp=1750434600000",
+          "description": "Make Alpha Investment Choices Powered By AI",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://www.mind-ai.org"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/MIND_AI_ORG"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/mind_ai_portal"
+            }
+          ]
+        },
+        "social_links_available": true,
+        "metadata_richness": {
+          "has_description": true,
+          "has_images": true,
+          "has_social_links": 3
+        }
+      },
+      "marketing_orders": {
+        "status": "success",
+        "token_tested": "0x27674a271d8ba463186ecaa344288e1a59d30253",
+        "orders_count": 1,
+        "sample_order": {
+          "type": "tokenProfile",
+          "status": "approved",
+          "paymentTimestamp": 1750434478226
+        },
+        "marketing_investment_tracking": {
+          "payment_timestamps": [
+            1750434478226
+          ],
+          "order_types": [
+            "tokenProfile"
+          ],
+          "order_statuses": [
+            "approved"
+          ]
+        }
+      },
+      "token_boosts_latest": {
+        "status": "success",
+        "count": 30,
+        "sample_boost": {
+          "url": "https://dexscreener.com/solana/hs4xe6zaxzgqpxsey5vtf5aej58equheh7bt1x7fpump",
+          "chainId": "solana",
+          "tokenAddress": "HS4XE6ZAxzGqpXsEy5vtF5AEJ58EqUhEH7bT1X7Fpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HS4XE6ZAxzGqpXsEy5vtF5AEJ58EqUhEH7bT1X7Fpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HS4XE6ZAxzGqpXsEy5vtF5AEJ58EqUhEH7bT1X7Fpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HS4XE6ZAxzGqpXsEy5vtF5AEJ58EqUhEH7bT1X7Fpump?timestamp=1750434600000",
+          "description": "Caveman Spongebob on Solana",
+          "links": [
+            {
+              "label": "Website",
+              "url": "https://cavemanspongebob.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/cavemnspongbob"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/junememecoin"
+            }
+          ],
+          "totalAmount": 500,
+          "amount": 500
+        },
+        "promotion_tracking": {
+          "total_amounts": [
+            500,
+            100,
+            50,
+            10,
+            10
+          ],
+          "avg_promotion_amount": 77.0,
+          "has_descriptions": 29
+        }
+      },
+      "token_boosts_top": {
+        "status": "success",
+        "count": 30,
+        "sample_boost": {
+          "url": "https://dexscreener.com/solana/wqwakqjj9p5ikknzhfk4by7sstjm627a8cucjqxpump",
+          "chainId": "solana",
+          "tokenAddress": "wqWakQjj9P5iKKnzhFk4by7ssTjm627a8CucjqXpump",
+          "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/wqWakQjj9P5iKKnzhFk4by7ssTjm627a8CucjqXpump.png",
+          "header": "https://dd.dexscreener.com/ds-data/tokens/solana/wqWakQjj9P5iKKnzhFk4by7ssTjm627a8CucjqXpump/header.png",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/wqWakQjj9P5iKKnzhFk4by7ssTjm627a8CucjqXpump?timestamp=1750434600000",
+          "description": "Think smart. Trade smart. Meme smarter. This bot got more alpha than your group chat! \ud83d\udce1\ud83d\udd25",
+          "links": [
+            {
+              "label": "Website",
+              "url": "http://tradeguard.space"
+            },
+            {
+              "type": "twitter",
+              "url": "https://x.com/Trade_Gaurd"
+            },
+            {
+              "type": "telegram",
+              "url": "https://t.me/TradeGaurd"
+            }
+          ],
+          "totalAmount": 650
+        },
+        "promotion_tracking": {
+          "total_amounts": [
+            650,
+            510,
+            500,
+            500,
+            500
+          ],
+          "avg_promotion_amount": 478.0,
+          "has_descriptions": 27
+        }
+      },
+      "narrative_search": {
+        "AI": {
+          "results_count": 30,
+          "sample_result": {
+            "chainId": "bsc",
+            "dexId": "pancakeswap",
+            "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7",
+            "pairAddress": "0xBaCBeA108e060AeB3Aa4bD55bf46534BdDE6F6B7",
+            "labels": [
+              "v2"
+            ],
+            "baseToken": {
+              "address": "0x2598c30330D5771AE9F983979209486aE26dE875",
+              "name": "Any Inu",
+              "symbol": "AI"
+            },
+            "quoteToken": {
+              "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+              "name": "Wrapped BNB",
+              "symbol": "WBNB"
+            },
+            "priceNative": "0.000000003203",
+            "priceUsd": "0.000002066",
+            "txns": {
+              "m5": {
+                "buys": 1,
+                "sells": 2
+              },
+              "h1": {
+                "buys": 3,
+                "sells": 7
+              },
+              "h6": {
+                "buys": 20,
+                "sells": 17
+              },
+              "h24": {
+                "buys": 126,
+                "sells": 106
+              }
+            },
+            "volume": {
+              "h24": 856.25,
+              "h6": 195.5,
+              "h1": 115.32,
+              "m5": 0.29
+            },
+            "priceChange": {
+              "m5": 0.05,
+              "h1": 1.01,
+              "h6": 0.36,
+              "h24": 0.65
+            },
+            "liquidity": {
+              "usd": 33307.72,
+              "base": 8059749838,
+              "quote": 25.8201
+            },
+            "fdv": 223541,
+            "marketCap": 223541,
+            "pairCreatedAt": 1703946731000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/bsc/0x2598c30330d5771ae9f983979209486ae26de875.png?key=5faa39",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/bsc/0x2598c30330d5771ae9f983979209486ae26de875/header.png?key=5faa39",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x2598c30330d5771ae9f983979209486ae26de875?timestamp=1750434600000",
+              "websites": [
+                {
+                  "label": "Website",
+                  "url": "https://www.anyinu.xyz/"
+                }
+              ],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://twitter.com/AnyInuCoin"
+                },
+                {
+                  "type": "telegram",
+                  "url": "https://t.me/anyinuportal"
+                }
+              ]
+            }
+          },
+          "chain_distribution": {
+            "bsc": 13,
+            "solana": 8,
+            "apechain": 1,
+            "ethereum": 2,
+            "polygon": 2,
+            "avalanche": 1,
+            "arbitrum": 1,
+            "base": 2
+          },
+          "volume_range": {
+            "min": 0.3,
+            "max": 42534.7,
+            "avg": 2755.2183333333332,
+            "count": 30
+          }
+        },
+        "agent": {
+          "results_count": 30,
+          "sample_result": {
+            "chainId": "base",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/base/0x0162ccbe8961b9e33c788c463f4c9428333b2d6f",
+            "pairAddress": "0x0162cCBE8961b9e33c788c463F4c9428333b2D6f",
+            "labels": [
+              "v2"
+            ],
+            "baseToken": {
+              "address": "0xD98832e8a59156AcBEe4744B9A94A9989a728f36",
+              "name": "AgentAlgo",
+              "symbol": "AGENT"
+            },
+            "quoteToken": {
+              "address": "0x4200000000000000000000000000000000000006",
+              "name": "Wrapped Ether",
+              "symbol": "WETH"
+            },
+            "priceNative": "0.00006686",
+            "priceUsd": "0.1671",
+            "txns": {
+              "m5": {
+                "buys": 5,
+                "sells": 0
+              },
+              "h1": {
+                "buys": 15,
+                "sells": 28
+              },
+              "h6": {
+                "buys": 43,
+                "sells": 134
+              },
+              "h24": {
+                "buys": 157,
+                "sells": 422
+              }
+            },
+            "volume": {
+              "h24": 112516.17,
+              "h6": 36224.17,
+              "h1": 17365.29,
+              "m5": 972.09
+            },
+            "priceChange": {
+              "m5": 0.7,
+              "h1": -7.36,
+              "h6": -9.86,
+              "h24": 9.41
+            },
+            "liquidity": {
+              "usd": 465016.98,
+              "base": 1391159,
+              "quote": 93.02609
+            },
+            "fdv": 3502270,
+            "marketCap": 3502270,
+            "pairCreatedAt": 1732737797000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/base/0xd98832e8a59156acbee4744b9a94a9989a728f36.png?key=c7ecc7",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/base/0xd98832e8a59156acbee4744b9a94a9989a728f36/header.png?key=c7ecc7",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xd98832e8a59156acbee4744b9a94a9989a728f36?timestamp=1750434600000",
+              "websites": [
+                {
+                  "label": "Website",
+                  "url": "https://creator.bid/agents/67449f1e853e3027a53168a2"
+                },
+                {
+                  "label": "TikTok",
+                  "url": "https://www.tiktok.com/@agentalgo"
+                }
+              ],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/Agent_Algo"
+                },
+                {
+                  "type": "telegram",
+                  "url": "https://t.me/creatorbidagent"
+                }
+              ]
+            }
+          },
+          "chain_distribution": {
+            "base": 10,
+            "solana": 13,
+            "cardano": 3,
+            "bsc": 3,
+            "ethereum": 1
+          },
+          "volume_range": {
+            "min": 0.18,
+            "max": 442662.97,
+            "avg": 55932.706,
+            "count": 30
+          }
+        },
+        "pump": {
+          "results_count": 30,
+          "sample_result": {
+            "chainId": "solana",
+            "dexId": "pumpswap",
+            "url": "https://dexscreener.com/solana/9pj4kkyb8xpxg6qn9aq4bmyghc5gtcvz7lkvncsncdso",
+            "pairAddress": "9Pj4kKyb8xPXG6QN9AQ4BMYghc5gTCvz7LKvNcSnCdso",
+            "baseToken": {
+              "address": "HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ",
+              "name": "pump",
+              "symbol": "pump"
+            },
+            "quoteToken": {
+              "address": "So11111111111111111111111111111111111111112",
+              "name": "Wrapped SOL",
+              "symbol": "SOL"
+            },
+            "priceNative": "0.000005126",
+            "priceUsd": "0.0007347",
+            "txns": {
+              "m5": {
+                "buys": 0,
+                "sells": 2
+              },
+              "h1": {
+                "buys": 28,
+                "sells": 28
+              },
+              "h6": {
+                "buys": 178,
+                "sells": 141
+              },
+              "h24": {
+                "buys": 582,
+                "sells": 469
+              }
+            },
+            "volume": {
+              "h24": 158758.09,
+              "h6": 58140.28,
+              "h1": 10451.04,
+              "m5": 602
+            },
+            "priceChange": {
+              "m5": -2.3,
+              "h1": 5.82,
+              "h6": -16.14,
+              "h24": -15.74
+            },
+            "liquidity": {
+              "usd": 138324.97,
+              "base": 94065276,
+              "quote": 482.89
+            },
+            "fdv": 734286,
+            "marketCap": 734286,
+            "pairCreatedAt": 1742534157000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ.png?key=9aea0b",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ/header.png?key=9aea0b",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ?timestamp=1750434600000",
+              "websites": [],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/narracanz/status/1902953263538053561"
+                },
+                {
+                  "type": "telegram",
+                  "url": "https://t.me/+i7u-Ugtk7c0yZDQx"
+                }
+              ]
+            }
+          },
+          "chain_distribution": {
+            "solana": 8,
+            "bsc": 4,
+            "pulsechain": 13,
+            "blast": 1,
+            "tron": 1,
+            "flowevm": 1,
+            "hyperliquid": 1,
+            "core": 1
+          },
+          "volume_range": {
+            "min": 0.15,
+            "max": 158758.09,
+            "avg": 8816.886296296296,
+            "count": 27
+          }
+        },
+        "meme": {
+          "results_count": 30,
+          "sample_result": {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+            "pairAddress": "0x70cF99553471FE6C0d513ebFac8aCC55BA02ab7B",
+            "labels": [
+              "v3"
+            ],
+            "baseToken": {
+              "address": "0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74",
+              "name": "Memecoin",
+              "symbol": "MEME"
+            },
+            "quoteToken": {
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "name": "Wrapped Ether",
+              "symbol": "WETH"
+            },
+            "priceNative": "0.0000006105",
+            "priceUsd": "0.001525",
+            "txns": {
+              "m5": {
+                "buys": 0,
+                "sells": 0
+              },
+              "h1": {
+                "buys": 1,
+                "sells": 1
+              },
+              "h6": {
+                "buys": 1,
+                "sells": 3
+              },
+              "h24": {
+                "buys": 12,
+                "sells": 10
+              }
+            },
+            "volume": {
+              "h24": 360.13,
+              "h6": 70.96,
+              "h1": 64.29,
+              "m5": 0
+            },
+            "priceChange": {
+              "h1": 1.01,
+              "h6": -2.71,
+              "h24": 5.31
+            },
+            "liquidity": {
+              "usd": 53599.73,
+              "base": 29230005,
+              "quote": 3.6063
+            },
+            "fdv": 105257779,
+            "marketCap": 72722144,
+            "pairCreatedAt": 1698990467000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74.png?key=1d0259",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74/header.png?key=1d0259",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74?timestamp=1750434600000",
+              "websites": [
+                {
+                  "label": "Website",
+                  "url": "https://www.memecoin.org/"
+                },
+                {
+                  "label": "Docs",
+                  "url": "https://www.memecoin.org/whitepaper"
+                }
+              ],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/memecoin"
+                },
+                {
+                  "type": "telegram",
+                  "url": "https://t.me/memecoin/"
+                },
+                {
+                  "type": "discord",
+                  "url": "http://discord.gg/memeland"
+                }
+              ]
+            }
+          },
+          "chain_distribution": {
+            "ethereum": 2,
+            "solana": 25,
+            "bsc": 1,
+            "osmosis": 2
+          },
+          "volume_range": {
+            "min": 0.13,
+            "max": 2791.67,
+            "avg": 274.4943333333333,
+            "count": 30
+          }
+        },
+        "gaming": {
+          "results_count": 30,
+          "sample_result": {
+            "chainId": "solana",
+            "dexId": "pumpswap",
+            "url": "https://dexscreener.com/solana/dpsedc9pjy6euotipqen9xzhvsseqqj3nwsnvd6tvedd",
+            "pairAddress": "DpsEDC9Pjy6eUoTipQeN9xzhvssEQqj3nWsNvD6TveDD",
+            "baseToken": {
+              "address": "CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump",
+              "name": "GAMING",
+              "symbol": "GAMING"
+            },
+            "quoteToken": {
+              "address": "So11111111111111111111111111111111111111112",
+              "name": "Wrapped SOL",
+              "symbol": "SOL"
+            },
+            "priceNative": "0.0000006883",
+            "priceUsd": "0.00009865",
+            "txns": {
+              "m5": {
+                "buys": 3,
+                "sells": 1
+              },
+              "h1": {
+                "buys": 9,
+                "sells": 6
+              },
+              "h6": {
+                "buys": 13,
+                "sells": 10
+              },
+              "h24": {
+                "buys": 35,
+                "sells": 29
+              }
+            },
+            "volume": {
+              "h24": 6201.65,
+              "h6": 2728.51,
+              "h1": 1887.01,
+              "m5": 82.34
+            },
+            "priceChange": {
+              "m5": 4.42,
+              "h1": 19.45,
+              "h6": 19.36,
+              "h24": 30.16
+            },
+            "liquidity": {
+              "usd": 38628.22,
+              "base": 195865231,
+              "quote": 134.6901
+            },
+            "fdv": 98636,
+            "marketCap": 98636,
+            "pairCreatedAt": 1746330481000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump.png?key=5cc090",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump/header.png?key=5cc090",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump?timestamp=1750434600000",
+              "websites": [
+                {
+                  "label": "Website",
+                  "url": "https://gamingonsol.tech/"
+                }
+              ],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/GAMING_ON_SOL"
+                },
+                {
+                  "type": "telegram",
+                  "url": "https://t.me/gaming_sol"
+                }
+              ]
+            }
+          },
+          "chain_distribution": {
+            "solana": 10,
+            "ethereum": 3,
+            "polygon": 1,
+            "bsc": 16
+          },
+          "volume_range": {
+            "min": 0.03,
+            "max": 792077.48,
+            "avg": 34756.969999999994,
+            "count": 23
+          }
+        }
+      },
+      "batch_token_data": {
+        "ethereum": {
+          "status": "success",
+          "tokens_requested": 1,
+          "tokens_returned": 1,
+          "sample_token_data": {
+            "chainId": "ethereum",
+            "dexId": "uniswap",
+            "url": "https://dexscreener.com/ethereum/0xbfb44ca902ebdcd739bbe1265bc650510515829a",
+            "pairAddress": "0xbFB44ca902ebDcD739BbE1265BC650510515829a",
+            "labels": [
+              "v2"
+            ],
+            "baseToken": {
+              "address": "0x27674A271D8Ba463186ECAa344288e1A59d30253",
+              "name": "Mind AI",
+              "symbol": "MAI"
+            },
+            "quoteToken": {
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "name": "Wrapped Ether",
+              "symbol": "WETH"
+            },
+            "priceNative": "0.0000001713",
+            "priceUsd": "0.0004283",
+            "txns": {
+              "m5": {
+                "buys": 10,
+                "sells": 2
+              },
+              "h1": {
+                "buys": 110,
+                "sells": 12
+              },
+              "h6": {
+                "buys": 110,
+                "sells": 12
+              },
+              "h24": {
+                "buys": 110,
+                "sells": 12
+              }
+            },
+            "volume": {
+              "h24": 108733.66,
+              "h6": 108733.66,
+              "h1": 108733.66,
+              "m5": 17317.94
+            },
+            "priceChange": {
+              "m5": -1.93,
+              "h1": 10948,
+              "h6": 10948,
+              "h24": 10948
+            },
+            "liquidity": {
+              "usd": 80298.15,
+              "base": 93734064,
+              "quote": 16.05328
+            },
+            "fdv": 428383,
+            "marketCap": 427457,
+            "pairCreatedAt": 1750433867000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253.png?key=4dfa8a",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253/header.png?key=4dfa8a",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x27674a271d8ba463186ecaa344288e1a59d30253?timestamp=1750434600000",
+              "websites": [
+                {
+                  "label": "Website",
+                  "url": "https://www.mind-ai.org"
+                }
+              ],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/MIND_AI_ORG"
+                },
+                {
+                  "type": "telegram",
+                  "url": "https://t.me/mind_ai_portal"
+                }
+              ]
+            }
+          },
+          "data_richness": {
+            "has_price_data": true,
+            "has_volume_data": true,
+            "has_transaction_data": true,
+            "has_market_cap": true,
+            "has_social_info": true,
+            "has_price_changes": true,
+            "pair_created_timestamp": 1750433867000,
+            "available_timeframes": [
+              "h24",
+              "h6",
+              "h1",
+              "m5"
+            ]
+          }
+        },
+        "solana": {
+          "status": "success",
+          "tokens_requested": 3,
+          "tokens_returned": 3,
+          "sample_token_data": {
+            "chainId": "solana",
+            "dexId": "pumpswap",
+            "url": "https://dexscreener.com/solana/5nyamn3jk4v6lru3zzvjbhpebyalgch6khuxd9npm9u6",
+            "pairAddress": "5nyamn3Jk4V6Lru3zzVjBhPEbYALGCh6KHUXD9NPM9u6",
+            "baseToken": {
+              "address": "7qFFW4Z1TUBDmUqF2NWSt47a8FcjcmJacuCm7QwXpump",
+              "name": "rilly",
+              "symbol": "rilly"
+            },
+            "quoteToken": {
+              "address": "So11111111111111111111111111111111111111112",
+              "name": "Wrapped SOL",
+              "symbol": "SOL"
+            },
+            "priceNative": "0.0000005797",
+            "priceUsd": "0.00008290",
+            "txns": {
+              "m5": {
+                "buys": 925,
+                "sells": 756
+              },
+              "h1": {
+                "buys": 1268,
+                "sells": 971
+              },
+              "h6": {
+                "buys": 1268,
+                "sells": 971
+              },
+              "h24": {
+                "buys": 1268,
+                "sells": 971
+              }
+            },
+            "volume": {
+              "h24": 137640.62,
+              "h6": 137640.62,
+              "h1": 137640.62,
+              "m5": 102825.35
+            },
+            "priceChange": {
+              "m5": 48.9,
+              "h1": 40.03,
+              "h6": 40.03,
+              "h24": 40.03
+            },
+            "liquidity": {
+              "usd": 29193.39,
+              "base": 175381589,
+              "quote": 102.4607
+            },
+            "fdv": 82908,
+            "marketCap": 82908,
+            "pairCreatedAt": 1750434353000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/7qFFW4Z1TUBDmUqF2NWSt47a8FcjcmJacuCm7QwXpump.png?key=8f827e",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7qFFW4Z1TUBDmUqF2NWSt47a8FcjcmJacuCm7QwXpump/header.png?key=8f827e",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7qFFW4Z1TUBDmUqF2NWSt47a8FcjcmJacuCm7QwXpump?timestamp=1750434600000",
+              "websites": [],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/i/communities/1932411533117776019"
+                }
+              ]
+            }
+          },
+          "data_richness": {
+            "has_price_data": true,
+            "has_volume_data": true,
+            "has_transaction_data": true,
+            "has_market_cap": true,
+            "has_social_info": true,
+            "has_price_changes": true,
+            "pair_created_timestamp": 1750434353000,
+            "available_timeframes": [
+              "h24",
+              "h6",
+              "h1",
+              "m5"
+            ]
+          }
+        },
+        "avalanche": {
+          "status": "success",
+          "tokens_requested": 1,
+          "tokens_returned": 1,
+          "sample_token_data": {
+            "chainId": "avalanche",
+            "dexId": "arenatrade",
+            "url": "https://dexscreener.com/avalanche/0x502ac027a851735159d192ed2edcfb2e788d7bb9",
+            "pairAddress": "0x502Ac027A851735159D192ed2EdCFB2e788D7Bb9",
+            "baseToken": {
+              "address": "0x19F47e3B0d39087601827AE99Bc40368c4712eBa",
+              "name": "TOKY",
+              "symbol": "TOKY"
+            },
+            "quoteToken": {
+              "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+              "name": "Wrapped AVAX",
+              "symbol": "WAVAX"
+            },
+            "priceNative": "0.00000004141",
+            "priceUsd": "0.0000007406",
+            "txns": {
+              "m5": {
+                "buys": 27,
+                "sells": 38
+              },
+              "h1": {
+                "buys": 640,
+                "sells": 552
+              },
+              "h6": {
+                "buys": 640,
+                "sells": 552
+              },
+              "h24": {
+                "buys": 640,
+                "sells": 552
+              }
+            },
+            "volume": {
+              "h24": 220813.22,
+              "h6": 220813.22,
+              "h1": 220813.22,
+              "m5": 4553.27
+            },
+            "priceChange": {
+              "m5": 16.36,
+              "h1": -83.28,
+              "h6": -83.28,
+              "h24": -83.28
+            },
+            "liquidity": {
+              "usd": 8081.38,
+              "base": 5455445181,
+              "quote": 225.9572
+            },
+            "fdv": 7407,
+            "marketCap": 7407,
+            "pairCreatedAt": 1750433709000,
+            "info": {
+              "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x19f47e3b0d39087601827ae99bc40368c4712eba.png?key=c17c11",
+              "header": "https://dd.dexscreener.com/ds-data/tokens/avalanche/0x19f47e3b0d39087601827ae99bc40368c4712eba/header.png?key=c17c11",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/avalanche/0x19f47e3b0d39087601827ae99bc40368c4712eba?timestamp=1750434600000",
+              "websites": [],
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/Tokyavax"
+                }
+              ]
+            }
+          },
+          "data_richness": {
+            "has_price_data": true,
+            "has_volume_data": true,
+            "has_transaction_data": true,
+            "has_market_cap": true,
+            "has_social_info": true,
+            "has_price_changes": true,
+            "pair_created_timestamp": 1750433709000,
+            "available_timeframes": [
+              "h24",
+              "h6",
+              "h1",
+              "m5"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "recommendations": {
+    "high_priority_enhancements": [
+      {
+        "source": "RugCheck",
+        "enhancement": "Detailed Risk Analysis Integration",
+        "description": "Extract granular risk scores, holder concentration analysis, and creator history",
+        "value": "Enhanced security filtering and risk scoring",
+        "implementation": "Add detailed report analysis to token evaluation pipeline"
+      },
+      {
+        "source": "DexScreener",
+        "enhancement": "Marketing Investment Tracking",
+        "description": "Track promotional spending and marketing timeline for tokens",
+        "value": "Identify heavily promoted tokens and marketing patterns",
+        "implementation": "Add marketing order analysis to token discovery strategies"
+      }
+    ],
+    "medium_priority_enhancements": [
+      {
+        "source": "DexScreener",
+        "enhancement": "Promotion Level Analysis",
+        "description": "Analyze promotion amounts and boost patterns",
+        "value": "Identify tokens with significant promotional backing",
+        "implementation": "Integrate boost data into token scoring algorithms"
+      }
+    ],
+    "data_quality_improvements": [
+      {
+        "enhancement": "Batch Data Optimization",
+        "description": "Use batch endpoints to reduce API calls and get richer data",
+        "value": "Improved efficiency and more comprehensive token data",
+        "implementation": "Replace individual token calls with batch requests where possible"
+      }
+    ],
+    "new_analysis_capabilities": [
+      {
+        "source": "DexScreener",
+        "enhancement": "Narrative-Based Discovery",
+        "description": "Discover tokens based on trending narratives (AI, gaming, etc.)",
+        "value": "Early detection of narrative-driven token movements",
+        "implementation": "Add narrative search to discovery strategies"
+      }
+    ]
+  },
+  "summary": {
+    "total_working_endpoints": 7,
+    "enhancement_opportunities": 3,
+    "new_capabilities": 1
+  }
+}

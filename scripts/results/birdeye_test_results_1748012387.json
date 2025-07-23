@@ -1,0 +1,149 @@
+{
+  "get_token_overview": {
+    "status": "PASS",
+    "response_time": 3.978,
+    "data_type": "dict",
+    "data_size": 253,
+    "sample_data": "Keys: ['address', 'decimals', 'symbol']"
+  },
+  "get_token_creation_info": {
+    "status": "PASS",
+    "response_time": 0.92,
+    "data_type": "dict",
+    "data_size": 7,
+    "sample_data": "Keys: ['txHash', 'slot', 'tokenAddress']"
+  },
+  "get_token_holders": {
+    "status": "PASS",
+    "response_time": 0.749,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'amount': '785979267744984', 'decimals': 6, 'mint': '85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'..."
+  },
+  "get_historical_price_at_timestamp": {
+    "status": "PASS",
+    "response_time": 0.78,
+    "data_type": "dict",
+    "data_size": 2,
+    "sample_data": "Keys: ['timestamp', 'price']"
+  },
+  "get_multi_price": {
+    "status": "PASS",
+    "response_time": 0.912,
+    "data_type": "dict",
+    "data_size": 1,
+    "sample_data": "Keys: ['So11111111111111111111111111111111111111112']"
+  },
+  "get_ohlcv_data": {
+    "status": "PASS",
+    "response_time": 3.065,
+    "data_type": "list",
+    "data_size": 0,
+    "sample_data": "Length: 0, Sample: []..."
+  },
+  "get_token_trades": {
+    "status": "PASS",
+    "response_time": 0.981,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'quote': {'symbol': 'USDC', 'decimals': 6, 'address': 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1..."
+  },
+  "get_token_transactions": {
+    "status": "PASS",
+    "response_time": 0.825,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'quote': {'symbol': 'USDC', 'decimals': 6, 'address': 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1..."
+  },
+  "get_token_top_traders": {
+    "status": "PASS",
+    "response_time": 0.896,
+    "data_type": "list",
+    "data_size": 5,
+    "sample_data": "Length: 5, Sample: [{'address': 'FUNDduJTA7XcckKHKfAoEnnhuSud2JUCUZv6opWEjrBU', 'side': 'sell', 'time': 1748012205, 'tx..."
+  },
+  "get_token_transaction_volume": {
+    "status": "PASS",
+    "response_time": 2.944,
+    "data_type": "float",
+    "data_size": "N/A",
+    "sample_data": "Value: 4068.9263141217566"
+  },
+  "get_wallet_portfolio": {
+    "status": "PASS",
+    "response_time": 1.862,
+    "data_type": "dict",
+    "data_size": 3,
+    "sample_data": "Keys: ['wallet', 'totalUsd', 'items']"
+  },
+  "get_wallet_transaction_history": {
+    "status": "PASS",
+    "response_time": 1.065,
+    "data_type": "list",
+    "data_size": 0,
+    "sample_data": "Length: 0, Sample: []..."
+  },
+  "get_trader_gainers_losers": {
+    "status": "PASS",
+    "response_time": 0.771,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'network': 'solana', 'address': 'GFHMc9BegxJXLdHJrABxNVoPRdnmVxXiNeoUCEpgXVHw', 'pnl': 41029239.04..."
+  },
+  "get_token_security": {
+    "status": "PASS",
+    "response_time": 0.867,
+    "data_type": "dict",
+    "data_size": 35,
+    "sample_data": "Keys: ['creatorAddress', 'creatorOwnerAddress', 'ownerAddress']"
+  },
+  "detect_smart_money_activity": {
+    "status": "PASS",
+    "response_time": 0.989,
+    "data_type": "dict",
+    "data_size": 6,
+    "sample_data": "Keys: ['has_smart_money', 'smart_money_wallets', 'smart_money_buy_count']"
+  },
+  "get_trending_tokens": {
+    "status": "PASS",
+    "response_time": 0.791,
+    "data_type": "list",
+    "data_size": 20,
+    "sample_data": "Length: 20, Sample: ['7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr', 'JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN']..."
+  },
+  "get_new_listings": {
+    "status": "PASS",
+    "response_time": 0.001,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'address': '2TLoXNNHztVsEduEtdfHAre5npFeqQMjwUXFMhps5gcz', 'symbol': 'Phoenix', 'name': 'Phoenix L..."
+  },
+  "get_top_traders": {
+    "status": "PASS",
+    "response_time": 0.001,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'tokenAddress': 'So11111111111111111111111111111111111111112', 'owner': 'MfDuWeqSHEqTFVYZ7LoexgAK9..."
+  },
+  "get_gainers_losers": {
+    "status": "PASS",
+    "response_time": 0.002,
+    "data_type": "list",
+    "data_size": 10,
+    "sample_data": "Length: 10, Sample: [{'network': 'solana', 'address': 'GFHMc9BegxJXLdHJrABxNVoPRdnmVxXiNeoUCEpgXVHw', 'pnl': 41029239.04..."
+  },
+  "get_token_trade_metrics": {
+    "status": "PASS",
+    "response_time": 6.372,
+    "data_type": "dict",
+    "data_size": 10,
+    "sample_data": "Keys: ['buy_sell_ratios', 'trade_frequency', 'volume_trend']"
+  },
+  "get_historical_trade_data": {
+    "status": "PASS",
+    "response_time": 1.723,
+    "data_type": "dict",
+    "data_size": 2,
+    "sample_data": "Keys: [3600, 86400]"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-06-18T13:55:19.525597",
+  "total_execution_time": 0.047688961029052734,
+  "levels_tested": 5,
+  "successful_levels": 0,
+  "results": [
+    {
+      "level_name": "Level 1: Maximum Selectivity",
+      "level_number": 1,
+      "selectivity_level": "maximum",
+      "error": "'SmartMoneyWhaleStrategy' object has no attribute 'discover_tokens'",
+      "success": false,
+      "tokens_found": 0,
+      "execution_time": 0.001207113265991211
+    },
+    {
+      "level_name": "Level 2: High Selectivity",
+      "level_number": 2,
+      "selectivity_level": "high",
+      "error": "'SmartMoneyWhaleStrategy' object has no attribute 'discover_tokens'",
+      "success": false,
+      "tokens_found": 0,
+      "execution_time": 0.001177072525024414
+    },
+    {
+      "level_name": "Level 3: Medium Selectivity",
+      "level_number": 3,
+      "selectivity_level": "medium",
+      "error": "'SmartMoneyWhaleStrategy' object has no attribute 'discover_tokens'",
+      "success": false,
+      "tokens_found": 0,
+      "execution_time": 0.0016260147094726562
+    },
+    {
+      "level_name": "Level 4: Low Selectivity",
+      "level_number": 4,
+      "selectivity_level": "low",
+      "error": "'SmartMoneyWhaleStrategy' object has no attribute 'discover_tokens'",
+      "success": false,
+      "tokens_found": 0,
+      "execution_time": 0.0009350776672363281
+    },
+    {
+      "level_name": "Level 5: Minimum Viable",
+      "level_number": 5,
+      "selectivity_level": "minimum",
+      "error": "'SmartMoneyWhaleStrategy' object has no attribute 'discover_tokens'",
+      "success": false,
+      "tokens_found": 0,
+      "execution_time": 0.0018398761749267578
+    }
+  ],
+  "best_performers": {
+    "best_quality": null,
+    "most_efficient": null,
+    "fastest": null
+  },
+  "recommendations": {
+    "status": "no_success",
+    "recommendation": "Consider further relaxing thresholds or checking market conditions",
+    "suggested_actions": [
+      "Check if API is returning data correctly",
+      "Verify whale and smart money services are functioning",
+      "Consider market conditions (low activity periods)",
+      "Test with different time frames",
+      "Review base token filtering criteria"
+    ]
+  },
+  "summary": {
+    "success_rate": 0.0,
+    "total_tokens_found": 0,
+    "avg_execution_time": 0.0013570308685302735
+  }
+}

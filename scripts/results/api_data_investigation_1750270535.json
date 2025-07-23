@@ -1,0 +1,46 @@
+{
+  "investigation_timestamp": "2025-06-18T14:15:35.981540",
+  "tokens_analyzed": 7,
+  "analyses": [
+    {
+      "token_address": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+      "timestamp": "2025-06-18T14:15:33.156595",
+      "error": "No raw data available"
+    },
+    {
+      "token_address": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+      "timestamp": "2025-06-18T14:15:34.117874",
+      "error": "No raw data available"
+    },
+    {
+      "token_address": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+      "timestamp": "2025-06-18T14:15:34.424122",
+      "error": "No raw data available"
+    },
+    {
+      "token_address": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+      "timestamp": "2025-06-18T14:15:34.784857",
+      "error": "No raw data available"
+    },
+    {
+      "token_address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+      "timestamp": "2025-06-18T14:15:35.108004",
+      "error": "No raw data available"
+    },
+    {
+      "token_address": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+      "timestamp": "2025-06-18T14:15:35.312811",
+      "error": "No raw data available"
+    },
+    {
+      "token_address": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+      "timestamp": "2025-06-18T14:15:35.651236",
+      "error": "No raw data available"
+    }
+  ],
+  "recommendations": {
+    "current_market_reality": {},
+    "suggested_thresholds": {},
+    "data_insights": []
+  }
+}

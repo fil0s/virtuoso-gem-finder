@@ -1,0 +1,519 @@
+{
+  "demo_info": {
+    "timestamp": "2025-06-24T21:31:36.199060",
+    "sample_tokens_tested": 9,
+    "tokens_discovered": 6,
+    "discovery_rate": 66.66666666666666,
+    "correction_applied": true,
+    "corrected_addresses": [
+      "GOR",
+      "SPX",
+      "INF"
+    ]
+  },
+  "address_corrections": {
+    "original_demo_issues": {
+      "GOR": {
+        "original": "GoRiLLaMaXiMuS1xRbNPNwkcyJHjneFJHKdXvLvXqK7L",
+        "issue": "Fake address (45 chars, not valid Solana format)",
+        "corrected": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "validation": "Real GOR token address confirmed via DexScreener"
+      },
+      "SPX": {
+        "original": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "issue": "Wrong token (actually RAY/Raydium, not SPX)",
+        "corrected": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "validation": "Real SPX token address confirmed via DexScreener"
+      },
+      "INF": {
+        "original": "9ny7t7bMmEWzfb6k7Lm9mEV7GdLvxhRHdKXW3x2fQvpL",
+        "issue": "Wrong address for INF token",
+        "corrected": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+        "validation": "Real INF token address found in system data"
+      }
+    }
+  },
+  "sample_token_analysis": {
+    "USELESS": {
+      "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "found_in_analysis": true,
+      "platforms": [
+        "jupiter_pricing",
+        "jupiter",
+        "birdeye_emerging_stars",
+        "birdeye"
+      ],
+      "score": 47.0,
+      "symbol": "USELESS",
+      "name": "USELESS COIN",
+      "price": 0.13446256084410643,
+      "volume_24h": 16010541.920397516,
+      "market_cap": 134452780.14783582,
+      "liquidity": 6211605.255314839,
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "TRUMP": {
+      "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+      "found_in_analysis": true,
+      "platforms": [
+        "meteora",
+        "jupiter",
+        "birdeye_emerging_stars",
+        "jupiter_pricing"
+      ],
+      "score": 53.0,
+      "symbol": "TRUMP",
+      "name": "OFFICIAL TRUMP",
+      "price": 9.238477974350063,
+      "volume_24h": 95441009.62651756,
+      "market_cap": 1847689579.4501793,
+      "liquidity": 359204649.4295325,
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "aura": {
+      "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+      "found_in_analysis": true,
+      "platforms": [
+        "jupiter_pricing",
+        "jupiter",
+        "birdeye"
+      ],
+      "score": 18.0,
+      "symbol": "aura",
+      "name": "aura",
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity": 0,
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "GOR": {
+      "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+      "found_in_analysis": true,
+      "platforms": [
+        "jupiter_pricing",
+        "jupiter",
+        "birdeye_emerging_stars"
+      ],
+      "score": 43.0,
+      "symbol": "GOR",
+      "name": "Gorbagana",
+      "price": 0.019882194123564477,
+      "volume_24h": 25637945.669037167,
+      "market_cap": 19881147.28721122,
+      "liquidity": 3953062.140654531,
+      "correction_status": "CORRECTED"
+    },
+    "SPX": {
+      "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "found_in_analysis": true,
+      "platforms": [
+        "jupiter_pricing",
+        "jupiter",
+        "birdeye_emerging_stars",
+        "birdeye"
+      ],
+      "score": 48.0,
+      "symbol": "SPX",
+      "name": "SPX6900 (Wormhole)",
+      "price": 1.3148751300850101,
+      "volume_24h": 11524216.941831145,
+      "market_cap": 152166540.40957025,
+      "liquidity": 7784065.466350864,
+      "correction_status": "CORRECTED"
+    },
+    "MUMU": {
+      "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+      "found_in_analysis": false,
+      "platforms": [],
+      "score": 0,
+      "symbol": "MUMU",
+      "reason": "Not discovered by any platform (likely low activity)",
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "$michi": {
+      "address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+      "found_in_analysis": false,
+      "platforms": [],
+      "score": 0,
+      "symbol": "$michi",
+      "reason": "Not discovered by any platform (likely low activity)",
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "BILLY": {
+      "address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+      "found_in_analysis": false,
+      "platforms": [],
+      "score": 0,
+      "symbol": "BILLY",
+      "reason": "Not discovered by any platform (likely low activity)",
+      "correction_status": "ORIGINAL_VALID"
+    },
+    "INF": {
+      "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+      "found_in_analysis": true,
+      "platforms": [
+        "jupiter_pricing",
+        "jupiter",
+        "birdeye"
+      ],
+      "score": 18.0,
+      "symbol": "INF",
+      "name": "Infinity",
+      "price": 0,
+      "volume_24h": 0,
+      "market_cap": 0,
+      "liquidity": 0,
+      "correction_status": "CORRECTED"
+    }
+  },
+  "platform_effectiveness": {
+    "platform_stats": {
+      "jupiter_pricing": 6,
+      "jupiter": 6,
+      "birdeye_emerging_stars": 4,
+      "birdeye": 4,
+      "meteora": 1
+    },
+    "platform_effectiveness": {
+      "jupiter_pricing": {
+        "tokens_discovered": 6,
+        "avg_score": 37.833333333333336,
+        "max_score": 53.0,
+        "effectiveness_rating": 157.83333333333334
+      },
+      "jupiter": {
+        "tokens_discovered": 6,
+        "avg_score": 37.833333333333336,
+        "max_score": 53.0,
+        "effectiveness_rating": 157.83333333333334
+      },
+      "birdeye_emerging_stars": {
+        "tokens_discovered": 4,
+        "avg_score": 47.75,
+        "max_score": 53.0,
+        "effectiveness_rating": 127.75
+      },
+      "birdeye": {
+        "tokens_discovered": 4,
+        "avg_score": 32.75,
+        "max_score": 48.0,
+        "effectiveness_rating": 112.75
+      },
+      "meteora": {
+        "tokens_discovered": 1,
+        "avg_score": 53.0,
+        "max_score": 53.0,
+        "effectiveness_rating": 73.0
+      }
+    },
+    "most_effective_platform": "jupiter_pricing"
+  },
+  "dex_leverage_opportunities": {
+    "yield_farming_candidates": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "dex_platforms": [
+          "jupiter"
+        ],
+        "score": 47.0,
+        "potential_yield_rating": 40.0,
+        "vlr": 2.5775208279209965,
+        "vlr_yield_correlation": "\u2705 Good correlation"
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "dex_platforms": [
+          "meteora",
+          "jupiter"
+        ],
+        "score": 53.0,
+        "potential_yield_rating": 55.0,
+        "vlr": 0.2657009305923275,
+        "vlr_yield_correlation": "\ud83d\udcca Moderate correlation"
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "dex_platforms": [
+          "jupiter"
+        ],
+        "score": 43.0,
+        "potential_yield_rating": 40.0,
+        "vlr": 6.485591361028326,
+        "vlr_yield_correlation": "\u2705 Good correlation"
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "dex_platforms": [
+          "jupiter"
+        ],
+        "score": 48.0,
+        "potential_yield_rating": 40.0,
+        "vlr": 1.4804881834111359,
+        "vlr_yield_correlation": "\ud83d\udcca Moderate correlation"
+      }
+    ],
+    "arbitrage_opportunities": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "platforms": [
+          "jupiter_pricing",
+          "jupiter",
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "arbitrage_potential": 90.0,
+        "vlr": 2.5775208279209965,
+        "vlr_arbitrage_correlation": "\ud83d\udcc8 Moderate arbitrage opportunities"
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "platforms": [
+          "meteora",
+          "jupiter",
+          "birdeye_emerging_stars",
+          "jupiter_pricing"
+        ],
+        "arbitrage_potential": 90.0,
+        "vlr": 0.2657009305923275,
+        "vlr_arbitrage_correlation": "\ud83d\udcca Limited arbitrage potential"
+      },
+      {
+        "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+        "symbol": "aura",
+        "platforms": [
+          "jupiter_pricing",
+          "jupiter",
+          "birdeye"
+        ],
+        "arbitrage_potential": 45.0,
+        "vlr": 0,
+        "vlr_arbitrage_correlation": "\ud83d\udcca Limited arbitrage potential"
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "platforms": [
+          "jupiter_pricing",
+          "jupiter",
+          "birdeye_emerging_stars"
+        ],
+        "arbitrage_potential": 75.0,
+        "vlr": 6.485591361028326,
+        "vlr_arbitrage_correlation": "\ud83c\udfaf High arbitrage potential with active trading"
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "platforms": [
+          "jupiter_pricing",
+          "jupiter",
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "arbitrage_potential": 90.0,
+        "vlr": 1.4804881834111359,
+        "vlr_arbitrage_correlation": "\ud83d\udcc8 Moderate arbitrage opportunities"
+      },
+      {
+        "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+        "symbol": "INF",
+        "platforms": [
+          "jupiter_pricing",
+          "jupiter",
+          "birdeye"
+        ],
+        "arbitrage_potential": 45.0,
+        "vlr": 0,
+        "vlr_arbitrage_correlation": "\ud83d\udcca Limited arbitrage potential"
+      }
+    ],
+    "liquidity_provision_opportunities": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "liquidity_usd": 6211605.255314839,
+        "volume_24h_usd": 16010541.920397516,
+        "volume_to_liquidity_ratio": 2.5775208279209965,
+        "lp_attractiveness_score": 79.52413383017918,
+        "lp_analysis": "Good VLR (2.58) - solid fee generation; Medium pool ($6.2M) - balanced risk; High volume ($16.0M) - active trading",
+        "gem_stage": "GemStage.ROCKET",
+        "position_recommendation": "\ud83d\udcc8 BUY - Scale up positions (good momentum)"
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "liquidity_usd": 359204649.4295325,
+        "volume_24h_usd": 95441009.62651756,
+        "volume_to_liquidity_ratio": 0.2657009305923275,
+        "lp_attractiveness_score": 16.40835031597883,
+        "lp_analysis": "Low VLR (0.27) - limited fee potential; Large pool ($359.2M) - lower IL risk; Very high volume ($95.4M) - strong market",
+        "gem_stage": "GemStage.EMBRYO",
+        "position_recommendation": "\ud83d\udcca RESEARCH - Too early for positions"
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "liquidity_usd": 3953062.140654531,
+        "volume_24h_usd": 25637945.669037167,
+        "volume_to_liquidity_ratio": 6.485591361028326,
+        "lp_attractiveness_score": 100.0,
+        "lp_analysis": "Excellent VLR (6.49) - strong fee potential; Medium pool ($4.0M) - balanced risk; High volume ($25.6M) - active trading",
+        "gem_stage": "GemStage.DIAMOND",
+        "position_recommendation": "\ud83d\ude80 STRONG BUY - Maximum allocation (peak performance)"
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "liquidity_usd": 7784065.466350864,
+        "volume_24h_usd": 11524216.941831145,
+        "volume_to_liquidity_ratio": 1.4804881834111359,
+        "lp_attractiveness_score": 60.074096295996554,
+        "lp_analysis": "Moderate VLR (1.48) - decent fees; Medium pool ($7.8M) - balanced risk; High volume ($11.5M) - active trading",
+        "gem_stage": "GemStage.ROCKET",
+        "position_recommendation": "\u2705 ACCUMULATE - Small positions (early discovery)"
+      }
+    ],
+    "gem_hunting_analysis": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "vlr": 2.5775208279209965,
+        "gem_stage": "\ud83d\ude80 Rocket",
+        "gem_phase": "\ud83d\ude80 Momentum Phase",
+        "is_gem_candidate": false,
+        "investment_strategy": "Scale up positions (10-20% portfolio)",
+        "risk_level": "\ud83d\udfe2 Moderate Risk",
+        "upside_potential": "\ud83d\udcc8 High (Momentum Building)",
+        "position_size_recommendation": "20-40% (High conviction)",
+        "entry_triggers": [
+          "VLR breakout above 2.0",
+          "Platform listing confirmation"
+        ],
+        "exit_triggers": [
+          "VLR above 10.0",
+          "Fundamental deterioration"
+        ],
+        "monitoring_frequency": "Every 2-4 hours (Medium)"
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "symbol": "TRUMP",
+        "vlr": 0.2657009305923275,
+        "gem_stage": "\ud83e\udd5a Embryo",
+        "gem_phase": "\ud83d\udcca Monitoring Phase",
+        "is_gem_candidate": false,
+        "investment_strategy": "Research only - too early for positions",
+        "risk_level": "\ud83d\udfe2 Low Risk",
+        "upside_potential": "\ud83d\udcca Moderate",
+        "position_size_recommendation": "0-5% (Research only)",
+        "entry_triggers": [
+          "VLR movement above 0.5",
+          "Fundamental catalyst"
+        ],
+        "exit_triggers": [
+          "VLR above 10.0",
+          "Fundamental deterioration"
+        ],
+        "monitoring_frequency": "Daily (Low)"
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "vlr": 6.485591361028326,
+        "gem_stage": "\ud83d\udc8e Diamond",
+        "gem_phase": "\ud83d\udcb0 Peak Performance Phase",
+        "is_gem_candidate": false,
+        "investment_strategy": "Maximum allocation (20-40% portfolio)",
+        "risk_level": "\ud83d\udfe1 High Risk",
+        "upside_potential": "\ud83d\udcb0 Medium (Peak Performance)",
+        "position_size_recommendation": "15-30% (Peak opportunity)",
+        "entry_triggers": [
+          "VLR decline from peak",
+          "Volume stabilization"
+        ],
+        "exit_triggers": [
+          "VLR decline trend",
+          "Take profits at peaks"
+        ],
+        "monitoring_frequency": "Every 30-60 minutes (High)"
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "symbol": "SPX",
+        "vlr": 1.4804881834111359,
+        "gem_stage": "\ud83d\ude80 Rocket",
+        "gem_phase": "\ud83d\udcca Monitoring Phase",
+        "is_gem_candidate": false,
+        "investment_strategy": "Scale up positions (10-20% portfolio)",
+        "risk_level": "\ud83d\udfe2 Low Risk",
+        "upside_potential": "\ud83d\ude80 Very High (Early Discovery)",
+        "position_size_recommendation": "10-25% (Building position)",
+        "entry_triggers": [
+          "VLR uptrend confirmation",
+          "Volume growth pattern"
+        ],
+        "exit_triggers": [
+          "VLR above 10.0",
+          "Fundamental deterioration"
+        ],
+        "monitoring_frequency": "Daily (Low)"
+      }
+    ],
+    "pump_dump_risk_assessment": [
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "symbol": "USELESS",
+        "vlr": 2.5775208279209965,
+        "risk_level": "\u2705 Low",
+        "sustainability_score": 0.8,
+        "warning_signals": [],
+        "recommended_action": "\u2705 Normal monitoring sufficient",
+        "monitoring_urgency": "\ud83d\udfe2 Low (daily)",
+        "position_adjustment": "Maintain positions, normal stops"
+      },
+      {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "symbol": "GOR",
+        "vlr": 6.485591361028326,
+        "risk_level": "\u26a0\ufe0f Medium",
+        "sustainability_score": 0.6,
+        "warning_signals": [],
+        "recommended_action": "\ud83d\udcca Monitor closely, reduce by 25-50%",
+        "monitoring_urgency": "\ud83d\udfe1 Medium (every hour)",
+        "position_adjustment": "Reduce by 25-50%, tight stops"
+      }
+    ]
+  },
+  "cross_platform_insights": [
+    "\u2705 Address corrections successful: 3 tokens now properly discovered",
+    "\ud83d\udcca Average discovery score: 37.8 (improved with correct addresses)",
+    "\ud83c\udf10 Cross-platform coverage: 5 unique platforms",
+    "\ud83d\udc8e High-conviction discoveries: 1 tokens with score \u226550",
+    "\ud83d\udd27 System validation: Discovery engine correctly rejected fake/mislabeled addresses"
+  ],
+  "original_analysis_summary": {
+    "total_tokens_analyzed": 186,
+    "execution_time": 53.02,
+    "platforms_used": [
+      "dexscreener_boosted",
+      "dexscreener_top",
+      "dexscreener_profiles",
+      "dexscreener_narratives",
+      "rugcheck_trending",
+      "birdeye_trending",
+      "birdeye_emerging_stars",
+      "jupiter_token_list",
+      "jupiter_quote_analysis",
+      "meteora_volume_trending",
+      "jupiter_batch_prices"
+    ]
+  },
+  "execution_time_seconds": 53.03353023529053
+}

@@ -1,0 +1,817 @@
+{
+  "investigation_timestamp": "2025-06-24T11:32:23.366386",
+  "investigation_duration_seconds": 138.65,
+  "lite_api_endpoints": {
+    "/v6/quote": {
+      "endpoint": "/v6/quote",
+      "url": "https://lite-api.jup.ag/v6/quote",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/v6/swap": {
+      "endpoint": "/v6/swap",
+      "url": "https://lite-api.jup.ag/v6/swap",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/v6/swap-instructions": {
+      "endpoint": "/v6/swap-instructions",
+      "url": "https://lite-api.jup.ag/v6/swap-instructions",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/v1/quote": {
+      "endpoint": "/v1/quote",
+      "url": "https://lite-api.jup.ag/v1/quote",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/price": {
+      "endpoint": "/price",
+      "url": "https://lite-api.jup.ag/price",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/tokens": {
+      "endpoint": "/tokens",
+      "url": "https://lite-api.jup.ag/tokens",
+      "status_code": 200,
+      "content_type": "application/json",
+      "content_length": "unknown",
+      "accessible": true,
+      "response_preview": "[{\"address\":\"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\",\"name\":\"USD Coin\",\"symbol\":\"USDC\",\"decimals\":6,\"logoURI\":\"https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png\",\"tags\":[\"community\",\"strict\",\"verified\"],\"daily_volume\":1685647738.68951,\"created_at\":\"2024-04-26T10:56:58.893768Z\",\"freeze_authority\":\"7dGbd2QZcCKcTndnHcTL8q7SMVXAkp688NTQYwrRCrar\",\"mint_authority\":\"BJE5MMbqXjVwjAF7oxwPYXnTXDyspzZyt4vwenNw5ruG\",\"perm...",
+      "error": null,
+      "is_json": true,
+      "json_keys": null
+    },
+    "/stats": {
+      "endpoint": "/stats",
+      "url": "https://lite-api.jup.ag/stats",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/health": {
+      "endpoint": "/health",
+      "url": "https://lite-api.jup.ag/health",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/": {
+      "endpoint": "/",
+      "url": "https://lite-api.jup.ag/",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/docs": {
+      "endpoint": "/docs",
+      "url": "https://lite-api.jup.ag/docs",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    },
+    "/api-docs": {
+      "endpoint": "/api-docs",
+      "url": "https://lite-api.jup.ag/api-docs",
+      "status_code": 404,
+      "content_type": "text/plain",
+      "content_length": "15",
+      "accessible": false,
+      "response_preview": null,
+      "error": "Route not found"
+    }
+  },
+  "main_api_endpoints": {
+    "/v6/quote": {
+      "endpoint": "/v6/quote",
+      "url": "https://quote-api.jup.ag/v6/quote",
+      "status_code": 400,
+      "content_type": "application/json",
+      "content_length": "45",
+      "accessible": false,
+      "response_preview": null,
+      "error": "{\"error\":\"Missing query parameter inputMint\"}"
+    },
+    "/v6/swap": {
+      "endpoint": "/v6/swap",
+      "url": "https://quote-api.jup.ag/v6/swap",
+      "status_code": 405,
+      "content_type": "unknown",
+      "content_length": "0",
+      "accessible": false,
+      "response_preview": null,
+      "error": "No error details"
+    },
+    "/v6/swap-instructions": {
+      "endpoint": "/v6/swap-instructions",
+      "url": "https://quote-api.jup.ag/v6/swap-instructions",
+      "status_code": 405,
+      "content_type": "unknown",
+      "content_length": "0",
+      "accessible": false,
+      "response_preview": null,
+      "error": "No error details"
+    },
+    "/v1/quote": {
+      "endpoint": "/v1/quote",
+      "url": "https://quote-api.jup.ag/v1/quote",
+      "status_code": 524,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": "unknown",
+      "accessible": false,
+      "response_preview": null,
+      "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-"
+    },
+    "/price": {
+      "endpoint": "/price",
+      "url": "https://quote-api.jup.ag/price",
+      "status_code": 404,
+      "content_type": "unknown",
+      "content_length": "0",
+      "accessible": false,
+      "response_preview": null,
+      "error": "No error details"
+    },
+    "/tokens": {
+      "endpoint": "/tokens",
+      "url": "https://quote-api.jup.ag/tokens",
+      "status_code": 200,
+      "content_type": "application/json",
+      "content_length": "unknown",
+      "accessible": true,
+      "response_preview": "[\"BT8qQY6N84WKaFQht72u9JHdtfgShreRwTZuVyBZPump\",\"FdUMuZaxxPQwwuw1n4xXyWycZK7atJZ1Ao4hhMABpump\",\"DszXpAdxVjpHtTWXBcApZDDNf79CzKDev2VmRSGApump\",\"12EkenBjStmuFgMKkorsDqPd6WdwnAP7PTp6H1mKPUmp\",\"9wMWDz2DgbdKbPy6rgGN4kn7Pw2kaz8QdSoKFSRapump\",\"G4SSVeJRgr1GvGvsssVQzz4WKLeh3TmZ7yrYk2g3pump\",\"6eqNgvA5j5nJWA6QD5PtNno9HeAVXY9eL8nRRhi8W9vs\",\"HR7ckfeRpTCX3oQo5JsLG2usYH6fALXAwgFJHFEspump\",\"DyezgYDWZtXo7zYng2eJJepXddJjn2T4woYB7tT7pump\",\"BNynf6ceiTk96TAeCVMiGoANvnayU4PdbEZf91Y9pump\",\"3XXT4WXpdxoe26rfD7uSV8CBnEYu...",
+      "error": null,
+      "is_json": true,
+      "json_keys": null
+    },
+    "/stats": {
+      "endpoint": "/stats",
+      "url": "https://quote-api.jup.ag/stats",
+      "status_code": 404,
+      "content_type": "unknown",
+      "content_length": "0",
+      "accessible": false,
+      "response_preview": null,
+      "error": "No error details"
+    },
+    "/health": {
+      "endpoint": "/health",
+      "url": "https://quote-api.jup.ag/health",
+      "status_code": 200,
+      "content_type": "application/json",
+      "content_length": "unknown",
+      "accessible": true,
+      "response_preview": "{\"latestBlockhashWithMetadata\":{\"blockhash\":\"GGQ9wY3oNcxmv3WsVg6vDYZsMX4WPacE4ZCJM5zuHJ6w\",\"lastValidBlockHeight\":327121478,\"fetchedAt\":1750779123491},\"geyserSlots\":[348918197,348918197,348918196,348918196,348918197,348918197],\"contextSlot\":348918198}",
+      "error": null,
+      "is_json": true,
+      "json_keys": [
+        "latestBlockhashWithMetadata",
+        "geyserSlots",
+        "contextSlot"
+      ]
+    },
+    "/": {
+      "endpoint": "/",
+      "url": "https://quote-api.jup.ag/",
+      "status_code": 404,
+      "content_type": "text/plain;charset=UTF-8",
+      "content_length": "9",
+      "accessible": false,
+      "response_preview": null,
+      "error": "not found"
+    },
+    "/docs": {
+      "endpoint": "/docs",
+      "url": "https://quote-api.jup.ag/docs",
+      "status_code": 404,
+      "content_type": "unknown",
+      "content_length": "0",
+      "accessible": false,
+      "response_preview": null,
+      "error": "No error details"
+    },
+    "/api-docs": {
+      "endpoint": "/api-docs",
+      "url": "https://quote-api.jup.ag/api-docs",
+      "status_code": 404,
+      "content_type": "unknown",
+      "content_length": "0",
+      "accessible": false,
+      "response_preview": null,
+      "error": "No error details"
+    }
+  },
+  "quote_endpoint_comparison": {
+    "Major Token (SOL->USDC)": {
+      "scenario_name": "Major Token (SOL->USDC)",
+      "params": {
+        "inputMint": "So11111111111111111111111111111111111111112",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "amount": "1000000000"
+      },
+      "lite_api_result": {
+        "status_code": 404,
+        "success": false,
+        "response_data": null,
+        "error": "Route not found"
+      },
+      "main_api_result": {
+        "status_code": 200,
+        "success": true,
+        "response_data": {
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "inAmount": "1000000000",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "144296976",
+          "otherAmountThreshold": "143575492",
+          "swapMode": "ExactIn",
+          "slippageBps": 50,
+          "platformFee": null,
+          "priceImpactPct": "0.0001518957468879999999999937",
+          "routePlan": [
+            {
+              "swapInfo": {
+                "ammKey": "4ynTYgJK5ruYx3AZMRjCHrJk1qkm61fePF7dkbvRQD46",
+                "label": "GoonFi",
+                "inputMint": "So11111111111111111111111111111111111111112",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "inAmount": "1000000000",
+                "outAmount": "144296976",
+                "feeAmount": "0",
+                "feeMint": "11111111111111111111111111111111"
+              },
+              "percent": 100,
+              "bps": 10000
+            }
+          ],
+          "contextSlot": 348918209,
+          "timeTaken": 0.001513335,
+          "swapUsdValue": "144.31889742671468348809250033",
+          "simplerRouteUsed": false,
+          "mostReliableAmmsQuoteReport": {
+            "info": {
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "144264967",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "144251360"
+            }
+          },
+          "useIncurredSlippageForQuoting": null,
+          "otherRoutePlans": null,
+          "aggregatorVersion": null
+        },
+        "error": null
+      },
+      "comparison": {
+        "both_work": false,
+        "only_main_works": true,
+        "only_lite_works": false,
+        "neither_works": false,
+        "data_differences": {
+          "comparable": false,
+          "reason": "One or both responses missing"
+        }
+      }
+    },
+    "Popular Token (JUP->USDC)": {
+      "scenario_name": "Popular Token (JUP->USDC)",
+      "params": {
+        "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "amount": "1000000"
+      },
+      "lite_api_result": {
+        "status_code": 404,
+        "success": false,
+        "response_data": null,
+        "error": "Route not found"
+      },
+      "main_api_result": {
+        "status_code": 200,
+        "success": true,
+        "response_data": {
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "inAmount": "1000000",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "418722",
+          "otherAmountThreshold": "416629",
+          "swapMode": "ExactIn",
+          "slippageBps": 50,
+          "platformFee": null,
+          "priceImpactPct": "0",
+          "routePlan": [
+            {
+              "swapInfo": {
+                "ammKey": "4h9SaY7YMVtKfTewpGFq8StWJgGdRN3gVD7XmAGCSbki",
+                "label": "Whirlpool",
+                "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                "outputMint": "So11111111111111111111111111111111111111112",
+                "inAmount": "1000000",
+                "outAmount": "2900182",
+                "feeAmount": "421",
+                "feeMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+              },
+              "percent": 100,
+              "bps": 10000
+            },
+            {
+              "swapInfo": {
+                "ammKey": "GRt8hFGKXntKQu5Y4N4jFGFrma3iu9uqVEdcNFV6baGW",
+                "label": "Meteora DLMM",
+                "inputMint": "So11111111111111111111111111111111111111112",
+                "outputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                "inAmount": "2900182",
+                "outAmount": "418512",
+                "feeAmount": "320",
+                "feeMint": "So11111111111111111111111111111111111111112"
+              },
+              "percent": 100,
+              "bps": 10000
+            },
+            {
+              "swapInfo": {
+                "ammKey": "AxHocY4moH8roYQXMQWqoehtW5piMtTJQYmfL4wQ83D8",
+                "label": "SolFi",
+                "inputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "inAmount": "418512",
+                "outAmount": "418722",
+                "feeAmount": "0",
+                "feeMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+              },
+              "percent": 100,
+              "bps": 10000
+            }
+          ],
+          "contextSlot": 348918216,
+          "timeTaken": 0.005970662,
+          "swapUsdValue": "0.418722",
+          "simplerRouteUsed": false,
+          "mostReliableAmmsQuoteReport": {
+            "info": {
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "418550",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "416781",
+              "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg": "2881288",
+              "32D4zRxNc1EssbJieVHfPhZM3rH6CzfUPrWUuWxD9prG": "418550"
+            }
+          },
+          "useIncurredSlippageForQuoting": null,
+          "otherRoutePlans": null,
+          "aggregatorVersion": null
+        },
+        "error": null
+      },
+      "comparison": {
+        "both_work": false,
+        "only_main_works": true,
+        "only_lite_works": false,
+        "neither_works": false,
+        "data_differences": {
+          "comparable": false,
+          "reason": "One or both responses missing"
+        }
+      }
+    },
+    "Meme Token ($michi->USDC)": {
+      "scenario_name": "Meme Token ($michi->USDC)",
+      "params": {
+        "inputMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "amount": "1000000"
+      },
+      "lite_api_result": {
+        "status_code": 404,
+        "success": false,
+        "response_data": null,
+        "error": "Route not found"
+      },
+      "main_api_result": {
+        "status_code": 200,
+        "success": true,
+        "response_data": {
+          "inputMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+          "inAmount": "1000000",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "31997",
+          "otherAmountThreshold": "31838",
+          "swapMode": "ExactIn",
+          "slippageBps": 50,
+          "platformFee": null,
+          "priceImpactPct": "0.0020951431517999999999999985",
+          "routePlan": [
+            {
+              "swapInfo": {
+                "ammKey": "DPh2afLYhMpmMRb1fgUe7axidm5VcumpTdpNZJNdvUCS",
+                "label": "Raydium CLMM",
+                "inputMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "inAmount": "1000000",
+                "outAmount": "31997",
+                "feeAmount": "840",
+                "feeMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp"
+              },
+              "percent": 100,
+              "bps": 10000
+            }
+          ],
+          "contextSlot": 348918221,
+          "timeTaken": 0.003212414,
+          "swapUsdValue": "0.031997",
+          "simplerRouteUsed": false,
+          "mostReliableAmmsQuoteReport": {
+            "info": {
+              "GH8Ers4yzKR3UKDvgVu8cqJfGzU4cU62mTeg9bcJ7ug6": "221064",
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "31954"
+            }
+          },
+          "useIncurredSlippageForQuoting": null,
+          "otherRoutePlans": null,
+          "aggregatorVersion": null
+        },
+        "error": null
+      },
+      "comparison": {
+        "both_work": false,
+        "only_main_works": true,
+        "only_lite_works": false,
+        "neither_works": false,
+        "data_differences": {
+          "comparable": false,
+          "reason": "One or both responses missing"
+        }
+      }
+    },
+    "Pump.fun Token (BILLY->USDC)": {
+      "scenario_name": "Pump.fun Token (BILLY->USDC)",
+      "params": {
+        "inputMint": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "amount": "1000000"
+      },
+      "lite_api_result": {
+        "status_code": 404,
+        "success": false,
+        "response_data": null,
+        "error": "Route not found"
+      },
+      "main_api_result": {
+        "status_code": 200,
+        "success": true,
+        "response_data": {
+          "inputMint": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+          "inAmount": "1000000",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "5489",
+          "otherAmountThreshold": "5462",
+          "swapMode": "ExactIn",
+          "slippageBps": 50,
+          "platformFee": null,
+          "priceImpactPct": "0",
+          "routePlan": [
+            {
+              "swapInfo": {
+                "ammKey": "6CP46MKW1fviAPek9MZ1SMhXc16obs1tn1BcjyvjYWVL",
+                "label": "Meteora DLMM",
+                "inputMint": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+                "outputMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+                "inAmount": "1000000",
+                "outAmount": "171521",
+                "feeAmount": "10000",
+                "feeMint": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump"
+              },
+              "percent": 100,
+              "bps": 10000
+            },
+            {
+              "swapInfo": {
+                "ammKey": "FLHmsuiERzEp4aqsnxiQCv43PkYnn2amgKNsb2UMigoe",
+                "label": "Raydium CLMM",
+                "inputMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "inAmount": "171521",
+                "outAmount": "5489",
+                "feeAmount": "290",
+                "feeMint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp"
+              },
+              "percent": 100,
+              "bps": 10000
+            }
+          ],
+          "contextSlot": 348918228,
+          "timeTaken": 0.002255158,
+          "swapUsdValue": "0.005489",
+          "simplerRouteUsed": false,
+          "mostReliableAmmsQuoteReport": {
+            "info": {
+              "GH8Ers4yzKR3UKDvgVu8cqJfGzU4cU62mTeg9bcJ7ug6": "170323",
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "5471",
+              "9uWW4C36HiCTGr6pZW9VFhr9vdXktZ8NA8jVnzQU35pJ": "37841"
+            }
+          },
+          "useIncurredSlippageForQuoting": null,
+          "otherRoutePlans": null,
+          "aggregatorVersion": null
+        },
+        "error": null
+      },
+      "comparison": {
+        "both_work": false,
+        "only_main_works": true,
+        "only_lite_works": false,
+        "neither_works": false,
+        "data_differences": {
+          "comparable": false,
+          "reason": "One or both responses missing"
+        }
+      }
+    },
+    "Unlisted Token (USELESS->USDC)": {
+      "scenario_name": "Unlisted Token (USELESS->USDC)",
+      "params": {
+        "inputMint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "amount": "1000000"
+      },
+      "lite_api_result": {
+        "status_code": 404,
+        "success": false,
+        "response_data": null,
+        "error": "Route not found"
+      },
+      "main_api_result": {
+        "status_code": 200,
+        "success": true,
+        "response_data": {
+          "inputMint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "inAmount": "1000000",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "139429",
+          "otherAmountThreshold": "138732",
+          "swapMode": "ExactIn",
+          "slippageBps": 50,
+          "platformFee": null,
+          "priceImpactPct": "0.0004116923044000000000000001",
+          "routePlan": [
+            {
+              "swapInfo": {
+                "ammKey": "Fvh8z34VTK9hyvbkbaBQ8hmrzEAvfYjy4ev4oU6WA9Jn",
+                "label": "Raydium CLMM",
+                "inputMint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+                "outputMint": "So11111111111111111111111111111111111111112",
+                "inAmount": "1000000",
+                "outAmount": "964637",
+                "feeAmount": "1680",
+                "feeMint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk"
+              },
+              "percent": 100,
+              "bps": 10000
+            },
+            {
+              "swapInfo": {
+                "ammKey": "DfbqG5R4SewZsoV9eZyRDrcKzy6ujvkHWNh6xWCLitXc",
+                "label": "Raydium CLMM",
+                "inputMint": "So11111111111111111111111111111111111111112",
+                "outputMint": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+                "inAmount": "964637",
+                "outAmount": "5281334",
+                "feeAmount": "83",
+                "feeMint": "So11111111111111111111111111111111111111112"
+              },
+              "percent": 100,
+              "bps": 10000
+            },
+            {
+              "swapInfo": {
+                "ammKey": "CyLPZjsWrD5e2pLvvbrmAxtb9hhErtTLLKRMJDimRqWp",
+                "label": "Meteora DLMM",
+                "inputMint": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "inAmount": "5281334",
+                "outAmount": "139429",
+                "feeAmount": "13204",
+                "feeMint": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
+              },
+              "percent": 100,
+              "bps": 10000
+            }
+          ],
+          "contextSlot": 348918234,
+          "timeTaken": 0.004236462,
+          "swapUsdValue": "0.139429",
+          "simplerRouteUsed": false,
+          "mostReliableAmmsQuoteReport": {
+            "info": {
+              "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp": "961859",
+              "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "139149",
+              "879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce": "5269751",
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "138867"
+            }
+          },
+          "useIncurredSlippageForQuoting": null,
+          "otherRoutePlans": null,
+          "aggregatorVersion": null
+        },
+        "error": null
+      },
+      "comparison": {
+        "both_work": false,
+        "only_main_works": true,
+        "only_lite_works": false,
+        "neither_works": false,
+        "data_differences": {
+          "comparable": false,
+          "reason": "One or both responses missing"
+        }
+      }
+    }
+  },
+  "token_support_investigation": {
+    "token_list_endpoints": {
+      "/tokens": {
+        "status_code": 200,
+        "accessible": true,
+        "content_type": "application/json",
+        "data_type": "list",
+        "token_count": 10000,
+        "sample_tokens": [
+          {
+            "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+            "tags": [
+              "community",
+              "strict",
+              "verified"
+            ],
+            "daily_volume": 1685647738.68951,
+            "created_at": "2024-04-26T10:56:58.893768Z",
+            "freeze_authority": "7dGbd2QZcCKcTndnHcTL8q7SMVXAkp688NTQYwrRCrar",
+            "mint_authority": "BJE5MMbqXjVwjAF7oxwPYXnTXDyspzZyt4vwenNw5ruG",
+            "permanent_delegate": null,
+            "minted_at": null,
+            "extensions": {
+              "coingeckoId": "usd-coin"
+            }
+          },
+          {
+            "address": "So11111111111111111111111111111111111111112",
+            "name": "Wrapped SOL",
+            "symbol": "SOL",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+            "tags": [
+              "community",
+              "strict",
+              "verified"
+            ],
+            "daily_volume": 1580404826.8134203,
+            "created_at": "2024-04-26T10:56:58.893768Z",
+            "freeze_authority": null,
+            "mint_authority": null,
+            "permanent_delegate": null,
+            "minted_at": null,
+            "extensions": {
+              "coingeckoId": "wrapped-solana"
+            }
+          },
+          {
+            "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg",
+            "tags": [
+              "community",
+              "strict",
+              "verified"
+            ],
+            "daily_volume": 111230443.75989816,
+            "created_at": "2024-04-26T10:56:58.893768Z",
+            "freeze_authority": "Q6XprfkF8RQQKoQVG33xT88H7wi8Uk1B1CC7YAs69Gi",
+            "mint_authority": "Q6XprfkF8RQQKoQVG33xT88H7wi8Uk1B1CC7YAs69Gi",
+            "permanent_delegate": null,
+            "minted_at": null,
+            "extensions": {
+              "coingeckoId": "tether"
+            }
+          },
+          {
+            "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+            "name": "Fartcoin",
+            "symbol": "Fartcoin",
+            "decimals": 6,
+            "logoURI": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
+            "tags": [
+              "community",
+              "launchpad",
+              "verified"
+            ],
+            "daily_volume": 83477720.72717053,
+            "created_at": "2024-10-18T06:05:06.885909Z",
+            "freeze_authority": null,
+            "mint_authority": null,
+            "permanent_delegate": null,
+            "minted_at": "2024-10-18T06:05:05Z",
+            "extensions": {
+              "coingeckoId": "fartcoin"
+            }
+          },
+          {
+            "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+            "name": "Jupiter Perps",
+            "symbol": "JLP",
+            "decimals": 6,
+            "logoURI": "https://static.jup.ag/jlp/icon.png",
+            "tags": [
+              "community",
+              "strict",
+              "verified"
+            ],
+            "daily_volume": 59578415.00258633,
+            "created_at": "2024-04-26T10:56:58.893768Z",
+            "freeze_authority": "AVzP2GeRmqGphJsMxWoqjpUifPpCret7LqWhD8NWQK49",
+            "mint_authority": "AVzP2GeRmqGphJsMxWoqjpUifPpCret7LqWhD8NWQK49",
+            "permanent_delegate": null,
+            "minted_at": "2023-07-18T10:57:12Z",
+            "extensions": {
+              "coingeckoId": "jupiter-perpetuals-liquidity-provider-token"
+            }
+          }
+        ]
+      },
+      "/v1/tokens": {
+        "status_code": 404,
+        "accessible": false,
+        "content_type": "text/plain"
+      },
+      "/token-list": {
+        "status_code": 404,
+        "accessible": false,
+        "content_type": "text/plain"
+      },
+      "/supported-tokens": {
+        "status_code": 404,
+        "accessible": false,
+        "content_type": "text/plain"
+      }
+    },
+    "supported_token_sample": [],
+    "unsupported_token_sample": []
+  },
+  "summary": {
+    "endpoint_availability": {
+      "lite_api_accessible_endpoints": 1,
+      "main_api_accessible_endpoints": 2,
+      "total_endpoints_tested": 11
+    },
+    "quote_performance": {
+      "scenarios_tested": 5,
+      "lite_api_success_rate": 0.0,
+      "main_api_success_rate": 100.0,
+      "both_apis_work": 0,
+      "only_main_api_works": 5
+    },
+    "key_findings": [
+      "Lite-API /v6/quote endpoint is not accessible or returns errors",
+      "5 tokens work only with main API, not lite-api",
+      "Lite-API struggles with meme/pump.fun tokens (2 failures)"
+    ],
+    "recommendations": [
+      "Use main API (quote-api.jup.ag) for comprehensive token support"
+    ]
+  }
+}

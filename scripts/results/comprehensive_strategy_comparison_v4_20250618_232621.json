@@ -1,0 +1,934 @@
+{
+  "analysis_metadata": {
+    "timestamp": 1750303581,
+    "analysis_date": "2025-06-18T23:26:21",
+    "total_strategies": 6,
+    "successful_strategies": 6,
+    "total_unique_tokens": 23,
+    "scan_id": "strategy_comparison_1750303581"
+  },
+  "individual_strategy_performance": {
+    "Volume Momentum Strategy": {
+      "execution_successful": true,
+      "error": null,
+      "basic_stats": {
+        "tokens_found": 13,
+        "execution_time": 57.68110799789429,
+        "tokens_per_second": 0.2253770853443831
+      },
+      "api_metrics": {
+        "api_calls_made": 22,
+        "successful_api_calls": 22,
+        "failed_api_calls": 0,
+        "success_rate_percent": 100.0,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "cache_hit_rate_percent": 0.0,
+        "total_cache_requests": 2,
+        "avg_response_time_ms": 543.09,
+        "total_response_time_ms": 11948,
+        "tokens_per_api_call": 0.59,
+        "api_calls_per_second": 0.38,
+        "api_efficiency_score": 0.59,
+        "endpoints_used": [],
+        "endpoint_usage": {},
+        "endpoint_diversity": 0,
+        "cost_metrics": {
+          "compute_units_used": 776,
+          "cost_per_token": 59.69230769230769,
+          "cost_efficiency_score": 0.01675257731958763
+        },
+        "resource_efficiency_grade": "Poor",
+        "api_health_status": "Excellent"
+      },
+      "analysis": {
+        "basic_metrics": {
+          "token_count": 13,
+          "unique_addresses": 13,
+          "avg_score": 50.0,
+          "total_score": 650.0,
+          "score_distribution": {
+            "min": 50.0,
+            "max": 50.0,
+            "median": 50.0
+          }
+        },
+        "quality_analysis": {
+          "avg_quality_score": 50.0,
+          "high_quality_count": 0,
+          "quality_distribution": {
+            "excellent": 0,
+            "very_good": 0,
+            "good": 0,
+            "fair": 0,
+            "poor": 13
+          },
+          "enhancement_effectiveness": 0.0,
+          "quality_grade": "D"
+        },
+        "diversity_analysis": {
+          "market_cap_diversity": 0,
+          "market_cap_distribution": {
+            "micro": 0,
+            "small": 0,
+            "medium": 0,
+            "large": 0,
+            "mega": 0
+          },
+          "age_diversity": 0,
+          "age_distribution": {
+            "very_new": 0,
+            "new": 0,
+            "recent": 0,
+            "established": 0,
+            "mature": 0
+          },
+          "diversity_score": 0.0
+        },
+        "enhancement_analysis": {
+          "enhancement_count": 0,
+          "avg_boost": 0,
+          "enhancement_types": {},
+          "enhancement_rate": 0.0
+        },
+        "risk_analysis": {
+          "high_risk_count": 0,
+          "risk_distribution": {},
+          "avg_risk_score": 80.0,
+          "risk_grade": "High Risk"
+        },
+        "efficiency_metrics": {
+          "execution_time": 57.68110799789429,
+          "tokens_per_second": 0.2253770853443831,
+          "efficiency_grade": "Slow"
+        }
+      }
+    },
+    "Recent Listings Strategy": {
+      "execution_successful": true,
+      "error": null,
+      "basic_stats": {
+        "tokens_found": 0,
+        "execution_time": 53.272419929504395,
+        "tokens_per_second": 0.0
+      },
+      "api_metrics": {
+        "api_calls_made": 34,
+        "successful_api_calls": 33,
+        "failed_api_calls": 1,
+        "success_rate_percent": 97.06,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "cache_hit_rate_percent": 0.0,
+        "total_cache_requests": 2,
+        "avg_response_time_ms": 456.24,
+        "total_response_time_ms": 15512,
+        "tokens_per_api_call": 0.0,
+        "api_calls_per_second": 0.64,
+        "api_efficiency_score": 0.0,
+        "endpoints_used": [],
+        "endpoint_usage": {},
+        "endpoint_diversity": 0,
+        "cost_metrics": {
+          "compute_units_used": 1928,
+          "cost_per_token": 0,
+          "cost_efficiency_score": 0.0
+        },
+        "resource_efficiency_grade": "Poor",
+        "api_health_status": "Excellent"
+      },
+      "analysis": {
+        "basic_metrics": {
+          "token_count": 0,
+          "unique_addresses": 0,
+          "avg_score": 0.0
+        },
+        "quality_analysis": {
+          "avg_quality_score": 0.0,
+          "high_quality_count": 0,
+          "quality_distribution": {},
+          "enhancement_effectiveness": 0.0
+        },
+        "diversity_analysis": {
+          "market_cap_diversity": 0,
+          "sector_diversity": 0,
+          "age_diversity": 0
+        },
+        "enhancement_analysis": {
+          "enhancement_count": 0,
+          "avg_boost": 0.0,
+          "enhancement_types": {}
+        },
+        "risk_analysis": {
+          "high_risk_count": 0,
+          "risk_distribution": {},
+          "avg_risk_score": 0
+        },
+        "efficiency_metrics": {
+          "execution_time": 53.272419929504395,
+          "tokens_per_second": 0.0,
+          "efficiency_grade": "Slow"
+        }
+      }
+    },
+    "Price Momentum Strategy": {
+      "execution_successful": true,
+      "error": null,
+      "basic_stats": {
+        "tokens_found": 0,
+        "execution_time": 49.23118591308594,
+        "tokens_per_second": 0.0
+      },
+      "api_metrics": {
+        "api_calls_made": 28,
+        "successful_api_calls": 28,
+        "failed_api_calls": 0,
+        "success_rate_percent": 100.0,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "cache_hit_rate_percent": 0.0,
+        "total_cache_requests": 2,
+        "avg_response_time_ms": 450.14,
+        "total_response_time_ms": 12604,
+        "tokens_per_api_call": 0.0,
+        "api_calls_per_second": 0.57,
+        "api_efficiency_score": 0.0,
+        "endpoints_used": [],
+        "endpoint_usage": {},
+        "endpoint_diversity": 0,
+        "cost_metrics": {
+          "compute_units_used": 2910,
+          "cost_per_token": 0,
+          "cost_efficiency_score": 0.0
+        },
+        "resource_efficiency_grade": "Poor",
+        "api_health_status": "Excellent"
+      },
+      "analysis": {
+        "basic_metrics": {
+          "token_count": 0,
+          "unique_addresses": 0,
+          "avg_score": 0.0
+        },
+        "quality_analysis": {
+          "avg_quality_score": 0.0,
+          "high_quality_count": 0,
+          "quality_distribution": {},
+          "enhancement_effectiveness": 0.0
+        },
+        "diversity_analysis": {
+          "market_cap_diversity": 0,
+          "sector_diversity": 0,
+          "age_diversity": 0
+        },
+        "enhancement_analysis": {
+          "enhancement_count": 0,
+          "avg_boost": 0.0,
+          "enhancement_types": {}
+        },
+        "risk_analysis": {
+          "high_risk_count": 0,
+          "risk_distribution": {},
+          "avg_risk_score": 0
+        },
+        "efficiency_metrics": {
+          "execution_time": 49.23118591308594,
+          "tokens_per_second": 0.0,
+          "efficiency_grade": "Slow"
+        }
+      }
+    },
+    "Liquidity Growth Strategy": {
+      "execution_successful": true,
+      "error": null,
+      "basic_stats": {
+        "tokens_found": 0,
+        "execution_time": 0.0003249645233154297,
+        "tokens_per_second": 0.0
+      },
+      "api_metrics": {
+        "api_calls_made": 0,
+        "successful_api_calls": 0,
+        "failed_api_calls": 0,
+        "success_rate_percent": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate_percent": 0,
+        "total_cache_requests": 0,
+        "avg_response_time_ms": 0,
+        "total_response_time_ms": 0,
+        "tokens_per_api_call": 0,
+        "api_calls_per_second": 0.0,
+        "api_efficiency_score": 0.0,
+        "endpoints_used": [],
+        "endpoint_usage": {},
+        "endpoint_diversity": 0,
+        "cost_metrics": {
+          "compute_units_used": 2910,
+          "cost_per_token": 0,
+          "cost_efficiency_score": 0.0
+        },
+        "resource_efficiency_grade": "Poor",
+        "api_health_status": "Critical"
+      },
+      "analysis": {
+        "basic_metrics": {
+          "token_count": 0,
+          "unique_addresses": 0,
+          "avg_score": 0.0
+        },
+        "quality_analysis": {
+          "avg_quality_score": 0.0,
+          "high_quality_count": 0,
+          "quality_distribution": {},
+          "enhancement_effectiveness": 0.0
+        },
+        "diversity_analysis": {
+          "market_cap_diversity": 0,
+          "sector_diversity": 0,
+          "age_diversity": 0
+        },
+        "enhancement_analysis": {
+          "enhancement_count": 0,
+          "avg_boost": 0.0,
+          "enhancement_types": {}
+        },
+        "risk_analysis": {
+          "high_risk_count": 0,
+          "risk_distribution": {},
+          "avg_risk_score": 0
+        },
+        "efficiency_metrics": {
+          "execution_time": 0.0003249645233154297,
+          "tokens_per_second": 0.0,
+          "efficiency_grade": "Slow"
+        }
+      }
+    },
+    "High Trading Activity Strategy": {
+      "execution_successful": true,
+      "error": null,
+      "basic_stats": {
+        "tokens_found": 10,
+        "execution_time": 31.04824686050415,
+        "tokens_per_second": 0.32207937681405124
+      },
+      "api_metrics": {
+        "api_calls_made": 22,
+        "successful_api_calls": 22,
+        "failed_api_calls": 0,
+        "success_rate_percent": 100.0,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "cache_hit_rate_percent": 0.0,
+        "total_cache_requests": 2,
+        "avg_response_time_ms": 479.41,
+        "total_response_time_ms": 10547,
+        "tokens_per_api_call": 0.45,
+        "api_calls_per_second": 0.71,
+        "api_efficiency_score": 0.45,
+        "endpoints_used": [],
+        "endpoint_usage": {},
+        "endpoint_diversity": 0,
+        "cost_metrics": {
+          "compute_units_used": 3686,
+          "cost_per_token": 368.6,
+          "cost_efficiency_score": 0.0027129679869777536
+        },
+        "resource_efficiency_grade": "Poor",
+        "api_health_status": "Excellent"
+      },
+      "analysis": {
+        "basic_metrics": {
+          "token_count": 10,
+          "unique_addresses": 10,
+          "avg_score": 50.0,
+          "total_score": 500.0,
+          "score_distribution": {
+            "min": 50.0,
+            "max": 50.0,
+            "median": 50.0
+          }
+        },
+        "quality_analysis": {
+          "avg_quality_score": 50.0,
+          "high_quality_count": 0,
+          "quality_distribution": {
+            "excellent": 0,
+            "very_good": 0,
+            "good": 0,
+            "fair": 0,
+            "poor": 10
+          },
+          "enhancement_effectiveness": 0.0,
+          "quality_grade": "D"
+        },
+        "diversity_analysis": {
+          "market_cap_diversity": 0,
+          "market_cap_distribution": {
+            "micro": 0,
+            "small": 0,
+            "medium": 0,
+            "large": 0,
+            "mega": 0
+          },
+          "age_diversity": 0,
+          "age_distribution": {
+            "very_new": 0,
+            "new": 0,
+            "recent": 0,
+            "established": 0,
+            "mature": 0
+          },
+          "diversity_score": 0.0
+        },
+        "enhancement_analysis": {
+          "enhancement_count": 0,
+          "avg_boost": 0,
+          "enhancement_types": {},
+          "enhancement_rate": 0.0
+        },
+        "risk_analysis": {
+          "high_risk_count": 0,
+          "risk_distribution": {},
+          "avg_risk_score": 80.0,
+          "risk_grade": "High Risk"
+        },
+        "efficiency_metrics": {
+          "execution_time": 31.04824686050415,
+          "tokens_per_second": 0.32207937681405124,
+          "efficiency_grade": "Slow"
+        }
+      }
+    },
+    "Smart Money Whale Strategy": {
+      "execution_successful": true,
+      "error": null,
+      "basic_stats": {
+        "tokens_found": 0,
+        "execution_time": 5.812036037445068,
+        "tokens_per_second": 0.0
+      },
+      "api_metrics": {
+        "api_calls_made": 12,
+        "successful_api_calls": 12,
+        "failed_api_calls": 0,
+        "success_rate_percent": 100.0,
+        "cache_hits": 0,
+        "cache_misses": 11,
+        "cache_hit_rate_percent": 0.0,
+        "total_cache_requests": 11,
+        "avg_response_time_ms": 419.92,
+        "total_response_time_ms": 5039,
+        "tokens_per_api_call": 0.0,
+        "api_calls_per_second": 2.06,
+        "api_efficiency_score": 0.0,
+        "endpoints_used": [],
+        "endpoint_usage": {},
+        "endpoint_diversity": 0,
+        "cost_metrics": {
+          "compute_units_used": 4116,
+          "cost_per_token": 0,
+          "cost_efficiency_score": 0.0
+        },
+        "resource_efficiency_grade": "Poor",
+        "api_health_status": "Excellent"
+      },
+      "analysis": {
+        "basic_metrics": {
+          "token_count": 0,
+          "unique_addresses": 0,
+          "avg_score": 0.0
+        },
+        "quality_analysis": {
+          "avg_quality_score": 0.0,
+          "high_quality_count": 0,
+          "quality_distribution": {},
+          "enhancement_effectiveness": 0.0
+        },
+        "diversity_analysis": {
+          "market_cap_diversity": 0,
+          "sector_diversity": 0,
+          "age_diversity": 0
+        },
+        "enhancement_analysis": {
+          "enhancement_count": 0,
+          "avg_boost": 0.0,
+          "enhancement_types": {}
+        },
+        "risk_analysis": {
+          "high_risk_count": 0,
+          "risk_distribution": {},
+          "avg_risk_score": 0
+        },
+        "efficiency_metrics": {
+          "execution_time": 5.812036037445068,
+          "tokens_per_second": 0.0,
+          "efficiency_grade": "Slow"
+        }
+      }
+    }
+  },
+  "cross_strategy_analysis": {
+    "overlap_matrix": {
+      "Volume Momentum Strategy": {
+        "Volume Momentum Strategy": 1.0,
+        "Recent Listings Strategy": 0.0,
+        "Price Momentum Strategy": 0.0,
+        "Liquidity Growth Strategy": 0.0,
+        "High Trading Activity Strategy": 0.0,
+        "Smart Money Whale Strategy": 0.0
+      },
+      "Recent Listings Strategy": {
+        "Volume Momentum Strategy": 0.0,
+        "Recent Listings Strategy": 1.0,
+        "Price Momentum Strategy": 0.0,
+        "Liquidity Growth Strategy": 0.0,
+        "High Trading Activity Strategy": 0.0,
+        "Smart Money Whale Strategy": 0.0
+      },
+      "Price Momentum Strategy": {
+        "Volume Momentum Strategy": 0.0,
+        "Recent Listings Strategy": 0.0,
+        "Price Momentum Strategy": 1.0,
+        "Liquidity Growth Strategy": 0.0,
+        "High Trading Activity Strategy": 0.0,
+        "Smart Money Whale Strategy": 0.0
+      },
+      "Liquidity Growth Strategy": {
+        "Volume Momentum Strategy": 0.0,
+        "Recent Listings Strategy": 0.0,
+        "Price Momentum Strategy": 0.0,
+        "Liquidity Growth Strategy": 1.0,
+        "High Trading Activity Strategy": 0.0,
+        "Smart Money Whale Strategy": 0.0
+      },
+      "High Trading Activity Strategy": {
+        "Volume Momentum Strategy": 0.0,
+        "Recent Listings Strategy": 0.0,
+        "Price Momentum Strategy": 0.0,
+        "Liquidity Growth Strategy": 0.0,
+        "High Trading Activity Strategy": 1.0,
+        "Smart Money Whale Strategy": 0.0
+      },
+      "Smart Money Whale Strategy": {
+        "Volume Momentum Strategy": 0.0,
+        "Recent Listings Strategy": 0.0,
+        "Price Momentum Strategy": 0.0,
+        "Liquidity Growth Strategy": 0.0,
+        "High Trading Activity Strategy": 0.0,
+        "Smart Money Whale Strategy": 1.0
+      }
+    },
+    "uniqueness_analysis": {
+      "Volume Momentum Strategy": {
+        "unique_tokens": 13,
+        "shared_tokens": 0,
+        "total_tokens": 13,
+        "uniqueness_score": 1.0,
+        "uniqueness_grade": "Highly Unique"
+      },
+      "Recent Listings Strategy": {
+        "unique_tokens": 0,
+        "shared_tokens": 0,
+        "total_tokens": 0,
+        "uniqueness_score": 0,
+        "uniqueness_grade": "Low Uniqueness"
+      },
+      "Price Momentum Strategy": {
+        "unique_tokens": 0,
+        "shared_tokens": 0,
+        "total_tokens": 0,
+        "uniqueness_score": 0,
+        "uniqueness_grade": "Low Uniqueness"
+      },
+      "Liquidity Growth Strategy": {
+        "unique_tokens": 0,
+        "shared_tokens": 0,
+        "total_tokens": 0,
+        "uniqueness_score": 0,
+        "uniqueness_grade": "Low Uniqueness"
+      },
+      "High Trading Activity Strategy": {
+        "unique_tokens": 10,
+        "shared_tokens": 0,
+        "total_tokens": 10,
+        "uniqueness_score": 1.0,
+        "uniqueness_grade": "Highly Unique"
+      },
+      "Smart Money Whale Strategy": {
+        "unique_tokens": 0,
+        "shared_tokens": 0,
+        "total_tokens": 0,
+        "uniqueness_score": 0,
+        "uniqueness_grade": "Low Uniqueness"
+      }
+    },
+    "performance_ranking": [
+      {
+        "strategy": "Volume Momentum Strategy",
+        "performance_score": 20.64745250241326,
+        "component_scores": {
+          "token_count": 26,
+          "avg_quality": 50.0,
+          "high_quality_count": 0,
+          "uniqueness": 0,
+          "execution_efficiency": 4.507541706887662,
+          "api_efficiency": 2.9499999999999997,
+          "cache_efficiency": 0.0,
+          "combined_efficiency": 2.983016682755065
+        },
+        "api_metrics_summary": {
+          "api_calls_made": 22,
+          "tokens_per_api_call": 0.59,
+          "cache_hit_rate": 0.0,
+          "api_success_rate": 100.0,
+          "resource_efficiency_grade": "Poor"
+        },
+        "grade": "Needs Improvement",
+        "rank": 1
+      },
+      {
+        "strategy": "High Trading Activity Strategy",
+        "performance_score": 19.521495252176862,
+        "component_scores": {
+          "token_count": 20,
+          "avg_quality": 50.0,
+          "high_quality_count": 0,
+          "uniqueness": 0,
+          "execution_efficiency": 6.441587536281025,
+          "api_efficiency": 2.25,
+          "cache_efficiency": 0.0,
+          "combined_efficiency": 3.4766350145124103
+        },
+        "api_metrics_summary": {
+          "api_calls_made": 22,
+          "tokens_per_api_call": 0.45,
+          "cache_hit_rate": 0.0,
+          "api_success_rate": 100.0,
+          "resource_efficiency_grade": "Poor"
+        },
+        "grade": "Needs Improvement",
+        "rank": 2
+      },
+      {
+        "strategy": "Recent Listings Strategy",
+        "performance_score": 0.0,
+        "component_scores": {
+          "token_count": 0,
+          "avg_quality": 0.0,
+          "high_quality_count": 0,
+          "uniqueness": 0,
+          "execution_efficiency": 0.0,
+          "api_efficiency": 0.0,
+          "cache_efficiency": 0.0,
+          "combined_efficiency": 0.0
+        },
+        "api_metrics_summary": {
+          "api_calls_made": 34,
+          "tokens_per_api_call": 0.0,
+          "cache_hit_rate": 0.0,
+          "api_success_rate": 97.06,
+          "resource_efficiency_grade": "Poor"
+        },
+        "grade": "Needs Improvement",
+        "rank": 3
+      },
+      {
+        "strategy": "Price Momentum Strategy",
+        "performance_score": 0.0,
+        "component_scores": {
+          "token_count": 0,
+          "avg_quality": 0.0,
+          "high_quality_count": 0,
+          "uniqueness": 0,
+          "execution_efficiency": 0.0,
+          "api_efficiency": 0.0,
+          "cache_efficiency": 0.0,
+          "combined_efficiency": 0.0
+        },
+        "api_metrics_summary": {
+          "api_calls_made": 28,
+          "tokens_per_api_call": 0.0,
+          "cache_hit_rate": 0.0,
+          "api_success_rate": 100.0,
+          "resource_efficiency_grade": "Poor"
+        },
+        "grade": "Needs Improvement",
+        "rank": 4
+      },
+      {
+        "strategy": "Liquidity Growth Strategy",
+        "performance_score": 0.0,
+        "component_scores": {
+          "token_count": 0,
+          "avg_quality": 0.0,
+          "high_quality_count": 0,
+          "uniqueness": 0,
+          "execution_efficiency": 0.0,
+          "api_efficiency": 0,
+          "cache_efficiency": 0,
+          "combined_efficiency": 0.0
+        },
+        "api_metrics_summary": {
+          "api_calls_made": 0,
+          "tokens_per_api_call": 0,
+          "cache_hit_rate": 0,
+          "api_success_rate": 0,
+          "resource_efficiency_grade": "Poor"
+        },
+        "grade": "Needs Improvement",
+        "rank": 5
+      },
+      {
+        "strategy": "Smart Money Whale Strategy",
+        "performance_score": 0.0,
+        "component_scores": {
+          "token_count": 0,
+          "avg_quality": 0.0,
+          "high_quality_count": 0,
+          "uniqueness": 0,
+          "execution_efficiency": 0.0,
+          "api_efficiency": 0.0,
+          "cache_efficiency": 0.0,
+          "combined_efficiency": 0.0
+        },
+        "api_metrics_summary": {
+          "api_calls_made": 12,
+          "tokens_per_api_call": 0.0,
+          "cache_hit_rate": 0.0,
+          "api_success_rate": 100.0,
+          "resource_efficiency_grade": "Poor"
+        },
+        "grade": "Needs Improvement",
+        "rank": 6
+      }
+    ],
+    "complementarity_analysis": {
+      "best_pairs": [
+        {
+          "strategy1": "Volume Momentum Strategy",
+          "strategy2": "High Trading Activity Strategy",
+          "overlap": 0,
+          "complementarity_score": 11.5,
+          "combined_tokens": 23,
+          "avg_combined_quality": 50.0
+        },
+        {
+          "strategy1": "Volume Momentum Strategy",
+          "strategy2": "Recent Listings Strategy",
+          "overlap": 0,
+          "complementarity_score": 3.25,
+          "combined_tokens": 13,
+          "avg_combined_quality": 25.0
+        },
+        {
+          "strategy1": "Volume Momentum Strategy",
+          "strategy2": "Price Momentum Strategy",
+          "overlap": 0,
+          "complementarity_score": 3.25,
+          "combined_tokens": 13,
+          "avg_combined_quality": 25.0
+        },
+        {
+          "strategy1": "Volume Momentum Strategy",
+          "strategy2": "Liquidity Growth Strategy",
+          "overlap": 0,
+          "complementarity_score": 3.25,
+          "combined_tokens": 13,
+          "avg_combined_quality": 25.0
+        },
+        {
+          "strategy1": "Volume Momentum Strategy",
+          "strategy2": "Smart Money Whale Strategy",
+          "overlap": 0,
+          "complementarity_score": 3.25,
+          "combined_tokens": 13,
+          "avg_combined_quality": 25.0
+        }
+      ],
+      "avg_overlap": 0.0
+    },
+    "quality_comparison": {
+      "total_unique_tokens": 23,
+      "multi_strategy_tokens": 0,
+      "single_strategy_tokens": 23,
+      "cross_validation_rate": 0.0,
+      "quality_by_discovery_count": {
+        "1": {
+          "avg_quality": 50.0,
+          "token_count": 23
+        }
+      }
+    },
+    "total_unique_tokens": 23,
+    "successful_strategies": 6
+  },
+  "performance_ranking": [
+    {
+      "strategy": "Volume Momentum Strategy",
+      "performance_score": 20.64745250241326,
+      "component_scores": {
+        "token_count": 26,
+        "avg_quality": 50.0,
+        "high_quality_count": 0,
+        "uniqueness": 0,
+        "execution_efficiency": 4.507541706887662,
+        "api_efficiency": 2.9499999999999997,
+        "cache_efficiency": 0.0,
+        "combined_efficiency": 2.983016682755065
+      },
+      "api_metrics_summary": {
+        "api_calls_made": 22,
+        "tokens_per_api_call": 0.59,
+        "cache_hit_rate": 0.0,
+        "api_success_rate": 100.0,
+        "resource_efficiency_grade": "Poor"
+      },
+      "grade": "Needs Improvement",
+      "rank": 1
+    },
+    {
+      "strategy": "High Trading Activity Strategy",
+      "performance_score": 19.521495252176862,
+      "component_scores": {
+        "token_count": 20,
+        "avg_quality": 50.0,
+        "high_quality_count": 0,
+        "uniqueness": 0,
+        "execution_efficiency": 6.441587536281025,
+        "api_efficiency": 2.25,
+        "cache_efficiency": 0.0,
+        "combined_efficiency": 3.4766350145124103
+      },
+      "api_metrics_summary": {
+        "api_calls_made": 22,
+        "tokens_per_api_call": 0.45,
+        "cache_hit_rate": 0.0,
+        "api_success_rate": 100.0,
+        "resource_efficiency_grade": "Poor"
+      },
+      "grade": "Needs Improvement",
+      "rank": 2
+    },
+    {
+      "strategy": "Recent Listings Strategy",
+      "performance_score": 0.0,
+      "component_scores": {
+        "token_count": 0,
+        "avg_quality": 0.0,
+        "high_quality_count": 0,
+        "uniqueness": 0,
+        "execution_efficiency": 0.0,
+        "api_efficiency": 0.0,
+        "cache_efficiency": 0.0,
+        "combined_efficiency": 0.0
+      },
+      "api_metrics_summary": {
+        "api_calls_made": 34,
+        "tokens_per_api_call": 0.0,
+        "cache_hit_rate": 0.0,
+        "api_success_rate": 97.06,
+        "resource_efficiency_grade": "Poor"
+      },
+      "grade": "Needs Improvement",
+      "rank": 3
+    },
+    {
+      "strategy": "Price Momentum Strategy",
+      "performance_score": 0.0,
+      "component_scores": {
+        "token_count": 0,
+        "avg_quality": 0.0,
+        "high_quality_count": 0,
+        "uniqueness": 0,
+        "execution_efficiency": 0.0,
+        "api_efficiency": 0.0,
+        "cache_efficiency": 0.0,
+        "combined_efficiency": 0.0
+      },
+      "api_metrics_summary": {
+        "api_calls_made": 28,
+        "tokens_per_api_call": 0.0,
+        "cache_hit_rate": 0.0,
+        "api_success_rate": 100.0,
+        "resource_efficiency_grade": "Poor"
+      },
+      "grade": "Needs Improvement",
+      "rank": 4
+    },
+    {
+      "strategy": "Liquidity Growth Strategy",
+      "performance_score": 0.0,
+      "component_scores": {
+        "token_count": 0,
+        "avg_quality": 0.0,
+        "high_quality_count": 0,
+        "uniqueness": 0,
+        "execution_efficiency": 0.0,
+        "api_efficiency": 0,
+        "cache_efficiency": 0,
+        "combined_efficiency": 0.0
+      },
+      "api_metrics_summary": {
+        "api_calls_made": 0,
+        "tokens_per_api_call": 0,
+        "cache_hit_rate": 0,
+        "api_success_rate": 0,
+        "resource_efficiency_grade": "Poor"
+      },
+      "grade": "Needs Improvement",
+      "rank": 5
+    },
+    {
+      "strategy": "Smart Money Whale Strategy",
+      "performance_score": 0.0,
+      "component_scores": {
+        "token_count": 0,
+        "avg_quality": 0.0,
+        "high_quality_count": 0,
+        "uniqueness": 0,
+        "execution_efficiency": 0.0,
+        "api_efficiency": 0.0,
+        "cache_efficiency": 0.0,
+        "combined_efficiency": 0.0
+      },
+      "api_metrics_summary": {
+        "api_calls_made": 12,
+        "tokens_per_api_call": 0.0,
+        "cache_hit_rate": 0.0,
+        "api_success_rate": 100.0,
+        "resource_efficiency_grade": "Poor"
+      },
+      "grade": "Needs Improvement",
+      "rank": 6
+    }
+  ],
+  "key_insights": [
+    "\ud83c\udfc6 Best performing strategy: Volume Momentum Strategy (Score: 20.6)",
+    "   \ud83d\udce1 API Efficiency: 0.59 tokens/call, 0.0% cache hit rate",
+    "\ud83d\udcca Average tokens per strategy: 3.8",
+    "\u26a1 Most API-efficient strategy: Volume Momentum Strategy (0.59 tokens/call)",
+    "\ud83d\udccb Best cache performance: Volume Momentum Strategy (0.0% hit rate)",
+    "\ud83d\udd04 Average strategy overlap: 0.0%",
+    "\u2705 Cross-validation rate: 0.0% of tokens found by multiple strategies",
+    "\ud83e\udd1d Best complementary pair: Volume Momentum Strategy + High Trading Activity Strategy (Score: 11.5)"
+  ],
+  "recommendations": [
+    "\ud83c\udfaf Prioritize top 3 strategies: Volume Momentum Strategy, High Trading Activity Strategy, Recent Listings Strategy",
+    "\ud83e\udd1d Best strategy combination: Volume Momentum Strategy + High Trading Activity Strategy",
+    "\ud83c\udfb2 Most unique discoveries: Volume Momentum Strategy (100.0% unique)",
+    "\u26a0\ufe0f Low cross-validation rate suggests strategies are too distinct - consider overlap analysis"
+  ],
+  "execution_summary": {
+    "total_strategies": 6,
+    "successful_executions": 6,
+    "failed_executions": 0,
+    "success_rate": 1.0,
+    "total_execution_time": 197.04532170295715,
+    "avg_execution_time": 32.84088695049286,
+    "total_tokens_found": 23,
+    "avg_tokens_per_strategy": 3.8333333333333335,
+    "failed_strategies": []
+  }
+}

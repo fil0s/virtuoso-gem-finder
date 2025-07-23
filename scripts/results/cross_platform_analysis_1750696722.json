@@ -1,0 +1,2398 @@
+{
+  "timestamp": "2025-06-23T12:38:42.996351",
+  "execution_time_seconds": 109.6,
+  "platform_data_counts": {
+    "dexscreener_boosted": 30,
+    "dexscreener_top": 30,
+    "dexscreener_profiles": 30,
+    "dexscreener_narratives": 9,
+    "rugcheck_trending": 10,
+    "birdeye_trending": 20,
+    "birdeye_emerging_stars": 20,
+    "jupiter_token_list": 0,
+    "jupiter_quote_analysis": 0,
+    "meteora_volume_trending": 0
+  },
+  "correlations": {
+    "total_tokens": 107,
+    "platform_distribution": {
+      "2": 55,
+      "1": 52
+    },
+    "all_tokens": {
+      "irNg7FvUXd1cCvXyuzEMzeaF8zEPJgy3ysTYD7Z5V1W": {
+        "address": "irNg7FvUXd1cCvXyuzEMzeaF8zEPJgy3ysTYD7Z5V1W",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 24.7,
+        "symbol": "CHIPMUNKS",
+        "name": "Chipmunks Of Crypto",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "DVWcY1SG99BaY2bKrZMoVi2yV2hrFcSWFKSAeWqjpump": {
+        "address": "DVWcY1SG99BaY2bKrZMoVi2yV2hrFcSWFKSAeWqjpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "GIGA",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x602bf84550059703e3033d655b56Bb746d6f1de9": {
+        "address": "0x602bf84550059703e3033d655b56Bb746d6f1de9",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 28.3,
+        "symbol": "CLENCH",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "P4xzJGyJzDCrMocrUrBLFhrowu44TYAC3MK9NCDpump": {
+        "address": "P4xzJGyJzDCrMocrUrBLFhrowu44TYAC3MK9NCDpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 35.0,
+        "symbol": "MRP",
+        "name": "MrPeace",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "G2vcc5pS3vEWo7RqxW6chXZJu62dD6ELTzYetksfpump": {
+        "address": "G2vcc5pS3vEWo7RqxW6chXZJu62dD6ELTzYetksfpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "\u05d9\u05e9\u05e8\u05d0\u05dc",
+        "name": "\u05d9\u05e9\u05e8\u05d0\u05dc",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "77RBBP2B5vvKXAwXi7suhpirpVHNSwe8Ka1RGDD8j7rP": {
+        "address": "77RBBP2B5vvKXAwXi7suhpirpVHNSwe8Ka1RGDD8j7rP",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "FROGYOU",
+        "name": "FrogYou",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "H4op1gvrkbzvC6zRuhRZMN429zJoFT1MSZKRyGzMpump": {
+        "address": "H4op1gvrkbzvC6zRuhRZMN429zJoFT1MSZKRyGzMpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "Oil",
+        "name": "War Liquidity",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk": {
+        "address": "BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "WARCOIN",
+        "name": "USELESS WAR COIN",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "Et1nwX1U2PrS1A4iRvFcd6LGzYWh1C33iHvKWBCVpump": {
+        "address": "Et1nwX1U2PrS1A4iRvFcd6LGzYWh1C33iHvKWBCVpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "NOT",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "58JkF2Nj981v6yxM2aQMpoeL2MaA7dA3SGcGuRyepump": {
+        "address": "58JkF2Nj981v6yxM2aQMpoeL2MaA7dA3SGcGuRyepump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "Gape",
+        "name": "Truth terminal's first token",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "bzQEGqFiQchPqC7HQeaA26HcstswSx1Dhxmrbxxmoon": {
+        "address": "bzQEGqFiQchPqC7HQeaA26HcstswSx1Dhxmrbxxmoon",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 21.0,
+        "symbol": "SPOTTY",
+        "name": "Spotty",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "EtUUCeNTxXZZEQMbwVJCh55aL48MovCkRdpXcbUxw6US": {
+        "address": "EtUUCeNTxXZZEQMbwVJCh55aL48MovCkRdpXcbUxw6US",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 25.4,
+        "symbol": "NFT",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "5LA99wHPDqYBfvE1DGgu1ttNmgBCqDqaLS5nqvpZpump": {
+        "address": "5LA99wHPDqYBfvE1DGgu1ttNmgBCqDqaLS5nqvpZpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 30.0,
+        "symbol": "alt",
+        "name": "altcoin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 43389.685531387,
+        "price_change_24h": 0
+      },
+      "aVqiXbm4zYfcTgona2L9ipDYunjPAzwzeXNLjSJpump": {
+        "address": "aVqiXbm4zYfcTgona2L9ipDYunjPAzwzeXNLjSJpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 35.0,
+        "symbol": "Robotaxi",
+        "name": "Roboception",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x22edb6be8111a4cced7f615f447857d93f2d4444": {
+        "address": "0x22edb6be8111a4cced7f615f447857d93f2d4444",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 11.0,
+        "symbol": "BNB",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "ATk6U2QfjYgQfMbyQ6pjbeF4Fat8MxCAqZfAGVWtMray": {
+        "address": "ATk6U2QfjYgQfMbyQ6pjbeF4Fat8MxCAqZfAGVWtMray",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "Loser",
+        "name": "Joe Loser",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "Emcaf5i4mVUkWUQvkx63yhQSKDDGuecU9YvqF59kE4zC": {
+        "address": "Emcaf5i4mVUkWUQvkx63yhQSKDDGuecU9YvqF59kE4zC",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "KTLR",
+        "name": "Kitler",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x11848711e1769f5fe4eee4daa510ba20e9349a98": {
+        "address": "0x11848711e1769f5fe4eee4daa510ba20e9349a98",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 6.0,
+        "symbol": "MONTY",
+        "name": "Russells Cat",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "2vfBxPmHSW2YijUcFCRoMMkAWP9fp8FGWnKxVvJnpump": {
+        "address": "2vfBxPmHSW2YijUcFCRoMMkAWP9fp8FGWnKxVvJnpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 24.0,
+        "symbol": "AI",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "4r4sR11hd65D8TRoegtu192265GNyGjTQUz3VqTppump": {
+        "address": "4r4sR11hd65D8TRoegtu192265GNyGjTQUz3VqTppump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.5,
+        "symbol": "XEVRY",
+        "name": "Xevry",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "6Xx8Ludrj4J21SGuKwP6KgU4U7d6UyMLpvzxBm9Upump": {
+        "address": "6Xx8Ludrj4J21SGuKwP6KgU4U7d6UyMLpvzxBm9Upump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 6.0,
+        "symbol": "Perreza",
+        "name": "dogwiftwerk",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x32b86b99441480a7e5bd3a26c124ec2373e3f015": {
+        "address": "0x32b86b99441480a7e5bd3a26c124ec2373e3f015",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 21.0,
+        "symbol": "AI",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "uvnJUf7a7JJQ8Gubycsowdg4kUmzjPW7SrrC9Dypump": {
+        "address": "uvnJUf7a7JJQ8Gubycsowdg4kUmzjPW7SrrC9Dypump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 31.0,
+        "symbol": "III",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "BYpJEjZ8YBBWjF66oihbLnipwtmMHnLeJnkp4aBcpump": {
+        "address": "BYpJEjZ8YBBWjF66oihbLnipwtmMHnLeJnkp4aBcpump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 6.0,
+        "symbol": "FB",
+        "name": "Fartbook",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x0f7dC5D02CC1E1f5Ee47854d534D332A1081cCC8": {
+        "address": "0x0f7dC5D02CC1E1f5Ee47854d534D332A1081cCC8",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 25.0,
+        "symbol": "ZEUS",
+        "name": "Pepes Dog",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0xDE201bDE7db5a33dcFD1dE313872c91Bc644004F": {
+        "address": "0xDE201bDE7db5a33dcFD1dE313872c91Bc644004F",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 6.0,
+        "symbol": "CATRUSSEL",
+        "name": "CAT RUSSEL",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "Bdw4xa4i97WhEzExXqVNxG9zvWqGWfXQNvYhTAu1pump": {
+        "address": "Bdw4xa4i97WhEzExXqVNxG9zvWqGWfXQNvYhTAu1pump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 6.0,
+        "symbol": "AMI",
+        "name": "American Missiles Inu",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "TDzVZuGWFkSDLXvYW1aYHuNA64Sv8RqvY4": {
+        "address": "TDzVZuGWFkSDLXvYW1aYHuNA64Sv8RqvY4",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 25.0,
+        "symbol": "CSI888",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x8f86bdcB19198060b63Aee98E3489D6efa260F1C": {
+        "address": "0x8f86bdcB19198060b63Aee98E3489D6efa260F1C",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 6.0,
+        "symbol": "GOATSE",
+        "name": "GOATSE",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "GDe456KVvMgZgdPtu4cfEaBppftLxtDzdtALfeoVfayV": {
+        "address": "GDe456KVvMgZgdPtu4cfEaBppftLxtDzdtALfeoVfayV",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "Robotaxi",
+        "name": "Tesla Robotaxi",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "EbviDsTA6phTT5E4VxY1a2Pk5SCcRLZAwt8purBpump": {
+        "address": "EbviDsTA6phTT5E4VxY1a2Pk5SCcRLZAwt8purBpump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "worthless",
+        "name": "worthless coin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump": {
+        "address": "AWFmsUMzW7nM3wj7aYNz3LByAoLsDVw618xX6fMUpump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "ww3",
+        "name": "werld wur thwee",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "BE8tU8kCbUGojMXXz2zw4PAt577AoHjAeT8jNLpUpump": {
+        "address": "BE8tU8kCbUGojMXXz2zw4PAt577AoHjAeT8jNLpUpump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "Auction",
+        "name": "goes higher with every bid",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "8NCievmJCg2d9Vc2TWgz2HkE6ANeSX7kwvdq5AL7pump": {
+        "address": "8NCievmJCg2d9Vc2TWgz2HkE6ANeSX7kwvdq5AL7pump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "BUNKER",
+        "name": "BunkerCoin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "qfyhNU2WmMAT1P5kc3isJNBKRpHec3ZLiLWxn38pump": {
+        "address": "qfyhNU2WmMAT1P5kc3isJNBKRpHec3ZLiLWxn38pump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "GORBAG",
+        "name": "GORBAG",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "K5GCTqiCu5aKDAZDPpo5ue9TvVwBdbPNF5dzZ27pump": {
+        "address": "K5GCTqiCu5aKDAZDPpo5ue9TvVwBdbPNF5dzZ27pump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "STOP",
+        "name": "Fuckin Stop",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0xe3AC999fA3374F98AEfc3f71704D52479f79db79": {
+        "address": "0xe3AC999fA3374F98AEfc3f71704D52479f79db79",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "Simpson",
+        "name": "Homer",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x0007efdf427313313c904ad88cba4d00a672e327": {
+        "address": "0x0007efdf427313313c904ad88cba4d00a672e327",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "ISHI",
+        "name": "Ishi Go",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump": {
+        "address": "Cwn9d1E636CPBTgtPXZAuqn6TgUh6mPpUMBr3w7kpump",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "OILCOIN",
+        "name": "Oil Coin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0xebd3f05f77c456D59852dA12Ac764Dc975Eca91B": {
+        "address": "0xebd3f05f77c456D59852dA12Ac764Dc975Eca91B",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "KORO",
+        "name": "Koro Go",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "3PqWkvhaA6mGaqUP52SjLHP5YaH8Q2mnjMZegsFgpump": {
+        "address": "3PqWkvhaA6mGaqUP52SjLHP5YaH8Q2mnjMZegsFgpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "$TES",
+        "name": "The Eid Sheep",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "2ztfMWS76tFVd84MNefvjiNHDCNwQ6ShtWXMQGKFQnjL": {
+        "address": "2ztfMWS76tFVd84MNefvjiNHDCNwQ6ShtWXMQGKFQnjL",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "$Bonkers",
+        "name": "BonkersMemeToken",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x6967b9a8c0b14849CFE8f9E5732B401433fD2898": {
+        "address": "0x6967b9a8c0b14849CFE8f9E5732B401433fD2898",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "NAKA",
+        "name": "Naka Go",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0xac6E53f1e1eBaFDA8553C0ADD8C5B32BcB5890C4": {
+        "address": "0xac6E53f1e1eBaFDA8553C0ADD8C5B32BcB5890C4",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "FINANCE",
+        "name": "FINANCE",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "0x40d09d1C989FcB3A68623Fe1C1acb3b769e0d237": {
+        "address": "0x40d09d1C989FcB3A68623Fe1C1acb3b769e0d237",
+        "platforms": [
+          "dexscreener"
+        ],
+        "score": 5.0,
+        "symbol": "BOSSBURGER",
+        "name": "Boss Burger",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "vAZTCM56zWAfzfRwFvXyA98KdCjZA1VqdmE8GFHSLot": {
+        "address": "vAZTCM56zWAfzfRwFvXyA98KdCjZA1VqdmE8GFHSLot",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "SLOTHY",
+        "name": "Slothy",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "D82a1Eo7cJrMVRrvt6EPEwHqeiGnpqwi4gbR7ip5pump": {
+        "address": "D82a1Eo7cJrMVRrvt6EPEwHqeiGnpqwi4gbR7ip5pump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "$Flocky",
+        "name": "FLOCK",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "8SQQ1urC3Dynq9C2ieM6AozWgi4GCrLE6fnRoiWdpump": {
+        "address": "8SQQ1urC3Dynq9C2ieM6AozWgi4GCrLE6fnRoiWdpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "OBVIOUS",
+        "name": "OBVIOUS COIN",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump": {
+        "address": "A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "XBT",
+        "name": "XBT",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "4L9dkoE8ctYVqcvwUEBbrMxxXrb1G8QCWW6BUnqybonk": {
+        "address": "4L9dkoE8ctYVqcvwUEBbrMxxXrb1G8QCWW6BUnqybonk",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "CHARLIE",
+        "name": "CHARLIE",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0,
+        "price_change_24h": 0
+      },
+      "99ouK5YUK3JPGCPX9joNtHsMU7NPpU7w91JN4kdQ97po": {
+        "address": "99ouK5YUK3JPGCPX9joNtHsMU7NPpU7w91JN4kdQ97po",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "AI",
+        "name": "AI",
+        "price": 0.0002143,
+        "volume_24h": 433.44,
+        "market_cap": 214349,
+        "liquidity": 157813.93,
+        "price_change_24h": 0.53
+      },
+      "ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6": {
+        "address": "ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 18.0,
+        "symbol": "AI",
+        "name": "Any Inu (Wormhole)",
+        "price": 1.898e-06,
+        "volume_24h": 3524.89,
+        "market_cap": 131436,
+        "liquidity": 52666.81,
+        "price_change_24h": 0.81
+      },
+      "Ag5mMdBSxm8J893RazD9PGkxWKJ5o3UKdWW4ZmJAey9w": {
+        "address": "Ag5mMdBSxm8J893RazD9PGkxWKJ5o3UKdWW4ZmJAey9w",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "AGENT",
+        "name": "Agents AI",
+        "price": 0.0004592,
+        "volume_24h": 1292.34,
+        "market_cap": 459284,
+        "liquidity": 98694.1,
+        "price_change_24h": 1.41
+      },
+      "BKgcrCw55yb1ocLS2MnQLT2dSkWtAPjxTanLoWB8oZso": {
+        "address": "BKgcrCw55yb1ocLS2MnQLT2dSkWtAPjxTanLoWB8oZso",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "AGENT",
+        "name": "AgentAlgo (Wormhole)",
+        "price": 0.1621,
+        "volume_24h": 10065.01,
+        "market_cap": 113126,
+        "liquidity": 89562.36,
+        "price_change_24h": 40.61
+      },
+      "5tFRno9GXBP5gt2Kjx2MeEaFL8zGBMw4cujTLGerpump": {
+        "address": "5tFRno9GXBP5gt2Kjx2MeEaFL8zGBMw4cujTLGerpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "AGENT",
+        "name": "Solana Agent",
+        "price": 5.205e-05,
+        "volume_24h": 67.31,
+        "market_cap": 52046,
+        "liquidity": 34079.99,
+        "price_change_24h": 0
+      },
+      "HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ": {
+        "address": "HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "pump",
+        "name": "pump",
+        "price": 0.0006757,
+        "volume_24h": 38975.94,
+        "market_cap": 675382,
+        "liquidity": 127194.3,
+        "price_change_24h": 25.63
+      },
+      "7cyAGa4XsNDnSgnFuwmVFgp9JGqZoZYkiVyFPSke9CuP": {
+        "address": "7cyAGa4XsNDnSgnFuwmVFgp9JGqZoZYkiVyFPSke9CuP",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "MEME",
+        "name": "MOST ELEGANT MONKEY EVER",
+        "price": 7.321e-05,
+        "volume_24h": 12774.15,
+        "market_cap": 72991,
+        "liquidity": 31278.57,
+        "price_change_24h": 151
+      },
+      "5bpj3W9zC2Y5Zn2jDBcYVscGnCBUN5RD7152cfL9pump": {
+        "address": "5bpj3W9zC2Y5Zn2jDBcYVscGnCBUN5RD7152cfL9pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "meme",
+        "name": "meme",
+        "price": 4.811e-05,
+        "volume_24h": 4241.46,
+        "market_cap": 48086,
+        "liquidity": 40558.99,
+        "price_change_24h": 11.76
+      },
+      "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump": {
+        "address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "MPX6900",
+        "name": "MEME",
+        "price": 3.306e-05,
+        "volume_24h": 2983.23,
+        "market_cap": 33054,
+        "liquidity": 25245.06,
+        "price_change_24h": 9.29
+      },
+      "EWy1HPEUq4Lgm6H4pQ8augEuJ7WRwJgENZMTAUzrpump": {
+        "address": "EWy1HPEUq4Lgm6H4pQ8augEuJ7WRwJgENZMTAUzrpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 14.5,
+        "symbol": "MEME",
+        "name": "MEME",
+        "price": 1.823e-05,
+        "volume_24h": 1002.24,
+        "market_cap": 18213,
+        "liquidity": 22068.27,
+        "price_change_24h": 8.17
+      },
+      "6ggTCfg1sck5ruQot5n6PZKq3ZscVR1teg7unoJqpump": {
+        "address": "6ggTCfg1sck5ruQot5n6PZKq3ZscVR1teg7unoJqpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "meme",
+        "name": "missed entry, missed exit.",
+        "price": 3.407e-06,
+        "volume_24h": 2974.33,
+        "market_cap": 3407,
+        "liquidity": 5830.63,
+        "price_change_24h": 6.98
+      },
+      "HMPMa68Zzbx13g3KomQJiH9k9ito9eiUKi4sEEU2pump": {
+        "address": "HMPMa68Zzbx13g3KomQJiH9k9ito9eiUKi4sEEU2pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "MEME",
+        "name": "MEMECOIN",
+        "price": 4.033e-06,
+        "volume_24h": 43.86,
+        "market_cap": 4032,
+        "liquidity": 6811.74,
+        "price_change_24h": 2.86
+      },
+      "dog1viwbb2vWDpER5FrJ4YFG6gq6XuyFohUe9TXN65u": {
+        "address": "dog1viwbb2vWDpER5FrJ4YFG6gq6XuyFohUe9TXN65u",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 16.0,
+        "symbol": "DOG",
+        "name": "Dog (Bitcoin)",
+        "price": 0.002764,
+        "volume_24h": 7359.84,
+        "market_cap": 276448284,
+        "liquidity": 88709.19,
+        "price_change_24h": 0.41
+      },
+      "DLScRnWofxiYGqnvZWGy9Gt98MPqKdznaK4TRukxpump": {
+        "address": "DLScRnWofxiYGqnvZWGy9Gt98MPqKdznaK4TRukxpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "\ud83d\udc15",
+        "name": "Dog",
+        "price": 0.0002725,
+        "volume_24h": 1495,
+        "market_cap": 272585,
+        "liquidity": 104300.14,
+        "price_change_24h": 3.31
+      },
+      "B9u8h65uM1oifqmP82VyUDb68iG2fKfZiyubmNMtu3h7": {
+        "address": "B9u8h65uM1oifqmP82VyUDb68iG2fKfZiyubmNMtu3h7",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "DOG",
+        "name": "The Doge NFT (Wormhole)",
+        "price": 0.001197,
+        "volume_24h": 27796.3,
+        "market_cap": 15869704,
+        "liquidity": 939769.36,
+        "price_change_24h": 2.21
+      },
+      "3Lbxn3uPP58u1KEULn3iJyaKNWLgxbRsS1kgcUeXpump": {
+        "address": "3Lbxn3uPP58u1KEULn3iJyaKNWLgxbRsS1kgcUeXpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "cat",
+        "name": "cat",
+        "price": 9.841e-05,
+        "volume_24h": 111419.74,
+        "market_cap": 98402,
+        "liquidity": 43288.24,
+        "price_change_24h": 37.79
+      },
+      "7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3": {
+        "address": "7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "CAT",
+        "name": "Catcoin",
+        "price": 7.841e-11,
+        "volume_24h": 9822.09,
+        "market_cap": 784064,
+        "liquidity": 347580.33,
+        "price_change_24h": 2.4
+      },
+      "4HBQm2EhdpUWZkTYxttxNDnsoWi5beRAGWHpjVo8pump": {
+        "address": "4HBQm2EhdpUWZkTYxttxNDnsoWi5beRAGWHpjVo8pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "CAT",
+        "name": "Cat Terminal",
+        "price": 0.007059,
+        "volume_24h": 279862.2,
+        "market_cap": 7059717,
+        "liquidity": 317898,
+        "price_change_24h": 13.87
+      },
+      "B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B": {
+        "address": "B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "Pepe",
+        "name": "Pepe",
+        "price": 0.000831,
+        "volume_24h": 13005.58,
+        "market_cap": 830661,
+        "liquidity": 287483.29,
+        "price_change_24h": 8.13
+      },
+      "2Zaq3WyDJj2ZkMcuqUiTBfAXCjqZtqihxcwUdwv9dyHA": {
+        "address": "2Zaq3WyDJj2ZkMcuqUiTBfAXCjqZtqihxcwUdwv9dyHA",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "PEPE",
+        "name": "PEPE",
+        "price": 0.0006191,
+        "volume_24h": 19690.33,
+        "market_cap": 601505,
+        "liquidity": 106941.28,
+        "price_change_24h": -16.86
+      },
+      "F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK": {
+        "address": "F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 0.0004001,
+        "volume_24h": 1880.7,
+        "market_cap": 255737,
+        "liquidity": 86548.79,
+        "price_change_24h": 3.22
+      },
+      "21Dt6Ne2tQ8wQ5j6G2zahtF1tskJqRmtSaaSwXjyBJVz": {
+        "address": "21Dt6Ne2tQ8wQ5j6G2zahtF1tskJqRmtSaaSwXjyBJVz",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "PEPE",
+        "name": "PEPE DIAMOND",
+        "price": 0.0001255,
+        "volume_24h": 282.7,
+        "market_cap": 122926,
+        "liquidity": 37067.76,
+        "price_change_24h": 1.26
+      },
+      "CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump": {
+        "address": "CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "GAMING",
+        "name": "GAMING",
+        "price": 8.375e-05,
+        "volume_24h": 4750.52,
+        "market_cap": 83741,
+        "liquidity": 34487.19,
+        "price_change_24h": 20.03
+      },
+      "Vsh4tbRBGHyLBUB2diEtLKKeUvHBxUPQVfrK4RbKsub": {
+        "address": "Vsh4tbRBGHyLBUB2diEtLKKeUvHBxUPQVfrK4RbKsub",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "GAMING",
+        "name": "onchain gaming",
+        "price": 5.004e-06,
+        "volume_24h": 4.45,
+        "market_cap": 5004,
+        "liquidity": 9726.47,
+        "price_change_24h": -0.32
+      },
+      "CLjRRmcxXxa6qrVMkqxTC9XvU8cc6r7orpoqB4kdfqRF": {
+        "address": "CLjRRmcxXxa6qrVMkqxTC9XvU8cc6r7orpoqB4kdfqRF",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "HSC",
+        "name": "HighScore Gaming",
+        "price": 0.02562,
+        "volume_24h": 75.81,
+        "market_cap": 28191,
+        "liquidity": 5508.91,
+        "price_change_24h": 0.29
+      },
+      "AypPdwoANEdX2yXrjmXbnvvE6d2NpyyB1YT2T87dpump": {
+        "address": "AypPdwoANEdX2yXrjmXbnvvE6d2NpyyB1YT2T87dpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "GHOSTAI",
+        "name": "AI gaming agent",
+        "price": 2.44e-06,
+        "volume_24h": 1.23,
+        "market_cap": 2439,
+        "liquidity": 4772.16,
+        "price_change_24h": 0
+      },
+      "A64qZRPD7koo16im2uWyeE6Rqd4spGmKrRT4vAk47huW": {
+        "address": "A64qZRPD7koo16im2uWyeE6Rqd4spGmKrRT4vAk47huW",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "MLG",
+        "name": "Major League Gaming",
+        "price": 2.285e-06,
+        "volume_24h": 1.22,
+        "market_cap": 2284,
+        "liquidity": 4499.68,
+        "price_change_24h": 0
+      },
+      "6VMboDzgq7qAQmmJ9njNqPfUC9jjGvKWrJeBJZQWg1if": {
+        "address": "6VMboDzgq7qAQmmJ9njNqPfUC9jjGvKWrJeBJZQWg1if",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "DEF",
+        "name": "DEFI",
+        "price": 0.02598,
+        "volume_24h": 126.78,
+        "market_cap": 272792,
+        "liquidity": 77968.31,
+        "price_change_24h": -4.24
+      },
+      "5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump": {
+        "address": "5LS3ips7jWxfuVHzoMzKzp3cCwjH9zmrtYXmYBVGpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "Oil",
+        "name": "Digital Oil Memecoin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 592006.17182839,
+        "price_change_24h": 0
+      },
+      "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump": {
+        "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "MASK",
+        "name": "catwifmask",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 1265534.2578096,
+        "price_change_24h": 0
+      },
+      "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+        "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "Bonk",
+        "name": "Bonk",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 8346298.1102986,
+        "price_change_24h": 0
+      },
+      "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr": {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "score": 29.0,
+        "symbol": "SPX",
+        "name": "SPX6900 (Wormhole)",
+        "price": 0.9844380305935901,
+        "volume_24h": 12495490.076803256,
+        "market_cap": 113744237.16584508,
+        "liquidity": 6733907.9197426615,
+        "price_change_24h": -2.143267525917324
+      },
+      "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk": {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "score": 30.0,
+        "symbol": "USELESS",
+        "name": "USELESS COIN",
+        "price": 0.08760588694537395,
+        "volume_24h": 17000240.68620668,
+        "market_cap": 87599517.01029493,
+        "liquidity": 4615553.514144956,
+        "price_change_24h": 6.518758606960717
+      },
+      "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm": {
+        "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "$WIF",
+        "name": "dogwifhat",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 13391866.28891,
+        "price_change_24h": 0
+      },
+      "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump": {
+        "address": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "LABUBU",
+        "name": "LABUBU",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 2687707.310491,
+        "price_change_24h": 0
+      },
+      "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2": {
+        "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "aura",
+        "name": "aura",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 5799761.1937559,
+        "price_change_24h": 0
+      },
+      "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv": {
+        "address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 7044903.3746825,
+        "price_change_24h": 0
+      },
+      "85vdovHhkXnDi98EYMQmD2vXS82jRP1VDDXfkJ38pump": {
+        "address": "85vdovHhkXnDi98EYMQmD2vXS82jRP1VDDXfkJ38pump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 2.0,
+        "symbol": "PEACEGUY",
+        "name": "Just a peace guy",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 153783.43050711,
+        "price_change_24h": 0
+      },
+      "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump": {
+        "address": "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "USDUC",
+        "name": "unstable coin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 835207.09681856,
+        "price_change_24h": 0
+      },
+      "4dmQFkCM1WiUhC75UndLkmMtWj78fQJUvfc4xpMLpump": {
+        "address": "4dmQFkCM1WiUhC75UndLkmMtWj78fQJUvfc4xpMLpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 0.0,
+        "symbol": "BUNK",
+        "name": "Manhattan Project",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 62119.025336267,
+        "price_change_24h": 0
+      },
+      "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R": {
+        "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 17455241.125401,
+        "price_change_24h": 0
+      },
+      "AEMMbYaqxL7KECq8rTzdgFWMv7hvfftv93M3sKcKbonk": {
+        "address": "AEMMbYaqxL7KECq8rTzdgFWMv7hvfftv93M3sKcKbonk",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 0.0,
+        "symbol": "MEI",
+        "name": "Mei",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 36944.765928013,
+        "price_change_24h": 0
+      },
+      "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "score": 29.0,
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "price": 8.529343048527904,
+        "volume_24h": 109927708.46385199,
+        "market_cap": 1705863056.6149857,
+        "liquidity": 351147651.30420285,
+        "price_change_24h": -0.012911661791305996
+      },
+      "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": {
+        "address": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 4.0,
+        "symbol": "CHILLHOUSE",
+        "name": "Chill House",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 1217068.883904,
+        "price_change_24h": 0
+      },
+      "DBSNQDB6i8EJigp6mU2d9XvzJqbhRawHymhNnBdrpump": {
+        "address": "DBSNQDB6i8EJigp6mU2d9XvzJqbhRawHymhNnBdrpump",
+        "platforms": [
+          "birdeye"
+        ],
+        "score": 0.0,
+        "symbol": "NUCLEAR",
+        "name": "N word",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 82633.646763589,
+        "price_change_24h": 0
+      },
+      "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump": {
+        "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "Fartcoin",
+        "name": "Fartcoin",
+        "price": 0.8619830275848641,
+        "volume_24h": 138259361.96481684,
+        "market_cap": 861975877.1730523,
+        "liquidity": 31904535.425910037,
+        "price_change_24h": 1.7616955445393643
+      },
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4": {
+        "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "JLP",
+        "name": "Jupiter Perps LP",
+        "price": 4.150273842932228,
+        "volume_24h": 54903916.2009583,
+        "market_cap": 1419430397.740815,
+        "liquidity": 24305273.075508624,
+        "price_change_24h": 0.8932958548297599
+      },
+      "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij": {
+        "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "cbBTC",
+        "name": "Coinbase Wrapped BTC",
+        "price": 100033.76052502567,
+        "volume_24h": 39812738.98760319,
+        "market_cap": 316139473.83861685,
+        "liquidity": 28124791.687371902,
+        "price_change_24h": 1.0808147899139606
+      },
+      "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn": {
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "JitoSOL",
+        "name": "Jito Staked SOL",
+        "price": 158.66044621410572,
+        "volume_24h": 30592349.224411923,
+        "market_cap": 2353424091.7764306,
+        "liquidity": 104198260.40054782,
+        "price_change_24h": 1.4042124742473243
+      },
+      "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg": {
+        "address": "71Jvq4Epe2FCJ7JFSF7jLXdNk1Wy4Bhqd9iL6bEFELvg",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 32.0,
+        "symbol": "GOR",
+        "name": "Gorbagana",
+        "price": 0.020917932334814274,
+        "volume_24h": 25667017.5246903,
+        "market_cap": 20916845.61924888,
+        "liquidity": 4221806.792212874,
+        "price_change_24h": -33.57075814385428
+      },
+      "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk": {
+        "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "LAUNCHCOIN",
+        "name": "Launch Coin on Believe",
+        "price": 0.08365812007193313,
+        "volume_24h": 18970028.112413496,
+        "market_cap": 83637302.72917682,
+        "liquidity": 4736434.146044283,
+        "price_change_24h": -1.846587432034879
+      },
+      "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So": {
+        "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "mSOL",
+        "name": "Marinade staked SOL (mSOL)",
+        "price": 170.6557086772629,
+        "volume_24h": 16745637.356751855,
+        "market_cap": 645573472.9999526,
+        "liquidity": 38604027.216033526,
+        "price_change_24h": 1.5094101318049895
+      },
+      "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr": {
+        "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "POPCAT",
+        "name": "POPCAT",
+        "price": 0.24953700260642003,
+        "volume_24h": 14504696.670952456,
+        "market_cap": 244531185.2525261,
+        "liquidity": 13270026.839886414,
+        "price_change_24h": 2.4026032474065486
+      },
+      "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": {
+        "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 19.0,
+        "symbol": "USDG",
+        "name": "Global Dollar",
+        "price": 0.9995982624570262,
+        "volume_24h": 14115622.989016946,
+        "market_cap": 100149043.22988471,
+        "liquidity": 34028647.69373907,
+        "price_change_24h": -0.03238293411439767
+      },
+      "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v": {
+        "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "JupSOL",
+        "name": "Jupiter Staked SOL",
+        "price": 146.4770742253824,
+        "volume_24h": 12988962.864636198,
+        "market_cap": 662322591.5086267,
+        "liquidity": 4696732.4456539415,
+        "price_change_24h": 1.4042124742473243
+      },
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+        "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 21.0,
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price": 0.34592768064605445,
+        "volume_24h": 10236031.04292909,
+        "market_cap": 1129978143.3651998,
+        "liquidity": 9060529.932842836,
+        "price_change_24h": 3.115527592898137
+      },
+      "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr": {
+        "address": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+        "platforms": [
+          "birdeye_emerging_stars"
+        ],
+        "score": 28.0,
+        "symbol": "EURC",
+        "name": "EURC",
+        "price": 1.1525930853868964,
+        "volume_24h": 9161947.664232587,
+        "market_cap": 80704891.92893794,
+        "liquidity": 4201553.956265933,
+        "price_change_24h": -0.08274502065516237
+      }
+    },
+    "multi_platform_tokens": [
+      {
+        "address": "P4xzJGyJzDCrMocrUrBLFhrowu44TYAC3MK9NCDpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 35.0,
+        "symbol": "MRP",
+        "name": "MrPeace",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "aVqiXbm4zYfcTgona2L9ipDYunjPAzwzeXNLjSJpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 35.0,
+        "symbol": "Robotaxi",
+        "name": "Roboception",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "5LA99wHPDqYBfvE1DGgu1ttNmgBCqDqaLS5nqvpZpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 30.0,
+        "symbol": "alt",
+        "name": "altcoin",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 43389.685531387
+      },
+      {
+        "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "score": 30.0,
+        "symbol": "USELESS",
+        "name": "USELESS COIN",
+        "price": 0.08760588694537395,
+        "volume_24h": 17000240.68620668,
+        "market_cap": 87599517.01029493,
+        "liquidity": 4615553.514144956
+      },
+      {
+        "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "score": 29.0,
+        "symbol": "SPX",
+        "name": "SPX6900 (Wormhole)",
+        "price": 0.9844380305935901,
+        "volume_24h": 12495490.076803256,
+        "market_cap": 113744237.16584508,
+        "liquidity": 6733907.9197426615
+      },
+      {
+        "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "platforms": [
+          "birdeye_emerging_stars",
+          "birdeye"
+        ],
+        "score": 29.0,
+        "symbol": "TRUMP",
+        "name": "OFFICIAL TRUMP",
+        "price": 8.529343048527904,
+        "volume_24h": 109927708.46385199,
+        "market_cap": 1705863056.6149857,
+        "liquidity": 351147651.30420285
+      },
+      {
+        "address": "EtUUCeNTxXZZEQMbwVJCh55aL48MovCkRdpXcbUxw6US",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 25.4,
+        "symbol": "NFT",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "irNg7FvUXd1cCvXyuzEMzeaF8zEPJgy3ysTYD7Z5V1W",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 24.7,
+        "symbol": "CHIPMUNKS",
+        "name": "Chipmunks Of Crypto",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "2vfBxPmHSW2YijUcFCRoMMkAWP9fp8FGWnKxVvJnpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 24.0,
+        "symbol": "AI",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "bzQEGqFiQchPqC7HQeaA26HcstswSx1Dhxmrbxxmoon",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 21.0,
+        "symbol": "SPOTTY",
+        "name": "Spotty",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 18.0,
+        "symbol": "AI",
+        "name": "Any Inu (Wormhole)",
+        "price": 1.898e-06,
+        "volume_24h": 3524.89,
+        "market_cap": 131436,
+        "liquidity": 52666.81
+      },
+      {
+        "address": "4r4sR11hd65D8TRoegtu192265GNyGjTQUz3VqTppump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.5,
+        "symbol": "XEVRY",
+        "name": "Xevry",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "DVWcY1SG99BaY2bKrZMoVi2yV2hrFcSWFKSAeWqjpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "GIGA",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "G2vcc5pS3vEWo7RqxW6chXZJu62dD6ELTzYetksfpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "\u05d9\u05e9\u05e8\u05d0\u05dc",
+        "name": "\u05d9\u05e9\u05e8\u05d0\u05dc",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "77RBBP2B5vvKXAwXi7suhpirpVHNSwe8Ka1RGDD8j7rP",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "FROGYOU",
+        "name": "FrogYou",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "H4op1gvrkbzvC6zRuhRZMN429zJoFT1MSZKRyGzMpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "Oil",
+        "name": "War Liquidity",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "BV6ZwvysMT7jNvc76nuHH1ZrZE4kbr4fkH5Zs25Bbonk",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "WARCOIN",
+        "name": "USELESS WAR COIN",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "Et1nwX1U2PrS1A4iRvFcd6LGzYWh1C33iHvKWBCVpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "NOT",
+        "name": "",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "58JkF2Nj981v6yxM2aQMpoeL2MaA7dA3SGcGuRyepump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "Gape",
+        "name": "Truth terminal's first token",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "ATk6U2QfjYgQfMbyQ6pjbeF4Fat8MxCAqZfAGVWtMray",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "Loser",
+        "name": "Joe Loser",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "Emcaf5i4mVUkWUQvkx63yhQSKDDGuecU9YvqF59kE4zC",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 16.0,
+        "symbol": "KTLR",
+        "name": "Kitler",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "dog1viwbb2vWDpER5FrJ4YFG6gq6XuyFohUe9TXN65u",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 16.0,
+        "symbol": "DOG",
+        "name": "Dog (Bitcoin)",
+        "price": 0.002764,
+        "volume_24h": 7359.84,
+        "market_cap": 276448284,
+        "liquidity": 88709.19
+      },
+      {
+        "address": "3PqWkvhaA6mGaqUP52SjLHP5YaH8Q2mnjMZegsFgpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "$TES",
+        "name": "The Eid Sheep",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "2ztfMWS76tFVd84MNefvjiNHDCNwQ6ShtWXMQGKFQnjL",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "$Bonkers",
+        "name": "BonkersMemeToken",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "vAZTCM56zWAfzfRwFvXyA98KdCjZA1VqdmE8GFHSLot",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "SLOTHY",
+        "name": "Slothy",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "D82a1Eo7cJrMVRrvt6EPEwHqeiGnpqwi4gbR7ip5pump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "$Flocky",
+        "name": "FLOCK",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "8SQQ1urC3Dynq9C2ieM6AozWgi4GCrLE6fnRoiWdpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "OBVIOUS",
+        "name": "OBVIOUS COIN",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "A8YHuvQBMAxXoZAZE72FyC8B7jKHo8RJyByXRRffpump",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "XBT",
+        "name": "XBT",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "4L9dkoE8ctYVqcvwUEBbrMxxXrb1G8QCWW6BUnqybonk",
+        "platforms": [
+          "dexscreener",
+          "birdeye"
+        ],
+        "score": 15.0,
+        "symbol": "CHARLIE",
+        "name": "CHARLIE",
+        "price": 0,
+        "volume_24h": 0,
+        "market_cap": 0,
+        "liquidity": 0
+      },
+      {
+        "address": "EWy1HPEUq4Lgm6H4pQ8augEuJ7WRwJgENZMTAUzrpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 14.5,
+        "symbol": "MEME",
+        "name": "MEME",
+        "price": 1.823e-05,
+        "volume_24h": 1002.24,
+        "market_cap": 18213,
+        "liquidity": 22068.27
+      },
+      {
+        "address": "99ouK5YUK3JPGCPX9joNtHsMU7NPpU7w91JN4kdQ97po",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "AI",
+        "name": "AI",
+        "price": 0.0002143,
+        "volume_24h": 433.44,
+        "market_cap": 214349,
+        "liquidity": 157813.93
+      },
+      {
+        "address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "MPX6900",
+        "name": "MEME",
+        "price": 3.306e-05,
+        "volume_24h": 2983.23,
+        "market_cap": 33054,
+        "liquidity": 25245.06
+      },
+      {
+        "address": "CK7sWnHjJohAb4uiX8EXhYrDVP9DeBKiUPe6GqMxpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "GAMING",
+        "name": "GAMING",
+        "price": 8.375e-05,
+        "volume_24h": 4750.52,
+        "market_cap": 83741,
+        "liquidity": 34487.19
+      },
+      {
+        "address": "Vsh4tbRBGHyLBUB2diEtLKKeUvHBxUPQVfrK4RbKsub",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "GAMING",
+        "name": "onchain gaming",
+        "price": 5.004e-06,
+        "volume_24h": 4.45,
+        "market_cap": 5004,
+        "liquidity": 9726.47
+      },
+      {
+        "address": "CLjRRmcxXxa6qrVMkqxTC9XvU8cc6r7orpoqB4kdfqRF",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "HSC",
+        "name": "HighScore Gaming",
+        "price": 0.02562,
+        "volume_24h": 75.81,
+        "market_cap": 28191,
+        "liquidity": 5508.91
+      },
+      {
+        "address": "AypPdwoANEdX2yXrjmXbnvvE6d2NpyyB1YT2T87dpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "GHOSTAI",
+        "name": "AI gaming agent",
+        "price": 2.44e-06,
+        "volume_24h": 1.23,
+        "market_cap": 2439,
+        "liquidity": 4772.16
+      },
+      {
+        "address": "A64qZRPD7koo16im2uWyeE6Rqd4spGmKrRT4vAk47huW",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "MLG",
+        "name": "Major League Gaming",
+        "price": 2.285e-06,
+        "volume_24h": 1.22,
+        "market_cap": 2284,
+        "liquidity": 4499.68
+      },
+      {
+        "address": "6VMboDzgq7qAQmmJ9njNqPfUC9jjGvKWrJeBJZQWg1if",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 13.0,
+        "symbol": "DEF",
+        "name": "DEFI",
+        "price": 0.02598,
+        "volume_24h": 126.78,
+        "market_cap": 272792,
+        "liquidity": 77968.31
+      },
+      {
+        "address": "Ag5mMdBSxm8J893RazD9PGkxWKJ5o3UKdWW4ZmJAey9w",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "AGENT",
+        "name": "Agents AI",
+        "price": 0.0004592,
+        "volume_24h": 1292.34,
+        "market_cap": 459284,
+        "liquidity": 98694.1
+      },
+      {
+        "address": "BKgcrCw55yb1ocLS2MnQLT2dSkWtAPjxTanLoWB8oZso",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "AGENT",
+        "name": "AgentAlgo (Wormhole)",
+        "price": 0.1621,
+        "volume_24h": 10065.01,
+        "market_cap": 113126,
+        "liquidity": 89562.36
+      },
+      {
+        "address": "5tFRno9GXBP5gt2Kjx2MeEaFL8zGBMw4cujTLGerpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "AGENT",
+        "name": "Solana Agent",
+        "price": 5.205e-05,
+        "volume_24h": 67.31,
+        "market_cap": 52046,
+        "liquidity": 34079.99
+      },
+      {
+        "address": "HN8yLhpHVkzAk1dLNxZTvPLoYwxrUusM7svbnSyLsPzQ",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "pump",
+        "name": "pump",
+        "price": 0.0006757,
+        "volume_24h": 38975.94,
+        "market_cap": 675382,
+        "liquidity": 127194.3
+      },
+      {
+        "address": "7cyAGa4XsNDnSgnFuwmVFgp9JGqZoZYkiVyFPSke9CuP",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "MEME",
+        "name": "MOST ELEGANT MONKEY EVER",
+        "price": 7.321e-05,
+        "volume_24h": 12774.15,
+        "market_cap": 72991,
+        "liquidity": 31278.57
+      },
+      {
+        "address": "5bpj3W9zC2Y5Zn2jDBcYVscGnCBUN5RD7152cfL9pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "meme",
+        "name": "meme",
+        "price": 4.811e-05,
+        "volume_24h": 4241.46,
+        "market_cap": 48086,
+        "liquidity": 40558.99
+      },
+      {
+        "address": "6ggTCfg1sck5ruQot5n6PZKq3ZscVR1teg7unoJqpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "meme",
+        "name": "missed entry, missed exit.",
+        "price": 3.407e-06,
+        "volume_24h": 2974.33,
+        "market_cap": 3407,
+        "liquidity": 5830.63
+      },
+      {
+        "address": "HMPMa68Zzbx13g3KomQJiH9k9ito9eiUKi4sEEU2pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "MEME",
+        "name": "MEMECOIN",
+        "price": 4.033e-06,
+        "volume_24h": 43.86,
+        "market_cap": 4032,
+        "liquidity": 6811.74
+      },
+      {
+        "address": "DLScRnWofxiYGqnvZWGy9Gt98MPqKdznaK4TRukxpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "\ud83d\udc15",
+        "name": "Dog",
+        "price": 0.0002725,
+        "volume_24h": 1495,
+        "market_cap": 272585,
+        "liquidity": 104300.14
+      },
+      {
+        "address": "B9u8h65uM1oifqmP82VyUDb68iG2fKfZiyubmNMtu3h7",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "DOG",
+        "name": "The Doge NFT (Wormhole)",
+        "price": 0.001197,
+        "volume_24h": 27796.3,
+        "market_cap": 15869704,
+        "liquidity": 939769.36
+      },
+      {
+        "address": "3Lbxn3uPP58u1KEULn3iJyaKNWLgxbRsS1kgcUeXpump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "cat",
+        "name": "cat",
+        "price": 9.841e-05,
+        "volume_24h": 111419.74,
+        "market_cap": 98402,
+        "liquidity": 43288.24
+      },
+      {
+        "address": "7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "CAT",
+        "name": "Catcoin",
+        "price": 7.841e-11,
+        "volume_24h": 9822.09,
+        "market_cap": 784064,
+        "liquidity": 347580.33
+      },
+      {
+        "address": "4HBQm2EhdpUWZkTYxttxNDnsoWi5beRAGWHpjVo8pump",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "CAT",
+        "name": "Cat Terminal",
+        "price": 0.007059,
+        "volume_24h": 279862.2,
+        "market_cap": 7059717,
+        "liquidity": 317898
+      },
+      {
+        "address": "B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "Pepe",
+        "name": "Pepe",
+        "price": 0.000831,
+        "volume_24h": 13005.58,
+        "market_cap": 830661,
+        "liquidity": 287483.29
+      },
+      {
+        "address": "2Zaq3WyDJj2ZkMcuqUiTBfAXCjqZtqihxcwUdwv9dyHA",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "PEPE",
+        "name": "PEPE",
+        "price": 0.0006191,
+        "volume_24h": 19690.33,
+        "market_cap": 601505,
+        "liquidity": 106941.28
+      },
+      {
+        "address": "F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price": 0.0004001,
+        "volume_24h": 1880.7,
+        "market_cap": 255737,
+        "liquidity": 86548.79
+      },
+      {
+        "address": "21Dt6Ne2tQ8wQ5j6G2zahtF1tskJqRmtSaaSwXjyBJVz",
+        "platforms": [
+          "birdeye",
+          "dexscreener_narrative"
+        ],
+        "score": 11.0,
+        "symbol": "PEPE",
+        "name": "PEPE DIAMOND",
+        "price": 0.0001255,
+        "volume_24h": 282.7,
+        "market_cap": 122926,
+        "liquidity": 37067.76
+      }
+    ],
+    "correlation_matrix": {
+      "dexscreener": {
+        "birdeye": 24
+      },
+      "birdeye": {
+        "dexscreener": 24,
+        "dexscreener_narrative": 28,
+        "birdeye_emerging_stars": 3
+      },
+      "dexscreener_narrative": {
+        "birdeye": 28
+      },
+      "birdeye_emerging_stars": {
+        "birdeye": 3
+      }
+    },
+    "high_conviction_tokens": [],
+    "boost_analysis": {
+      "golden_ticker_count": 0,
+      "boost_distribution": {
+        "GOLDEN": 0,
+        "PLATINUM": 5,
+        "GOLD": 2,
+        "SILVER": 4,
+        "BRONZE": 18,
+        "BASIC": 24
+      },
+      "average_boost_amount": 31.03448275862069,
+      "total_boost_investment": 1230
+    }
+  },
+  "insights": [
+    "Cross-platform validation rate: 51.4% (55/107 tokens)",
+    "High-tier boosted tokens: 7 (Gold+ tier)",
+    "Average boost amount: 31.0 (Total investment: 1,230)",
+    "DexScreener-Birdeye overlap: 24 tokens",
+    "Cache efficiency: 0.0% hit rate",
+    "Estimated cost savings: $0.0045"
+  ],
+  "cache_statistics": {
+    "cache_hits": 0,
+    "cache_misses": 130,
+    "hit_rate_percent": 0.0,
+    "api_calls_saved": 102,
+    "estimated_cost_savings_usd": 0.0045,
+    "tracked_tokens": 93,
+    "position_tokens": 0,
+    "auto_refresh_queue_size": 0
+  }
+}

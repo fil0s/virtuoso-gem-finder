@@ -1,0 +1,1667 @@
+{
+  "execution_steps": [
+    {
+      "step": "service_initialization",
+      "duration": 0.0041201114654541016,
+      "components": [
+        "cache_manager",
+        "rate_limiter",
+        "birdeye_api"
+      ]
+    },
+    {
+      "step": "strategy_initialization",
+      "duration": 0.00098419189453125,
+      "configuration": {
+        "api_parameters": {
+          "sort_by": "volume_24h_usd",
+          "sort_type": "desc",
+          "min_liquidity": 500000,
+          "min_volume_24h_usd": 1000000,
+          "min_holder": 1000,
+          "limit": 100
+        },
+        "criteria": {
+          "min_whale_count": 2,
+          "min_whale_volume": 500000,
+          "whale_confidence_threshold": 0.6,
+          "min_smart_traders": 3,
+          "smart_money_skill_threshold": 0.65,
+          "smart_money_confidence_threshold": 0.7,
+          "confluence_bonus_multiplier": 1.5,
+          "min_confluence_score": 0.8,
+          "max_whale_concentration": 0.4,
+          "min_whale_diversity": 3,
+          "whale_directional_bias_threshold": 0.7
+        },
+        "risk_management": {
+          "max_allocation_percentage": 7.5,
+          "suspicious_volume_multiplier": 5.0,
+          "min_holder_distribution": 0.5,
+          "max_concentration_pct": 70.0,
+          "min_dexs_with_liquidity": 3,
+          "min_days_since_listing": 2
+        }
+      }
+    }
+  ],
+  "api_calls": [
+    {
+      "call_number": 1,
+      "endpoint": "/defi/v3/token/list",
+      "parameters": {
+        "params": {
+          "sort_by": "volume_24h_usd",
+          "sort_type": "desc",
+          "limit": 100,
+          "offset": 0,
+          "min_liquidity": 500000,
+          "min_volume_24h_usd": 1000000,
+          "min_holder": 1000
+        }
+      },
+      "execution_time": 1.7878382205963135,
+      "success": true,
+      "response_size": 116451
+    },
+    {
+      "call_number": 2,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.4031238555908203,
+      "success": true,
+      "response_size": 2998
+    },
+    {
+      "call_number": 3,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.37631678581237793,
+      "success": true,
+      "response_size": 2988
+    },
+    {
+      "call_number": 4,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.4516310691833496,
+      "success": true,
+      "response_size": 2934
+    },
+    {
+      "call_number": 5,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.36500000953674316,
+      "success": true,
+      "response_size": 2954
+    },
+    {
+      "call_number": 6,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.5314853191375732,
+      "success": true,
+      "response_size": 2924
+    },
+    {
+      "call_number": 7,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2274799346923828,
+      "success": true,
+      "response_size": 2959
+    },
+    {
+      "call_number": 8,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 1.9634649753570557,
+      "success": true,
+      "response_size": 2988
+    },
+    {
+      "call_number": 9,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.37549901008605957,
+      "success": true,
+      "response_size": 2940
+    },
+    {
+      "call_number": 10,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 1.670607089996338,
+      "success": true,
+      "response_size": 2988
+    },
+    {
+      "call_number": 11,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "PAWSEvC8zsXJVgBcVB3QRKfwd4P9FS6vbB963HsUEP6",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2499558925628662,
+      "success": true,
+      "response_size": 2886
+    },
+    {
+      "call_number": 12,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.24970388412475586,
+      "success": true,
+      "response_size": 2817
+    },
+    {
+      "call_number": 13,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.26662230491638184,
+      "success": true,
+      "response_size": 2945
+    },
+    {
+      "call_number": 14,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.24622726440429688,
+      "success": true,
+      "response_size": 2877
+    },
+    {
+      "call_number": 15,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2554810047149658,
+      "success": true,
+      "response_size": 2844
+    },
+    {
+      "call_number": 16,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.36823105812072754,
+      "success": true,
+      "response_size": 2980
+    },
+    {
+      "call_number": 17,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "5PsnNwPmMtsGZgG6ZqMoDJJi28BR5xpAotXHHiQhpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.5911819934844971,
+      "success": true,
+      "response_size": 2861
+    },
+    {
+      "call_number": 18,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.29857802391052246,
+      "success": true,
+      "response_size": 2947
+    },
+    {
+      "call_number": 19,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "DiZZY2UQ2HSVsFDF6jADc6YYATiTfnQFw4Be1udRZmaY",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.3429148197174072,
+      "success": true,
+      "response_size": 2877
+    },
+    {
+      "call_number": 20,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.4374680519104004,
+      "success": true,
+      "response_size": 2927
+    },
+    {
+      "call_number": 21,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.48688673973083496,
+      "success": true,
+      "response_size": 2882
+    },
+    {
+      "call_number": 22,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 1.3359267711639404,
+      "success": true,
+      "response_size": 2717
+    },
+    {
+      "call_number": 23,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.25270724296569824,
+      "success": true,
+      "response_size": 2716
+    },
+    {
+      "call_number": 24,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2841188907623291,
+      "success": true,
+      "response_size": 2885
+    },
+    {
+      "call_number": 25,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2379460334777832,
+      "success": true,
+      "response_size": 2897
+    },
+    {
+      "call_number": 26,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "ArUyEVWGCzZMtAxcPmNH8nDFZ4kMjxrMbpsQf3NEpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 1.1353378295898438,
+      "success": true,
+      "response_size": 2949
+    },
+    {
+      "call_number": 27,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2723877429962158,
+      "success": true,
+      "response_size": 2828
+    },
+    {
+      "call_number": 28,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.22848010063171387,
+      "success": true,
+      "response_size": 2892
+    },
+    {
+      "call_number": 29,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.21923303604125977,
+      "success": true,
+      "response_size": 2975
+    },
+    {
+      "call_number": 30,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.23430490493774414,
+      "success": true,
+      "response_size": 2855
+    },
+    {
+      "call_number": 31,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2502298355102539,
+      "success": true,
+      "response_size": 2895
+    },
+    {
+      "call_number": 32,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2986490726470947,
+      "success": true,
+      "response_size": 2807
+    },
+    {
+      "call_number": 33,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.251767635345459,
+      "success": true,
+      "response_size": 2895
+    },
+    {
+      "call_number": 34,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2569997310638428,
+      "success": true,
+      "response_size": 2841
+    },
+    {
+      "call_number": 35,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2499387264251709,
+      "success": true,
+      "response_size": 2983
+    },
+    {
+      "call_number": 36,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "zBTCug3er3tLyffELcvDNrKkCymbPWysGcWihESYfLg",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.26450514793395996,
+      "success": true,
+      "response_size": 2982
+    },
+    {
+      "call_number": 37,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.24659466743469238,
+      "success": true,
+      "response_size": 2850
+    },
+    {
+      "call_number": 38,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.24910521507263184,
+      "success": true,
+      "response_size": 2894
+    },
+    {
+      "call_number": 39,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2580130100250244,
+      "success": true,
+      "response_size": 2868
+    },
+    {
+      "call_number": 40,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2538638114929199,
+      "success": true,
+      "response_size": 2900
+    },
+    {
+      "call_number": 41,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.5887272357940674,
+      "success": true,
+      "response_size": 2844
+    },
+    {
+      "call_number": 42,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.34879112243652344,
+      "success": true,
+      "response_size": 2868
+    },
+    {
+      "call_number": 43,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.4235849380493164,
+      "success": true,
+      "response_size": 2953
+    },
+    {
+      "call_number": 44,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.27675604820251465,
+      "success": true,
+      "response_size": 2765
+    },
+    {
+      "call_number": 45,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.36862778663635254,
+      "success": true,
+      "response_size": 2871
+    },
+    {
+      "call_number": 46,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.39977598190307617,
+      "success": true,
+      "response_size": 2859
+    },
+    {
+      "call_number": 47,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.24222207069396973,
+      "success": true,
+      "response_size": 2934
+    },
+    {
+      "call_number": 48,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "mae8vJGf8Wju8Ron1oDTQVaTGGBpcpWDwoRQJALMMf2",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 1.9635229110717773,
+      "success": true,
+      "response_size": 2855
+    },
+    {
+      "call_number": 49,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.21768498420715332,
+      "success": true,
+      "response_size": 2824
+    },
+    {
+      "call_number": 50,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.21641325950622559,
+      "success": true,
+      "response_size": 2913
+    },
+    {
+      "call_number": 51,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2343752384185791,
+      "success": true,
+      "response_size": 2913
+    },
+    {
+      "call_number": 52,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "GbbesPbaYh5uiAZSYNXTc7w9jty1rpg3P9L4JeN4LkKc",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 1.7621183395385742,
+      "success": true,
+      "response_size": 2882
+    },
+    {
+      "call_number": 53,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.23937201499938965,
+      "success": true,
+      "response_size": 2904
+    },
+    {
+      "call_number": 54,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2383251190185547,
+      "success": true,
+      "response_size": 2806
+    },
+    {
+      "call_number": 55,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2509150505065918,
+      "success": true,
+      "response_size": 2847
+    },
+    {
+      "call_number": 56,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2355959415435791,
+      "success": true,
+      "response_size": 2894
+    },
+    {
+      "call_number": 57,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2513899803161621,
+      "success": true,
+      "response_size": 2813
+    },
+    {
+      "call_number": 58,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2889697551727295,
+      "success": true,
+      "response_size": 2863
+    },
+    {
+      "call_number": 59,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.23898720741271973,
+      "success": true,
+      "response_size": 2920
+    },
+    {
+      "call_number": 60,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "ibRLJrmgVuZh3tdDpjGgU5CQCCxpxuer7B7ckjGdLsv",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.23268795013427734,
+      "success": true,
+      "response_size": 2825
+    },
+    {
+      "call_number": 61,
+      "endpoint": "/defi/v2/tokens/top_traders",
+      "parameters": {
+        "params": {
+          "address": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+          "time_frame": "24h",
+          "sort_by": "volume",
+          "sort_type": "desc",
+          "limit": 10,
+          "offset": 0
+        }
+      },
+      "execution_time": 0.2215571403503418,
+      "success": true,
+      "response_size": 2874
+    }
+  ],
+  "filtering_decisions": [
+    {
+      "step": "initial_universe",
+      "tokens_before": "N/A",
+      "tokens_after": 60,
+      "duration": 1.9541630744934082,
+      "api_calls": 1,
+      "sample_tokens": [
+        "Fartcoin ",
+        "TRUMP",
+        "JLP",
+        "LAUNCHCOIN",
+        "cbBTC",
+        "WETH",
+        "SPX",
+        "USELESS",
+        "POPCAT",
+        "PAWSE"
+      ]
+    },
+    {
+      "step": "whale_filtering",
+      "tokens_before": 60,
+      "tokens_after": 0,
+      "total_whales_detected": 0,
+      "average_confidence": 0.0,
+      "whale_details": [
+        {
+          "symbol": "Fartcoin ",
+          "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "whale_count": 0,
+          "whale_volume": 9363132.679561013,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.4036448001861572
+        },
+        {
+          "symbol": "TRUMP",
+          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.3768630027770996
+        },
+        {
+          "symbol": "JLP",
+          "address": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+          "whale_count": 0,
+          "whale_volume": 570456,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.4521348476409912
+        },
+        {
+          "symbol": "LAUNCHCOIN",
+          "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+          "whale_count": 0,
+          "whale_volume": 76119168.03651875,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.3659520149230957
+        },
+        {
+          "symbol": "cbBTC",
+          "address": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.5322139263153076
+        },
+        {
+          "symbol": "WETH",
+          "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.22791600227355957
+        },
+        {
+          "symbol": "SPX",
+          "address": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+          "whale_count": 0,
+          "whale_volume": 294428.17440370005,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 1.9645228385925293
+        },
+        {
+          "symbol": "USELESS",
+          "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+          "whale_count": 0,
+          "whale_volume": 25389324.808005977,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.37596702575683594
+        },
+        {
+          "symbol": "POPCAT",
+          "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 1.671095848083496
+        },
+        {
+          "symbol": "PAWSE",
+          "address": "PAWSEvC8zsXJVgBcVB3QRKfwd4P9FS6vbB963HsUEP6",
+          "whale_count": 0,
+          "whale_volume": 128259260.93764445,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.25042200088500977
+        },
+        {
+          "symbol": "aura",
+          "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+          "whale_count": 0,
+          "whale_volume": 19669059.112149984,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2515380382537842
+        },
+        {
+          "symbol": "PENGU",
+          "address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+          "whale_count": 0,
+          "whale_volume": 321620121.2850487,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2684910297393799
+        },
+        {
+          "symbol": "USDG",
+          "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+          "whale_count": 0,
+          "whale_volume": 3391489.1803839994,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.24789905548095703
+        },
+        {
+          "symbol": "LABUBU",
+          "address": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
+          "whale_count": 0,
+          "whale_volume": 7848878.3744340055,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2567098140716553
+        },
+        {
+          "symbol": "EURC",
+          "address": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+          "whale_count": 0,
+          "whale_volume": 5006318.300856005,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.3877689838409424
+        },
+        {
+          "symbol": "Cupsey",
+          "address": "5PsnNwPmMtsGZgG6ZqMoDJJi28BR5xpAotXHHiQhpump",
+          "whale_count": 0,
+          "whale_volume": 127275248.20223701,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.5923421382904053
+        },
+        {
+          "symbol": "IO",
+          "address": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.30004000663757324
+        },
+        {
+          "symbol": "DIZZY",
+          "address": "DiZZY2UQ2HSVsFDF6jADc6YYATiTfnQFw4Be1udRZmaY",
+          "whale_count": 0,
+          "whale_volume": 146644822.85871395,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.34390878677368164
+        },
+        {
+          "symbol": "moonpig",
+          "address": "Ai3eKAWjzKMV8wRwd41nVP83yqfbAVJykhvJVPxspump",
+          "whale_count": 0,
+          "whale_volume": 89126656.27917007,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.46219897270202637
+        },
+        {
+          "symbol": "USDUC",
+          "address": "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump",
+          "whale_count": 0,
+          "whale_volume": 88968928.00863208,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.5122702121734619
+        },
+        {
+          "symbol": "PSOL",
+          "address": "pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 1.3372509479522705
+        },
+        {
+          "symbol": "PYUSD",
+          "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+          "whale_count": 0,
+          "whale_volume": 1660064.765237,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2560300827026367
+        },
+        {
+          "symbol": "Fartcat",
+          "address": "3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump",
+          "whale_count": 0,
+          "whale_volume": 175185779.1952912,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.28467679023742676
+        },
+        {
+          "symbol": "MASK",
+          "address": "6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
+          "whale_count": 0,
+          "whale_volume": 45192145.63875584,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23845696449279785
+        },
+        {
+          "symbol": "BAYC",
+          "address": "ArUyEVWGCzZMtAxcPmNH8nDFZ4kMjxrMbpsQf3NEpump",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 1.13584303855896
+        },
+        {
+          "symbol": "USDS",
+          "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
+          "whale_count": 0,
+          "whale_volume": 998740.4143620001,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2731020450592041
+        },
+        {
+          "symbol": "xavier",
+          "address": "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump",
+          "whale_count": 0,
+          "whale_volume": 46150589.569562994,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2296152114868164
+        },
+        {
+          "symbol": "ai16z",
+          "address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+          "whale_count": 0,
+          "whale_volume": 756657.064061033,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.22051382064819336
+        },
+        {
+          "symbol": "JupSOL",
+          "address": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2363269329071045
+        },
+        {
+          "symbol": "Hosico",
+          "address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
+          "whale_count": 0,
+          "whale_volume": 21515922.46625406,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2510230541229248
+        },
+        {
+          "symbol": "INF",
+          "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.3007018566131592
+        },
+        {
+          "symbol": "VIBE",
+          "address": "DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups",
+          "whale_count": 0,
+          "whale_volume": 9985905.879030988,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.25243186950683594
+        },
+        {
+          "symbol": "Mixie",
+          "address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
+          "whale_count": 0,
+          "whale_volume": 16540454.814269004,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.25836801528930664
+        },
+        {
+          "symbol": "AUSD",
+          "address": "AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.25290608406066895
+        },
+        {
+          "symbol": "zBTC",
+          "address": "zBTCug3er3tLyffELcvDNrKkCymbPWysGcWihESYfLg",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.26567602157592773
+        },
+        {
+          "symbol": "House",
+          "address": "DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump",
+          "whale_count": 0,
+          "whale_volume": 42130630.044426024,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2477869987487793
+        },
+        {
+          "symbol": "NOBODY",
+          "address": "C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon",
+          "whale_count": 0,
+          "whale_volume": 58756595.37100929,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2506599426269531
+        },
+        {
+          "symbol": "ZBCN",
+          "address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+          "whale_count": 0,
+          "whale_volume": 341217813.5989879,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2596893310546875
+        },
+        {
+          "symbol": "GIGA",
+          "address": "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9",
+          "whale_count": 0,
+          "whale_volume": 60518339.34591021,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.25965166091918945
+        },
+        {
+          "symbol": "CHILLHOUSE",
+          "address": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+          "whale_count": 0,
+          "whale_volume": 23499184.834202405,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.5898408889770508
+        },
+        {
+          "symbol": "KLED",
+          "address": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
+          "whale_count": 0,
+          "whale_volume": 31137367.697330188,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.36101698875427246
+        },
+        {
+          "symbol": "VIRTUAL",
+          "address": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.4246408939361572
+        },
+        {
+          "symbol": "wfragSOL",
+          "address": "WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2782728672027588
+        },
+        {
+          "symbol": "JTO",
+          "address": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.36963582038879395
+        },
+        {
+          "symbol": "ALON",
+          "address": "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS",
+          "whale_count": 0,
+          "whale_volume": 28436354.178837024,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.40070128440856934
+        },
+        {
+          "symbol": "TROLL",
+          "address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+          "whale_count": 0,
+          "whale_volume": 33826653.168568045,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.24282026290893555
+        },
+        {
+          "symbol": "MASHA",
+          "address": "mae8vJGf8Wju8Ron1oDTQVaTGGBpcpWDwoRQJALMMf2",
+          "whale_count": 0,
+          "whale_volume": 10292790.654061012,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 1.9653980731964111
+        },
+        {
+          "symbol": "crypto",
+          "address": "4ikwYoNvoGEwtMbziUyYBTz1zRM6nmxspsfw9G7Bpump",
+          "whale_count": 0,
+          "whale_volume": 24024316.596853,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.21816205978393555
+        },
+        {
+          "symbol": "GRASS",
+          "address": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
+          "whale_count": 0,
+          "whale_volume": 121344.47096566,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.21691226959228516
+        },
+        {
+          "symbol": "MOODENG",
+          "address": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+          "whale_count": 0,
+          "whale_volume": 3174584.469488862,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23481488227844238
+        },
+        {
+          "symbol": "TRX",
+          "address": "GbbesPbaYh5uiAZSYNXTc7w9jty1rpg3P9L4JeN4LkKc",
+          "whale_count": 0,
+          "whale_volume": 5550487.5207350105,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 1.7625861167907715
+        },
+        {
+          "symbol": "arc",
+          "address": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+          "whale_count": 0,
+          "whale_volume": 16494429.76389087,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23994207382202148
+        },
+        {
+          "symbol": "bbSOL",
+          "address": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+          "whale_count": 0,
+          "whale_volume": 0,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23887991905212402
+        },
+        {
+          "symbol": "GRPH",
+          "address": "9doRRAik5gvhbEwjbZDbZR6GxXSAfdoomyJR57xKpump",
+          "whale_count": 0,
+          "whale_volume": 48657783.34727201,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2513580322265625
+        },
+        {
+          "symbol": "PYTHIA",
+          "address": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+          "whale_count": 0,
+          "whale_volume": 21219128.715660002,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23616528511047363
+        },
+        {
+          "symbol": "FO",
+          "address": "JDzPbXboQYWVmdxXS3LbvjM52RtsV1QaSv2AzoCiai2o",
+          "whale_count": 0,
+          "whale_volume": 3352856.549606,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.25284790992736816
+        },
+        {
+          "symbol": "JOS",
+          "address": "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
+          "whale_count": 0,
+          "whale_volume": 25595337.00303001,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.2897369861602783
+        },
+        {
+          "symbol": "TAI",
+          "address": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+          "whale_count": 0,
+          "whale_volume": 5647342.972472694,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23953485488891602
+        },
+        {
+          "symbol": "IBRL",
+          "address": "ibRLJrmgVuZh3tdDpjGgU5CQCCxpxuer7B7ckjGdLsv",
+          "whale_count": 0,
+          "whale_volume": 33930113.29408191,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.23361587524414062
+        },
+        {
+          "symbol": "DUPE",
+          "address": "fRfKGCriduzDwSudCwpL7ySCEiboNuryhZDVJtr1a1C",
+          "whale_count": 0,
+          "whale_volume": 20154755.874535307,
+          "confidence": 0.0,
+          "meets_criteria": false,
+          "analysis_time": 0.22250986099243164
+        }
+      ]
+    }
+  ],
+  "scoring_details": [],
+  "final_analysis": {},
+  "performance_metrics": {
+    "total_execution_time": 0.0051043033599853516,
+    "total_api_calls": 61,
+    "total_api_time": 27.966206789016724,
+    "api_efficiency": 5478.946844784904,
+    "avg_api_call_time": 0.45846240637732333
+  }
+}

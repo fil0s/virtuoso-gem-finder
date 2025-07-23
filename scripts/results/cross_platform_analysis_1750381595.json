@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-06-19T21:06:35.376354",
+  "execution_time_seconds": 17.8,
+  "error": "name 'insights' is not defined",
+  "cache_statistics": {
+    "cache_hits": 0,
+    "cache_misses": 112,
+    "hit_rate_percent": 0.0,
+    "api_calls_saved": 101,
+    "estimated_cost_savings_usd": 0.0046,
+    "tracked_tokens": 95,
+    "position_tokens": 0,
+    "auto_refresh_queue_size": 0
+  }
+}
